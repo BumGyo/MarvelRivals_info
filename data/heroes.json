@@ -5042,7 +5042,7 @@
         "partner_name": {
           "en": "IRON FIST",
           "ko": "아이언 피스트",
-          "ja": "아이언・フィスト"
+          "ja": "アイアン・フィスト"
         },
         "key": "Right Click",
         "stats": {
@@ -5061,7 +5061,7 @@
         "partner_name": {
           "en": "IRON FIST",
           "ko": "아이언 피스트",
-          "ja": "아이언・フィスト"
+          "ja": "アイアン・フィスト"
         },
         "key": "Right Click",
         "stats": {
@@ -7666,7 +7666,7 @@
     "names": {
       "en": "IRON FIST",
       "ko": "아이언 피스트",
-      "ja": "아이언・フィスト"
+      "ja": "アイアン・フィスト"
     },
     "role": "DUELIST",
     "roles": [
@@ -14118,8 +14118,8 @@
     "name": "THE PUNISHER",
     "names": {
       "en": "THE PUNISHER",
-      "ko": "THE PUNISHER",
-      "ja": "THE PUNISHER"
+      "ko": "더 퍼니셔",
+      "ja": "パニッシャー"
     },
     "role": "DUELIST",
     "roles": [

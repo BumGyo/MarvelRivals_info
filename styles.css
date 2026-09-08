@@ -440,7 +440,7 @@ body {
 
 .role-pill.VANGUARD { background: var(--role-vanguard); color: #fff; }
 .role-pill.DUELIST { background: var(--role-duelist); color: #fff; }
-.role-pill.STRATEGIST { background: var(--role-strategist); color: #000; }
+.role-pill.STRATEGIST { background: var(--role-strategist); color: #fff; }
 
 .role-pill-icon {
   width: 16px;
@@ -450,7 +450,7 @@ body {
 }
 
 .role-pill.STRATEGIST .role-pill-icon {
-  filter: brightness(0);
+  filter: brightness(0) invert(1);
 }
 
 .modal-role-badge {
@@ -477,7 +477,7 @@ body {
 }
 
 .modal-role-badge.STRATEGIST .modal-role-icon {
-  filter: brightness(0);
+  filter: brightness(0) invert(1);
 }
 
 .hero-info {
@@ -499,6 +499,14 @@ body {
   font-size: 12px;
   color: var(--text-dim);
   margin-bottom: 10px;
+}
+
+.hero-name-sub:empty {
+  display: none;
+}
+
+.hero-name-primary + .hero-chips {
+  margin-top: 8px;
 }
 
 .hero-chips {

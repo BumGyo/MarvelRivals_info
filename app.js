@@ -93,7 +93,8 @@
     // Language Switcher
     langBtns.forEach(btn => {
       btn.addEventListener('click', () => {
-        const lang = btn.getAttribute('data-lang');
+        let lang = btn.getAttribute('data-lang');
+        if (lang === 'jp') lang = 'ja';
         if (lang && lang !== currentLang) {
           currentLang = lang;
           localStorage.setItem('mr_db_lang', currentLang);
@@ -147,11 +148,16 @@
    * Apply UI Translations based on selected language
    */
   function applyLanguage(lang) {
+    if (lang === 'jp') lang = 'ja';
     const t = i18nData[lang] || i18nData['en'] || {};
+
+    // Keep website browser tab title in English
+    document.title = 'Marvel Rivals Skill & Team-Up DB | Hero Stats & Loadouts';
 
     // Update active lang button
     langBtns.forEach(btn => {
-      btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+      const btnLang = btn.getAttribute('data-lang');
+      btn.classList.toggle('active', btnLang === lang || (lang === 'ja' && (btnLang === 'ja' || btnLang === 'jp')));
     });
 
     // Update document language
@@ -297,7 +303,7 @@
 
     heroGrid.innerHTML = heroes.map(hero => {
       const displayName = hero.names[currentLang] || hero.names.en;
-      const subName = (currentLang !== 'en') ? hero.names.en : (hero.names.ko || '');
+      const subName = (currentLang !== 'en') ? hero.names.en : '';
       const health = formatHealth(hero.base_stats?.Health, currentLang, true);
       const speed = formatSpeed(hero.base_stats?.['Movement Speed']);
 
@@ -317,7 +323,7 @@
           </div>
           <div class="hero-info">
             <h3 class="hero-name-primary">${escapeHtml(displayName)}</h3>
-            <div class="hero-name-sub">${escapeHtml(subName)}</div>
+            ${subName ? `<div class="hero-name-sub">${escapeHtml(subName)}</div>` : ''}
             <div class="hero-chips">
               <span class="stat-chip">HP <strong>${escapeHtml(health)}</strong></span>
               <span class="stat-chip">SPD <strong>${escapeHtml(speed)}</strong></span>
@@ -427,7 +433,7 @@
     const t = i18nData[currentLang] || {};
 
     const displayName = hero.names[currentLang] || hero.names.en;
-    const subName = (currentLang !== 'en') ? hero.names.en : (hero.names.ko || '');
+    const subName = (currentLang !== 'en') ? hero.names.en : '';
 
     modalHeroAvatar.src = hero.avatar;
     modalHeroAvatar.alt = displayName;
@@ -435,7 +441,7 @@
     
     const roleTrans = hero.role_name?.[currentLang] || hero.role;
     modalHeroSubname.innerHTML = `
-      <span>${escapeHtml(subName)}</span>
+      ${subName ? `<span>${escapeHtml(subName)}</span>` : ''}
       <span class="modal-role-badge ${hero.role}">
         <img src="assets/icons/role_${hero.role.toLowerCase()}.png" class="modal-role-icon" alt="${hero.role}">
         ${escapeHtml(roleTrans)}
