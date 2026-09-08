@@ -1,0 +1,374 @@
+{
+  "ko": {
+    "siteTitle": "마블 라이벌즈 영웅 스킬 도감",
+    "siteSubtitle": "영웅별 스킬 수치 및 팀업 정보",
+    "searchPlaceholder": "영웅 이름 또는 스킬명 검색...",
+    "allRoles": "전체",
+    "vanguard": "뱅가드 (돌격)",
+    "duelist": "듀얼리스트 (공격)",
+    "strategist": "전략가 (지원)",
+    "health": "체력",
+    "speed": "이동 속도",
+    "skillsTab": "일반 스킬",
+    "teamUpTab": "팀업",
+    "teamUpNotice": "",
+    "baseEffect": "기본 효과 (솔로 적용)",
+    "enhancedEffect": "강화 효과 (팀업 발동)",
+    "viewDetails": "스킬 수치 상세 보기",
+    "close": "닫기",
+    "damage": "데미지",
+    "cooldown": "쿨다운",
+    "range": "사거리/범위",
+    "fireRate": "연사 속도",
+    "ammo": "탄약",
+    "projectileSpeed": "투사체 속도",
+    "key": "단축키",
+    "noSkills": "스킬 정보가 없습니다.",
+    "stats": {
+      "Health": {
+        "ko": "체력",
+        "ja": "体力"
+      },
+      "Movement Speed": {
+        "ko": "이동 속도",
+        "ja": "移動速度"
+      },
+      "Movement Mode": {
+        "ko": "이동 방식",
+        "ja": "移動モード"
+      },
+      "Damage": {
+        "ko": "데미지",
+        "ja": "ダメージ"
+      },
+      "Healing": {
+        "ko": "치유량",
+        "ja": "回復量"
+      },
+      "Healing Amount": {
+        "ko": "치유량",
+        "ja": "回復量"
+      },
+      "Cooldown": {
+        "ko": "재사용 대기시간(쿨다운)",
+        "ja": "クールダウン"
+      },
+      "Range": {
+        "ko": "사거리 / 범위",
+        "ja": "射程 / 範囲"
+      },
+      "Spell Field Range": {
+        "ko": "영역 반경",
+        "ja": "展開半径"
+      },
+      "Spell Field Damage": {
+        "ko": "영역 지속 데미지",
+        "ja": "展開ダメージ"
+      },
+      "Spell Field Damage Falloff": {
+        "ko": "영역 데미지 감쇠",
+        "ja": "展開ダメージ減衰"
+      },
+      "Damage Falloff": {
+        "ko": "거리별 데미지 감쇠",
+        "ja": "ダメージ減衰"
+      },
+      "Projectile Speed": {
+        "ko": "투사체 속도",
+        "ja": "弾速"
+      },
+      "Fire Rate": {
+        "ko": "연사 속도",
+        "ja": "発射速度"
+      },
+      "Ammo": {
+        "ko": "탄약 수",
+        "ja": "装弾数"
+      },
+      "Ammo Consumption": {
+        "ko": "탄약 소모량",
+        "ja": "弾薬消費量"
+      },
+      "Critical Hit": {
+        "ko": "치명타(헤드샷)",
+        "ja": "クリティカル"
+      },
+      "Casting": {
+        "ko": "시전 방식",
+        "ja": "発動タイプ"
+      },
+      "Duration": {
+        "ko": "지속 시간",
+        "ja": "持続時間"
+      },
+      "Maximum Duration": {
+        "ko": "최대 지속 시간",
+        "ja": "最大持続時間"
+      },
+      "Energy Cost": {
+        "ko": "에너지 소모량",
+        "ja": "エネルギー消費"
+      },
+      "Speed Boost": {
+        "ko": "이동속도 증가",
+        "ja": "移動速度上昇"
+      },
+      "Base Effect": {
+        "ko": "기본 효과 (솔로 적용)",
+        "ja": "基本効果 (ソロ常時発動)"
+      },
+      "Enhanced Effect": {
+        "ko": "강화 효과 (팀업 발동)",
+        "ja": "強化効果 (チームアップ発動)"
+      }
+    }
+  },
+  "ja": {
+    "siteTitle": "マーベル・ライバルズ スキル図鑑",
+    "siteSubtitle": "ヒーロー別スキル数値 ＆ チームアップ情報",
+    "searchPlaceholder": "ヒーロー名またはスキルを検索...",
+    "allRoles": "すべて",
+    "vanguard": "ヴァンガード (タンク)",
+    "duelist": "デュエリスト (DPS)",
+    "strategist": "ストラテジスト (サポート)",
+    "health": "体力",
+    "speed": "移動速度",
+    "skillsTab": "通常スキル",
+    "teamUpTab": "チームアップ",
+    "teamUpNotice": "",
+    "baseEffect": "基本効果 (ソロ常時発動)",
+    "enhancedEffect": "強化効果 (チームアップ発動)",
+    "viewDetails": "詳細数値を確認",
+    "close": "閉じる",
+    "damage": "ダメージ",
+    "cooldown": "クールダウン",
+    "range": "射程/範囲",
+    "fireRate": "発射速度",
+    "ammo": "装弾数",
+    "projectileSpeed": "弾速",
+    "key": "キー操作",
+    "noSkills": "スキル情報がありません。",
+    "stats": {
+      "Health": {
+        "ko": "체력",
+        "ja": "体力"
+      },
+      "Movement Speed": {
+        "ko": "이동 속도",
+        "ja": "移動速度"
+      },
+      "Movement Mode": {
+        "ko": "이동 방식",
+        "ja": "移動モード"
+      },
+      "Damage": {
+        "ko": "데미지",
+        "ja": "ダメージ"
+      },
+      "Healing": {
+        "ko": "치유량",
+        "ja": "回復量"
+      },
+      "Healing Amount": {
+        "ko": "치유량",
+        "ja": "回復量"
+      },
+      "Cooldown": {
+        "ko": "재사용 대기시간(쿨다운)",
+        "ja": "クールダウン"
+      },
+      "Range": {
+        "ko": "사거리 / 범위",
+        "ja": "射程 / 範囲"
+      },
+      "Spell Field Range": {
+        "ko": "영역 반경",
+        "ja": "展開半径"
+      },
+      "Spell Field Damage": {
+        "ko": "영역 지속 데미지",
+        "ja": "展開ダメージ"
+      },
+      "Spell Field Damage Falloff": {
+        "ko": "영역 데미지 감쇠",
+        "ja": "展開ダメージ減衰"
+      },
+      "Damage Falloff": {
+        "ko": "거리별 데미지 감쇠",
+        "ja": "ダメージ減衰"
+      },
+      "Projectile Speed": {
+        "ko": "투사체 속도",
+        "ja": "弾速"
+      },
+      "Fire Rate": {
+        "ko": "연사 속도",
+        "ja": "発射速度"
+      },
+      "Ammo": {
+        "ko": "탄약 수",
+        "ja": "装弾数"
+      },
+      "Ammo Consumption": {
+        "ko": "탄약 소모량",
+        "ja": "弾薬消費量"
+      },
+      "Critical Hit": {
+        "ko": "치명타(헤드샷)",
+        "ja": "クリティカル"
+      },
+      "Casting": {
+        "ko": "시전 방식",
+        "ja": "発動タイプ"
+      },
+      "Duration": {
+        "ko": "지속 시간",
+        "ja": "持続時間"
+      },
+      "Maximum Duration": {
+        "ko": "최대 지속 시간",
+        "ja": "最大持続時間"
+      },
+      "Energy Cost": {
+        "ko": "에너지 소모량",
+        "ja": "エネルギー消費"
+      },
+      "Speed Boost": {
+        "ko": "이동속도 증가",
+        "ja": "移動速度上昇"
+      },
+      "Base Effect": {
+        "ko": "기본 효과 (솔로 적용)",
+        "ja": "基本効果 (ソロ常時発動)"
+      },
+      "Enhanced Effect": {
+        "ko": "강화 효과 (팀업 발동)",
+        "ja": "強化効果 (チームアップ発動)"
+      }
+    }
+  },
+  "en": {
+    "siteTitle": "Marvel Rivals Skill Database",
+    "siteSubtitle": "Hero Skill Stats & Team-Up Loadouts",
+    "searchPlaceholder": "Search hero name or skill...",
+    "allRoles": "All Roles",
+    "vanguard": "Vanguard",
+    "duelist": "Duelist",
+    "strategist": "Strategist",
+    "health": "Health",
+    "speed": "Speed",
+    "skillsTab": "Abilities",
+    "teamUpTab": "Team-Up",
+    "teamUpNotice": "",
+    "baseEffect": "Base Effect (Solo)",
+    "enhancedEffect": "Enhanced Effect (Team-Up)",
+    "viewDetails": "View Stats",
+    "close": "Close",
+    "damage": "Damage",
+    "cooldown": "Cooldown",
+    "range": "Range",
+    "fireRate": "Fire Rate",
+    "ammo": "Ammo",
+    "projectileSpeed": "Projectile Speed",
+    "key": "Key",
+    "noSkills": "No abilities found.",
+    "stats": {
+      "Health": {
+        "ko": "체력",
+        "ja": "体力"
+      },
+      "Movement Speed": {
+        "ko": "이동 속도",
+        "ja": "移動速度"
+      },
+      "Movement Mode": {
+        "ko": "이동 방식",
+        "ja": "移動モード"
+      },
+      "Damage": {
+        "ko": "데미지",
+        "ja": "ダメージ"
+      },
+      "Healing": {
+        "ko": "치유량",
+        "ja": "回復量"
+      },
+      "Healing Amount": {
+        "ko": "치유량",
+        "ja": "回復量"
+      },
+      "Cooldown": {
+        "ko": "재사용 대기시간(쿨다운)",
+        "ja": "クールダウン"
+      },
+      "Range": {
+        "ko": "사거리 / 범위",
+        "ja": "射程 / 範囲"
+      },
+      "Spell Field Range": {
+        "ko": "영역 반경",
+        "ja": "展開半径"
+      },
+      "Spell Field Damage": {
+        "ko": "영역 지속 데미지",
+        "ja": "展開ダメージ"
+      },
+      "Spell Field Damage Falloff": {
+        "ko": "영역 데미지 감쇠",
+        "ja": "展開ダメージ減衰"
+      },
+      "Damage Falloff": {
+        "ko": "거리별 데미지 감쇠",
+        "ja": "ダメージ減衰"
+      },
+      "Projectile Speed": {
+        "ko": "투사체 속도",
+        "ja": "弾速"
+      },
+      "Fire Rate": {
+        "ko": "연사 속도",
+        "ja": "発射速度"
+      },
+      "Ammo": {
+        "ko": "탄약 수",
+        "ja": "装弾数"
+      },
+      "Ammo Consumption": {
+        "ko": "탄약 소모량",
+        "ja": "弾薬消費量"
+      },
+      "Critical Hit": {
+        "ko": "치명타(헤드샷)",
+        "ja": "クリティカル"
+      },
+      "Casting": {
+        "ko": "시전 방식",
+        "ja": "発動タイプ"
+      },
+      "Duration": {
+        "ko": "지속 시간",
+        "ja": "持続時間"
+      },
+      "Maximum Duration": {
+        "ko": "최대 지속 시간",
+        "ja": "最大持続時間"
+      },
+      "Energy Cost": {
+        "ko": "에너지 소모량",
+        "ja": "エネルギー消費"
+      },
+      "Speed Boost": {
+        "ko": "이동속도 증가",
+        "ja": "移動速度上昇"
+      },
+      "Base Effect": {
+        "ko": "기본 효과 (솔로 적용)",
+        "ja": "基本効果 (ソロ常時発動)"
+      },
+      "Enhanced Effect": {
+        "ko": "강화 효과 (팀업 발동)",
+        "ja": "強化効果 (チームアップ発動)"
+      }
+    }
+  }
+}

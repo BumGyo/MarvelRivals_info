@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마블 라이벌즈 스킬 백과사전 | Marvel Rivals Skill & Team-Up DB</title>
+  <meta name="description" content="마블 라이벌즈(Marvel Rivals) 53명 전 영웅의 정확한 스킬 수치(데미지, 쿨다운, 사거리 등)와 최신 7월 개편 팀업 로드아웃(Base/Enhanced)을 한국어, 일본어, 영어로 완벽 지원하는 백과사전.">
+  <meta name="keywords" content="Marvel Rivals, 마블 라이벌즈, 마블라이벌즈 스킬, 스킬 수치, 데미지, 쿨다운, 팀업, Team-up, 한국어, 日本語">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/ignite_icon.png">
+  <link rel="apple-touch-icon" href="assets/ignite_icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="마블 라이벌즈 스킬 백과사전 | Marvel Rivals Skill DB">
+  <meta property="og:description" content="마블 라이벌즈 공식 최신 스킬 수치 및 팀업 로드아웃 한국어/일본어 완벽 제공">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header" id="main-header">
+    <div class="header-container">
+      <a href="#" class="logo-group" id="logo-btn" aria-label="Marvel Rivals Skill DB Home">
+        <img src="assets/ignite_icon.png" alt="Marvel Rivals Ignite" class="site-logo-icon">
+        <div class="logo-text">
+          <h1 class="logo-title" id="site-logo-title">MARVEL RIVALS</h1>
+          <span class="logo-subtitle" id="site-logo-subtitle">SKILL & TEAM-UP DATABASE</span>
+        </div>
+      </a>
+
+      <!-- Global Hero/Skill Search -->
+      <div class="search-wrapper">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input 
+          type="text" 
+          id="hero-search-input" 
+          class="search-input" 
+          placeholder="영웅 이름 또는 스킬 검색... (/ 키로 검색)" 
+          autocomplete="off"
+          spellcheck="false"
+        >
+      </div>
+
+      <!-- Language Selector -->
+      <div class="header-actions">
+        <div class="lang-switch" id="lang-switcher" role="group" aria-label="Language selector">
+          <button type="button" class="lang-btn active" data-lang="ko" id="lang-btn-ko">KO 🇰🇷</button>
+          <button type="button" class="lang-btn" data-lang="ja" id="lang-btn-ja">JA 🇯🇵</button>
+          <button type="button" class="lang-btn" data-lang="en" id="lang-btn-en">EN 🇺🇸</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter Section -->
+  <section class="filter-section" id="filter-section">
+    <div class="filter-bar">
+      <div class="role-filter-group" id="role-filters" role="tablist">
+        <button type="button" class="role-btn active" data-role="ALL" id="filter-all">
+          <span id="label-all">전체 (All)</span>
+        </button>
+        <button type="button" class="role-btn" data-role="VANGUARD" id="filter-vanguard">
+          <img src="assets/icons/role_vanguard.png" class="role-btn-icon" alt="" aria-hidden="true">
+          <span id="label-vanguard">뱅가드 (돌격)</span>
+        </button>
+        <button type="button" class="role-btn" data-role="DUELIST" id="filter-duelist">
+          <img src="assets/icons/role_duelist.png" class="role-btn-icon" alt="" aria-hidden="true">
+          <span id="label-duelist">듀얼리스트 (공격)</span>
+        </button>
+        <button type="button" class="role-btn" data-role="STRATEGIST" id="filter-strategist">
+          <img src="assets/icons/role_strategist.png" class="role-btn-icon" alt="" aria-hidden="true">
+          <span id="label-strategist">전략가 (지원)</span>
+        </button>
+      </div>
+      <div class="count-indicator" id="heroes-count">53 Heroes</div>
+    </div>
+  </section>
+
+  <!-- Main Hero Grid -->
+  <main class="main-content" id="main-content">
+    <div class="hero-grid" id="hero-grid" role="region" aria-live="polite">
+      <!-- Injected dynamically via app.js -->
+    </div>
+  </main>
+
+  <!-- Hero Detail Modal -->
+  <div class="modal-overlay" id="hero-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-container" id="modal-container">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="modal-hero-profile">
+          <img src="" alt="" class="modal-avatar" id="modal-hero-avatar">
+          <div class="modal-hero-title">
+            <h2 id="modal-hero-name">Hero Name</h2>
+            <div class="name-alt" id="modal-hero-subname">English Name</div>
+            <div class="modal-base-stats" id="modal-base-stats">
+              <!-- e.g. Health: 250, Speed: 6m/s -->
+            </div>
+          </div>
+        </div>
+        <button type="button" class="close-btn" id="modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="modal-tabs" role="tablist">
+        <button type="button" class="tab-btn active" id="tab-btn-skills" data-tab="skills">
+          <span id="tab-text-skills">일반 스킬 (Abilities)</span>
+        </button>
+        <button type="button" class="tab-btn" id="tab-btn-teamups" data-tab="teamups">
+          <span id="tab-text-teamups">팀업 (Team-Up)</span>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body" id="modal-body">
+        
+        <!-- Tab 1: Normal Abilities -->
+        <div class="tab-view active" id="view-skills">
+          <div class="abilities-container">
+            <div class="skill-selector-list" id="skill-selector-list">
+              <!-- List of abilities for selection -->
+            </div>
+            <div class="skill-detail-display" id="skill-detail-display">
+              <!-- Selected ability detailed stats and mechanics -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 2: Team-Up Loadouts -->
+        <div class="tab-view" id="view-teamups">
+          <!-- Loadout Switcher -->
+          <div class="loadout-selector" id="loadout-selector">
+            <!-- Loadout 1 & 2 Buttons -->
+          </div>
+
+          <!-- Loadout Detail (Base vs Enhanced) -->
+          <div class="teamup-columns" id="teamup-columns">
+            <!-- Injected via app.js -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <p>© 2026 Marvel Rivals Skill & Team-Up Database. Data parsed from NetEase Official Site. Non-commercial community fan project.</p>
+  </footer>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
