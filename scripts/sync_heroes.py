@@ -38,8 +38,9 @@ HERO_NAMES = {
     "Hulk": {"ko": "헐크", "ja": "ハルク"},
     "SPIDER-MAN": {"ko": "스파이더맨", "ja": "スパイダーマン"},
     "Spider-Man": {"ko": "스파이더맨", "ja": "スパイダーマン"},
-    "PUNISHER": {"ko": "퍼니셔", "ja": "パニッシャー"},
-    "The Punisher": {"ko": "퍼니셔", "ja": "パニッシャー"},
+    "THE PUNISHER": {"ko": "더 퍼니셔", "ja": "パニッシャー"},
+    "The Punisher": {"ko": "더 퍼니셔", "ja": "パニッシャー"},
+    "PUNISHER": {"ko": "더 퍼니셔", "ja": "パニッシャー"},
     "THOR": {"ko": "토르", "ja": "ソー"},
     "Thor": {"ko": "토르", "ja": "ソー"},
     "STORM": {"ko": "스톰", "ja": "ストーム"},
@@ -86,8 +87,8 @@ HERO_NAMES = {
     "Hawkeye": {"ko": "호크아이", "ja": "ホークアイ"},
     "CLOAK & DAGGER": {"ko": "클록 & 대거", "ja": "クローク＆ダガー"},
     "Cloak & Dagger": {"ko": "클록 & 대거", "ja": "クローク＆ダガー"},
-    "IRON FIST": {"ko": "아이언 피스트", "ja": "아이언・フィスト"},
-    "Iron Fist": {"ko": "아이언 피스트", "ja": "아이언・フィスト"},
+    "IRON FIST": {"ko": "아이언 피스트", "ja": "アイアン・フィスト"},
+    "Iron Fist": {"ko": "아이언 피스트", "ja": "アイアン・フィスト"},
     "MISTER FANTASTIC": {"ko": "미스터 판타스틱", "ja": "ミスター・ファンタスティック"},
     "Mister Fantastic": {"ko": "미스터 판타스틱", "ja": "ミスター・ファンタスティック"},
     "INVISIBLE WOMAN": {"ko": "인비저블 우먼", "ja": "インビジブル・ウーマン"},
@@ -135,6 +136,24 @@ ROLE_TRANSLATIONS = {
     "DUELIST": {"en": "Duelist", "ko": "듀얼리스트 (공격)", "ja": "デュエリスト (DPS)"},
     "STRATEGIST": {"en": "Strategist", "ko": "전략가 (지원)", "ja": "ストラテジスト (サポート)"}
 }
+
+def resolve_hero_names(raw_name):
+    """
+    Resolve hero name into KO and JA.
+    If new/unknown hero, safely fallback to English name for both KO and JA.
+    """
+    if not raw_name:
+        return "", {"ko": "", "ja": ""}
+    norm = raw_name.strip()
+    # 1. Exact match
+    if norm in HERO_NAMES:
+        return norm, HERO_NAMES[norm]
+    # 2. Case-insensitive match
+    for k, v in HERO_NAMES.items():
+        if k.lower() == norm.lower():
+            return norm, v
+    # 3. New hero fallback: use English name for KO and JA
+    return norm, {"ko": norm, "ja": norm}
 
 KEY_TRANSLATIONS = {
     "Left Click": {"ko": "마우스 좌클릭", "ja": "左クリック"},
@@ -413,11 +432,8 @@ def parse_hero_page(hero):
         u[lx] += 1
 
         partner_avatar = c_partners[lx] if lx < len(c_partners) else ""
-        partner_name_en = extract_partner_name(item["desc"])
-        partner_info = HERO_NAMES.get(partner_name_en, {
-            "ko": partner_name_en,
-            "ja": partner_name_en
-        })
+        partner_raw = extract_partner_name(item["desc"])
+        partner_name_en, partner_info = resolve_hero_names(partner_raw)
 
         loadout_num = lx + 1
         tier_label = "base" if lx_tier == 0 else "enhanced"
@@ -458,11 +474,7 @@ def parse_hero_page(hero):
     }
     normal_abilities.sort(key=lambda s: KEY_ORDER.get(s.get("key", ""), 15))
 
-    norm_name = hero["title"].strip()
-    names = HERO_NAMES.get(norm_name, {
-        "ko": norm_name,
-        "ja": norm_name
-    })
+    norm_name, names = resolve_hero_names(hero["title"])
 
     return {
         "id": hero["id"],
