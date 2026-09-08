@@ -15,6 +15,7 @@
   let searchQuery = '';
   let selectedHero = null;
   let selectedSkillIndex = 0;
+  let selectedSkillIsUpgraded = false;
   let selectedLoadout = 1;
 
   // DOM Elements
@@ -383,6 +384,7 @@
 
     selectedHero = hero;
     selectedSkillIndex = 0;
+    selectedSkillIsUpgraded = false;
     selectedLoadout = 1;
 
     updateModalContent();
@@ -502,9 +504,12 @@
     skillSelectorList.querySelectorAll('.skill-select-item').forEach(item => {
       item.addEventListener('click', () => {
         const idx = parseInt(item.getAttribute('data-index'), 10);
-        selectedSkillIndex = idx;
-        renderSkillSelectorList();
-        renderSkillDetailDisplay();
+        if (selectedSkillIndex !== idx) {
+          selectedSkillIndex = idx;
+          selectedSkillIsUpgraded = false;
+          renderSkillSelectorList();
+          renderSkillDetailDisplay();
+        }
       });
     });
   }
@@ -518,12 +523,15 @@
       return;
     }
 
-    const skill = selectedHero.skills[selectedSkillIndex];
+    const rawSkill = selectedHero.skills[selectedSkillIndex];
+    const hasUpgrade = Boolean(rawSkill.upgrade);
+    const activeSkill = (hasUpgrade && selectedSkillIsUpgraded) ? rawSkill.upgrade : rawSkill;
+
     const t = i18nData[currentLang] || {};
-    const keyTrans = skill.key_trans?.[currentLang] || skill.key;
+    const keyTrans = rawSkill.key_trans?.[currentLang] || rawSkill.key;
 
     // Stat boxes
-    const statsEntries = Object.entries(skill.stats || {}).filter(([k, v]) => k.toLowerCase() !== 'key');
+    const statsEntries = Object.entries(activeSkill.stats || {}).filter(([k, v]) => k.toLowerCase() !== 'key');
     const statsGridHtml = statsEntries.map(([k, v]) => {
       const lowerKey = k.toLowerCase();
       const highlightClass = STAT_HIGHLIGHT_CLASSES[lowerKey] || '';
@@ -537,22 +545,41 @@
       `;
     }).join('');
 
-    const descHtml = skill.description ? `
+    const descHtml = activeSkill.description ? `
       <div class="skill-desc-box">
-        ${escapeHtml(skill.description)}
+        ${escapeHtml(activeSkill.description)}
       </div>
     ` : '';
 
-    const iconHtml = skill.icon 
-      ? `<img src="${skill.icon}" alt="" class="skill-large-icon">`
-      : `<div class="skill-large-icon" style="display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;">${escapeHtml(skill.key)}</div>`;
+    const iconHtml = activeSkill.icon 
+      ? `<img src="${activeSkill.icon}" alt="" class="skill-large-icon">`
+      : `<div class="skill-large-icon" style="display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;">${escapeHtml(rawSkill.key)}</div>`;
+
+    const upgradeBtnHtml = hasUpgrade ? `
+      <button 
+        type="button" 
+        class="skill-upgrade-star-btn ${selectedSkillIsUpgraded ? 'active' : ''}" 
+        id="skill-upgrade-star-btn" 
+        title="${selectedSkillIsUpgraded ? (currentLang === 'ko' ? '기본 효과 보기' : (currentLang === 'ja' ? '基本効果を見る' : 'Click to view base stats')) : (currentLang === 'ko' ? '스킬 업그레이드 효과 보기' : (currentLang === 'ja' ? 'スキル強化効果を見る' : 'Click to view upgraded stats'))}"
+        aria-label="Toggle Skill Upgrade"
+      >
+        <span class="star-icon">${selectedSkillIsUpgraded ? '★' : '☆'}</span>
+        <span class="upgrade-star-label">${selectedSkillIsUpgraded ? 'UPGRADED' : 'UPGRADE'}</span>
+      </button>
+    ` : '';
 
     skillDetailDisplay.innerHTML = `
       <div class="skill-header-info">
         ${iconHtml}
         <div class="skill-header-text">
-          <h3>${escapeHtml(skill.name)}</h3>
-          <span class="key-tag">${escapeHtml(keyTrans)}</span>
+          <div class="skill-title-row">
+            <h3>${escapeHtml(activeSkill.name)}</h3>
+            ${upgradeBtnHtml}
+          </div>
+          <div class="skill-tags-row">
+            <span class="key-tag">${escapeHtml(keyTrans)}</span>
+            ${(hasUpgrade && selectedSkillIsUpgraded) ? `<span class="upgraded-pill-tag">⚡ UPGRADED</span>` : ''}
+          </div>
         </div>
       </div>
 
@@ -560,13 +587,22 @@
 
       <div>
         <div class="stats-grid-title" style="margin-bottom: 10px;">
-          📊 ${(currentLang === 'ko') ? '스킬 수치 상세 스펙' : (currentLang === 'ja' ? 'スキル詳細数値スペック' : 'SPECIFICATIONS')}
+          📊 ${(currentLang === 'ko') ? (selectedSkillIsUpgraded ? '업그레이드 스킬 상세 스펙' : '스킬 수치 상세 스펙') : (currentLang === 'ja' ? (selectedSkillIsUpgraded ? '強化スキル詳細数値スペック' : 'スキル詳細数値スペック') : (selectedSkillIsUpgraded ? 'UPGRADED SPECIFICATIONS' : 'SPECIFICATIONS'))}
         </div>
         <div class="stats-grid">
           ${statsGridHtml || '<p style="color: var(--text-dim); font-size: 13px;">상세 수치 정보가 없습니다.</p>'}
         </div>
       </div>
     `;
+
+    // Attach click listener to star button
+    const starBtn = skillDetailDisplay.querySelector('#skill-upgrade-star-btn');
+    if (starBtn) {
+      starBtn.addEventListener('click', () => {
+        selectedSkillIsUpgraded = !selectedSkillIsUpgraded;
+        renderSkillDetailDisplay();
+      });
+    }
   }
 
   /**

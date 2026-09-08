@@ -2773,6 +2773,21 @@
           "Damage Falloff": "Falloff begins at 15m, decreasing to 50% at 30m",
           "Fire Rate": "2.5 rounds per second",
           "Ammo": "30"
+        },
+        "upgrade": {
+          "name": "DUAL DESERT EAGLES - VANGUARD UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/9950e177-ed31-4cc3-9dd0-5e81a1ebd0f4.png",
+          "description": "I rack up shots, then, BOOM! A mind-blowing bubble bomb for all the enemies. Teammate security: maximum",
+          "stats": {
+            "Key": "Left Click",
+            "Beam Damage": "40 damage per round",
+            "Beam Attack Interval": "2.5 rounds per second",
+            "Ammo": "40",
+            "Projectile Attack Interval": "After every 5 beam bullets fired, the next shot fires 1 additional projectile",
+            "Projectile Speed": "60 m/s",
+            "Spell Field Damage": "25",
+            "Spell Field Range": "3m radius spherical spell field"
+          }
         }
       },
       {
@@ -2791,44 +2806,17 @@
           "Damage": "30 per hit",
           "Attack Interval": "First strike: 0.6s; second strike: 0.53s; third strike: 0.6s",
           "Maximum Distance": "4m"
-        }
-      },
-      {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
         },
-        "name": "DUAL DESERT EAGLES - VANGUARD UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/9950e177-ed31-4cc3-9dd0-5e81a1ebd0f4.png",
-        "description": "I rack up shots, then, BOOM! A mind-blowing bubble bomb for all the enemies. Teammate security: maximum",
-        "stats": {
-          "Key": "Left Click",
-          "Beam Damage": "40 damage per round",
-          "Beam Attack Interval": "2.5 rounds per second",
-          "Ammo": "40",
-          "Projectile Attack Interval": "After every 5 beam bullets fired, the next shot fires 1 additional projectile",
-          "Projectile Speed": "60 m/s",
-          "Spell Field Damage": "25",
-          "Spell Field Range": "3m radius spherical spell field"
-        }
-      },
-      {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
-        },
-        "name": "KICK@$$ KATANA - VANGUARD UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/bff49308-0b5f-46fc-81ca-46fe94f05f81.png",
-        "description": "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Bad Bunny hit makes the next swing a stabby special",
-        "stats": {
-          "Key": "Left Click",
-          "Damage": "35 per hit",
-          "Attack Interval": "First strike: 0.5s; second strike: 0.43s; third strike: 0.5s",
-          "Maximum Distance": "4m"
+        "upgrade": {
+          "name": "KICK@$$ KATANA - VANGUARD UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/bff49308-0b5f-46fc-81ca-46fe94f05f81.png",
+          "description": "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Bad Bunny hit makes the next swing a stabby special",
+          "stats": {
+            "Key": "Left Click",
+            "Damage": "35 per hit",
+            "Attack Interval": "First strike: 0.5s; second strike: 0.43s; third strike: 0.5s",
+            "Maximum Distance": "4m"
+          }
         }
       },
       {
@@ -2846,6 +2834,17 @@
           "Summons' Health": "300",
           "Maximum Duration for Summons": "4s",
           "Cooldown": "12s"
+        },
+        "upgrade": {
+          "name": "MAGICAL UNICORN SHIELD! - UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/58a98547-303e-4b5d-b0ca-d05be7c951c6.png",
+          "description": "My ultra-cool, super shiny, extra huggable, and totally blinged-out plushy. Toss it ahead, and it lands as an invincible sphere of awesomeness! Blocking attacks and keeping my team safe inside our furry fortress",
+          "stats": {
+            "Key": "Right Click",
+            "Summons' Health": "400",
+            "Maximum Duration for Summons": "4s",
+            "Cooldown": "12s"
+          }
         }
       },
       {
@@ -2864,41 +2863,18 @@
           "Special Effect": "Refresh the cooldown if it hits an enemy for up to 2 times.",
           "Damage": "40",
           "Dash Duration": "Up to 12m"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
         },
-        "name": "HAZARDOUS HIJINKS - VANGUARD UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/5477ab5b-877f-48c7-9541-973e67722586.png",
-        "description": "Watch this pro bodyguard in action! I dash forward, nail the bad guy, and bounce in any direction I want. Oh, and I can do this two more times real quick!",
-        "stats": {
-          "Key": "Right Click",
-          "Cooldown": "2 charges, with each charge taking 10s to recharge.",
-          "Special Effect": "Refresh the cooldown if it hits an enemy for up to 2 times. Deadpool bounces as the ability hits an enemy.",
-          "Damage": "40",
-          "Dash Duration": "Up to 12m"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
-        },
-        "name": "MAGICAL UNICORN SHIELD! - UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/58a98547-303e-4b5d-b0ca-d05be7c951c6.png",
-        "description": "My ultra-cool, super shiny, extra huggable, and totally blinged-out plushy. Toss it ahead, and it lands as an invincible sphere of awesomeness! Blocking attacks and keeping my team safe inside our furry fortress",
-        "stats": {
-          "Key": "Right Click",
-          "Summons' Health": "400",
-          "Maximum Duration for Summons": "4s",
-          "Cooldown": "12s"
+        "upgrade": {
+          "name": "HAZARDOUS HIJINKS - VANGUARD UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/5477ab5b-877f-48c7-9541-973e67722586.png",
+          "description": "Watch this pro bodyguard in action! I dash forward, nail the bad guy, and bounce in any direction I want. Oh, and I can do this two more times real quick!",
+          "stats": {
+            "Key": "Right Click",
+            "Cooldown": "2 charges, with each charge taking 10s to recharge.",
+            "Special Effect": "Refresh the cooldown if it hits an enemy for up to 2 times. Deadpool bounces as the ability hits an enemy.",
+            "Damage": "40",
+            "Dash Duration": "Up to 12m"
+          }
         }
       },
       {
@@ -2919,6 +2895,21 @@
           "Bonus Health Gained Upon Activation": "200",
           "Healing Over Time During Activation": "25/s",
           "Cooldown": "60s"
+        },
+        "upgrade": {
+          "name": "THE BAN HAMMER - UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260116/944e9d57-7cfe-47fe-97bf-dbda97f0552c.png",
+          "description": "Upgraded courtroom drama! Congrats, unlucky one! You're my pick; enjoy the taunt! I score bonus health and healing, and you take ongoing damage. If you miss an ability while court is in session, it's a double whammy. You get more pain, AND I get more extra HP! Thanks in advance!",
+          "stats": {
+            "Key": "Q",
+            "Damage From Per Ability Missed": "35",
+            "Bonus Health From Per Ability Missed": "70 per ability missed",
+            "Ability Duration": "8s",
+            "Bonus Health upon Activation": "200",
+            "Healing During Activation": "25/s",
+            "Cooldown": "60s",
+            "Damage Over Time": "25/s"
+          }
         }
       },
       {
@@ -2939,47 +2930,20 @@
           "Healing over Time": "Upon activation: 50/s; challenge completed: 100/s",
           "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
           "Cooldown": "60s"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Q",
-        "key_trans": {
-          "ko": "Q (궁극기)",
-          "ja": "Q (アルティメット)"
         },
-        "name": "THE BIG TEST - UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260116/917c3099-6c03-40db-a5af-da7bd907b710.png",
-        "description": "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs (massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!",
-        "stats": {
-          "Key": "Q",
-          "Ability Duration": "The challenge lasts 12s. The buff lasts 8s after you complete it.",
-          "Boost Spell Field Range": "6m radius spherical spell field",
-          "Bonus Health": "Self: 300; allies: 50",
-          "Healing over Time": "Upon activation: 50/s; challenge completed: 100/s",
-          "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
-          "Cooldown": "60s"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Q",
-        "key_trans": {
-          "ko": "Q (궁극기)",
-          "ja": "Q (アルティメット)"
-        },
-        "name": "THE BAN HAMMER - UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260116/944e9d57-7cfe-47fe-97bf-dbda97f0552c.png",
-        "description": "Upgraded courtroom drama! Congrats, unlucky one! You're my pick; enjoy the taunt! I score bonus health and healing, and you take ongoing damage. If you miss an ability while court is in session, it's a double whammy. You get more pain, AND I get more extra HP! Thanks in advance!",
-        "stats": {
-          "Key": "Q",
-          "Damage From Per Ability Missed": "35",
-          "Bonus Health From Per Ability Missed": "70 per ability missed",
-          "Ability Duration": "8s",
-          "Bonus Health upon Activation": "200",
-          "Healing During Activation": "25/s",
-          "Cooldown": "60s",
-          "Damage Over Time": "25/s"
+        "upgrade": {
+          "name": "THE BIG TEST - UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260116/917c3099-6c03-40db-a5af-da7bd907b710.png",
+          "description": "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs (massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!",
+          "stats": {
+            "Key": "Q",
+            "Ability Duration": "The challenge lasts 12s. The buff lasts 8s after you complete it.",
+            "Boost Spell Field Range": "6m radius spherical spell field",
+            "Bonus Health": "Self: 300; allies: 50",
+            "Healing over Time": "Upon activation: 50/s; challenge completed: 100/s",
+            "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
+            "Cooldown": "60s"
+          }
         }
       },
       {
@@ -3000,47 +2964,21 @@
           "Damage Needed to Remove the Disruption": "100",
           "Spell Field Damage": "10/s",
           "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m."
-        }
-      },
-      {
-        "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
         },
-        "name": "DEADPOOL IN YOUR AREA - VANGUARD",
-        "icon": "https://r.res.easebar.com/pic/20260114/b4f7983e-98fb-46bb-aabc-c8bb80041553.png",
-        "description": "Want to hurt my team? Good luck! I hit you with a taunt, mess up your vision, and burn your health nonstop! Best part: my swords and guns go full turbo for the duration. Blink and you'll miss it",
-        "stats": {
-          "Key": "E",
-          "Cooldown": "12s",
-          "Ability Duration": "5s",
-          "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption. Increase left-click attack speed for the duration.",
-          "Damage Needed to Remove the Disruption": "100",
-          "Spell Field Damage": "10/s",
-          "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m"
-        }
-      },
-      {
-        "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
-        },
-        "name": "DEADPOOL IN YOUR AREA - VANGUARD UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/dd186638-8506-401f-b1a7-c09436994ad7.png",
-        "description": "Teammates, stay safe! Dummies, look here! It's showtime: I taunt, blind you, and hit warp speed with my swords and guns. Plus, my crew gets a damage reduction buff, so they're basically invincible. Dummies that stick around too long will even have their UI taped over!",
-        "stats": {
-          "Key": "E",
-          "Cooldown": "12s",
-          "Ability Duration": "5s",
-          "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption. Increase left-click attack speed for the duration.",
-          "Damage Needed to Remove the Disruption": "100",
-          "Spell Field Damage": "10/s",
-          "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m",
-          "Damage Reduction": "Self: 35%; allies: 25%"
+        "upgrade": {
+          "name": "DEADPOOL IN YOUR AREA - VANGUARD UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/dd186638-8506-401f-b1a7-c09436994ad7.png",
+          "description": "Teammates, stay safe! Dummies, look here! It's showtime: I taunt, blind you, and hit warp speed with my swords and guns. Plus, my crew gets a damage reduction buff, so they're basically invincible. Dummies that stick around too long will even have their UI taped over!",
+          "stats": {
+            "Key": "E",
+            "Cooldown": "12s",
+            "Ability Duration": "5s",
+            "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption. Increase left-click attack speed for the duration.",
+            "Damage Needed to Remove the Disruption": "100",
+            "Spell Field Damage": "10/s",
+            "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m",
+            "Damage Reduction": "Self: 35%; allies: 25%"
+          }
         }
       },
       {
@@ -3060,21 +2998,6 @@
       },
       {
         "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "UPGRADE!",
-        "icon": "https://r.res.easebar.com/pic/20260114/bf797f74-4018-4b36-85d6-89159ea831b4.png",
-        "description": "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!",
-        "stats": {
-          "Key": "F",
-          "Special Effect": "Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts."
-        }
-      },
-      {
-        "type": 2,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -3087,22 +3010,6 @@
           "Key": "Space",
           "Cooldown": "6s",
           "Maximum Jump Distance": "16m"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Space",
-        "key_trans": {
-          "ko": "Space",
-          "ja": "Space"
-        },
-        "name": "BUNNY BOUNCE",
-        "icon": "https://r.res.easebar.com/pic/20260114/f83e789b-8ec4-4623-9162-a873b479ada6.png",
-        "description": "Yup, I can double jump in midair! During The Big Test and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!",
-        "stats": {
-          "Key": "Space",
-          "Maximum Dash Distance": "16m",
-          "Cooldown": "6s"
         }
       },
       {
@@ -3136,69 +3043,6 @@
         "stats": {
           "Key": "Passive",
           "Special Effect": "The ultimate ability can be unleashed after reaching an S rating. The rating is cleared if Deadpool is defeated."
-        }
-      },
-      {
-        "type": 3,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "Comical Chaos",
-        "icon": "https://r.res.easebar.com/pic/20260116/7ff581ee-1f52-4aae-97a8-37f03509c681.png",
-        "description": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!",
-        "stats": {
-          "Key": "Passive",
-          "Team-Up Bonus": "+50 Max Health"
-        }
-      },
-      {
-        "type": 2,
-        "key": "PASSIVE",
-        "key_trans": {
-          "ko": "PASSIVE",
-          "ja": "PASSIVE"
-        },
-        "name": "HEALING FACTOR",
-        "icon": "https://r.res.easebar.com/pic/20260114/68817e55-2b49-4e4f-9e54-36bc0530574e.png",
-        "description": "Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains",
-        "stats": {
-          "Key": "PASSIVE",
-          "Healing over Time": "25/s",
-          "Healing over Time from Activated Healing Factor": "50/s",
-          "Cooldown": "45s",
-          "Special Effect": "The healing factor kicks in after Deadpool has been out of combat for 5s. If Deadpool takes more than 200 damage within a two-second window, the healing factor activates and boosts the healing"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "MAXIMUM FLAIR",
-        "icon": "https://r.res.easebar.com/pic/20260114/1e05f233-ac32-4fe9-b1b8-9c7cd4e165a3.png",
-        "description": "Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!",
-        "stats": {
-          "Key": "Passive",
-          "Special Effect": "The ultimate ability can be unleashed after reaching an S rating. The rating is cleared if Deadpool is defeated"
-        }
-      },
-      {
-        "type": 3,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "Comical Chaos",
-        "icon": "https://r.res.easebar.com/pic/20260116/7ff581ee-1f52-4aae-97a8-37f03509c681.png",
-        "description": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!",
-        "stats": {
-          "Key": "Passive",
-          "Team-Up Bonus": "+50 Max Health"
         }
       },
       {
@@ -3346,6 +3190,21 @@
           "Damage Falloff": "Falloff begins at 18m, decreasing to 80% at 30m",
           "Fire Rate": "2.5 rounds per second",
           "Ammo": "30"
+        },
+        "upgrade": {
+          "name": "DUAL DESERT EAGLES - DUELIST UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/1225939a-146b-4699-9d72-050fcaa16d4c.png",
+          "description": "Keep blasting till you trigger a BOOM. My thoughts literally explode onto the battlefield. Talk about mind-blowing firepower!",
+          "stats": {
+            "Key": "Left Click",
+            "Beam Damage": "46 damage per round",
+            "Beam Attack Interval": "2 rounds per second",
+            "Ammo": "40",
+            "Projectile Attack Interval": "After every 5 beam bullets fired, the next shot fires 1 additional projectile",
+            "Projectile Speed": "60 m/s",
+            "Spell Field Damage": "25",
+            "Spell Field Range": "3m radius spherical spell field"
+          }
         }
       },
       {
@@ -3364,44 +3223,17 @@
           "Damage": "40 per hit",
           "Attack Interval": "First strike: 0.6s; second strike: 0.53s; third strike: 0.6s",
           "Maximum Distance": "4m"
-        }
-      },
-      {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
         },
-        "name": "DUAL DESERT EAGLES - DUELIST UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/1225939a-146b-4699-9d72-050fcaa16d4c.png",
-        "description": "Keep blasting till you trigger a BOOM. My thoughts literally explode onto the battlefield. Talk about mind-blowing firepower!",
-        "stats": {
-          "Key": "Left Click",
-          "Beam Damage": "46 damage per round",
-          "Beam Attack Interval": "2 rounds per second",
-          "Ammo": "40",
-          "Projectile Attack Interval": "After every 5 beam bullets fired, the next shot fires 1 additional projectile",
-          "Projectile Speed": "60 m/s",
-          "Spell Field Damage": "25",
-          "Spell Field Range": "3m radius spherical spell field"
-        }
-      },
-      {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
-        },
-        "name": "KICK@$$ KATANA - DUELIST UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/b8b503aa-e398-45a1-8500-698622cc9de4.png",
-        "description": "Now with extra chop! Stabs can go straight for the noggin. Heads up! Do a Bunny Hop and POW! Stabby Stabby action guaranteed! Run while you can!",
-        "stats": {
-          "Key": "Left Click",
-          "Damage": "45 per hit",
-          "Attack Interval": "First strike: 0.5s; second strike: 0.43s; third strike: 0.5s",
-          "Maximum Distance": "4m"
+        "upgrade": {
+          "name": "KICK@$$ KATANA - DUELIST UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/b8b503aa-e398-45a1-8500-698622cc9de4.png",
+          "description": "Now with extra chop! Stabs can go straight for the noggin. Heads up! Do a Bunny Hop and POW! Stabby Stabby action guaranteed! Run while you can!",
+          "stats": {
+            "Key": "Left Click",
+            "Damage": "45 per hit",
+            "Attack Interval": "First strike: 0.5s; second strike: 0.43s; third strike: 0.5s",
+            "Maximum Distance": "4m"
+          }
         }
       },
       {
@@ -3423,6 +3255,20 @@
           "Spell Field Range": "4m spherical radius spell field",
           "Spell Field Duration": "1s",
           "Cooldown": "10s"
+        },
+        "upgrade": {
+          "name": "HEADSHOT! - DUELIST UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260116/edddeceb-fcc3-4937-b3f3-ef12531eaf98.png",
+          "description": "Juggle my noggin for extra throws! If you catch it thrice, it goes kaboom. Everyone gets a piece of my mind",
+          "stats": {
+            "Key": "Right Click",
+            "Projectile Damage": "Unleash: 30; return: 25",
+            "Projectile Speed": "80m/s",
+            "Spell Field Damage": "15/s",
+            "Third Unleash Explosion Damage": "45",
+            "Spell Field Duration": "First unleash: 1s; second unleash: 1s; third unleash: 2s",
+            "Cooldown": "10s"
+          }
         }
       },
       {
@@ -3441,44 +3287,18 @@
           "Special Effect": "Refresh the cooldown if it hits an enemy for up to 2 times.",
           "Damage": "40",
           "Dash Duration": "Up to 12m"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
         },
-        "name": "HAZARDOUS HIJINKS - DUELIST UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/6b324b73-b598-456a-9559-b42bf1e77176.png",
-        "description": "Now with bouncy castle action! Slash, bounce, repeat. It's like the world's deadliest pinball!. Cooldowns? Never heard of 'em. Keep going as long as you hit stuff, just don't let me fall flat on my ass!",
-        "stats": {
-          "Key": "Right Click",
-          "Cooldown": "2 charges, with each charge taking 10s to recharge.",
-          "Special Effect": "Refresh the cooldown if it hits an enemy. Deadpool bounces as the ability hits an enemy.",
-          "Damage": "40",
-          "Dash Duration": "Up to 12m"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
-        },
-        "name": "HEADSHOT! - DUELIST UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260116/edddeceb-fcc3-4937-b3f3-ef12531eaf98.png",
-        "description": "Juggle my noggin for extra throws! If you catch it thrice, it goes kaboom. Everyone gets a piece of my mind",
-        "stats": {
-          "Key": "Right Click",
-          "Projectile Damage": "Unleash: 30; return: 25",
-          "Projectile Speed": "80m/s",
-          "Spell Field Damage": "15/s",
-          "Third Unleash Explosion Damage": "45",
-          "Spell Field Duration": "First unleash: 1s; second unleash: 1s; third unleash: 2s",
-          "Cooldown": "10s"
+        "upgrade": {
+          "name": "HAZARDOUS HIJINKS - DUELIST UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/6b324b73-b598-456a-9559-b42bf1e77176.png",
+          "description": "Now with bouncy castle action! Slash, bounce, repeat. It's like the world's deadliest pinball!. Cooldowns? Never heard of 'em. Keep going as long as you hit stuff, just don't let me fall flat on my ass!",
+          "stats": {
+            "Key": "Right Click",
+            "Cooldown": "2 charges, with each charge taking 10s to recharge.",
+            "Special Effect": "Refresh the cooldown if it hits an enemy. Deadpool bounces as the ability hits an enemy.",
+            "Damage": "40",
+            "Dash Duration": "Up to 12m"
+          }
         }
       },
       {
@@ -3496,6 +3316,19 @@
           "Damage From Per Ability Missed": "60",
           "Ability Duration": "8s",
           "Cooldown": "45s"
+        },
+        "upgrade": {
+          "name": "SKILL ISSUE - UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260116/05a3bb0c-552b-48d5-9cd0-1f7e1e349923.png",
+          "description": "Dumbpoochu, I choose you! Taunt time! Their HP melts away, and if they whiff an ability, they get bonus pain AND Vulnerability. Double whammy! Objection? Overruled!",
+          "stats": {
+            "Key": "Q",
+            "Damage From Per Ability Missed": "60",
+            "Vulnerability Ration From Ability Missed": "10% for each stack. Up to 4 stacks.",
+            "Ability Duration": "8s",
+            "Damage Over Time": "25/s",
+            "Cooldown": "45s"
+          }
         }
       },
       {
@@ -3514,44 +3347,19 @@
           "Healing over Time": "Upon activation: 35/s; challenge completed: 70/s",
           "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
           "Cooldown": "45s"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Q",
-        "key_trans": {
-          "ko": "Q (궁극기)",
-          "ja": "Q (アルティメット)"
         },
-        "name": "POP QUIZ! - UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260116/83b33337-d2fb-4d39-929e-096c8aa53056.png",
-        "description": "Don't just stand there, you blockhead! The challenge's still rolling. But don't worry, I'm not one of those money-hungry scam artists. The buffs are on the house, no price hike. Take on this challenge, and you'll get three freebies: a little Speed boost, Continuous Healing, and Damage Up. Hit enough baddies with the right abilities exactly as I ask, and you unlock the ultimate bundle (Super Speed, Super Healing, Damage Boost AND reset all your cooldowns (except Healing Factor; no cheating!). Now THAT'S love",
-        "stats": {
-          "Key": "Q",
-          "Ability Duration": "The challenge lasts 12s. The buff lasts 8s after you complete it.",
-          "Healing over Time": "Upon activation: 30/s; challenge completed: 60/s",
-          "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
-          "Damage Boost": "Upon activation: 15%; challenge completed: 30%",
-          "Cooldown": "45s"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Q",
-        "key_trans": {
-          "ko": "Q (궁극기)",
-          "ja": "Q (アルティメット)"
-        },
-        "name": "SKILL ISSUE - UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260116/05a3bb0c-552b-48d5-9cd0-1f7e1e349923.png",
-        "description": "Dumbpoochu, I choose you! Taunt time! Their HP melts away, and if they whiff an ability, they get bonus pain AND Vulnerability. Double whammy! Objection? Overruled!",
-        "stats": {
-          "Key": "Q",
-          "Damage From Per Ability Missed": "60",
-          "Vulnerability Ration From Ability Missed": "10% for each stack. Up to 4 stacks.",
-          "Ability Duration": "8s",
-          "Damage Over Time": "25/s",
-          "Cooldown": "45s"
+        "upgrade": {
+          "name": "POP QUIZ! - UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260116/83b33337-d2fb-4d39-929e-096c8aa53056.png",
+          "description": "Don't just stand there, you blockhead! The challenge's still rolling. But don't worry, I'm not one of those money-hungry scam artists. The buffs are on the house, no price hike. Take on this challenge, and you'll get three freebies: a little Speed boost, Continuous Healing, and Damage Up. Hit enough baddies with the right abilities exactly as I ask, and you unlock the ultimate bundle (Super Speed, Super Healing, Damage Boost AND reset all your cooldowns (except Healing Factor; no cheating!). Now THAT'S love",
+          "stats": {
+            "Key": "Q",
+            "Ability Duration": "The challenge lasts 12s. The buff lasts 8s after you complete it.",
+            "Healing over Time": "Upon activation: 30/s; challenge completed: 60/s",
+            "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
+            "Damage Boost": "Upon activation: 15%; challenge completed: 30%",
+            "Cooldown": "45s"
+          }
         }
       },
       {
@@ -3573,48 +3381,21 @@
           "Self Damage Reduction": "20%",
           "Spell Field Damage": "15/s",
           "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m"
-        }
-      },
-      {
-        "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
         },
-        "name": "DEADPOOL IN YOUR AREA - DUELIST",
-        "icon": "https://r.res.easebar.com/pic/20260114/68c29f6d-a09c-45e0-8d88-4ee6bd767f6c.png",
-        "description": "True heroes taunt face-to-face! I roast nearby baddies, mess up their vision, and tank their hits like a boss. Try me!",
-        "stats": {
-          "Key": "E",
-          "Cooldown": "12s",
-          "Ability Duration": "5s",
-          "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
-          "Damage Needed to Remove the Disruption": "100",
-          "Self Damage Reduction": "20%",
-          "Spell Field Damage": "15/s",
-          "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m"
-        }
-      },
-      {
-        "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
-        },
-        "name": "DEADPOOL IN YOUR AREA - DUELIST UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/b43a5885-06d3-4e7f-a65a-862e8b0a75b8.png",
-        "description": "Check out the best trash talk in the Chronoverse! Keep taunting and melting their HP! I even block their screen, so they can't see squat. Plus, I tank hits like a champ. Enemies that stick around too long get the bottom of their screen taped up. By the end, they won't even find their health bar and whatnot. Good luck fighting what you can't see, suckers!",
-        "stats": {
-          "Key": "E",
-          "Cooldown": "12s",
-          "Ability Duration": "5s",
-          "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
-          "Damage Needed to Remove the Disruption": "100",
-          "Self Damage Reduction": "35%",
-          "Spell Field Damage": "15/s",
-          "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m"
+        "upgrade": {
+          "name": "DEADPOOL IN YOUR AREA - DUELIST UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/b43a5885-06d3-4e7f-a65a-862e8b0a75b8.png",
+          "description": "Check out the best trash talk in the Chronoverse! Keep taunting and melting their HP! I even block their screen, so they can't see squat. Plus, I tank hits like a champ. Enemies that stick around too long get the bottom of their screen taped up. By the end, they won't even find their health bar and whatnot. Good luck fighting what you can't see, suckers!",
+          "stats": {
+            "Key": "E",
+            "Cooldown": "12s",
+            "Ability Duration": "5s",
+            "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
+            "Damage Needed to Remove the Disruption": "100",
+            "Self Damage Reduction": "35%",
+            "Spell Field Damage": "15/s",
+            "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m"
+          }
         }
       },
       {
@@ -3626,21 +3407,6 @@
         },
         "name": "UPGRADE!",
         "icon": "https://r.res.easebar.com/pic/20260114/b0d6febd-72f5-45ad-8ed4-801c869b8959.png",
-        "description": "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!",
-        "stats": {
-          "Key": "F",
-          "Special Effect": "Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts."
-        }
-      },
-      {
-        "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "UPGRADE!",
-        "icon": "https://r.res.easebar.com/pic/20260114/0cf9ba9a-131e-4460-9205-2acfb9fdad48.png",
         "description": "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!",
         "stats": {
           "Key": "F",
@@ -3663,24 +3429,6 @@
           "Bonus Health": "25, up to 50",
           "Cooldown": "6s",
           "Special Effect": "Refresh the cooldown if it hits an enemy."
-        }
-      },
-      {
-        "type": 2,
-        "key": "Space",
-        "key_trans": {
-          "ko": "Space",
-          "ja": "Space"
-        },
-        "name": "BUNNY HOP",
-        "icon": "https://r.res.easebar.com/pic/20260114/61987493-d453-45cc-8f8b-6da0078b21ea.png",
-        "description": "Hippity-hoppity, Deadpool's on your property! Watch me squeeze in a second jump midair! Hop on heads or kick off walls with Bunny Hop to refresh the cooldown, and if I land on someone? Free health for me, and a headache for them. Whee!",
-        "stats": {
-          "Key": "Space",
-          "Damage": "25",
-          "Bonus Health": "25, up to 50",
-          "Cooldown": "6s",
-          "Special Effect": "Refresh the cooldown if it hits an enemy or an ally. Transform the next katana base attack to a Stab."
         }
       },
       {
@@ -3714,69 +3462,6 @@
         "stats": {
           "Key": "Passive",
           "Special Effect": "The ultimate ability can be unleashed after reaching an S rating. The rating is cleared if Deadpool is defeated."
-        }
-      },
-      {
-        "type": 3,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "Comical Chaos",
-        "icon": "https://r.res.easebar.com/pic/20260116/7ff581ee-1f52-4aae-97a8-37f03509c681.png",
-        "description": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!",
-        "stats": {
-          "Key": "Passive",
-          "Team-Up Bonus": "5% Damage Boost"
-        }
-      },
-      {
-        "type": 2,
-        "key": "PASSIVE",
-        "key_trans": {
-          "ko": "PASSIVE",
-          "ja": "PASSIVE"
-        },
-        "name": "HEALING FACTOR",
-        "icon": "https://r.res.easebar.com/pic/20260114/d6633d77-4996-4afb-9640-29af2ad835f5.png",
-        "description": "Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains",
-        "stats": {
-          "Key": "PASSIVE",
-          "Healing over Time": "25/s",
-          "Healing over Time from Activated Healing Factor": "50/s",
-          "Cooldown": "45s",
-          "Special Effect": "The healing factor kicks in after Deadpool has been out of combat for 5s. If Deadpool takes more than 200 damage within a two-second window, the healing factor activates and boosts the healing"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "MAXIMUM FLAIR",
-        "icon": "https://r.res.easebar.com/pic/20260114/13385900-a033-4e64-bf97-f8adac56bbea.png",
-        "description": "Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!",
-        "stats": {
-          "Key": "Passive",
-          "Special Effect": "The ultimate ability can be unleashed after reaching an S rating. The rating is cleared if Deadpool is defeated."
-        }
-      },
-      {
-        "type": 3,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "Comical Chaos",
-        "icon": "https://r.res.easebar.com/pic/20260116/7ff581ee-1f52-4aae-97a8-37f03509c681.png",
-        "description": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!",
-        "stats": {
-          "Key": "Passive",
-          "Team-Up Bonus": "5% Damage Boost"
         }
       },
       {
@@ -3924,6 +3609,24 @@
           "Healing": "45 per round",
           "Fire Rate": "2.5 rounds per second",
           "Ammo": "30"
+        },
+        "upgrade": {
+          "name": "DUAL DESERT EAGLES - STRATEGIST UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/78599d08-a3e3-40a7-a163-59e4135f91f9.png",
+          "description": "I rack up shots, then, BOOM! A mind-blowing bubble bomb for all the enemies. Teammate security: maximum",
+          "stats": {
+            "Key": "Left Click",
+            "Beam Damage": "28",
+            "Beam Healing": "50",
+            "Beam Attack Interval": "2.5 rounds per second",
+            "Ammo": "40",
+            "Projectile Attack Interval": "After every 5 beam bullets fired, the next shot fires 1 additional projectile",
+            "Projectile Speed": "60 m/s",
+            "Projectile Healing": "15",
+            "Spell Field Healing": "40",
+            "Spell Field Damage": "20",
+            "Spell Field Range": "3m radius spherical spell field"
+          }
         }
       },
       {
@@ -3944,49 +3647,19 @@
           "Maximum Distance": "4m",
           "Healing Spell Field Range": "5m radius spherical spell field",
           "Healing Amount": "32"
-        }
-      },
-      {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
         },
-        "name": "DUAL DESERT EAGLES - STRATEGIST UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/78599d08-a3e3-40a7-a163-59e4135f91f9.png",
-        "description": "I rack up shots, then, BOOM! A mind-blowing bubble bomb for all the enemies. Teammate security: maximum",
-        "stats": {
-          "Key": "Left Click",
-          "Beam Damage": "28",
-          "Beam Healing": "50",
-          "Beam Attack Interval": "2.5 rounds per second",
-          "Ammo": "40",
-          "Projectile Attack Interval": "After every 5 beam bullets fired, the next shot fires 1 additional projectile",
-          "Projectile Speed": "60 m/s",
-          "Projectile Healing": "15",
-          "Spell Field Healing": "40",
-          "Spell Field Damage": "20",
-          "Spell Field Range": "3m radius spherical spell field"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
-        },
-        "name": "KICK@$$ KATANA - STRATEGIST UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/351cd1a6-3b7e-4bd8-93b2-8f672d1528c6.png",
-        "description": "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Healing Hop hit makes the next swing a stabby special",
-        "stats": {
-          "Key": "Left Click",
-          "Damage": "35 per hit",
-          "Attack Interval": "First strike: 0.5s; second strike: 0.43s; third strike: 0.5s",
-          "Maximum Distance": "4m",
-          "Healing Spell Field Range": "8m radius spherical spell field",
-          "Healing Amount": "35"
+        "upgrade": {
+          "name": "KICK@$$ KATANA - STRATEGIST UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/351cd1a6-3b7e-4bd8-93b2-8f672d1528c6.png",
+          "description": "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Healing Hop hit makes the next swing a stabby special",
+          "stats": {
+            "Key": "Left Click",
+            "Damage": "35 per hit",
+            "Attack Interval": "First strike: 0.5s; second strike: 0.43s; third strike: 0.5s",
+            "Maximum Distance": "4m",
+            "Healing Spell Field Range": "8m radius spherical spell field",
+            "Healing Amount": "35"
+          }
         }
       },
       {
@@ -4010,6 +3683,23 @@
           "Spell Field Range": "4m spherical radius spell field",
           "Spell Field Duration": "1s",
           "Cooldown": "8s"
+        },
+        "upgrade": {
+          "name": "BOUNCING BOBBLEHEAD - STRATEGIST UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260116/a0174fbe-7018-46bf-b960-9b88bbbbf227.png",
+          "description": "My ultra-cool, super shiny, extra huggable, and totally blinged-out plushy. Toss it ahead, and it lands as an invincible sphere of awesomeness! Blocking attacks and keeping my team safe inside our furry fortress",
+          "stats": {
+            "Key": "Right Click",
+            "Projectile Damage": "Unleash: 25; return: 20",
+            "Projectile Healing": "Unleash: 45; return: 30",
+            "Projectile Speed": "80m/s",
+            "Spell Field Damage": "10/s",
+            "Spell Field Healing": "55/s",
+            "Third Unleash Explosion Damage": "20",
+            "Third Unleash Explosion Healing": "70",
+            "Spell Field Duration": "First unleash: 1s; second unleash: 1s; third unleash: 2s",
+            "Cooldown": "8s"
+          }
         }
       },
       {
@@ -4029,49 +3719,20 @@
           "Dash Duration": "Up to 12m",
           "Healing Amount": "45",
           "Healing Spell Field Range": "5m spherical radius spell field"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
         },
-        "name": "HEALING HIJINKS - STRATEGIST UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/dec06e87-6750-4796-91bf-a77d08cb8ce9.png",
-        "description": "Watch this pro bodyguard in action! I dash forward, nail the bad guy, and bounce in any direction I want. Oh, and I can do this two more times real quick!",
-        "stats": {
-          "Key": "Right Click",
-          "Cooldown": "2 charges, with each charge taking 10s to recharge.",
-          "Special Effect": "Refresh the cooldown if it hits an enemy for up to 2 times. Deadpool bounces as the ability hits an enemy.",
-          "Damage": "40",
-          "Dash Duration": "Up to 12m",
-          "Healing Spell Field Range": "8m radius spherical spell field",
-          "Healing Amount": "55"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
-        },
-        "name": "BOUNCING BOBBLEHEAD - STRATEGIST UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260116/a0174fbe-7018-46bf-b960-9b88bbbbf227.png",
-        "description": "My ultra-cool, super shiny, extra huggable, and totally blinged-out plushy. Toss it ahead, and it lands as an invincible sphere of awesomeness! Blocking attacks and keeping my team safe inside our furry fortress",
-        "stats": {
-          "Key": "Right Click",
-          "Projectile Damage": "Unleash: 25; return: 20",
-          "Projectile Healing": "Unleash: 45; return: 30",
-          "Projectile Speed": "80m/s",
-          "Spell Field Damage": "10/s",
-          "Spell Field Healing": "55/s",
-          "Third Unleash Explosion Damage": "20",
-          "Third Unleash Explosion Healing": "70",
-          "Spell Field Duration": "First unleash: 1s; second unleash: 1s; third unleash: 2s",
-          "Cooldown": "8s"
+        "upgrade": {
+          "name": "HEALING HIJINKS - STRATEGIST UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/dec06e87-6750-4796-91bf-a77d08cb8ce9.png",
+          "description": "Watch this pro bodyguard in action! I dash forward, nail the bad guy, and bounce in any direction I want. Oh, and I can do this two more times real quick!",
+          "stats": {
+            "Key": "Right Click",
+            "Cooldown": "2 charges, with each charge taking 10s to recharge.",
+            "Special Effect": "Refresh the cooldown if it hits an enemy for up to 2 times. Deadpool bounces as the ability hits an enemy.",
+            "Damage": "40",
+            "Dash Duration": "Up to 12m",
+            "Healing Spell Field Range": "8m radius spherical spell field",
+            "Healing Amount": "55"
+          }
         }
       },
       {
@@ -4092,6 +3753,20 @@
           "Healing From Per Ability Missed": "80 per ability missed",
           "Healing Spell Field Range": "8m radius spherical spell field",
           "Cooldown": "60s"
+        },
+        "upgrade": {
+          "name": "PWNAGE POUND - UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260116/f6c942a1-e1fd-4360-beda-fc4f62ceb0e0.png",
+          "description": "Upgraded courtroom drama! Congrats, unlucky one! You're my pick; enjoy the taunt! I score bonus health and healing, and you take ongoing damage. If you miss an ability while court is in session, it's a double whammy. You get more pain, AND I get more extra HP! Thanks in advance!",
+          "stats": {
+            "Key": "Q",
+            "Damage From Per Ability Missed": "60",
+            "Ability Duration": "8s",
+            "Healing Over Time": "100/s",
+            "Healing From Per Ability Missed": "90 per ability missed",
+            "Healing Spell Field Range": "8m radius spherical spell field",
+            "Cooldown": "60s"
+          }
         }
       },
       {
@@ -4110,45 +3785,19 @@
           "Healing Amount": "Upon activation: 70/s; challenge completed: 100/s",
           "Healing Spell Field Range": "8m radius spherical spell field",
           "Cooldown": "60s"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Q",
-        "key_trans": {
-          "ko": "Q (궁극기)",
-          "ja": "Q (アルティメット)"
         },
-        "name": "FINAL EXAM - UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260116/070f508b-a481-4fb2-8304-46bd0f690137.png",
-        "description": "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs(massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!",
-        "stats": {
-          "Key": "Q",
-          "Ability Duration": "The challenge lasts 12s. The buff lasts 8s after you complete it.",
-          "Healing Amount": "80/s upon activation; 120/s after completing the challenge",
-          "Healing Spell Field Range": "8m radius spherical spell field",
-          "Bonus Health from Completing the Challenge": "300",
-          "Cooldown": "60s"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Q",
-        "key_trans": {
-          "ko": "Q (궁극기)",
-          "ja": "Q (アルティメット)"
-        },
-        "name": "PWNAGE POUND - UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260116/f6c942a1-e1fd-4360-beda-fc4f62ceb0e0.png",
-        "description": "Upgraded courtroom drama! Congrats, unlucky one! You're my pick; enjoy the taunt! I score bonus health and healing, and you take ongoing damage. If you miss an ability while court is in session, it's a double whammy. You get more pain, AND I get more extra HP! Thanks in advance!",
-        "stats": {
-          "Key": "Q",
-          "Damage From Per Ability Missed": "60",
-          "Ability Duration": "8s",
-          "Healing Over Time": "100/s",
-          "Healing From Per Ability Missed": "90 per ability missed",
-          "Healing Spell Field Range": "8m radius spherical spell field",
-          "Cooldown": "60s"
+        "upgrade": {
+          "name": "FINAL EXAM - UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260116/070f508b-a481-4fb2-8304-46bd0f690137.png",
+          "description": "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs(massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!",
+          "stats": {
+            "Key": "Q",
+            "Ability Duration": "The challenge lasts 12s. The buff lasts 8s after you complete it.",
+            "Healing Amount": "80/s upon activation; 120/s after completing the challenge",
+            "Healing Spell Field Range": "8m radius spherical spell field",
+            "Bonus Health from Completing the Challenge": "300",
+            "Cooldown": "60s"
+          }
         }
       },
       {
@@ -4170,49 +3819,22 @@
           "Spell Field Damage": "10/s",
           "Spell Field Healing": "60/s",
           "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m"
-        }
-      },
-      {
-        "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
         },
-        "name": "DEADPOOL IN YOUR AREA - STRATEGIST",
-        "icon": "https://r.res.easebar.com/pic/20260114/10363965-15e5-4296-8132-9732627c1c8f.png",
-        "description": "Want to hurt my team? Good luck! I hit you with a taunt, mess up your vision, and burn your health nonstop! Best part: my swords and guns go full turbo for the duration. Blink and you'll miss it",
-        "stats": {
-          "Key": "E",
-          "Cooldown": "12s",
-          "Ability Duration": "5s",
-          "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
-          "Damage Needed to Remove the Disruption": "100",
-          "Spell Field Damage": "10/s",
-          "Spell Field Healing": "60/s",
-          "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m"
-        }
-      },
-      {
-        "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
-        },
-        "name": "DEADPOOL IN YOUR AREA - STRATEGIST UPGRADED",
-        "icon": "https://r.res.easebar.com/pic/20260114/cf86463c-760f-4bbf-9dda-f45465f9872a.png",
-        "description": "Teammates, stay safe! Dummies, look here! It's showtime: I taunt, blind you, and hit warp speed with my swords and guns. Plus, my crew gets a damage reduction buff, so they're basically invincible. Dummies that stick around too long will even have their UI taped over!",
-        "stats": {
-          "Key": "E",
-          "Cooldown": "12s",
-          "Ability Duration": "5s",
-          "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
-          "Damage Needed to Remove the Disruption": "100",
-          "Spell Field Healing": "70/s",
-          "Spell Field Damage": "10/s",
-          "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m.",
-          "Damage Boost": "20%"
+        "upgrade": {
+          "name": "DEADPOOL IN YOUR AREA - STRATEGIST UPGRADED",
+          "icon": "https://r.res.easebar.com/pic/20260114/cf86463c-760f-4bbf-9dda-f45465f9872a.png",
+          "description": "Teammates, stay safe! Dummies, look here! It's showtime: I taunt, blind you, and hit warp speed with my swords and guns. Plus, my crew gets a damage reduction buff, so they're basically invincible. Dummies that stick around too long will even have their UI taped over!",
+          "stats": {
+            "Key": "E",
+            "Cooldown": "12s",
+            "Ability Duration": "5s",
+            "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
+            "Damage Needed to Remove the Disruption": "100",
+            "Spell Field Healing": "70/s",
+            "Spell Field Damage": "10/s",
+            "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m.",
+            "Damage Boost": "20%"
+          }
         }
       },
       {
@@ -4232,21 +3854,6 @@
       },
       {
         "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "UPGRADE!",
-        "icon": "https://r.res.easebar.com/pic/20260114/d628f429-4396-4fea-89bb-c9367cec8478.png",
-        "description": "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!",
-        "stats": {
-          "Key": "F",
-          "Special Effect": "Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts."
-        }
-      },
-      {
-        "type": 2,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -4255,24 +3862,6 @@
         "name": "HEALING HOP",
         "icon": "https://r.res.easebar.com/pic/20260114/ed8221fc-11a3-48a6-bfe8-03d37528203a.png",
         "description": "Yup, I can double jump in midair! During The Big Test and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!",
-        "stats": {
-          "Key": "Space",
-          "Damage": "25",
-          "Healing": "35",
-          "Cooldown": "6s",
-          "Special Effect": "Refresh the cooldown if it hits an enemy or an ally. Transform the next katana base attack to a Stab."
-        }
-      },
-      {
-        "type": 2,
-        "key": "Space",
-        "key_trans": {
-          "ko": "Space",
-          "ja": "Space"
-        },
-        "name": "HEALING HOP",
-        "icon": "https://r.res.easebar.com/pic/20260114/d86afade-9135-4cbd-87d0-18d484cf7556.png",
-        "description": "Yup, I can double jump in midair! During Final Exam and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!",
         "stats": {
           "Key": "Space",
           "Damage": "25",
@@ -4312,69 +3901,6 @@
         "stats": {
           "Key": "Passive",
           "Special Effect": "The ultimate ability can be unleashed after reaching an S rating. The rating is cleared if Deadpool is defeated."
-        }
-      },
-      {
-        "type": 3,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "Comical Chaos",
-        "icon": "https://r.res.easebar.com/pic/20260116/7ff581ee-1f52-4aae-97a8-37f03509c681.png",
-        "description": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!",
-        "stats": {
-          "Key": "Passive",
-          "Team-Up Bonus": "+5% Healing Bonus"
-        }
-      },
-      {
-        "type": 2,
-        "key": "PASSIVE",
-        "key_trans": {
-          "ko": "PASSIVE",
-          "ja": "PASSIVE"
-        },
-        "name": "HEALING FACTOR",
-        "icon": "https://r.res.easebar.com/pic/20260114/257f524b-d3e0-438f-b7cc-01b8a2f7efdc.png",
-        "description": "Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains",
-        "stats": {
-          "Key": "PASSIVE",
-          "Healing over Time": "25/s",
-          "Healing over Time from Activated Healing Factor": "50/s",
-          "Cooldown": "30s",
-          "Special Effect": "The healing factor kicks in after Deadpool has been out of combat for 5s. If Deadpool takes more than 200 damage within a two-second window, the healing factor activates and boosts the healing"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "MAXIMUM FLAIR",
-        "icon": "https://r.res.easebar.com/pic/20260114/7f9679be-20c5-48d5-b232-7ba2172b04b9.png",
-        "description": "Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!",
-        "stats": {
-          "Key": "Passive",
-          "Special Effect": "The ultimate ability can be unleashed after reaching an S rating. The rating is cleared if Deadpool is defeated"
-        }
-      },
-      {
-        "type": 3,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "Comical Chaos",
-        "icon": "https://r.res.easebar.com/pic/20260116/7ff581ee-1f52-4aae-97a8-37f03509c681.png",
-        "description": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!",
-        "stats": {
-          "Key": "Passive",
-          "Team-Up Bonus": "+5% Healing Bonus"
         }
       },
       {

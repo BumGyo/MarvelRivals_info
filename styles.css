@@ -845,12 +845,86 @@ body {
   background: var(--bg-secondary);
 }
 
-.skill-header-text h3 {
+.skill-header-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.skill-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.skill-title-row h3 {
   font-family: var(--font-display);
   font-size: 20px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 4px;
+  margin: 0;
+  word-break: break-word;
+}
+
+/* Upgrade Star Toggle Button */
+.skill-upgrade-star-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  padding: 4px 12px;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  transition: all var(--transition-fast);
+  backdrop-filter: blur(8px);
+  user-select: none;
+  flex-shrink: 0;
+}
+
+.skill-upgrade-star-btn:hover {
+  background: rgba(245, 180, 50, 0.12);
+  border-color: rgba(245, 180, 50, 0.5);
+  color: #fff;
+  transform: translateY(-1px) scale(1.03);
+}
+
+.skill-upgrade-star-btn .star-icon {
+  font-size: 16px;
+  line-height: 1;
+  color: #94a3b8;
+  transition: transform var(--transition-bounce), color var(--transition-fast);
+}
+
+.skill-upgrade-star-btn:hover .star-icon {
+  color: var(--accent-gold);
+}
+
+/* Star Button Active / Upgraded State */
+.skill-upgrade-star-btn.active {
+  background: linear-gradient(135deg, rgba(245, 180, 50, 0.22), rgba(255, 140, 0, 0.22));
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+  box-shadow: 0 0 16px rgba(245, 180, 50, 0.4);
+}
+
+.skill-upgrade-star-btn.active .star-icon {
+  color: #ffd700;
+  transform: scale(1.25) rotate(72deg);
+  filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.85));
+}
+
+.skill-tags-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .key-tag {
@@ -862,6 +936,26 @@ body {
   font-weight: 700;
   padding: 2px 8px;
   border-radius: 4px;
+}
+
+.upgraded-pill-tag {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(245, 180, 50, 0.2), rgba(255, 100, 0, 0.2));
+  color: #ffd700;
+  border: 1px solid rgba(245, 180, 50, 0.5);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(245, 180, 50, 0.25);
+  animation: pulseUpgrade 2s infinite ease-in-out;
+}
+
+@keyframes pulseUpgrade {
+  0%, 100% { box-shadow: 0 0 6px rgba(245, 180, 50, 0.2); }
+  50% { box-shadow: 0 0 14px rgba(245, 180, 50, 0.5); }
 }
 
 .skill-desc-box {
