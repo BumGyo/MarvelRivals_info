@@ -1,0 +1,905 @@
+{
+  "ANGELA": [
+    {
+      "key": "Left Click",
+      "name": "Spear of Ichors",
+      "desc": "Lunge forward with your spear, dealing damage that increases with Attack Charge. At full charge, Spear of Ichor can launch up enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Axes Of Ichors",
+      "desc": "Alternate powerful strikes forward with twin axes, dealing increased damage as Attack Charge grows. The fourth strike propels you forward in a swift dash",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "SHIELDED STANCE",
+      "desc": "Transform Ichors into a shield, gaining Attack Charge when absorbing damage",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Heven's Retribution",
+      "desc": "Wrap your spear in ribbons and hurl it with force. Upon impact, the ribbons bind nearby enemies. Angela can leap to the spear's location, damaging surrounding enemies and creating a Divine Judgement Zone",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Assassin's Charge",
+      "desc": "Enter an accelerated dash state,  enemies struck head-on are carried through the air for a short distance",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Divine Judgement",
+      "desc": "Dive downward, switch to twin axes and infuse the ground with Ichors to create a Divine Judgement Zone upon impact. Within the zone, gain enhanced Speed and attacks grant Bonus Health to self and nearby allies",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Wingblade Ascent",
+      "desc": "Take to the skies, switching back to Spear of Ichors",
+      "upgrade": null
+    },
+    {
+      "key": "PASSIVE",
+      "name": "Seraphic Soar",
+      "desc": "Glide freely through the air. Continuous flight builds Attack Charge",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Celestial Command",
+      "desc": "Angela shares fragments of her Ichors with Thor, empowering him to hurl a Thunder Spear that restores Thorforce for each enemy struck. Afterward, Thor can leap to the spear's explosion point, dealing a second wave of damage to all enemies within range",
+      "upgrade": null
+    }
+  ],
+  "CAPTAIN AMERICA": [
+    {
+      "key": "Left Click",
+      "name": "Sentinel Strike",
+      "desc": "Get up close to strike enemies. Landing the second hit enables a shield throw that can ricochet four times",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Super-Soldier Slam",
+      "desc": "Slam down from the sky onto the targeted area, Launching Up enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Living Legend",
+      "desc": "Raise the shield to deflect incoming projectiles, sending them ricocheting in random directions",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Freedom Charge",
+      "desc": "Shield held high, carve a path forward, granting both himself and allies along the path continuous Bonus Health and Movement Boosts. Allies also gain Ultimate Ability Charge Acceleration. Using Living Legend and Leading Dash while this ability is active can Launch Up enemies",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Leading Dash",
+      "desc": "Boost speed and enable Fearless Leap to leap into the air",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Vibranium Energy Saw",
+      "desc": "Hurl the energy-charged shield to strike enemies in a path",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Liberty Rush",
+      "desc": "Raise the shield and charge forward",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "VIBRANIUM BASTION",
+      "desc": "Black Cat shares her luck with her allies. When White Fox embraces her newfound fortune, she unleashestracking Spirit Tails to grant Healing and Speed to allies, while damaging and Slowing foes. When Captain America enjoys his luck, his shield's block radius expands and allows him to aim deflectedProjectiles directly toward his target",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Captain's Spirit",
+      "desc": "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to deal damage to nearby foes. Additionally, Captain America and Winter Soldier can interact with each other once both parties confirm. The duo collides and unleashes a shockwave that deals damage and inflicts slow on enemies",
+      "upgrade": null
+    }
+  ],
+  "DEADPOOL (VANGUARD)": [
+    {
+      "key": "Left Click",
+      "name": "DUAL DESERT EAGLES - VANGUARD",
+      "desc": "Nobody lays a finger on my teammates! Anyone tries, and I'm firing these big boy bullets straight at their face!",
+      "upgrade": {
+        "name": "DUAL DESERT EAGLES - VANGUARD UPGRADED",
+        "desc": "I rack up shots, then, BOOM! A mind-blowing bubble bomb for all the enemies. Teammate security: maximum"
+      }
+    },
+    {
+      "key": "Left Click",
+      "name": "KICK@$$ KATANA - VANGUARD",
+      "desc": "Protecting my team means my katanas go full savage. No mercy for the baddies!",
+      "upgrade": {
+        "name": "KICK@$$ KATANA - VANGUARD UPGRADED",
+        "desc": "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Bad Bunny hit makes the next swing a stabby special"
+      }
+    },
+    {
+      "key": "Right Click",
+      "name": "MAGICAL UNICORN SHIELD!",
+      "desc": "Plushie power! It stops every single attack those chumps throw, giving my team a safety bubble. It's cute AND bulletproof",
+      "upgrade": {
+        "name": "MAGICAL UNICORN SHIELD! - UPGRADED",
+        "desc": "My ultra-cool, super shiny, extra huggable, and totally blinged-out plushy. Toss it ahead, and it lands as an invincible sphere of awesomeness! Blocking attacks and keeping my team safe inside our furry fortress"
+      }
+    },
+    {
+      "key": "Right Click",
+      "name": "HAZARDOUS HIJINKS - VANGUARD",
+      "desc": "Try getting to my teammates, I dare you! My dash slash knocks fools down, and if I hit, I get to do it again. Up to three times, baby!",
+      "upgrade": {
+        "name": "HAZARDOUS HIJINKS - VANGUARD UPGRADED",
+        "desc": "Watch this pro bodyguard in action! I dash forward, nail the bad guy, and bounce in any direction I want. Oh, and I can do this two more times real quick!"
+      }
+    },
+    {
+      "key": "Q",
+      "name": "THE BAN HAMMER",
+      "desc": "You! Yeah, you - the hyper one! Eyes off my friends. I sentence you to...whatever! Get ready to be taunted. I get bonus HP and healing, and if you whiff your abilities, you take damage, and I get even more HP!",
+      "upgrade": {
+        "name": "THE BAN HAMMER - UPGRADED",
+        "desc": "Upgraded courtroom drama! Congrats, unlucky one! You're my pick; enjoy the taunt! I score bonus health and healing, and you take ongoing damage. If you miss an ability while court is in session, it's a double whammy. You get more pain, AND I get more extra HP! Thanks in advance!"
+      }
+    },
+    {
+      "key": "Q",
+      "name": "THE BIG TEST",
+      "desc": "Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Hazardous Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!",
+      "upgrade": {
+        "name": "THE BIG TEST - UPGRADED",
+        "desc": "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs (massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!"
+      }
+    },
+    {
+      "key": "E",
+      "name": "DEADPOOL IN YOUR AREA - VANGUARD",
+      "desc": "Want to hurt my team? Good luck! I hit you with a taunt, mess up your vision, and burn your health nonstop! Best part: my swords and guns go full turbo for the duration. Blink and you'll miss it",
+      "upgrade": {
+        "name": "DEADPOOL IN YOUR AREA - VANGUARD UPGRADED",
+        "desc": "Teammates, stay safe! Dummies, look here! It's showtime: I taunt, blind you, and hit warp speed with my swords and guns. Plus, my crew gets a damage reduction buff, so they're basically invincible. Dummies that stick around too long will even have their UI taped over!"
+      }
+    },
+    {
+      "key": "F",
+      "name": "UPGRADE!",
+      "desc": "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "BUNNY BOUNCE",
+      "desc": "Yup, I can double jump in midair! During The Big Test and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!",
+      "upgrade": null
+    },
+    {
+      "key": "PASSIVE",
+      "name": "HEALING FACTOR",
+      "desc": "Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "MAXIMUM FLAIR",
+      "desc": "Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Comical Chaos",
+      "desc": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!",
+      "upgrade": null
+    }
+  ],
+  "DEVIL DINOSAUR": [
+    {
+      "key": "Left Click",
+      "name": "Primal Bite",
+      "desc": "Bite forward. Applies a Bleed that deals continuous Percentage Damage",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Impact Beam",
+      "desc": "Unleash a devastating beam of energy that inflicts a Bleed and Slow.",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Devil-Beast Rampage",
+      "desc": "Erupt in primal fury! Gain a massive Movement Speed Boost while unleashing earth-shattering stomps that Launch enemies and applies a Bleed. Thunderous roars also emit sonic waves that Slow enemies hit",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Savage Predation",
+      "desc": "Dash and pounce on your prey with a vicious bite, applying a Bleed. If the target is already Bleeding, clamp down before hurling them away",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Buddy Barrier",
+      "desc": "Activate the heart-shaped generator to expand a spherical shield that blocks incoming damage. Enemies caught within are Slowed",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Frenzied Feast",
+      "desc": "Unleash a flurry of continuous bites, converting the damage dealt into Bonus Health. Deals extra damage against Bleeding targets",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Prehistoric Plating",
+      "desc": "Take reduced damage from headshots. Immune to launch-up, knock-back, and other displacement effects. Enemies and allies generate less Ultimate Ability Energy when damaging or healing him",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Apex Advantage",
+      "desc": "Gain Bonus Health when you inflict Bleeding upon an enemy",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Prehistoric Partner",
+      "desc": "The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher",
+      "upgrade": null
+    }
+  ],
+  "DOCTOR STRANGE": [
+    {
+      "key": "Left Click",
+      "name": "Daggers of Denak",
+      "desc": "Cast Daggers of Denak forward",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Shield of the Seraphim",
+      "desc": "Create a protective barrier against damage",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Eye of Agamotto",
+      "desc": "Separate nearby enemies' Souls from their bodies. Damage dealt to these Souls is transferred to their physical bodies",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Cloak of Levitation",
+      "desc": "Ascend and then enter a brief state of sustained flight",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Maelstrom of Madness",
+      "desc": "Release Dark Magic to deal damage to nearby enemies",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "PSIONIC VORTEX",
+      "desc": "Invisible Woman enhances Doctor Strange's Maelstrom of Madness with a psionic explosion. The explosion damages and pulls enemies toward Doctor Strange. Based on the explosion's damage, Doctor Strange and nearby allies gain Bonus Health",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Pentagram of Farallah",
+      "desc": "Open portals between two locations, enabling all units to travel through them",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Price of Magic",
+      "desc": "Dark Magic accumulates with every hit on an enemy. If Dark Magic peaks for too long, Doctor Strange will be cursed with Anti-Heal",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Enchanted Enhancement",
+      "desc": "Doctor Strange shares his arcane mastery, replacing Scarlet Witch's Chthonian Burst with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction",
+      "upgrade": null
+    }
+  ],
+  "Emma Frost": [
+    {
+      "key": "Left Click",
+      "name": "TELEPATHIC PULSE",
+      "desc": "Fire a psionic beam to deal damage; the longer the beam hits, the higher the damage",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "FACETED FURY",
+      "desc": "In Diamond Form, deliver a crushing double-fisted strike to enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "MIND'S AEGIS",
+      "desc": "Create a levitating barrier at the designated location",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "CRYSTAL KICK",
+      "desc": "In Diamond Form, unleash a flying kick forward and knock back enemies; extra damage is dealt if they're propelled into a wall",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "PSIONIC SEDUCTION",
+      "desc": "Project a forward psychic assault that stuns foes and prevents them from unleashing their Ultimate Abilities; if the effect lingers, it gradually commandeers their mind, forcing them to move toward Emma Frost",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "DIAMOND FORM",
+      "desc": "Activate Diamond Form to transform your attack style while gaining Damage Reduction and becoming Unstoppable",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "PSYCHIC SPEAR",
+      "desc": "Seize control of an enemy's sentience—damage dealt to the sentience cascades to the physical form and can be pierced by Telepathic Pulse. When the sentience shatters, it unleashes extra damage on its owner",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "CARBON CRUSH",
+      "desc": "In Diamond Form, lunge forward to grab an enemy, then execute a back slam to inflict damage",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "ICED OUT DIAMOND",
+      "desc": "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates Harmony Recovery, he can heal nearby allies with Lunar Chi. Emma Frost can project ice energy forward, dealing damage and slowing enemies. She can also enhance her diamond form, condensing frost into an Absolute Zero Diamond barrier that blocks enemy attacks and movement",
+      "upgrade": null
+    }
+  ],
+  "GROOT": [
+    {
+      "key": "Left Click",
+      "name": "Vine Strike",
+      "desc": "Launch vines to attack enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Spore Bomb",
+      "desc": "Throw an explosive Spore Bomb that splits into multiple small explosive spores",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Strangling Prison",
+      "desc": "Fire a massive vine cluster that pulls nearby enemies to its center and Imprisons them",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Thornlash Wall",
+      "desc": "Target a location and grow a Thornlash Wall. When Awakened, it strikes nearby enemies attacked by Groot and his allies",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Ironwood Wall",
+      "desc": "Target a location and grow an Ironwood Wall. When the wall is Awakened, damage dealt by Groot and nearby allies grants Groot Bonus Health. Groot gains Unstoppable while near Ironwood Walls",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Wild Wall",
+      "desc": "Mantis enhances Groot's wooden walls and Loki's Rune Stones with life energy. Groot can additionally unleash a Flower Wall, which, when in Flora Colossus state, restores health to random nearby allies and grants them Damage Reduction. Loki's Rune Stones grant allies within Regeneration Domain a Damage Boost",
+      "upgrade": null
+    },
+    {
+      "key": "V",
+      "name": "Furious Flora",
+      "desc": "Perform a combo with his arms, and the third strike will slightly Launch Up the hit enemy airborne",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Flora Colossus",
+      "desc": "Wooden walls near Groot will Awaken, activating an extra effect. Right-click while building a wooden wall to continue building additional walls",
+      "upgrade": null
+    }
+  ],
+  "HULK": [
+    {
+      "key": "Left Click",
+      "name": "Gamma Ray Gun",
+      "desc": "Fire with a Gamma Ray Gun",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Heavy Blow",
+      "desc": "Swing fists forward to punch enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Heavy Blow",
+      "desc": "Swing fists forward to punch and launch up enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Gamma Burst",
+      "desc": "Emit gamma-ray bursts to inflict damage. Reduce Indestructible Guard cooldown upon hit",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Gamma Burst",
+      "desc": "Emit gamma-ray bursts to inflict damage",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Puny Banner",
+      "desc": "Transform from Bruce Banner into Hero Hulk",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "HULK SMASH!",
+      "desc": "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "World Breaker",
+      "desc": "Grab and smash the enemy in front",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Gamma Grenade",
+      "desc": "Launch a Gamma Grenade to inflict damage and Launch Up enemies",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Indestructible Guard",
+      "desc": "Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for HULK SMASH",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Radioactive Lockdown",
+      "desc": "Emit gamma energy to irradiate enemies and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Radioactive Lockdown",
+      "desc": "Emit gamma energy to irradiate enemies and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Gamma Fastball",
+      "desc": "Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Gamma Fastball",
+      "desc": "Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Incredible Leap",
+      "desc": "HOLD Space to perform a charged leap that allows Hero Hulk to Knock a flying enemy to the ground",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Incredible Leap",
+      "desc": "HOLD Space to perform a charged leap that allows Monster Hulk to Knock a flying enemy to the ground",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Gamma Boost",
+      "desc": "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Gamma Boost",
+      "desc": "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Gamma Boost",
+      "desc": "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage",
+      "upgrade": null
+    }
+  ],
+  "MAGNETO": [
+    {
+      "key": "Left Click",
+      "name": "Iron Volley",
+      "desc": "Fire a volley of magnetic orbs forward. The range of the resulting explosion increases based on distance flown",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Mag-Cannon",
+      "desc": "Convert the iron rings on Magneto's back into a Mag-Cannon and launch a metallic mass forward. Higher stacks of rings increase damage, and full stacks knock back enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Meteor M",
+      "desc": "Draw in all materials around to forge an iron meteor that deals massive damage upon impact. Absorbing enemy projectiles can enhance the meteor's power, yet overloading will cause it to self-destruct",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Metallic Curtain",
+      "desc": "Change the magnetic field around to form a metallic curtain, blocking all incoming projectiles",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Metal Bulwark",
+      "desc": "Conjure a metal shield around a chosen ally. Damage taken will transform into rings on Magneto's back",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Iron Bulwark",
+      "desc": "Conjure an iron shield around himself. Damage taken will transform into rings on Magneto's back",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "ROYAL BLADE",
+      "desc": "Gambit charges Magneto's greatsword with kinetic energy. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Magnetic Descent",
+      "desc": "Hold Space to fall slowly",
+      "upgrade": null
+    }
+  ],
+  "PENI PARKER": [
+    {
+      "key": "Left Click",
+      "name": "Cyber-Web Cluster",
+      "desc": "Launch forward a Cyber-Web Cluster",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Cyber-Web Snare",
+      "desc": "Cast futuristic webbing that Immobilizes enemies or creates a Cyber-Web. While in the Cyber-Web, Peni and allies gain Healing Over Time and a Movement Boost. Excess healing converts into Bonus Health",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Spider-Sweeper",
+      "desc": "Enhance the SP//dr suit, launching up enemies in its path and deploying Arachno-Mines, Spider-Drones, and Cyber-Webs repeatedly",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Bionic Spider-Nest",
+      "desc": "Generate a Bionic Spider-Nest at a targeted area, periodically spawning Spider-Drones and creating Cyber-Webs. While in the Cyber-Web, Peni and allies gain Healing Over Time and a Movement Boost. Excess healing converts into Bonus Health. Spider-Drones inflict a Slow effect on hit, which can stack and refresh its effect period with multiple hits",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Arachno-Mine",
+      "desc": "Deploy Arachno-Mines that can be concealed within the confines of a Cyber-Web",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Cyber-Bond",
+      "desc": "Shoot a web strand that links to the targeted area or Cyber-Web. If stretched too far, it will trigger a pullback",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "ARMORIZED SPIDER-NEST",
+      "desc": "Enhanced by Rocket Raccoon, Peni Parker’s Bionic Spider-Nest regularly generates strengthened armor packs. Each armor pack grants bonus health to the hero who picks up the pack. Peni Parker can deploy Bionic Spider-Nest and Armored Spider-Nest at the same time",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Wall Crawl",
+      "desc": "HOLD Jump to crawl on vertical surfaces",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Cyber-Spiders",
+      "desc": "Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging a Web-Cluster shot and granting Bonus Health",
+      "upgrade": null
+    }
+  ],
+  "Rogue": [
+    {
+      "key": "Left Click",
+      "name": "Power Surge Punch",
+      "desc": "Punch forward with both fists",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Southern Brawl",
+      "desc": "While in Defensive Stance, dash forward and slam enemies in front, dealing area damage",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Defensive Stance",
+      "desc": "Absorb nearby projectiles and reduce incoming damage; absorbed damage powers up your next Southern Brawl",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Heartbreaker",
+      "desc": "Continuously absorb Ultimate Ability Energy from nearby enemies and steal stats based on their role",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Fatal Attraction",
+      "desc": "Dash forward. Press again to unleash a burst of Chronovium Power, dealing continuous damage to nearby foes; after a delay, the energy retracts, pulling all enemies towards Rogue",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Chrono Kick Combo",
+      "desc": "Dash forward and launch the enemy, entering flight; activate again to Knock Down nearby enemies. Your next two Power Surge Punch attacks become ranged, piercing enemies and granting Bonus Health",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Ability Absorption",
+      "desc": "Dash forward to knock down your target and absorb their energy; after absorbing, replace Ability Absorption with one of their abilities or refresh Fatal Attraction. Also absorb Health and stats based on their role",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "HEARTS AS ONE",
+      "desc": "Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies",
+      "upgrade": null
+    }
+  ],
+  "THE THING": [
+    {
+      "key": "Left Click",
+      "name": "Rocky Jab",
+      "desc": "Rapidly punch forward",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Stone Haymaker",
+      "desc": "Deliver a devastating Heavy Blow. Can Knock Down flying enemies.",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Clobberin' Time",
+      "desc": "Use immense power to launch up all enemies in front of the Thing into the air",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Yancy Street Charge",
+      "desc": "Continuously charge forward, launching up enemies and leaving behind a zone at the final position that prevents the use of mobility abilities",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Embattled Leap",
+      "desc": "Jump toward an ally and apply damage reduction to yourself and allies within the landing area",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Battle Blitz",
+      "desc": "Jump toward an enemy and apply Vulnerability to enemies within the landing area",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "GAMMA CHARGE",
+      "desc": "Hulk charges Black Panther and The Thing with gamma radiation. When Black Panther's health is low, he gains a gamma shield, becoming Unstoppable and blocking attacks. The Thing gains Gamma Gauntlets, boosting Damage and range of his Rocky Jab and Stone Haymaker. Dealing damage with these attacks grants Bonus Health, and maximum Bonus Health cap is increased",
+      "upgrade": null
+    },
+    {
+      "key": "X",
+      "name": "Flying Thing",
+      "desc": "Human Torch can lift The Thing into the air and slam him down, dealing damage, launching enemies, and creating a zone that disables mobility abilities",
+      "upgrade": null
+    },
+    {
+      "key": "Z",
+      "name": "Cosmic Fastball",
+      "desc": "Wolverine and The Thing can interact with each other. Once both parties confirm, The Thing can lift Wolverine and press the key to hurl him forward",
+      "upgrade": null
+    },
+    {
+      "key": "PASSIVE",
+      "name": "Unyielding Will",
+      "desc": "Immune to launch-up, knock-back, and other displacement effects",
+      "upgrade": null
+    }
+  ],
+  "THOR": [
+    {
+      "key": "Left Click",
+      "name": "Mjolnir Bash",
+      "desc": "Wield Mjolnir to strike enemies. When Awakened, Thor can launch lightning arc waves to deal damage",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Hammer Throw",
+      "desc": "Throw Mjolnir forward which then returns",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "God of Thunder",
+      "desc": "Soar upwards and smite the ground after charging for a duration, inflicting damage on enemies within range",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Storm Surge",
+      "desc": "Hold to spin Mjolnir before dashing forward and knocking back enemies",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Lightning Realm",
+      "desc": "Summon lightning that restores Thorforce based on the number of hit enemies",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Awakening Rune",
+      "desc": "Consume Thorforce to enter the Awakened state, granting Bonus Health and enhancing Mjolnir Bash",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "THUNDERSTRIKE PIKE",
+      "desc": "Angela shares fragments of her Ichors with Thor, empowering him to hurl a Thunder Spear that restores Thorforce for each enemy struck. Afterward, Thor can leap to the spear's explosion point, dealing a second wave of damage to all enemies within range",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Thorforce",
+      "desc": "Consume Thorforce to gain Bonus Health. Landing Mjolnir Bash on an enemy instantly recharges Thorforce",
+      "upgrade": null
+    }
+  ],
+  "The Hood": [
+    {
+      "key": "Left Click",
+      "name": "Accursed Pistols",
+      "desc": "Shoot forward dual-wielded pistols. Gain increased Attack Speed when Demonic Energy exceeds 50%",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Leaded Transformation",
+      "desc": "Enter Half-Demon State, transforming your arms into demonic rifles to unleash a rain of lead. These rifles have increased Attack Speed and Infinite Ammo. Every bullet that strikes an enemy triggers Lifesteal",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Mantle of Oblivion",
+      "desc": "Spread your cloak to form a spherical barrier, blocking incoming enemy attacks. When Demonic Energy exceeds 50%, the radius of the sphere expands further.",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Demon of the End",
+      "desc": "Enter Full Demon State. Fire up to 6 high-powered shots that pierce through enemies and barriers, with the final shot being the most powerful. Hitting enemies grants Bonus Health to yourself and nearby allies",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Void Walk",
+      "desc": "Enter the Void for free-flight. Upon reappearing, gain a decaying Movement Boost and damage surrounding enemies",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Abyssal Veil",
+      "desc": "Throw a dark magic sphere that generates a Veil upon landing. Accursed Pistols shots passing through it generate more Demonic Energy and bullets from Leaded Transformation gain increased Lifesteal. Enemy projectiles passing through suffer reduced damage and healing output. Enemies who pass through the Veil take damage and are Blinded",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Ruinous Pact",
+      "desc": "Accumulate Demonic Energy by dealing damage via Accursed Pistols, blocking attacks with Mantle of Oblivion, or by using Void Walk. Reaching full energy automatically triggers the Half-Demon State",
+      "upgrade": null
+    }
+  ],
+  "VENOM": [
+    {
+      "key": "Left Click",
+      "name": "Dark Predation",
+      "desc": "Unleash tentacles forward to attack enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Cellular Corrosion",
+      "desc": "Unleash tentacles to Slow enemies within reach. Enemies unable to break free in time will suffer damage",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Feast of the Abyss",
+      "desc": "Burrow underground for free movement. After a duration or by left-clicking, devour enemies above to deal damage based on the enemy's current health and generate equivalent Bonus Health. Devoured enemies suffer Reduced Healing",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Venom Swing",
+      "desc": "Launch webbing forward, allowing for a singular swing in the desired direction",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Symbiotic Resilience",
+      "desc": "Generate Bonus Health against damage. The lower Venom's Health, the greater the Bonus Health generated",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Frenzied Arrival",
+      "desc": "Dash to the target location from a certain height. Upon landing, damage nearby enemies, launching them up toward the landing point",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Alien Biology",
+      "desc": "Press Space to wall crawl, and while crawling, left-click to sprint",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "HEALING TENDRILS",
+      "desc": "Venom shares his symbiotes with Jeff and Hela. Jeff's Guardian of the Deep links with nearby allies, providing continuous healing. When the effect ends, it releases a powerful healing burst, converting any excess into Bonus Health. Hela's Hel Tendrils unleash a symbiotic Hel Sphere. Upon hit, it pulls nearby enemies toward the impact point and links them, slowing enemies that try to escape.",
+      "upgrade": null
+    }
+  ]
+}

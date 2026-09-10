@@ -1,0 +1,130 @@
+{
+  "Lunge forward with your spear, dealing damage that increases with Attack Charge. At full charge, Spear of Ichor can launch up enemies": {
+    "ko": "창을 전방으로 찔러 공격 게이지(Attack Charge)에 비례한 피해를 입힙니다. 게이지가 가득 차면 적을 공중으로 띄웁니다.",
+    "ja": "槍を前方に突き出して攻撃チャージに応じたダメージを与える。最大チャージ時は敵を打ち上げる。"
+  },
+  "Alternate powerful strikes forward with twin axes, dealing increased damage as Attack Charge grows. The fourth strike propels you forward in a swift dash": {
+    "ko": "쌍도끼로 번갈아 강력한 전방 타격을 가하며 공격 게이지에 따라 피해량이 증가합니다. 네 번째 타격 시 전방으로 신속하게 돌진합니다.",
+    "ja": "双斧による強力な交互連撃を繰り出し、攻撃チャージに応じてダメージが上昇する。4打目に高速ダッシュで前方へ突進する。"
+  },
+  "Transform Ichors into a shield, gaining Attack Charge when absorbing damage": {
+    "ko": "이코르(Ichor)를 방패 형태로 변환하여 피해를 흡수하며, 피해 흡수 시 공격 게이지를 획득합니다.",
+    "ja": "イコルを盾に変形させてダメージを吸収し、攻撃チャージを獲得する。"
+  },
+  "Wrap your spear in ribbons and hurl it with force. Upon impact, the ribbons bind nearby enemies. Angela can leap to the spear's location, damaging surrounding enemies and creating a Divine Judgement Zone": {
+    "ko": "창에 리본을 감아 강력하게 투척합니다. 착탄 시 리본이 주변 적들을 결박하며, 안젤라는 창 위치로 도약하여 주변에 피해를 주고 신성한 심판 영역을 생성합니다.",
+    "ja": "槍にリボンを巻き付けて力強く投擲する。着弾時に周囲の敵を拘束し、アンジェラは槍の位置へ跳躍して範囲ダメージを与え、神聖なる審判エリアを生成する。"
+  },
+  "Enter an accelerated dash state, enemies struck head-on are carried through the air for a short distance": {
+    "ko": "가속 돌진 상태에 돌입하여 정면으로 충돌한 적을 잠시 공중으로 끌고 날아갑니다.",
+    "ja": "加速ダッシュ状態に突入し、正面衝突した敵を短距離空中へ巻き込んで運ぶ。"
+  },
+  "Enter an accelerated dash state,  enemies struck head-on are carried through the air for a short distance": {
+    "ko": "가속 돌진 상태에 돌입하여 정면으로 충돌한 적을 잠시 공중으로 끌고 날아갑니다.",
+    "ja": "加速ダッシュ状態に突入し、正面衝突した敵を短距離空中へ巻き込んで運ぶ。"
+  },
+  "Dive downward, switch to twin axes and infuse the ground with Ichors to create a Divine Judgement Zone upon impact. Within the zone, gain enhanced Speed and attacks grant Bonus Health to self and nearby allies": {
+    "ko": "아래로 급강하하여 쌍도끼로 전환하고 지면에 이코르를 주입하여 신성한 심판 영역을 생성합니다.",
+    "ja": "急降下して双斧に切り替え、地面にイコルを注入して神聖なる審判エリアを展開する。"
+  },
+  "Take to the skies, switching back to Spear of Ichors": {
+    "ko": "하늘로 치솟아 오르며 이코르의 창으로 다시 전환합니다.",
+    "ja": "上空へ飛び上がり、再びイコルの槍へと切り替える。"
+  },
+  "Glide freely through the air. Continuous flight builds Attack Charge": {
+    "ko": "공중을 자유롭게 활공합니다. 비행을 지속할수록 공격 게이지가 서서히 충전됩니다.",
+    "ja": "空中を自在に滑空する。滑空を維持することで攻撃チャージが徐々に蓄積される。"
+  },
+  "Angela shares fragments of her Ichors with Thor, empowering him to hurl a Thunder Spear that restores Thorforce for each enemy struck. Afterward, Thor can leap to the spear's explosion point, dealing a second wave of damage to all enemies within range": {
+    "ko": "안젤라가 토르에게 이코르 파편을 공유하여 적들을 꿰뚫는 번개의 창을 투척할 수 있게 강화합니다.",
+    "ja": "アンジェラがソーにイコルの破片を分け与え、敵を貫く雷の槍を投擲できるように強化する。"
+  },
+  "Get up close to strike enemies. Landing the second hit enables a shield throw that can ricochet four times": {
+    "ko": "적에게 접근하여 타격합니다. 2타 명중 시 적들 사이를 튕겨 다니는 방패 던지기가 활성화됩니다.",
+    "ja": "敵に接近して打撃を与える。2打目を命中させると、敵間を跳弾するシールド投擲が可能になる。"
+  },
+  "Slam down from the sky onto the targeted area, Launching Up enemies": {
+    "ko": "공중에서 목표 구역으로 급강하 강타하여 적들을 공중에 띄웁니다.",
+    "ja": "上空から目標地点へ急降下叩きつけを行い、敵を打ち上げる。"
+  },
+  "Slam down from the sky onto the targeted area, Launching Up enemies": {
+    "ko": "공중에서 목표 구역으로 급강하 강타하여 적들을 공중에 띄웁니다.",
+    "ja": "上空から目標地点へ急降下叩きつけを行い、敵を打ち上げる。"
+  },
+  "Raise the shield to deflect incoming projectiles, sending them ricocheting in random directions": {
+    "ko": "방패를 들어 날아오는 투사체를 튕겨내 무작위 방향으로 반사시키며, 방어 성공 시 추가 체력을 생성합니다.",
+    "ja": "シールドを構えて飛来する弾丸を弾き返し、防御成功時に追加体力を生成する。"
+  },
+  "Shield held high, carve a path forward, granting both himself and allies along the path continuous Bonus Health and Movement Boosts. Allies also gain Ultimate Ability Charge Acceleration. Using Living Legend and Leading Dash while this ability is active can Launch Up enemies": {
+    "ko": "방패를 높이 들고 전방으로 돌진하여 자신과 경로상의 아군에게 이동 속도 증가를 부여하고 자신은 추가 체력을 얻습니다.",
+    "ja": "シールドを高く掲げて前方へ突進し、自身と進路上の味方に移動速度上昇を付与し、自身は追加体力を獲得する。"
+  },
+  "Boost speed and enable Fearless Leap to leap into the air": {
+    "ko": "이동 속도를 높이고 용맹한 도약(Fearless Leap)을 활성화하여 공중으로 높이 뛰어오릅니다.",
+    "ja": "移動速度を上昇させ、勇敢なる跳躍で空中へ高く飛び上がる。"
+  },
+  "Hurl the energy-charged shield to strike enemies in a path": {
+    "ko": "에너지가 충전된 방패를 던져 경로상의 적들을 강타합니다.",
+    "ja": "エネルギーが充填されたシールドを投擲し、進路上の敵を一撃する。"
+  },
+  "Raise the shield and charge forward": {
+    "ko": "방패를 들고 전방으로 신속하게 돌진합니다.",
+    "ja": "シールドを構えて前方へ突進する。"
+  },
+  "Black Cat shares her luck with her allies. When White Fox embraces her newfound fortune, she unleashestracking Spirit Tails to grant Healing and Speed to allies, while damaging and Slowing foes. When Captain America enjoys his luck, his shield's block radius expands and allows him to aim deflectedProjectiles directly toward his target": {
+    "ko": "블랙 캣이 아군과 행운을 공유합니다. 화이트 폭스가 행운을 받으면 체력이 완전히 회복되고 에너지가 최대치로 충전됩니다.",
+    "ja": "ブラックキャットが味方に幸運を分ける。ホワイト・フォックスが幸運を得ると、体力が全回復しエネルギーが最大になる。"
+  },
+  "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to deal damage to nearby foes. Additionally, Captain America and Winter Soldier can interact with each other once both parties confirm. The duo collides and unleashes a shockwave that deals damage and inflicts slow on enemies": {
+    "ko": "캡틴 아메리카의 결의에 고무되어, 윈터 솔져가 피해를 입은 아군 위치로 도약해 주변 적들을 밀쳐냅니다.",
+    "ja": "キャプテン・アメリカの覚悟に鼓舞され、ウィンター・ソルジャーが被弾した味方へ跳躍救援し、周囲の敵を弾き飛ばす。"
+  },
+  "Nobody lays a finger on my teammates! Anyone tries, and I'm firing these big boy bullets straight at their face!": {
+    "ko": "내 팀원한테 손가락 하나라도 대봐! 손대는 놈은 이 무식하게 큰 총으로 다음 주까지 날려버릴 테니까!",
+    "ja": "ウチのチームメイトに指一本触れさせねえぞ！手を出した奴はこのデカい銃で来週までぶっ飛ばしてやる！"
+  },
+  "Protecting my team means my katanas go full savage. No mercy for the baddies!": {
+    "ko": "팀을 지키기 위해서라면 내 카타나는 완전 인정사정없지. 악당 놈들에게 자비란 없다!",
+    "ja": "仲間を守るためなら俺の刀は容赦しねえ！悪党どもに慈悲なんてねえんだよ！"
+  },
+  "Plushie power! It stops every single attack those chumps throw, giving my team a safety bubble. It's cute AND bulletproof": {
+    "ko": "인형 파워! 멍청이들이 날리는 공격을 몽땅 막아내서 우리 팀에게 안전지대를 만들어주지. 골치 아플 땐 유니콘이 최고야!",
+    "ja": "ぬいぐるみパワー！雑魚どもの攻撃を全部防いで味方に安全地帯を作るぜ。ピンチの時はユニコーンにお任せ！"
+  },
+  "Try getting to my teammates, I dare you! My dash slash knocks fools down, and if I hit, I get to do it again. Up to three times, baby!": {
+    "ko": "우리 팀한테 다가와 봐, 어디 한번! 돌진 베기로 멍청이들을 넘어뜨리고, 그래도 깐족대면 내 폭탄 파이 맛을 보여주마!",
+    "ja": "ウチの仲間を狙ってみろ、返り討ちだ！突進斬りでノックダウンさせて、まだしつこいなら爆破パイをお見舞いしてやるぜ！"
+  },
+  "You! Yeah, you - the hyper one! Eyes off my friends. I sentence you to...whatever! Get ready to be taunted. I get bonus HP and healing, and if you whiff your abilities, you take damage, and I get even more HP!": {
+    "ko": "너! 그래 너, 거기 설쳐대는 놈! 내 친구들한테서 눈 떼라. 널... 이 망치가 하는 무언가에 처형한다!",
+    "ja": "そこのお前！そう、調子乗ってるお前だ！仲間に手を出すな。このハンマーの刑に処してやる！"
+  },
+  "Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Hazardous Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!": {
+    "ko": "정신 #!&% 차려, 히어로! 이겨야 할 판이라고! 우리 같은 특급 스타 플레이어를 위한 이속과 힐 버프 들어간다!",
+    "ja": "おい起きろや#!&%ヒーロー！試合に勝つぞ！俺たちスタープレイヤーに移動速度と回復バフのプレゼントだ！"
+  },
+  "Want to hurt my team? Good luck! I hit you with a taunt, mess up your vision, and burn your health nonstop! Best part: my swords and guns go full turbo for the duration. Blink and you'll miss it": {
+    "ko": "우리 팀을 치겠다고? 어림없지! 도발을 걸고, 시야를 어지럽히고, 스포트라이트는 내가 다 받는다! 내 친구들은 안전하고 난 멋있지!",
+    "ja": "仲間を傷つけたい？無理無理！挑発で視界を狂わせて、栄光は全部俺がいただくぜ。仲間は無傷、俺は最高にクール！"
+  },
+  "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!": {
+    "ko": "악당을 패고, 경험치를 쌓고, 친구들을 지킨다! 경험치가 다 차면 레벨업해서 정신 나간 강화 효과를 얻지. 이게 바로 프로게이머 무빙이다!",
+    "ja": "悪党をブチのめし、経験値を稼いで仲間を守る！ゲージが満タンになったらレベルアップしてヤバい強化効果ゲットだぜ。プロゲーマーの動きだな！"
+  },
+  "Yup, I can double jump in midair! During The Big Test and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!": {
+    "ko": "맞아, 나 공중 2단 점프 된다! '더 빅 테스트'랑 그 업그레이드 중엔 슈퍼 점프에 활공까지 가능하지! 기동성이 최고야!",
+    "ja": "そう、空中で2段ジャンプできるんだぜ！『ザ・ビッグテスト』とその強化中はスーパージャンプと滑空も可能！機動性最強！"
+  },
+  "Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains": {
+    "ko": "전투가 끝났다고? 체력 채우면서 팀을 지킬 전투 태세를 유지하지. 그리고 피해를 너무 많이 받으면 한 번쯤 죽음을 속여넘길 수도 있다고!",
+    "ja": "非戦闘中？体力を回復して仲間を守る臨戦態勢をキープだ。ダメージを受けすぎても、1回だけ死を回避できるんだぜ！"
+  },
+  "Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!": {
+    "ko": "잘 들어, 승리에 집중하고 한눈팔지 마! 내 스킬이 적에게 맞을 때마다 놈들을 도발해서 우리 팀을 공격하지 못하게 막아주지!",
+    "ja": "よく聞け、勝利を見据えて余所見するな！俺のスキルが当たるたびに敵を挑発し、仲間を攻撃から守るんだ！"
+  },
+  "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!": {
+    "ko": "데드풀이 제프 더 랜드 샤크에게 건방진 인형을 건넵니다. 제프가 인형을 앞으로 뱉으면 요란한 소리와 시각 효과로 적들의 주의를 분산시킵니다.",
+    "ja": "デッドプールがジェフに生意気なぬいぐるみを渡す。ジェフが前方へ吐き出すと、騒音と派手なエフェクトで敵の注意を引きつける。"
+  }
+}

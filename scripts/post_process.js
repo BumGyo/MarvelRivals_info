@@ -195,6 +195,57 @@ if (rawDeadpoolIdx !== -1) {
   }
 });
 
+// -------------------------------------------------------------
+// Step 2.5: Apply Multilingual Translations to Skills & Team-Ups
+// -------------------------------------------------------------
+const translationsPath = path.join(rootDir, 'data', 'translations.json');
+if (fs.existsSync(translationsPath)) {
+  const transData = JSON.parse(fs.readFileSync(translationsPath, 'utf-8'));
+  const skillsMap = transData.skills || {};
+  const teamupsMap = transData.teamups || {};
+
+  function norm(t) {
+    return t ? t.replace(/\s+/g, ' ').trim() : '';
+  }
+
+  heroes.forEach(h => {
+    // 1. Regular Skills & Upgrades
+    (h.skills || []).forEach(s => {
+      const sDesc = norm(s.description);
+      if (sDesc && skillsMap[sDesc]) {
+        s.description_trans = skillsMap[sDesc];
+      } else if (s.description && skillsMap[s.description]) {
+        s.description_trans = skillsMap[s.description];
+      }
+
+      if (s.upgrade) {
+        const uDesc = norm(s.upgrade.description);
+        if (uDesc && skillsMap[uDesc]) {
+          s.upgrade.description_trans = skillsMap[uDesc];
+        } else if (s.upgrade.description && skillsMap[s.upgrade.description]) {
+          s.upgrade.description_trans = skillsMap[s.upgrade.description];
+        }
+      }
+    });
+
+    // 2. Team-Up Loadouts (Base & Enhanced)
+    (h.teamups || []).forEach(tu => {
+      const tDesc = norm(tu.description);
+      const entry = teamupsMap[tDesc] || teamupsMap[tu.description] || teamupsMap[tu.loadout_name];
+      if (entry) {
+        if (tu.tier === 'base' && entry.base) {
+          tu.description_trans = entry.base;
+        } else if (tu.tier === 'enhanced' && entry.enhanced) {
+          tu.description_trans = entry.enhanced;
+        } else if (entry.full) {
+          tu.description_trans = entry.full;
+        }
+      }
+    });
+  });
+  console.log('Applied KR & JP translations to all hero skills and team-ups.');
+}
+
 // Save updated heroes.json
 fs.writeFileSync(heroesPath, JSON.stringify(heroes, null, 2), 'utf-8');
 console.log(`Saved updated heroes.json (Total heroes: ${heroes.length}).`);

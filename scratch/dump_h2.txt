@@ -1,0 +1,155 @@
+
+=== Daredevil ===
+  [JUSTICE JAB]: Swing Billy Clubs forward. Gain Fury on hit
+  [RIGHTEOUS CROSS]: Cross your Billy Clubs and surge forward. Gain Fury on hit
+  [OBJECTION!]: Whirl billy clubs in a tight guard to block frontal damage and reflect projectiles, becoming immune to all incoming harm during this stance and gain Fury
+  [INFERNAL FURY]: Expend Fury to unleash Devil's Chain or Devil's Throw. Devil's Chain converts damage into Bonus Health, while Devil's Throw Slows enemies on hit and temporarily enables Cross Interrogation
+  [LET THE DEVIL OUT]: Embrace the Beast within. Enemies in Daredevil's line of sight take damage and suffer a ramping Blind effect. Continually gain Fury while active
+  [DEVIL'S LATCH]: Fire a grappling line that reels Daredevil and his target toward each other. On completion, gain Fury and temporarily enables Cross Interrogation
+  [Sonic Pursuit]: Locks onto a target, gaining increased Speed; and Damage Reduction when attacked. While in range, dash to the target, Blinding them and restore Fury
+  [BLIND ASCENT]: Run along walls and spring off them to reposition
+  [RADAR SENSE]: Detect enemy movements within a set radius
+  [BLIND VERDICT]: Daredevil shares the location of his Sonic Pursuit target with The Punisher. At the same time, The Punisher can launch a devil-infused shock grenade to damage and blind enemies
+
+=== Elsa Bloodstone ===
+  [DOUBLE-BARREL BLASTER]: Fire your shotgun forward
+  [MONSTER-PIERCER]: Unleash your elephant gun forward. Bullets pierce enemies and deal high damage
+  [LIVING BULLET]: Fire a Living Bullet round that splits upon impact, seeking nearby enemies and marking each with a Spectral Sigil. Hitting marked targets with Double-Barrel Blaster or Monster-Piercer grants Elsa a brief Speed boost. Living Bullets deal extra damage to shields and enemies with Bonus Health
+  [BLOODSTONE'S BOOMBOX BULLETS]: Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range are healed! Elsa Bloodstone's Living Bullet changes to special rounds that Taunt targets with Deadpool's chatter, while Slowing, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt
+  [APEX PREDATOR]: Summon the Glartrox to charge forward. The Glartrox can be recalled to charge back toward Elsa. When colliding with terrain or upon return, it bites fiercely, dealing heavy damage
+  [HELIX ADVANCE]: Dash forward. Your next Double-Barrel Blaster becomes Monster-Piercer
+  [RUTHLESS PURSUIT]: Dash forward, gaining Bonus Health and launching enemies hit. Follow up with a Double-Barrel Blaster shot that propels you backward and Slows enemies. Using either stage empowers your next Double-Barrel Blaster, transforming it into Monster-Piercer
+  [SMOKY SNARE]: Launch a trap containing the monster Diablo. Once deployed, it becomes Invisible and Invulnerable. When an enemy triggers it, Diablo Immobilizes and Damages them. Use to dash to the trapped enemy. Enemies can destroy Diablo to break free
+  [INHERITED INSTINCT]: Dealing damage increases hunting Instinct. Defeating enemies caught by Smoky Snare grants additional Instinct. Higher Instinct reduces the cooldown of Helix Advance
+
+=== Emma Frost ===
+  [TELEPATHIC PULSE]: Fire a psionic beam to deal damage; the longer the beam hits, the higher the damage
+  [FACETED FURY]: In Diamond Form, deliver a crushing double-fisted strike to enemies
+  [MIND'S AEGIS]: Create a levitating barrier at the designated location
+  [CRYSTAL KICK]: In Diamond Form, unleash a flying kick forward and knock back enemies; extra damage is dealt if they're propelled into a wall
+  [PSIONIC SEDUCTION]: Project a forward psychic assault that stuns foes and prevents them from unleashing their Ultimate Abilities; if the effect lingers, it gradually commandeers their mind, forcing them to move toward Emma Frost
+  [DIAMOND FORM]: Activate Diamond Form to transform your attack style while gaining Damage Reduction and becoming Unstoppable
+  [PSYCHIC SPEAR]: Seize control of an enemy's sentience—damage dealt to the sentience cascades to the physical form and can be pierced by Telepathic Pulse. When the sentience shatters, it unleashes extra damage on its owner
+  [CARBON CRUSH]: In Diamond Form, lunge forward to grab an enemy, then execute a back slam to inflict damage
+  [ICED OUT DIAMOND]: Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates Harmony Recovery, he can heal nearby allies with Lunar Chi. Emma Frost can project ice energy forward, dealing damage and slowing enemies. She can also enhance her diamond form, condensing frost into an Absolute Zero Diamond barrier that blocks enemy attacks and movement
+
+=== GROOT ===
+  [Vine Strike]: Launch vines to attack enemies
+  [Spore Bomb]: Throw an explosive Spore Bomb that splits into multiple small explosive spores
+  [Strangling Prison]: Fire a massive vine cluster that pulls nearby enemies to its center and Imprisons them
+  [Thornlash Wall]: Target a location and grow a Thornlash Wall. When Awakened, it strikes nearby enemies attacked by Groot and his allies
+  [Ironwood Wall]: Target a location and grow an Ironwood Wall. When the wall is Awakened, damage dealt by Groot and nearby allies grants Groot Bonus Health. Groot gains Unstoppable while near Ironwood Walls
+  [Wild Wall]: Mantis enhances Groot's wooden walls and Loki's Rune Stones with life energy. Groot can additionally unleash a Flower Wall, which, when in Flora Colossus state, restores health to random nearby allies and grants them Damage Reduction. Loki's Rune Stones grant allies within Regeneration Domain a Damage Boost
+  [Furious Flora]: Perform a combo with his arms, and the third strike will slightly Launch Up the hit enemy airborne
+  [Flora Colossus]: Wooden walls near Groot will Awaken, activating an extra effect. Right-click while building a wooden wall to continue building additional walls
+
+=== Gambit ===
+  [Kinetic Cards]: Launch three kinetic-charged cards in an arc ahead. Each card detonates on impact, creating a single-target explosion that damages enemies and heals allies
+  [Bayou Bash]: Channel kinetic energy into the bo staff, then slam it into the ground after a sweeping strike, creating a shockwave that damages nearby enemies and heals allies
+  [Ragin' Royal Flush]: Lock onto an ally within sight and unleash multiple Aces that heal and Purify. Both enter the Kinetic Transfer state, granting increased Movement Speed and Jump Boost, while enhancing attacks with additional single-target explosive damage and providing the ally with Ultimate Ability Charge Acceleration
+  [Cajun Charge]: Side-step forward with bo staff in hand, dashing a short distance
+  [Healing Hearts]: Conjure a Heart card by consuming one stack of  Sleight of Hand to Heal and switch to the Healing Hearts deck
+  [Bridge Boost]: While Healing Hearts deck is active, trigger Flush Empowerment to card spring and fire a full deck forward. Cards bounce between allies on impact, granting Health and a Healing Boost
+  [Bidding Barrage]: While Breaking Spades deck is active, trigger Raise Empowerment to scattering cards in an arc in all directions. Explosions damage enemies and Launch them up
+  [Breaking Spades]: Conjure a Spade card by consuming one stack of  Sleight of Hand to gain Damage Boost and switch to the Breaking Spades deck
+  [Purifying Pick-Up]: While Healing Hearts deck is active, trigger Raise Empowerment to launch a cluster of cards in an arc ahead. Explosions heal nearby allies and Purify them
+  [Explosive Trick]: While Breaking Spades deck is active, trigger Flush Empowerment to fire a full set of cards forward. Cards explode on impact, dealing damage while inflicting Reduced Healing
+  [ACE OF ACES]: Gambit charges Magneto's greatsword with kinetic energy. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay
+
+=== HAWKEYE ===
+  [Piercing Arrow]: Shoot a powerful arrow
+  [Blast Arrow]: Shoot three explosive arrows
+  [Hunter's Sight]: Capture Afterimages of enemies in his view. Damage dealt to an Afterimage is transferred to the corresponding enemy
+  [Crescent Slash]: Unsheathe a katana and slash forward, launching up enemies hit
+  [Hypersonic Arrow]: Shoot a Hypersonic Arrow, dealing two instances of damage to enemies in its path and inflicting them with Slow. This ability can Knock Down flying heroes
+  [Skyward Leap]: Perform a double jump in the direction of movement
+  [Ronin Slash]: Swing a wakizashi to strike frontal enemies, deflecting all incoming projectiles
+  [Archer's Focus]: Aim at an enemy to improve focus, enhancing the damage inflicted by Piercing Arrow
+
+=== HELA ===
+  [Nightsword Thorn]: Throw Nightsword thorns
+  [Piercing Night]: Fire multiple Nightsword thorns that detonate after a delay
+  [Goddess of Death]: Soar into the sky and unleash Nastrond Crows from each hand at will
+  [Astral Flock]: Transform into a Nastrond Crow to glide forth, press again to undo the transformation. Gain Bonus Health when the transformation ends
+  [Soul Drainer]: Project an explosive Hel sphere to Stun nearby enemies.
+  [Hel Tendrils]: Venom shares his symbiotes with Jeff and Hela.  Hela's Hel Tendrils unleash a symbiotic Hel Sphere. Upon hit, it pulls nearby enemies toward the impact point and links them, slowing enemies that try to escape.
+  [Hel's Descent]: Hold Space to fall slowly
+  [Nastrond Crowstorm]: Defeating an enemy will generate a Nastrond Crow, exploding after a duration
+  [DEATH KNELL]: Hela channels energy of the undead to empower Namor. When Namor strikes with his trident, a spectral water column erupts at the target area, slowing enemies hit. Whenever Hela or Namor assist in a KO, an invulnerable Undead Monstro spawns at the fallen enemy's position, automatically attacking the nearest foe for a short time before vanishing
+
+=== HULK ===
+  [Gamma Ray Gun]: Fire with a Gamma Ray Gun
+  [Heavy Blow]: Swing fists forward to punch enemies
+  [Heavy Blow]: Swing fists forward to punch and launch up enemies
+  [Gamma Burst]: Emit gamma-ray bursts to inflict damage. Reduce Indestructible Guard cooldown upon hit
+  [Gamma Burst]: Emit gamma-ray bursts to inflict damage
+  [Puny Banner]: Transform from Bruce Banner into Hero Hulk
+  [HULK SMASH!]: Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period
+  [World Breaker]: Grab and smash the enemy in front
+  [Gamma Grenade]: Launch a Gamma Grenade to inflict damage and Launch Up enemies
+  [Indestructible Guard]: Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for HULK SMASH
+  [Radioactive Lockdown]: Emit gamma energy to irradiate enemies and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status
+  [Gamma Fastball]: Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward
+  [Incredible Leap]: HOLD Space to perform a charged leap that allows Hero Hulk to Knock a flying enemy to the ground
+  [Incredible Leap]: HOLD Space to perform a charged leap that allows Monster Hulk to Knock a flying enemy to the ground
+  [Gamma Boost]: Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage
+
+=== HUMAN TORCH ===
+  [Fire Cluster]: Launch forward a splittable fireball
+  [Blazing Blast]: Launch a fireball to create a Flame Field at the targeted area
+  [Supernova]: Explode with cosmic fire to deal damage to enemies within range. Upon skill activation, all Flame Fields will transform into Flame Tornadoes, dealing extra damage
+  [Plasma Body]: Enter a state of accelerated ascent
+  [Pyro-Prison]: Form a fire wall between Fire Fields to burn enemies
+  [Flaming Meteor]: Dive towards the ground, dealing damage to enemies and detonating any Flame Fields hit
+  [Storm Siblings]: The Invisible Woman taps into her powers, channeling Psionic Might to fortify the entire Fantastic Four team, granting damage resistance. Once activated, they can continually generate Bonus Health, making up for lost Health
+  [Two In One]: Human Torch can lift The Thing into the air and slam him down, dealing damage, launching enemies, and creating a zone that disables mobility abilities
+  [Pyrokinetic Energy]: Human Torch stores Pyrokinetic Energy in Spider-Man's suit, enabling him to unleash an Inferno Blast that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a Burn-Tracer. Detonating these Burn-Tracers inflicts Damage Over Time
+
+=== IRON FIST ===
+  [Jeet Kune Do]: Strike the targeted enemy with Jeet Kune Do, reducing the cooldown of Block and Strike with every hit
+  [Yat Jee Chung Kuen]: Dash forward to pursue the targeted enemy and unleash a flurry of attacks
+  [Dragon's Defense]: Assume a defensive stance with a boost of Chi to block incoming attacks and gain Damage Reduction, then strike back with Yat Jee Chung Kuen
+  [Living Chi]: Become living Chi to boost his speed, damage, and attack range, delivering stronger punches while reducing the cooldown of Dragon's Defense
+  [K'un-Lun Kick]: Dash forward, delivering a flying kick when hitting an enemy or reaching full range, dealing damage to nearby enemies. Damage increases with lower enemy health
+  [Harmony Recovery]: Cross legs and channel Chi, slowly gaining Bonus Health
+  [Lunar Chi]: Luna Snow grants Winter's Chill to Hawkeye and Iron Fist. When Iron Fist activates Harmony Recovery, he can heal nearby allies with Lunar Chi
+  [Crane Leap]: Perform up to three consecutive jumps while airborne
+  [Wall Runner]: Run horizontally along the walls
+  [Chi Absorption]: Assists in taking down enemies allow him to absorb their Chi and gain Bonus Health
+
+=== IRON MAN ===
+  [Repulsor Blast]: Fire nano pulse cannons forward
+  [Invincible Pulse Cannon]: Fire a devastating pulse cannon in the targeted direction, delivering catastrophic damage to the targeted area upon impact
+  [Hyper-Velocity]: Activate Hyper-Velocity state for swift forward flight
+  [Armor Overdrive]: Activate Armor Overdrive state, enhancing the damage of Repulsor Blast and Unibeam
+  [Micro-Missile Barrage]: When Hyper-Velocity or Armor Overdrive is used, Iron Man can launch a missile bombardment
+  [NANO TECH]: When Iron Man, Ultron and Squirrel Girl team up, Ultron's Encephalo-Ray upgrades to Nano-Ray, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the Squirrel Missile ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!
+
+=== Invisible Woman ===
+  [Orb Projection]: Launch a force field orbs that can pierce heroes, flying to maximum distance before returning to Invisible Woman; damaging enemies and healing teammates
+  [Guardian Shield]: Generate a force shield in front of a selected ally or in front of you. The shield can block damage and provide Healing Over Time to nearby allies. Enemies that pass through the shield are slowed
+  [Invisible Boundary]: Manifest an unseen force field within a chosen area, rendering allies inside undetectable by enemies and provide Healing Over Time. Enemies that pass through the field are slowed
+  [Psionic Vortex]: Gather psionic energy and then cast it, upon impact or pressing the Ability key again, it erupts into a psionic vortex, continuously drawing in enemies and causing damage
+  [Force Physics]: Manipulate psionic energy to push or pull enemies in front of her
+  [Veiled Step]: Generate a force field at your feet, stepping on it propels her into the Invisible state
+  [Covert Advance]: Enter Invisible state some time after disengaging from combat and grant yourself Healing Over Time
+  [Fantasti-Force]: The Invisible Woman taps into her powers, channeling Psionic Might to fortify Mr.Fantastic. This formidable force bolsters Mr.Fantastic, granting damage resistance. Once activated, they can continually generate Bonus Health, making up for lost Health
+
+=== JEFF THE LAND SHARK ===
+  [Joyful Splash]: Unleash a healing splash
+  [Aqua Burst]: Launch a high-speed water sphere that bursts upon impact, dealing damage to enemies within range
+  [It's Jeff!]: Deep dive into the scene and resurface to swallow both enemies and allies within range, activating Hide and Seek for a brief duration before ejecting the swallowed heroes forward
+  [Hide and Seek]: Dive into the scene with only his dorsal fin exposed, granting himself a Movement Boost. Jeff can heal while submerged and gains the wall-crawl ability
+  [Healing Bubble]: Spit a bubble that heals the ally who collects it, granting them Healing Boost and Movement Boost while also launching up nearby enemies
+  [Jeff's Cuddle Buddy]: Jeff the Land Shark and Rocket Raccoon can ride on Groot's shoulders, receiving Damage Reduction
+  [GUARDIAN OF THE DEEP]: Venom shares his symbiotes with Jeff and Hela. Jeff's Guardian of the Deep links with nearby allies, providing continuous healing. When the effect ends, it releases a powerful healing burst, converting any excess into Bonus Health.
+  [IT'S JEFF-NADO!]: When Storm activates Omega Hurricane and Jeff the Land Shark's It's Jeff is ready, they can unleash a powerful Team-Up Ability. During this period, Storm's Omega Hurricane merges with Jeff to form a Jeff-nado
+  [Oblivious Cuteness]: Reduce damage taken from critical hits
+
+=== Jubilation Lee ===
+  [Energy Plasmoids]: Fire lumikinetic explosive light blasts forward to heal friends and damage foes. Triggering a Sparkle Mark briefly boosts Attack Speed and enables firing without consuming energy
+  [Blooming Ball]: Launch a tracking orb of vampiric energy that damages enemies and heals allies in its radius. Striking the orb or hitting targets near it charges it up, increasing both its size and healing power. Press F to manually recall it.
+  [Firework Finale]: Charge up and unleash a massive ring of outward-flying firework clusters, Knocking Back nearby enemies. These clusters then orbit you, creating a field that damages enemies and heals allies. Expanding the cluster radius outward will Launch Up struck enemies
+  [Sparking Sprint]: Wrap yourself in vampiric energy to gain a Speed Boost. While active, jump height and Attack Speed are increased, and Energy Blasts can be fired at no cost
+  [Dazzling Detonation]: Detonate a firework energy orb, dealing damage to enemies in the area and applying a Blind effect. The energy can also be transferred to an ally, granting them healing and a Speed Boost
+  [Sparkle Mark]: Hitting targets with Dazzling Detonation and  Firework Finale applies a Sparkle Mark. Energy Plasmoids can detonate marks, granting allies a Healing Boost and Bonus Health, while dealing burst damage to enemies

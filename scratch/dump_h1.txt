@@ -1,0 +1,167 @@
+
+=== ADAM WARLOCK ===
+  [Quantum Magic]: Launch quantum energy to deal damage
+  [Cosmic Cluster]: Gather quantum energy into a cluster and then swiftly launch it at the enemy
+  [Karmic Revival]: Awaken the karma of allies to revive them. Allies revived have lower health but enjoy a brief period of Invincibility
+  [Soul Bond]: Forge a soul bond with allies, granting Healing Over Time and distributing damage taken across the bond
+  [Avatar Life Stream]: Target an ally for a bouncing stream of healing energy, which also heals himself upon casting; self-targets if no ally is selected
+  [Karmic Revival]: Take to the skies, entering a flying state and swiftly surge forward
+  [HEAVENLY HARMONY]: Storm channels her elemental power into Adam Warlock. When Adam uses Soaring Surge, his movement speed is increased. While flying, Adam leaves behind a storm-charged trail that heals and speeds up allies within it
+  [Regenerative Cocoon]: Once his body perishes, Adam Warlock can freely move as a soul and reforge his body at a chosen spot
+
+=== ANGELA ===
+  [Spear of Ichors]: Lunge forward with your spear, dealing damage that increases with Attack Charge. At full charge, Spear of Ichor can launch up enemies
+  [Axes Of Ichors]: Alternate powerful strikes forward with twin axes, dealing increased damage as Attack Charge grows. The fourth strike propels you forward in a swift dash
+  [SHIELDED STANCE]: Transform Ichors into a shield, gaining Attack Charge when absorbing damage
+  [Heven's Retribution]: Wrap your spear in ribbons and hurl it with force. Upon impact, the ribbons bind nearby enemies. Angela can leap to the spear's location, damaging surrounding enemies and creating a Divine Judgement Zone
+  [Assassin's Charge]: Enter an accelerated dash state,  enemies struck head-on are carried through the air for a short distance
+  [Divine Judgement]: Dive downward, switch to twin axes and infuse the ground with Ichors to create a Divine Judgement Zone upon impact. Within the zone, gain enhanced Speed and attacks grant Bonus Health to self and nearby allies
+  [Wingblade Ascent]: Take to the skies, switching back to Spear of Ichors
+  [Seraphic Soar]: Glide freely through the air. Continuous flight builds Attack Charge
+  [Celestial Command]: Angela shares fragments of her Ichors with Thor, empowering him to hurl a Thunder Spear that restores Thorforce for each enemy struck. Afterward, Thor can leap to the spear's explosion point, dealing a second wave of damage to all enemies within range
+
+=== BLACK CAT ===
+  [FELINE FURY]: Swipe forward with razor-sharp claws
+  [CLAW WHIP]: Fire out tethered claws and whip them forward in a devastating arc, dealing damage to all enemies caught in range
+  [FORTUNE'S FAVOR]: Spend Fortuneto unleash either Grapple Swipeor Phantom Pursuit
+  [CALLING CARD]: Issue a Calling Card to all enemies. Instantly dash to any enemy in sight and range, tearing into them with your claws to deal Damage
+  [CAT'S CRADLE]: Lunge forward with claws bared, slicing through any enemies caught in your path
+  [TURN OF FORTUNE]: Launch a grappling hook forward that damages an enemy on impact and steals Fortunebefore pulling it back to Black Cat
+  [PHANTOM PURSUIT]: Swiftly dash to an enemy, unleash a rapid flurry of claw attacks, and flash back to your starting position. Black Cat is Untargetableduring this move
+  [GILDED DEAL]: Use the Spatial Resonator to open a portal to the Elder Gods' dimension, consuming Fortune to trade with the Golden Elder and acquire items from the New York Thieves Guild vault.
+  [TABLET OF DESTINIES]: Gain a random amount of Fortune
+  [HELM OF HADES]: Enter Invisiblestate for a set duration
+  [FALTINE FLAME ORB]: Conjure an orb of mystical Faltine Flame to Revealand mark all nearby enemies
+  [CHERNOBOG'S CRYSTAL]: Purify yourself, instantly removing any active control effects
+  [RING OF ZONA]: Open a portal on a surface, allowing instant traversal to the opposite side
+  [MENTO-FISH]: Create a hypnosis field. Inflicts Slow, disables movement abilities, and Groundsall enemies caught within
+  [THIEVING GRACE]: Perform a double jump
+  [STEALTHY CATWALK]: Hold {Jump} to crawl up vertical surfaces
+  [MALKIN MISFORTUNE]: Apply Jinxto enemies on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a Critical Hit
+  [GIFT OF GOLD]: Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby allies and enemies, granting allies speed and healing while dealing damage and slowing enemies. Captain America receives the Vibranium Energy Amplifier, which expands shield block range when raised and reflects projectiles back along the crosshair direction.
+  [STICKY PAWS]: Steal a set amount of Fortunewhenever your attacks hit an enemy
+
+=== BLACK PANTHER ===
+  [Vibranium Claws]: Slice Vibranium Claws forward
+  [Spear Toss]: Toss a Vibranium energy spear forward, creating a Vibranium Force Field and attaching a Vibranium Mark to enemies in its radius
+  [Bast's Descent]: Summon Bast, pouncing forward, dealing damage, and attaching a Vibranium Mark to enemies hit while refreshing Spirit Rend
+  [Spirit Rend]: Lunge forward and deal damage to enemies. Vibranium Mark produces Bonus Health and refreshes the ability
+  [Spinning Kick]: Spiral forward and attach a Vibranium Mark to enemies hit
+  [Subtle Step]: Hold Space to run on a wall; perform a jump after detaching from the wall
+  [Panther's Cunning]: Deal higher damage when at low Health
+  [GAMMA VIBRANIUM ARMOR]: Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther's Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming Unstoppable
+
+=== BLADE ===
+  [Ancestral Sword]: Slash forward with Blade's Ancestral Sword
+  [Hunter's Shotgun]: Fire at enemies using your Shotgun
+  [Scarlet Shroud]: Parry with Ancestral Sword to become Unstoppable for a brief period, reducing damage taken from the front and decreasing the cooldown of Daywalker Dash
+  [Thousand-Fold Slash]: Charge power and swiftly draw the Sword of Dracula, executing a powerful Iaido strike as you dash forward, leaving behind a slashing zone where the sword automatically strikes enemies. Enemies hit suffer Reduced Healing
+  [Daywalker Dash]: Dash forward. If wielding your gun, shoot at enemies upon impact, applying a Healing Reduction effect. If wielding your sword, deliver a cleaving strike that inflicts Slow
+  [Bloodline Awakening]: Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering Whirlwind Slash.If all Whirlwind Slash strikes hit, your Attack Speed will further increase. While under this state, you suffer Reduced Healing, but attacks gain Lifesteal
+  [ECLIPSE EDGE]: Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his Ancestral Sword in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a Darkmoon Blade forward. When a Darkmoon Blade hits an enemy, it bounces to nearby targets
+
+=== Black Widow ===
+  [Widow's Bite Baton]: Strike with the enhanced electric batons
+  [Red Room Rifle]: Attack with the Red Room Rifle
+  [ELECTRO-PLASMA BLAST]: Fire an electro-plasma round forward. Upon hitting the environment or an enemy, it explodes and applies a Slow effect
+  [ASSASSIN'S FOCUS]: Switch the Red Room Rifle to sniper mode. Shots fired in this state pierce through targets and deal increased damage
+  [EDGE DANCER]: Unleash a spinning kick to Launch Up enemies. Landing the hit will allow her to zip to the target with a grappling hook for a second kick
+  [WIDOW'S BITE SLAM]: Leap toward a target area and slam the ground with her Widow's Bite gauntlet, dealing damage to enemies within range
+
+=== CAPTAIN AMERICA ===
+  [Sentinel Strike]: Get up close to strike enemies. Landing the second hit enables a shield throw that can ricochet four times
+  [Super-Soldier Slam]: Slam down from the sky onto the targeted area, Launching Up enemies
+  [Living Legend]: Raise the shield to deflect incoming projectiles, sending them ricocheting in random directions
+  [Freedom Charge]: Shield held high, carve a path forward, granting both himself and allies along the path continuous Bonus Health and Movement Boosts. Allies also gain Ultimate Ability Charge Acceleration. Using Living Legend and Leading Dash while this ability is active can Launch Up enemies
+  [Leading Dash]: Boost speed and enable Fearless Leap to leap into the air
+  [Vibranium Energy Saw]: Hurl the energy-charged shield to strike enemies in a path
+  [Liberty Rush]: Raise the shield and charge forward
+  [VIBRANIUM BASTION]: Black Cat shares her luck with her allies. When White Fox embraces her newfound fortune, she unleashestracking Spirit Tails to grant Healing and Speed to allies, while damaging and Slowing foes. When Captain America enjoys his luck, his shield's block radius expands and allows him to aim deflectedProjectiles directly toward his target
+  [Captain's Spirit]: Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to deal damage to nearby foes. Additionally, Captain America and Winter Soldier can interact with each other once both parties confirm. The duo collides and unleashes a shockwave that deals damage and inflicts slow on enemies
+
+=== Cloak & Dagger ===
+  [Darkforce Cloak]: Inflict continuous damage on an enemy
+  [Lightforce Dagger]: Unleash a bouncing Lightforce Dagger to damage enemies and heal nearby allies
+  [Dark Teleportation]: Enshroud nearby allies in the Darkforce Dimension, plunging them into the Phased state, making them untargetable and invisible to enemies and granting them a Movement Boost
+  [Dagger Storm]: Launch a volley of daggers, creating a Healing Over Time field in the impact area
+  [Eternal Bond]: Perform four rapid dashes, healing allies and damaging enemies along the path
+  [Light's Embrace]: Switch to Dagger
+  [Shadow's Embrace]: Switch to Cloak
+  [Terror Cape]: Deploy a Veil of Darkforce to damage enemies upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received
+  [Veil of Lightforce]: Deploy a Veil of Lightforce to heal allies upon touch and grant them a Healing Boost
+  [FROM SHADOW TO LIGHT]: Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses Crescent Slash, enemies hit are launched back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and boosts healing for allies, while damaging enemies and applying Vulnerability
+
+=== Cyclops ===
+  [Optic Blast]: Fire a quick burst of kinetic force forward. Hitting enemies accelerates Ricochet Force charge rate
+  [Concussive Beam]: Continuously fire a powerful beam that can refract between enemies and the environment. Hitting enemies accelerates Ricochet Force charge rate
+  [Ruby Rage]: Remove visor and fire a powerful sweeping beam forward. The blast leaves behind volatile excess energy that erupts, dealing massive secondary explosive damage
+  [Propulsion Burst]: Fire a propulsion beam to push yourself and the target backward, applying a Slow effect to the enemy
+  [Ricochet Force]: Fire a beam that can diffract and track nearby enemies after hitting terrain. Upon use, Cyclops gains Bonus Health
+  [Optic Ascent]: Fire a propulsion beam directly downward to push yourself up and knock back hit enemies, applying a Slow effect to them
+  [Kinetic Hover]: Enter a slow-fall state while firing Concussive Beam mid-air
+  [Red Adamantium]: Cyclops supercharges Wolverine's claws, extending his attack range. While active, Wolverine's Vicious Rampage is replaced with Kinetic Claws, granting him a brief forward lunge that unleashes a flurry of slashes around him
+
+=== DEADPOOL (VANGUARD) ===
+  [DUAL DESERT EAGLES - VANGUARD]: Nobody lays a finger on my teammates! Anyone tries, and I'm firing these big boy bullets straight at their face!
+  [DUAL DESERT EAGLES - VANGUARD UPGRADED (Upgrade)]: I rack up shots, then, BOOM! A mind-blowing bubble bomb for all the enemies. Teammate security: maximum
+  [KICK@$$ KATANA - VANGUARD]: Protecting my team means my katanas go full savage. No mercy for the baddies!
+  [KICK@$$ KATANA - VANGUARD UPGRADED (Upgrade)]: Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Bad Bunny hit makes the next swing a stabby special
+  [MAGICAL UNICORN SHIELD!]: Plushie power! It stops every single attack those chumps throw, giving my team a safety bubble. It's cute AND bulletproof
+  [MAGICAL UNICORN SHIELD! - UPGRADED (Upgrade)]: My ultra-cool, super shiny, extra huggable, and totally blinged-out plushy. Toss it ahead, and it lands as an invincible sphere of awesomeness! Blocking attacks and keeping my team safe inside our furry fortress
+  [HAZARDOUS HIJINKS - VANGUARD]: Try getting to my teammates, I dare you! My dash slash knocks fools down, and if I hit, I get to do it again. Up to three times, baby!
+  [HAZARDOUS HIJINKS - VANGUARD UPGRADED (Upgrade)]: Watch this pro bodyguard in action! I dash forward, nail the bad guy, and bounce in any direction I want. Oh, and I can do this two more times real quick!
+  [THE BAN HAMMER]: You! Yeah, you - the hyper one! Eyes off my friends. I sentence you to...whatever! Get ready to be taunted. I get bonus HP and healing, and if you whiff your abilities, you take damage, and I get even more HP!
+  [THE BAN HAMMER - UPGRADED (Upgrade)]: Upgraded courtroom drama! Congrats, unlucky one! You're my pick; enjoy the taunt! I score bonus health and healing, and you take ongoing damage. If you miss an ability while court is in session, it's a double whammy. You get more pain, AND I get more extra HP! Thanks in advance!
+  [THE BIG TEST]: Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Hazardous Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!
+  [THE BIG TEST - UPGRADED (Upgrade)]: Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs (massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!
+  [DEADPOOL IN YOUR AREA - VANGUARD]: Want to hurt my team? Good luck! I hit you with a taunt, mess up your vision, and burn your health nonstop! Best part: my swords and guns go full turbo for the duration. Blink and you'll miss it
+  [DEADPOOL IN YOUR AREA - VANGUARD UPGRADED (Upgrade)]: Teammates, stay safe! Dummies, look here! It's showtime: I taunt, blind you, and hit warp speed with my swords and guns. Plus, my crew gets a damage reduction buff, so they're basically invincible. Dummies that stick around too long will even have their UI taped over!
+  [UPGRADE!]: I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!
+  [BUNNY BOUNCE]: Yup, I can double jump in midair! During The Big Test and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!
+  [HEALING FACTOR]: Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains
+  [MAXIMUM FLAIR]: Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!
+  [Comical Chaos]: Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!
+
+=== DEADPOOL (DUELIST) ===
+  [DUAL DESERT EAGLES - DUELIST]: Bang! Bang! Unleash two hand cannons left and right, because one gun is never enough. Pew pew, baby!
+  [DUAL DESERT EAGLES - DUELIST UPGRADED (Upgrade)]: Keep blasting till you trigger a BOOM. My thoughts literally explode onto the battlefield. Talk about mind-blowing firepower!
+  [KICK@$$ KATANA - DUELIST]: Slicey, dicey, twice as nicey! Swing both swords at whoever gets too close. Sushi, anyone?
+  [KICK@$$ KATANA - DUELIST UPGRADED (Upgrade)]: Now with extra chop! Stabs can go straight for the noggin. Heads up! Do a Bunny Hop and POW! Stabby Stabby action guaranteed! Run while you can!
+  [HEADSHOT! - DUELIST]: Ever seen someone throw their own face? Watch me KO a crowd, then catch my mug on the rebound!. Don't lose your head over it
+  [HEADSHOT! - DUELIST UPGRADED (Upgrade)]: Juggle my noggin for extra throws! If you catch it thrice, it goes kaboom. Everyone gets a piece of my mind
+  [HAZARDOUS HIJINKS - DUELIST]: Blink, and you'll miss my deadly dash combo. Slash, dash, repeat! Hit someone? You get to go again! (Up to 2 more times. Don't get greedy.) Who says I can't multitask?
+  [HAZARDOUS HIJINKS - DUELIST UPGRADED (Upgrade)]: Now with bouncy castle action! Slash, bounce, repeat. It's like the world's deadliest pinball!. Cooldowns? Never heard of 'em. Keep going as long as you hit stuff, just don't let me fall flat on my ass!
+  [SKILL ISSUE]: Let's play judge! Pick a dumb-dumb and slap a taunt. They miss an ability? Boom! Gavel drops, and I slap them with pain and snark
+  [SKILL ISSUE - UPGRADED (Upgrade)]: Dumbpoochu, I choose you! Taunt time! Their HP melts away, and if they whiff an ability, they get bonus pain AND Vulnerability. Double whammy! Objection? Overruled!
+  [POP QUIZ!]: Hey, you! Yeah, you! Ready for a challenge? Free speed and healing just for trying. Nail enough hits with the right abilities and unlock the deluxe speed-heal package. It's an A+ in chaos!
+  [POP QUIZ! - UPGRADED (Upgrade)]: Don't just stand there, you blockhead! The challenge's still rolling. But don't worry, I'm not one of those money-hungry scam artists. The buffs are on the house, no price hike. Take on this challenge, and you'll get three freebies: a little Speed boost, Continuous Healing, and Damage Up. Hit enough baddies with the right abilities exactly as I ask, and you unlock the ultimate bundle (Super Speed, Super Healing, Damage Boost AND reset all your cooldowns (except Healing Factor; no cheating!). Now THAT'S love
+  [DEADPOOL IN YOUR AREA - DUELIST]: True heroes taunt face-to-face! I roast nearby baddies, mess up their vision, and tank their hits like a boss. Try me!
+  [DEADPOOL IN YOUR AREA - DUELIST UPGRADED (Upgrade)]: Check out the best trash talk in the Chronoverse! Keep taunting and melting their HP! I even block their screen, so they can't see squat. Plus, I tank hits like a champ. Enemies that stick around too long get the bottom of their screen taped up. By the end, they won't even find their health bar and whatnot. Good luck fighting what you can't see, suckers!
+  [BUNNY HOP]: Hippity-hoppity, Deadpool's on your property! Watch me squeeze in a second jump midair! Hop on heads or kick off walls with Bunny Hop to refresh the cooldown, and if I land on someone? Free health for me, and a headache for them. Whee!
+
+=== DEADPOOL (STRATEGIST) ===
+  [KICK@$$ KATANA - STRATEGIST UPGRADED (Upgrade)]: Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Healing Hop hit makes the next swing a stabby special
+  [FINAL EXAM]: Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Healing Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!
+  [FINAL EXAM - UPGRADED (Upgrade)]: Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs(massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!
+
+=== DEVIL DINOSAUR ===
+  [Primal Bite]: Bite forward. Applies a Bleed that deals continuous Percentage Damage
+  [Impact Beam]: Unleash a devastating beam of energy that inflicts a Bleed and Slow.
+  [Devil-Beast Rampage]: Erupt in primal fury! Gain a massive Movement Speed Boost while unleashing earth-shattering stomps that Launch enemies and applies a Bleed. Thunderous roars also emit sonic waves that Slow enemies hit
+  [Savage Predation]: Dash and pounce on your prey with a vicious bite, applying a Bleed. If the target is already Bleeding, clamp down before hurling them away
+  [Buddy Barrier]: Activate the heart-shaped generator to expand a spherical shield that blocks incoming damage. Enemies caught within are Slowed
+  [Frenzied Feast]: Unleash a flurry of continuous bites, converting the damage dealt into Bonus Health. Deals extra damage against Bleeding targets
+  [Prehistoric Plating]: Take reduced damage from headshots. Immune to launch-up, knock-back, and other displacement effects. Enemies and allies generate less Ultimate Ability Energy when damaging or healing him
+  [Apex Advantage]: Gain Bonus Health when you inflict Bleeding upon an enemy
+  [Prehistoric Partner]: The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher
+
+=== DOCTOR STRANGE ===
+  [Daggers of Denak]: Cast Daggers of Denak forward
+  [Shield of the Seraphim]: Create a protective barrier against damage
+  [Eye of Agamotto]: Separate nearby enemies' Souls from their bodies. Damage dealt to these Souls is transferred to their physical bodies
+  [Cloak of Levitation]: Ascend and then enter a brief state of sustained flight
+  [Maelstrom of Madness]: Release Dark Magic to deal damage to nearby enemies
+  [PSIONIC VORTEX]: Invisible Woman enhances Doctor Strange's Maelstrom of Madness with a psionic explosion. The explosion damages and pulls enemies toward Doctor Strange. Based on the explosion's damage, Doctor Strange and nearby allies gain Bonus Health
+  [Pentagram of Farallah]: Open portals between two locations, enabling all units to travel through them
+  [Price of Magic]: Dark Magic accumulates with every hit on an enemy. If Dark Magic peaks for too long, Doctor Strange will be cursed with Anti-Heal
+  [Enchanted Enhancement]: Doctor Strange shares his arcane mastery, replacing Scarlet Witch's Chthonian Burst with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction

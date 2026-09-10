@@ -10,6 +10,7 @@
   // State
   let heroesData = [];
   let i18nData = {};
+  let translationsData = {};
   let currentLang = localStorage.getItem('mr_db_lang') || 'ko';
   let currentRole = 'ALL';
   let searchQuery = '';
@@ -61,9 +62,10 @@
    */
   async function init() {
     try {
-      const [heroesRes, i18nRes] = await Promise.all([
+      const [heroesRes, i18nRes, transRes] = await Promise.all([
         fetch('data/heroes.json'),
-        fetch('data/i18n.json')
+        fetch('data/i18n.json'),
+        fetch('data/translations.json').catch(() => null)
       ]);
 
       if (!heroesRes.ok || !i18nRes.ok) {
@@ -72,6 +74,13 @@
 
       heroesData = await heroesRes.json();
       i18nData = await i18nRes.json();
+      if (transRes && transRes.ok) {
+        try {
+          translationsData = await transRes.json();
+        } catch (e) {
+          console.warn('Could not parse translations.json:', e);
+        }
+      }
 
       setupEventListeners();
       applyLanguage(currentLang);
@@ -536,19 +545,22 @@
     const statsGridHtml = statsEntries.map(([k, v]) => {
       const lowerKey = k.toLowerCase();
       const highlightClass = STAT_HIGHLIGHT_CLASSES[lowerKey] || '';
-      const translatedLabel = t.stats?.[k]?.[currentLang] || k;
+      const translatedLabel = translateStatLabel(k, currentLang);
+      const translatedValue = translateStatValue(v, currentLang);
 
       return `
         <div class="stat-box ${highlightClass}">
           <span class="stat-label">${escapeHtml(translatedLabel)}</span>
-          <span class="stat-value">${escapeHtml(v)}</span>
+          <span class="stat-value">${escapeHtml(translatedValue)}</span>
         </div>
       `;
     }).join('');
 
-    const descHtml = activeSkill.description ? `
+    const activeSkillDesc = getSkillDescription(activeSkill, currentLang);
+
+    const descHtml = activeSkillDesc ? `
       <div class="skill-desc-box">
-        ${escapeHtml(activeSkill.description)}
+        ${escapeHtml(activeSkillDesc)}
       </div>
     ` : '';
 
@@ -708,7 +720,7 @@
           <h4 style="color: #fff; font-size: 16px; font-weight: 700;">${escapeHtml(baseItem?.name || 'Base Effect')}</h4>
         </div>
         <div class="teamup-card-desc">
-          ${escapeHtml(baseItem?.description || (currentLang === 'ko' ? '아군 조합 없이도 솔로로 상시 발동되는 기본 효과입니다.' : 'Solo passive ability applied without requiring team-up partners.'))}
+          ${escapeHtml(getTeamupDescription(baseItem, 'base', currentLang) || (currentLang === 'ko' ? '아군 조합 없이도 솔로로 상시 발동되는 기본 효과입니다.' : 'Solo passive ability applied without requiring team-up partners.'))}
         </div>
         <div>
           <div class="stats-grid-title" style="margin-bottom: 8px;">
@@ -735,7 +747,7 @@
           <h4 style="color: #fff; font-size: 16px; font-weight: 700;">${escapeHtml(enhancedItem?.name || 'Enhanced Effect')}</h4>
         </div>
         <div class="teamup-card-desc">
-          ${escapeHtml(enhancedItem?.description || (currentLang === 'ko' ? `${partnerNameDisplay}와(과) 함께 플레이 시 스킬이 대폭 강화됩니다.` : `Activated when teaming up with ${partnerNameDisplay}.`))}
+          ${escapeHtml(getTeamupDescription(enhancedItem, 'enhanced', currentLang) || (currentLang === 'ko' ? `${partnerNameDisplay}와(과) 함께 플레이 시 스킬이 대폭 강화됩니다.` : `Activated when teaming up with ${partnerNameDisplay}.`))}
         </div>
         <div>
           <div class="stats-grid-title" style="margin-bottom: 8px;">
@@ -757,21 +769,96 @@
       return `<p style="color: var(--text-dim); font-size: 12px; grid-column: 1/-1;">수치 데이터 없음</p>`;
     }
 
-    const t = i18nData[currentLang] || {};
     return Object.entries(statsObj)
       .filter(([k, v]) => k.toLowerCase() !== 'key')
       .map(([k, v]) => {
         const lowerKey = k.toLowerCase();
         const highlightClass = STAT_HIGHLIGHT_CLASSES[lowerKey] || '';
-        const translatedLabel = t.stats?.[k]?.[currentLang] || k;
+        const translatedLabel = translateStatLabel(k, currentLang);
+        const translatedValue = translateStatValue(v, currentLang);
 
         return `
           <div class="stat-box ${highlightClass}" style="padding: 8px 10px;">
             <span class="stat-label" style="font-size: 10px;">${escapeHtml(translatedLabel)}</span>
-            <span class="stat-value" style="font-size: 13px;">${escapeHtml(v)}</span>
+            <span class="stat-value" style="font-size: 13px;">${escapeHtml(translatedValue)}</span>
           </div>
         `;
       }).join('');
+  }
+
+  /**
+   * Get translated skill description with fallback
+   */
+  function getSkillDescription(skill, lang) {
+    if (!skill) return '';
+    if (lang === 'en') return skill.description || '';
+    if (skill.description_trans?.[lang]) return skill.description_trans[lang];
+    if (translationsData?.skills) {
+      const normKey = skill.description ? skill.description.replace(/\s+/g, ' ').trim() : '';
+      if (translationsData.skills[normKey]?.[lang]) return translationsData.skills[normKey][lang];
+      if (translationsData.skills[skill.description]?.[lang]) return translationsData.skills[skill.description][lang];
+    }
+    return skill.description || '';
+  }
+
+  /**
+   * Get translated teamup description with fallback
+   */
+  function getTeamupDescription(item, tier, lang) {
+    if (!item) return '';
+    if (lang === 'en') return item.description || '';
+    if (item.description_trans?.[lang]) return item.description_trans[lang];
+    if (translationsData?.teamups) {
+      const normKey = item.description ? item.description.replace(/\s+/g, ' ').trim() : '';
+      const entry = translationsData.teamups[normKey] || translationsData.teamups[item.description] || translationsData.teamups[item.name] || translationsData.teamups[item.loadout_name];
+      if (entry?.[tier]?.[lang]) return entry[tier][lang];
+      if (entry?.full?.[lang]) return entry.full[lang];
+    }
+    return item.description || '';
+  }
+
+  /**
+   * Translate Stat Label / Key
+   */
+  function translateStatLabel(k, lang) {
+    if (!k || lang === 'en') return k;
+    if (translationsData?.stat_labels?.[k]?.[lang]) {
+      return translationsData.stat_labels[k][lang];
+    }
+    const t = i18nData[lang] || {};
+    if (t.stats?.[k]?.[lang]) {
+      return t.stats[k][lang];
+    }
+    return k;
+  }
+
+  /**
+   * Translate Stat Value dynamically (Seasonal patch numerical resilience!)
+   */
+  function translateStatValue(v, lang) {
+    if (!v || typeof v !== 'string' || lang === 'en') return v;
+    const trimmed = v.trim();
+
+    // 1. Exact value translation
+    if (translationsData?.stat_values?.[trimmed]?.[lang]) {
+      return translationsData.stat_values[trimmed][lang];
+    }
+
+    // 2. Dynamic regex pattern translation (preserves numbers from patches!)
+    const patterns = translationsData?.stat_patterns || [];
+    for (const p of patterns) {
+      try {
+        const regex = new RegExp(p.regex, 'i');
+        if (regex.test(trimmed)) {
+          const repl = p[lang] || p.ko || '';
+          if (repl) {
+            return trimmed.replace(regex, repl);
+          }
+        }
+      } catch (e) {}
+    }
+
+    return v;
   }
 
   /**

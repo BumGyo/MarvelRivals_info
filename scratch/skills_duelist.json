@@ -1,0 +1,1547 @@
+{
+  "BLACK CAT": [
+    {
+      "key": "Left Click",
+      "name": "FELINE FURY",
+      "desc": "Swipe forward with razor-sharp claws",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "CLAW WHIP",
+      "desc": "Fire out tethered claws and whip them forward in a devastating arc, dealing damage to all enemies caught in range",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "FORTUNE'S FAVOR",
+      "desc": "Spend Fortuneto unleash either Grapple Swipeor Phantom Pursuit",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "FORTUNE'S FAVOR",
+      "desc": "Spend Fortuneto unleash either Grapple Swipeor Phantom Pursuit",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "CALLING CARD",
+      "desc": "Issue a Calling Card to all enemies. Instantly dash to any enemy in sight and range, tearing into them with your claws to deal Damage",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "CALLING CARD",
+      "desc": "Issue a Calling Card to all enemies. Instantly dash to any enemy in sight and range, tearing into them with your claws to deal Damage",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "CAT'S CRADLE",
+      "desc": "Lunge forward with claws bared, slicing through any enemies caught in your path",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "CAT'S CRADLE",
+      "desc": "Lunge forward with claws bared, slicing through any enemies caught in your path",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "TURN OF FORTUNE",
+      "desc": "Launch a grappling hook forward that damages an enemy on impact and steals Fortunebefore pulling it back to Black Cat",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "PHANTOM PURSUIT",
+      "desc": "Swiftly dash to an enemy, unleash a rapid flurry of claw attacks, and flash back to your starting position. Black Cat is Untargetableduring this move",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "GILDED DEAL",
+      "desc": "Use the Spatial Resonator to open a portal to the Elder Gods' dimension, consuming Fortune to trade with the Golden Elder and acquire items from the New York Thieves Guild vault.",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "TABLET OF DESTINIES",
+      "desc": "Gain a random amount of Fortune",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "HELM OF HADES",
+      "desc": "Enter Invisiblestate for a set duration",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "FALTINE FLAME ORB",
+      "desc": "Conjure an orb of mystical Faltine Flame to Revealand mark all nearby enemies",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "CHERNOBOG'S CRYSTAL",
+      "desc": "Purify yourself, instantly removing any active control effects",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "RING OF ZONA",
+      "desc": "Open a portal on a surface, allowing instant traversal to the opposite side",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "MENTO-FISH",
+      "desc": "Create a hypnosis field. Inflicts Slow, disables movement abilities, and Groundsall enemies caught within",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "THIEVING GRACE",
+      "desc": "Perform a double jump",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "STEALTHY CATWALK",
+      "desc": "Hold {Jump} to crawl up vertical surfaces",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "THIEVING GRACE",
+      "desc": "Perform a double jump",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "STEALTHY CATWALK",
+      "desc": "Hold {Jump} to crawl up vertical surfaces",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "MALKIN MISFORTUNE",
+      "desc": "Apply Jinxto enemies on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a Critical Hit",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "GIFT OF GOLD",
+      "desc": "Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby allies and enemies, granting allies speed and healing while dealing damage and slowing enemies. Captain America receives the Vibranium Energy Amplifier, which expands shield block range when raised and reflects projectiles back along the crosshair direction.",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "MALKIN MISFORTUNE",
+      "desc": "Apply Jinxto enemies on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a Critical Hit",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "GIFT OF GOLD",
+      "desc": "Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby allies and enemies, granting allies speed and healing while dealing damage and slowing enemies. Captain America receives the Vibranium Energy Amplifier, which expands shield block range when raised and reflects projectiles back along the crosshair direction.",
+      "upgrade": null
+    },
+    {
+      "key": "PASSIVE",
+      "name": "STICKY PAWS",
+      "desc": "Steal a set amount of Fortunewhenever your attacks hit an enemy",
+      "upgrade": null
+    }
+  ],
+  "BLACK PANTHER": [
+    {
+      "key": "Left Click",
+      "name": "Vibranium Claws",
+      "desc": "Slice Vibranium Claws forward",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Spear Toss",
+      "desc": "Toss a Vibranium energy spear forward, creating a Vibranium Force Field and attaching a Vibranium Mark to enemies in its radius",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Bast's Descent",
+      "desc": "Summon Bast, pouncing forward, dealing damage, and attaching a Vibranium Mark to enemies hit while refreshing Spirit Rend",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Spirit Rend",
+      "desc": "Lunge forward and deal damage to enemies. Vibranium Mark produces Bonus Health and refreshes the ability",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Spinning Kick",
+      "desc": "Spiral forward and attach a Vibranium Mark to enemies hit",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Subtle Step",
+      "desc": "Hold Space to run on a wall; perform a jump after detaching from the wall",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Panther's Cunning",
+      "desc": "Deal higher damage when at low Health",
+      "upgrade": null
+    },
+    {
+      "key": "PASSIVE",
+      "name": "GAMMA VIBRANIUM ARMOR",
+      "desc": "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther's Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming Unstoppable",
+      "upgrade": null
+    }
+  ],
+  "BLADE": [
+    {
+      "key": "Left Click",
+      "name": "Ancestral Sword",
+      "desc": "Slash forward with Blade's Ancestral Sword",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Hunter's Shotgun",
+      "desc": "Fire at enemies using your Shotgun",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Scarlet Shroud",
+      "desc": "Parry with Ancestral Sword to become Unstoppable for a brief period, reducing damage taken from the front and decreasing the cooldown of Daywalker Dash",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Thousand-Fold Slash",
+      "desc": "Charge power and swiftly draw the Sword of Dracula, executing a powerful Iaido strike as you dash forward, leaving behind a slashing zone where the sword automatically strikes enemies. Enemies hit suffer Reduced Healing",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Daywalker Dash",
+      "desc": "Dash forward. If wielding your gun, shoot at enemies upon impact, applying a Healing Reduction effect. If wielding your sword, deliver a cleaving strike that inflicts Slow",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Bloodline Awakening",
+      "desc": "Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering Whirlwind Slash.If all Whirlwind Slash strikes hit, your Attack Speed will further increase. While under this state, you suffer Reduced Healing, but attacks gain Lifesteal",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "ECLIPSE EDGE",
+      "desc": "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his Ancestral Sword in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a Darkmoon Blade forward. When a Darkmoon Blade hits an enemy, it bounces to nearby targets",
+      "upgrade": null
+    }
+  ],
+  "Black Widow": [
+    {
+      "key": "Left Click",
+      "name": "Widow's Bite Baton",
+      "desc": "Strike with the enhanced electric batons",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Red Room Rifle",
+      "desc": "Attack with the Red Room Rifle",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "ELECTRO-PLASMA BLAST",
+      "desc": "Fire an electro-plasma round forward. Upon hitting the environment or an enemy, it explodes and applies a Slow effect",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "ASSASSIN'S FOCUS",
+      "desc": "Switch the Red Room Rifle to sniper mode. Shots fired in this state pierce through targets and deal increased damage",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "EDGE DANCER",
+      "desc": "Unleash a spinning kick to Launch Up enemies. Landing the hit will allow her to zip to the target with a grappling hook for a second kick",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "WIDOW'S BITE SLAM",
+      "desc": "Leap toward a target area and slam the ground with her Widow's Bite gauntlet, dealing damage to enemies within range",
+      "upgrade": null
+    }
+  ],
+  "Cyclops": [
+    {
+      "key": "Left Click",
+      "name": "Optic Blast",
+      "desc": "Fire a quick burst of kinetic force forward. Hitting enemies accelerates Ricochet Force charge rate",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Concussive Beam",
+      "desc": "Continuously fire a powerful beam that can refract between enemies and the environment. Hitting enemies accelerates Ricochet Force charge rate",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Ruby Rage",
+      "desc": "Remove visor and fire a powerful sweeping beam forward. The blast leaves behind volatile excess energy that erupts, dealing massive secondary explosive damage",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Propulsion Burst",
+      "desc": "Fire a propulsion beam to push yourself and the target backward, applying a Slow effect to the enemy",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Ricochet Force",
+      "desc": "Fire a beam that can diffract and track nearby enemies after hitting terrain. Upon use, Cyclops gains Bonus Health",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Optic Ascent",
+      "desc": "Fire a propulsion beam directly downward to push yourself up and knock back hit enemies, applying a Slow effect to them",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Kinetic Hover",
+      "desc": "Enter a slow-fall state while firing Concussive Beam mid-air",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Red Adamantium",
+      "desc": "Cyclops supercharges Wolverine's claws, extending his attack range. While active, Wolverine's Vicious Rampage is replaced with Kinetic Claws, granting him a brief forward lunge that unleashes a flurry of slashes around him",
+      "upgrade": null
+    }
+  ],
+  "DEADPOOL (DUELIST)": [
+    {
+      "key": "Left Click",
+      "name": "DUAL DESERT EAGLES - DUELIST",
+      "desc": "Bang! Bang! Unleash two hand cannons left and right, because one gun is never enough. Pew pew, baby!",
+      "upgrade": {
+        "name": "DUAL DESERT EAGLES - DUELIST UPGRADED",
+        "desc": "Keep blasting till you trigger a BOOM. My thoughts literally explode onto the battlefield. Talk about mind-blowing firepower!"
+      }
+    },
+    {
+      "key": "Left Click",
+      "name": "KICK@$$ KATANA - DUELIST",
+      "desc": "Slicey, dicey, twice as nicey! Swing both swords at whoever gets too close. Sushi, anyone?",
+      "upgrade": {
+        "name": "KICK@$$ KATANA - DUELIST UPGRADED",
+        "desc": "Now with extra chop! Stabs can go straight for the noggin. Heads up! Do a Bunny Hop and POW! Stabby Stabby action guaranteed! Run while you can!"
+      }
+    },
+    {
+      "key": "Right Click",
+      "name": "HEADSHOT! - DUELIST",
+      "desc": "Ever seen someone throw their own face? Watch me KO a crowd, then catch my mug on the rebound!. Don't lose your head over it",
+      "upgrade": {
+        "name": "HEADSHOT! - DUELIST UPGRADED",
+        "desc": "Juggle my noggin for extra throws! If you catch it thrice, it goes kaboom. Everyone gets a piece of my mind"
+      }
+    },
+    {
+      "key": "Right Click",
+      "name": "HAZARDOUS HIJINKS - DUELIST",
+      "desc": "Blink, and you'll miss my deadly dash combo. Slash, dash, repeat! Hit someone? You get to go again! (Up to 2 more times. Don't get greedy.) Who says I can't multitask?",
+      "upgrade": {
+        "name": "HAZARDOUS HIJINKS - DUELIST UPGRADED",
+        "desc": "Now with bouncy castle action! Slash, bounce, repeat. It's like the world's deadliest pinball!. Cooldowns? Never heard of 'em. Keep going as long as you hit stuff, just don't let me fall flat on my ass!"
+      }
+    },
+    {
+      "key": "Q",
+      "name": "SKILL ISSUE",
+      "desc": "Let's play judge! Pick a dumb-dumb and slap a taunt. They miss an ability? Boom! Gavel drops, and I slap them with pain and snark",
+      "upgrade": {
+        "name": "SKILL ISSUE - UPGRADED",
+        "desc": "Dumbpoochu, I choose you! Taunt time! Their HP melts away, and if they whiff an ability, they get bonus pain AND Vulnerability. Double whammy! Objection? Overruled!"
+      }
+    },
+    {
+      "key": "Q",
+      "name": "POP QUIZ!",
+      "desc": "Hey, you! Yeah, you! Ready for a challenge? Free speed and healing just for trying. Nail enough hits with the right abilities and unlock the deluxe speed-heal package. It's an A+ in chaos!",
+      "upgrade": {
+        "name": "POP QUIZ! - UPGRADED",
+        "desc": "Don't just stand there, you blockhead! The challenge's still rolling. But don't worry, I'm not one of those money-hungry scam artists. The buffs are on the house, no price hike. Take on this challenge, and you'll get three freebies: a little Speed boost, Continuous Healing, and Damage Up. Hit enough baddies with the right abilities exactly as I ask, and you unlock the ultimate bundle (Super Speed, Super Healing, Damage Boost AND reset all your cooldowns (except Healing Factor; no cheating!). Now THAT'S love"
+      }
+    },
+    {
+      "key": "E",
+      "name": "DEADPOOL IN YOUR AREA - DUELIST",
+      "desc": "True heroes taunt face-to-face! I roast nearby baddies, mess up their vision, and tank their hits like a boss. Try me!",
+      "upgrade": {
+        "name": "DEADPOOL IN YOUR AREA - DUELIST UPGRADED",
+        "desc": "Check out the best trash talk in the Chronoverse! Keep taunting and melting their HP! I even block their screen, so they can't see squat. Plus, I tank hits like a champ. Enemies that stick around too long get the bottom of their screen taped up. By the end, they won't even find their health bar and whatnot. Good luck fighting what you can't see, suckers!"
+      }
+    },
+    {
+      "key": "F",
+      "name": "UPGRADE!",
+      "desc": "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "BUNNY HOP",
+      "desc": "Hippity-hoppity, Deadpool's on your property! Watch me squeeze in a second jump midair! Hop on heads or kick off walls with Bunny Hop to refresh the cooldown, and if I land on someone? Free health for me, and a headache for them. Whee!",
+      "upgrade": null
+    },
+    {
+      "key": "PASSIVE",
+      "name": "HEALING FACTOR",
+      "desc": "Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "MAXIMUM FLAIR",
+      "desc": "Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Comical Chaos",
+      "desc": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!",
+      "upgrade": null
+    }
+  ],
+  "Daredevil": [
+    {
+      "key": "Left Click",
+      "name": "JUSTICE JAB",
+      "desc": "Swing Billy Clubs forward. Gain Fury on hit",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "RIGHTEOUS CROSS",
+      "desc": "Cross your Billy Clubs and surge forward. Gain Fury on hit",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "OBJECTION!",
+      "desc": "Whirl billy clubs in a tight guard to block frontal damage and reflect projectiles, becoming immune to all incoming harm during this stance and gain Fury",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "INFERNAL FURY",
+      "desc": "Expend Fury to unleash Devil's Chain or Devil's Throw. Devil's Chain converts damage into Bonus Health, while Devil's Throw Slows enemies on hit and temporarily enables Cross Interrogation",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "LET THE DEVIL OUT",
+      "desc": "Embrace the Beast within. Enemies in Daredevil's line of sight take damage and suffer a ramping Blind effect. Continually gain Fury while active",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "DEVIL'S LATCH",
+      "desc": "Fire a grappling line that reels Daredevil and his target toward each other. On completion, gain Fury and temporarily enables Cross Interrogation",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Sonic Pursuit",
+      "desc": "Locks onto a target, gaining increased Speed; and Damage Reduction when attacked. While in range, dash to the target, Blinding them and restore Fury",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "BLIND ASCENT",
+      "desc": "Run along walls and spring off them to reposition",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "RADAR SENSE",
+      "desc": "Detect enemy movements within a set radius",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "BLIND VERDICT",
+      "desc": "Daredevil shares the location of his Sonic Pursuit target with The Punisher. At the same time, The Punisher can launch a devil-infused shock grenade to damage and blind enemies",
+      "upgrade": null
+    }
+  ],
+  "Elsa Bloodstone": [
+    {
+      "key": "Left Click",
+      "name": "DOUBLE-BARREL BLASTER",
+      "desc": "Fire your shotgun forward",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "MONSTER-PIERCER",
+      "desc": "Unleash your elephant gun forward. Bullets pierce enemies and deal high damage",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "LIVING BULLET",
+      "desc": "Fire a Living Bullet round that splits upon impact, seeking nearby enemies and marking each with a Spectral Sigil. Hitting marked targets with Double-Barrel Blaster or Monster-Piercer grants Elsa a brief Speed boost. Living Bullets deal extra damage to shields and enemies with Bonus Health",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "BLOODSTONE'S BOOMBOX BULLETS",
+      "desc": "Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range are healed! Elsa Bloodstone's Living Bullet changes to special rounds that Taunt targets with Deadpool's chatter, while Slowing, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "APEX PREDATOR",
+      "desc": "Summon the Glartrox to charge forward. The Glartrox can be recalled to charge back toward Elsa. When colliding with terrain or upon return, it bites fiercely, dealing heavy damage",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "HELIX ADVANCE",
+      "desc": "Dash forward. Your next Double-Barrel Blaster becomes Monster-Piercer",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "RUTHLESS PURSUIT",
+      "desc": "Dash forward, gaining Bonus Health and launching enemies hit. Follow up with a Double-Barrel Blaster shot that propels you backward and Slows enemies. Using either stage empowers your next Double-Barrel Blaster, transforming it into Monster-Piercer",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "SMOKY SNARE",
+      "desc": "Launch a trap containing the monster Diablo. Once deployed, it becomes Invisible and Invulnerable. When an enemy triggers it, Diablo Immobilizes and Damages them. Use to dash to the trapped enemy. Enemies can destroy Diablo to break free",
+      "upgrade": null
+    },
+    {
+      "key": "PASSIVE",
+      "name": "INHERITED INSTINCT",
+      "desc": "Dealing damage increases hunting Instinct. Defeating enemies caught by Smoky Snare grants additional Instinct. Higher Instinct reduces the cooldown of Helix Advance",
+      "upgrade": null
+    }
+  ],
+  "HAWKEYE": [
+    {
+      "key": "Left Click",
+      "name": "Piercing Arrow",
+      "desc": "Shoot a powerful arrow",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Blast Arrow",
+      "desc": "Shoot three explosive arrows",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Hunter's Sight",
+      "desc": "Capture Afterimages of enemies in his view. Damage dealt to an Afterimage is transferred to the corresponding enemy",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Crescent Slash",
+      "desc": "Unsheathe a katana and slash forward, launching up enemies hit",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "MOONLIT SLASH",
+      "desc": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses Crescent Slash, enemies hit are launched back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and boosts healing for allies, while damaging enemies and applying Vulnerability",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Hypersonic Arrow",
+      "desc": "Shoot a Hypersonic Arrow, dealing two instances of damage to enemies in its path and inflicting them with Slow. This ability can Knock Down flying heroes",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Skyward Leap",
+      "desc": "Perform a double jump in the direction of movement",
+      "upgrade": null
+    },
+    {
+      "key": "V",
+      "name": "Ronin Slash",
+      "desc": "Swing a wakizashi to strike frontal enemies, deflecting all incoming projectiles",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Archer's Focus",
+      "desc": "Aim at an enemy to improve focus, enhancing the damage inflicted by Piercing Arrow",
+      "upgrade": null
+    }
+  ],
+  "HELA": [
+    {
+      "key": "Left Click",
+      "name": "Nightsword Thorn",
+      "desc": "Throw Nightsword thorns",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Piercing Night",
+      "desc": "Fire multiple Nightsword thorns that detonate after a delay",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Goddess of Death",
+      "desc": "Soar into the sky and unleash Nastrond Crows from each hand at will",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Astral Flock",
+      "desc": "Transform into a Nastrond Crow to glide forth, press again to undo the transformation. Gain Bonus Health when the transformation ends",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Soul Drainer",
+      "desc": "Project an explosive Hel sphere to Stun nearby enemies.",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Hel Tendrils",
+      "desc": "Venom shares his symbiotes with Jeff and Hela.  Hela's Hel Tendrils unleash a symbiotic Hel Sphere. Upon hit, it pulls nearby enemies toward the impact point and links them, slowing enemies that try to escape.",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Hel's Descent",
+      "desc": "Hold Space to fall slowly",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Nastrond Crowstorm",
+      "desc": "Defeating an enemy will generate a Nastrond Crow, exploding after a duration",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "DEATH KNELL",
+      "desc": "Hela channels energy of the undead to empower Namor. When Namor strikes with his trident, a spectral water column erupts at the target area, slowing enemies hit. Whenever Hela or Namor assist in a KO, an invulnerable Undead Monstro spawns at the fallen enemy's position, automatically attacking the nearest foe for a short time before vanishing",
+      "upgrade": null
+    }
+  ],
+  "HUMAN TORCH": [
+    {
+      "key": "Left Click",
+      "name": "Fire Cluster",
+      "desc": "Launch forward a splittable fireball",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Blazing Blast",
+      "desc": "Launch a fireball to create a Flame Field at the targeted area",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Supernova",
+      "desc": "Explode with cosmic fire to deal damage to enemies within range. Upon skill activation, all Flame Fields will transform into Flame Tornadoes, dealing extra damage",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Plasma Body",
+      "desc": "Enter a state of accelerated ascent",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Pyro-Prison",
+      "desc": "Form a fire wall between Fire Fields to burn enemies",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Flaming Meteor",
+      "desc": "Dive towards the ground, dealing damage to enemies and detonating any Flame Fields hit",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Storm Siblings",
+      "desc": "The Invisible Woman taps into her powers, channeling Psionic Might to fortify the entire Fantastic Four team, granting damage resistance. Once activated, they can continually generate Bonus Health, making up for lost Health",
+      "upgrade": null
+    },
+    {
+      "key": "X",
+      "name": "Two In One",
+      "desc": "Human Torch can lift The Thing into the air and slam him down, dealing damage, launching enemies, and creating a zone that disables mobility abilities",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Pyrokinetic Energy",
+      "desc": "Human Torch stores Pyrokinetic Energy in Spider-Man's suit, enabling him to unleash an Inferno Blast that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a Burn-Tracer. Detonating these Burn-Tracers inflicts Damage Over Time",
+      "upgrade": null
+    }
+  ],
+  "IRON FIST": [
+    {
+      "key": "Left Click",
+      "name": "Jeet Kune Do",
+      "desc": "Strike the targeted enemy with Jeet Kune Do, reducing the cooldown of Block and Strike with every hit",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Yat Jee Chung Kuen",
+      "desc": "Dash forward to pursue the targeted enemy and unleash a flurry of attacks",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Dragon's Defense",
+      "desc": "Assume a defensive stance with a boost of Chi to block incoming attacks and gain Damage Reduction, then strike back with Yat Jee Chung Kuen",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Living Chi",
+      "desc": "Become living Chi to boost his speed, damage, and attack range, delivering stronger punches while reducing the cooldown of Dragon's Defense",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "K'un-Lun Kick",
+      "desc": "Dash forward, delivering a flying kick when hitting an enemy or reaching full range, dealing damage to nearby enemies. Damage increases with lower enemy health",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Harmony Recovery",
+      "desc": "Cross legs and channel Chi, slowly gaining Bonus Health",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Lunar Chi",
+      "desc": "Luna Snow grants Winter's Chill to Hawkeye and Iron Fist. When Iron Fist activates Harmony Recovery, he can heal nearby allies with Lunar Chi",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Crane Leap",
+      "desc": "Perform up to three consecutive jumps while airborne",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Wall Runner",
+      "desc": "Run horizontally along the walls",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Chi Absorption",
+      "desc": "Assists in taking down enemies allow him to absorb their Chi and gain Bonus Health",
+      "upgrade": null
+    }
+  ],
+  "IRON MAN": [
+    {
+      "key": "Left Click",
+      "name": "Repulsor Blast",
+      "desc": "Fire nano pulse cannons forward",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Repulsor Blast (Armor Overdrive)",
+      "desc": "Fire nano pulse cannons forward",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Unibeam",
+      "desc": "Fire nano pulse cannons forward",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Unibeam (Armor Overdrive)",
+      "desc": "Fire nano pulse cannons forward",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Invincible Pulse Cannon",
+      "desc": "Fire a devastating pulse cannon in the targeted direction, delivering catastrophic damage to the targeted area upon impact",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Hyper-Velocity",
+      "desc": "Activate Hyper-Velocity state for swift forward flight",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Hyper-Velocity (Armor Overdrive)",
+      "desc": "Activate Hyper-Velocity state for swift forward flight",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Armor Overdrive",
+      "desc": "Activate Armor Overdrive state, enhancing the damage of Repulsor Blast and Unibeam",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Micro-Missile Barrage",
+      "desc": "When Hyper-Velocity or Armor Overdrive is used, Iron Man can launch a missile bombardment",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Micro-Missile Barrage (Armor Overdrive)",
+      "desc": "When Hyper-Velocity or Armor Overdrive is used, Iron Man can launch a missile bombardment",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "NANO TECH",
+      "desc": "When Iron Man, Ultron and Squirrel Girl team up, Ultron's Encephalo-Ray upgrades to Nano-Ray, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the Squirrel Missile ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
+      "upgrade": null
+    }
+  ],
+  "MAGIK": [
+    {
+      "key": "Left Click",
+      "name": "Soulsword",
+      "desc": "Slash forward with the Soulsword",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Eldritch Whirl",
+      "desc": "Spin while swinging the Soulsword after exiting a Stepping Disc",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Soulsword",
+      "desc": "Slash forward with the Soulsword",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Eldritch Whirl",
+      "desc": "Spin while swinging the Soulsword after exiting a Stepping Disc",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Magik Slash",
+      "desc": "Strike forward an air slash",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Demon's Rage",
+      "desc": "Summon a Limbo demon that attacks enemies after exiting a Stepping Disc",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Magik Slash",
+      "desc": "Strike forward an air slash",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Demon's Rage",
+      "desc": "Summon a Limbo demon that attacks enemies after exiting a Stepping Disc",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Darkchild",
+      "desc": "Transform into Darkchild, gaining enhancements to all her abilities",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Stepping Discs",
+      "desc": "Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Stepping Discs",
+      "desc": "Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Umbral Incursion",
+      "desc": "Dash forward and launch up enemies",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Umbral Incursion",
+      "desc": "Dash forward and launch up enemies",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "CHAIN OF CYTTORAK",
+      "desc": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's Chthonian Burst is replaced with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a Chain of Cyttorak that links two enemies and slows them; the farther they are apart, the greater the Slow effect inflicted during the link",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Limbo's Might",
+      "desc": "Convert damage inflicted on enemies into Bonus Health to herself",
+      "upgrade": null
+    }
+  ],
+  "MOON KNIGHT": [
+    {
+      "key": "Left Click",
+      "name": "Crescent Dart",
+      "desc": "Unleash Crescent Darts forward that can bounce between enemies and Ankhs, dealing damage to enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Moon Blade",
+      "desc": "Launch forward a Moon Blade that can bounce between enemies and Ankhs, dealing damage to enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Hand of Khonshu",
+      "desc": "Open a portal that allows Khonshu to bombard enemies with his talons",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Night Glider",
+      "desc": "Hold SHIFT to glide",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Ancient Ankh",
+      "desc": "Fire an Ankh to launch up enemies within its radius towards the center",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Moonlight Hook",
+      "desc": "Launch a frontal grappling hook that pulls Moon Knight towards it",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Rising Leap",
+      "desc": "Perform a double jump",
+      "upgrade": null
+    },
+    {
+      "key": "V",
+      "name": "Triple Eclipse",
+      "desc": "Perform a combo with his truncheon, and the third strike will launch up the enemy hit slightly",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "MOON GOD'S CHOSEN",
+      "desc": "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his Ancestral Sword in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a Darkmoon Blade forward. When a Darkmoon Blade hits an enemy, it bounces to nearby targets",
+      "upgrade": null
+    }
+  ],
+  "Mister Fantastic": [
+    {
+      "key": "Left Click",
+      "name": "Stretch Punch",
+      "desc": "Stretch out a forward punch to attack enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Distended Grip",
+      "desc": "Extend arms forward to entangle an enemy, then press Primary Attack to pull the hit enemy toward him, or select and yank another enemy, Knocking Them Airborne against each other. Hit targets are Immobilized",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Brainiac Bounce",
+      "desc": "Leap upward and smash the ground, slowing enemies within range. Mister Fantastic can leap again upon landing a hit",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Reflexive Rubber",
+      "desc": "Stretch the body to absorb damage before launching stored damage in the targeted direction",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Flexible Elongation",
+      "desc": "Gain a Shield, select a target and dash towards them, dealing damage to enemies or granting a Shield to allies",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "FANTASTIC AMPLIFIER",
+      "desc": "Rocket Raccoon upgrades his B.R.B. for Star-Lord and Mister Fantastic. Star-Lord gets an Astral Jump device, allowing him to teleport to its deployment point from anywhere on the map. Mister Fantastic receives a Fantastic Amplifier, removing his Elasticity limit and letting him actively enter Inflation state",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Elastic Strength",
+      "desc": "Using abilities generates Elasticity, boosting attack power. Reaching full Elasticity triggers an Inflated state that increases Maximum Health, further boosts damage, and enables the use of Reflexive Rubber",
+      "upgrade": null
+    }
+  ],
+  "NAMOR": [
+    {
+      "key": "Left Click",
+      "name": "Trident of Neptune",
+      "desc": "Throw the trident forward, reducing Aquatic Dominion's cooldown upon enemy impact. Critical hits cause Monstro Spawn to enter a berserk state, gaining increased Attack Speed",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Wrath of the Seven Seas",
+      "desc": "Launch the trident forward to damage nearby enemies, then direct all Monstro Spawn to perform an enhanced attack on the nearest hit enemy. When the trident hits an enemy, Monstro Spawn to enter a berserk state, gaining increased Attack Speed",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Horn of Proteus",
+      "desc": "Summon Giganto to leap atop enemies within range, disabling their mobility abilities",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Blessing of the Deep",
+      "desc": "Summon a protective barrier while flying upwards",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Aquatic Dominion",
+      "desc": "Summon a Monstro Spawn that can autonomously attack enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "TIDAL DIRGE",
+      "desc": "Hela channels energy of the undead to empower Namor. When Namor strikes with his trident, a spectral water column erupts at the target area, slowing enemies hit. Whenever Hela or Namor assist in a KO, an invulnerable Undead Monstro spawns at the fallen enemy's position, automatically attacking the nearest foe for a short time before vanishing",
+      "upgrade": null
+    }
+  ],
+  "PHOENIX": [
+    {
+      "key": "Left Click",
+      "name": "Cosmic Flames",
+      "desc": "Launch a fiery projectile forward, applying 1 Spark to enemies hit. Critical hits apply 2 Sparks. At 3 Sparks, Phoenix triggers a fiery explosion that applies 1 Spark to enemies around and Healing Over Time to self. Sparks from explosions will not stack within a brief period",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Telekinesis Burst",
+      "desc": "Mark a targeted area with psionic energy, followed by a series of fiery explosions. The first blast Stuns enemies, while the subsequent two explosions inflict Slow. Applies 1 Spark to enemies hit",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Endsong Inferno",
+      "desc": "Soar into the sky with the Phoenix and crash down onto a selected area, dealing devastating damage to enemies while creating a shockwave that destroys enemy summons, shields, and any Bonus Health. Enemies hit are applied with 1 Spark",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Telepathic Illusion",
+      "desc": "Leave behind an illusion and instantly teleport in the desired direction, followed by detonating the illusion. Enemies hit are applied with 1 Spark",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Dark Ascent",
+      "desc": "Merge with the Phoenix, entering a state of free flight. Gain a Movement Boost",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Mind's Grace",
+      "desc": "Jean Grey imbues Wolverine with the awe-inspiring Phoenix Force",
+      "upgrade": null
+    }
+  ],
+  "PSYLOCKE": [
+    {
+      "key": "Left Click",
+      "name": "Psionic Crossbow",
+      "desc": "Unleash bolts with psionic crossbows to damage enemies and reduce the cooldowns of all her abilities",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Wing Shurikens",
+      "desc": "Launch a volley of psionic shurikens that stick to enemies, dealing damage and granting herself Bonus Health. Press again to recall the shurikens",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "LIGHT & DARK DARTS",
+      "desc": "Cloak & Dagger share light and dark energy with Hawkeye and Psylocke. When Hawkeye uses Crescent Slash, he also releases a blade wave that heals and boosts healing for teammates, while inflicting damage and Vulnerability on enemies. Psylocke can launch a Light Boomerang Dart that heals allies, harms enemies, and provides her with temporary healing upon return. She can also unleash a ring of Dark Darts that slow enemies while she briefly enters a Phased state",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Dance of the Butterfly",
+      "desc": "Slash nearby enemies with a psionic katana, dealing massive damage",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Psi-Blade Dash",
+      "desc": "Dash forward and slice through enemies along the path with psionic blades",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Psychic Stealth",
+      "desc": "Enter stealth and gain a Movement Boost",
+      "upgrade": null
+    }
+  ],
+  "SCARLET WITCH": [
+    {
+      "key": "Left Click",
+      "name": "Chaos Control",
+      "desc": "Unleash Chaos Magic on enemies to deal damage and restore Chaos Energy",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Chthonian Burst",
+      "desc": "Consume Chaos Energy to fire explosive magic missiles, damaging enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Sorcery Surge",
+      "desc": "Doctor Strange shares his arcane mastery, replacing Scarlet Witch's Chthonian Burst with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Reality Erasure",
+      "desc": "Engage in free-flight while charging energy, then unleash it to deal massive damage",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Mystic Projection",
+      "desc": "Enter the Phased state for free-flight. Press again to exit early",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Dark Seal",
+      "desc": "Land a hit on a target or the scene, or press E to generate a Force Field that periodically Stuns enemies within range",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Telekinesis",
+      "desc": "Hold Space to fall slowly",
+      "upgrade": null
+    }
+  ],
+  "SPIDER-MAN": [
+    {
+      "key": "Left Click",
+      "name": "Spider-Power",
+      "desc": "Swing fists forward to strike, dealing extra damage to the enemy with a Spider-Tracer",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Web-Cluster",
+      "desc": "Shoot a Web-Cluster that deals damage and attaches a Spider-Tracer to the hit enemy",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Spectacular Spin",
+      "desc": "Launch Web-Clusters all around to damage and Stun enemies",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Web-Swing",
+      "desc": "Shoot a strand of webbing to swing.",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Get Over Here!",
+      "desc": "Shoot webbing to reel in the hit enemy. If the enemy is tagged with a Spider-Tracer, Spider-Man will get pulled to them instead",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Amazing Combo",
+      "desc": "Launch an enemy upward, dealing extra damage to the enemy with a Spider-Tracer",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Inferno Blast",
+      "desc": "Human Torch stores Pyrokinetic Energy in Spider-Man's suit, enabling him to unleash an Inferno Blast that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a Burn-Tracer. Detonating these Burn-Tracers inflicts Damage Over Time",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Sticky Spider-Bomb",
+      "desc": "Cyber-Spiders Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging a Web-Cluster shot and granting Bonus Health",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Thwip and Flip",
+      "desc": "Perform a double jump",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Wall Crawl",
+      "desc": "Press Space to wall crawl, and while crawling, left-click to sprint",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Spider-Sense",
+      "desc": "Give a warning of enemies that have been around",
+      "upgrade": null
+    }
+  ],
+  "SQUIRREL GIRL": [
+    {
+      "key": "Left Click",
+      "name": "Burst Acorn",
+      "desc": "Shoot bouncing Burst Acorns",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Squirrel Blockade",
+      "desc": "Launch an acorn to unleash Squirrel Guards, Imprisoning the first hit enemy",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Unbeatable Squirrel Tsunami",
+      "desc": "Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Tail Bounce",
+      "desc": "Rocket upwards with a bounce of her tail",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Mammal Bond",
+      "desc": "Reload Burst Acorns and can use an ability without cooldown once in a short duration",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Squirrel Missile",
+      "desc": "When Iron Man, Ultron and Squirrel Girl team up, Ultron's Encephalo-Ray upgrades to Nano-Ray, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the Squirrel Missile ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
+      "upgrade": null
+    }
+  ],
+  "STAR-LORD": [
+    {
+      "key": "Left Click",
+      "name": "Element Guns",
+      "desc": "Shoot enemies with dual Element Guns",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Stellar Shift",
+      "desc": "Dodge in the direction of movement and swiftly reload",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Galactic Legend",
+      "desc": "Engage in free-flight and lock onto enemies in sight",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Rocket Propulsion",
+      "desc": "Consume energy to gain a Movement Boost and soar forward",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Blaster Barrage",
+      "desc": "Fire a frenzy of shots, causing damage to enemies within range.",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Astral Jump",
+      "desc": "Star-Lord gets a teleport to its deployment point from anywhere on the map",
+      "upgrade": null
+    }
+  ],
+  "STORM": [
+    {
+      "key": "Left Click",
+      "name": "Wind Blade",
+      "desc": "Launch forward-piercing Wind Blades",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Bolt Rush",
+      "desc": "Unleash a lightning bolt forward",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Omega Hurricane",
+      "desc": "Transform into a hurricane to draw in nearby enemies and deal damage",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Weather Control",
+      "desc": "Switch the weather to empower allies: Tornado grants a Movement Boost; Thunder grants a Damage Boost",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Goddess Boost",
+      "desc": "Channel the power of the weather to empower Storm: Tornado grants a Movement Boost and inflicts Slow on enemies; Thunder grants a Damage Boost and summons lightning to inflict damage",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "ETERNAL WEATHER WITCH",
+      "desc": "Storm channels her elemental power into Adam Warlock. When Adam uses Soaring Surge, his movement speed is increased. While flying, Adam leaves behind a storm-charged trail that heals and speeds up allies within it",
+      "upgrade": null
+    }
+  ],
+  "THE PUNISHER": [
+    {
+      "key": "Left Click",
+      "name": "Adjudication",
+      "desc": "Fire at enemies with Adjudication, his Automatic Rifle",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Deliverance",
+      "desc": "Fire at enemies with Deliverance, his Shotgun",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Scourge Grenade",
+      "desc": "Throw a smoke grenade forward to obscure enemy vision and leap backward",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Final Judgement",
+      "desc": "Unleash two Gatling guns and missiles to attack enemies",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Vantage Connection",
+      "desc": "Launch a hook to generate a cable that enables the Punisher to move rapidly by pressing F",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Culling Turret",
+      "desc": "Deploy a Culling Turret that grounds Punisher and blocks damage from the front while dealing massive damage",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "JUSTICE SENSE",
+      "desc": "Daredevil shares the location of his Sonic Pursuit target with The Punisher. At the same time, The Punisher can launch a devil-infused shock grenade to damage and blind enemies",
+      "upgrade": null
+    },
+    {
+      "key": "X",
+      "name": "Ancient Judgement",
+      "desc": "The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Warrior's Gaze",
+      "desc": "Retain vision of enemies that disappear from view for a short duration",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "CUTTING-EDGE TECH",
+      "desc": "The Punisher upgrades Black Widow's arsenal, adding a Pulse Mode to her Red Room Rifle. While the ability is active, using Straight Shooter fires a pulse beam that deals piercing damage",
+      "upgrade": null
+    }
+  ],
+  "WINTER SOLDIER": [
+    {
+      "key": "Left Click",
+      "name": "Roterstern",
+      "desc": "Fire explosive rounds with his blaster, Roterstern, damaging the target hit and enemies behind them.",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Bionic Hook",
+      "desc": "Charge up and launch a hook with his bionic arm, reeling in the first target hit and enemies lurking behind",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Kraken Impact",
+      "desc": "Leap high, then dash forward and slam down with the bionic arm, dealing damage to enemies in range, marking them for Culling. Marked enemies will perish instantly if their health falls below a certain threshold, recharging the bionic arm for another Kraken Impact within a short period",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Trooper's Fist",
+      "desc": "Dash forward, seizing enemies along the path and launching up enemies at the end of the dash",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Tainted Voltage",
+      "desc": "Charge up and launch a powerful electrical punch with the bionic arm in the target direction, dealing damage to enemies within range and Slowing them. This ability can Knock Down flying heroes",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Stellar Impact",
+      "desc": "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant Bonus Health to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and slows enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Ceaseless Charge",
+      "desc": "Roterstern reloads automatically while the bionic arm is in action, granting Bonus Health to the Winter Soldier",
+      "upgrade": null
+    }
+  ],
+  "Wolverine": [
+    {
+      "key": "Left Click",
+      "name": "Savage Claw",
+      "desc": "Slash with Adamantium claws for a Claw Strike. Unleashing Feral Leap will enhance it to Berserk Claw Strike for a brief period",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Vicious Rampage",
+      "desc": "Dash forward and unleash a Claw Strike",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Last Stand",
+      "desc": "Knock enemies ahead airborne and spiral through the air, sweeping up enemies along the path and delivering a devastating impact at the landing point",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Feral Leap",
+      "desc": "Leap like an animal to snatch the first enemy upon impact and Smash them to the ground. Unleashing this ability will enhance his normal attack to Berserk Claw Strike for a brief period",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Phoenix Warrior",
+      "desc": "Wolverine and Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forwardJean Grey imbues Wolverine with the awe-inspiring Phoenix Force. With this power, Wolverine's Feral Leap transforms into Phoenix Warrior. While active, he is enveloped in Phoenix flames that continuously scorch him and nearby enemies, dealing Percentage Damage. In this state, Wolverine's abilities gain Lifesteal when inflicting damage",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Undying Animal",
+      "desc": "Unleash a fierce howl to briefly reduce incoming damage",
+      "upgrade": null
+    },
+    {
+      "key": "X",
+      "name": "Kinetic Claws",
+      "desc": "Cyclops supercharges Wolverine's claws, extending his attack range. While active, Wolverine's Vicious Rampage is replaced with Kinetic Claws, granting him a brief forward lunge that unleashes a flurry of slashes around him",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Regenerative Healing Factor",
+      "desc": "Begin to heal and rise with a hefty Bonus Health, shaking off all debuffs. After a brief moment, any remaining Bonus Health morphs into a one-off heal, zeroing out his Rage. Assists in KOs reduce this cooldown",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Berserker Rage",
+      "desc": "Rage builds when Wolverine attacks or takes hits, boosting the damage of his Claw Strikes and the Bonus Health from his regenerative healing factor",
+      "upgrade": null
+    }
+  ]
+}

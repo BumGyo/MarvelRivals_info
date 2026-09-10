@@ -1,0 +1,626 @@
+[
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Spider-Power",
+    "key": "Left Click",
+    "desc": "Swing fists forward to strike, dealing extra damage to the enemy with a Spider-Tracer"
+  },
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Web-Cluster",
+    "key": "Right Click",
+    "desc": "Shoot a Web-Cluster that deals damage and attaches a Spider-Tracer to the hit enemy"
+  },
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Spectacular Spin",
+    "key": "Q",
+    "desc": "Launch Web-Clusters all around to damage and Stun enemies"
+  },
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Web-Swing",
+    "key": "SHIFT",
+    "desc": "Shoot a strand of webbing to swing."
+  },
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Get Over Here!",
+    "key": "E",
+    "desc": "Shoot webbing to reel in the hit enemy. If the enemy is tagged with a Spider-Tracer, Spider-Man will get pulled to them instead"
+  },
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Amazing Combo",
+    "key": "F",
+    "desc": "Launch an enemy upward, dealing extra damage to the enemy with a Spider-Tracer"
+  },
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Inferno Blast",
+    "key": "C",
+    "desc": "Human Torch stores Pyrokinetic Energy in Spider-Man's suit, enabling him to unleash an Inferno Blast that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a Burn-Tracer. Detonating these Burn-Tracers inflicts Damage Over Time"
+  },
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Sticky Spider-Bomb",
+    "key": "C",
+    "desc": "Cyber-Spiders Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging a Web-Cluster shot and granting Bonus Health"
+  },
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Thwip and Flip",
+    "key": "Space",
+    "desc": "Perform a double jump"
+  },
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Wall Crawl",
+    "key": "Space",
+    "desc": "Press Space to wall crawl, and while crawling, left-click to sprint"
+  },
+  {
+    "hero": "SPIDER-MAN",
+    "skill": "Spider-Sense",
+    "key": "Passive",
+    "desc": "Give a warning of enemies that have been around"
+  },
+  {
+    "hero": "SQUIRREL GIRL",
+    "skill": "Burst Acorn",
+    "key": "Left Click",
+    "desc": "Shoot bouncing Burst Acorns"
+  },
+  {
+    "hero": "SQUIRREL GIRL",
+    "skill": "Squirrel Blockade",
+    "key": "Right Click",
+    "desc": "Launch an acorn to unleash Squirrel Guards, Imprisoning the first hit enemy"
+  },
+  {
+    "hero": "SQUIRREL GIRL",
+    "skill": "Unbeatable Squirrel Tsunami",
+    "key": "Q",
+    "desc": "Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures"
+  },
+  {
+    "hero": "SQUIRREL GIRL",
+    "skill": "Tail Bounce",
+    "key": "SHIFT",
+    "desc": "Rocket upwards with a bounce of her tail"
+  },
+  {
+    "hero": "SQUIRREL GIRL",
+    "skill": "Mammal Bond",
+    "key": "E",
+    "desc": "Reload Burst Acorns and can use an ability without cooldown once in a short duration"
+  },
+  {
+    "hero": "SQUIRREL GIRL",
+    "skill": "Squirrel Missile",
+    "key": "C",
+    "desc": "When Iron Man, Ultron and Squirrel Girl team up, Ultron's Encephalo-Ray upgrades to Nano-Ray, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the Squirrel Missile ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!"
+  },
+  {
+    "hero": "STAR-LORD",
+    "skill": "Element Guns",
+    "key": "Left Click",
+    "desc": "Shoot enemies with dual Element Guns"
+  },
+  {
+    "hero": "STAR-LORD",
+    "skill": "Stellar Shift",
+    "key": "Right Click",
+    "desc": "Dodge in the direction of movement and swiftly reload"
+  },
+  {
+    "hero": "STAR-LORD",
+    "skill": "Galactic Legend",
+    "key": "Q",
+    "desc": "Engage in free-flight and lock onto enemies in sight"
+  },
+  {
+    "hero": "STAR-LORD",
+    "skill": "Rocket Propulsion",
+    "key": "SHIFT",
+    "desc": "Consume energy to gain a Movement Boost and soar forward"
+  },
+  {
+    "hero": "STAR-LORD",
+    "skill": "Blaster Barrage",
+    "key": "E",
+    "desc": "Fire a frenzy of shots, causing damage to enemies within range."
+  },
+  {
+    "hero": "STAR-LORD",
+    "skill": "Astral Jump",
+    "key": "C",
+    "desc": "Star-Lord gets a teleport to its deployment point from anywhere on the map"
+  },
+  {
+    "hero": "STORM",
+    "skill": "Wind Blade",
+    "key": "Left Click",
+    "desc": "Launch forward-piercing Wind Blades"
+  },
+  {
+    "hero": "STORM",
+    "skill": "Bolt Rush",
+    "key": "Right Click",
+    "desc": "Unleash a lightning bolt forward"
+  },
+  {
+    "hero": "STORM",
+    "skill": "Omega Hurricane",
+    "key": "Q",
+    "desc": "Transform into a hurricane to draw in nearby enemies and deal damage"
+  },
+  {
+    "hero": "STORM",
+    "skill": "Weather Control",
+    "key": "SHIFT",
+    "desc": "Switch the weather to empower allies: Tornado grants a Movement Boost; Thunder grants a Damage Boost"
+  },
+  {
+    "hero": "STORM",
+    "skill": "Goddess Boost",
+    "key": "E",
+    "desc": "Channel the power of the weather to empower Storm: Tornado grants a Movement Boost and inflicts Slow on enemies; Thunder grants a Damage Boost and summons lightning to inflict damage"
+  },
+  {
+    "hero": "STORM",
+    "skill": "ETERNAL WEATHER WITCH",
+    "key": "Passive",
+    "desc": "Storm channels her elemental power into Adam Warlock. When Adam uses Soaring Surge, his movement speed is increased. While flying, Adam leaves behind a storm-charged trail that heals and speeds up allies within it"
+  },
+  {
+    "hero": "THE PUNISHER",
+    "skill": "Adjudication",
+    "key": "Left Click",
+    "desc": "Fire at enemies with Adjudication, his Automatic Rifle"
+  },
+  {
+    "hero": "THE PUNISHER",
+    "skill": "Deliverance",
+    "key": "Left Click",
+    "desc": "Fire at enemies with Deliverance, his Shotgun"
+  },
+  {
+    "hero": "THE PUNISHER",
+    "skill": "Scourge Grenade",
+    "key": "Right Click",
+    "desc": "Throw a smoke grenade forward to obscure enemy vision and leap backward"
+  },
+  {
+    "hero": "THE PUNISHER",
+    "skill": "Final Judgement",
+    "key": "Q",
+    "desc": "Unleash two Gatling guns and missiles to attack enemies"
+  },
+  {
+    "hero": "THE PUNISHER",
+    "skill": "Vantage Connection",
+    "key": "SHIFT",
+    "desc": "Launch a hook to generate a cable that enables the Punisher to move rapidly by pressing F"
+  },
+  {
+    "hero": "THE PUNISHER",
+    "skill": "Culling Turret",
+    "key": "E",
+    "desc": "Deploy a Culling Turret that grounds Punisher and blocks damage from the front while dealing massive damage"
+  },
+  {
+    "hero": "THE PUNISHER",
+    "skill": "JUSTICE SENSE",
+    "key": "C",
+    "desc": "Daredevil shares the location of his Sonic Pursuit target with The Punisher. At the same time, The Punisher can launch a devil-infused shock grenade to damage and blind enemies"
+  },
+  {
+    "hero": "THE PUNISHER",
+    "skill": "Ancient Judgement",
+    "key": "X",
+    "desc": "The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher"
+  },
+  {
+    "hero": "THE PUNISHER",
+    "skill": "Warrior's Gaze",
+    "key": "Passive",
+    "desc": "Retain vision of enemies that disappear from view for a short duration"
+  },
+  {
+    "hero": "THE PUNISHER",
+    "skill": "CUTTING-EDGE TECH",
+    "key": "Passive",
+    "desc": "The Punisher upgrades Black Widow's arsenal, adding a Pulse Mode to her Red Room Rifle. While the ability is active, using Straight Shooter fires a pulse beam that deals piercing damage"
+  },
+  {
+    "hero": "THE THING",
+    "skill": "Rocky Jab",
+    "key": "Left Click",
+    "desc": "Rapidly punch forward"
+  },
+  {
+    "hero": "THE THING",
+    "skill": "Stone Haymaker",
+    "key": "Right Click",
+    "desc": "Deliver a devastating Heavy Blow. Can Knock Down flying enemies."
+  },
+  {
+    "hero": "THE THING",
+    "skill": "Clobberin' Time",
+    "key": "Q",
+    "desc": "Use immense power to launch up all enemies in front of the Thing into the air"
+  },
+  {
+    "hero": "THE THING",
+    "skill": "Yancy Street Charge",
+    "key": "SHIFT",
+    "desc": "Continuously charge forward, launching up enemies and leaving behind a zone at the final position that prevents the use of mobility abilities"
+  },
+  {
+    "hero": "THE THING",
+    "skill": "Embattled Leap",
+    "key": "E",
+    "desc": "Jump toward an ally and apply damage reduction to yourself and allies within the landing area"
+  },
+  {
+    "hero": "THE THING",
+    "skill": "Battle Blitz",
+    "key": "F",
+    "desc": "Jump toward an enemy and apply Vulnerability to enemies within the landing area"
+  },
+  {
+    "hero": "THE THING",
+    "skill": "GAMMA CHARGE",
+    "key": "C",
+    "desc": "Hulk charges Black Panther and The Thing with gamma radiation. When Black Panther's health is low, he gains a gamma shield, becoming Unstoppable and blocking attacks. The Thing gains Gamma Gauntlets, boosting Damage and range of his Rocky Jab and Stone Haymaker. Dealing damage with these attacks grants Bonus Health, and maximum Bonus Health cap is increased"
+  },
+  {
+    "hero": "THE THING",
+    "skill": "Flying Thing",
+    "key": "X",
+    "desc": "Human Torch can lift The Thing into the air and slam him down, dealing damage, launching enemies, and creating a zone that disables mobility abilities"
+  },
+  {
+    "hero": "THE THING",
+    "skill": "Cosmic Fastball",
+    "key": "Z",
+    "desc": "Wolverine and The Thing can interact with each other. Once both parties confirm, The Thing can lift Wolverine and press the key to hurl him forward"
+  },
+  {
+    "hero": "THE THING",
+    "skill": "Unyielding Will",
+    "key": "PASSIVE",
+    "desc": "Immune to launch-up, knock-back, and other displacement effects"
+  },
+  {
+    "hero": "THOR",
+    "skill": "Mjolnir Bash",
+    "key": "Left Click",
+    "desc": "Wield Mjolnir to strike enemies. When Awakened, Thor can launch lightning arc waves to deal damage"
+  },
+  {
+    "hero": "THOR",
+    "skill": "Hammer Throw",
+    "key": "Right Click",
+    "desc": "Throw Mjolnir forward which then returns"
+  },
+  {
+    "hero": "THOR",
+    "skill": "God of Thunder",
+    "key": "Q",
+    "desc": "Soar upwards and smite the ground after charging for a duration, inflicting damage on enemies within range"
+  },
+  {
+    "hero": "THOR",
+    "skill": "Storm Surge",
+    "key": "SHIFT",
+    "desc": "Hold to spin Mjolnir before dashing forward and knocking back enemies"
+  },
+  {
+    "hero": "THOR",
+    "skill": "Lightning Realm",
+    "key": "E",
+    "desc": "Summon lightning that restores Thorforce based on the number of hit enemies"
+  },
+  {
+    "hero": "THOR",
+    "skill": "Awakening Rune",
+    "key": "F",
+    "desc": "Consume Thorforce to enter the Awakened state, granting Bonus Health and enhancing Mjolnir Bash"
+  },
+  {
+    "hero": "THOR",
+    "skill": "THUNDERSTRIKE PIKE",
+    "key": "C",
+    "desc": "Angela shares fragments of her Ichors with Thor, empowering him to hurl a Thunder Spear that restores Thorforce for each enemy struck. Afterward, Thor can leap to the spear's explosion point, dealing a second wave of damage to all enemies within range"
+  },
+  {
+    "hero": "THOR",
+    "skill": "Thorforce",
+    "key": "Passive",
+    "desc": "Consume Thorforce to gain Bonus Health. Landing Mjolnir Bash on an enemy instantly recharges Thorforce"
+  },
+  {
+    "hero": "The Hood",
+    "skill": "Accursed Pistols",
+    "key": "Left Click",
+    "desc": "Shoot forward dual-wielded pistols. Gain increased Attack Speed when Demonic Energy exceeds 50%"
+  },
+  {
+    "hero": "The Hood",
+    "skill": "Leaded Transformation",
+    "key": "Left Click",
+    "desc": "Enter Half-Demon State, transforming your arms into demonic rifles to unleash a rain of lead. These rifles have increased Attack Speed and Infinite Ammo. Every bullet that strikes an enemy triggers Lifesteal"
+  },
+  {
+    "hero": "The Hood",
+    "skill": "Mantle of Oblivion",
+    "key": "Right Click",
+    "desc": "Spread your cloak to form a spherical barrier, blocking incoming enemy attacks. When Demonic Energy exceeds 50%, the radius of the sphere expands further."
+  },
+  {
+    "hero": "The Hood",
+    "skill": "Demon of the End",
+    "key": "Q",
+    "desc": "Enter Full Demon State. Fire up to 6 high-powered shots that pierce through enemies and barriers, with the final shot being the most powerful. Hitting enemies grants Bonus Health to yourself and nearby allies"
+  },
+  {
+    "hero": "The Hood",
+    "skill": "Void Walk",
+    "key": "Shift",
+    "desc": "Enter the Void for free-flight. Upon reappearing, gain a decaying Movement Boost and damage surrounding enemies"
+  },
+  {
+    "hero": "The Hood",
+    "skill": "Abyssal Veil",
+    "key": "E",
+    "desc": "Throw a dark magic sphere that generates a Veil upon landing. Accursed Pistols shots passing through it generate more Demonic Energy and bullets from Leaded Transformation gain increased Lifesteal. Enemy projectiles passing through suffer reduced damage and healing output. Enemies who pass through the Veil take damage and are Blinded"
+  },
+  {
+    "hero": "The Hood",
+    "skill": "Ruinous Pact",
+    "key": "Passive",
+    "desc": "Accumulate Demonic Energy by dealing damage via Accursed Pistols, blocking attacks with Mantle of Oblivion, or by using Void Walk. Reaching full energy automatically triggers the Half-Demon State"
+  },
+  {
+    "hero": "Ultron",
+    "skill": "ENCEPHALO-RAY",
+    "key": "Left Click",
+    "desc": "Unleash a burning energy beam"
+  },
+  {
+    "hero": "Ultron",
+    "skill": "IMPERATIVE: FIREWALL",
+    "key": "Right Click",
+    "desc": "Deploy drones to an ally marked by Imperative: Patch, granting them increased Speed and Damage. Additionally, all allies within range of you and the chosen teammate receive Bonus Health."
+  },
+  {
+    "hero": "Ultron",
+    "skill": "RAGE OF ULTRON",
+    "key": "Q",
+    "desc": "Summon Ultron Drones to fire Encephalo-Rays, damaging enemies or healing allies"
+  },
+  {
+    "hero": "Ultron",
+    "skill": "DYNAMIC FLIGHT",
+    "key": "Shift",
+    "desc": "Fly quickly in the direction of movement and then enter an Accelerated state"
+  },
+  {
+    "hero": "Ultron",
+    "skill": "IMPERATIVE: PATCH",
+    "key": "E",
+    "desc": "Command up to 2 giant drones to follow 2 allies, constantly healing allies within its radius, with more healing for the designated allies."
+  },
+  {
+    "hero": "VENOM",
+    "skill": "Dark Predation",
+    "key": "Left Click",
+    "desc": "Unleash tentacles forward to attack enemies"
+  },
+  {
+    "hero": "VENOM",
+    "skill": "Cellular Corrosion",
+    "key": "Right Click",
+    "desc": "Unleash tentacles to Slow enemies within reach. Enemies unable to break free in time will suffer damage"
+  },
+  {
+    "hero": "VENOM",
+    "skill": "Feast of the Abyss",
+    "key": "Q",
+    "desc": "Burrow underground for free movement. After a duration or by left-clicking, devour enemies above to deal damage based on the enemy's current health and generate equivalent Bonus Health. Devoured enemies suffer Reduced Healing"
+  },
+  {
+    "hero": "VENOM",
+    "skill": "Venom Swing",
+    "key": "SHIFT",
+    "desc": "Launch webbing forward, allowing for a singular swing in the desired direction"
+  },
+  {
+    "hero": "VENOM",
+    "skill": "Symbiotic Resilience",
+    "key": "E",
+    "desc": "Generate Bonus Health against damage. The lower Venom's Health, the greater the Bonus Health generated"
+  },
+  {
+    "hero": "VENOM",
+    "skill": "Frenzied Arrival",
+    "key": "F",
+    "desc": "Dash to the target location from a certain height. Upon landing, damage nearby enemies, launching them up toward the landing point"
+  },
+  {
+    "hero": "VENOM",
+    "skill": "HEALING TENDRILS",
+    "key": "Passive",
+    "desc": "Venom shares his symbiotes with Jeff and Hela. Jeff's Guardian of the Deep links with nearby allies, providing continuous healing. When the effect ends, it releases a powerful healing burst, converting any excess into Bonus Health. Hela's Hel Tendrils unleash a symbiotic Hel Sphere. Upon hit, it pulls nearby enemies toward the impact point and links them, slowing enemies that try to escape."
+  },
+  {
+    "hero": "WINTER SOLDIER",
+    "skill": "Roterstern",
+    "key": "Left Click",
+    "desc": "Fire explosive rounds with his blaster, Roterstern, damaging the target hit and enemies behind them."
+  },
+  {
+    "hero": "WINTER SOLDIER",
+    "skill": "Bionic Hook",
+    "key": "Right Click",
+    "desc": "Charge up and launch a hook with his bionic arm, reeling in the first target hit and enemies lurking behind"
+  },
+  {
+    "hero": "WINTER SOLDIER",
+    "skill": "Kraken Impact",
+    "key": "Q",
+    "desc": "Leap high, then dash forward and slam down with the bionic arm, dealing damage to enemies in range, marking them for Culling. Marked enemies will perish instantly if their health falls below a certain threshold, recharging the bionic arm for another Kraken Impact within a short period"
+  },
+  {
+    "hero": "WINTER SOLDIER",
+    "skill": "Trooper's Fist",
+    "key": "SHIFT",
+    "desc": "Dash forward, seizing enemies along the path and launching up enemies at the end of the dash"
+  },
+  {
+    "hero": "WINTER SOLDIER",
+    "skill": "Tainted Voltage",
+    "key": "E",
+    "desc": "Charge up and launch a powerful electrical punch with the bionic arm in the target direction, dealing damage to enemies within range and Slowing them. This ability can Knock Down flying heroes"
+  },
+  {
+    "hero": "WINTER SOLDIER",
+    "skill": "Stellar Impact",
+    "key": "C",
+    "desc": "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant Bonus Health to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and slows enemies"
+  },
+  {
+    "hero": "WINTER SOLDIER",
+    "skill": "Ceaseless Charge",
+    "key": "Passive",
+    "desc": "Roterstern reloads automatically while the bionic arm is in action, granting Bonus Health to the Winter Soldier"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "YEOWOO GUSEUL",
+    "key": "Left Click",
+    "desc": "Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages enemies, heals allies, and restores Spirit Tail energy"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "CLAW STRIKE",
+    "key": "Left Click",
+    "desc": "While Awakened, slash forward with a flurry of attacks"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "NINEFOLD SLAM",
+    "key": "Left Click",
+    "desc": "In Kumiho Form, slam the ground, causing an explosive shockwave. Hitting enemies or summons grants One-Time Healing to self and nearby allies"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "SPECTRAL SURGE",
+    "key": "Right Click",
+    "desc": "Consume one Spirit Tail to send a spectral fox forward. It heals and grants invulnerability to allies it passes through, damages and Charms enemies, forcing foes to move toward White Fox"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "TAIL SWEEP",
+    "key": "Right Click",
+    "desc": "While Awakened, sweep forward tails to launch up hit enemies"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "BLESSED BY THE NINE",
+    "key": "Right Click",
+    "desc": "In Kumiho Form, select an ally to grant Continuous Healing, Unstoppable, and Life-Steal for a short time"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "KUMIHO UNLEASHED",
+    "key": "Q",
+    "desc": "Manifest the full Nine-Tailed Fox form and continuously heal nearby allies. Cannot receive healing effects from others while in this form"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "SPIRIT SANCTUARY",
+    "key": "Shift",
+    "desc": "Teleport to a chosen ally, instantly healing allies in the area while generating a shield"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "Predatory Pounce",
+    "key": "Shift",
+    "desc": "While Awakened, dash forward. Hit an enemy to slow them, enabling a second dash that knocks back enemies"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "FOX FORM AWAKENING",
+    "key": "E",
+    "desc": "Enter Awakened state, transforming Spirit Tails into physical tails. While active, continuously drain Spirit Tail energy and heal nearby allies. Striking enemies provides additional area healing"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "NINE-TAILED AURA",
+    "key": "C",
+    "desc": "Black Cat shares her luck with her allies. When White Fox embraces her newfound fortune, she unleashestracking Spirit Tails to grant Healing and Speed to allies, while damaging and Slowing foes. When Captain America enjoys his luck, his shield's block radius expands and allows him to aim deflectedProjectiles directly toward his target"
+  },
+  {
+    "hero": "White Fox",
+    "skill": "SPIRIT FOX WARD",
+    "key": "Passive",
+    "desc": "White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of speed and fire it forward, healing allies in its path while applying Charm to enemies"
+  },
+  {
+    "hero": "Wolverine",
+    "skill": "Savage Claw",
+    "key": "Left Click",
+    "desc": "Slash with Adamantium claws for a Claw Strike. Unleashing Feral Leap will enhance it to Berserk Claw Strike for a brief period"
+  },
+  {
+    "hero": "Wolverine",
+    "skill": "Vicious Rampage",
+    "key": "Right Click",
+    "desc": "Dash forward and unleash a Claw Strike"
+  },
+  {
+    "hero": "Wolverine",
+    "skill": "Last Stand",
+    "key": "Q",
+    "desc": "Knock enemies ahead airborne and spiral through the air, sweeping up enemies along the path and delivering a devastating impact at the landing point"
+  },
+  {
+    "hero": "Wolverine",
+    "skill": "Feral Leap",
+    "key": "SHIFT",
+    "desc": "Leap like an animal to snatch the first enemy upon impact and Smash them to the ground. Unleashing this ability will enhance his normal attack to Berserk Claw Strike for a brief period"
+  },
+  {
+    "hero": "Wolverine",
+    "skill": "Phoenix Warrior",
+    "key": "Shift",
+    "desc": "Wolverine and Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forwardJean Grey imbues Wolverine with the awe-inspiring Phoenix Force. With this power, Wolverine's Feral Leap transforms into Phoenix Warrior. While active, he is enveloped in Phoenix flames that continuously scorch him and nearby enemies, dealing Percentage Damage. In this state, Wolverine's abilities gain Lifesteal when inflicting damage"
+  },
+  {
+    "hero": "Wolverine",
+    "skill": "Undying Animal",
+    "key": "E",
+    "desc": "Unleash a fierce howl to briefly reduce incoming damage"
+  },
+  {
+    "hero": "Wolverine",
+    "skill": "Kinetic Claws",
+    "key": "X",
+    "desc": "Cyclops supercharges Wolverine's claws, extending his attack range. While active, Wolverine's Vicious Rampage is replaced with Kinetic Claws, granting him a brief forward lunge that unleashes a flurry of slashes around him"
+  },
+  {
+    "hero": "Wolverine",
+    "skill": "Regenerative Healing Factor",
+    "key": "Passive",
+    "desc": "Begin to heal and rise with a hefty Bonus Health, shaking off all debuffs. After a brief moment, any remaining Bonus Health morphs into a one-off heal, zeroing out his Rage. Assists in KOs reduce this cooldown"
+  },
+  {
+    "hero": "Wolverine",
+    "skill": "Berserker Rage",
+    "key": "Passive",
+    "desc": "Rage builds when Wolverine attacks or takes hits, boosting the damage of his Claw Strikes and the Bonus Health from his regenerative healing factor"
+  }
+]

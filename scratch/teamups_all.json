@@ -1,0 +1,1652 @@
+{
+  "ADAM WARLOCK": [
+    {
+      "loadout": 1,
+      "name": "COSMIC CYCLONE",
+      "tier": "base",
+      "partner": "STORM",
+      "desc": "Base Effect: Teammates linked by Soul Bond receive a Speed Boost.\n\t\t\tEnhanced Effect: When teaming up with Storm, linked teammates additionally gain a Damage Boost."
+    },
+    {
+      "loadout": 1,
+      "name": "COSMIC CYCLONE",
+      "tier": "enhanced",
+      "partner": "STORM",
+      "desc": "Base Effect: Teammates linked by Soul Bond receive a Speed Boost.\n\t\t\tEnhanced Effect: When teaming up with Storm, linked teammates additionally gain a Damage Boost."
+    },
+    {
+      "loadout": 2,
+      "name": "FLAWLESS DESIGN",
+      "tier": "base",
+      "partner": "ULTRON",
+      "desc": "Base Effect: Cosmic Cluster now provides healing to allies.\n\t\t\tEnhanced Effect: When teaming up with Ultron, Cosmic Cluster creates an explosion upon impact."
+    },
+    {
+      "loadout": 2,
+      "name": "FLAWLESS DESIGN",
+      "tier": "enhanced",
+      "partner": "ULTRON",
+      "desc": "Base Effect: Cosmic Cluster now provides healing to allies.\n\t\t\tEnhanced Effect: When teaming up with Ultron, Cosmic Cluster creates an explosion upon impact."
+    }
+  ],
+  "ANGELA": [
+    {
+      "loadout": 1,
+      "name": "ASGARDIANS OF THE GALAXY",
+      "tier": "base",
+      "partner": "STAR-LORD",
+      "desc": "Base Effect: Activation grants Reveal within a targeted area. Activating the ability again performs a slam attack; enemies hit by the slam are Grounded.\n\t\t\tEnhanced Effect: When teaming up with Star-Lord, Angela gains Bonus Health scaling with the number of enemies struck by the slam."
+    },
+    {
+      "loadout": 1,
+      "name": "ASGARDIANS OF THE GALAXY",
+      "tier": "enhanced",
+      "partner": "STAR-LORD",
+      "desc": "Base Effect: Activation grants Reveal within a targeted area. Activating the ability again performs a slam attack; enemies hit by the slam are Grounded.\n\t\t\tEnhanced Effect: When teaming up with Star-Lord, Angela gains Bonus Health scaling with the number of enemies struck by the slam."
+    },
+    {
+      "loadout": 2,
+      "name": "ODIN'S UNACKNOWLEDGED",
+      "tier": "base",
+      "partner": "LOKI",
+      "desc": "Base Effect: Project an Illusion forward. The illusion utilizes Assassin's Charge to thrust at enemies. Enemies struck head-on will be carried through the air for a short while.\n\t\t\tEnhanced Effect: When teaming up with Loki, the ability gains two charges."
+    },
+    {
+      "loadout": 2,
+      "name": "ODIN'S UNACKNOWLEDGED",
+      "tier": "enhanced",
+      "partner": "LOKI",
+      "desc": "Base Effect: Project an Illusion forward. The illusion utilizes Assassin's Charge to thrust at enemies. Enemies struck head-on will be carried through the air for a short while.\n\t\t\tEnhanced Effect: When teaming up with Loki, the ability gains two charges."
+    }
+  ],
+  "BLACK CAT": [
+    {
+      "loadout": 1,
+      "name": "FELINE ALLIANCE",
+      "tier": "base",
+      "partner": "BLACK PANTHER",
+      "desc": "Base Effect: Taking damage accumulates Vibranium Energy. Upon reaching a specific threshold, Black Cat can unleash a violent explosion, damaging and Knocking back surrounding enemies while gaining a brief Speed Boost and Bonus Health.\n\t\t\tEnhanced Effect: When teaming up with Black Panther, this explosion is no longer restricted by the energy threshold and can be triggered at any time."
+    },
+    {
+      "loadout": 1,
+      "name": "FELINE ALLIANCE",
+      "tier": "enhanced",
+      "partner": "BLACK PANTHER",
+      "desc": "Base Effect: Taking damage accumulates Vibranium Energy. Upon reaching a specific threshold, Black Cat can unleash a violent explosion, damaging and Knocking back surrounding enemies while gaining a brief Speed Boost and Bonus Health.\n\t\t\tEnhanced Effect: When teaming up with Black Panther, this explosion is no longer restricted by the energy threshold and can be triggered at any time."
+    },
+    {
+      "loadout": 2,
+      "name": "BINDING TIES",
+      "tier": "base",
+      "partner": "SPIDER-MAN",
+      "desc": "Base Effect: Turn of Fortune is replaced by Spider-Web Grapple, which has 2 charges. Landing the grapple on an enemy steals Fortune and applies a Spider-Tracer. If Black Cat hits an enemy carrying a Spider-Tracer with any other ability, she triggers the mark to deal bonus damage.\n\t\t\tEnhanced Effect: When teaming up with Spider-Man, using Spider-Web Grapple to hit an enemy already marked with a Spider-Tracer temporarily Immobilizes them in place."
+    },
+    {
+      "loadout": 2,
+      "name": "BINDING TIES",
+      "tier": "enhanced",
+      "partner": "SPIDER-MAN",
+      "desc": "Base Effect: Turn of Fortune is replaced by Spider-Web Grapple, which has 2 charges. Landing the grapple on an enemy steals Fortune and applies a Spider-Tracer. If Black Cat hits an enemy carrying a Spider-Tracer with any other ability, she triggers the mark to deal bonus damage.\n\t\t\tEnhanced Effect: When teaming up with Spider-Man, using Spider-Web Grapple to hit an enemy already marked with a Spider-Tracer temporarily Immobilizes them in place."
+    }
+  ],
+  "BLACK PANTHER": [
+    {
+      "loadout": 1,
+      "name": "DAMISA-YAO",
+      "tier": "base",
+      "partner": "STORM",
+      "desc": "Base Effect: Triggers the elemental power within his armor, dealing damage and applying Slow to surrounding enemies while attaching Vibranium Marks.\n\t\t\tEnhanced Effect: When teaming up with Storm, enemies within range are launched toward Black Panther."
+    },
+    {
+      "loadout": 1,
+      "name": "DAMISA-YAO",
+      "tier": "enhanced",
+      "partner": "STORM",
+      "desc": "Base Effect: Triggers the elemental power within his armor, dealing damage and applying Slow to surrounding enemies while attaching Vibranium Marks.\n\t\t\tEnhanced Effect: When teaming up with Storm, enemies within range are launched toward Black Panther."
+    },
+    {
+      "loadout": 2,
+      "name": "DIMENSIONAL SHORTCUT",
+      "tier": "base",
+      "partner": "MAGIK",
+      "desc": "Base Effect: Activate a Limbo stepping disc to instantly return to your position from a few seconds ago, gaining Bonus Health in the process. When the teleport ends, the disc collapses in an explosion, damaging nearby enemies and applying Vibranium Marks.\n\t\t\tEnhanced Effect: When teaming up with Magik, the teleportation sequence can be manually canceled mid-transit."
+    },
+    {
+      "loadout": 2,
+      "name": "DIMENSIONAL SHORTCUT",
+      "tier": "enhanced",
+      "partner": "MAGIK",
+      "desc": "Base Effect: Activate a Limbo stepping disc to instantly return to your position from a few seconds ago, gaining Bonus Health in the process. When the teleport ends, the disc collapses in an explosion, damaging nearby enemies and applying Vibranium Marks.\n\t\t\tEnhanced Effect: When teaming up with Magik, the teleportation sequence can be manually canceled mid-transit."
+    }
+  ],
+  "BLADE": [
+    {
+      "loadout": 1,
+      "name": "BLADE OF KHONSHU",
+      "tier": "base",
+      "partner": "MOON KNIGHT",
+      "desc": "Base Effect: Perform a heavy forward cleave with the Ancestral Sword while performing a short dash. At the end of the dash, swiftly slash four times, each strike sending a Darkmoon Blade forward. When a Darkmoon Blade hits an enemy, it bounces to nearby targets.\n\t\t\tEnhanced Effect: When teaming up with Moon Knight, each Whirlwind Slash triggered generates one additional Darkmoon Blade."
+    },
+    {
+      "loadout": 1,
+      "name": "BLADE OF KHONSHU",
+      "tier": "enhanced",
+      "partner": "MOON KNIGHT",
+      "desc": "Base Effect: Perform a heavy forward cleave with the Ancestral Sword while performing a short dash. At the end of the dash, swiftly slash four times, each strike sending a Darkmoon Blade forward. When a Darkmoon Blade hits an enemy, it bounces to nearby targets.\n\t\t\tEnhanced Effect: When teaming up with Moon Knight, each Whirlwind Slash triggered generates one additional Darkmoon Blade."
+    },
+    {
+      "loadout": 2,
+      "name": "BLEED FOR BATTLE",
+      "tier": "base",
+      "partner": "CAPTAIN AMERICA",
+      "desc": "Base Effect: For every set amount of damage taken, Blade builds a stack of Bloodline Awakening.\n\t\t\tEnhanced Effect: When teaming up with Captain America, taking critical damage instantly triggers the Bloodline Awakening state, gaining bonus stacks while raising the overall stack cap."
+    },
+    {
+      "loadout": 2,
+      "name": "BLEED FOR BATTLE",
+      "tier": "enhanced",
+      "partner": "CAPTAIN AMERICA",
+      "desc": "Base Effect: For every set amount of damage taken, Blade builds a stack of Bloodline Awakening.\n\t\t\tEnhanced Effect: When teaming up with Captain America, taking critical damage instantly triggers the Bloodline Awakening state, gaining bonus stacks while raising the overall stack cap."
+    }
+  ],
+  "Black Widow": [
+    {
+      "loadout": 1,
+      "name": "ALLIED AGENTS",
+      "tier": "base",
+      "partner": "HAWKEYE",
+      "desc": "Base Effect: Landing hits with Red Room Rifle builds  Focus. At three stacks, enter a Focused state where the next bullet gains the Hunter's Sight effect, granting Damage Boost and pierce effects.\n\t\t\tEnhanced Effect: When teaming up with Hawkeye, landing a critical hit prevents the Focused state from expiring, allowing continuous enhanced fire until missing a crit."
+    },
+    {
+      "loadout": 1,
+      "name": "ALLIED AGENTS",
+      "tier": "enhanced",
+      "partner": "HAWKEYE",
+      "desc": "Base Effect: Landing hits with Red Room Rifle builds  Focus. At three stacks, enter a Focused state where the next bullet gains the Hunter's Sight effect, granting Damage Boost and pierce effects.\n\t\t\tEnhanced Effect: When teaming up with Hawkeye, landing a critical hit prevents the Focused state from expiring, allowing continuous enhanced fire until missing a crit."
+    },
+    {
+      "loadout": 2,
+      "name": "BURNING BULLETS",
+      "tier": "base",
+      "partner": "PHOENIX",
+      "desc": "Base Effect: Activation grants the Red Room Rifle a Fire Rate Boost. Additionally, the Plasma Cannon projectile becomes a hitscan laser that no longer requires charging. Enhanced Effect: When teaming up with Phoenix, her Plasma Cannon gains a second ability charge."
+    },
+    {
+      "loadout": 2,
+      "name": "BURNING BULLETS",
+      "tier": "enhanced",
+      "partner": "PHOENIX",
+      "desc": "Base Effect: Activation grants the Red Room Rifle a Fire Rate Boost. Additionally, the Plasma Cannon projectile becomes a hitscan laser that no longer requires charging. Enhanced Effect: When teaming up with Phoenix, her Plasma Cannon gains a second ability charge."
+    }
+  ],
+  "CAPTAIN AMERICA": [
+    {
+      "loadout": 1,
+      "name": "STARS ALIGNED",
+      "tier": "base",
+      "partner": "WINTER SOLDIER",
+      "desc": "Base Effect: Captain America can leap directly to a teammate, providing Bonus Health to both himself and the ally, while redirecting a portion of their incoming damage to himself.\n\t\t\tEnhanced Effect: When teaming up with Winter Soldier, the duo can trigger a mutual rally. Upon confirmation, they charge at one another, slamming together to grant Bonus Health and Movement Speed to all nearby friends. The original effect remains, now additionally granting a Speed Boost to the targeted teammate."
+    },
+    {
+      "loadout": 1,
+      "name": "STARS ALIGNED",
+      "tier": "enhanced",
+      "partner": "WINTER SOLDIER",
+      "desc": "Base Effect: Captain America can leap directly to a teammate, providing Bonus Health to both himself and the ally, while redirecting a portion of their incoming damage to himself.\n\t\t\tEnhanced Effect: When teaming up with Winter Soldier, the duo can trigger a mutual rally. Upon confirmation, they charge at one another, slamming together to grant Bonus Health and Movement Speed to all nearby friends. The original effect remains, now additionally granting a Speed Boost to the targeted teammate."
+    },
+    {
+      "loadout": 2,
+      "name": "VOLTAIC UNION",
+      "tier": "base",
+      "partner": "THOR",
+      "desc": "Base Effect: Modifies Sentinel Strike into a Lightning Shield projectile. After landing two hits, Captain America launches the piercing Lightning Shield four times.\n\t\t\tEnhanced Effect: When teaming up with Thor, the lightning energy imbued in the shield intensifies. Each hit from the Lightning Shield triggers an extra burst of damage in the surrounding area."
+    },
+    {
+      "loadout": 2,
+      "name": "VOLTAIC UNION",
+      "tier": "enhanced",
+      "partner": "THOR",
+      "desc": "Base Effect: Modifies Sentinel Strike into a Lightning Shield projectile. After landing two hits, Captain America launches the piercing Lightning Shield four times.\n\t\t\tEnhanced Effect: When teaming up with Thor, the lightning energy imbued in the shield intensifies. Each hit from the Lightning Shield triggers an extra burst of damage in the surrounding area."
+    }
+  ],
+  "Cloak & Dagger": [
+    {
+      "loadout": 1,
+      "name": "OBLIVION SHROUD",
+      "tier": "base",
+      "partner": "The Hood",
+      "desc": "Base Effect: Veil of Lightforce and Terror Cape are warped by hellfire energy, changing into Veil of Light and Veil of Darkness while retaining their original effects. After traveling a set distance, the veils halt in place. Enemy damage passing through the Veil of Light is weakened, while enemy healing passing through the Veil of Darkness suffers Healing Reduction.\n\t\t\tEnhanced Effect: When teaming up with The Hood, the width of both the Veil of Light and Veil of Darkness expands. Additionally, allies passing through the veils are empowered by hellfire energy, gaining Damage Boost for a duration."
+    },
+    {
+      "loadout": 1,
+      "name": "OBLIVION SHROUD",
+      "tier": "enhanced",
+      "partner": "The Hood",
+      "desc": "Base Effect: Veil of Lightforce and Terror Cape are warped by hellfire energy, changing into Veil of Light and Veil of Darkness while retaining their original effects. After traveling a set distance, the veils halt in place. Enemy damage passing through the Veil of Light is weakened, while enemy healing passing through the Veil of Darkness suffers Healing Reduction.\n\t\t\tEnhanced Effect: When teaming up with The Hood, the width of both the Veil of Light and Veil of Darkness expands. Additionally, allies passing through the veils are empowered by hellfire energy, gaining Damage Boost for a duration."
+    },
+    {
+      "loadout": 2,
+      "name": "FROZEN HAVEN",
+      "tier": "base",
+      "partner": "LUNA SNOW",
+      "desc": "Base Effect: Channel frost energy outward to encase yourself in an absolute block of ice. This offers great protection, but Freezes you in place. While frozen, you can be healed and emit a weak healing aura to nearby allies.\n\t\t\tEnhanced Effect: When teaming up with Luna Snow, the healing aura provided to allies while Frozen becomes significantly stronger."
+    },
+    {
+      "loadout": 2,
+      "name": "FROZEN HAVEN",
+      "tier": "enhanced",
+      "partner": "LUNA SNOW",
+      "desc": "Base Effect: Channel frost energy outward to encase yourself in an absolute block of ice. This offers great protection, but Freezes you in place. While frozen, you can be healed and emit a weak healing aura to nearby allies.\n\t\t\tEnhanced Effect: When teaming up with Luna Snow, the healing aura provided to allies while Frozen becomes significantly stronger."
+    }
+  ],
+  "Cyclops": [
+    {
+      "loadout": 1,
+      "name": "SLIM AND RED",
+      "tier": "base",
+      "partner": "PHOENIX",
+      "desc": "Base Effect: Hitting an enemy with Ricochet Force summons the Phoenix Force to ignite them, causing continuous burn damage over a set duration. Hitting an ignited target with Optic Blast or Concussive Beam instantly triggers a percentage of the remaining burn damage as a single burst.\n\t\t\tEnhanced Effect: When teaming up with Phoenix, Spark detonations reduce the cooldown of Ricochet Force."
+    },
+    {
+      "loadout": 1,
+      "name": "SLIM AND RED",
+      "tier": "enhanced",
+      "partner": "PHOENIX",
+      "desc": "Base Effect: Hitting an enemy with Ricochet Force summons the Phoenix Force to ignite them, causing continuous burn damage over a set duration. Hitting an ignited target with Optic Blast or Concussive Beam instantly triggers a percentage of the remaining burn damage as a single burst.\n\t\t\tEnhanced Effect: When teaming up with Phoenix, Spark detonations reduce the cooldown of Ricochet Force."
+    },
+    {
+      "loadout": 2,
+      "name": "KINETIC KIN",
+      "tier": "base",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: Release stored kinetic energy to enter an enhanced state for a duration. While active, Cyclops gains significantly increased movement speed and jump height.\n\t\t\tEnhanced Effect: When teaming up with Gambit, during the enhanced state, the attack speeds for both Optic Blast and Concussive Beam are increased."
+    },
+    {
+      "loadout": 2,
+      "name": "KINETIC KIN",
+      "tier": "enhanced",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: Release stored kinetic energy to enter an enhanced state for a duration. While active, Cyclops gains significantly increased movement speed and jump height.\n\t\t\tEnhanced Effect: When teaming up with Gambit, during the enhanced state, the attack speeds for both Optic Blast and Concussive Beam are increased."
+    }
+  ],
+  "DEADPOOL (VANGUARD)": [
+    {
+      "loadout": 1,
+      "name": "\"HEL-YEAH, HONEY\"",
+      "tier": "base",
+      "partner": "HELA",
+      "desc": "Base Effect: Receive upgrades from Hel, allowing the Desert Eagles or Katanas to be upgraded one additional time. Hel-Yeah Desert Eagles: Duelist and Vanguard gain pierce, and the thought bubbles transform into homing death-rattle bubbles. Strategist death-rattle bubbles also home in on allies, exploding to provide healing. Hel-Yeah Katanas: Every strike injects undead energy into the enemy. Hitting an enemy three times with the Katanas detonates the energy, dealing percentage-based true damage scaling off their max Health.\n\t\t\tEnhanced Effect: When teaming up with Hela, BOTH the Desert Eagles and Katanas can be upgraded one extra time."
+    },
+    {
+      "loadout": 1,
+      "name": "\"HEL-YEAH, HONEY\"",
+      "tier": "enhanced",
+      "partner": "HELA",
+      "desc": "Base Effect: Receive upgrades from Hel, allowing the Desert Eagles or Katanas to be upgraded one additional time. Hel-Yeah Desert Eagles: Duelist and Vanguard gain pierce, and the thought bubbles transform into homing death-rattle bubbles. Strategist death-rattle bubbles also home in on allies, exploding to provide healing. Hel-Yeah Katanas: Every strike injects undead energy into the enemy. Hitting an enemy three times with the Katanas detonates the energy, dealing percentage-based true damage scaling off their max Health.\n\t\t\tEnhanced Effect: When teaming up with Hela, BOTH the Desert Eagles and Katanas can be upgraded one extra time."
+    },
+    {
+      "loadout": 2,
+      "name": "GUMBO CHIMICHANGAS",
+      "tier": "base",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: Activate for kinetic energy, propelling Deadpool in a forward leap. Upon landing, he scatters a ring of kinetically charged chimichangas that deal damage to enemies.\n\t\t\tEnhanced Effect: When teaming up with Gambit, the kinetic energy causes Deadpool's landing to inflict a Stun effect on enemies in the blast radius."
+    },
+    {
+      "loadout": 2,
+      "name": "GUMBO CHIMICHANGAS",
+      "tier": "enhanced",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: Activate for kinetic energy, propelling Deadpool in a forward leap. Upon landing, he scatters a ring of kinetically charged chimichangas that deal damage to enemies.\n\t\t\tEnhanced Effect: When teaming up with Gambit, the kinetic energy causes Deadpool's landing to inflict a Stun effect on enemies in the blast radius."
+    }
+  ],
+  "DEADPOOL (DUELIST)": [
+    {
+      "loadout": 1,
+      "name": "\"HEL-YEAH, HONEY\"",
+      "tier": "base",
+      "partner": "HELA",
+      "desc": "Base Effect: Receive upgrades from Hel, allowing the Desert Eagles or Katanas to be upgraded one additional time. Hel-Yeah Desert Eagles: Duelist and Vanguard gain pierce, and the thought bubbles transform into homing death-rattle bubbles. Strategist death-rattle bubbles also home in on allies, exploding to provide healing. Hel-Yeah Katanas: Every strike injects undead energy into the enemy. Hitting an enemy three times with the Katanas detonates the energy, dealing percentage-based true damage scaling off their max Health.\n\t\t\tEnhanced Effect: When teaming up with Hela, BOTH the Desert Eagles and Katanas can be upgraded one extra time."
+    },
+    {
+      "loadout": 1,
+      "name": "\"HEL-YEAH, HONEY\"",
+      "tier": "enhanced",
+      "partner": "HELA",
+      "desc": "Base Effect: Receive upgrades from Hel, allowing the Desert Eagles or Katanas to be upgraded one additional time. Hel-Yeah Desert Eagles: Duelist and Vanguard gain pierce, and the thought bubbles transform into homing death-rattle bubbles. Strategist death-rattle bubbles also home in on allies, exploding to provide healing. Hel-Yeah Katanas: Every strike injects undead energy into the enemy. Hitting an enemy three times with the Katanas detonates the energy, dealing percentage-based true damage scaling off their max Health.\n\t\t\tEnhanced Effect: When teaming up with Hela, BOTH the Desert Eagles and Katanas can be upgraded one extra time."
+    },
+    {
+      "loadout": 2,
+      "name": "GUMBO CHIMICHANGAS",
+      "tier": "base",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: Activate for kinetic energy, propelling Deadpool in a forward leap. Upon landing, he scatters a ring of kinetically charged chimichangas that deal damage to enemies.\n\t\t\tEnhanced Effect: When teaming up with Gambit, the kinetic energy causes Deadpool's landing to inflict a Stun effect on enemies in the blast radius."
+    },
+    {
+      "loadout": 2,
+      "name": "GUMBO CHIMICHANGAS",
+      "tier": "enhanced",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: Activate for kinetic energy, propelling Deadpool in a forward leap. Upon landing, he scatters a ring of kinetically charged chimichangas that deal damage to enemies.\n\t\t\tEnhanced Effect: When teaming up with Gambit, the kinetic energy causes Deadpool's landing to inflict a Stun effect on enemies in the blast radius."
+    }
+  ],
+  "DEADPOOL (STRATEGIST)": [
+    {
+      "loadout": 1,
+      "name": "\"HEL-YEAH, HONEY\"",
+      "tier": "base",
+      "partner": "HELA",
+      "desc": "Base Effect: Receive upgrades from Hel, allowing the Desert Eagles or Katanas to be upgraded one additional time. Hel-Yeah Desert Eagles: Duelist and Vanguard gain pierce, and the thought bubbles transform into homing death-rattle bubbles. Strategist death-rattle bubbles also home in on allies, exploding to provide healing. Hel-Yeah Katanas: Every strike injects undead energy into the enemy. Hitting an enemy three times with the Katanas detonates the energy, dealing percentage-based true damage scaling off their max Health.\n\t\t\tEnhanced Effect: When teaming up with Hela, BOTH the Desert Eagles and Katanas can be upgraded one extra time."
+    },
+    {
+      "loadout": 1,
+      "name": "\"HEL-YEAH, HONEY\"",
+      "tier": "enhanced",
+      "partner": "HELA",
+      "desc": "Base Effect: Receive upgrades from Hel, allowing the Desert Eagles or Katanas to be upgraded one additional time. Hel-Yeah Desert Eagles: Duelist and Vanguard gain pierce, and the thought bubbles transform into homing death-rattle bubbles. Strategist death-rattle bubbles also home in on allies, exploding to provide healing. Hel-Yeah Katanas: Every strike injects undead energy into the enemy. Hitting an enemy three times with the Katanas detonates the energy, dealing percentage-based true damage scaling off their max Health.\n\t\t\tEnhanced Effect: When teaming up with Hela, BOTH the Desert Eagles and Katanas can be upgraded one extra time."
+    },
+    {
+      "loadout": 2,
+      "name": "GUMBO CHIMICHANGAS",
+      "tier": "base",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: Activate for kinetic energy, propelling Deadpool in a forward leap. Upon landing, he scatters a ring of kinetically charged chimichangas that deal damage to enemies.\n\t\t\tEnhanced Effect: When teaming up with Gambit, the kinetic energy causes Deadpool's landing to inflict a Stun effect on enemies in the blast radius."
+    },
+    {
+      "loadout": 2,
+      "name": "GUMBO CHIMICHANGAS",
+      "tier": "enhanced",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: Activate for kinetic energy, propelling Deadpool in a forward leap. Upon landing, he scatters a ring of kinetically charged chimichangas that deal damage to enemies.\n\t\t\tEnhanced Effect: When teaming up with Gambit, the kinetic energy causes Deadpool's landing to inflict a Stun effect on enemies in the blast radius."
+    }
+  ],
+  "DEVIL DINOSAUR": [
+    {
+      "loadout": 1,
+      "name": "PRIMAL PUNISHMENT",
+      "tier": "base",
+      "partner": "The Punisher",
+      "desc": "Base Effect: Adds a new ability. Upon activation, Primal Bite is replaced. Devil Dinosaur gains 2 magnetic cannons that can be fired forward; the cannonballs detonate when hitting enemies or the environment.\n\t\t\tEnhanced Effect: When teaming up with The Punisher, the duo can request an interaction. Once accepted, The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, The Punisher gains Damage Reduction; Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher."
+    },
+    {
+      "loadout": 1,
+      "name": "PRIMAL PUNISHMENT",
+      "tier": "enhanced",
+      "partner": "The Punisher",
+      "desc": "Base Effect: Adds a new ability. Upon activation, Primal Bite is replaced. Devil Dinosaur gains 2 magnetic cannons that can be fired forward; the cannonballs detonate when hitting enemies or the environment.\n\t\t\tEnhanced Effect: When teaming up with The Punisher, the duo can request an interaction. Once accepted, The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, The Punisher gains Damage Reduction; Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher."
+    },
+    {
+      "loadout": 2,
+      "name": "SURF & TURF",
+      "tier": "base",
+      "partner": "JEFF THE LAND SHARK",
+      "desc": "Base Effect: Impact Beam is replaced by a frontal water spray. This stream damages enemies while providing healing to teammates.\n\t\t\tEnhanced Effect: When teaming up with Jeff the Land Shark, Jeff can ride atop Devil Dinosaur's head. While riding, both gain some Damage Reduction and are swirled in therapeutic waters, receiving Continuous Healing. Jeff can only cast Joyful Splash, Aqua Burst, and Healing Bubble during this time."
+    },
+    {
+      "loadout": 2,
+      "name": "SURF & TURF",
+      "tier": "enhanced",
+      "partner": "JEFF THE LAND SHARK",
+      "desc": "Base Effect: Impact Beam is replaced by a frontal water spray. This stream damages enemies while providing healing to teammates.\n\t\t\tEnhanced Effect: When teaming up with Jeff the Land Shark, Jeff can ride atop Devil Dinosaur's head. While riding, both gain some Damage Reduction and are swirled in therapeutic waters, receiving Continuous Healing. Jeff can only cast Joyful Splash, Aqua Burst, and Healing Bubble during this time."
+    }
+  ],
+  "DOCTOR STRANGE": [
+    {
+      "loadout": 1,
+      "name": "GAMMA MAELSTROM",
+      "tier": "base",
+      "partner": "HULK",
+      "desc": "Base Effect: Upgrade Maelstrom of Madness to Gamma Maelstrom. This drastically boosts energy charge rates and removes the Anti-Heal curse.\n\t\t\tEnhanced Effect: When teaming up with Hulk, releasing Gamma Maelstrom retains some energy, and stored Gamma energy doesn't decay over time."
+    },
+    {
+      "loadout": 1,
+      "name": "GAMMA MAELSTROM",
+      "tier": "enhanced",
+      "partner": "HULK",
+      "desc": "Base Effect: Upgrade Maelstrom of Madness to Gamma Maelstrom. This drastically boosts energy charge rates and removes the Anti-Heal curse.\n\t\t\tEnhanced Effect: When teaming up with Hulk, releasing Gamma Maelstrom retains some energy, and stored Gamma energy doesn't decay over time."
+    },
+    {
+      "loadout": 2,
+      "name": "PSIONIC VORTEX",
+      "tier": "base",
+      "partner": "INVISIBLE WOMAN",
+      "desc": "Base Effect: Upgrade Maelstrom of Madness to Psionic Vortex. Enemies caught in are Launched toward you. Shield of the Seraphim also gains increased shield value.\n\t\t\tEnhanced Effect: When teaming up with Invisible Woman, any damage dealt by Psionic Vortex provides proportional Bonus Health for Doctor Strange."
+    },
+    {
+      "loadout": 2,
+      "name": "PSIONIC VORTEX",
+      "tier": "enhanced",
+      "partner": "INVISIBLE WOMAN",
+      "desc": "Base Effect: Upgrade Maelstrom of Madness to Psionic Vortex. Enemies caught in are Launched toward you. Shield of the Seraphim also gains increased shield value.\n\t\t\tEnhanced Effect: When teaming up with Invisible Woman, any damage dealt by Psionic Vortex provides proportional Bonus Health for Doctor Strange."
+    }
+  ],
+  "Daredevil": [
+    {
+      "loadout": 1,
+      "name": "COMPREHENSIVE DEFENSE",
+      "tier": "base",
+      "partner": "IRON FIST",
+      "desc": "Base Effect: Objection! is enhanced. Whirling billy clubs now damage all enemies in range while deflecting Projectiles from all directions. Successfully deflecting attacks recovers Fury.\n\t\t\tEnhanced Effect: When teaming up with Iron Fist, Daredevil passively recovers Health for the entire duration of the ability."
+    },
+    {
+      "loadout": 1,
+      "name": "COMPREHENSIVE DEFENSE",
+      "tier": "enhanced",
+      "partner": "IRON FIST",
+      "desc": "Base Effect: Objection! is enhanced. Whirling billy clubs now damage all enemies in range while deflecting Projectiles from all directions. Successfully deflecting attacks recovers Fury.\n\t\t\tEnhanced Effect: When teaming up with Iron Fist, Daredevil passively recovers Health for the entire duration of the ability."
+    },
+    {
+      "loadout": 2,
+      "name": "DEVILISH AFFAIR",
+      "tier": "base",
+      "partner": "BLACK WIDOW",
+      "desc": "Base Effect: Swings Devil's Chain in a criss-cross pattern, dealing damage to enemies in front and inflicting a Slow.\n\t\t\tEnhanced Effect: When teaming up with Black Widow, the damage radius is expanded, and landing hits recovers Fury."
+    },
+    {
+      "loadout": 2,
+      "name": "DEVILISH AFFAIR",
+      "tier": "enhanced",
+      "partner": "BLACK WIDOW",
+      "desc": "Base Effect: Swings Devil's Chain in a criss-cross pattern, dealing damage to enemies in front and inflicting a Slow.\n\t\t\tEnhanced Effect: When teaming up with Black Widow, the damage radius is expanded, and landing hits recovers Fury."
+    }
+  ],
+  "Elsa Bloodstone": [
+    {
+      "loadout": 1,
+      "name": "PREHISTORIC TRAP",
+      "tier": "base",
+      "partner": "DEVIL DINOSAUR",
+      "desc": "Base Effect: After deploying the Smoky Snare trap, Diablo will monitor the area. If enemies approach, Diablo Immobilizes and Damages them. He also releases a lethal gas, causing continuous area damage.\n\t\t\tEnhanced Effect: When teaming up with Devil Dinosaur, Elsa can store and deploy two Smoky Snares."
+    },
+    {
+      "loadout": 1,
+      "name": "PREHISTORIC TRAP",
+      "tier": "enhanced",
+      "partner": "DEVIL DINOSAUR",
+      "desc": "Base Effect: After deploying the Smoky Snare trap, Diablo will monitor the area. If enemies approach, Diablo Immobilizes and Damages them. He also releases a lethal gas, causing continuous area damage.\n\t\t\tEnhanced Effect: When teaming up with Devil Dinosaur, Elsa can store and deploy two Smoky Snares."
+    },
+    {
+      "loadout": 2,
+      "name": "LOUDMOUTH MERCS",
+      "tier": "base",
+      "partner": "DEADPOOL",
+      "desc": "Base Effect: Living Bullet changes to special rounds that Taunt targets with Deadpool's chatter, while Slowing, and damaging nearby enemies over time. After a timer, the bullet auto-recalls, healing Elsa based on the damage dealt while adding one extra gauge block to her Inherited Instinct passive cap.\n\t\t\tEnhanced Effect: When teaming up with Deadpool, Deadpool breaks the fourth wall, significantly boosting Instinct acquisition rate."
+    },
+    {
+      "loadout": 2,
+      "name": "LOUDMOUTH MERCS",
+      "tier": "enhanced",
+      "partner": "DEADPOOL",
+      "desc": "Base Effect: Living Bullet changes to special rounds that Taunt targets with Deadpool's chatter, while Slowing, and damaging nearby enemies over time. After a timer, the bullet auto-recalls, healing Elsa based on the damage dealt while adding one extra gauge block to her Inherited Instinct passive cap.\n\t\t\tEnhanced Effect: When teaming up with Deadpool, Deadpool breaks the fourth wall, significantly boosting Instinct acquisition rate."
+    }
+  ],
+  "Emma Frost": [
+    {
+      "loadout": 1,
+      "name": "SPIRIT BREAKER",
+      "tier": "base",
+      "partner": "",
+      "desc": "Base Effect: Deals damage to the summoned Soul Crystal, which can be converted into Bonus Healthfor yourself.\n\t\t\tEnhanced Effect: When Emma Frost teams up with Mantis, shattering the Soul Crystalgrants a one-time Bonus Healthand reduces the cooldown of Mind Control."
+    },
+    {
+      "loadout": 1,
+      "name": "SPIRIT BREAKER",
+      "tier": "enhanced",
+      "partner": "",
+      "desc": "Base Effect: Deals damage to the summoned Soul Crystal, which can be converted into Bonus Healthfor yourself.\n\t\t\tEnhanced Effect: When Emma Frost teams up with Mantis, shattering the Soul Crystalgrants a one-time Bonus Healthand reduces the cooldown of Mind Control."
+    },
+    {
+      "loadout": 2,
+      "name": "ICED OUT DIAMOND",
+      "tier": "base",
+      "partner": "",
+      "desc": "Base Effect: Emma Frost releases winter energy forward, dealing damage and Slowto enemies. She can also enhance her diamond form, condensing frost in front of her to form Zero Diamondthat blocks enemy attacks and movement.\n\t\t\tEnhanced Effect: When Emma Frost teams up with Luna Snow, after activating Diamond Form, all ability damage applies Slow, and Soul Wavealso applies Slow."
+    },
+    {
+      "loadout": 2,
+      "name": "ICED OUT DIAMOND",
+      "tier": "enhanced",
+      "partner": "",
+      "desc": "Base Effect: Emma Frost releases winter energy forward, dealing damage and Slowto enemies. She can also enhance her diamond form, condensing frost in front of her to form Zero Diamondthat blocks enemy attacks and movement.\n\t\t\tEnhanced Effect: When Emma Frost teams up with Luna Snow, after activating Diamond Form, all ability damage applies Slow, and Soul Wavealso applies Slow."
+    }
+  ],
+  "GROOT": [
+    {
+      "loadout": 1,
+      "name": "WILD WALL",
+      "tier": "base",
+      "partner": "MANTIS",
+      "desc": "Base Effect: Summon a Wild Wall that provides Continuous Healing and Bonus Health to allies within its range.\n\t\t\tEnhanced Effect: When teaming up with Mantis, the Wild Wall evolves after providing a certain amount of healing, increasing its healing"
+    },
+    {
+      "loadout": 1,
+      "name": "WILD WALL",
+      "tier": "enhanced",
+      "partner": "MANTIS",
+      "desc": "Base Effect: Summon a Wild Wall that provides Continuous Healing and Bonus Health to allies within its range.\n\t\t\tEnhanced Effect: When teaming up with Mantis, the Wild Wall evolves after providing a certain amount of healing, increasing its healing"
+    },
+    {
+      "loadout": 2,
+      "name": "BUBBLE BUDDIES",
+      "tier": "base",
+      "partner": "JEFF THE LAND SHARK",
+      "desc": "Base Effect: Retreat inside a Bubble Shield to enter an Invincible state, granting self-targeted Continuous Healing.\n\t\t\tEnhanced Effect: When teaming up with Jeff the Land Shark, the healing effect inside the bubble is enhanced, and any excess healing converts into Bonus Health."
+    },
+    {
+      "loadout": 2,
+      "name": "BUBBLE BUDDIES",
+      "tier": "enhanced",
+      "partner": "JEFF THE LAND SHARK",
+      "desc": "Base Effect: Retreat inside a Bubble Shield to enter an Invincible state, granting self-targeted Continuous Healing.\n\t\t\tEnhanced Effect: When teaming up with Jeff the Land Shark, the healing effect inside the bubble is enhanced, and any excess healing converts into Bonus Health."
+    }
+  ],
+  "Gambit": [
+    {
+      "loadout": 1,
+      "name": "FAVORABLE ODDS",
+      "tier": "base",
+      "partner": "MAGNETO",
+      "desc": "Base Effect: Throw two magnetic playing cards forward. Upon hitting the environment or a character, the two cards magnetically repel and unfurl, spinning in place for a duration. They heal allies they hit, while damaging and Launchingenemies.\n\t\t\tEnhanced Effect: When teaming up with Magneto, after the duration ends, the magnetic poles of the two cards reverse. They violently slam back together and explode, providing an extra burst of healing to allies and damage to enemies."
+    },
+    {
+      "loadout": 1,
+      "name": "FAVORABLE ODDS",
+      "tier": "enhanced",
+      "partner": "MAGNETO",
+      "desc": "Base Effect: Throw two magnetic playing cards forward. Upon hitting the environment or a character, the two cards magnetically repel and unfurl, spinning in place for a duration. They heal allies they hit, while damaging and Launchingenemies.\n\t\t\tEnhanced Effect: When teaming up with Magneto, after the duration ends, the magnetic poles of the two cards reverse. They violently slam back together and explode, providing an extra burst of healing to allies and damage to enemies."
+    },
+    {
+      "loadout": 2,
+      "name": "SPARKLING STAFF",
+      "tier": "base",
+      "partner": "Jubilee",
+      "desc": "Base Effect: Twirl your firework-energy enhanced bo staff. The radiating firework sparks provide healing to nearby allies. Concurrently, the staff deals damage to close-range enemies, and the rapid spinning blocks incoming damage from most projectiles.\n\t\t\tEnhanced Effect: When teaming up with Jubilee, both Bayou Bashand Big Easy Impactgain an additional Continuous Healingaura."
+    },
+    {
+      "loadout": 2,
+      "name": "SPARKLING STAFF",
+      "tier": "enhanced",
+      "partner": "Jubilee",
+      "desc": "Base Effect: Twirl your firework-energy enhanced bo staff. The radiating firework sparks provide healing to nearby allies. Concurrently, the staff deals damage to close-range enemies, and the rapid spinning blocks incoming damage from most projectiles.\n\t\t\tEnhanced Effect: When teaming up with Jubilee, both Bayou Bashand Big Easy Impactgain an additional Continuous Healingaura."
+    }
+  ],
+  "HAWKEYE": [
+    {
+      "loadout": 1,
+      "name": "SENBONZAKURA STRIKE",
+      "tier": "base",
+      "partner": "PSYLOCKE",
+      "desc": "Base Effect: Upgrade Blast Arrow to Psionic Arrow. While drawn, Hawkeye can continuously bank extra Psionic Arrows. Releasing the bowstring rapidly fires all accumulated arrows forward in sequence.\n\t\t\tEnhanced Effect: When teaming up with Psylocke, the nocking speed for each Psionic Arrow is significantly quickened, and they explode upon hitting enemies or the environment."
+    },
+    {
+      "loadout": 1,
+      "name": "SENBONZAKURA STRIKE",
+      "tier": "enhanced",
+      "partner": "PSYLOCKE",
+      "desc": "Base Effect: Upgrade Blast Arrow to Psionic Arrow. While drawn, Hawkeye can continuously bank extra Psionic Arrows. Releasing the bowstring rapidly fires all accumulated arrows forward in sequence.\n\t\t\tEnhanced Effect: When teaming up with Psylocke, the nocking speed for each Psionic Arrow is significantly quickened, and they explode upon hitting enemies or the environment."
+    },
+    {
+      "loadout": 2,
+      "name": "MOONLIT SLASH",
+      "tier": "base",
+      "partner": "CLOAK & DAGGER",
+      "desc": "Base Effect: Upgrade Crescent Slash to Moonlit Slash, projecting a radiant slash outward. It heals and boosts healing for allies, while damaging enemies and applying Vulnerability.\n\t\t\tEnhanced Effect: When teaming up with Cloak & Dagger, Moonlit Slash can be chained into a three-hit combo, firing off three consecutive sweeping light blades."
+    },
+    {
+      "loadout": 2,
+      "name": "MOONLIT SLASH",
+      "tier": "enhanced",
+      "partner": "CLOAK & DAGGER",
+      "desc": "Base Effect: Upgrade Crescent Slash to Moonlit Slash, projecting a radiant slash outward. It heals and boosts healing for allies, while damaging enemies and applying Vulnerability.\n\t\t\tEnhanced Effect: When teaming up with Cloak & Dagger, Moonlit Slash can be chained into a three-hit combo, firing off three consecutive sweeping light blades."
+    }
+  ],
+  "HELA": [
+    {
+      "loadout": 1,
+      "name": "Hel Tendrils",
+      "tier": "base",
+      "partner": "VENOM",
+      "desc": "Base Effect: Replace Soul Drainer with Hel Tendrils. Upon hit, tendrils pull nearby enemies toward the impact point and links them, Slowingenemies that try to escape. Enhanced Effect: When teaming up with Venom, Piercing Night fires a dense volley of symbiote-infused Nightsword Thorns. Each direct Nightsword Thorn hit restores a portion of Hela's Health"
+    },
+    {
+      "loadout": 1,
+      "name": "Hel Tendrils",
+      "tier": "enhanced",
+      "partner": "VENOM",
+      "desc": "Base Effect: Replace Soul Drainer with Hel Tendrils. Upon hit, tendrils pull nearby enemies toward the impact point and links them, Slowingenemies that try to escape. Enhanced Effect: When teaming up with Venom, Piercing Night fires a dense volley of symbiote-infused Nightsword Thorns. Each direct Nightsword Thorn hit restores a portion of Hela's Health"
+    },
+    {
+      "loadout": 2,
+      "name": "DEEP WRATH",
+      "tier": "base",
+      "partner": "NAMOR",
+      "desc": "Base Effect: Whenever Hela participates in a KO, an Undead Monstro spawns at the fallen enemy's position. While an Undead Monstro is present, casting Piercing Night will command the Monstro to spit a Nightsword Thorn at the nearest enemy.\n\t\t\tEnhanced Effect: When teaming up with Namor, each attack during Goddess of Death spawns an Undead Monstro at the point of impact."
+    },
+    {
+      "loadout": 2,
+      "name": "DEEP WRATH",
+      "tier": "enhanced",
+      "partner": "NAMOR",
+      "desc": "Base Effect: Whenever Hela participates in a KO, an Undead Monstro spawns at the fallen enemy's position. While an Undead Monstro is present, casting Piercing Night will command the Monstro to spit a Nightsword Thorn at the nearest enemy.\n\t\t\tEnhanced Effect: When teaming up with Namor, each attack during Goddess of Death spawns an Undead Monstro at the point of impact."
+    }
+  ],
+  "HULK": [
+    {
+      "loadout": 1,
+      "name": "SAVAGE SLAM",
+      "tier": "base",
+      "partner": "CAPTAIN AMERICA",
+      "desc": "Base Effect: Leap high and smash the ground, dealing damage to enemies and reducing the cooldowns of other abilities based on remaining Health.\n\t\t\tEnhanced Effect: When teaming up with Captain America, the ground slam additionally applies Vulnerability to enemies hit."
+    },
+    {
+      "loadout": 1,
+      "name": "SAVAGE SLAM",
+      "tier": "enhanced",
+      "partner": "CAPTAIN AMERICA",
+      "desc": "Base Effect: Leap high and smash the ground, dealing damage to enemies and reducing the cooldowns of other abilities based on remaining Health.\n\t\t\tEnhanced Effect: When teaming up with Captain America, the ground slam additionally applies Vulnerability to enemies hit."
+    },
+    {
+      "loadout": 2,
+      "name": "GAMMA FASTBALL",
+      "tier": "base",
+      "partner": "WOLVERINE",
+      "desc": "Base Effect: Enter a Furious state upon activation, gaining Speed Boost and Attack Speed for a duration. Also unlocks the Dances With Werewolves ability, granting Unstoppable for a period when Health drops to a certain threshold.\n\t\t\tEnhanced Effect: When teaming up with Wolverine, unlocks the Fastball Special. Upon mutual confirmation, Hulk hurls Wolverine forward"
+    },
+    {
+      "loadout": 2,
+      "name": "GAMMA FASTBALL",
+      "tier": "enhanced",
+      "partner": "WOLVERINE",
+      "desc": "Base Effect: Enter a Furious state upon activation, gaining Speed Boost and Attack Speed for a duration. Also unlocks the Dances With Werewolves ability, granting Unstoppable for a period when Health drops to a certain threshold.\n\t\t\tEnhanced Effect: When teaming up with Wolverine, unlocks the Fastball Special. Upon mutual confirmation, Hulk hurls Wolverine forward"
+    }
+  ],
+  "HUMAN TORCH": [
+    {
+      "loadout": 1,
+      "name": "FIERY SPARKS",
+      "tier": "base",
+      "partner": "Jubilee",
+      "desc": "Base Effect: Passively detect enemies in the immediate vicinity and launch tracking Sparks to chip away their health.\n\t\t\tEnhanced Effect: When teaming up with Jubilee, successfully landing a Firework Spark on an enemy grants Human Torch Bonus Health."
+    },
+    {
+      "loadout": 1,
+      "name": "FIERY SPARKS",
+      "tier": "enhanced",
+      "partner": "Jubilee",
+      "desc": "Base Effect: Passively detect enemies in the immediate vicinity and launch tracking Sparks to chip away their health.\n\t\t\tEnhanced Effect: When teaming up with Jubilee, successfully landing a Firework Spark on an enemy grants Human Torch Bonus Health."
+    },
+    {
+      "loadout": 2,
+      "name": "STORMING IGNITION",
+      "tier": "base",
+      "partner": "STORM",
+      "desc": "Base Effect: Unleash a storm-driven blaze of fire forward, generating a persistent Fire Vortex upon impact that continuously damages and pulls in enemies.\n\t\t\tEnhanced Effect: When teaming up with Storm, her Omega Hurricane ignites into a Burning Hurricane if it crosses a Flame Tornado. Furthermore, any Omega Hurricane, Jeff-Nado, or Flame Tornado that sweeps across a Flame Field left by Human Torch will instantly generate a new Flame Tornado."
+    },
+    {
+      "loadout": 2,
+      "name": "STORMING IGNITION",
+      "tier": "enhanced",
+      "partner": "STORM",
+      "desc": "Base Effect: Unleash a storm-driven blaze of fire forward, generating a persistent Fire Vortex upon impact that continuously damages and pulls in enemies.\n\t\t\tEnhanced Effect: When teaming up with Storm, her Omega Hurricane ignites into a Burning Hurricane if it crosses a Flame Tornado. Furthermore, any Omega Hurricane, Jeff-Nado, or Flame Tornado that sweeps across a Flame Field left by Human Torch will instantly generate a new Flame Tornado."
+    }
+  ],
+  "IRON FIST": [
+    {
+      "loadout": 1,
+      "name": "IRON & STONE",
+      "tier": "base",
+      "partner": "",
+      "desc": "Base Effect: Unleash a powerful uppercut to Launch Up enemies.\n\t\t\tEnhanced Effect: When teaming up The Thing, unleashing the uppercut can be chained directly into a sweeping leg sweep for a follow-up attack."
+    },
+    {
+      "loadout": 1,
+      "name": "IRON & STONE",
+      "tier": "enhanced",
+      "partner": "",
+      "desc": "Base Effect: Unleash a powerful uppercut to Launch Up enemies.\n\t\t\tEnhanced Effect: When teaming up The Thing, unleashing the uppercut can be chained directly into a sweeping leg sweep for a follow-up attack."
+    },
+    {
+      "loadout": 2,
+      "name": "KUMIHO PALM",
+      "tier": "base",
+      "partner": "",
+      "desc": "Base Effect: Hitting an enemy with Yat Jee Chung Kuen provides a burst of healing to nearby allies.\n\t\t\tEnhanced Effect: When teaming up White Fox, the lock-on distance for Yat Jee Chung Kuen is significantly increased."
+    },
+    {
+      "loadout": 2,
+      "name": "KUMIHO PALM",
+      "tier": "enhanced",
+      "partner": "",
+      "desc": "Base Effect: Hitting an enemy with Yat Jee Chung Kuen provides a burst of healing to nearby allies.\n\t\t\tEnhanced Effect: When teaming up White Fox, the lock-on distance for Yat Jee Chung Kuen is significantly increased."
+    }
+  ],
+  "IRON MAN": [
+    {
+      "loadout": 1,
+      "name": "GAMMA CHARGE",
+      "tier": "base",
+      "partner": "HULK",
+      "desc": "Base Effect: Upgrade Armor Overdrive to Gamma Overdrive. In this state, Iron Man gains a Gamma Shield and can fire significantly stronger Repulsor Blasts and Unibeams.\n\t\t\tEnhanced Effect: When teaming up with Hulk, releasing Invincible Invincible Pulse Cannon generates a Gamma Shield and heavily infuses the blast, creating a Gamma Pulse Cannon. Its radiation creates a massive damage increase while the projectile flies"
+    },
+    {
+      "loadout": 1,
+      "name": "GAMMA CHARGE",
+      "tier": "enhanced",
+      "partner": "HULK",
+      "desc": "Base Effect: Upgrade Armor Overdrive to Gamma Overdrive. In this state, Iron Man gains a Gamma Shield and can fire significantly stronger Repulsor Blasts and Unibeams.\n\t\t\tEnhanced Effect: When teaming up with Hulk, releasing Invincible Invincible Pulse Cannon generates a Gamma Shield and heavily infuses the blast, creating a Gamma Pulse Cannon. Its radiation creates a massive damage increase while the projectile flies."
+    },
+    {
+      "loadout": 2,
+      "name": "THUNDER OVERDRIVE",
+      "tier": "base",
+      "partner": "THOR",
+      "desc": "Base Effect: Enhance Unibeam both in and out of Armor Overdrive. When fired, a ring of volatile lightning energy forms, dealing bonus damage to enemies caught near the beam's edge.\n\t\t\tEnhanced Effect: When teaming up with Thor, Armor Overdrive cooldown is massively reduced."
+    },
+    {
+      "loadout": 2,
+      "name": "THUNDER OVERDRIVE",
+      "tier": "enhanced",
+      "partner": "THOR",
+      "desc": "Base Effect: Enhance Unibeam both in and out of Armor Overdrive. When fired, a ring of volatile lightning energy forms, dealing bonus damage to enemies caught near the beam's edge.\n\t\t\tEnhanced Effect: When teaming up with Thor, Armor Overdrive cooldown is massively reduced."
+    }
+  ],
+  "Invisible Woman": [
+    {
+      "loadout": 1,
+      "name": "UNITED SIBLINGS",
+      "tier": "base",
+      "partner": "Human",
+      "desc": "Base Effect: Generate a Flame Shield for a targeted ally that blocks incoming damage while providing a Continuous Healing aura to everyone nearby. Projectiles from teammates shot through the Flame Shield receive a Damage Boost. Enemies that pass though the shield are Slowed\n\t\t\tEnhanced Effect: When teaming up with Human Torch, the Flame Shield boasts a larger radius and heavily increased shield value."
+    },
+    {
+      "loadout": 1,
+      "name": "UNITED SIBLINGS",
+      "tier": "enhanced",
+      "partner": "Human",
+      "desc": "Base Effect: Generate a Flame Shield for a targeted ally that blocks incoming damage while providing a Continuous Healing aura to everyone nearby. Projectiles from teammates shot through the Flame Shield receive a Damage Boost. Enemies that pass though the shield are Slowed\n\t\t\tEnhanced Effect: When teaming up with Human Torch, the Flame Shield boasts a larger radius and heavily increased shield value."
+    },
+    {
+      "loadout": 2,
+      "name": "FIRST FAMILY",
+      "tier": "base",
+      "partner": "MISTER FANTASTIC",
+      "desc": "Base Effect: Invisible Woman and surrounding allies enter Invisible state, gaining healing and a Speed Boost. The effect ends if they take damage or the duration expires. Disengaging from combat for a duration will reenter the Invisible state.\n\t\t\tEnhanced Effect: When teaming up with Mister Fantastic, the healing and Speed Boost effects are enhanced, and the Invisible state duration is increased"
+    },
+    {
+      "loadout": 2,
+      "name": "FIRST FAMILY",
+      "tier": "enhanced",
+      "partner": "MISTER FANTASTIC",
+      "desc": "Base Effect: Invisible Woman and surrounding allies enter Invisible state, gaining healing and a Speed Boost. The effect ends if they take damage or the duration expires. Disengaging from combat for a duration will reenter the Invisible state.\n\t\t\tEnhanced Effect: When teaming up with Mister Fantastic, the healing and Speed Boost effects are enhanced, and the Invisible state duration is increased"
+    }
+  ],
+  "JEFF THE LAND SHARK": [
+    {
+      "loadout": 1,
+      "name": "GUARDIAN OF THE DEEP",
+      "tier": "base",
+      "partner": "VENOM",
+      "desc": "Base Effect: Shoot out healing tendrils; linked allies receive Continuous Healing, and excess healing is converted into Bonus Health.\n\t\t\tEnhanced Effect: When teaming up with Venom, symbiote tendrils can also lash out at nearby enemies within range, inflicting continuous damage."
+    },
+    {
+      "loadout": 1,
+      "name": "GUARDIAN OF THE DEEP",
+      "tier": "enhanced",
+      "partner": "VENOM",
+      "desc": "Base Effect: Shoot out healing tendrils; linked allies receive Continuous Healing, and excess healing is converted into Bonus Health.\n\t\t\tEnhanced Effect: When teaming up with Venom, symbiote tendrils can also lash out at nearby enemies within range, inflicting continuous damage."
+    },
+    {
+      "loadout": 2,
+      "name": "MR. POOL'S INTERDIMENSIONAL TOY BOX",
+      "tier": "base",
+      "partner": "DEADPOOL",
+      "desc": "Base Effect: Gain a new ability to spit out a Deadpool Plushie. The plushie continuously Taunts nearby enemies while spraying a healing mist onto surrounding allies.\n\t\t\tEnhanced Effect: When teaming up with Deadpool, the Deadpool Plushie asserts a much stronger Taunt while concurrently damaging enemies caught in its radius."
+    },
+    {
+      "loadout": 2,
+      "name": "MR. POOL'S INTERDIMENSIONAL TOY BOX",
+      "tier": "enhanced",
+      "partner": "DEADPOOL",
+      "desc": "Base Effect: Gain a new ability to spit out a Deadpool Plushie. The plushie continuously Taunts nearby enemies while spraying a healing mist onto surrounding allies.\n\t\t\tEnhanced Effect: When teaming up with Deadpool, the Deadpool Plushie asserts a much stronger Taunt while concurrently damaging enemies caught in its radius."
+    }
+  ],
+  "Jubilation Lee": [
+    {
+      "loadout": 1,
+      "name": "HELLFIRE SPARKS",
+      "tier": "base",
+      "partner": "The Hood",
+      "desc": "Base Effect: When Attack Speed is enhanced, Energy Plasmoids transform into a hitscan attack that grants self-healing on hit and is capable of dealing critical hits.\n\t\t\tEnhanced Effect: When teaming up with The Hood, the Void Magic Mark is never cleared, allowing her to indefinitely sustain the hitscan attack form."
+    },
+    {
+      "loadout": 1,
+      "name": "HELLFIRE SPARKS",
+      "tier": "enhanced",
+      "partner": "The Hood",
+      "desc": "Base Effect: When Attack Speed is enhanced, Energy Plasmoids transform into a hitscan attack that grants self-healing on hit and is capable of dealing critical hits.\n\t\t\tEnhanced Effect: When teaming up with The Hood, the Void Magic Mark is never cleared, allowing her to indefinitely sustain the hitscan attack form."
+    },
+    {
+      "loadout": 2,
+      "name": "VAMPIRIC KIN",
+      "tier": "base",
+      "partner": "BLADE",
+      "desc": "Base Effect: Deploy a Vampiric Field. Allies standing within the field gain Life Steal when attacking enemies.\n\t\t\tEnhanced Effect: When teaming up with Blade, allies inside the field receive an additional Continuous Healing effect."
+    },
+    {
+      "loadout": 2,
+      "name": "VAMPIRIC KIN",
+      "tier": "enhanced",
+      "partner": "BLADE",
+      "desc": "Base Effect: Deploy a Vampiric Field. Allies standing within the field gain Life Steal when attacking enemies.\n\t\t\tEnhanced Effect: When teaming up with Blade, allies inside the field receive an additional Continuous Healing effect."
+    }
+  ],
+  "LOKI": [
+    {
+      "loadout": 1,
+      "name": "VILLAIN'S ILLUSION",
+      "tier": "base",
+      "partner": "HELA",
+      "desc": "Base Effect: Gain a new ability to target fallen heroes (friend or foe), letting Loki assume their form for a set time (cannot cast their Ultimate Ability).\n\t\t\tEnhanced Effect: When teaming up with Hela, Loki's transformation lasts slightly longer. Furthermore, taking lethal damage while transformed or in his Ultimate Ability state will merely revert him back to Loki with a sliver of Health, preventing a KO."
+    },
+    {
+      "loadout": 1,
+      "name": "VILLAIN'S ILLUSION",
+      "tier": "enhanced",
+      "partner": "HELA",
+      "desc": "Base Effect: Gain a new ability to target fallen heroes (friend or foe), letting Loki assume their form for a set time (cannot cast their Ultimate Ability).\n\t\t\tEnhanced Effect: When teaming up with Hela, Loki's transformation lasts slightly longer. Furthermore, taking lethal damage while transformed or in his Ultimate Ability state will merely revert him back to Loki with a sliver of Health, preventing a KO."
+    },
+    {
+      "loadout": 2,
+      "name": "VIBRANT VITALITY",
+      "tier": "base",
+      "partner": "HELA",
+      "desc": "Base Effect: Gain a new ability to target fallen heroes (friend or foe), letting Loki assume their form for a set time (cannot cast their Ultimate Ability).\n\t\t\tEnhanced Effect: When teaming up with Hela, Loki's transformation lasts slightly longer. Furthermore, taking lethal damage while transformed or in his Ultimate Ability state will merely revert him back to Loki with a sliver of Health, preventing a KO"
+    },
+    {
+      "loadout": 2,
+      "name": "VIBRANT VITALITY",
+      "tier": "enhanced",
+      "partner": "HELA",
+      "desc": "Base Effect: Gain a new ability to target fallen heroes (friend or foe), letting Loki assume their form for a set time (cannot cast their Ultimate Ability).\n\t\t\tEnhanced Effect: When teaming up with Hela, Loki's transformation lasts slightly longer. Furthermore, taking lethal damage while transformed or in his Ultimate Ability state will merely revert him back to Loki with a sliver of Health, preventing a KO"
+    }
+  ],
+  "LUNA SNOW": [
+    {
+      "loadout": 1,
+      "name": "ATLAS BOND",
+      "tier": "base",
+      "partner": "White Fox",
+      "desc": "Base Effect: Unleash a spirit fox forward that Charms enemies while healing any allies in its path. Activating the ability instantly cleanses all negative status effects on Luna Snow.\n\t\t\tEnhanced Effect: When teaming up with White Fox, the spirit fox automatically returns after reaching its maximum distance, and the self-cleanse is retained."
+    },
+    {
+      "loadout": 1,
+      "name": "ATLAS BOND",
+      "tier": "enhanced",
+      "partner": "White Fox",
+      "desc": "Base Effect: Unleash a spirit fox forward that Charms enemies while healing any allies in its path. Activating the ability instantly cleanses all negative status effects on Luna Snow.\n\t\t\tEnhanced Effect: When teaming up with White Fox, the spirit fox automatically returns after reaching its maximum distance, and the self-cleanse is retained."
+    },
+    {
+      "loadout": 2,
+      "name": "DUALITY DANCE",
+      "tier": "base",
+      "partner": "ADAM WARLOCK",
+      "desc": "Base Effect: Cast Soul Bond to tether all characters within range. Attacking tethered enemies or healing linked allies restores your Health.\n\t\t\tEnhanced Effect: When teaming up with Adam Warlock, scoring critical hits with Light & Dark Ice reduces the cooldowns of Absolute Zero and Ice Arts."
+    },
+    {
+      "loadout": 2,
+      "name": "DUALITY DANCE",
+      "tier": "enhanced",
+      "partner": "ADAM WARLOCK",
+      "desc": "Base Effect: Cast Soul Bond to tether all characters within range. Attacking tethered enemies or healing linked allies restores your Health.\n\t\t\tEnhanced Effect: When teaming up with Adam Warlock, scoring critical hits with Light & Dark Ice reduces the cooldowns of Absolute Zero and Ice Arts."
+    }
+  ],
+  "MAGIK": [
+    {
+      "loadout": 1,
+      "name": "CHAIN OF CYTTORAK",
+      "tier": "base",
+      "partner": "DOCTOR STRANGE",
+      "desc": "Base Effect: Chain of Cyttorak can tether two enemies simultaneously, dragging both targets to the same location.\n\t\t\tEnhanced Effect: When teaming up with Doctor Strange, Chain of Cyttorak can tether multiple enemies at once, pulling the entire group to a singular point."
+    },
+    {
+      "loadout": 1,
+      "name": "CHAIN OF CYTTORAK",
+      "tier": "enhanced",
+      "partner": "DOCTOR STRANGE",
+      "desc": "Base Effect: Chain of Cyttorak can tether two enemies simultaneously, dragging both targets to the same location.\n\t\t\tEnhanced Effect: When teaming up with Doctor Strange, Chain of Cyttorak can tether multiple enemies at once, pulling the entire group to a singular point."
+    },
+    {
+      "loadout": 2,
+      "name": "VOID PENTAGRAM",
+      "tier": "base",
+      "partner": "The Hood",
+      "desc": "Base Effect: Casting Stepping Discs within an Hellish Magic Circle refunds energy, and each use of Stepping Discs summons a Limbo Demon.\n\t\t\tEnhanced Effect: When teaming up with The Hood, the summoned Limbo Demons have heavily increased Health and a wider attack range."
+    },
+    {
+      "loadout": 2,
+      "name": "VOID PENTAGRAM",
+      "tier": "enhanced",
+      "partner": "The Hood",
+      "desc": "Base Effect: Casting Stepping Discs within an Hellish Magic Circle refunds energy, and each use of Stepping Discs summons a Limbo Demon.\n\t\t\tEnhanced Effect: When teaming up with The Hood, the summoned Limbo Demons have heavily increased Health and a wider attack range."
+    }
+  ],
+  "MAGNETO": [
+    {
+      "loadout": 1,
+      "name": "METALLIC CHAOS",
+      "tier": "base",
+      "partner": "SCARLET WITCH",
+      "desc": "Base Effect: Summons a Chaos Greatsword that deals damage to enemies in front.\n\t\t\tEnhanced Effect: When teaming up with Scarlet Witch, Magnetic Cannon becomes a charged ability. Charging consumes passive energy, and each energy segment consumed fires a Chaos Greatsword that deals damage to enemies."
+    },
+    {
+      "loadout": 1,
+      "name": "METALLIC CHAOS",
+      "tier": "enhanced",
+      "partner": "SCARLET WITCH",
+      "desc": "Base Effect: Summons a Chaos Greatsword that deals damage to enemies in front.\n\t\t\tEnhanced Effect: When teaming up with Scarlet Witch, Magnetic Cannon becomes a charged ability. Charging consumes passive energy, and each energy segment consumed fires a Chaos Greatsword that deals damage to enemies."
+    },
+    {
+      "loadout": 2,
+      "name": "MAGNETIC RESONANCE",
+      "tier": "base",
+      "partner": "EMMA FROST",
+      "desc": "Base Effect: Cast a magnetic projection that mimics Magneto's movement and ability casts perfectly from the enemy's perspective.\n\t\t\tEnhanced Effect: When teaming up with Emma Frost, the magnetic projection receives a massive Health bump and will persist indefinitely unless destroyed or manually recalled."
+    },
+    {
+      "loadout": 2,
+      "name": "MAGNETIC RESONANCE",
+      "tier": "enhanced",
+      "partner": "EMMA FROST",
+      "desc": "Base Effect: Cast a magnetic projection that mimics Magneto's movement and ability casts perfectly from the enemy's perspective.\n\t\t\tEnhanced Effect: When teaming up with Emma Frost, the magnetic projection receives a massive Health bump and will persist indefinitely unless destroyed or manually recalled."
+    }
+  ],
+  "MANTIS": [
+    {
+      "loadout": 1,
+      "name": "STAR BLOSSOM",
+      "tier": "base",
+      "partner": "STAR-LORD",
+      "desc": "Base Effect: Recasting Healing Flower on a teammate with the effect enhances and spreads the healing aura.\n\t\t\tEnhanced Effect: When teaming up with Star-Lord, using Healing Flower on any teammate instantly triggers the enhanced Spell Field and healing effect."
+    },
+    {
+      "loadout": 1,
+      "name": "STAR BLOSSOM",
+      "tier": "enhanced",
+      "partner": "STAR-LORD",
+      "desc": "Base Effect: Recasting Healing Flower on a teammate with the effect enhances and spreads the healing aura.\n\t\t\tEnhanced Effect: When teaming up with Star-Lord, using Healing Flower on any teammate instantly triggers the enhanced Spell Field and healing effect."
+    },
+    {
+      "loadout": 2,
+      "name": "VITALITY PACT",
+      "tier": "base",
+      "partner": "ADAM WARLOCK",
+      "desc": "Base Effect: Upon defeat, Mantis can freely move as a soul, healing nearby allies, and reforge her body at a chosen spot. After using Natural Anger, the effect of Nature's Favor is enhanced, increasing the amount of healing provided.\n\t\t\tEnhanced Effect: When teaming up with Adam Warlock, her soul state can forge Soul Bond with nearby teammates, granting Healing Over Timeand distributing damage taken across the bond."
+    },
+    {
+      "loadout": 2,
+      "name": "VITALITY PACT",
+      "tier": "enhanced",
+      "partner": "ADAM WARLOCK",
+      "desc": "Base Effect: Upon defeat, Mantis can freely move as a soul, healing nearby allies, and reforge her body at a chosen spot. After using Natural Anger, the effect of Nature's Favor is enhanced, increasing the amount of healing provided.\n\t\t\tEnhanced Effect: When teaming up with Adam Warlock, her soul state can forge Soul Bond with nearby teammates, granting Healing Over Timeand distributing damage taken across the bond."
+    }
+  ],
+  "MOON KNIGHT": [
+    {
+      "loadout": 1,
+      "name": "LUMINOUS MOON",
+      "tier": "base",
+      "partner": "CLOAK & DAGGER",
+      "desc": "Base Effect: Enter Phased state and dash forward. Upon concluding, emit a Light Energy Healing Wave that heals Moon Knight and nearby allies.\n\t\t\tEnhanced Effect: When teaming up with Cloak & Dagger, the Phased state duration is extended, the dash distance increases, and the Light Energy Healing Wave boasts a larger radius and stronger healing output."
+    },
+    {
+      "loadout": 1,
+      "name": "LUMINOUS MOON",
+      "tier": "enhanced",
+      "partner": "CLOAK & DAGGER",
+      "desc": "Base Effect: Enter Phased state and dash forward. Upon concluding, emit a Light Energy Healing Wave that heals Moon Knight and nearby allies.\n\t\t\tEnhanced Effect: When teaming up with Cloak & Dagger, the Phased state duration is extended, the dash distance increases, and the Light Energy Healing Wave boasts a larger radius and stronger healing output."
+    },
+    {
+      "loadout": 2,
+      "name": "BLOOD MOON",
+      "tier": "base",
+      "partner": "Elsa Bloodstone",
+      "desc": "Base Effect: Deploy an Ankh Trap. Upon triggering, an Ankh materializes at the location, while summoning a single Talon of Khonshu to Launch enemies toward the trap's center.\n\t\t\tEnhanced Effect: When teaming up with Elsa Bloodstone, triggering the trap summons multiple Talons of Khonshu to bombard the area."
+    },
+    {
+      "loadout": 2,
+      "name": "BLOOD MOON",
+      "tier": "enhanced",
+      "partner": "Elsa Bloodstone",
+      "desc": "Base Effect: Deploy an Ankh Trap. Upon triggering, an Ankh materializes at the location, while summoning a single Talon of Khonshu to Launch enemies toward the trap's center.\n\t\t\tEnhanced Effect: When teaming up with Elsa Bloodstone, triggering the trap summons multiple Talons of Khonshu to bombard the area."
+    }
+  ],
+  "Mister Fantastic": [
+    {
+      "loadout": 1,
+      "name": "FANTASTIC AMPLIFIER",
+      "tier": "base",
+      "partner": "ROCKET RACCOON",
+      "desc": "Base Effect: Equips the Fantastic Amplifier. For the duration, Mister Fantastic's maximum Elasticity is increased, and he can actively enter Inflation State.\n\t\t\tEnhanced Effect: When teaming up with Rocket Raccoon, Brainiac Bounce Launches hit enemies."
+    },
+    {
+      "loadout": 1,
+      "name": "FANTASTIC AMPLIFIER",
+      "tier": "enhanced",
+      "partner": "ROCKET RACCOON",
+      "desc": "Base Effect: Equips the Fantastic Amplifier. For the duration, Mister Fantastic's maximum Elasticity is increased, and he can actively enter Inflation State.\n\t\t\tEnhanced Effect: When teaming up with Rocket Raccoon, Brainiac Bounce Launches hit enemies."
+    },
+    {
+      "loadout": 2,
+      "name": "CLOBBERIN' RESEARCH DEPT.",
+      "tier": "base",
+      "partner": "THE THING",
+      "desc": "Base Effect: In brawler stance, Stretch Punch becomes a charged ability, firing a forward Brawling Punch. Hitting an enemy grants Bonus Health scaling with damage, and a full charge Launches hit enemies.\n\t\t\tEnhanced Effect: When teaming up with The Thing, while in the brawling stance, Distended Grip also becomes a charged ability, slamming down a Distended Hammer. Hitting enemies grants Bonus Health based on damage, and Launches enemies at full charge."
+    },
+    {
+      "loadout": 2,
+      "name": "CLOBBERIN' RESEARCH DEPT.",
+      "tier": "enhanced",
+      "partner": "THE THING",
+      "desc": "Base Effect: In brawler stance, Stretch Punch becomes a charged ability, firing a forward Brawling Punch. Hitting an enemy grants Bonus Health scaling with damage, and a full charge Launches hit enemies.\n\t\t\tEnhanced Effect: When teaming up with The Thing, while in the brawling stance, Distended Grip also becomes a charged ability, slamming down a Distended Hammer. Hitting enemies grants Bonus Health based on damage, and Launches enemies at full charge."
+    }
+  ],
+  "NAMOR": [
+    {
+      "loadout": 1,
+      "name": "GAMMA MONSTRO",
+      "tier": "base",
+      "partner": "HULK",
+      "desc": "Base Effect: Summon an extra Gamma Monstro that continuously damages the nearest enemy. Upon landing critical hits, the Gamma Monstro gains increased Attack Speed. Hitting an enemy with Wrath of the Seven Seas prompts it to fire a powerful beam.\n\t\t\tEnhanced Effect: When teaming up with Hulk, casting Blessing of the Deep creates a water barrier infused with Gamma energy. Standing inside accelerates the Gamma Monstro cooldown and grants it a Damage Boost."
+    },
+    {
+      "loadout": 1,
+      "name": "GAMMA MONSTRO",
+      "tier": "enhanced",
+      "partner": "HULK",
+      "desc": "Base Effect: Summon an extra Gamma Monstro that continuously damages the nearest enemy. Upon landing critical hits, the Gamma Monstro gains increased Attack Speed. Hitting an enemy with Wrath of the Seven Seas prompts it to fire a powerful beam.\n\t\t\tEnhanced Effect: When teaming up with Hulk, casting Blessing of the Deep creates a water barrier infused with Gamma energy. Standing inside accelerates the Gamma Monstro cooldown and grants it a Damage Boost."
+    },
+    {
+      "loadout": 2,
+      "name": "CHILLING CHARISMA",
+      "tier": "base",
+      "partner": "LUNA SNOW",
+      "desc": "Base Effect: Gain a new ability to summon a Frost Tide forward. The wave damages, Pushes Back, and inflicts a Slow on all enemies hit.\n\t\t\tEnhanced Effect: When teaming up with Luna Snow, the Frost Tide gains 1 charge and crashes down upon reaching its maximum range, dealing area damage and Slowing enemies caught near the endpoint."
+    },
+    {
+      "loadout": 2,
+      "name": "CHILLING CHARISMA",
+      "tier": "enhanced",
+      "partner": "LUNA SNOW",
+      "desc": "Base Effect: Gain a new ability to summon a Frost Tide forward. The wave damages, Pushes Back, and inflicts a Slow on all enemies hit.\n\t\t\tEnhanced Effect: When teaming up with Luna Snow, the Frost Tide gains 1 charge and crashes down upon reaching its maximum range, dealing area damage and Slowing enemies caught near the endpoint."
+    }
+  ],
+  "PENI PARKER": [
+    {
+      "loadout": 1,
+      "name": "VIBRANIUM MECH",
+      "tier": "base",
+      "partner": "BLACK PANTHER",
+      "desc": "Base Effect: Upon activation, briefly grants Cyber-Web Clusteran Attack Speedand DamageBoost.\n\t\t\tEnhanced Effect: When teaming up with Black Panther, activating the ability deploys a frontal Vibranium Shield, while reducing the Vibranium Energy cost of Cyber-Web Cluster."
+    },
+    {
+      "loadout": 1,
+      "name": "VIBRANIUM MECH",
+      "tier": "enhanced",
+      "partner": "BLACK PANTHER",
+      "desc": "Base Effect: Upon activation, briefly grants Cyber-Web Clusteran Attack Speedand DamageBoost.\n\t\t\tEnhanced Effect: When teaming up with Black Panther, activating the ability deploys a frontal Vibranium Shield, while reducing the Vibranium Energy cost of Cyber-Web Cluster."
+    },
+    {
+      "loadout": 2,
+      "name": "ROCKET NETWORK",
+      "tier": "base",
+      "partner": "ROCKET RACCOON",
+      "desc": "Base Effect: Deploy an Armored Spider-Nestthat periodically drops Spider-Dronesand Armor Packsthat grant Bonus Health.\n\t\t\tEnhanced Effect: When teaming up with Rocket Raccoon, the Armored Spider-Nestpassively regenerates its own Health. Furthermore, Rocket's B.R.B.will generate Cyber-Webs, and spawn both Spider-Dronesand Arachno-Mines."
+    },
+    {
+      "loadout": 2,
+      "name": "ROCKET NETWORK",
+      "tier": "enhanced",
+      "partner": "ROCKET RACCOON",
+      "desc": "Base Effect: Deploy an Armored Spider-Nestthat periodically drops Spider-Dronesand Armor Packsthat grant Bonus Health.\n\t\t\tEnhanced Effect: When teaming up with Rocket Raccoon, the Armored Spider-Nestpassively regenerates its own Health. Furthermore, Rocket's B.R.B.will generate Cyber-Webs, and spawn both Spider-Dronesand Arachno-Mines."
+    }
+  ],
+  "PHOENIX": [
+    {
+      "loadout": 1,
+      "name": "CIRCLE OF LIFE",
+      "tier": "base",
+      "partner": "HELA",
+      "desc": "Base Effect: Psionic Detonation is replaced by Phoenix Netherfire, applying a Telekinetic Mark to the targeted location. Upon hitting, it triggers an initial small explosion that briefly Stuns enemies, followed by two larger explosions that apply a Healing Reduction effect. Every single blast inflicts Sparks onto the enemies.\n\t\t\tEnhanced Effect: When teaming up with Hela, every blast in the sequence applies multiple stacks of Sparks to enemies caught within."
+    },
+    {
+      "loadout": 1,
+      "name": "CIRCLE OF LIFE",
+      "tier": "enhanced",
+      "partner": "HELA",
+      "desc": "Base Effect: Psionic Detonation is replaced by Phoenix Netherfire, applying a Telekinetic Mark to the targeted location. Upon hitting, it triggers an initial small explosion that briefly Stuns enemies, followed by two larger explosions that apply a Healing Reduction effect. Every single blast inflicts Sparks onto the enemies.\n\t\t\tEnhanced Effect: When teaming up with Hela, every blast in the sequence applies multiple stacks of Sparks to enemies caught within."
+    },
+    {
+      "loadout": 2,
+      "name": "TELEKINETIC BEATDOWN",
+      "tier": "base",
+      "partner": "ROGUE",
+      "desc": "Base Effect: Fire a telekinetic shockwave forward. If it lands, the Phoenix Force rushes the enemy and delivers a powerful punch. If there are other targets nearby, the Phoenix Force rapidly blinks between them to strike them as well, inflicting Sparks on each victim while healing Phoenix.\n\t\t\tEnhanced Effect: When teaming up with Rogue, the width of the telekinetic shockwave expands, and the Phoenix Force's target detection range is increased."
+    },
+    {
+      "loadout": 2,
+      "name": "TELEKINETIC BEATDOWN",
+      "tier": "enhanced",
+      "partner": "ROGUE",
+      "desc": "Base Effect: Fire a telekinetic shockwave forward. If it lands, the Phoenix Force rushes the enemy and delivers a powerful punch. If there are other targets nearby, the Phoenix Force rapidly blinks between them to strike them as well, inflicting Sparks on each victim while healing Phoenix.\n\t\t\tEnhanced Effect: When teaming up with Rogue, the width of the telekinetic shockwave expands, and the Phoenix Force's target detection range is increased."
+    }
+  ],
+  "PSYLOCKE": [
+    {
+      "loadout": 1,
+      "name": "MENTAL PROJECTION",
+      "tier": "base",
+      "partner": "EMMA FROST",
+      "desc": "Base Effect: Create an illusory projection that automatically dashes forward to use Psi-Blade Dash, while Psylocke enters Stealth. If Psylocke attacks, the illusion mimics her strikes.\n\t\t\tEnhanced Effect: When teaming up with Emma Frost, Psylocke's mental powers are elevated, allowing her to reactivate the ability to instantly swap places with her illusion."
+    },
+    {
+      "loadout": 1,
+      "name": "MENTAL PROJECTION",
+      "tier": "enhanced",
+      "partner": "EMMA FROST",
+      "desc": "Base Effect: Create an illusory projection that automatically dashes forward to use Psi-Blade Dash, while Psylocke enters Stealth. If Psylocke attacks, the illusion mimics her strikes.\n\t\t\tEnhanced Effect: When teaming up with Emma Frost, Psylocke's mental powers are elevated, allowing her to reactivate the ability to instantly swap places with her illusion."
+    },
+    {
+      "loadout": 2,
+      "name": "LIGHT & DARK DARTS",
+      "tier": "base",
+      "partner": "CLOAK & DAGGER",
+      "desc": "Base Effect: Unleash a ring of Light Darts in all directions that damage enemies and restore Psylocke's Health upon impact, leaving behind a Shadow Domain. Staying inside the domain for a short time will re-enter Stealth.\n\t\t\tEnhanced Effect: When teaming up with Cloak & Dagger, the radius of the Shadow Domain expands, and each time re-entering Stealth, the Light Darts are fired in all directions again."
+    },
+    {
+      "loadout": 2,
+      "name": "LIGHT & DARK DARTS",
+      "tier": "enhanced",
+      "partner": "CLOAK & DAGGER",
+      "desc": "Base Effect: Unleash a ring of Light Darts in all directions that damage enemies and restore Psylocke's Health upon impact, leaving behind a Shadow Domain. Staying inside the domain for a short time will re-enter Stealth.\n\t\t\tEnhanced Effect: When teaming up with Cloak & Dagger, the radius of the Shadow Domain expands, and each time re-entering Stealth, the Light Darts are fired in all directions again."
+    }
+  ],
+  "ROCKET RACCOON": [
+    {
+      "loadout": 1,
+      "name": "MAMMALIAN BOND",
+      "tier": "base",
+      "partner": "SQUIRREL GIRL",
+      "desc": "Base Effect: Tosses out a scattered batch of augmented Vitality Acorns. Acorns that hit the floor can be collected. Whether struck directly or picked up, teammates receive a burst of healing and global cooldown reduction.\n\t\t\tEnhanced Effect: When teaming up with Squirrel Girl, the maximum charge count for this ability is increased."
+    },
+    {
+      "loadout": 1,
+      "name": "MAMMALIAN BOND",
+      "tier": "enhanced",
+      "partner": "SQUIRREL GIRL",
+      "desc": "Base Effect: Tosses out a scattered batch of augmented Vitality Acorns. Acorns that hit the floor can be collected. Whether struck directly or picked up, teammates receive a burst of healing and global cooldown reduction.\n\t\t\tEnhanced Effect: When teaming up with Squirrel Girl, the maximum charge count for this ability is increased."
+    },
+    {
+      "loadout": 2,
+      "name": "PLANET X PALS",
+      "tier": "base",
+      "partner": "GROOT",
+      "desc": "Base Effect: Converts Bombard Mode to launch Thorny Spores. Upon impact, they deal continuous damage to enemies within the radius while healing and granting Bonus Health to allies.\n\t\t\tEnhanced Effect: When teaming up with Groot, Rocket can ride on Groot's shoulders, and the active duration of the Thorny Spores field is extended."
+    },
+    {
+      "loadout": 2,
+      "name": "PLANET X PALS",
+      "tier": "enhanced",
+      "partner": "GROOT",
+      "desc": "Base Effect: Converts Bombard Mode to launch Thorny Spores. Upon impact, they deal continuous damage to enemies within the radius while healing and granting Bonus Health to allies.\n\t\t\tEnhanced Effect: When teaming up with Groot, Rocket can ride on Groot's shoulders, and the active duration of the Thorny Spores field is extended."
+    }
+  ],
+  "Rogue": [
+    {
+      "loadout": 1,
+      "name": "MR. & MRS. X",
+      "tier": "base",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: After activation, every attack triggers a kinetic explosion, dealing area damage to surrounding enemies while simultaneously healing nearby allies.\n\t\t\tEnhanced Effect: When teaming up with Gambit, Rogue remains permanently locked in the \"Hearts as One\" state."
+    },
+    {
+      "loadout": 1,
+      "name": "MR. & MRS. X",
+      "tier": "enhanced",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: After activation, every attack triggers a kinetic explosion, dealing area damage to surrounding enemies while simultaneously healing nearby allies.\n\t\t\tEnhanced Effect: When teaming up with Gambit, Rogue remains permanently locked in the \"Hearts as One\" state."
+    },
+    {
+      "loadout": 2,
+      "name": "EXPLOSIVE ENTANGLEMENT",
+      "tier": "base",
+      "partner": "MAGNETO",
+      "desc": "Base Effect: Defensive Stance is fortified. Activating the ability expands a magnetic field, drastically boosting the Damage Reduction ratio of Defensive Stance. Furthermore, all damage absorbed by the field is converted directly into damage for Southern Brawl.\n\t\t\tEnhanced Effect: When teaming up with Magneto, Southern Brawl Knocks back enemies. Extra damage is dealt if they're propelled into a wall."
+    },
+    {
+      "loadout": 2,
+      "name": "EXPLOSIVE ENTANGLEMENT",
+      "tier": "enhanced",
+      "partner": "MAGNETO",
+      "desc": "Base Effect: Defensive Stance is fortified. Activating the ability expands a magnetic field, drastically boosting the Damage Reduction ratio of Defensive Stance. Furthermore, all damage absorbed by the field is converted directly into damage for Southern Brawl.\n\t\t\tEnhanced Effect: When teaming up with Magneto, Southern Brawl Knocks back enemies. Extra damage is dealt if they're propelled into a wall."
+    }
+  ],
+  "SCARLET WITCH": [
+    {
+      "loadout": 1,
+      "name": "SORCERERS SUPREME",
+      "tier": "base",
+      "partner": "DOCTOR STRANGE",
+      "desc": "Base Effect: Chthonian Burst is replaced with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction.\n\t\t\tEnhanced Effect: When teaming up with Doctor Strange, Scarlet Witch's maximum total Chaos Energy pool increases, and Chaos Control generates energy much faster when attacking."
+    },
+    {
+      "loadout": 1,
+      "name": "SORCERERS SUPREME",
+      "tier": "enhanced",
+      "partner": "DOCTOR STRANGE",
+      "desc": "Base Effect: Chthonian Burst is replaced with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction.\n\t\t\tEnhanced Effect: When teaming up with Doctor Strange, Scarlet Witch's maximum total Chaos Energy pool increases, and Chaos Control generates energy much faster when attacking."
+    },
+    {
+      "loadout": 2,
+      "name": "HEX FIREWORKS",
+      "tier": "base",
+      "partner": "Jubilee",
+      "desc": "Base Effect: Infuse firework energy into the Dark Seal forcefield, turning it into a Plasmoid Seal, allowing for a secondary blast. After expanding the Plasmoid Seal, pressing the {Ability1} key again while it persists will detonate the fireworks, dealing damage and inflicting Vulnerability.\n\t\t\tEnhanced Effect: When teaming up with Jubilee, Scarlet Witch receives constant healing from the firework energy while using Mystic Projection."
+    },
+    {
+      "loadout": 2,
+      "name": "HEX FIREWORKS",
+      "tier": "enhanced",
+      "partner": "Jubilee",
+      "desc": "Base Effect: Infuse firework energy into the Dark Seal forcefield, turning it into a Plasmoid Seal, allowing for a secondary blast. After expanding the Plasmoid Seal, pressing the {Ability1} key again while it persists will detonate the fireworks, dealing damage and inflicting Vulnerability.\n\t\t\tEnhanced Effect: When teaming up with Jubilee, Scarlet Witch receives constant healing from the firework energy while using Mystic Projection."
+    }
+  ],
+  "SPIDER-MAN": [
+    {
+      "loadout": 1,
+      "name": "SYMBIOTE BOND",
+      "tier": "base",
+      "partner": "VENOM",
+      "desc": "Base Effect: Venom shares a part of his symbiote with Spider-Man, activating their symbiote abilities. Spider-Man can convert the symbiotes into explosive spikes that inflict harm on nearby enemies and relentlessly drive them back.\n\t\t\tEnhanced Effect: When teaming up with Venom, this triggers additional Touch of Klyntar tendrils that continuously tether and damage enemies on top of the base effect."
+    },
+    {
+      "loadout": 1,
+      "name": "SYMBIOTE BOND",
+      "tier": "enhanced",
+      "partner": "VENOM",
+      "desc": "Base Effect: Venom shares a part of his symbiote with Spider-Man, activating their symbiote abilities. Spider-Man can convert the symbiotes into explosive spikes that inflict harm on nearby enemies and relentlessly drive them back.\n\t\t\tEnhanced Effect: When teaming up with Venom, this triggers additional Touch of Klyntar tendrils that continuously tether and damage enemies on top of the base effect."
+    },
+    {
+      "loadout": 2,
+      "name": "PARKER POWER-UP",
+      "tier": "base",
+      "partner": "Peni Parker",
+      "desc": "Base Effect: Peni Parker whips up a Sticky Spider-Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging all Web-Cluster shots.\n\t\t\tEnhanced Effect: When teaming up with Peni Parker, Spider-Tracers applied by Web-Cluster are upgraded. Detonating these upgraded marks generates <Buff>Bonus Health for Spider-Man."
+    },
+    {
+      "loadout": 2,
+      "name": "PARKER POWER-UP",
+      "tier": "enhanced",
+      "partner": "Peni Parker",
+      "desc": "Base Effect: Peni Parker whips up a Sticky Spider-Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging all Web-Cluster shots.\n\t\t\tEnhanced Effect: When teaming up with Peni Parker, Spider-Tracers applied by Web-Cluster are upgraded. Detonating these upgraded marks generates <Buff>Bonus Health for Spider-Man."
+    }
+  ],
+  "SQUIRREL GIRL": [
+    {
+      "loadout": 1,
+      "name": "SQUIRREL MISSILE",
+      "tier": "base",
+      "partner": "IRON MAN",
+      "desc": "Base Effect: Squirrel Girl gains the Squirrel Missile ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion.\n\t\t\tEnhanced Effect: When teaming up with Iron Man, using Squirrel Blockade simultaneously fires a Squirrel Missile."
+    },
+    {
+      "loadout": 1,
+      "name": "SQUIRREL MISSILE",
+      "tier": "enhanced",
+      "partner": "IRON MAN",
+      "desc": "Base Effect: Squirrel Girl gains the Squirrel Missile ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion.\n\t\t\tEnhanced Effect: When teaming up with Iron Man, using Squirrel Blockade simultaneously fires a Squirrel Missile."
+    },
+    {
+      "loadout": 2,
+      "name": "ESU ALUMNUS",
+      "tier": "base",
+      "partner": "SPIDER-MAN",
+      "desc": "Base Effect: Spider-Man gives Squirrel Girl a web bomb. She can launch it to unleash an explosion upon contact with the environment or an enemy, briefly Slowing and damaging enemies caught in the blast.\n\t\t\tEnhanced Effect: When teaming up with Spider-Man, Squirrel Girl receives more Web Fluid. After throwing Webbed Acorn, viscous web fluid coats the ground alongside the explosion, leaving behind a sticky Web Area. Enemies within suffer a continuous Slow that scales into a Stun if they linger too long."
+    },
+    {
+      "loadout": 2,
+      "name": "ESU ALUMNUS",
+      "tier": "enhanced",
+      "partner": "SPIDER-MAN",
+      "desc": "Base Effect: Spider-Man gives Squirrel Girl a web bomb. She can launch it to unleash an explosion upon contact with the environment or an enemy, briefly Slowing and damaging enemies caught in the blast.\n\t\t\tEnhanced Effect: When teaming up with Spider-Man, Squirrel Girl receives more Web Fluid. After throwing Webbed Acorn, viscous web fluid coats the ground alongside the explosion, leaving behind a sticky Web Area. Enemies within suffer a continuous Slow that scales into a Stun if they linger too long."
+    }
+  ],
+  "STAR-LORD": [
+    {
+      "loadout": 1,
+      "name": "FLORA MUNITIONS",
+      "tier": "base",
+      "partner": "GROOT",
+      "desc": "Gain a new ability to toss Twisted Thorn Seeds forward. Upon landing, they rapidly Sprout and take root, generating Thorn Snares around the area. Enemies stepping on a snare take damage and suffer a Root effect.\n\t\t\tEnhanced Effect: When teaming up with Groot, the number of Thorn Snares deployed increases, and the damage dealt when an enemy steps on them is boosted."
+    },
+    {
+      "loadout": 1,
+      "name": "FLORA MUNITIONS",
+      "tier": "enhanced",
+      "partner": "GROOT",
+      "desc": "Gain a new ability to toss Twisted Thorn Seeds forward. Upon landing, they rapidly Sprout and take root, generating Thorn Snares around the area. Enemies stepping on a snare take damage and suffer a Root effect.\n\t\t\tEnhanced Effect: When teaming up with Groot, the number of Thorn Snares deployed increases, and the damage dealt when an enemy steps on them is boosted."
+    },
+    {
+      "loadout": 2,
+      "name": "STAR-SOUL",
+      "tier": "base",
+      "partner": "ADAM WARLOCK",
+      "desc": "Base Effect: Gain a new ability to place a Telekinetic Beacon. You can teleport back to the location where the beacon is deployed from anywhere on the map. Upon defeat, Star-Lord will cocoon and respawn at the Telekinetic Beacon's coordinates.\n\t\t\tEnhanced Effect: When teaming up with Adam Warlock, every time Star-Lord participates in a KO, Telekinetic Beaconcooldown is reduced."
+    },
+    {
+      "loadout": 2,
+      "name": "STAR-SOUL",
+      "tier": "enhanced",
+      "partner": "ADAM WARLOCK",
+      "desc": "Base Effect: Gain a new ability to place a Telekinetic Beacon. You can teleport back to the location where the beacon is deployed from anywhere on the map. Upon defeat, Star-Lord will cocoon and respawn at the Telekinetic Beacon's coordinates.\n\t\t\tEnhanced Effect: When teaming up with Adam Warlock, every time Star-Lord participates in a KO, Telekinetic Beaconcooldown is reduced."
+    }
+  ],
+  "STORM": [
+    {
+      "loadout": 1,
+      "name": "GOD OF THUNDER",
+      "tier": "base",
+      "partner": "THOR",
+      "desc": "Base Effect: Upgrade Wind Blade into a hitscan beam that detonates upon striking a target.\n\t\t\tEnhanced Effect: When teaming up with Thor, Bolt Rush becomes Chain Lightning, allowing it to bounce from foe to foe"
+    },
+    {
+      "loadout": 1,
+      "name": "GOD OF THUNDER",
+      "tier": "enhanced",
+      "partner": "THOR",
+      "desc": "Base Effect: Upgrade Wind Blade into a hitscan beam that detonates upon striking a target.\n\t\t\tEnhanced Effect: When teaming up with Thor, Bolt Rush becomes Chain Lightning, allowing it to bounce from foe to foe"
+    },
+    {
+      "loadout": 2,
+      "name": "JAWS OF FATE",
+      "tier": "base",
+      "partner": "JEFF THE LAND SHARK",
+      "desc": "Base Effect: Unleash a torrential downpour that continuously heals both herself and her teammates.\n\t\t\tEnhanced Effect: When teaming up with Jeff the Land Shark, casting Omega Hurricane allows Jeff to swim inside the cyclone, generating a localized Jeff-nado."
+    },
+    {
+      "loadout": 2,
+      "name": "JAWS OF FATE",
+      "tier": "enhanced",
+      "partner": "JEFF THE LAND SHARK",
+      "desc": "Base Effect: Unleash a torrential downpour that continuously heals both herself and her teammates.\n\t\t\tEnhanced Effect: When teaming up with Jeff the Land Shark, casting Omega Hurricane allows Jeff to swim inside the cyclone, generating a localized Jeff-nado."
+    }
+  ],
+  "THE PUNISHER": [
+    {
+      "loadout": 1,
+      "name": "BESTIAL HUNT",
+      "tier": "base",
+      "partner": "Daredevil",
+      "desc": "Base Effect: Shoot piercing bullets that carry a Damage Boost effect.\n\t\t\tEnhanced Effect: When teaming up with Daredevil, the bullets break enemy summoned walls and shields more quickly."
+    },
+    {
+      "loadout": 1,
+      "name": "BESTIAL HUNT",
+      "tier": "enhanced",
+      "partner": "Daredevil",
+      "desc": "Base Effect: Shoot piercing bullets that carry a Damage Boost effect.\n\t\t\tEnhanced Effect: When teaming up with Daredevil, the bullets break enemy summoned walls and shields more quickly."
+    },
+    {
+      "loadout": 2,
+      "name": "AMMO OVERLOAD",
+      "tier": "base",
+      "partner": "ROCKET RACCOON",
+      "desc": "Base Effect: Throw an Ammo Overload Device in the target direction. Upon entering the device's range, receive Faster Firing.\n\t\t\tEnhanced Effect: When teaming up with Rocket Raccoon, the device grants Infinite Ammo."
+    },
+    {
+      "loadout": 2,
+      "name": "AMMO OVERLOAD",
+      "tier": "enhanced",
+      "partner": "ROCKET RACCOON",
+      "desc": "Base Effect: Throw an Ammo Overload Device in the target direction. Upon entering the device's range, receive Faster Firing.\n\t\t\tEnhanced Effect: When teaming up with Rocket Raccoon, the device grants Infinite Ammo."
+    }
+  ],
+  "THE THING": [
+    {
+      "loadout": 1,
+      "name": "TWO IN ONE",
+      "tier": "base",
+      "partner": "Human",
+      "desc": "Base Effect: Enter an enhanced state upon activation. For the duration, The Thing's fists are violently engulfed in flames. Every Rocky Jab deals splash damage, and every Stone Haymaker creates an explosion, dealing damage in a frontal cone.\n\t\t\tEnhanced Effect: When teaming up with Human Torch, Human Torch can lift The Thing into the air and slam him down, dealing damage and Stun to enemies. The Thing then automatically enters his flaming enhanced state upon landing."
+    },
+    {
+      "loadout": 1,
+      "name": "TWO IN ONE",
+      "tier": "enhanced",
+      "partner": "Human",
+      "desc": "Base Effect: Enter an enhanced state upon activation. For the duration, The Thing's fists are violently engulfed in flames. Every Rocky Jab deals splash damage, and every Stone Haymaker creates an explosion, dealing damage in a frontal cone.\n\t\t\tEnhanced Effect: When teaming up with Human Torch, Human Torch can lift The Thing into the air and slam him down, dealing damage and Stun to enemies. The Thing then automatically enters his flaming enhanced state upon landing."
+    },
+    {
+      "loadout": 2,
+      "name": "UNBREAKABLE FORCES",
+      "tier": "base",
+      "partner": "",
+      "desc": "Base Effect: Generate a layer of Psionic Armor upon activation, granting Bonus Health scaling off currently missing Health.\n\t\t\tEnhanced Effect: When teaming up Invisible Woman, the Psionic Armor is fortified. While active, every time The Thing takes a set amount of damage, the armor pulses out a wave of area healing for allies. Furthermore, the conversion ratio for missing Health into Bonus Health is increased."
+    },
+    {
+      "loadout": 2,
+      "name": "UNBREAKABLE FORCES",
+      "tier": "enhanced",
+      "partner": "",
+      "desc": "Base Effect: Generate a layer of Psionic Armor upon activation, granting Bonus Health scaling off currently missing Health.\n\t\t\tEnhanced Effect: When teaming up Invisible Woman, the Psionic Armor is fortified. While active, every time The Thing takes a set amount of damage, the armor pulses out a wave of area healing for allies. Furthermore, the conversion ratio for missing Health into Bonus Health is increased."
+    }
+  ],
+  "THOR": [
+    {
+      "loadout": 1,
+      "name": "RAGNAROK REBIRTH",
+      "tier": "base",
+      "partner": "HELA",
+      "desc": "Base Effect: Receiving fatal damage prevents immediate defeat, Thor gains a decaying pool of Bonus Health. If he participates in a KO during this time, he resurrects and recovers a small amount of Health.\n\t\t\tEnhanced Effect: When teaming up with Hela, if either of them participates in a KO, Thor instantly revives, restoring Health equal to his remaining Bonus Health and gaining a Continuous Healing effect."
+    },
+    {
+      "loadout": 1,
+      "name": "RAGNAROK REBIRTH",
+      "tier": "enhanced",
+      "partner": "HELA",
+      "desc": "Base Effect: Receiving fatal damage prevents immediate defeat, Thor gains a decaying pool of Bonus Health. If he participates in a KO during this time, he resurrects and recovers a small amount of Health.\n\t\t\tEnhanced Effect: When teaming up with Hela, if either of them participates in a KO, Thor instantly revives, restoring Health equal to his remaining Bonus Health and gaining a Continuous Healing effect."
+    },
+    {
+      "loadout": 2,
+      "name": "DIVINE ARMORY",
+      "tier": "base",
+      "partner": "ANGELA",
+      "desc": "Base Effect: Hurl a Thunder Spear that restores Thorforce for each enemy struck. Afterward, Thor canleap to the spear's explosion point, dealing a second wave of damage to all enemies within range.\n\t\t\tEnhanced Effect: When teaming up with Angela, leaping to the Thunder Spear grants Bonus Health."
+    },
+    {
+      "loadout": 2,
+      "name": "DIVINE ARMORY",
+      "tier": "enhanced",
+      "partner": "ANGELA",
+      "desc": "Base Effect: Hurl a Thunder Spear that restores Thorforce for each enemy struck. Afterward, Thor canleap to the spear's explosion point, dealing a second wave of damage to all enemies within range.\n\t\t\tEnhanced Effect: When teaming up with Angela, leaping to the Thunder Spear grants Bonus Health."
+    }
+  ],
+  "The Hood": [
+    {
+      "loadout": 1,
+      "name": "Chaos Collision",
+      "tier": "base",
+      "partner": "SCARLET WITCH",
+      "desc": "Base Effect: Gain a New Ability. Create an arcane zone that continuously damages enemies and applies stacking Damage and Healing Reduction. Reactivate to teleport to the zone's center.\n\t\t\tEnhanced Effect: When teaming up with Scarlet Witch, after teleporting, unleash a magical shockwave, dealing one-time damage to nearby enemies while launching them towards The Hood"
+    },
+    {
+      "loadout": 1,
+      "name": "Chaos Collision",
+      "tier": "enhanced",
+      "partner": "SCARLET WITCH",
+      "desc": "Base Effect: Gain a New Ability. Create an arcane zone that continuously damages enemies and applies stacking Damage and Healing Reduction. Reactivate to teleport to the zone's center.\n\t\t\tEnhanced Effect: When teaming up with Scarlet Witch, after teleporting, unleash a magical shockwave, dealing one-time damage to nearby enemies while launching them towards The Hood"
+    },
+    {
+      "loadout": 2,
+      "name": "New Moon's Shadow",
+      "tier": "base",
+      "partner": "MOON KNIGHT",
+      "desc": "Base Effect: Enhances Abyssal Veil into a Lunar Barrier that blocks projectiles. Upon breaking, it detonates, damaging enemies and applying Damage and Healing Reduction. Enemies passing through take damage and are briefly Blinded.\n\t\t\tEnhanced Effect: When teaming up with Moon Knight, the Lunar Barrier has greater shield value, and The Hood's attacks that pass through it gain a bounce effect"
+    },
+    {
+      "loadout": 2,
+      "name": "New Moon's Shadow",
+      "tier": "enhanced",
+      "partner": "MOON KNIGHT",
+      "desc": "Base Effect: Enhances Abyssal Veil into a Lunar Barrier that blocks projectiles. Upon breaking, it detonates, damaging enemies and applying Damage and Healing Reduction. Enemies passing through take damage and are briefly Blinded.\n\t\t\tEnhanced Effect: When teaming up with Moon Knight, the Lunar Barrier has greater shield value, and The Hood's attacks that pass through it gain a bounce effect"
+    }
+  ],
+  "Ultron": [
+    {
+      "loadout": 1,
+      "name": "STARK PROTOCOL",
+      "tier": "base",
+      "partner": "IRON MAN",
+      "desc": "Base Effect: Upgrade Encephalo-Ray to Nano-Ray, firing multiple damaging nano-projectiles forward.\n\t\t\tEnhanced Effect:When teaming up with Iron Man, Imperative: Firewall fires powerful homing missiles at enemies in range, causing area damage."
+    },
+    {
+      "loadout": 1,
+      "name": "STARK PROTOCOL",
+      "tier": "enhanced",
+      "partner": "IRON MAN",
+      "desc": "Base Effect: Upgrade Encephalo-Ray to Nano-Ray, firing multiple damaging nano-projectiles forward.\n\t\t\tEnhanced Effect:When teaming up with Iron Man, Imperative: Firewall fires powerful homing missiles at enemies in range, causing area damage."
+    },
+    {
+      "loadout": 2,
+      "name": "SP//DR SYNC",
+      "tier": "base",
+      "partner": "Peni Parker",
+      "desc": "Base Effect: Apply Imperative: Patch to all allies.\n\t\t\tEnhanced Effect: When teaming up with Peni Parker, Imperative: Firewall applies to all Drones, allowing the ability effects to be triggered multiple times simultaneously."
+    },
+    {
+      "loadout": 2,
+      "name": "SP//DR SYNC",
+      "tier": "enhanced",
+      "partner": "Peni Parker",
+      "desc": "Base Effect: Apply Imperative: Patch to all allies.\n\t\t\tEnhanced Effect: When teaming up with Peni Parker, Imperative: Firewall applies to all Drones, allowing the ability effects to be triggered multiple times simultaneously."
+    }
+  ],
+  "VENOM": [
+    {
+      "loadout": 1,
+      "name": "BLOOD LEECH",
+      "tier": "base",
+      "partner": "BLADE",
+      "desc": "Base Effect: Cellular Corrosion new effect: while tethered to enemies, continuously siphon health from every linked target, restoring Venom's Health.\n\t\t\tEnhanced Effect: When teaming up with Blade, Venom gains a burst of one-time healing when using certain specific abilities."
+    },
+    {
+      "loadout": 1,
+      "name": "BLOOD LEECH",
+      "tier": "enhanced",
+      "partner": "BLADE",
+      "desc": "Base Effect: Cellular Corrosion new effect: while tethered to enemies, continuously siphon health from every linked target, restoring Venom's Health.\n\t\t\tEnhanced Effect: When teaming up with Blade, Venom gains a burst of one-time healing when using certain specific abilities."
+    },
+    {
+      "loadout": 2,
+      "name": "ABYSSAL FLAMES",
+      "tier": "base",
+      "partner": "PHOENIX",
+      "desc": "Base Effect: Ignites the symbiote with Phoenix Flames for a duration, replacing Dark Predation with a sweeping Phoenix Touch frontal slash.\n\t\t\tEnhanced Effect: When teaming up with Phoenix, Venom's Phoenix Force is enhanced: every Phoenix Touch applies Sparks. Upon reaching three stacks, the Sparks detonate."
+    },
+    {
+      "loadout": 2,
+      "name": "ABYSSAL FLAMES",
+      "tier": "enhanced",
+      "partner": "PHOENIX",
+      "desc": "Base Effect: Ignites the symbiote with Phoenix Flames for a duration, replacing Dark Predation with a sweeping Phoenix Touch frontal slash.\n\t\t\tEnhanced Effect: When teaming up with Phoenix, Venom's Phoenix Force is enhanced: every Phoenix Touch applies Sparks. Upon reaching three stacks, the Sparks detonate."
+    }
+  ],
+  "WINTER SOLDIER": [
+    {
+      "loadout": 1,
+      "name": "TIMELESS VETERANS",
+      "tier": "base",
+      "partner": "The Punisher",
+      "desc": "Base Effect: Unlocks the Burst Spike ability. Using the bionic arm emits forward electricity, dealing damage and Knocking Back enemies.\n\t\t\tEnhanced Effect: When teaming up with The Punisher, the electric burst applies a Grounded effect and Knocks Back enemies even further."
+    },
+    {
+      "loadout": 1,
+      "name": "TIMELESS VETERANS",
+      "tier": "enhanced",
+      "partner": "The Punisher",
+      "desc": "Base Effect: Unlocks the Burst Spike ability. Using the bionic arm emits forward electricity, dealing damage and Knocking Back enemies.\n\t\t\tEnhanced Effect: When teaming up with The Punisher, the electric burst applies a Grounded effect and Knocks Back enemies even further."
+    },
+    {
+      "loadout": 2,
+      "name": "EXPERT INSTINCT",
+      "tier": "base",
+      "partner": "Elsa Bloodstone",
+      "desc": "Base Effect: Securing or participating in a KO grants a stack of Culling Instinct. Each stack reduces the cooldowns of Winter Soldier's other abilities. All stacks are lost upon defeat.\n\t\t\tEnhanced Effect: When teaming up with Elsa Bloodstone, the Bonus Health generated by Ceaseless Charge is increased."
+    },
+    {
+      "loadout": 2,
+      "name": "EXPERT INSTINCT",
+      "tier": "enhanced",
+      "partner": "Elsa Bloodstone",
+      "desc": "Base Effect: Securing or participating in a KO grants a stack of Culling Instinct. Each stack reduces the cooldowns of Winter Soldier's other abilities. All stacks are lost upon defeat.\n\t\t\tEnhanced Effect: When teaming up with Elsa Bloodstone, the Bonus Health generated by Ceaseless Charge is increased."
+    }
+  ],
+  "White Fox": [
+    {
+      "loadout": 1,
+      "name": "LUCKY LOAN",
+      "tier": "base",
+      "partner": "BLACK CAT",
+      "desc": "Base Effect: White Fox receives an Orb of Life from Black Cat. Upon use, it recovers Spirit Tail energy and converts life energy into Nine-Tailed Aura that shoots out in all directions. This automatically tracks nearby allies and enemies, granting Speed and Healing to allies while damaging and Slowing enemies.\n\t\t\tnhanced Effect: When teaming up with Black Cat, using the Orb triggers a state where Spirit Tail Energy is no longer consumed for a duration, allowing free use of Spectral Surge and Fox Form Awakening."
+    },
+    {
+      "loadout": 1,
+      "name": "LUCKY LOAN",
+      "tier": "enhanced",
+      "partner": "BLACK CAT",
+      "desc": "Base Effect: White Fox receives an Orb of Life from Black Cat. Upon use, it recovers Spirit Tail energy and converts life energy into Nine-Tailed Aura that shoots out in all directions. This automatically tracks nearby allies and enemies, granting Speed and Healing to allies while damaging and Slowing enemies.\n\t\t\tnhanced Effect: When teaming up with Black Cat, using the Orb triggers a state where Spirit Tail Energy is no longer consumed for a duration, allowing free use of Spectral Surge and Fox Form Awakening."
+    },
+    {
+      "loadout": 2,
+      "name": "PSIONIC FOX",
+      "tier": "base",
+      "partner": "PSYLOCKE",
+      "desc": "Base Effect: Activating Fox Form Awakening no longer consumes Spirit Tail energy, and grants the maximum possible duration immediately upon use.\n\t\t\tEnhanced Effect: When teaming up with Psylocke, the cooldown for Fox Form Awakening is drastically reduced."
+    },
+    {
+      "loadout": 2,
+      "name": "PSIONIC FOX",
+      "tier": "enhanced",
+      "partner": "PSYLOCKE",
+      "desc": "Base Effect: Activating Fox Form Awakening no longer consumes Spirit Tail energy, and grants the maximum possible duration immediately upon use.\n\t\t\tEnhanced Effect: When teaming up with Psylocke, the cooldown for Fox Form Awakening is drastically reduced."
+    }
+  ],
+  "Wolverine": [
+    {
+      "loadout": 1,
+      "name": "BLAST SLASH",
+      "tier": "base",
+      "partner": "Cyclops",
+      "desc": "Base Effect: Activation extends the attack range of Savage Claw and Berserk Claw Strike. Vicious Rampage is replaced with Kinetic Claws, granting a brief forward lunge that unleashes a flurry of slashes around.\n\t\t\tEnhanced Effect: When teaming up with Cyclops, Blast Slash is permanently active."
+    },
+    {
+      "loadout": 1,
+      "name": "BLAST SLASH",
+      "tier": "enhanced",
+      "partner": "Cyclops",
+      "desc": "Base Effect: Activation extends the attack range of Savage Claw and Berserk Claw Strike. Vicious Rampage is replaced with Kinetic Claws, granting a brief forward lunge that unleashes a flurry of slashes around.\n\t\t\tEnhanced Effect: When teaming up with Cyclops, Blast Slash is permanently active."
+    },
+    {
+      "loadout": 2,
+      "name": "PAIR OF THREES",
+      "tier": "base",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: Upon activation, Wolverine receives Kinetic Enhancement, gaining increased Movement Speed and a Jump Boost. Attacking enemies applies Kinetic Particles that detonate after a short delay for bonus damage. The effect lasts for duration.\n\t\t\tEnhanced Effect: When teaming up with Gambit, Wolverine receives Continuous Healing for the entire duration of the ability."
+    },
+    {
+      "loadout": 2,
+      "name": "PAIR OF THREES",
+      "tier": "enhanced",
+      "partner": "GAMBIT",
+      "desc": "Base Effect: Upon activation, Wolverine receives Kinetic Enhancement, gaining increased Movement Speed and a Jump Boost. Attacking enemies applies Kinetic Particles that detonate after a short delay for bonus damage. The effect lasts for duration.\n\t\t\tEnhanced Effect: When teaming up with Gambit, Wolverine receives Continuous Healing for the entire duration of the ability."
+    }
+  ]
+}

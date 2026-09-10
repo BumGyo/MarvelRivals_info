@@ -1,0 +1,119 @@
+
+=== SPIDER-MAN ===
+  [Spider-Power]: Swing fists forward to strike, dealing extra damage to the enemy with a Spider-Tracer
+  [Web-Cluster]: Shoot a Web-Cluster that deals damage and attaches a Spider-Tracer to the hit enemy
+  [Spectacular Spin]: Launch Web-Clusters all around to damage and Stun enemies
+  [Web-Swing]: Shoot a strand of webbing to swing.
+  [Get Over Here!]: Shoot webbing to reel in the hit enemy. If the enemy is tagged with a Spider-Tracer, Spider-Man will get pulled to them instead
+  [Amazing Combo]: Launch an enemy upward, dealing extra damage to the enemy with a Spider-Tracer
+  [Sticky Spider-Bomb]: Cyber-Spiders Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging a Web-Cluster shot and granting Bonus Health
+  [Wall Crawl]: Press Space to wall crawl, and while crawling, left-click to sprint
+  [Spider-Sense]: Give a warning of enemies that have been around
+
+=== SQUIRREL GIRL ===
+  [Burst Acorn]: Shoot bouncing Burst Acorns
+  [Squirrel Blockade]: Launch an acorn to unleash Squirrel Guards, Imprisoning the first hit enemy
+  [Unbeatable Squirrel Tsunami]: Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures
+  [Tail Bounce]: Rocket upwards with a bounce of her tail
+  [Mammal Bond]: Reload Burst Acorns and can use an ability without cooldown once in a short duration
+
+=== STAR-LORD ===
+  [Element Guns]: Shoot enemies with dual Element Guns
+  [Stellar Shift]: Dodge in the direction of movement and swiftly reload
+  [Galactic Legend]: Engage in free-flight and lock onto enemies in sight
+  [Rocket Propulsion]: Consume energy to gain a Movement Boost and soar forward
+  [Blaster Barrage]: Fire a frenzy of shots, causing damage to enemies within range.
+  [Astral Jump]: Star-Lord gets a teleport to its deployment point from anywhere on the map
+
+=== STORM ===
+  [Wind Blade]: Launch forward-piercing Wind Blades
+  [Bolt Rush]: Unleash a lightning bolt forward
+  [Omega Hurricane]: Transform into a hurricane to draw in nearby enemies and deal damage
+  [Weather Control]: Switch the weather to empower allies: Tornado grants a Movement Boost; Thunder grants a Damage Boost
+  [Goddess Boost]: Channel the power of the weather to empower Storm: Tornado grants a Movement Boost and inflicts Slow on enemies; Thunder grants a Damage Boost and summons lightning to inflict damage
+
+=== THE PUNISHER ===
+  [Adjudication]: Fire at enemies with Adjudication, his Automatic Rifle
+  [Deliverance]: Fire at enemies with Deliverance, his Shotgun
+  [Scourge Grenade]: Throw a smoke grenade forward to obscure enemy vision and leap backward
+  [Final Judgement]: Unleash two Gatling guns and missiles to attack enemies
+  [Vantage Connection]: Launch a hook to generate a cable that enables the Punisher to move rapidly by pressing F
+  [Culling Turret]: Deploy a Culling Turret that grounds Punisher and blocks damage from the front while dealing massive damage
+  [Warrior's Gaze]: Retain vision of enemies that disappear from view for a short duration
+  [CUTTING-EDGE TECH]: The Punisher upgrades Black Widow's arsenal, adding a Pulse Mode to her Red Room Rifle. While the ability is active, using Straight Shooter fires a pulse beam that deals piercing damage
+
+=== THE THING ===
+  [Rocky Jab]: Rapidly punch forward
+  [Stone Haymaker]: Deliver a devastating Heavy Blow. Can Knock Down flying enemies.
+  [Clobberin' Time]: Use immense power to launch up all enemies in front of the Thing into the air
+  [Yancy Street Charge]: Continuously charge forward, launching up enemies and leaving behind a zone at the final position that prevents the use of mobility abilities
+  [Embattled Leap]: Jump toward an ally and apply damage reduction to yourself and allies within the landing area
+  [Battle Blitz]: Jump toward an enemy and apply Vulnerability to enemies within the landing area
+  [GAMMA CHARGE]: Hulk charges Black Panther and The Thing with gamma radiation. When Black Panther's health is low, he gains a gamma shield, becoming Unstoppable and blocking attacks. The Thing gains Gamma Gauntlets, boosting Damage and range of his Rocky Jab and Stone Haymaker. Dealing damage with these attacks grants Bonus Health, and maximum Bonus Health cap is increased
+  [Cosmic Fastball]: Wolverine and The Thing can interact with each other. Once both parties confirm, The Thing can lift Wolverine and press the key to hurl him forward
+  [Unyielding Will]: Immune to launch-up, knock-back, and other displacement effects
+
+=== THOR ===
+  [Mjolnir Bash]: Wield Mjolnir to strike enemies. When Awakened, Thor can launch lightning arc waves to deal damage
+  [Hammer Throw]: Throw Mjolnir forward which then returns
+  [God of Thunder]: Soar upwards and smite the ground after charging for a duration, inflicting damage on enemies within range
+  [Storm Surge]: Hold to spin Mjolnir before dashing forward and knocking back enemies
+  [Lightning Realm]: Summon lightning that restores Thorforce based on the number of hit enemies
+  [Awakening Rune]: Consume Thorforce to enter the Awakened state, granting Bonus Health and enhancing Mjolnir Bash
+  [Thorforce]: Consume Thorforce to gain Bonus Health. Landing Mjolnir Bash on an enemy instantly recharges Thorforce
+
+=== The Hood ===
+  [Accursed Pistols]: Shoot forward dual-wielded pistols. Gain increased Attack Speed when Demonic Energy exceeds 50%
+  [Leaded Transformation]: Enter Half-Demon State, transforming your arms into demonic rifles to unleash a rain of lead. These rifles have increased Attack Speed and Infinite Ammo. Every bullet that strikes an enemy triggers Lifesteal
+  [Mantle of Oblivion]: Spread your cloak to form a spherical barrier, blocking incoming enemy attacks. When Demonic Energy exceeds 50%, the radius of the sphere expands further.
+  [Demon of the End]: Enter Full Demon State. Fire up to 6 high-powered shots that pierce through enemies and barriers, with the final shot being the most powerful. Hitting enemies grants Bonus Health to yourself and nearby allies
+  [Void Walk]: Enter the Void for free-flight. Upon reappearing, gain a decaying Movement Boost and damage surrounding enemies
+  [Abyssal Veil]: Throw a dark magic sphere that generates a Veil upon landing. Accursed Pistols shots passing through it generate more Demonic Energy and bullets from Leaded Transformation gain increased Lifesteal. Enemy projectiles passing through suffer reduced damage and healing output. Enemies who pass through the Veil take damage and are Blinded
+  [Ruinous Pact]: Accumulate Demonic Energy by dealing damage via Accursed Pistols, blocking attacks with Mantle of Oblivion, or by using Void Walk. Reaching full energy automatically triggers the Half-Demon State
+
+=== Ultron ===
+  [ENCEPHALO-RAY]: Unleash a burning energy beam
+  [IMPERATIVE: FIREWALL]: Deploy drones to an ally marked by Imperative: Patch, granting them increased Speed and Damage. Additionally, all allies within range of you and the chosen teammate receive Bonus Health.
+  [RAGE OF ULTRON]: Summon Ultron Drones to fire Encephalo-Rays, damaging enemies or healing allies
+  [DYNAMIC FLIGHT]: Fly quickly in the direction of movement and then enter an Accelerated state
+  [IMPERATIVE: PATCH]: Command up to 2 giant drones to follow 2 allies, constantly healing allies within its radius, with more healing for the designated allies.
+
+=== VENOM ===
+  [Dark Predation]: Unleash tentacles forward to attack enemies
+  [Cellular Corrosion]: Unleash tentacles to Slow enemies within reach. Enemies unable to break free in time will suffer damage
+  [Feast of the Abyss]: Burrow underground for free movement. After a duration or by left-clicking, devour enemies above to deal damage based on the enemy's current health and generate equivalent Bonus Health. Devoured enemies suffer Reduced Healing
+  [Venom Swing]: Launch webbing forward, allowing for a singular swing in the desired direction
+  [Symbiotic Resilience]: Generate Bonus Health against damage. The lower Venom's Health, the greater the Bonus Health generated
+  [Frenzied Arrival]: Dash to the target location from a certain height. Upon landing, damage nearby enemies, launching them up toward the landing point
+  [HEALING TENDRILS]: Venom shares his symbiotes with Jeff and Hela. Jeff's Guardian of the Deep links with nearby allies, providing continuous healing. When the effect ends, it releases a powerful healing burst, converting any excess into Bonus Health. Hela's Hel Tendrils unleash a symbiotic Hel Sphere. Upon hit, it pulls nearby enemies toward the impact point and links them, slowing enemies that try to escape.
+
+=== WINTER SOLDIER ===
+  [Roterstern]: Fire explosive rounds with his blaster, Roterstern, damaging the target hit and enemies behind them.
+  [Bionic Hook]: Charge up and launch a hook with his bionic arm, reeling in the first target hit and enemies lurking behind
+  [Kraken Impact]: Leap high, then dash forward and slam down with the bionic arm, dealing damage to enemies in range, marking them for Culling. Marked enemies will perish instantly if their health falls below a certain threshold, recharging the bionic arm for another Kraken Impact within a short period
+  [Trooper's Fist]: Dash forward, seizing enemies along the path and launching up enemies at the end of the dash
+  [Tainted Voltage]: Charge up and launch a powerful electrical punch with the bionic arm in the target direction, dealing damage to enemies within range and Slowing them. This ability can Knock Down flying heroes
+  [Stellar Impact]: Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant Bonus Health to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and slows enemies
+  [Ceaseless Charge]: Roterstern reloads automatically while the bionic arm is in action, granting Bonus Health to the Winter Soldier
+
+=== White Fox ===
+  [YEOWOO GUSEUL]: Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages enemies, heals allies, and restores Spirit Tail energy
+  [CLAW STRIKE]: While Awakened, slash forward with a flurry of attacks
+  [NINEFOLD SLAM]: In Kumiho Form, slam the ground, causing an explosive shockwave. Hitting enemies or summons grants One-Time Healing to self and nearby allies
+  [SPECTRAL SURGE]: Consume one Spirit Tail to send a spectral fox forward. It heals and grants invulnerability to allies it passes through, damages and Charms enemies, forcing foes to move toward White Fox
+  [TAIL SWEEP]: While Awakened, sweep forward tails to launch up hit enemies
+  [BLESSED BY THE NINE]: In Kumiho Form, select an ally to grant Continuous Healing, Unstoppable, and Life-Steal for a short time
+  [KUMIHO UNLEASHED]: Manifest the full Nine-Tailed Fox form and continuously heal nearby allies. Cannot receive healing effects from others while in this form
+  [SPIRIT SANCTUARY]: Teleport to a chosen ally, instantly healing allies in the area while generating a shield
+  [Predatory Pounce]: While Awakened, dash forward. Hit an enemy to slow them, enabling a second dash that knocks back enemies
+  [FOX FORM AWAKENING]: Enter Awakened state, transforming Spirit Tails into physical tails. While active, continuously drain Spirit Tail energy and heal nearby allies. Striking enemies provides additional area healing
+
+=== Wolverine ===
+  [Savage Claw]: Slash with Adamantium claws for a Claw Strike. Unleashing Feral Leap will enhance it to Berserk Claw Strike for a brief period
+  [Vicious Rampage]: Dash forward and unleash a Claw Strike
+  [Last Stand]: Knock enemies ahead airborne and spiral through the air, sweeping up enemies along the path and delivering a devastating impact at the landing point
+  [Feral Leap]: Leap like an animal to snatch the first enemy upon impact and Smash them to the ground. Unleashing this ability will enhance his normal attack to Berserk Claw Strike for a brief period
+  [Phoenix Warrior]: Wolverine and Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forwardJean Grey imbues Wolverine with the awe-inspiring Phoenix Force. With this power, Wolverine's Feral Leap transforms into Phoenix Warrior. While active, he is enveloped in Phoenix flames that continuously scorch him and nearby enemies, dealing Percentage Damage. In this state, Wolverine's abilities gain Lifesteal when inflicting damage
+  [Undying Animal]: Unleash a fierce howl to briefly reduce incoming damage
+  [Regenerative Healing Factor]: Begin to heal and rise with a hefty Bonus Health, shaking off all debuffs. After a brief moment, any remaining Bonus Health morphs into a one-off heal, zeroing out his Rage. Assists in KOs reduce this cooldown
+  [Berserker Rage]: Rage builds when Wolverine attacks or takes hits, boosting the damage of his Claw Strikes and the Bonus Health from his regenerative healing factor

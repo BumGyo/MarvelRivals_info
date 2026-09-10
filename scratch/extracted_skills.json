@@ -1,0 +1,3194 @@
+[
+  [
+    "Launch quantum energy to deal damage",
+    {
+      "sampleHero": "ADAM WARLOCK",
+      "sampleSkill": "Quantum Magic"
+    }
+  ],
+  [
+    "Gather quantum energy into a cluster and then swiftly launch it at the enemy",
+    {
+      "sampleHero": "ADAM WARLOCK",
+      "sampleSkill": "Cosmic Cluster"
+    }
+  ],
+  [
+    "Awaken the karma of allies to revive them. Allies revived have lower health but enjoy a brief period of Invincibility",
+    {
+      "sampleHero": "ADAM WARLOCK",
+      "sampleSkill": "Karmic Revival"
+    }
+  ],
+  [
+    "Forge a soul bond with allies, granting Healing Over Time and distributing damage taken across the bond",
+    {
+      "sampleHero": "ADAM WARLOCK",
+      "sampleSkill": "Soul Bond"
+    }
+  ],
+  [
+    "Target an ally for a bouncing stream of healing energy, which also heals himself upon casting; self-targets if no ally is selected",
+    {
+      "sampleHero": "ADAM WARLOCK",
+      "sampleSkill": "Avatar Life Stream"
+    }
+  ],
+  [
+    "Take to the skies, entering a flying state and swiftly surge forward",
+    {
+      "sampleHero": "ADAM WARLOCK",
+      "sampleSkill": "Karmic Revival"
+    }
+  ],
+  [
+    "Storm channels her elemental power into Adam Warlock. When Adam uses Soaring Surge, his movement speed is increased. While flying, Adam leaves behind a storm-charged trail that heals and speeds up allies within it",
+    {
+      "sampleHero": "ADAM WARLOCK",
+      "sampleSkill": "HEAVENLY HARMONY"
+    }
+  ],
+  [
+    "Once his body perishes, Adam Warlock can freely move as a soul and reforge his body at a chosen spot",
+    {
+      "sampleHero": "ADAM WARLOCK",
+      "sampleSkill": "Regenerative Cocoon"
+    }
+  ],
+  [
+    "Lunge forward with your spear, dealing damage that increases with Attack Charge. At full charge, Spear of Ichor can launch up enemies",
+    {
+      "sampleHero": "ANGELA",
+      "sampleSkill": "Spear of Ichors"
+    }
+  ],
+  [
+    "Alternate powerful strikes forward with twin axes, dealing increased damage as Attack Charge grows. The fourth strike propels you forward in a swift dash",
+    {
+      "sampleHero": "ANGELA",
+      "sampleSkill": "Axes Of Ichors"
+    }
+  ],
+  [
+    "Transform Ichors into a shield, gaining Attack Charge when absorbing damage",
+    {
+      "sampleHero": "ANGELA",
+      "sampleSkill": "SHIELDED STANCE"
+    }
+  ],
+  [
+    "Wrap your spear in ribbons and hurl it with force. Upon impact, the ribbons bind nearby enemies. Angela can leap to the spear's location, damaging surrounding enemies and creating a Divine Judgement Zone",
+    {
+      "sampleHero": "ANGELA",
+      "sampleSkill": "Heven's Retribution"
+    }
+  ],
+  [
+    "Enter an accelerated dash state,  enemies struck head-on are carried through the air for a short distance",
+    {
+      "sampleHero": "ANGELA",
+      "sampleSkill": "Assassin's Charge"
+    }
+  ],
+  [
+    "Dive downward, switch to twin axes and infuse the ground with Ichors to create a Divine Judgement Zone upon impact. Within the zone, gain enhanced Speed and attacks grant Bonus Health to self and nearby allies",
+    {
+      "sampleHero": "ANGELA",
+      "sampleSkill": "Divine Judgement"
+    }
+  ],
+  [
+    "Take to the skies, switching back to Spear of Ichors",
+    {
+      "sampleHero": "ANGELA",
+      "sampleSkill": "Wingblade Ascent"
+    }
+  ],
+  [
+    "Glide freely through the air. Continuous flight builds Attack Charge",
+    {
+      "sampleHero": "ANGELA",
+      "sampleSkill": "Seraphic Soar"
+    }
+  ],
+  [
+    "Angela shares fragments of her Ichors with Thor, empowering him to hurl a Thunder Spear that restores Thorforce for each enemy struck. Afterward, Thor can leap to the spear's explosion point, dealing a second wave of damage to all enemies within range",
+    {
+      "sampleHero": "ANGELA",
+      "sampleSkill": "Celestial Command"
+    }
+  ],
+  [
+    "Swipe forward with razor-sharp claws",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "FELINE FURY"
+    }
+  ],
+  [
+    "Fire out tethered claws and whip them forward in a devastating arc, dealing damage to all enemies caught in range",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "CLAW WHIP"
+    }
+  ],
+  [
+    "Spend Fortuneto unleash either Grapple Swipeor Phantom Pursuit",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "FORTUNE'S FAVOR"
+    }
+  ],
+  [
+    "Issue a Calling Card to all enemies. Instantly dash to any enemy in sight and range, tearing into them with your claws to deal Damage",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "CALLING CARD"
+    }
+  ],
+  [
+    "Lunge forward with claws bared, slicing through any enemies caught in your path",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "CAT'S CRADLE"
+    }
+  ],
+  [
+    "Launch a grappling hook forward that damages an enemy on impact and steals Fortunebefore pulling it back to Black Cat",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "TURN OF FORTUNE"
+    }
+  ],
+  [
+    "Swiftly dash to an enemy, unleash a rapid flurry of claw attacks, and flash back to your starting position. Black Cat is Untargetableduring this move",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "PHANTOM PURSUIT"
+    }
+  ],
+  [
+    "Use the Spatial Resonator to open a portal to the Elder Gods' dimension, consuming Fortune to trade with the Golden Elder and acquire items from the New York Thieves Guild vault.",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "GILDED DEAL"
+    }
+  ],
+  [
+    "Gain a random amount of Fortune",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "TABLET OF DESTINIES"
+    }
+  ],
+  [
+    "Enter Invisiblestate for a set duration",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "HELM OF HADES"
+    }
+  ],
+  [
+    "Conjure an orb of mystical Faltine Flame to Revealand mark all nearby enemies",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "FALTINE FLAME ORB"
+    }
+  ],
+  [
+    "Purify yourself, instantly removing any active control effects",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "CHERNOBOG'S CRYSTAL"
+    }
+  ],
+  [
+    "Open a portal on a surface, allowing instant traversal to the opposite side",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "RING OF ZONA"
+    }
+  ],
+  [
+    "Create a hypnosis field. Inflicts Slow, disables movement abilities, and Groundsall enemies caught within",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "MENTO-FISH"
+    }
+  ],
+  [
+    "Perform a double jump",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "THIEVING GRACE"
+    }
+  ],
+  [
+    "Hold {Jump} to crawl up vertical surfaces",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "STEALTHY CATWALK"
+    }
+  ],
+  [
+    "Apply Jinxto enemies on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a Critical Hit",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "MALKIN MISFORTUNE"
+    }
+  ],
+  [
+    "Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby allies and enemies, granting allies speed and healing while dealing damage and slowing enemies. Captain America receives the Vibranium Energy Amplifier, which expands shield block range when raised and reflects projectiles back along the crosshair direction.",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "GIFT OF GOLD"
+    }
+  ],
+  [
+    "Steal a set amount of Fortunewhenever your attacks hit an enemy",
+    {
+      "sampleHero": "BLACK CAT",
+      "sampleSkill": "STICKY PAWS"
+    }
+  ],
+  [
+    "Slice Vibranium Claws forward",
+    {
+      "sampleHero": "BLACK PANTHER",
+      "sampleSkill": "Vibranium Claws"
+    }
+  ],
+  [
+    "Toss a Vibranium energy spear forward, creating a Vibranium Force Field and attaching a Vibranium Mark to enemies in its radius",
+    {
+      "sampleHero": "BLACK PANTHER",
+      "sampleSkill": "Spear Toss"
+    }
+  ],
+  [
+    "Summon Bast, pouncing forward, dealing damage, and attaching a Vibranium Mark to enemies hit while refreshing Spirit Rend",
+    {
+      "sampleHero": "BLACK PANTHER",
+      "sampleSkill": "Bast's Descent"
+    }
+  ],
+  [
+    "Lunge forward and deal damage to enemies. Vibranium Mark produces Bonus Health and refreshes the ability",
+    {
+      "sampleHero": "BLACK PANTHER",
+      "sampleSkill": "Spirit Rend"
+    }
+  ],
+  [
+    "Spiral forward and attach a Vibranium Mark to enemies hit",
+    {
+      "sampleHero": "BLACK PANTHER",
+      "sampleSkill": "Spinning Kick"
+    }
+  ],
+  [
+    "Hold Space to run on a wall; perform a jump after detaching from the wall",
+    {
+      "sampleHero": "BLACK PANTHER",
+      "sampleSkill": "Subtle Step"
+    }
+  ],
+  [
+    "Deal higher damage when at low Health",
+    {
+      "sampleHero": "BLACK PANTHER",
+      "sampleSkill": "Panther's Cunning"
+    }
+  ],
+  [
+    "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther's Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming Unstoppable",
+    {
+      "sampleHero": "BLACK PANTHER",
+      "sampleSkill": "GAMMA VIBRANIUM ARMOR"
+    }
+  ],
+  [
+    "Slash forward with Blade's Ancestral Sword",
+    {
+      "sampleHero": "BLADE",
+      "sampleSkill": "Ancestral Sword"
+    }
+  ],
+  [
+    "Fire at enemies using your Shotgun",
+    {
+      "sampleHero": "BLADE",
+      "sampleSkill": "Hunter's Shotgun"
+    }
+  ],
+  [
+    "Parry with Ancestral Sword to become Unstoppable for a brief period, reducing damage taken from the front and decreasing the cooldown of Daywalker Dash",
+    {
+      "sampleHero": "BLADE",
+      "sampleSkill": "Scarlet Shroud"
+    }
+  ],
+  [
+    "Charge power and swiftly draw the Sword of Dracula, executing a powerful Iaido strike as you dash forward, leaving behind a slashing zone where the sword automatically strikes enemies. Enemies hit suffer Reduced Healing",
+    {
+      "sampleHero": "BLADE",
+      "sampleSkill": "Thousand-Fold Slash"
+    }
+  ],
+  [
+    "Dash forward. If wielding your gun, shoot at enemies upon impact, applying a Healing Reduction effect. If wielding your sword, deliver a cleaving strike that inflicts Slow",
+    {
+      "sampleHero": "BLADE",
+      "sampleSkill": "Daywalker Dash"
+    }
+  ],
+  [
+    "Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering Whirlwind Slash.If all Whirlwind Slash strikes hit, your Attack Speed will further increase. While under this state, you suffer Reduced Healing, but attacks gain Lifesteal",
+    {
+      "sampleHero": "BLADE",
+      "sampleSkill": "Bloodline Awakening"
+    }
+  ],
+  [
+    "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his Ancestral Sword in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a Darkmoon Blade forward. When a Darkmoon Blade hits an enemy, it bounces to nearby targets",
+    {
+      "sampleHero": "BLADE",
+      "sampleSkill": "ECLIPSE EDGE"
+    }
+  ],
+  [
+    "Strike with the enhanced electric batons",
+    {
+      "sampleHero": "Black Widow",
+      "sampleSkill": "Widow's Bite Baton"
+    }
+  ],
+  [
+    "Attack with the Red Room Rifle",
+    {
+      "sampleHero": "Black Widow",
+      "sampleSkill": "Red Room Rifle"
+    }
+  ],
+  [
+    "Fire an electro-plasma round forward. Upon hitting the environment or an enemy, it explodes and applies a Slow effect",
+    {
+      "sampleHero": "Black Widow",
+      "sampleSkill": "ELECTRO-PLASMA BLAST"
+    }
+  ],
+  [
+    "Switch the Red Room Rifle to sniper mode. Shots fired in this state pierce through targets and deal increased damage",
+    {
+      "sampleHero": "Black Widow",
+      "sampleSkill": "ASSASSIN'S FOCUS"
+    }
+  ],
+  [
+    "Unleash a spinning kick to Launch Up enemies. Landing the hit will allow her to zip to the target with a grappling hook for a second kick",
+    {
+      "sampleHero": "Black Widow",
+      "sampleSkill": "EDGE DANCER"
+    }
+  ],
+  [
+    "Leap toward a target area and slam the ground with her Widow's Bite gauntlet, dealing damage to enemies within range",
+    {
+      "sampleHero": "Black Widow",
+      "sampleSkill": "WIDOW'S BITE SLAM"
+    }
+  ],
+  [
+    "Get up close to strike enemies. Landing the second hit enables a shield throw that can ricochet four times",
+    {
+      "sampleHero": "CAPTAIN AMERICA",
+      "sampleSkill": "Sentinel Strike"
+    }
+  ],
+  [
+    "Slam down from the sky onto the targeted area, Launching Up enemies",
+    {
+      "sampleHero": "CAPTAIN AMERICA",
+      "sampleSkill": "Super-Soldier Slam"
+    }
+  ],
+  [
+    "Raise the shield to deflect incoming projectiles, sending them ricocheting in random directions",
+    {
+      "sampleHero": "CAPTAIN AMERICA",
+      "sampleSkill": "Living Legend"
+    }
+  ],
+  [
+    "Shield held high, carve a path forward, granting both himself and allies along the path continuous Bonus Health and Movement Boosts. Allies also gain Ultimate Ability Charge Acceleration. Using Living Legend and Leading Dash while this ability is active can Launch Up enemies",
+    {
+      "sampleHero": "CAPTAIN AMERICA",
+      "sampleSkill": "Freedom Charge"
+    }
+  ],
+  [
+    "Boost speed and enable Fearless Leap to leap into the air",
+    {
+      "sampleHero": "CAPTAIN AMERICA",
+      "sampleSkill": "Leading Dash"
+    }
+  ],
+  [
+    "Hurl the energy-charged shield to strike enemies in a path",
+    {
+      "sampleHero": "CAPTAIN AMERICA",
+      "sampleSkill": "Vibranium Energy Saw"
+    }
+  ],
+  [
+    "Raise the shield and charge forward",
+    {
+      "sampleHero": "CAPTAIN AMERICA",
+      "sampleSkill": "Liberty Rush"
+    }
+  ],
+  [
+    "Black Cat shares her luck with her allies. When White Fox embraces her newfound fortune, she unleashestracking Spirit Tails to grant Healing and Speed to allies, while damaging and Slowing foes. When Captain America enjoys his luck, his shield's block radius expands and allows him to aim deflectedProjectiles directly toward his target",
+    {
+      "sampleHero": "CAPTAIN AMERICA",
+      "sampleSkill": "VIBRANIUM BASTION"
+    }
+  ],
+  [
+    "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to deal damage to nearby foes. Additionally, Captain America and Winter Soldier can interact with each other once both parties confirm. The duo collides and unleashes a shockwave that deals damage and inflicts slow on enemies",
+    {
+      "sampleHero": "CAPTAIN AMERICA",
+      "sampleSkill": "Captain's Spirit"
+    }
+  ],
+  [
+    "Inflict continuous damage on an enemy",
+    {
+      "sampleHero": "Cloak & Dagger",
+      "sampleSkill": "Darkforce Cloak"
+    }
+  ],
+  [
+    "Unleash a bouncing Lightforce Dagger to damage enemies and heal nearby allies",
+    {
+      "sampleHero": "Cloak & Dagger",
+      "sampleSkill": "Lightforce Dagger"
+    }
+  ],
+  [
+    "Enshroud nearby allies in the Darkforce Dimension, plunging them into the Phased state, making them untargetable and invisible to enemies and granting them a Movement Boost",
+    {
+      "sampleHero": "Cloak & Dagger",
+      "sampleSkill": "Dark Teleportation"
+    }
+  ],
+  [
+    "Launch a volley of daggers, creating a Healing Over Time field in the impact area",
+    {
+      "sampleHero": "Cloak & Dagger",
+      "sampleSkill": "Dagger Storm"
+    }
+  ],
+  [
+    "Perform four rapid dashes, healing allies and damaging enemies along the path",
+    {
+      "sampleHero": "Cloak & Dagger",
+      "sampleSkill": "Eternal Bond"
+    }
+  ],
+  [
+    "Switch to Dagger",
+    {
+      "sampleHero": "Cloak & Dagger",
+      "sampleSkill": "Light's Embrace"
+    }
+  ],
+  [
+    "Switch to Cloak",
+    {
+      "sampleHero": "Cloak & Dagger",
+      "sampleSkill": "Shadow's Embrace"
+    }
+  ],
+  [
+    "Deploy a Veil of Darkforce to damage enemies upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received",
+    {
+      "sampleHero": "Cloak & Dagger",
+      "sampleSkill": "Terror Cape"
+    }
+  ],
+  [
+    "Deploy a Veil of Lightforce to heal allies upon touch and grant them a Healing Boost",
+    {
+      "sampleHero": "Cloak & Dagger",
+      "sampleSkill": "Veil of Lightforce"
+    }
+  ],
+  [
+    "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses Crescent Slash, enemies hit are launched back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and boosts healing for allies, while damaging enemies and applying Vulnerability",
+    {
+      "sampleHero": "Cloak & Dagger",
+      "sampleSkill": "FROM SHADOW TO LIGHT"
+    }
+  ],
+  [
+    "Fire a quick burst of kinetic force forward. Hitting enemies accelerates Ricochet Force charge rate",
+    {
+      "sampleHero": "Cyclops",
+      "sampleSkill": "Optic Blast"
+    }
+  ],
+  [
+    "Continuously fire a powerful beam that can refract between enemies and the environment. Hitting enemies accelerates Ricochet Force charge rate",
+    {
+      "sampleHero": "Cyclops",
+      "sampleSkill": "Concussive Beam"
+    }
+  ],
+  [
+    "Remove visor and fire a powerful sweeping beam forward. The blast leaves behind volatile excess energy that erupts, dealing massive secondary explosive damage",
+    {
+      "sampleHero": "Cyclops",
+      "sampleSkill": "Ruby Rage"
+    }
+  ],
+  [
+    "Fire a propulsion beam to push yourself and the target backward, applying a Slow effect to the enemy",
+    {
+      "sampleHero": "Cyclops",
+      "sampleSkill": "Propulsion Burst"
+    }
+  ],
+  [
+    "Fire a beam that can diffract and track nearby enemies after hitting terrain. Upon use, Cyclops gains Bonus Health",
+    {
+      "sampleHero": "Cyclops",
+      "sampleSkill": "Ricochet Force"
+    }
+  ],
+  [
+    "Fire a propulsion beam directly downward to push yourself up and knock back hit enemies, applying a Slow effect to them",
+    {
+      "sampleHero": "Cyclops",
+      "sampleSkill": "Optic Ascent"
+    }
+  ],
+  [
+    "Enter a slow-fall state while firing Concussive Beam mid-air",
+    {
+      "sampleHero": "Cyclops",
+      "sampleSkill": "Kinetic Hover"
+    }
+  ],
+  [
+    "Cyclops supercharges Wolverine's claws, extending his attack range. While active, Wolverine's Vicious Rampage is replaced with Kinetic Claws, granting him a brief forward lunge that unleashes a flurry of slashes around him",
+    {
+      "sampleHero": "Cyclops",
+      "sampleSkill": "Red Adamantium"
+    }
+  ],
+  [
+    "Nobody lays a finger on my teammates! Anyone tries, and I'm firing these big boy bullets straight at their face!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "DUAL DESERT EAGLES - VANGUARD"
+    }
+  ],
+  [
+    "I rack up shots, then, BOOM! A mind-blowing bubble bomb for all the enemies. Teammate security: maximum",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "DUAL DESERT EAGLES - VANGUARD UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Protecting my team means my katanas go full savage. No mercy for the baddies!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "KICK@$$ KATANA - VANGUARD"
+    }
+  ],
+  [
+    "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Bad Bunny hit makes the next swing a stabby special",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "KICK@$$ KATANA - VANGUARD UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Plushie power! It stops every single attack those chumps throw, giving my team a safety bubble. It's cute AND bulletproof",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "MAGICAL UNICORN SHIELD!"
+    }
+  ],
+  [
+    "My ultra-cool, super shiny, extra huggable, and totally blinged-out plushy. Toss it ahead, and it lands as an invincible sphere of awesomeness! Blocking attacks and keeping my team safe inside our furry fortress",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "MAGICAL UNICORN SHIELD! - UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Try getting to my teammates, I dare you! My dash slash knocks fools down, and if I hit, I get to do it again. Up to three times, baby!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "HAZARDOUS HIJINKS - VANGUARD"
+    }
+  ],
+  [
+    "Watch this pro bodyguard in action! I dash forward, nail the bad guy, and bounce in any direction I want. Oh, and I can do this two more times real quick!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "HAZARDOUS HIJINKS - VANGUARD UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "You! Yeah, you - the hyper one! Eyes off my friends. I sentence you to...whatever! Get ready to be taunted. I get bonus HP and healing, and if you whiff your abilities, you take damage, and I get even more HP!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "THE BAN HAMMER"
+    }
+  ],
+  [
+    "Upgraded courtroom drama! Congrats, unlucky one! You're my pick; enjoy the taunt! I score bonus health and healing, and you take ongoing damage. If you miss an ability while court is in session, it's a double whammy. You get more pain, AND I get more extra HP! Thanks in advance!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "THE BAN HAMMER - UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Hazardous Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "THE BIG TEST"
+    }
+  ],
+  [
+    "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs (massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "THE BIG TEST - UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Want to hurt my team? Good luck! I hit you with a taunt, mess up your vision, and burn your health nonstop! Best part: my swords and guns go full turbo for the duration. Blink and you'll miss it",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "DEADPOOL IN YOUR AREA - VANGUARD"
+    }
+  ],
+  [
+    "Teammates, stay safe! Dummies, look here! It's showtime: I taunt, blind you, and hit warp speed with my swords and guns. Plus, my crew gets a damage reduction buff, so they're basically invincible. Dummies that stick around too long will even have their UI taped over!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "DEADPOOL IN YOUR AREA - VANGUARD UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "UPGRADE!"
+    }
+  ],
+  [
+    "Yup, I can double jump in midair! During The Big Test and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "BUNNY BOUNCE"
+    }
+  ],
+  [
+    "Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "HEALING FACTOR"
+    }
+  ],
+  [
+    "Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "MAXIMUM FLAIR"
+    }
+  ],
+  [
+    "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!",
+    {
+      "sampleHero": "DEADPOOL (VANGUARD)",
+      "sampleSkill": "Comical Chaos"
+    }
+  ],
+  [
+    "Bang! Bang! Unleash two hand cannons left and right, because one gun is never enough. Pew pew, baby!",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "DUAL DESERT EAGLES - DUELIST"
+    }
+  ],
+  [
+    "Keep blasting till you trigger a BOOM. My thoughts literally explode onto the battlefield. Talk about mind-blowing firepower!",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "DUAL DESERT EAGLES - DUELIST UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Slicey, dicey, twice as nicey! Swing both swords at whoever gets too close. Sushi, anyone?",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "KICK@$$ KATANA - DUELIST"
+    }
+  ],
+  [
+    "Now with extra chop! Stabs can go straight for the noggin. Heads up! Do a Bunny Hop and POW! Stabby Stabby action guaranteed! Run while you can!",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "KICK@$$ KATANA - DUELIST UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Ever seen someone throw their own face? Watch me KO a crowd, then catch my mug on the rebound!. Don't lose your head over it",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "HEADSHOT! - DUELIST"
+    }
+  ],
+  [
+    "Juggle my noggin for extra throws! If you catch it thrice, it goes kaboom. Everyone gets a piece of my mind",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "HEADSHOT! - DUELIST UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Blink, and you'll miss my deadly dash combo. Slash, dash, repeat! Hit someone? You get to go again! (Up to 2 more times. Don't get greedy.) Who says I can't multitask?",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "HAZARDOUS HIJINKS - DUELIST"
+    }
+  ],
+  [
+    "Now with bouncy castle action! Slash, bounce, repeat. It's like the world's deadliest pinball!. Cooldowns? Never heard of 'em. Keep going as long as you hit stuff, just don't let me fall flat on my ass!",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "HAZARDOUS HIJINKS - DUELIST UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Let's play judge! Pick a dumb-dumb and slap a taunt. They miss an ability? Boom! Gavel drops, and I slap them with pain and snark",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "SKILL ISSUE"
+    }
+  ],
+  [
+    "Dumbpoochu, I choose you! Taunt time! Their HP melts away, and if they whiff an ability, they get bonus pain AND Vulnerability. Double whammy! Objection? Overruled!",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "SKILL ISSUE - UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Hey, you! Yeah, you! Ready for a challenge? Free speed and healing just for trying. Nail enough hits with the right abilities and unlock the deluxe speed-heal package. It's an A+ in chaos!",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "POP QUIZ!"
+    }
+  ],
+  [
+    "Don't just stand there, you blockhead! The challenge's still rolling. But don't worry, I'm not one of those money-hungry scam artists. The buffs are on the house, no price hike. Take on this challenge, and you'll get three freebies: a little Speed boost, Continuous Healing, and Damage Up. Hit enough baddies with the right abilities exactly as I ask, and you unlock the ultimate bundle (Super Speed, Super Healing, Damage Boost AND reset all your cooldowns (except Healing Factor; no cheating!). Now THAT'S love",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "POP QUIZ! - UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "True heroes taunt face-to-face! I roast nearby baddies, mess up their vision, and tank their hits like a boss. Try me!",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "DEADPOOL IN YOUR AREA - DUELIST"
+    }
+  ],
+  [
+    "Check out the best trash talk in the Chronoverse! Keep taunting and melting their HP! I even block their screen, so they can't see squat. Plus, I tank hits like a champ. Enemies that stick around too long get the bottom of their screen taped up. By the end, they won't even find their health bar and whatnot. Good luck fighting what you can't see, suckers!",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "DEADPOOL IN YOUR AREA - DUELIST UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Hippity-hoppity, Deadpool's on your property! Watch me squeeze in a second jump midair! Hop on heads or kick off walls with Bunny Hop to refresh the cooldown, and if I land on someone? Free health for me, and a headache for them. Whee!",
+    {
+      "sampleHero": "DEADPOOL (DUELIST)",
+      "sampleSkill": "BUNNY HOP"
+    }
+  ],
+  [
+    "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Healing Hop hit makes the next swing a stabby special",
+    {
+      "sampleHero": "DEADPOOL (STRATEGIST)",
+      "sampleSkill": "KICK@$$ KATANA - STRATEGIST UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Healing Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!",
+    {
+      "sampleHero": "DEADPOOL (STRATEGIST)",
+      "sampleSkill": "FINAL EXAM"
+    }
+  ],
+  [
+    "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs(massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!",
+    {
+      "sampleHero": "DEADPOOL (STRATEGIST)",
+      "sampleSkill": "FINAL EXAM - UPGRADED (Upgrade)"
+    }
+  ],
+  [
+    "Bite forward. Applies a Bleed that deals continuous Percentage Damage",
+    {
+      "sampleHero": "DEVIL DINOSAUR",
+      "sampleSkill": "Primal Bite"
+    }
+  ],
+  [
+    "Unleash a devastating beam of energy that inflicts a Bleed and Slow.",
+    {
+      "sampleHero": "DEVIL DINOSAUR",
+      "sampleSkill": "Impact Beam"
+    }
+  ],
+  [
+    "Erupt in primal fury! Gain a massive Movement Speed Boost while unleashing earth-shattering stomps that Launch enemies and applies a Bleed. Thunderous roars also emit sonic waves that Slow enemies hit",
+    {
+      "sampleHero": "DEVIL DINOSAUR",
+      "sampleSkill": "Devil-Beast Rampage"
+    }
+  ],
+  [
+    "Dash and pounce on your prey with a vicious bite, applying a Bleed. If the target is already Bleeding, clamp down before hurling them away",
+    {
+      "sampleHero": "DEVIL DINOSAUR",
+      "sampleSkill": "Savage Predation"
+    }
+  ],
+  [
+    "Activate the heart-shaped generator to expand a spherical shield that blocks incoming damage. Enemies caught within are Slowed",
+    {
+      "sampleHero": "DEVIL DINOSAUR",
+      "sampleSkill": "Buddy Barrier"
+    }
+  ],
+  [
+    "Unleash a flurry of continuous bites, converting the damage dealt into Bonus Health. Deals extra damage against Bleeding targets",
+    {
+      "sampleHero": "DEVIL DINOSAUR",
+      "sampleSkill": "Frenzied Feast"
+    }
+  ],
+  [
+    "Take reduced damage from headshots. Immune to launch-up, knock-back, and other displacement effects. Enemies and allies generate less Ultimate Ability Energy when damaging or healing him",
+    {
+      "sampleHero": "DEVIL DINOSAUR",
+      "sampleSkill": "Prehistoric Plating"
+    }
+  ],
+  [
+    "Gain Bonus Health when you inflict Bleeding upon an enemy",
+    {
+      "sampleHero": "DEVIL DINOSAUR",
+      "sampleSkill": "Apex Advantage"
+    }
+  ],
+  [
+    "The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher",
+    {
+      "sampleHero": "DEVIL DINOSAUR",
+      "sampleSkill": "Prehistoric Partner"
+    }
+  ],
+  [
+    "Cast Daggers of Denak forward",
+    {
+      "sampleHero": "DOCTOR STRANGE",
+      "sampleSkill": "Daggers of Denak"
+    }
+  ],
+  [
+    "Create a protective barrier against damage",
+    {
+      "sampleHero": "DOCTOR STRANGE",
+      "sampleSkill": "Shield of the Seraphim"
+    }
+  ],
+  [
+    "Separate nearby enemies' Souls from their bodies. Damage dealt to these Souls is transferred to their physical bodies",
+    {
+      "sampleHero": "DOCTOR STRANGE",
+      "sampleSkill": "Eye of Agamotto"
+    }
+  ],
+  [
+    "Ascend and then enter a brief state of sustained flight",
+    {
+      "sampleHero": "DOCTOR STRANGE",
+      "sampleSkill": "Cloak of Levitation"
+    }
+  ],
+  [
+    "Release Dark Magic to deal damage to nearby enemies",
+    {
+      "sampleHero": "DOCTOR STRANGE",
+      "sampleSkill": "Maelstrom of Madness"
+    }
+  ],
+  [
+    "Invisible Woman enhances Doctor Strange's Maelstrom of Madness with a psionic explosion. The explosion damages and pulls enemies toward Doctor Strange. Based on the explosion's damage, Doctor Strange and nearby allies gain Bonus Health",
+    {
+      "sampleHero": "DOCTOR STRANGE",
+      "sampleSkill": "PSIONIC VORTEX"
+    }
+  ],
+  [
+    "Open portals between two locations, enabling all units to travel through them",
+    {
+      "sampleHero": "DOCTOR STRANGE",
+      "sampleSkill": "Pentagram of Farallah"
+    }
+  ],
+  [
+    "Dark Magic accumulates with every hit on an enemy. If Dark Magic peaks for too long, Doctor Strange will be cursed with Anti-Heal",
+    {
+      "sampleHero": "DOCTOR STRANGE",
+      "sampleSkill": "Price of Magic"
+    }
+  ],
+  [
+    "Doctor Strange shares his arcane mastery, replacing Scarlet Witch's Chthonian Burst with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction",
+    {
+      "sampleHero": "DOCTOR STRANGE",
+      "sampleSkill": "Enchanted Enhancement"
+    }
+  ],
+  [
+    "Swing Billy Clubs forward. Gain Fury on hit",
+    {
+      "sampleHero": "Daredevil",
+      "sampleSkill": "JUSTICE JAB"
+    }
+  ],
+  [
+    "Cross your Billy Clubs and surge forward. Gain Fury on hit",
+    {
+      "sampleHero": "Daredevil",
+      "sampleSkill": "RIGHTEOUS CROSS"
+    }
+  ],
+  [
+    "Whirl billy clubs in a tight guard to block frontal damage and reflect projectiles, becoming immune to all incoming harm during this stance and gain Fury",
+    {
+      "sampleHero": "Daredevil",
+      "sampleSkill": "OBJECTION!"
+    }
+  ],
+  [
+    "Expend Fury to unleash Devil's Chain or Devil's Throw. Devil's Chain converts damage into Bonus Health, while Devil's Throw Slows enemies on hit and temporarily enables Cross Interrogation",
+    {
+      "sampleHero": "Daredevil",
+      "sampleSkill": "INFERNAL FURY"
+    }
+  ],
+  [
+    "Embrace the Beast within. Enemies in Daredevil's line of sight take damage and suffer a ramping Blind effect. Continually gain Fury while active",
+    {
+      "sampleHero": "Daredevil",
+      "sampleSkill": "LET THE DEVIL OUT"
+    }
+  ],
+  [
+    "Fire a grappling line that reels Daredevil and his target toward each other. On completion, gain Fury and temporarily enables Cross Interrogation",
+    {
+      "sampleHero": "Daredevil",
+      "sampleSkill": "DEVIL'S LATCH"
+    }
+  ],
+  [
+    "Locks onto a target, gaining increased Speed; and Damage Reduction when attacked. While in range, dash to the target, Blinding them and restore Fury",
+    {
+      "sampleHero": "Daredevil",
+      "sampleSkill": "Sonic Pursuit"
+    }
+  ],
+  [
+    "Run along walls and spring off them to reposition",
+    {
+      "sampleHero": "Daredevil",
+      "sampleSkill": "BLIND ASCENT"
+    }
+  ],
+  [
+    "Detect enemy movements within a set radius",
+    {
+      "sampleHero": "Daredevil",
+      "sampleSkill": "RADAR SENSE"
+    }
+  ],
+  [
+    "Daredevil shares the location of his Sonic Pursuit target with The Punisher. At the same time, The Punisher can launch a devil-infused shock grenade to damage and blind enemies",
+    {
+      "sampleHero": "Daredevil",
+      "sampleSkill": "BLIND VERDICT"
+    }
+  ],
+  [
+    "Fire your shotgun forward",
+    {
+      "sampleHero": "Elsa Bloodstone",
+      "sampleSkill": "DOUBLE-BARREL BLASTER"
+    }
+  ],
+  [
+    "Unleash your elephant gun forward. Bullets pierce enemies and deal high damage",
+    {
+      "sampleHero": "Elsa Bloodstone",
+      "sampleSkill": "MONSTER-PIERCER"
+    }
+  ],
+  [
+    "Fire a Living Bullet round that splits upon impact, seeking nearby enemies and marking each with a Spectral Sigil. Hitting marked targets with Double-Barrel Blaster or Monster-Piercer grants Elsa a brief Speed boost. Living Bullets deal extra damage to shields and enemies with Bonus Health",
+    {
+      "sampleHero": "Elsa Bloodstone",
+      "sampleSkill": "LIVING BULLET"
+    }
+  ],
+  [
+    "Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range are healed! Elsa Bloodstone's Living Bullet changes to special rounds that Taunt targets with Deadpool's chatter, while Slowing, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt",
+    {
+      "sampleHero": "Elsa Bloodstone",
+      "sampleSkill": "BLOODSTONE'S BOOMBOX BULLETS"
+    }
+  ],
+  [
+    "Summon the Glartrox to charge forward. The Glartrox can be recalled to charge back toward Elsa. When colliding with terrain or upon return, it bites fiercely, dealing heavy damage",
+    {
+      "sampleHero": "Elsa Bloodstone",
+      "sampleSkill": "APEX PREDATOR"
+    }
+  ],
+  [
+    "Dash forward. Your next Double-Barrel Blaster becomes Monster-Piercer",
+    {
+      "sampleHero": "Elsa Bloodstone",
+      "sampleSkill": "HELIX ADVANCE"
+    }
+  ],
+  [
+    "Dash forward, gaining Bonus Health and launching enemies hit. Follow up with a Double-Barrel Blaster shot that propels you backward and Slows enemies. Using either stage empowers your next Double-Barrel Blaster, transforming it into Monster-Piercer",
+    {
+      "sampleHero": "Elsa Bloodstone",
+      "sampleSkill": "RUTHLESS PURSUIT"
+    }
+  ],
+  [
+    "Launch a trap containing the monster Diablo. Once deployed, it becomes Invisible and Invulnerable. When an enemy triggers it, Diablo Immobilizes and Damages them. Use to dash to the trapped enemy. Enemies can destroy Diablo to break free",
+    {
+      "sampleHero": "Elsa Bloodstone",
+      "sampleSkill": "SMOKY SNARE"
+    }
+  ],
+  [
+    "Dealing damage increases hunting Instinct. Defeating enemies caught by Smoky Snare grants additional Instinct. Higher Instinct reduces the cooldown of Helix Advance",
+    {
+      "sampleHero": "Elsa Bloodstone",
+      "sampleSkill": "INHERITED INSTINCT"
+    }
+  ],
+  [
+    "Fire a psionic beam to deal damage; the longer the beam hits, the higher the damage",
+    {
+      "sampleHero": "Emma Frost",
+      "sampleSkill": "TELEPATHIC PULSE"
+    }
+  ],
+  [
+    "In Diamond Form, deliver a crushing double-fisted strike to enemies",
+    {
+      "sampleHero": "Emma Frost",
+      "sampleSkill": "FACETED FURY"
+    }
+  ],
+  [
+    "Create a levitating barrier at the designated location",
+    {
+      "sampleHero": "Emma Frost",
+      "sampleSkill": "MIND'S AEGIS"
+    }
+  ],
+  [
+    "In Diamond Form, unleash a flying kick forward and knock back enemies; extra damage is dealt if they're propelled into a wall",
+    {
+      "sampleHero": "Emma Frost",
+      "sampleSkill": "CRYSTAL KICK"
+    }
+  ],
+  [
+    "Project a forward psychic assault that stuns foes and prevents them from unleashing their Ultimate Abilities; if the effect lingers, it gradually commandeers their mind, forcing them to move toward Emma Frost",
+    {
+      "sampleHero": "Emma Frost",
+      "sampleSkill": "PSIONIC SEDUCTION"
+    }
+  ],
+  [
+    "Activate Diamond Form to transform your attack style while gaining Damage Reduction and becoming Unstoppable",
+    {
+      "sampleHero": "Emma Frost",
+      "sampleSkill": "DIAMOND FORM"
+    }
+  ],
+  [
+    "Seize control of an enemy's sentience—damage dealt to the sentience cascades to the physical form and can be pierced by Telepathic Pulse. When the sentience shatters, it unleashes extra damage on its owner",
+    {
+      "sampleHero": "Emma Frost",
+      "sampleSkill": "PSYCHIC SPEAR"
+    }
+  ],
+  [
+    "In Diamond Form, lunge forward to grab an enemy, then execute a back slam to inflict damage",
+    {
+      "sampleHero": "Emma Frost",
+      "sampleSkill": "CARBON CRUSH"
+    }
+  ],
+  [
+    "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates Harmony Recovery, he can heal nearby allies with Lunar Chi. Emma Frost can project ice energy forward, dealing damage and slowing enemies. She can also enhance her diamond form, condensing frost into an Absolute Zero Diamond barrier that blocks enemy attacks and movement",
+    {
+      "sampleHero": "Emma Frost",
+      "sampleSkill": "ICED OUT DIAMOND"
+    }
+  ],
+  [
+    "Launch vines to attack enemies",
+    {
+      "sampleHero": "GROOT",
+      "sampleSkill": "Vine Strike"
+    }
+  ],
+  [
+    "Throw an explosive Spore Bomb that splits into multiple small explosive spores",
+    {
+      "sampleHero": "GROOT",
+      "sampleSkill": "Spore Bomb"
+    }
+  ],
+  [
+    "Fire a massive vine cluster that pulls nearby enemies to its center and Imprisons them",
+    {
+      "sampleHero": "GROOT",
+      "sampleSkill": "Strangling Prison"
+    }
+  ],
+  [
+    "Target a location and grow a Thornlash Wall. When Awakened, it strikes nearby enemies attacked by Groot and his allies",
+    {
+      "sampleHero": "GROOT",
+      "sampleSkill": "Thornlash Wall"
+    }
+  ],
+  [
+    "Target a location and grow an Ironwood Wall. When the wall is Awakened, damage dealt by Groot and nearby allies grants Groot Bonus Health. Groot gains Unstoppable while near Ironwood Walls",
+    {
+      "sampleHero": "GROOT",
+      "sampleSkill": "Ironwood Wall"
+    }
+  ],
+  [
+    "Mantis enhances Groot's wooden walls and Loki's Rune Stones with life energy. Groot can additionally unleash a Flower Wall, which, when in Flora Colossus state, restores health to random nearby allies and grants them Damage Reduction. Loki's Rune Stones grant allies within Regeneration Domain a Damage Boost",
+    {
+      "sampleHero": "GROOT",
+      "sampleSkill": "Wild Wall"
+    }
+  ],
+  [
+    "Perform a combo with his arms, and the third strike will slightly Launch Up the hit enemy airborne",
+    {
+      "sampleHero": "GROOT",
+      "sampleSkill": "Furious Flora"
+    }
+  ],
+  [
+    "Wooden walls near Groot will Awaken, activating an extra effect. Right-click while building a wooden wall to continue building additional walls",
+    {
+      "sampleHero": "GROOT",
+      "sampleSkill": "Flora Colossus"
+    }
+  ],
+  [
+    "Launch three kinetic-charged cards in an arc ahead. Each card detonates on impact, creating a single-target explosion that damages enemies and heals allies",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "Kinetic Cards"
+    }
+  ],
+  [
+    "Channel kinetic energy into the bo staff, then slam it into the ground after a sweeping strike, creating a shockwave that damages nearby enemies and heals allies",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "Bayou Bash"
+    }
+  ],
+  [
+    "Lock onto an ally within sight and unleash multiple Aces that heal and Purify. Both enter the Kinetic Transfer state, granting increased Movement Speed and Jump Boost, while enhancing attacks with additional single-target explosive damage and providing the ally with Ultimate Ability Charge Acceleration",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "Ragin' Royal Flush"
+    }
+  ],
+  [
+    "Side-step forward with bo staff in hand, dashing a short distance",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "Cajun Charge"
+    }
+  ],
+  [
+    "Conjure a Heart card by consuming one stack of  Sleight of Hand to Heal and switch to the Healing Hearts deck",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "Healing Hearts"
+    }
+  ],
+  [
+    "While Healing Hearts deck is active, trigger Flush Empowerment to card spring and fire a full deck forward. Cards bounce between allies on impact, granting Health and a Healing Boost",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "Bridge Boost"
+    }
+  ],
+  [
+    "While Breaking Spades deck is active, trigger Raise Empowerment to scattering cards in an arc in all directions. Explosions damage enemies and Launch them up",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "Bidding Barrage"
+    }
+  ],
+  [
+    "Conjure a Spade card by consuming one stack of  Sleight of Hand to gain Damage Boost and switch to the Breaking Spades deck",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "Breaking Spades"
+    }
+  ],
+  [
+    "While Healing Hearts deck is active, trigger Raise Empowerment to launch a cluster of cards in an arc ahead. Explosions heal nearby allies and Purify them",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "Purifying Pick-Up"
+    }
+  ],
+  [
+    "While Breaking Spades deck is active, trigger Flush Empowerment to fire a full set of cards forward. Cards explode on impact, dealing damage while inflicting Reduced Healing",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "Explosive Trick"
+    }
+  ],
+  [
+    "Gambit charges Magneto's greatsword with kinetic energy. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay",
+    {
+      "sampleHero": "Gambit",
+      "sampleSkill": "ACE OF ACES"
+    }
+  ],
+  [
+    "Shoot a powerful arrow",
+    {
+      "sampleHero": "HAWKEYE",
+      "sampleSkill": "Piercing Arrow"
+    }
+  ],
+  [
+    "Shoot three explosive arrows",
+    {
+      "sampleHero": "HAWKEYE",
+      "sampleSkill": "Blast Arrow"
+    }
+  ],
+  [
+    "Capture Afterimages of enemies in his view. Damage dealt to an Afterimage is transferred to the corresponding enemy",
+    {
+      "sampleHero": "HAWKEYE",
+      "sampleSkill": "Hunter's Sight"
+    }
+  ],
+  [
+    "Unsheathe a katana and slash forward, launching up enemies hit",
+    {
+      "sampleHero": "HAWKEYE",
+      "sampleSkill": "Crescent Slash"
+    }
+  ],
+  [
+    "Shoot a Hypersonic Arrow, dealing two instances of damage to enemies in its path and inflicting them with Slow. This ability can Knock Down flying heroes",
+    {
+      "sampleHero": "HAWKEYE",
+      "sampleSkill": "Hypersonic Arrow"
+    }
+  ],
+  [
+    "Perform a double jump in the direction of movement",
+    {
+      "sampleHero": "HAWKEYE",
+      "sampleSkill": "Skyward Leap"
+    }
+  ],
+  [
+    "Swing a wakizashi to strike frontal enemies, deflecting all incoming projectiles",
+    {
+      "sampleHero": "HAWKEYE",
+      "sampleSkill": "Ronin Slash"
+    }
+  ],
+  [
+    "Aim at an enemy to improve focus, enhancing the damage inflicted by Piercing Arrow",
+    {
+      "sampleHero": "HAWKEYE",
+      "sampleSkill": "Archer's Focus"
+    }
+  ],
+  [
+    "Throw Nightsword thorns",
+    {
+      "sampleHero": "HELA",
+      "sampleSkill": "Nightsword Thorn"
+    }
+  ],
+  [
+    "Fire multiple Nightsword thorns that detonate after a delay",
+    {
+      "sampleHero": "HELA",
+      "sampleSkill": "Piercing Night"
+    }
+  ],
+  [
+    "Soar into the sky and unleash Nastrond Crows from each hand at will",
+    {
+      "sampleHero": "HELA",
+      "sampleSkill": "Goddess of Death"
+    }
+  ],
+  [
+    "Transform into a Nastrond Crow to glide forth, press again to undo the transformation. Gain Bonus Health when the transformation ends",
+    {
+      "sampleHero": "HELA",
+      "sampleSkill": "Astral Flock"
+    }
+  ],
+  [
+    "Project an explosive Hel sphere to Stun nearby enemies.",
+    {
+      "sampleHero": "HELA",
+      "sampleSkill": "Soul Drainer"
+    }
+  ],
+  [
+    "Venom shares his symbiotes with Jeff and Hela.  Hela's Hel Tendrils unleash a symbiotic Hel Sphere. Upon hit, it pulls nearby enemies toward the impact point and links them, slowing enemies that try to escape.",
+    {
+      "sampleHero": "HELA",
+      "sampleSkill": "Hel Tendrils"
+    }
+  ],
+  [
+    "Hold Space to fall slowly",
+    {
+      "sampleHero": "HELA",
+      "sampleSkill": "Hel's Descent"
+    }
+  ],
+  [
+    "Defeating an enemy will generate a Nastrond Crow, exploding after a duration",
+    {
+      "sampleHero": "HELA",
+      "sampleSkill": "Nastrond Crowstorm"
+    }
+  ],
+  [
+    "Hela channels energy of the undead to empower Namor. When Namor strikes with his trident, a spectral water column erupts at the target area, slowing enemies hit. Whenever Hela or Namor assist in a KO, an invulnerable Undead Monstro spawns at the fallen enemy's position, automatically attacking the nearest foe for a short time before vanishing",
+    {
+      "sampleHero": "HELA",
+      "sampleSkill": "DEATH KNELL"
+    }
+  ],
+  [
+    "Fire with a Gamma Ray Gun",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Gamma Ray Gun"
+    }
+  ],
+  [
+    "Swing fists forward to punch enemies",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Heavy Blow"
+    }
+  ],
+  [
+    "Swing fists forward to punch and launch up enemies",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Heavy Blow"
+    }
+  ],
+  [
+    "Emit gamma-ray bursts to inflict damage. Reduce Indestructible Guard cooldown upon hit",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Gamma Burst"
+    }
+  ],
+  [
+    "Emit gamma-ray bursts to inflict damage",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Gamma Burst"
+    }
+  ],
+  [
+    "Transform from Bruce Banner into Hero Hulk",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Puny Banner"
+    }
+  ],
+  [
+    "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "HULK SMASH!"
+    }
+  ],
+  [
+    "Grab and smash the enemy in front",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "World Breaker"
+    }
+  ],
+  [
+    "Launch a Gamma Grenade to inflict damage and Launch Up enemies",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Gamma Grenade"
+    }
+  ],
+  [
+    "Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for HULK SMASH",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Indestructible Guard"
+    }
+  ],
+  [
+    "Emit gamma energy to irradiate enemies and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Radioactive Lockdown"
+    }
+  ],
+  [
+    "Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Gamma Fastball"
+    }
+  ],
+  [
+    "HOLD Space to perform a charged leap that allows Hero Hulk to Knock a flying enemy to the ground",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Incredible Leap"
+    }
+  ],
+  [
+    "HOLD Space to perform a charged leap that allows Monster Hulk to Knock a flying enemy to the ground",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Incredible Leap"
+    }
+  ],
+  [
+    "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage",
+    {
+      "sampleHero": "HULK",
+      "sampleSkill": "Gamma Boost"
+    }
+  ],
+  [
+    "Launch forward a splittable fireball",
+    {
+      "sampleHero": "HUMAN TORCH",
+      "sampleSkill": "Fire Cluster"
+    }
+  ],
+  [
+    "Launch a fireball to create a Flame Field at the targeted area",
+    {
+      "sampleHero": "HUMAN TORCH",
+      "sampleSkill": "Blazing Blast"
+    }
+  ],
+  [
+    "Explode with cosmic fire to deal damage to enemies within range. Upon skill activation, all Flame Fields will transform into Flame Tornadoes, dealing extra damage",
+    {
+      "sampleHero": "HUMAN TORCH",
+      "sampleSkill": "Supernova"
+    }
+  ],
+  [
+    "Enter a state of accelerated ascent",
+    {
+      "sampleHero": "HUMAN TORCH",
+      "sampleSkill": "Plasma Body"
+    }
+  ],
+  [
+    "Form a fire wall between Fire Fields to burn enemies",
+    {
+      "sampleHero": "HUMAN TORCH",
+      "sampleSkill": "Pyro-Prison"
+    }
+  ],
+  [
+    "Dive towards the ground, dealing damage to enemies and detonating any Flame Fields hit",
+    {
+      "sampleHero": "HUMAN TORCH",
+      "sampleSkill": "Flaming Meteor"
+    }
+  ],
+  [
+    "The Invisible Woman taps into her powers, channeling Psionic Might to fortify the entire Fantastic Four team, granting damage resistance. Once activated, they can continually generate Bonus Health, making up for lost Health",
+    {
+      "sampleHero": "HUMAN TORCH",
+      "sampleSkill": "Storm Siblings"
+    }
+  ],
+  [
+    "Human Torch can lift The Thing into the air and slam him down, dealing damage, launching enemies, and creating a zone that disables mobility abilities",
+    {
+      "sampleHero": "HUMAN TORCH",
+      "sampleSkill": "Two In One"
+    }
+  ],
+  [
+    "Human Torch stores Pyrokinetic Energy in Spider-Man's suit, enabling him to unleash an Inferno Blast that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a Burn-Tracer. Detonating these Burn-Tracers inflicts Damage Over Time",
+    {
+      "sampleHero": "HUMAN TORCH",
+      "sampleSkill": "Pyrokinetic Energy"
+    }
+  ],
+  [
+    "Strike the targeted enemy with Jeet Kune Do, reducing the cooldown of Block and Strike with every hit",
+    {
+      "sampleHero": "IRON FIST",
+      "sampleSkill": "Jeet Kune Do"
+    }
+  ],
+  [
+    "Dash forward to pursue the targeted enemy and unleash a flurry of attacks",
+    {
+      "sampleHero": "IRON FIST",
+      "sampleSkill": "Yat Jee Chung Kuen"
+    }
+  ],
+  [
+    "Assume a defensive stance with a boost of Chi to block incoming attacks and gain Damage Reduction, then strike back with Yat Jee Chung Kuen",
+    {
+      "sampleHero": "IRON FIST",
+      "sampleSkill": "Dragon's Defense"
+    }
+  ],
+  [
+    "Become living Chi to boost his speed, damage, and attack range, delivering stronger punches while reducing the cooldown of Dragon's Defense",
+    {
+      "sampleHero": "IRON FIST",
+      "sampleSkill": "Living Chi"
+    }
+  ],
+  [
+    "Dash forward, delivering a flying kick when hitting an enemy or reaching full range, dealing damage to nearby enemies. Damage increases with lower enemy health",
+    {
+      "sampleHero": "IRON FIST",
+      "sampleSkill": "K'un-Lun Kick"
+    }
+  ],
+  [
+    "Cross legs and channel Chi, slowly gaining Bonus Health",
+    {
+      "sampleHero": "IRON FIST",
+      "sampleSkill": "Harmony Recovery"
+    }
+  ],
+  [
+    "Luna Snow grants Winter's Chill to Hawkeye and Iron Fist. When Iron Fist activates Harmony Recovery, he can heal nearby allies with Lunar Chi",
+    {
+      "sampleHero": "IRON FIST",
+      "sampleSkill": "Lunar Chi"
+    }
+  ],
+  [
+    "Perform up to three consecutive jumps while airborne",
+    {
+      "sampleHero": "IRON FIST",
+      "sampleSkill": "Crane Leap"
+    }
+  ],
+  [
+    "Run horizontally along the walls",
+    {
+      "sampleHero": "IRON FIST",
+      "sampleSkill": "Wall Runner"
+    }
+  ],
+  [
+    "Assists in taking down enemies allow him to absorb their Chi and gain Bonus Health",
+    {
+      "sampleHero": "IRON FIST",
+      "sampleSkill": "Chi Absorption"
+    }
+  ],
+  [
+    "Fire nano pulse cannons forward",
+    {
+      "sampleHero": "IRON MAN",
+      "sampleSkill": "Repulsor Blast"
+    }
+  ],
+  [
+    "Fire a devastating pulse cannon in the targeted direction, delivering catastrophic damage to the targeted area upon impact",
+    {
+      "sampleHero": "IRON MAN",
+      "sampleSkill": "Invincible Pulse Cannon"
+    }
+  ],
+  [
+    "Activate Hyper-Velocity state for swift forward flight",
+    {
+      "sampleHero": "IRON MAN",
+      "sampleSkill": "Hyper-Velocity"
+    }
+  ],
+  [
+    "Activate Armor Overdrive state, enhancing the damage of Repulsor Blast and Unibeam",
+    {
+      "sampleHero": "IRON MAN",
+      "sampleSkill": "Armor Overdrive"
+    }
+  ],
+  [
+    "When Hyper-Velocity or Armor Overdrive is used, Iron Man can launch a missile bombardment",
+    {
+      "sampleHero": "IRON MAN",
+      "sampleSkill": "Micro-Missile Barrage"
+    }
+  ],
+  [
+    "When Iron Man, Ultron and Squirrel Girl team up, Ultron's Encephalo-Ray upgrades to Nano-Ray, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the Squirrel Missile ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
+    {
+      "sampleHero": "IRON MAN",
+      "sampleSkill": "NANO TECH"
+    }
+  ],
+  [
+    "Launch a force field orbs that can pierce heroes, flying to maximum distance before returning to Invisible Woman; damaging enemies and healing teammates",
+    {
+      "sampleHero": "Invisible Woman",
+      "sampleSkill": "Orb Projection"
+    }
+  ],
+  [
+    "Generate a force shield in front of a selected ally or in front of you. The shield can block damage and provide Healing Over Time to nearby allies. Enemies that pass through the shield are slowed",
+    {
+      "sampleHero": "Invisible Woman",
+      "sampleSkill": "Guardian Shield"
+    }
+  ],
+  [
+    "Manifest an unseen force field within a chosen area, rendering allies inside undetectable by enemies and provide Healing Over Time. Enemies that pass through the field are slowed",
+    {
+      "sampleHero": "Invisible Woman",
+      "sampleSkill": "Invisible Boundary"
+    }
+  ],
+  [
+    "Gather psionic energy and then cast it, upon impact or pressing the Ability key again, it erupts into a psionic vortex, continuously drawing in enemies and causing damage",
+    {
+      "sampleHero": "Invisible Woman",
+      "sampleSkill": "Psionic Vortex"
+    }
+  ],
+  [
+    "Manipulate psionic energy to push or pull enemies in front of her",
+    {
+      "sampleHero": "Invisible Woman",
+      "sampleSkill": "Force Physics"
+    }
+  ],
+  [
+    "Generate a force field at your feet, stepping on it propels her into the Invisible state",
+    {
+      "sampleHero": "Invisible Woman",
+      "sampleSkill": "Veiled Step"
+    }
+  ],
+  [
+    "Enter Invisible state some time after disengaging from combat and grant yourself Healing Over Time",
+    {
+      "sampleHero": "Invisible Woman",
+      "sampleSkill": "Covert Advance"
+    }
+  ],
+  [
+    "The Invisible Woman taps into her powers, channeling Psionic Might to fortify Mr.Fantastic. This formidable force bolsters Mr.Fantastic, granting damage resistance. Once activated, they can continually generate Bonus Health, making up for lost Health",
+    {
+      "sampleHero": "Invisible Woman",
+      "sampleSkill": "Fantasti-Force"
+    }
+  ],
+  [
+    "Unleash a healing splash",
+    {
+      "sampleHero": "JEFF THE LAND SHARK",
+      "sampleSkill": "Joyful Splash"
+    }
+  ],
+  [
+    "Launch a high-speed water sphere that bursts upon impact, dealing damage to enemies within range",
+    {
+      "sampleHero": "JEFF THE LAND SHARK",
+      "sampleSkill": "Aqua Burst"
+    }
+  ],
+  [
+    "Deep dive into the scene and resurface to swallow both enemies and allies within range, activating Hide and Seek for a brief duration before ejecting the swallowed heroes forward",
+    {
+      "sampleHero": "JEFF THE LAND SHARK",
+      "sampleSkill": "It's Jeff!"
+    }
+  ],
+  [
+    "Dive into the scene with only his dorsal fin exposed, granting himself a Movement Boost. Jeff can heal while submerged and gains the wall-crawl ability",
+    {
+      "sampleHero": "JEFF THE LAND SHARK",
+      "sampleSkill": "Hide and Seek"
+    }
+  ],
+  [
+    "Spit a bubble that heals the ally who collects it, granting them Healing Boost and Movement Boost while also launching up nearby enemies",
+    {
+      "sampleHero": "JEFF THE LAND SHARK",
+      "sampleSkill": "Healing Bubble"
+    }
+  ],
+  [
+    "Jeff the Land Shark and Rocket Raccoon can ride on Groot's shoulders, receiving Damage Reduction",
+    {
+      "sampleHero": "JEFF THE LAND SHARK",
+      "sampleSkill": "Jeff's Cuddle Buddy"
+    }
+  ],
+  [
+    "Venom shares his symbiotes with Jeff and Hela. Jeff's Guardian of the Deep links with nearby allies, providing continuous healing. When the effect ends, it releases a powerful healing burst, converting any excess into Bonus Health.",
+    {
+      "sampleHero": "JEFF THE LAND SHARK",
+      "sampleSkill": "GUARDIAN OF THE DEEP"
+    }
+  ],
+  [
+    "When Storm activates Omega Hurricane and Jeff the Land Shark's It's Jeff is ready, they can unleash a powerful Team-Up Ability. During this period, Storm's Omega Hurricane merges with Jeff to form a Jeff-nado",
+    {
+      "sampleHero": "JEFF THE LAND SHARK",
+      "sampleSkill": "IT'S JEFF-NADO!"
+    }
+  ],
+  [
+    "Reduce damage taken from critical hits",
+    {
+      "sampleHero": "JEFF THE LAND SHARK",
+      "sampleSkill": "Oblivious Cuteness"
+    }
+  ],
+  [
+    "Fire lumikinetic explosive light blasts forward to heal friends and damage foes. Triggering a Sparkle Mark briefly boosts Attack Speed and enables firing without consuming energy",
+    {
+      "sampleHero": "Jubilation Lee",
+      "sampleSkill": "Energy Plasmoids"
+    }
+  ],
+  [
+    "Launch a tracking orb of vampiric energy that damages enemies and heals allies in its radius. Striking the orb or hitting targets near it charges it up, increasing both its size and healing power. Press F to manually recall it.",
+    {
+      "sampleHero": "Jubilation Lee",
+      "sampleSkill": "Blooming Ball"
+    }
+  ],
+  [
+    "Charge up and unleash a massive ring of outward-flying firework clusters, Knocking Back nearby enemies. These clusters then orbit you, creating a field that damages enemies and heals allies. Expanding the cluster radius outward will Launch Up struck enemies",
+    {
+      "sampleHero": "Jubilation Lee",
+      "sampleSkill": "Firework Finale"
+    }
+  ],
+  [
+    "Wrap yourself in vampiric energy to gain a Speed Boost. While active, jump height and Attack Speed are increased, and Energy Blasts can be fired at no cost",
+    {
+      "sampleHero": "Jubilation Lee",
+      "sampleSkill": "Sparking Sprint"
+    }
+  ],
+  [
+    "Detonate a firework energy orb, dealing damage to enemies in the area and applying a Blind effect. The energy can also be transferred to an ally, granting them healing and a Speed Boost",
+    {
+      "sampleHero": "Jubilation Lee",
+      "sampleSkill": "Dazzling Detonation"
+    }
+  ],
+  [
+    "Hitting targets with Dazzling Detonation and  Firework Finale applies a Sparkle Mark. Energy Plasmoids can detonate marks, granting allies a Healing Boost and Bonus Health, while dealing burst damage to enemies",
+    {
+      "sampleHero": "Jubilation Lee",
+      "sampleSkill": "Sparkle Mark"
+    }
+  ],
+  [
+    "Fire Mystical Missiles to heal allies or deal damage to enemies. Direct hits on allies provide extra healing",
+    {
+      "sampleHero": "LOKI",
+      "sampleSkill": "Mystical Missile"
+    }
+  ],
+  [
+    "Become Invisible and conjure an Illusion to deceive enemies",
+    {
+      "sampleHero": "LOKI",
+      "sampleSkill": "Deception"
+    }
+  ],
+  [
+    "Shapeshift into a targeted ally or enemy hero and use all their abilities except any of their Team-Up Abilities",
+    {
+      "sampleHero": "LOKI",
+      "sampleSkill": "God of Mischief"
+    }
+  ],
+  [
+    "Use Rune Stones to create a magical field that provides allies Healing and converts incoming damage into further healing",
+    {
+      "sampleHero": "LOKI",
+      "sampleSkill": "Regeneration Domain"
+    }
+  ],
+  [
+    "Project an Illusion that can cast some of Loki's abilities",
+    {
+      "sampleHero": "LOKI",
+      "sampleSkill": "Doppelganger"
+    }
+  ],
+  [
+    "Swap with the selected Illusion",
+    {
+      "sampleHero": "LOKI",
+      "sampleSkill": "Devious Exchange"
+    }
+  ],
+  [
+    "Pull out a dagger to stab enemies, dealing extra damage when attacking an enemy from behind",
+    {
+      "sampleHero": "LOKI",
+      "sampleSkill": "Backstab"
+    }
+  ],
+  [
+    "Fire ice shots that damage enemies or heal allies",
+    {
+      "sampleHero": "LUNA SNOW",
+      "sampleSkill": "Light & Dark Ice"
+    }
+  ],
+  [
+    "Cast a clump of ice to Freeze the hit enemy and restore Health",
+    {
+      "sampleHero": "LUNA SNOW",
+      "sampleSkill": "Absolute Zero"
+    }
+  ],
+  [
+    "Take center stage and start dancing! Press to toggle between two performances: Heal allies or grant them Damage Boost",
+    {
+      "sampleHero": "LUNA SNOW",
+      "sampleSkill": "Fate of Both Worlds"
+    }
+  ],
+  [
+    "Fire ice shards for a short duration, damaging enemies or healing allies while restoring her own Health",
+    {
+      "sampleHero": "LUNA SNOW",
+      "sampleSkill": "Ice Arts"
+    }
+  ],
+  [
+    "Attach Idol Aura to an ally. Allies with Idol Aura also restore Health when Luna Snow is healing others",
+    {
+      "sampleHero": "LUNA SNOW",
+      "sampleSkill": "Share the Stage"
+    }
+  ],
+  [
+    "Boost Healing. Gain extra healing when healing others",
+    {
+      "sampleHero": "LUNA SNOW",
+      "sampleSkill": "Number One Idol"
+    }
+  ],
+  [
+    "White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of speed and fire it forward, healing allies in its path while applying Charm to enemies",
+    {
+      "sampleHero": "LUNA SNOW",
+      "sampleSkill": "SPIRIT FOX ACCORD"
+    }
+  ],
+  [
+    "Automatically restore Health when casting Ice Arts or Absolute Zero",
+    {
+      "sampleHero": "LUNA SNOW",
+      "sampleSkill": "Cryo Heart"
+    }
+  ],
+  [
+    "Keep moving forward to start ice skating and enable higher jumps",
+    {
+      "sampleHero": "LUNA SNOW",
+      "sampleSkill": "Smooth Skate"
+    }
+  ],
+  [
+    "Slash forward with the Soulsword",
+    {
+      "sampleHero": "MAGIK",
+      "sampleSkill": "Soulsword"
+    }
+  ],
+  [
+    "Spin while swinging the Soulsword after exiting a Stepping Disc",
+    {
+      "sampleHero": "MAGIK",
+      "sampleSkill": "Eldritch Whirl"
+    }
+  ],
+  [
+    "Strike forward an air slash",
+    {
+      "sampleHero": "MAGIK",
+      "sampleSkill": "Magik Slash"
+    }
+  ],
+  [
+    "Summon a Limbo demon that attacks enemies after exiting a Stepping Disc",
+    {
+      "sampleHero": "MAGIK",
+      "sampleSkill": "Demon's Rage"
+    }
+  ],
+  [
+    "Transform into Darkchild, gaining enhancements to all her abilities",
+    {
+      "sampleHero": "MAGIK",
+      "sampleSkill": "Darkchild"
+    }
+  ],
+  [
+    "Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting",
+    {
+      "sampleHero": "MAGIK",
+      "sampleSkill": "Stepping Discs"
+    }
+  ],
+  [
+    "Dash forward and launch up enemies",
+    {
+      "sampleHero": "MAGIK",
+      "sampleSkill": "Umbral Incursion"
+    }
+  ],
+  [
+    "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's Chthonian Burst is replaced with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a Chain of Cyttorak that links two enemies and slows them; the farther they are apart, the greater the Slow effect inflicted during the link",
+    {
+      "sampleHero": "MAGIK",
+      "sampleSkill": "CHAIN OF CYTTORAK"
+    }
+  ],
+  [
+    "Convert damage inflicted on enemies into Bonus Health to herself",
+    {
+      "sampleHero": "MAGIK",
+      "sampleSkill": "Limbo's Might"
+    }
+  ],
+  [
+    "Fire a volley of magnetic orbs forward. The range of the resulting explosion increases based on distance flown",
+    {
+      "sampleHero": "MAGNETO",
+      "sampleSkill": "Iron Volley"
+    }
+  ],
+  [
+    "Convert the iron rings on Magneto's back into a Mag-Cannon and launch a metallic mass forward. Higher stacks of rings increase damage, and full stacks knock back enemies",
+    {
+      "sampleHero": "MAGNETO",
+      "sampleSkill": "Mag-Cannon"
+    }
+  ],
+  [
+    "Draw in all materials around to forge an iron meteor that deals massive damage upon impact. Absorbing enemy projectiles can enhance the meteor's power, yet overloading will cause it to self-destruct",
+    {
+      "sampleHero": "MAGNETO",
+      "sampleSkill": "Meteor M"
+    }
+  ],
+  [
+    "Change the magnetic field around to form a metallic curtain, blocking all incoming projectiles",
+    {
+      "sampleHero": "MAGNETO",
+      "sampleSkill": "Metallic Curtain"
+    }
+  ],
+  [
+    "Conjure a metal shield around a chosen ally. Damage taken will transform into rings on Magneto's back",
+    {
+      "sampleHero": "MAGNETO",
+      "sampleSkill": "Metal Bulwark"
+    }
+  ],
+  [
+    "Conjure an iron shield around himself. Damage taken will transform into rings on Magneto's back",
+    {
+      "sampleHero": "MAGNETO",
+      "sampleSkill": "Iron Bulwark"
+    }
+  ],
+  [
+    "Fire an energy thorn and regain one Life Orb after a critical hit.",
+    {
+      "sampleHero": "MANTIS",
+      "sampleSkill": "Life Energy Blast"
+    }
+  ],
+  [
+    "Consume Life Orbs to grant allies Healing Over Time",
+    {
+      "sampleHero": "MANTIS",
+      "sampleSkill": "Healing Flower"
+    }
+  ],
+  [
+    "Release energy around her while moving, providing Healing Over Time and Movement Boosts for surrounding allies. Excess healing converts to Bonus Health",
+    {
+      "sampleHero": "MANTIS",
+      "sampleSkill": "Soul Resurgence"
+    }
+  ],
+  [
+    "Throw a spore to Sedate the nearest enemy",
+    {
+      "sampleHero": "MANTIS",
+      "sampleSkill": "Spore Slumber"
+    }
+  ],
+  [
+    "Consume Life Orbs to grant allies a Damage Boost",
+    {
+      "sampleHero": "MANTIS",
+      "sampleSkill": "Allied Inspiration"
+    }
+  ],
+  [
+    "Consume Life Orbs to grant herself a Damage Boost",
+    {
+      "sampleHero": "MANTIS",
+      "sampleSkill": "Natural Anger"
+    }
+  ],
+  [
+    "Receive a Movement Boost when not injured and Healing Over Time when consuming Life Orbs",
+    {
+      "sampleHero": "MANTIS",
+      "sampleSkill": "Nature's Favor"
+    }
+  ],
+  [
+    "Unleash Crescent Darts forward that can bounce between enemies and Ankhs, dealing damage to enemies",
+    {
+      "sampleHero": "MOON KNIGHT",
+      "sampleSkill": "Crescent Dart"
+    }
+  ],
+  [
+    "Launch forward a Moon Blade that can bounce between enemies and Ankhs, dealing damage to enemies",
+    {
+      "sampleHero": "MOON KNIGHT",
+      "sampleSkill": "Moon Blade"
+    }
+  ],
+  [
+    "Open a portal that allows Khonshu to bombard enemies with his talons",
+    {
+      "sampleHero": "MOON KNIGHT",
+      "sampleSkill": "Hand of Khonshu"
+    }
+  ],
+  [
+    "Hold SHIFT to glide",
+    {
+      "sampleHero": "MOON KNIGHT",
+      "sampleSkill": "Night Glider"
+    }
+  ],
+  [
+    "Fire an Ankh to launch up enemies within its radius towards the center",
+    {
+      "sampleHero": "MOON KNIGHT",
+      "sampleSkill": "Ancient Ankh"
+    }
+  ],
+  [
+    "Launch a frontal grappling hook that pulls Moon Knight towards it",
+    {
+      "sampleHero": "MOON KNIGHT",
+      "sampleSkill": "Moonlight Hook"
+    }
+  ],
+  [
+    "Perform a combo with his truncheon, and the third strike will launch up the enemy hit slightly",
+    {
+      "sampleHero": "MOON KNIGHT",
+      "sampleSkill": "Triple Eclipse"
+    }
+  ],
+  [
+    "Stretch out a forward punch to attack enemies",
+    {
+      "sampleHero": "Mister Fantastic",
+      "sampleSkill": "Stretch Punch"
+    }
+  ],
+  [
+    "Extend arms forward to entangle an enemy, then press Primary Attack to pull the hit enemy toward him, or select and yank another enemy, Knocking Them Airborne against each other. Hit targets are Immobilized",
+    {
+      "sampleHero": "Mister Fantastic",
+      "sampleSkill": "Distended Grip"
+    }
+  ],
+  [
+    "Leap upward and smash the ground, slowing enemies within range. Mister Fantastic can leap again upon landing a hit",
+    {
+      "sampleHero": "Mister Fantastic",
+      "sampleSkill": "Brainiac Bounce"
+    }
+  ],
+  [
+    "Stretch the body to absorb damage before launching stored damage in the targeted direction",
+    {
+      "sampleHero": "Mister Fantastic",
+      "sampleSkill": "Reflexive Rubber"
+    }
+  ],
+  [
+    "Gain a Shield, select a target and dash towards them, dealing damage to enemies or granting a Shield to allies",
+    {
+      "sampleHero": "Mister Fantastic",
+      "sampleSkill": "Flexible Elongation"
+    }
+  ],
+  [
+    "Rocket Raccoon upgrades his B.R.B. for Star-Lord and Mister Fantastic. Star-Lord gets an Astral Jump device, allowing him to teleport to its deployment point from anywhere on the map. Mister Fantastic receives a Fantastic Amplifier, removing his Elasticity limit and letting him actively enter Inflation state",
+    {
+      "sampleHero": "Mister Fantastic",
+      "sampleSkill": "FANTASTIC AMPLIFIER"
+    }
+  ],
+  [
+    "Using abilities generates Elasticity, boosting attack power. Reaching full Elasticity triggers an Inflated state that increases Maximum Health, further boosts damage, and enables the use of Reflexive Rubber",
+    {
+      "sampleHero": "Mister Fantastic",
+      "sampleSkill": "Elastic Strength"
+    }
+  ],
+  [
+    "Throw the trident forward, reducing Aquatic Dominion's cooldown upon enemy impact. Critical hits cause Monstro Spawn to enter a berserk state, gaining increased Attack Speed",
+    {
+      "sampleHero": "NAMOR",
+      "sampleSkill": "Trident of Neptune"
+    }
+  ],
+  [
+    "Launch the trident forward to damage nearby enemies, then direct all Monstro Spawn to perform an enhanced attack on the nearest hit enemy. When the trident hits an enemy, Monstro Spawn to enter a berserk state, gaining increased Attack Speed",
+    {
+      "sampleHero": "NAMOR",
+      "sampleSkill": "Wrath of the Seven Seas"
+    }
+  ],
+  [
+    "Summon Giganto to leap atop enemies within range, disabling their mobility abilities",
+    {
+      "sampleHero": "NAMOR",
+      "sampleSkill": "Horn of Proteus"
+    }
+  ],
+  [
+    "Summon a protective barrier while flying upwards",
+    {
+      "sampleHero": "NAMOR",
+      "sampleSkill": "Blessing of the Deep"
+    }
+  ],
+  [
+    "Summon a Monstro Spawn that can autonomously attack enemies",
+    {
+      "sampleHero": "NAMOR",
+      "sampleSkill": "Aquatic Dominion"
+    }
+  ],
+  [
+    "Launch forward a Cyber-Web Cluster",
+    {
+      "sampleHero": "PENI PARKER",
+      "sampleSkill": "Cyber-Web Cluster"
+    }
+  ],
+  [
+    "Cast futuristic webbing that Immobilizes enemies or creates a Cyber-Web. While in the Cyber-Web, Peni and allies gain Healing Over Time and a Movement Boost. Excess healing converts into Bonus Health",
+    {
+      "sampleHero": "PENI PARKER",
+      "sampleSkill": "Cyber-Web Snare"
+    }
+  ],
+  [
+    "Enhance the SP//dr suit, launching up enemies in its path and deploying Arachno-Mines, Spider-Drones, and Cyber-Webs repeatedly",
+    {
+      "sampleHero": "PENI PARKER",
+      "sampleSkill": "Spider-Sweeper"
+    }
+  ],
+  [
+    "Generate a Bionic Spider-Nest at a targeted area, periodically spawning Spider-Drones and creating Cyber-Webs. While in the Cyber-Web, Peni and allies gain Healing Over Time and a Movement Boost. Excess healing converts into Bonus Health. Spider-Drones inflict a Slow effect on hit, which can stack and refresh its effect period with multiple hits",
+    {
+      "sampleHero": "PENI PARKER",
+      "sampleSkill": "Bionic Spider-Nest"
+    }
+  ],
+  [
+    "Deploy Arachno-Mines that can be concealed within the confines of a Cyber-Web",
+    {
+      "sampleHero": "PENI PARKER",
+      "sampleSkill": "Arachno-Mine"
+    }
+  ],
+  [
+    "Shoot a web strand that links to the targeted area or Cyber-Web. If stretched too far, it will trigger a pullback",
+    {
+      "sampleHero": "PENI PARKER",
+      "sampleSkill": "Cyber-Bond"
+    }
+  ],
+  [
+    "Enhanced by Rocket Raccoon, Peni Parker’s Bionic Spider-Nest regularly generates strengthened armor packs. Each armor pack grants bonus health to the hero who picks up the pack. Peni Parker can deploy Bionic Spider-Nest and Armored Spider-Nest at the same time",
+    {
+      "sampleHero": "PENI PARKER",
+      "sampleSkill": "ARMORIZED SPIDER-NEST"
+    }
+  ],
+  [
+    "HOLD Jump to crawl on vertical surfaces",
+    {
+      "sampleHero": "PENI PARKER",
+      "sampleSkill": "Wall Crawl"
+    }
+  ],
+  [
+    "Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging a Web-Cluster shot and granting Bonus Health",
+    {
+      "sampleHero": "PENI PARKER",
+      "sampleSkill": "Cyber-Spiders"
+    }
+  ],
+  [
+    "Launch a fiery projectile forward, applying 1 Spark to enemies hit. Critical hits apply 2 Sparks. At 3 Sparks, Phoenix triggers a fiery explosion that applies 1 Spark to enemies around and Healing Over Time to self. Sparks from explosions will not stack within a brief period",
+    {
+      "sampleHero": "PHOENIX",
+      "sampleSkill": "Cosmic Flames"
+    }
+  ],
+  [
+    "Mark a targeted area with psionic energy, followed by a series of fiery explosions. The first blast Stuns enemies, while the subsequent two explosions inflict Slow. Applies 1 Spark to enemies hit",
+    {
+      "sampleHero": "PHOENIX",
+      "sampleSkill": "Telekinesis Burst"
+    }
+  ],
+  [
+    "Soar into the sky with the Phoenix and crash down onto a selected area, dealing devastating damage to enemies while creating a shockwave that destroys enemy summons, shields, and any Bonus Health. Enemies hit are applied with 1 Spark",
+    {
+      "sampleHero": "PHOENIX",
+      "sampleSkill": "Endsong Inferno"
+    }
+  ],
+  [
+    "Leave behind an illusion and instantly teleport in the desired direction, followed by detonating the illusion. Enemies hit are applied with 1 Spark",
+    {
+      "sampleHero": "PHOENIX",
+      "sampleSkill": "Telepathic Illusion"
+    }
+  ],
+  [
+    "Merge with the Phoenix, entering a state of free flight. Gain a Movement Boost",
+    {
+      "sampleHero": "PHOENIX",
+      "sampleSkill": "Dark Ascent"
+    }
+  ],
+  [
+    "Jean Grey imbues Wolverine with the awe-inspiring Phoenix Force",
+    {
+      "sampleHero": "PHOENIX",
+      "sampleSkill": "Mind's Grace"
+    }
+  ],
+  [
+    "Unleash bolts with psionic crossbows to damage enemies and reduce the cooldowns of all her abilities",
+    {
+      "sampleHero": "PSYLOCKE",
+      "sampleSkill": "Psionic Crossbow"
+    }
+  ],
+  [
+    "Launch a volley of psionic shurikens that stick to enemies, dealing damage and granting herself Bonus Health. Press again to recall the shurikens",
+    {
+      "sampleHero": "PSYLOCKE",
+      "sampleSkill": "Wing Shurikens"
+    }
+  ],
+  [
+    "Cloak & Dagger share light and dark energy with Hawkeye and Psylocke. When Hawkeye uses Crescent Slash, he also releases a blade wave that heals and boosts healing for teammates, while inflicting damage and Vulnerability on enemies. Psylocke can launch a Light Boomerang Dart that heals allies, harms enemies, and provides her with temporary healing upon return. She can also unleash a ring of Dark Darts that slow enemies while she briefly enters a Phased state",
+    {
+      "sampleHero": "PSYLOCKE",
+      "sampleSkill": "LIGHT & DARK DARTS"
+    }
+  ],
+  [
+    "Slash nearby enemies with a psionic katana, dealing massive damage",
+    {
+      "sampleHero": "PSYLOCKE",
+      "sampleSkill": "Dance of the Butterfly"
+    }
+  ],
+  [
+    "Dash forward and slice through enemies along the path with psionic blades",
+    {
+      "sampleHero": "PSYLOCKE",
+      "sampleSkill": "Psi-Blade Dash"
+    }
+  ],
+  [
+    "Enter stealth and gain a Movement Boost",
+    {
+      "sampleHero": "PSYLOCKE",
+      "sampleSkill": "Psychic Stealth"
+    }
+  ],
+  [
+    "Fire energy projectiles that deal damage",
+    {
+      "sampleHero": "ROCKET RACCOON",
+      "sampleSkill": "Bombard Mode"
+    }
+  ],
+  [
+    "Shoot bouncing spheres to heal allies",
+    {
+      "sampleHero": "ROCKET RACCOON",
+      "sampleSkill": "Repair Mode"
+    }
+  ],
+  [
+    "Deploy a Cosmic Yarn Amplifier that grants allies a Damage Boost",
+    {
+      "sampleHero": "ROCKET RACCOON",
+      "sampleSkill": "C.Y.A."
+    }
+  ],
+  [
+    "Dash forward",
+    {
+      "sampleHero": "ROCKET RACCOON",
+      "sampleSkill": "Jetpack Dash"
+    }
+  ],
+  [
+    "Deploy a Battle Rebirth Beacon that revives a fallen ally and periodically produces armor packs and rocket jet packs",
+    {
+      "sampleHero": "ROCKET RACCOON",
+      "sampleSkill": "B.R.B."
+    }
+  ],
+  [
+    "Hold Space to run on a wall",
+    {
+      "sampleHero": "ROCKET RACCOON",
+      "sampleSkill": "Wild Crawl"
+    }
+  ],
+  [
+    "Punch forward with both fists",
+    {
+      "sampleHero": "Rogue",
+      "sampleSkill": "Power Surge Punch"
+    }
+  ],
+  [
+    "While in Defensive Stance, dash forward and slam enemies in front, dealing area damage",
+    {
+      "sampleHero": "Rogue",
+      "sampleSkill": "Southern Brawl"
+    }
+  ],
+  [
+    "Absorb nearby projectiles and reduce incoming damage; absorbed damage powers up your next Southern Brawl",
+    {
+      "sampleHero": "Rogue",
+      "sampleSkill": "Defensive Stance"
+    }
+  ],
+  [
+    "Continuously absorb Ultimate Ability Energy from nearby enemies and steal stats based on their role",
+    {
+      "sampleHero": "Rogue",
+      "sampleSkill": "Heartbreaker"
+    }
+  ],
+  [
+    "Dash forward. Press again to unleash a burst of Chronovium Power, dealing continuous damage to nearby foes; after a delay, the energy retracts, pulling all enemies towards Rogue",
+    {
+      "sampleHero": "Rogue",
+      "sampleSkill": "Fatal Attraction"
+    }
+  ],
+  [
+    "Dash forward and launch the enemy, entering flight; activate again to Knock Down nearby enemies. Your next two Power Surge Punch attacks become ranged, piercing enemies and granting Bonus Health",
+    {
+      "sampleHero": "Rogue",
+      "sampleSkill": "Chrono Kick Combo"
+    }
+  ],
+  [
+    "Dash forward to knock down your target and absorb their energy; after absorbing, replace Ability Absorption with one of their abilities or refresh Fatal Attraction. Also absorb Health and stats based on their role",
+    {
+      "sampleHero": "Rogue",
+      "sampleSkill": "Ability Absorption"
+    }
+  ],
+  [
+    "Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies",
+    {
+      "sampleHero": "Rogue",
+      "sampleSkill": "HEARTS AS ONE"
+    }
+  ],
+  [
+    "Unleash Chaos Magic on enemies to deal damage and restore Chaos Energy",
+    {
+      "sampleHero": "SCARLET WITCH",
+      "sampleSkill": "Chaos Control"
+    }
+  ],
+  [
+    "Consume Chaos Energy to fire explosive magic missiles, damaging enemies",
+    {
+      "sampleHero": "SCARLET WITCH",
+      "sampleSkill": "Chthonian Burst"
+    }
+  ],
+  [
+    "Engage in free-flight while charging energy, then unleash it to deal massive damage",
+    {
+      "sampleHero": "SCARLET WITCH",
+      "sampleSkill": "Reality Erasure"
+    }
+  ],
+  [
+    "Enter the Phased state for free-flight. Press again to exit early",
+    {
+      "sampleHero": "SCARLET WITCH",
+      "sampleSkill": "Mystic Projection"
+    }
+  ],
+  [
+    "Land a hit on a target or the scene, or press E to generate a Force Field that periodically Stuns enemies within range",
+    {
+      "sampleHero": "SCARLET WITCH",
+      "sampleSkill": "Dark Seal"
+    }
+  ],
+  [
+    "Swing fists forward to strike, dealing extra damage to the enemy with a Spider-Tracer",
+    {
+      "sampleHero": "SPIDER-MAN",
+      "sampleSkill": "Spider-Power"
+    }
+  ],
+  [
+    "Shoot a Web-Cluster that deals damage and attaches a Spider-Tracer to the hit enemy",
+    {
+      "sampleHero": "SPIDER-MAN",
+      "sampleSkill": "Web-Cluster"
+    }
+  ],
+  [
+    "Launch Web-Clusters all around to damage and Stun enemies",
+    {
+      "sampleHero": "SPIDER-MAN",
+      "sampleSkill": "Spectacular Spin"
+    }
+  ],
+  [
+    "Shoot a strand of webbing to swing.",
+    {
+      "sampleHero": "SPIDER-MAN",
+      "sampleSkill": "Web-Swing"
+    }
+  ],
+  [
+    "Shoot webbing to reel in the hit enemy. If the enemy is tagged with a Spider-Tracer, Spider-Man will get pulled to them instead",
+    {
+      "sampleHero": "SPIDER-MAN",
+      "sampleSkill": "Get Over Here!"
+    }
+  ],
+  [
+    "Launch an enemy upward, dealing extra damage to the enemy with a Spider-Tracer",
+    {
+      "sampleHero": "SPIDER-MAN",
+      "sampleSkill": "Amazing Combo"
+    }
+  ],
+  [
+    "Cyber-Spiders Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging a Web-Cluster shot and granting Bonus Health",
+    {
+      "sampleHero": "SPIDER-MAN",
+      "sampleSkill": "Sticky Spider-Bomb"
+    }
+  ],
+  [
+    "Press Space to wall crawl, and while crawling, left-click to sprint",
+    {
+      "sampleHero": "SPIDER-MAN",
+      "sampleSkill": "Wall Crawl"
+    }
+  ],
+  [
+    "Give a warning of enemies that have been around",
+    {
+      "sampleHero": "SPIDER-MAN",
+      "sampleSkill": "Spider-Sense"
+    }
+  ],
+  [
+    "Shoot bouncing Burst Acorns",
+    {
+      "sampleHero": "SQUIRREL GIRL",
+      "sampleSkill": "Burst Acorn"
+    }
+  ],
+  [
+    "Launch an acorn to unleash Squirrel Guards, Imprisoning the first hit enemy",
+    {
+      "sampleHero": "SQUIRREL GIRL",
+      "sampleSkill": "Squirrel Blockade"
+    }
+  ],
+  [
+    "Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures",
+    {
+      "sampleHero": "SQUIRREL GIRL",
+      "sampleSkill": "Unbeatable Squirrel Tsunami"
+    }
+  ],
+  [
+    "Rocket upwards with a bounce of her tail",
+    {
+      "sampleHero": "SQUIRREL GIRL",
+      "sampleSkill": "Tail Bounce"
+    }
+  ],
+  [
+    "Reload Burst Acorns and can use an ability without cooldown once in a short duration",
+    {
+      "sampleHero": "SQUIRREL GIRL",
+      "sampleSkill": "Mammal Bond"
+    }
+  ],
+  [
+    "Shoot enemies with dual Element Guns",
+    {
+      "sampleHero": "STAR-LORD",
+      "sampleSkill": "Element Guns"
+    }
+  ],
+  [
+    "Dodge in the direction of movement and swiftly reload",
+    {
+      "sampleHero": "STAR-LORD",
+      "sampleSkill": "Stellar Shift"
+    }
+  ],
+  [
+    "Engage in free-flight and lock onto enemies in sight",
+    {
+      "sampleHero": "STAR-LORD",
+      "sampleSkill": "Galactic Legend"
+    }
+  ],
+  [
+    "Consume energy to gain a Movement Boost and soar forward",
+    {
+      "sampleHero": "STAR-LORD",
+      "sampleSkill": "Rocket Propulsion"
+    }
+  ],
+  [
+    "Fire a frenzy of shots, causing damage to enemies within range.",
+    {
+      "sampleHero": "STAR-LORD",
+      "sampleSkill": "Blaster Barrage"
+    }
+  ],
+  [
+    "Star-Lord gets a teleport to its deployment point from anywhere on the map",
+    {
+      "sampleHero": "STAR-LORD",
+      "sampleSkill": "Astral Jump"
+    }
+  ],
+  [
+    "Launch forward-piercing Wind Blades",
+    {
+      "sampleHero": "STORM",
+      "sampleSkill": "Wind Blade"
+    }
+  ],
+  [
+    "Unleash a lightning bolt forward",
+    {
+      "sampleHero": "STORM",
+      "sampleSkill": "Bolt Rush"
+    }
+  ],
+  [
+    "Transform into a hurricane to draw in nearby enemies and deal damage",
+    {
+      "sampleHero": "STORM",
+      "sampleSkill": "Omega Hurricane"
+    }
+  ],
+  [
+    "Switch the weather to empower allies: Tornado grants a Movement Boost; Thunder grants a Damage Boost",
+    {
+      "sampleHero": "STORM",
+      "sampleSkill": "Weather Control"
+    }
+  ],
+  [
+    "Channel the power of the weather to empower Storm: Tornado grants a Movement Boost and inflicts Slow on enemies; Thunder grants a Damage Boost and summons lightning to inflict damage",
+    {
+      "sampleHero": "STORM",
+      "sampleSkill": "Goddess Boost"
+    }
+  ],
+  [
+    "Fire at enemies with Adjudication, his Automatic Rifle",
+    {
+      "sampleHero": "THE PUNISHER",
+      "sampleSkill": "Adjudication"
+    }
+  ],
+  [
+    "Fire at enemies with Deliverance, his Shotgun",
+    {
+      "sampleHero": "THE PUNISHER",
+      "sampleSkill": "Deliverance"
+    }
+  ],
+  [
+    "Throw a smoke grenade forward to obscure enemy vision and leap backward",
+    {
+      "sampleHero": "THE PUNISHER",
+      "sampleSkill": "Scourge Grenade"
+    }
+  ],
+  [
+    "Unleash two Gatling guns and missiles to attack enemies",
+    {
+      "sampleHero": "THE PUNISHER",
+      "sampleSkill": "Final Judgement"
+    }
+  ],
+  [
+    "Launch a hook to generate a cable that enables the Punisher to move rapidly by pressing F",
+    {
+      "sampleHero": "THE PUNISHER",
+      "sampleSkill": "Vantage Connection"
+    }
+  ],
+  [
+    "Deploy a Culling Turret that grounds Punisher and blocks damage from the front while dealing massive damage",
+    {
+      "sampleHero": "THE PUNISHER",
+      "sampleSkill": "Culling Turret"
+    }
+  ],
+  [
+    "Retain vision of enemies that disappear from view for a short duration",
+    {
+      "sampleHero": "THE PUNISHER",
+      "sampleSkill": "Warrior's Gaze"
+    }
+  ],
+  [
+    "The Punisher upgrades Black Widow's arsenal, adding a Pulse Mode to her Red Room Rifle. While the ability is active, using Straight Shooter fires a pulse beam that deals piercing damage",
+    {
+      "sampleHero": "THE PUNISHER",
+      "sampleSkill": "CUTTING-EDGE TECH"
+    }
+  ],
+  [
+    "Rapidly punch forward",
+    {
+      "sampleHero": "THE THING",
+      "sampleSkill": "Rocky Jab"
+    }
+  ],
+  [
+    "Deliver a devastating Heavy Blow. Can Knock Down flying enemies.",
+    {
+      "sampleHero": "THE THING",
+      "sampleSkill": "Stone Haymaker"
+    }
+  ],
+  [
+    "Use immense power to launch up all enemies in front of the Thing into the air",
+    {
+      "sampleHero": "THE THING",
+      "sampleSkill": "Clobberin' Time"
+    }
+  ],
+  [
+    "Continuously charge forward, launching up enemies and leaving behind a zone at the final position that prevents the use of mobility abilities",
+    {
+      "sampleHero": "THE THING",
+      "sampleSkill": "Yancy Street Charge"
+    }
+  ],
+  [
+    "Jump toward an ally and apply damage reduction to yourself and allies within the landing area",
+    {
+      "sampleHero": "THE THING",
+      "sampleSkill": "Embattled Leap"
+    }
+  ],
+  [
+    "Jump toward an enemy and apply Vulnerability to enemies within the landing area",
+    {
+      "sampleHero": "THE THING",
+      "sampleSkill": "Battle Blitz"
+    }
+  ],
+  [
+    "Hulk charges Black Panther and The Thing with gamma radiation. When Black Panther's health is low, he gains a gamma shield, becoming Unstoppable and blocking attacks. The Thing gains Gamma Gauntlets, boosting Damage and range of his Rocky Jab and Stone Haymaker. Dealing damage with these attacks grants Bonus Health, and maximum Bonus Health cap is increased",
+    {
+      "sampleHero": "THE THING",
+      "sampleSkill": "GAMMA CHARGE"
+    }
+  ],
+  [
+    "Wolverine and The Thing can interact with each other. Once both parties confirm, The Thing can lift Wolverine and press the key to hurl him forward",
+    {
+      "sampleHero": "THE THING",
+      "sampleSkill": "Cosmic Fastball"
+    }
+  ],
+  [
+    "Immune to launch-up, knock-back, and other displacement effects",
+    {
+      "sampleHero": "THE THING",
+      "sampleSkill": "Unyielding Will"
+    }
+  ],
+  [
+    "Wield Mjolnir to strike enemies. When Awakened, Thor can launch lightning arc waves to deal damage",
+    {
+      "sampleHero": "THOR",
+      "sampleSkill": "Mjolnir Bash"
+    }
+  ],
+  [
+    "Throw Mjolnir forward which then returns",
+    {
+      "sampleHero": "THOR",
+      "sampleSkill": "Hammer Throw"
+    }
+  ],
+  [
+    "Soar upwards and smite the ground after charging for a duration, inflicting damage on enemies within range",
+    {
+      "sampleHero": "THOR",
+      "sampleSkill": "God of Thunder"
+    }
+  ],
+  [
+    "Hold to spin Mjolnir before dashing forward and knocking back enemies",
+    {
+      "sampleHero": "THOR",
+      "sampleSkill": "Storm Surge"
+    }
+  ],
+  [
+    "Summon lightning that restores Thorforce based on the number of hit enemies",
+    {
+      "sampleHero": "THOR",
+      "sampleSkill": "Lightning Realm"
+    }
+  ],
+  [
+    "Consume Thorforce to enter the Awakened state, granting Bonus Health and enhancing Mjolnir Bash",
+    {
+      "sampleHero": "THOR",
+      "sampleSkill": "Awakening Rune"
+    }
+  ],
+  [
+    "Consume Thorforce to gain Bonus Health. Landing Mjolnir Bash on an enemy instantly recharges Thorforce",
+    {
+      "sampleHero": "THOR",
+      "sampleSkill": "Thorforce"
+    }
+  ],
+  [
+    "Shoot forward dual-wielded pistols. Gain increased Attack Speed when Demonic Energy exceeds 50%",
+    {
+      "sampleHero": "The Hood",
+      "sampleSkill": "Accursed Pistols"
+    }
+  ],
+  [
+    "Enter Half-Demon State, transforming your arms into demonic rifles to unleash a rain of lead. These rifles have increased Attack Speed and Infinite Ammo. Every bullet that strikes an enemy triggers Lifesteal",
+    {
+      "sampleHero": "The Hood",
+      "sampleSkill": "Leaded Transformation"
+    }
+  ],
+  [
+    "Spread your cloak to form a spherical barrier, blocking incoming enemy attacks. When Demonic Energy exceeds 50%, the radius of the sphere expands further.",
+    {
+      "sampleHero": "The Hood",
+      "sampleSkill": "Mantle of Oblivion"
+    }
+  ],
+  [
+    "Enter Full Demon State. Fire up to 6 high-powered shots that pierce through enemies and barriers, with the final shot being the most powerful. Hitting enemies grants Bonus Health to yourself and nearby allies",
+    {
+      "sampleHero": "The Hood",
+      "sampleSkill": "Demon of the End"
+    }
+  ],
+  [
+    "Enter the Void for free-flight. Upon reappearing, gain a decaying Movement Boost and damage surrounding enemies",
+    {
+      "sampleHero": "The Hood",
+      "sampleSkill": "Void Walk"
+    }
+  ],
+  [
+    "Throw a dark magic sphere that generates a Veil upon landing. Accursed Pistols shots passing through it generate more Demonic Energy and bullets from Leaded Transformation gain increased Lifesteal. Enemy projectiles passing through suffer reduced damage and healing output. Enemies who pass through the Veil take damage and are Blinded",
+    {
+      "sampleHero": "The Hood",
+      "sampleSkill": "Abyssal Veil"
+    }
+  ],
+  [
+    "Accumulate Demonic Energy by dealing damage via Accursed Pistols, blocking attacks with Mantle of Oblivion, or by using Void Walk. Reaching full energy automatically triggers the Half-Demon State",
+    {
+      "sampleHero": "The Hood",
+      "sampleSkill": "Ruinous Pact"
+    }
+  ],
+  [
+    "Unleash a burning energy beam",
+    {
+      "sampleHero": "Ultron",
+      "sampleSkill": "ENCEPHALO-RAY"
+    }
+  ],
+  [
+    "Deploy drones to an ally marked by Imperative: Patch, granting them increased Speed and Damage. Additionally, all allies within range of you and the chosen teammate receive Bonus Health.",
+    {
+      "sampleHero": "Ultron",
+      "sampleSkill": "IMPERATIVE: FIREWALL"
+    }
+  ],
+  [
+    "Summon Ultron Drones to fire Encephalo-Rays, damaging enemies or healing allies",
+    {
+      "sampleHero": "Ultron",
+      "sampleSkill": "RAGE OF ULTRON"
+    }
+  ],
+  [
+    "Fly quickly in the direction of movement and then enter an Accelerated state",
+    {
+      "sampleHero": "Ultron",
+      "sampleSkill": "DYNAMIC FLIGHT"
+    }
+  ],
+  [
+    "Command up to 2 giant drones to follow 2 allies, constantly healing allies within its radius, with more healing for the designated allies.",
+    {
+      "sampleHero": "Ultron",
+      "sampleSkill": "IMPERATIVE: PATCH"
+    }
+  ],
+  [
+    "Unleash tentacles forward to attack enemies",
+    {
+      "sampleHero": "VENOM",
+      "sampleSkill": "Dark Predation"
+    }
+  ],
+  [
+    "Unleash tentacles to Slow enemies within reach. Enemies unable to break free in time will suffer damage",
+    {
+      "sampleHero": "VENOM",
+      "sampleSkill": "Cellular Corrosion"
+    }
+  ],
+  [
+    "Burrow underground for free movement. After a duration or by left-clicking, devour enemies above to deal damage based on the enemy's current health and generate equivalent Bonus Health. Devoured enemies suffer Reduced Healing",
+    {
+      "sampleHero": "VENOM",
+      "sampleSkill": "Feast of the Abyss"
+    }
+  ],
+  [
+    "Launch webbing forward, allowing for a singular swing in the desired direction",
+    {
+      "sampleHero": "VENOM",
+      "sampleSkill": "Venom Swing"
+    }
+  ],
+  [
+    "Generate Bonus Health against damage. The lower Venom's Health, the greater the Bonus Health generated",
+    {
+      "sampleHero": "VENOM",
+      "sampleSkill": "Symbiotic Resilience"
+    }
+  ],
+  [
+    "Dash to the target location from a certain height. Upon landing, damage nearby enemies, launching them up toward the landing point",
+    {
+      "sampleHero": "VENOM",
+      "sampleSkill": "Frenzied Arrival"
+    }
+  ],
+  [
+    "Venom shares his symbiotes with Jeff and Hela. Jeff's Guardian of the Deep links with nearby allies, providing continuous healing. When the effect ends, it releases a powerful healing burst, converting any excess into Bonus Health. Hela's Hel Tendrils unleash a symbiotic Hel Sphere. Upon hit, it pulls nearby enemies toward the impact point and links them, slowing enemies that try to escape.",
+    {
+      "sampleHero": "VENOM",
+      "sampleSkill": "HEALING TENDRILS"
+    }
+  ],
+  [
+    "Fire explosive rounds with his blaster, Roterstern, damaging the target hit and enemies behind them.",
+    {
+      "sampleHero": "WINTER SOLDIER",
+      "sampleSkill": "Roterstern"
+    }
+  ],
+  [
+    "Charge up and launch a hook with his bionic arm, reeling in the first target hit and enemies lurking behind",
+    {
+      "sampleHero": "WINTER SOLDIER",
+      "sampleSkill": "Bionic Hook"
+    }
+  ],
+  [
+    "Leap high, then dash forward and slam down with the bionic arm, dealing damage to enemies in range, marking them for Culling. Marked enemies will perish instantly if their health falls below a certain threshold, recharging the bionic arm for another Kraken Impact within a short period",
+    {
+      "sampleHero": "WINTER SOLDIER",
+      "sampleSkill": "Kraken Impact"
+    }
+  ],
+  [
+    "Dash forward, seizing enemies along the path and launching up enemies at the end of the dash",
+    {
+      "sampleHero": "WINTER SOLDIER",
+      "sampleSkill": "Trooper's Fist"
+    }
+  ],
+  [
+    "Charge up and launch a powerful electrical punch with the bionic arm in the target direction, dealing damage to enemies within range and Slowing them. This ability can Knock Down flying heroes",
+    {
+      "sampleHero": "WINTER SOLDIER",
+      "sampleSkill": "Tainted Voltage"
+    }
+  ],
+  [
+    "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant Bonus Health to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and slows enemies",
+    {
+      "sampleHero": "WINTER SOLDIER",
+      "sampleSkill": "Stellar Impact"
+    }
+  ],
+  [
+    "Roterstern reloads automatically while the bionic arm is in action, granting Bonus Health to the Winter Soldier",
+    {
+      "sampleHero": "WINTER SOLDIER",
+      "sampleSkill": "Ceaseless Charge"
+    }
+  ],
+  [
+    "Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages enemies, heals allies, and restores Spirit Tail energy",
+    {
+      "sampleHero": "White Fox",
+      "sampleSkill": "YEOWOO GUSEUL"
+    }
+  ],
+  [
+    "While Awakened, slash forward with a flurry of attacks",
+    {
+      "sampleHero": "White Fox",
+      "sampleSkill": "CLAW STRIKE"
+    }
+  ],
+  [
+    "In Kumiho Form, slam the ground, causing an explosive shockwave. Hitting enemies or summons grants One-Time Healing to self and nearby allies",
+    {
+      "sampleHero": "White Fox",
+      "sampleSkill": "NINEFOLD SLAM"
+    }
+  ],
+  [
+    "Consume one Spirit Tail to send a spectral fox forward. It heals and grants invulnerability to allies it passes through, damages and Charms enemies, forcing foes to move toward White Fox",
+    {
+      "sampleHero": "White Fox",
+      "sampleSkill": "SPECTRAL SURGE"
+    }
+  ],
+  [
+    "While Awakened, sweep forward tails to launch up hit enemies",
+    {
+      "sampleHero": "White Fox",
+      "sampleSkill": "TAIL SWEEP"
+    }
+  ],
+  [
+    "In Kumiho Form, select an ally to grant Continuous Healing, Unstoppable, and Life-Steal for a short time",
+    {
+      "sampleHero": "White Fox",
+      "sampleSkill": "BLESSED BY THE NINE"
+    }
+  ],
+  [
+    "Manifest the full Nine-Tailed Fox form and continuously heal nearby allies. Cannot receive healing effects from others while in this form",
+    {
+      "sampleHero": "White Fox",
+      "sampleSkill": "KUMIHO UNLEASHED"
+    }
+  ],
+  [
+    "Teleport to a chosen ally, instantly healing allies in the area while generating a shield",
+    {
+      "sampleHero": "White Fox",
+      "sampleSkill": "SPIRIT SANCTUARY"
+    }
+  ],
+  [
+    "While Awakened, dash forward. Hit an enemy to slow them, enabling a second dash that knocks back enemies",
+    {
+      "sampleHero": "White Fox",
+      "sampleSkill": "Predatory Pounce"
+    }
+  ],
+  [
+    "Enter Awakened state, transforming Spirit Tails into physical tails. While active, continuously drain Spirit Tail energy and heal nearby allies. Striking enemies provides additional area healing",
+    {
+      "sampleHero": "White Fox",
+      "sampleSkill": "FOX FORM AWAKENING"
+    }
+  ],
+  [
+    "Slash with Adamantium claws for a Claw Strike. Unleashing Feral Leap will enhance it to Berserk Claw Strike for a brief period",
+    {
+      "sampleHero": "Wolverine",
+      "sampleSkill": "Savage Claw"
+    }
+  ],
+  [
+    "Dash forward and unleash a Claw Strike",
+    {
+      "sampleHero": "Wolverine",
+      "sampleSkill": "Vicious Rampage"
+    }
+  ],
+  [
+    "Knock enemies ahead airborne and spiral through the air, sweeping up enemies along the path and delivering a devastating impact at the landing point",
+    {
+      "sampleHero": "Wolverine",
+      "sampleSkill": "Last Stand"
+    }
+  ],
+  [
+    "Leap like an animal to snatch the first enemy upon impact and Smash them to the ground. Unleashing this ability will enhance his normal attack to Berserk Claw Strike for a brief period",
+    {
+      "sampleHero": "Wolverine",
+      "sampleSkill": "Feral Leap"
+    }
+  ],
+  [
+    "Wolverine and Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forwardJean Grey imbues Wolverine with the awe-inspiring Phoenix Force. With this power, Wolverine's Feral Leap transforms into Phoenix Warrior. While active, he is enveloped in Phoenix flames that continuously scorch him and nearby enemies, dealing Percentage Damage. In this state, Wolverine's abilities gain Lifesteal when inflicting damage",
+    {
+      "sampleHero": "Wolverine",
+      "sampleSkill": "Phoenix Warrior"
+    }
+  ],
+  [
+    "Unleash a fierce howl to briefly reduce incoming damage",
+    {
+      "sampleHero": "Wolverine",
+      "sampleSkill": "Undying Animal"
+    }
+  ],
+  [
+    "Begin to heal and rise with a hefty Bonus Health, shaking off all debuffs. After a brief moment, any remaining Bonus Health morphs into a one-off heal, zeroing out his Rage. Assists in KOs reduce this cooldown",
+    {
+      "sampleHero": "Wolverine",
+      "sampleSkill": "Regenerative Healing Factor"
+    }
+  ],
+  [
+    "Rage builds when Wolverine attacks or takes hits, boosting the damage of his Claw Strikes and the Bonus Health from his regenerative healing factor",
+    {
+      "sampleHero": "Wolverine",
+      "sampleSkill": "Berserker Rage"
+    }
+  ]
+]

@@ -1,0 +1,125 @@
+
+=== LOKI ===
+  [Mystical Missile]: Fire Mystical Missiles to heal allies or deal damage to enemies. Direct hits on allies provide extra healing
+  [Deception]: Become Invisible and conjure an Illusion to deceive enemies
+  [God of Mischief]: Shapeshift into a targeted ally or enemy hero and use all their abilities except any of their Team-Up Abilities
+  [Regeneration Domain]: Use Rune Stones to create a magical field that provides allies Healing and converts incoming damage into further healing
+  [Doppelganger]: Project an Illusion that can cast some of Loki's abilities
+  [Devious Exchange]: Swap with the selected Illusion
+  [Backstab]: Pull out a dagger to stab enemies, dealing extra damage when attacking an enemy from behind
+
+=== LUNA SNOW ===
+  [Light & Dark Ice]: Fire ice shots that damage enemies or heal allies
+  [Absolute Zero]: Cast a clump of ice to Freeze the hit enemy and restore Health
+  [Fate of Both Worlds]: Take center stage and start dancing! Press to toggle between two performances: Heal allies or grant them Damage Boost
+  [Ice Arts]: Fire ice shards for a short duration, damaging enemies or healing allies while restoring her own Health
+  [Share the Stage]: Attach Idol Aura to an ally. Allies with Idol Aura also restore Health when Luna Snow is healing others
+  [Number One Idol]: Boost Healing. Gain extra healing when healing others
+  [SPIRIT FOX ACCORD]: White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of speed and fire it forward, healing allies in its path while applying Charm to enemies
+  [Cryo Heart]: Automatically restore Health when casting Ice Arts or Absolute Zero
+  [Smooth Skate]: Keep moving forward to start ice skating and enable higher jumps
+
+=== MAGIK ===
+  [Soulsword]: Slash forward with the Soulsword
+  [Eldritch Whirl]: Spin while swinging the Soulsword after exiting a Stepping Disc
+  [Magik Slash]: Strike forward an air slash
+  [Demon's Rage]: Summon a Limbo demon that attacks enemies after exiting a Stepping Disc
+  [Darkchild]: Transform into Darkchild, gaining enhancements to all her abilities
+  [Stepping Discs]: Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting
+  [Umbral Incursion]: Dash forward and launch up enemies
+  [CHAIN OF CYTTORAK]: Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's Chthonian Burst is replaced with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a Chain of Cyttorak that links two enemies and slows them; the farther they are apart, the greater the Slow effect inflicted during the link
+  [Limbo's Might]: Convert damage inflicted on enemies into Bonus Health to herself
+
+=== MAGNETO ===
+  [Iron Volley]: Fire a volley of magnetic orbs forward. The range of the resulting explosion increases based on distance flown
+  [Mag-Cannon]: Convert the iron rings on Magneto's back into a Mag-Cannon and launch a metallic mass forward. Higher stacks of rings increase damage, and full stacks knock back enemies
+  [Meteor M]: Draw in all materials around to forge an iron meteor that deals massive damage upon impact. Absorbing enemy projectiles can enhance the meteor's power, yet overloading will cause it to self-destruct
+  [Metallic Curtain]: Change the magnetic field around to form a metallic curtain, blocking all incoming projectiles
+  [Metal Bulwark]: Conjure a metal shield around a chosen ally. Damage taken will transform into rings on Magneto's back
+  [Iron Bulwark]: Conjure an iron shield around himself. Damage taken will transform into rings on Magneto's back
+
+=== MANTIS ===
+  [Life Energy Blast]: Fire an energy thorn and regain one Life Orb after a critical hit.
+  [Healing Flower]: Consume Life Orbs to grant allies Healing Over Time
+  [Soul Resurgence]: Release energy around her while moving, providing Healing Over Time and Movement Boosts for surrounding allies. Excess healing converts to Bonus Health
+  [Spore Slumber]: Throw a spore to Sedate the nearest enemy
+  [Allied Inspiration]: Consume Life Orbs to grant allies a Damage Boost
+  [Natural Anger]: Consume Life Orbs to grant herself a Damage Boost
+  [Nature's Favor]: Receive a Movement Boost when not injured and Healing Over Time when consuming Life Orbs
+
+=== MOON KNIGHT ===
+  [Crescent Dart]: Unleash Crescent Darts forward that can bounce between enemies and Ankhs, dealing damage to enemies
+  [Moon Blade]: Launch forward a Moon Blade that can bounce between enemies and Ankhs, dealing damage to enemies
+  [Hand of Khonshu]: Open a portal that allows Khonshu to bombard enemies with his talons
+  [Night Glider]: Hold SHIFT to glide
+  [Ancient Ankh]: Fire an Ankh to launch up enemies within its radius towards the center
+  [Moonlight Hook]: Launch a frontal grappling hook that pulls Moon Knight towards it
+  [Triple Eclipse]: Perform a combo with his truncheon, and the third strike will launch up the enemy hit slightly
+
+=== Mister Fantastic ===
+  [Stretch Punch]: Stretch out a forward punch to attack enemies
+  [Distended Grip]: Extend arms forward to entangle an enemy, then press Primary Attack to pull the hit enemy toward him, or select and yank another enemy, Knocking Them Airborne against each other. Hit targets are Immobilized
+  [Brainiac Bounce]: Leap upward and smash the ground, slowing enemies within range. Mister Fantastic can leap again upon landing a hit
+  [Reflexive Rubber]: Stretch the body to absorb damage before launching stored damage in the targeted direction
+  [Flexible Elongation]: Gain a Shield, select a target and dash towards them, dealing damage to enemies or granting a Shield to allies
+  [FANTASTIC AMPLIFIER]: Rocket Raccoon upgrades his B.R.B. for Star-Lord and Mister Fantastic. Star-Lord gets an Astral Jump device, allowing him to teleport to its deployment point from anywhere on the map. Mister Fantastic receives a Fantastic Amplifier, removing his Elasticity limit and letting him actively enter Inflation state
+  [Elastic Strength]: Using abilities generates Elasticity, boosting attack power. Reaching full Elasticity triggers an Inflated state that increases Maximum Health, further boosts damage, and enables the use of Reflexive Rubber
+
+=== NAMOR ===
+  [Trident of Neptune]: Throw the trident forward, reducing Aquatic Dominion's cooldown upon enemy impact. Critical hits cause Monstro Spawn to enter a berserk state, gaining increased Attack Speed
+  [Wrath of the Seven Seas]: Launch the trident forward to damage nearby enemies, then direct all Monstro Spawn to perform an enhanced attack on the nearest hit enemy. When the trident hits an enemy, Monstro Spawn to enter a berserk state, gaining increased Attack Speed
+  [Horn of Proteus]: Summon Giganto to leap atop enemies within range, disabling their mobility abilities
+  [Blessing of the Deep]: Summon a protective barrier while flying upwards
+  [Aquatic Dominion]: Summon a Monstro Spawn that can autonomously attack enemies
+
+=== PENI PARKER ===
+  [Cyber-Web Cluster]: Launch forward a Cyber-Web Cluster
+  [Cyber-Web Snare]: Cast futuristic webbing that Immobilizes enemies or creates a Cyber-Web. While in the Cyber-Web, Peni and allies gain Healing Over Time and a Movement Boost. Excess healing converts into Bonus Health
+  [Spider-Sweeper]: Enhance the SP//dr suit, launching up enemies in its path and deploying Arachno-Mines, Spider-Drones, and Cyber-Webs repeatedly
+  [Bionic Spider-Nest]: Generate a Bionic Spider-Nest at a targeted area, periodically spawning Spider-Drones and creating Cyber-Webs. While in the Cyber-Web, Peni and allies gain Healing Over Time and a Movement Boost. Excess healing converts into Bonus Health. Spider-Drones inflict a Slow effect on hit, which can stack and refresh its effect period with multiple hits
+  [Arachno-Mine]: Deploy Arachno-Mines that can be concealed within the confines of a Cyber-Web
+  [Cyber-Bond]: Shoot a web strand that links to the targeted area or Cyber-Web. If stretched too far, it will trigger a pullback
+  [ARMORIZED SPIDER-NEST]: Enhanced by Rocket Raccoon, Peni Parker’s Bionic Spider-Nest regularly generates strengthened armor packs. Each armor pack grants bonus health to the hero who picks up the pack. Peni Parker can deploy Bionic Spider-Nest and Armored Spider-Nest at the same time
+  [Wall Crawl]: HOLD Jump to crawl on vertical surfaces
+  [Cyber-Spiders]: Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging a Web-Cluster shot and granting Bonus Health
+
+=== PHOENIX ===
+  [Cosmic Flames]: Launch a fiery projectile forward, applying 1 Spark to enemies hit. Critical hits apply 2 Sparks. At 3 Sparks, Phoenix triggers a fiery explosion that applies 1 Spark to enemies around and Healing Over Time to self. Sparks from explosions will not stack within a brief period
+  [Telekinesis Burst]: Mark a targeted area with psionic energy, followed by a series of fiery explosions. The first blast Stuns enemies, while the subsequent two explosions inflict Slow. Applies 1 Spark to enemies hit
+  [Endsong Inferno]: Soar into the sky with the Phoenix and crash down onto a selected area, dealing devastating damage to enemies while creating a shockwave that destroys enemy summons, shields, and any Bonus Health. Enemies hit are applied with 1 Spark
+  [Telepathic Illusion]: Leave behind an illusion and instantly teleport in the desired direction, followed by detonating the illusion. Enemies hit are applied with 1 Spark
+  [Dark Ascent]: Merge with the Phoenix, entering a state of free flight. Gain a Movement Boost
+  [Mind's Grace]: Jean Grey imbues Wolverine with the awe-inspiring Phoenix Force
+
+=== PSYLOCKE ===
+  [Psionic Crossbow]: Unleash bolts with psionic crossbows to damage enemies and reduce the cooldowns of all her abilities
+  [Wing Shurikens]: Launch a volley of psionic shurikens that stick to enemies, dealing damage and granting herself Bonus Health. Press again to recall the shurikens
+  [LIGHT & DARK DARTS]: Cloak & Dagger share light and dark energy with Hawkeye and Psylocke. When Hawkeye uses Crescent Slash, he also releases a blade wave that heals and boosts healing for teammates, while inflicting damage and Vulnerability on enemies. Psylocke can launch a Light Boomerang Dart that heals allies, harms enemies, and provides her with temporary healing upon return. She can also unleash a ring of Dark Darts that slow enemies while she briefly enters a Phased state
+  [Dance of the Butterfly]: Slash nearby enemies with a psionic katana, dealing massive damage
+  [Psi-Blade Dash]: Dash forward and slice through enemies along the path with psionic blades
+  [Psychic Stealth]: Enter stealth and gain a Movement Boost
+
+=== ROCKET RACCOON ===
+  [Bombard Mode]: Fire energy projectiles that deal damage
+  [Repair Mode]: Shoot bouncing spheres to heal allies
+  [C.Y.A.]: Deploy a Cosmic Yarn Amplifier that grants allies a Damage Boost
+  [Jetpack Dash]: Dash forward
+  [B.R.B.]: Deploy a Battle Rebirth Beacon that revives a fallen ally and periodically produces armor packs and rocket jet packs
+  [Wild Crawl]: Hold Space to run on a wall
+
+=== Rogue ===
+  [Power Surge Punch]: Punch forward with both fists
+  [Southern Brawl]: While in Defensive Stance, dash forward and slam enemies in front, dealing area damage
+  [Defensive Stance]: Absorb nearby projectiles and reduce incoming damage; absorbed damage powers up your next Southern Brawl
+  [Heartbreaker]: Continuously absorb Ultimate Ability Energy from nearby enemies and steal stats based on their role
+  [Fatal Attraction]: Dash forward. Press again to unleash a burst of Chronovium Power, dealing continuous damage to nearby foes; after a delay, the energy retracts, pulling all enemies towards Rogue
+  [Chrono Kick Combo]: Dash forward and launch the enemy, entering flight; activate again to Knock Down nearby enemies. Your next two Power Surge Punch attacks become ranged, piercing enemies and granting Bonus Health
+  [Ability Absorption]: Dash forward to knock down your target and absorb their energy; after absorbing, replace Ability Absorption with one of their abilities or refresh Fatal Attraction. Also absorb Health and stats based on their role
+  [HEARTS AS ONE]: Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies
+
+=== SCARLET WITCH ===
+  [Chaos Control]: Unleash Chaos Magic on enemies to deal damage and restore Chaos Energy
+  [Chthonian Burst]: Consume Chaos Energy to fire explosive magic missiles, damaging enemies
+  [Reality Erasure]: Engage in free-flight while charging energy, then unleash it to deal massive damage
+  [Mystic Projection]: Enter the Phased state for free-flight. Press again to exit early
+  [Dark Seal]: Land a hit on a target or the scene, or press E to generate a Force Field that periodically Stuns enemies within range

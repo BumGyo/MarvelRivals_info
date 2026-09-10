@@ -1,0 +1,757 @@
+{
+  "ADAM WARLOCK": [
+    {
+      "key": "Left Click",
+      "name": "Quantum Magic",
+      "desc": "Launch quantum energy to deal damage",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Cosmic Cluster",
+      "desc": "Gather quantum energy into a cluster and then swiftly launch it at the enemy",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Karmic Revival",
+      "desc": "Awaken the karma of allies to revive them. Allies revived have lower health but enjoy a brief period of Invincibility",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Soul Bond",
+      "desc": "Forge a soul bond with allies, granting Healing Over Time and distributing damage taken across the bond",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Avatar Life Stream",
+      "desc": "Target an ally for a bouncing stream of healing energy, which also heals himself upon casting; self-targets if no ally is selected",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Karmic Revival",
+      "desc": "Take to the skies, entering a flying state and swiftly surge forward",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "HEAVENLY HARMONY",
+      "desc": "Storm channels her elemental power into Adam Warlock. When Adam uses Soaring Surge, his movement speed is increased. While flying, Adam leaves behind a storm-charged trail that heals and speeds up allies within it",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Regenerative Cocoon",
+      "desc": "Once his body perishes, Adam Warlock can freely move as a soul and reforge his body at a chosen spot",
+      "upgrade": null
+    }
+  ],
+  "Cloak & Dagger": [
+    {
+      "key": "Left Click",
+      "name": "Darkforce Cloak",
+      "desc": "Inflict continuous damage on an enemy",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "Lightforce Dagger",
+      "desc": "Unleash a bouncing Lightforce Dagger to damage enemies and heal nearby allies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Dark Teleportation",
+      "desc": "Enshroud nearby allies in the Darkforce Dimension, plunging them into the Phased state, making them untargetable and invisible to enemies and granting them a Movement Boost",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Dagger Storm",
+      "desc": "Launch a volley of daggers, creating a Healing Over Time field in the impact area",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Eternal Bond",
+      "desc": "Perform four rapid dashes, healing allies and damaging enemies along the path",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Eternal Bond",
+      "desc": "Perform four rapid dashes, healing allies and damaging enemies along the path",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Light's Embrace",
+      "desc": "Switch to Dagger",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Shadow's Embrace",
+      "desc": "Switch to Cloak",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Terror Cape",
+      "desc": "Deploy a Veil of Darkforce to damage enemies upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Veil of Lightforce",
+      "desc": "Deploy a Veil of Lightforce to heal allies upon touch and grant them a Healing Boost",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "FROM SHADOW TO LIGHT",
+      "desc": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses Crescent Slash, enemies hit are launched back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and boosts healing for allies, while damaging enemies and applying Vulnerability",
+      "upgrade": null
+    }
+  ],
+  "DEADPOOL (STRATEGIST)": [
+    {
+      "key": "Left Click",
+      "name": "DUAL DESERT EAGLES - STRATEGIST",
+      "desc": "Nobody lays a finger on my teammates! Anyone tries, and I'm firing these big boy bullets straight at their face!",
+      "upgrade": {
+        "name": "DUAL DESERT EAGLES - STRATEGIST UPGRADED",
+        "desc": "I rack up shots, then, BOOM! A mind-blowing bubble bomb for all the enemies. Teammate security: maximum"
+      }
+    },
+    {
+      "key": "Left Click",
+      "name": "KICK@$$ KATANA - STRATEGIST",
+      "desc": "Protecting my team means my katanas go full savage. No mercy for the baddies!",
+      "upgrade": {
+        "name": "KICK@$$ KATANA - STRATEGIST UPGRADED",
+        "desc": "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Healing Hop hit makes the next swing a stabby special"
+      }
+    },
+    {
+      "key": "Right Click",
+      "name": "BOUNCING BOBBLEHEAD - STRATEGIST",
+      "desc": "Plushie power! It stops every single attack those chumps throw, giving my team a safety bubble. It's cute AND bulletproof",
+      "upgrade": {
+        "name": "BOUNCING BOBBLEHEAD - STRATEGIST UPGRADED",
+        "desc": "My ultra-cool, super shiny, extra huggable, and totally blinged-out plushy. Toss it ahead, and it lands as an invincible sphere of awesomeness! Blocking attacks and keeping my team safe inside our furry fortress"
+      }
+    },
+    {
+      "key": "Right Click",
+      "name": "HEALING HIJINKS - STRATEGIST",
+      "desc": "Try getting to my teammates, I dare you! My dash slash knocks fools down, and if I hit, I get to do it again. Up to three times, baby!",
+      "upgrade": {
+        "name": "HEALING HIJINKS - STRATEGIST UPGRADED",
+        "desc": "Watch this pro bodyguard in action! I dash forward, nail the bad guy, and bounce in any direction I want. Oh, and I can do this two more times real quick!"
+      }
+    },
+    {
+      "key": "Q",
+      "name": "PWNAGE POUND",
+      "desc": "You! Yeah, you - the hyper one! Eyes off my friends. I sentence you to...whatever! Get ready to be taunted. I get bonus HP and healing, and if you whiff your abilities, you take damage, and I get even more HP!",
+      "upgrade": {
+        "name": "PWNAGE POUND - UPGRADED",
+        "desc": "Upgraded courtroom drama! Congrats, unlucky one! You're my pick; enjoy the taunt! I score bonus health and healing, and you take ongoing damage. If you miss an ability while court is in session, it's a double whammy. You get more pain, AND I get more extra HP! Thanks in advance!"
+      }
+    },
+    {
+      "key": "Q",
+      "name": "FINAL EXAM",
+      "desc": "Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Healing Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!",
+      "upgrade": {
+        "name": "FINAL EXAM - UPGRADED",
+        "desc": "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs(massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!"
+      }
+    },
+    {
+      "key": "E",
+      "name": "DEADPOOL IN YOUR AREA - STRATEGIST",
+      "desc": "Want to hurt my team? Good luck! I hit you with a taunt, mess up your vision, and burn your health nonstop! Best part: my swords and guns go full turbo for the duration. Blink and you'll miss it",
+      "upgrade": {
+        "name": "DEADPOOL IN YOUR AREA - STRATEGIST UPGRADED",
+        "desc": "Teammates, stay safe! Dummies, look here! It's showtime: I taunt, blind you, and hit warp speed with my swords and guns. Plus, my crew gets a damage reduction buff, so they're basically invincible. Dummies that stick around too long will even have their UI taped over!"
+      }
+    },
+    {
+      "key": "F",
+      "name": "UPGRADE!",
+      "desc": "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "HEALING HOP",
+      "desc": "Yup, I can double jump in midair! During The Big Test and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!",
+      "upgrade": null
+    },
+    {
+      "key": "PASSIVE",
+      "name": "HEALING FACTOR",
+      "desc": "Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "MAXIMUM FLAIR",
+      "desc": "Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Comical Chaos",
+      "desc": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!",
+      "upgrade": null
+    }
+  ],
+  "Gambit": [
+    {
+      "key": "Left Click",
+      "name": "Kinetic Cards",
+      "desc": "Launch three kinetic-charged cards in an arc ahead. Each card detonates on impact, creating a single-target explosion that damages enemies and heals allies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Bayou Bash",
+      "desc": "Channel kinetic energy into the bo staff, then slam it into the ground after a sweeping strike, creating a shockwave that damages nearby enemies and heals allies",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Ragin' Royal Flush",
+      "desc": "Lock onto an ally within sight and unleash multiple Aces that heal and Purify. Both enter the Kinetic Transfer state, granting increased Movement Speed and Jump Boost, while enhancing attacks with additional single-target explosive damage and providing the ally with Ultimate Ability Charge Acceleration",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Cajun Charge",
+      "desc": "Side-step forward with bo staff in hand, dashing a short distance",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Healing Hearts",
+      "desc": "Conjure a Heart card by consuming one stack of  Sleight of Hand to Heal and switch to the Healing Hearts deck",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Bridge Boost",
+      "desc": "While Healing Hearts deck is active, trigger Flush Empowerment to card spring and fire a full deck forward. Cards bounce between allies on impact, granting Health and a Healing Boost",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Bidding Barrage",
+      "desc": "While Breaking Spades deck is active, trigger Raise Empowerment to scattering cards in an arc in all directions. Explosions damage enemies and Launch them up",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Breaking Spades",
+      "desc": "Conjure a Spade card by consuming one stack of  Sleight of Hand to gain Damage Boost and switch to the Breaking Spades deck",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Purifying Pick-Up",
+      "desc": "While Healing Hearts deck is active, trigger Raise Empowerment to launch a cluster of cards in an arc ahead. Explosions heal nearby allies and Purify them",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Explosive Trick",
+      "desc": "While Breaking Spades deck is active, trigger Flush Empowerment to fire a full set of cards forward. Cards explode on impact, dealing damage while inflicting Reduced Healing",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "ACE OF ACES",
+      "desc": "Gambit charges Magneto's greatsword with kinetic energy. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay",
+      "upgrade": null
+    }
+  ],
+  "Invisible Woman": [
+    {
+      "key": "Left Click",
+      "name": "Orb Projection",
+      "desc": "Launch a force field orbs that can pierce heroes, flying to maximum distance before returning to Invisible Woman; damaging enemies and healing teammates",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Guardian Shield",
+      "desc": "Generate a force shield in front of a selected ally or in front of you. The shield can block damage and provide Healing Over Time to nearby allies. Enemies that pass through the shield are slowed",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Invisible Boundary",
+      "desc": "Manifest an unseen force field within a chosen area, rendering allies inside undetectable by enemies and provide Healing Over Time. Enemies that pass through the field are slowed",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Psionic Vortex",
+      "desc": "Gather psionic energy and then cast it, upon impact or pressing the Ability key again, it erupts into a psionic vortex, continuously drawing in enemies and causing damage",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Force Physics",
+      "desc": "Manipulate psionic energy to push or pull enemies in front of her",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Veiled Step",
+      "desc": "Generate a force field at your feet, stepping on it propels her into the Invisible state",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Covert Advance",
+      "desc": "Enter Invisible state some time after disengaging from combat and grant yourself Healing Over Time",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Fantasti-Force",
+      "desc": "The Invisible Woman taps into her powers, channeling Psionic Might to fortify Mr.Fantastic. This formidable force bolsters Mr.Fantastic, granting damage resistance. Once activated, they can continually generate Bonus Health, making up for lost Health",
+      "upgrade": null
+    }
+  ],
+  "JEFF THE LAND SHARK": [
+    {
+      "key": "Left Click",
+      "name": "Joyful Splash",
+      "desc": "Unleash a healing splash",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Aqua Burst",
+      "desc": "Launch a high-speed water sphere that bursts upon impact, dealing damage to enemies within range",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "It's Jeff!",
+      "desc": "Deep dive into the scene and resurface to swallow both enemies and allies within range, activating Hide and Seek for a brief duration before ejecting the swallowed heroes forward",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Hide and Seek",
+      "desc": "Dive into the scene with only his dorsal fin exposed, granting himself a Movement Boost. Jeff can heal while submerged and gains the wall-crawl ability",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Healing Bubble",
+      "desc": "Spit a bubble that heals the ally who collects it, granting them Healing Boost and Movement Boost while also launching up nearby enemies",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Jeff's Cuddle Buddy",
+      "desc": "Jeff the Land Shark and Rocket Raccoon can ride on Groot's shoulders, receiving Damage Reduction",
+      "upgrade": null
+    },
+    {
+      "key": "X",
+      "name": "GUARDIAN OF THE DEEP",
+      "desc": "Venom shares his symbiotes with Jeff and Hela. Jeff's Guardian of the Deep links with nearby allies, providing continuous healing. When the effect ends, it releases a powerful healing burst, converting any excess into Bonus Health.",
+      "upgrade": null
+    },
+    {
+      "key": "Z",
+      "name": "IT'S JEFF-NADO!",
+      "desc": "When Storm activates Omega Hurricane and Jeff the Land Shark's It's Jeff is ready, they can unleash a powerful Team-Up Ability. During this period, Storm's Omega Hurricane merges with Jeff to form a Jeff-nado",
+      "upgrade": null
+    },
+    {
+      "key": "None",
+      "name": "New Friends",
+      "desc": "Jeff the Land Shark and Rocket Raccoon can ride on Groot's shoulders, receiving Damage Reduction",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Oblivious Cuteness",
+      "desc": "Reduce damage taken from critical hits",
+      "upgrade": null
+    }
+  ],
+  "Jubilation Lee": [
+    {
+      "key": "Left Click",
+      "name": "Energy Plasmoids",
+      "desc": "Fire lumikinetic explosive light blasts forward to heal friends and damage foes. Triggering a Sparkle Mark briefly boosts Attack Speed and enables firing without consuming energy",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Blooming Ball",
+      "desc": "Launch a tracking orb of vampiric energy that damages enemies and heals allies in its radius. Striking the orb or hitting targets near it charges it up, increasing both its size and healing power. Press F to manually recall it.",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Firework Finale",
+      "desc": "Charge up and unleash a massive ring of outward-flying firework clusters, Knocking Back nearby enemies. These clusters then orbit you, creating a field that damages enemies and heals allies. Expanding the cluster radius outward will Launch Up struck enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Sparking Sprint",
+      "desc": "Wrap yourself in vampiric energy to gain a Speed Boost. While active, jump height and Attack Speed are increased, and Energy Blasts can be fired at no cost",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Dazzling Detonation",
+      "desc": "Detonate a firework energy orb, dealing damage to enemies in the area and applying a Blind effect. The energy can also be transferred to an ally, granting them healing and a Speed Boost",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Sparkle Mark",
+      "desc": "Hitting targets with Dazzling Detonation and  Firework Finale applies a Sparkle Mark. Energy Plasmoids can detonate marks, granting allies a Healing Boost and Bonus Health, while dealing burst damage to enemies",
+      "upgrade": null
+    }
+  ],
+  "LOKI": [
+    {
+      "key": "Left Click",
+      "name": "Mystical Missile",
+      "desc": "Fire Mystical Missiles to heal allies or deal damage to enemies. Direct hits on allies provide extra healing",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Deception",
+      "desc": "Become Invisible and conjure an Illusion to deceive enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "God of Mischief",
+      "desc": "Shapeshift into a targeted ally or enemy hero and use all their abilities except any of their Team-Up Abilities",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Regeneration Domain",
+      "desc": "Use Rune Stones to create a magical field that provides allies Healing and converts incoming damage into further healing",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Deific Blessing",
+      "desc": "Mantis enhances Groot's wooden walls and Loki's Rune Stones with life energy. Groot can additionally unleash a Flower Wall, which, when in Flora Colossus state, restores health to random nearby allies and grants them Damage Reduction. Loki's Rune Stones grant allies within Regeneration Domain a Damage Boost",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Doppelganger",
+      "desc": "Project an Illusion that can cast some of Loki's abilities",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Devious Exchange",
+      "desc": "Swap with the selected Illusion",
+      "upgrade": null
+    },
+    {
+      "key": "V",
+      "name": "Backstab",
+      "desc": "Pull out a dagger to stab enemies, dealing extra damage when attacking an enemy from behind",
+      "upgrade": null
+    }
+  ],
+  "LUNA SNOW": [
+    {
+      "key": "Left Click",
+      "name": "Light & Dark Ice",
+      "desc": "Fire ice shots that damage enemies or heal allies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Absolute Zero",
+      "desc": "Cast a clump of ice to Freeze the hit enemy and restore Health",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Fate of Both Worlds",
+      "desc": "Take center stage and start dancing! Press to toggle between two performances: Heal allies or grant them Damage Boost",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Ice Arts",
+      "desc": "Fire ice shards for a short duration, damaging enemies or healing allies while restoring her own Health",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Share the Stage",
+      "desc": "Attach Idol Aura to an ally. Allies with Idol Aura also restore Health when Luna Snow is healing others",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Number One Idol",
+      "desc": "Boost Healing. Gain extra healing when healing others",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "SPIRIT FOX ACCORD",
+      "desc": "White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of speed and fire it forward, healing allies in its path while applying Charm to enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Cryo Heart",
+      "desc": "Automatically restore Health when casting Ice Arts or Absolute Zero",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Smooth Skate",
+      "desc": "Keep moving forward to start ice skating and enable higher jumps",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "ICED OUT DIAMOND",
+      "desc": "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates Harmony Recovery, he can heal nearby allies with Lunar Chi. Emma Frost can project ice energy forward, dealing damage and slowing enemies. She can also enhance her diamond form, condensing frost into an Absolute Zero Diamond barrier that blocks enemy attacks and movement",
+      "upgrade": null
+    }
+  ],
+  "MANTIS": [
+    {
+      "key": "Left Click",
+      "name": "Life Energy Blast",
+      "desc": "Fire an energy thorn and regain one Life Orb after a critical hit.",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Healing Flower",
+      "desc": "Consume Life Orbs to grant allies Healing Over Time",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "Soul Resurgence",
+      "desc": "Release energy around her while moving, providing Healing Over Time and Movement Boosts for surrounding allies. Excess healing converts to Bonus Health",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Spore Slumber",
+      "desc": "Throw a spore to Sedate the nearest enemy",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "Allied Inspiration",
+      "desc": "Consume Life Orbs to grant allies a Damage Boost",
+      "upgrade": null
+    },
+    {
+      "key": "F",
+      "name": "Natural Anger",
+      "desc": "Consume Life Orbs to grant herself a Damage Boost",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Nature's Favor",
+      "desc": "Receive a Movement Boost when not injured and Healing Over Time when consuming Life Orbs",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "Heavenly Guardian",
+      "desc": "Mantis enhances Groot's wooden walls and Loki's Rune Stones with life energy. Groot can additionally unleash a Flower Wall, which, when in Flora Colossus state, restores health to random nearby allies and grants them Damage Reduction. Loki's Rune Stones grant allies within Regeneration Domain a Damage Boost",
+      "upgrade": null
+    }
+  ],
+  "ROCKET RACCOON": [
+    {
+      "key": "Left Click",
+      "name": "Bombard Mode",
+      "desc": "Fire energy projectiles that deal damage",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "Repair Mode",
+      "desc": "Shoot bouncing spheres to heal allies",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "C.Y.A.",
+      "desc": "Deploy a Cosmic Yarn Amplifier that grants allies a Damage Boost",
+      "upgrade": null
+    },
+    {
+      "key": "SHIFT",
+      "name": "Jetpack Dash",
+      "desc": "Dash forward",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "B.R.B.",
+      "desc": "Deploy a Battle Rebirth Beacon that revives a fallen ally and periodically produces armor packs and rocket jet packs",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "Old Friends",
+      "desc": "Jeff the Land Shark and Rocket Raccoon can ride on Groot's shoulders, receiving Damage Reduction",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Wild Crawl",
+      "desc": "Hold Space to run on a wall",
+      "upgrade": null
+    },
+    {
+      "key": "Space",
+      "name": "Flying Ace",
+      "desc": "Hold Space to fall slowly",
+      "upgrade": null
+    }
+  ],
+  "Ultron": [
+    {
+      "key": "Left Click",
+      "name": "ENCEPHALO-RAY",
+      "desc": "Unleash a burning energy beam",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "IMPERATIVE: FIREWALL",
+      "desc": "Deploy drones to an ally marked by Imperative: Patch, granting them increased Speed and Damage. Additionally, all allies within range of you and the chosen teammate receive Bonus Health.",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "RAGE OF ULTRON",
+      "desc": "Summon Ultron Drones to fire Encephalo-Rays, damaging enemies or healing allies",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "DYNAMIC FLIGHT",
+      "desc": "Fly quickly in the direction of movement and then enter an Accelerated state",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "IMPERATIVE: PATCH",
+      "desc": "Command up to 2 giant drones to follow 2 allies, constantly healing allies within its radius, with more healing for the designated allies.",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "NANO RAY",
+      "desc": "When Iron Man, Ultron and Squirrel Girl team up, Ultron's Encephalo-Ray upgrades to Nano-Ray, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the Squirrel Missile ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
+      "upgrade": null
+    }
+  ],
+  "White Fox": [
+    {
+      "key": "Left Click",
+      "name": "YEOWOO GUSEUL",
+      "desc": "Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages enemies, heals allies, and restores Spirit Tail energy",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "CLAW STRIKE",
+      "desc": "While Awakened, slash forward with a flurry of attacks",
+      "upgrade": null
+    },
+    {
+      "key": "Left Click",
+      "name": "NINEFOLD SLAM",
+      "desc": "In Kumiho Form, slam the ground, causing an explosive shockwave. Hitting enemies or summons grants One-Time Healing to self and nearby allies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "SPECTRAL SURGE",
+      "desc": "Consume one Spirit Tail to send a spectral fox forward. It heals and grants invulnerability to allies it passes through, damages and Charms enemies, forcing foes to move toward White Fox",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "TAIL SWEEP",
+      "desc": "While Awakened, sweep forward tails to launch up hit enemies",
+      "upgrade": null
+    },
+    {
+      "key": "Right Click",
+      "name": "BLESSED BY THE NINE",
+      "desc": "In Kumiho Form, select an ally to grant Continuous Healing, Unstoppable, and Life-Steal for a short time",
+      "upgrade": null
+    },
+    {
+      "key": "Q",
+      "name": "KUMIHO UNLEASHED",
+      "desc": "Manifest the full Nine-Tailed Fox form and continuously heal nearby allies. Cannot receive healing effects from others while in this form",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "SPIRIT SANCTUARY",
+      "desc": "Teleport to a chosen ally, instantly healing allies in the area while generating a shield",
+      "upgrade": null
+    },
+    {
+      "key": "Shift",
+      "name": "Predatory Pounce",
+      "desc": "While Awakened, dash forward. Hit an enemy to slow them, enabling a second dash that knocks back enemies",
+      "upgrade": null
+    },
+    {
+      "key": "E",
+      "name": "FOX FORM AWAKENING",
+      "desc": "Enter Awakened state, transforming Spirit Tails into physical tails. While active, continuously drain Spirit Tail energy and heal nearby allies. Striking enemies provides additional area healing",
+      "upgrade": null
+    },
+    {
+      "key": "C",
+      "name": "NINE-TAILED AURA",
+      "desc": "Black Cat shares her luck with her allies. When White Fox embraces her newfound fortune, she unleashestracking Spirit Tails to grant Healing and Speed to allies, while damaging and Slowing foes. When Captain America enjoys his luck, his shield's block radius expands and allows him to aim deflectedProjectiles directly toward his target",
+      "upgrade": null
+    },
+    {
+      "key": "Passive",
+      "name": "SPIRIT FOX WARD",
+      "desc": "White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of speed and fire it forward, healing allies in its path while applying Charm to enemies",
+      "upgrade": null
+    }
+  ]
+}

@@ -38,13 +38,17 @@ jobs:
       - name: Post-process Custom Logic & Hero Count
         run: node scripts/post_process.js
 
+      # 2.5. 다국어(KR/JP) 번역 및 데이터 무결성 검증
+      - name: Validate Translations & Data Integrity
+        run: node scripts/validate_translations.js
+
       # 3. 변경 사항 감지 및 자동 커밋 & 푸시
       - name: Commit and Push if Changes Detected
         run: |
           git config --global user.name "MarvelRivals-SyncBot"
           git config --global user.email "sync-bot@marvelrivals.local"
 
-          git add data/heroes.json index.html scripts/sync_heroes.py
+          git add data/heroes.json data/translations.json data/translations/ index.html scripts/sync_heroes.py
 
           if git diff --staged --quiet; then
             echo "✅ 최신 상태입니다. (새로운 패치 또는 변경사항 없음)"

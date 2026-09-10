@@ -1,0 +1,578 @@
+{
+  "Launch quantum energy to deal damage": {
+    "ko": "양자 에너지를 발사하여 적에게 피해를 입힙니다.",
+    "ja": "量子エネルギーを発射して敵にダメージを与える。"
+  },
+  "Gather quantum energy into a cluster and then swiftly launch it at the enemy": {
+    "ko": "양자 에너지를 구체로 응축한 뒤 전방의 적에게 신속하게 발사합니다.",
+    "ja": "量子エネルギーを凝縮し、前方の敵へ素早く撃ち出す。"
+  },
+  "Awaken the karma of allies to revive them. Allies revived have lower health but enjoy a brief period of Invincibility": {
+    "ko": "아군의 업(Karma)을 일깨워 부활시킵니다. 부활한 아군은 체력이 낮지만 잠시 동안 무적 상태가 됩니다.",
+    "ja": "味方のカルマを目覚めさせて蘇生する。蘇生した味方は体力が低下しているが、短時間の無敵状態を得る。"
+  },
+  "Forge a soul bond with allies, granting Healing Over Time and distributing damage taken across the bond": {
+    "ko": "아군과 영혼 결속을 맺어 지속 치유를 부여하고, 결속된 팀원들이 받는 피해를 서로 분산시킵니다.",
+    "ja": "味方とソウルボンド(魂の絆)を結び、持続回復を付与するとともに受けるダメージを分散して共有する。"
+  },
+  "Target an ally for a bouncing stream of healing energy, which also heals himself upon casting; self-targets if no ally is selected": {
+    "ko": "아군을 지정해 튕겨 다니는 치유 에너지 줄기를 발사합니다. 시전 시 자신도 치유되며, 대상을 지정하지 않으면 자신에게 즉시 시전됩니다.",
+    "ja": "味方を指定して跳弾する回復エネルギーを放ち、発動時に自身も回復する。味方未選択時は自身を対象とする。"
+  },
+  "Take to the skies, entering a flying state and swiftly surge forward": {
+    "ko": "하늘로 날아올라 비행 상태에 돌입하며 전방으로 신속하게 급돌진합니다.",
+    "ja": "上空へ飛び立って飛行状態に入り、前方へ素早く急突進する。"
+  },
+  "Storm channels her elemental power into Adam Warlock. When Adam uses Soaring Surge, his movement speed is increased. While flying, Adam leaves behind a storm-charged trail that heals and speeds up allies within it": {
+    "ko": "스톰이 원소의 힘을 아담 워록에게 주입합니다. 비행 돌진 시 이동 속도가 증가하며, 비행 경로에 아군을 치유하고 가속하는 폭풍 궤적을 남깁니다.",
+    "ja": "ストームが元素の力をアダム・ウォーロックに注ぎ込む。飛行突進時に移動速度が上昇し、軌跡に味方を回復・加速させる嵐の軌道を残す。"
+  },
+  "Once his body perishes, Adam Warlock can freely move as a soul and reforge his body at a chosen spot": {
+    "ko": "육체가 쓰러지면 아담 워록은 영혼 상태로 자유롭게 이동하여 원하는 위치에서 육체를 재구성해 부활할 수 있습니다.",
+    "ja": "肉体が滅びると、魂の状態で自由に移動し、選んだ地点で肉体を再構築して蘇生できる。"
+  },
+  "Lunge forward with your spear, dealing damage that increases with Attack Charge. At full charge, Spear of Ichor can launch up enemies": {
+    "ko": "창을 전방으로 찔러 공격 게이지(Attack Charge)에 비례한 피해를 입힙니다. 게이지가 가득 차면 적을 공중으로 띄웁니다.",
+    "ja": "槍を前方に突き出して攻撃チャージに応じたダメージを与える。最大チャージ時は敵を打ち上げる。"
+  },
+  "Alternate powerful strikes forward with twin axes, dealing increased damage as Attack Charge grows. The fourth strike propels you forward in a swift dash": {
+    "ko": "쌍도끼로 전방을 번갈아 강타하며 공격 게이지에 따라 피해량이 증가합니다. 4타 공격 시 전방으로 신속하게 돌진합니다.",
+    "ja": "双斧で前方を交互に強打し、攻撃チャージに応じてダメージが上昇する。4打目に高速ダッシュで前方へ突進する。"
+  },
+  "Transform Ichors into a shield, gaining Attack Charge when absorbing damage": {
+    "ko": "이코르(Ichor)를 방패로 변환하여 피해를 흡수하며, 피해 흡수 시 공격 게이지를 획득합니다.",
+    "ja": "イコルを盾に変形させてダメージを吸収し、攻撃チャージを獲得する。"
+  },
+  "Wrap your spear in ribbons and hurl it with force. Upon impact, the ribbons bind nearby enemies. Angela can leap to the spear's location, damaging surrounding enemies and creating a Divine Judgement Zone": {
+    "ko": "창에 리본을 감아 강력하게 투척합니다. 착탄 시 리본이 주변 적들을 결박하며, 안젤라는 창 위치로 도약하여 주변에 피해를 주고 신성한 심판 영역을 생성합니다.",
+    "ja": "槍にリボンを巻き付けて力強く投擲する。着弾時に周囲の敵を拘束し、アンジェラは槍の位置へ跳躍して範囲ダメージを与え、神聖なる審判エリアを生成する。"
+  },
+  "Enter an accelerated dash state, enemies struck head-on are carried through the air for a short distance": {
+    "ko": "가속 돌진 상태에 돌입하여 정면으로 충돌한 적을 잠시 공중으로 끌고 날아갑니다.",
+    "ja": "加速ダッシュ状態に突入し、正面衝突した敵を短距離空中へ巻き込んで運ぶ。"
+  },
+  "Enter an accelerated dash state,  enemies struck head-on are carried through the air for a short distance": {
+    "ko": "가속 돌진 상태에 돌입하여 정면으로 충돌한 적을 잠시 공중으로 끌고 날아갑니다.",
+    "ja": "加速ダッシュ状態に突入し、正面衝突した敵を短距離空中へ巻き込んで運ぶ。"
+  },
+  "Dive downward, switch to twin axes and infuse the ground with Ichors to create a Divine Judgement Zone upon impact. Within the zone, gain enhanced Speed and attacks grant Bonus Health to self and nearby allies": {
+    "ko": "아래로 급강하하여 쌍도끼로 전환하고 착탄 시 지면에 이코르를 주입해 신성한 심판 영역을 생성합니다. 영역 내에서 이동 속도가 증가하고 공격 시 자신과 주변 아군에게 추가 체력을 부여합니다.",
+    "ja": "急降下して双斧に切り替え、着地時に地面にイコルを注入して神聖なる審判エリアを展開する。エリア内では移動速度が上昇し、攻撃時に自身と周囲の味方へ追加体力を付与する。"
+  },
+  "Take to the skies, switching back to Spear of Ichors": {
+    "ko": "하늘로 치솟아 오르며 이코르의 창으로 다시 전환합니다.",
+    "ja": "上空へ飛び上がり、再びイコルの槍へと切り替える。"
+  },
+  "Glide freely through the air. Continuous flight builds Attack Charge": {
+    "ko": "공중을 자유롭게 활공합니다. 비행을 지속할수록 공격 게이지가 서서히 충전됩니다.",
+    "ja": "空中を自在に滑空する。滑空を維持することで攻撃チャージが徐々に蓄積される。"
+  },
+  "Angela shares fragments of her Ichors with Thor, empowering him to hurl a Thunder Spear that restores Thorforce for each enemy struck. Afterward, Thor can leap to the spear's explosion point, dealing a second wave of damage to all enemies within range": {
+    "ko": "안젤라가 토르에게 이코르 파편을 공유하여, 적중한 적마다 토르포스를 회복하는 번개의 창을 투척할 수 있게 합니다. 이후 토르는 창의 폭발 지점으로 도약하여 범위 내 모든 적에게 2차 피해를 가합니다.",
+    "ja": "アンジェラがソーにイコルの破片を分け与え、命中した敵ごとにソーフォースを回復する雷の槍を投擲できるようにする。その後、ソーは槍の爆発地点へ跳躍し、範囲内の全敵へ2次ダメージを与える。"
+  },
+  "Swipe forward with razor-sharp claws": {
+    "ko": "날카로운 발톱으로 전방을 빠르게 할퀴어 공격합니다.",
+    "ja": "鋭利な鉤爪で前方を素早く切り裂く。"
+  },
+  "Fire out tethered claws and whip them forward in a devastating arc, dealing damage to all enemies caught in range": {
+    "ko": "와이어 발톱을 발사하여 전방으로 크게 채찍질하며 호를 그리고, 범위 내의 모든 적에게 피해를 입힙니다.",
+    "ja": "ワイヤー付きの爪を射出して前方へ大きく薙ぎ払い、範囲内の全敵にダメージを与える。"
+  },
+  "Spend Fortuneto unleash either Grapple Swipeor Phantom Pursuit": {
+    "ko": "BLACK CAT의 FORTUNE'S FAVOR 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのFORTUNE'S FAVORを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Issue a Calling Card to all enemies. Instantly dash to any enemy in sight and range, tearing into them with your claws to deal Damage": {
+    "ko": "BLACK CAT의 CALLING CARD 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのCALLING CARDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Issue a Calling Card to all enemies. Instantly dash to any enemy in sight and range, tearing into them with your claws to deal Damage": {
+    "ko": "BLACK CAT의 CALLING CARD 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのCALLING CARDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Lunge forward with claws bared, slicing through any enemies caught in your path": {
+    "ko": "BLACK CAT의 CAT'S CRADLE 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのCAT'S CRADLEを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Launch a grappling hook forward that damages an enemy on impact and steals Fortunebefore pulling it back to Black Cat": {
+    "ko": "BLACK CAT의 TURN OF FORTUNE 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのTURN OF FORTUNEを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Swiftly dash to an enemy, unleash a rapid flurry of claw attacks, and flash back to your starting position. Black Cat is Untargetableduring this move": {
+    "ko": "BLACK CAT의 PHANTOM PURSUIT 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのPHANTOM PURSUITを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Use the Spatial Resonator to open a portal to the Elder Gods' dimension, consuming Fortune to trade with the Golden Elder and acquire items from the New York Thieves Guild vault.": {
+    "ko": "BLACK CAT의 GILDED DEAL 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのGILDED DEALを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Gain a random amount of Fortune": {
+    "ko": "BLACK CAT의 TABLET OF DESTINIES 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのTABLET OF DESTINIESを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Enter Invisiblestate for a set duration": {
+    "ko": "BLACK CAT의 HELM OF HADES 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのHELM OF HADESを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Conjure an orb of mystical Faltine Flame to Revealand mark all nearby enemies": {
+    "ko": "BLACK CAT의 FALTINE FLAME ORB 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのFALTINE FLAME ORBを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Purify yourself, instantly removing any active control effects": {
+    "ko": "BLACK CAT의 CHERNOBOG'S CRYSTAL 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのCHERNOBOG'S CRYSTALを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Open a portal on a surface, allowing instant traversal to the opposite side": {
+    "ko": "BLACK CAT의 RING OF ZONA 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのRING OF ZONAを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Create a hypnosis field. Inflicts Slow, disables movement abilities, and Groundsall enemies caught within": {
+    "ko": "BLACK CAT의 MENTO-FISH 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのMENTO-FISHを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Perform a double jump": {
+    "ko": "BLACK CAT의 THIEVING GRACE 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのTHIEVING GRACEを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Hold {Jump} to crawl up vertical surfaces": {
+    "ko": "BLACK CAT의 STEALTHY CATWALK 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのSTEALTHY CATWALKを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Apply Jinxto enemies on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a Critical Hit": {
+    "ko": "BLACK CAT의 MALKIN MISFORTUNE 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのMALKIN MISFORTUNEを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby allies and enemies, granting allies speed and healing while dealing damage and slowing enemies. Captain America receives the Vibranium Energy Amplifier, which expands shield block range when raised and reflects projectiles back along the crosshair direction.": {
+    "ko": "BLACK CAT의 GIFT OF GOLD 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのGIFT OF GOLDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Steal a set amount of Fortunewhenever your attacks hit an enemy": {
+    "ko": "BLACK CAT의 STICKY PAWS 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK CATのSTICKY PAWSを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Slice Vibranium Claws forward": {
+    "ko": "BLACK PANTHER의 Vibranium Claws 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK PANTHERのVibranium Clawsを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Toss a Vibranium energy spear forward, creating a Vibranium Force Field and attaching a Vibranium Mark to enemies in its radius": {
+    "ko": "BLACK PANTHER의 Spear Toss 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK PANTHERのSpear Tossを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Summon Bast, pouncing forward, dealing damage, and attaching a Vibranium Mark to enemies hit while refreshing Spirit Rend": {
+    "ko": "BLACK PANTHER의 Bast's Descent 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK PANTHERのBast's Descentを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Lunge forward and deal damage to enemies. Vibranium Mark produces Bonus Health and refreshes the ability": {
+    "ko": "BLACK PANTHER의 Spirit Rend 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK PANTHERのSpirit Rendを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Spiral forward and attach a Vibranium Mark to enemies hit": {
+    "ko": "BLACK PANTHER의 Spinning Kick 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK PANTHERのSpinning Kickを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Hold Space to run on a wall; perform a jump after detaching from the wall": {
+    "ko": "BLACK PANTHER의 Subtle Step 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK PANTHERのSubtle Stepを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Deal higher damage when at low Health": {
+    "ko": "BLACK PANTHER의 Panther's Cunning 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK PANTHERのPanther's Cunningを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther's Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming Unstoppable": {
+    "ko": "BLACK PANTHER의 GAMMA VIBRANIUM ARMOR 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLACK PANTHERのGAMMA VIBRANIUM ARMORを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Slash forward with Blade's Ancestral Sword": {
+    "ko": "BLADE의 Ancestral Sword 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLADEのAncestral Swordを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Fire at enemies using your Shotgun": {
+    "ko": "BLADE의 Hunter's Shotgun 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLADEのHunter's Shotgunを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Parry with Ancestral Sword to become Unstoppable for a brief period, reducing damage taken from the front and decreasing the cooldown of Daywalker Dash": {
+    "ko": "BLADE의 Scarlet Shroud 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLADEのScarlet Shroudを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Charge power and swiftly draw the Sword of Dracula, executing a powerful Iaido strike as you dash forward, leaving behind a slashing zone where the sword automatically strikes enemies. Enemies hit suffer Reduced Healing": {
+    "ko": "BLADE의 Thousand-Fold Slash 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLADEのThousand-Fold Slashを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Dash forward. If wielding your gun, shoot at enemies upon impact, applying a Healing Reduction effect. If wielding your sword, deliver a cleaving strike that inflicts Slow": {
+    "ko": "BLADE의 Daywalker Dash 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLADEのDaywalker Dashを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering Whirlwind Slash.If all Whirlwind Slash strikes hit, your Attack Speed will further increase. While under this state, you suffer Reduced Healing, but attacks gain Lifesteal": {
+    "ko": "BLADE의 Bloodline Awakening 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLADEのBloodline Awakeningを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering Whirlwind Slash.If all Whirlwind Slash strikes hit, your Attack Speed will further increase. While under this state, you suffer Reduced Healing, but attacks gain Lifesteal": {
+    "ko": "BLADE의 Bloodline Awakening 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLADEのBloodline Awakeningを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his Ancestral Sword in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a Darkmoon Blade forward. When a Darkmoon Blade hits an enemy, it bounces to nearby targets": {
+    "ko": "BLADE의 ECLIPSE EDGE 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "BLADEのECLIPSE EDGEを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Strike with the enhanced electric batons": {
+    "ko": "Black Widow의 Widow's Bite Baton 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Black WidowのWidow's Bite Batonを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Attack with the Red Room Rifle": {
+    "ko": "Black Widow의 Red Room Rifle 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Black WidowのRed Room Rifleを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Fire an electro-plasma round forward. Upon hitting the environment or an enemy, it explodes and applies a Slow effect": {
+    "ko": "Black Widow의 ELECTRO-PLASMA BLAST 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Black WidowのELECTRO-PLASMA BLASTを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Switch the Red Room Rifle to sniper mode. Shots fired in this state pierce through targets and deal increased damage": {
+    "ko": "Black Widow의 ASSASSIN'S FOCUS 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Black WidowのASSASSIN'S FOCUSを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Unleash a spinning kick to Launch Up enemies. Landing the hit will allow her to zip to the target with a grappling hook for a second kick": {
+    "ko": "Black Widow의 EDGE DANCER 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Black WidowのEDGE DANCERを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Leap toward a target area and slam the ground with her Widow's Bite gauntlet, dealing damage to enemies within range": {
+    "ko": "Black Widow의 WIDOW'S BITE SLAM 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Black WidowのWIDOW'S BITE SLAMを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Get up close to strike enemies. Landing the second hit enables a shield throw that can ricochet four times": {
+    "ko": "CAPTAIN AMERICA의 Sentinel Strike 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CAPTAIN AMERICAのSentinel Strikeを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Slam down from the sky onto the targeted area, Launching Up enemies": {
+    "ko": "CAPTAIN AMERICA의 Super-Soldier Slam 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CAPTAIN AMERICAのSuper-Soldier Slamを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Slam down from the sky onto the targeted area, Launching Up enemies": {
+    "ko": "CAPTAIN AMERICA의 Super-Soldier Slam 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CAPTAIN AMERICAのSuper-Soldier Slamを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Raise the shield to deflect incoming projectiles, sending them ricocheting in random directions": {
+    "ko": "CAPTAIN AMERICA의 Living Legend 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CAPTAIN AMERICAのLiving Legendを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Shield held high, carve a path forward, granting both himself and allies along the path continuous Bonus Health and Movement Boosts. Allies also gain Ultimate Ability Charge Acceleration. Using Living Legend and Leading Dash while this ability is active can Launch Up enemies": {
+    "ko": "CAPTAIN AMERICA의 Freedom Charge 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CAPTAIN AMERICAのFreedom Chargeを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Boost speed and enable Fearless Leap to leap into the air": {
+    "ko": "CAPTAIN AMERICA의 Leading Dash 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CAPTAIN AMERICAのLeading Dashを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Hurl the energy-charged shield to strike enemies in a path": {
+    "ko": "CAPTAIN AMERICA의 Vibranium Energy Saw 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CAPTAIN AMERICAのVibranium Energy Sawを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Raise the shield and charge forward": {
+    "ko": "CAPTAIN AMERICA의 Liberty Rush 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CAPTAIN AMERICAのLiberty Rushを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Black Cat shares her luck with her allies. When White Fox embraces her newfound fortune, she unleashestracking Spirit Tails to grant Healing and Speed to allies, while damaging and Slowing foes. When Captain America enjoys his luck, his shield's block radius expands and allows him to aim deflectedProjectiles directly toward his target": {
+    "ko": "CAPTAIN AMERICA의 VIBRANIUM BASTION 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CAPTAIN AMERICAのVIBRANIUM BASTIONを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to deal damage to nearby foes. Additionally, Captain America and Winter Soldier can interact with each other once both parties confirm. The duo collides and unleashes a shockwave that deals damage and inflicts slow on enemies": {
+    "ko": "CAPTAIN AMERICA의 Captain's Spirit 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CAPTAIN AMERICAのCaptain's Spiritを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Inflict continuous damage on an enemy": {
+    "ko": "Cloak & Dagger의 Darkforce Cloak 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Cloak & DaggerのDarkforce Cloakを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Unleash a bouncing Lightforce Dagger to damage enemies and heal nearby allies": {
+    "ko": "Cloak & Dagger의 Lightforce Dagger 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Cloak & DaggerのLightforce Daggerを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Enshroud nearby allies in the Darkforce Dimension, plunging them into the Phased state, making them untargetable and invisible to enemies and granting them a Movement Boost": {
+    "ko": "Cloak & Dagger의 Dark Teleportation 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Cloak & DaggerのDark Teleportationを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Launch a volley of daggers, creating a Healing Over Time field in the impact area": {
+    "ko": "Cloak & Dagger의 Dagger Storm 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Cloak & DaggerのDagger Stormを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Perform four rapid dashes, healing allies and damaging enemies along the path": {
+    "ko": "Cloak & Dagger의 Eternal Bond 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Cloak & DaggerのEternal Bondを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Switch to Dagger": {
+    "ko": "Cloak & Dagger의 Light's Embrace 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Cloak & DaggerのLight's Embraceを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Switch to Cloak": {
+    "ko": "Cloak & Dagger의 Shadow's Embrace 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Cloak & DaggerのShadow's Embraceを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Deploy a Veil of Darkforce to damage enemies upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received": {
+    "ko": "Cloak & Dagger의 Terror Cape 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Cloak & DaggerのTerror Capeを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Deploy a Veil of Lightforce to heal allies upon touch and grant them a Healing Boost": {
+    "ko": "Cloak & Dagger의 Veil of Lightforce 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Cloak & DaggerのVeil of Lightforceを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses Crescent Slash, enemies hit are launched back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and boosts healing for allies, while damaging enemies and applying Vulnerability": {
+    "ko": "Cloak & Dagger의 FROM SHADOW TO LIGHT 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "Cloak & DaggerのFROM SHADOW TO LIGHTを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Fire a quick burst of kinetic force forward. Hitting enemies accelerates Ricochet Force charge rate": {
+    "ko": "Cyclops의 Optic Blast 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CyclopsのOptic Blastを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Continuously fire a powerful beam that can refract between enemies and the environment. Hitting enemies accelerates Ricochet Force charge rate": {
+    "ko": "Cyclops의 Concussive Beam 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CyclopsのConcussive Beamを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Remove visor and fire a powerful sweeping beam forward. The blast leaves behind volatile excess energy that erupts, dealing massive secondary explosive damage": {
+    "ko": "Cyclops의 Ruby Rage 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CyclopsのRuby Rageを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Fire a propulsion beam to push yourself and the target backward, applying a Slow effect to the enemy": {
+    "ko": "Cyclops의 Propulsion Burst 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CyclopsのPropulsion Burstを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Fire a beam that can diffract and track nearby enemies after hitting terrain. Upon use, Cyclops gains Bonus Health": {
+    "ko": "Cyclops의 Ricochet Force 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CyclopsのRicochet Forceを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Fire a propulsion beam directly downward to push yourself up and knock back hit enemies, applying a Slow effect to them": {
+    "ko": "Cyclops의 Optic Ascent 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CyclopsのOptic Ascentを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Enter a slow-fall state while firing Concussive Beam mid-air": {
+    "ko": "Cyclops의 Kinetic Hover 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CyclopsのKinetic Hoverを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Cyclops supercharges Wolverine's claws, extending his attack range. While active, Wolverine's Vicious Rampage is replaced with Kinetic Claws, granting him a brief forward lunge that unleashes a flurry of slashes around him": {
+    "ko": "Cyclops의 Red Adamantium 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "CyclopsのRed Adamantiumを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Nobody lays a finger on my teammates! Anyone tries, and I'm firing these big boy bullets straight at their face!": {
+    "ko": "DEADPOOL (VANGUARD)의 DUAL DESERT EAGLES - VANGUARD 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のDUAL DESERT EAGLES - VANGUARDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "I rack up shots, then, BOOM! A mind-blowing bubble bomb for all the enemies. Teammate security: maximum": {
+    "ko": "DEADPOOL (VANGUARD)의 DUAL DESERT EAGLES - VANGUARD UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のDUAL DESERT EAGLES - VANGUARD UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Protecting my team means my katanas go full savage. No mercy for the baddies!": {
+    "ko": "DEADPOOL (VANGUARD)의 KICK@$$ KATANA - VANGUARD 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のKICK@$$ KATANA - VANGUARDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Bad Bunny hit makes the next swing a stabby special": {
+    "ko": "DEADPOOL (VANGUARD)의 KICK@$$ KATANA - VANGUARD UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のKICK@$$ KATANA - VANGUARD UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Bad Bunny hit makes the next swing a stabby special": {
+    "ko": "DEADPOOL (VANGUARD)의 KICK@$$ KATANA - VANGUARD UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のKICK@$$ KATANA - VANGUARD UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Plushie power! It stops every single attack those chumps throw, giving my team a safety bubble. It's cute AND bulletproof": {
+    "ko": "DEADPOOL (VANGUARD)의 MAGICAL UNICORN SHIELD! 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のMAGICAL UNICORN SHIELD!を発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "My ultra-cool, super shiny, extra huggable, and totally blinged-out plushy. Toss it ahead, and it lands as an invincible sphere of awesomeness! Blocking attacks and keeping my team safe inside our furry fortress": {
+    "ko": "DEADPOOL (VANGUARD)의 MAGICAL UNICORN SHIELD! - UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のMAGICAL UNICORN SHIELD! - UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Try getting to my teammates, I dare you! My dash slash knocks fools down, and if I hit, I get to do it again. Up to three times, baby!": {
+    "ko": "DEADPOOL (VANGUARD)의 HAZARDOUS HIJINKS - VANGUARD 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のHAZARDOUS HIJINKS - VANGUARDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Watch this pro bodyguard in action! I dash forward, nail the bad guy, and bounce in any direction I want. Oh, and I can do this two more times real quick!": {
+    "ko": "DEADPOOL (VANGUARD)의 HAZARDOUS HIJINKS - VANGUARD UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のHAZARDOUS HIJINKS - VANGUARD UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "You! Yeah, you - the hyper one! Eyes off my friends. I sentence you to...whatever! Get ready to be taunted. I get bonus HP and healing, and if you whiff your abilities, you take damage, and I get even more HP!": {
+    "ko": "DEADPOOL (VANGUARD)의 THE BAN HAMMER 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のTHE BAN HAMMERを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Upgraded courtroom drama! Congrats, unlucky one! You're my pick; enjoy the taunt! I score bonus health and healing, and you take ongoing damage. If you miss an ability while court is in session, it's a double whammy. You get more pain, AND I get more extra HP! Thanks in advance!": {
+    "ko": "DEADPOOL (VANGUARD)의 THE BAN HAMMER - UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のTHE BAN HAMMER - UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Hazardous Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!": {
+    "ko": "DEADPOOL (VANGUARD)의 THE BIG TEST 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のTHE BIG TESTを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs (massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!": {
+    "ko": "DEADPOOL (VANGUARD)의 THE BIG TEST - UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のTHE BIG TEST - UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Want to hurt my team? Good luck! I hit you with a taunt, mess up your vision, and burn your health nonstop! Best part: my swords and guns go full turbo for the duration. Blink and you'll miss it": {
+    "ko": "DEADPOOL (VANGUARD)의 DEADPOOL IN YOUR AREA - VANGUARD 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のDEADPOOL IN YOUR AREA - VANGUARDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Teammates, stay safe! Dummies, look here! It's showtime: I taunt, blind you, and hit warp speed with my swords and guns. Plus, my crew gets a damage reduction buff, so they're basically invincible. Dummies that stick around too long will even have their UI taped over!": {
+    "ko": "DEADPOOL (VANGUARD)의 DEADPOOL IN YOUR AREA - VANGUARD UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のDEADPOOL IN YOUR AREA - VANGUARD UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!": {
+    "ko": "DEADPOOL (VANGUARD)의 UPGRADE! 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のUPGRADE!を発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Yup, I can double jump in midair! During The Big Test and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!": {
+    "ko": "DEADPOOL (VANGUARD)의 BUNNY BOUNCE 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のBUNNY BOUNCEを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains": {
+    "ko": "DEADPOOL (VANGUARD)의 HEALING FACTOR 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のHEALING FACTORを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!": {
+    "ko": "DEADPOOL (VANGUARD)의 MAXIMUM FLAIR 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のMAXIMUM FLAIRを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!": {
+    "ko": "DEADPOOL (VANGUARD)의 Comical Chaos 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (VANGUARD)のComical Chaosを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Bang! Bang! Unleash two hand cannons left and right, because one gun is never enough. Pew pew, baby!": {
+    "ko": "DEADPOOL (DUELIST)의 DUAL DESERT EAGLES - DUELIST 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のDUAL DESERT EAGLES - DUELISTを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Keep blasting till you trigger a BOOM. My thoughts literally explode onto the battlefield. Talk about mind-blowing firepower!": {
+    "ko": "DEADPOOL (DUELIST)의 DUAL DESERT EAGLES - DUELIST UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のDUAL DESERT EAGLES - DUELIST UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Slicey, dicey, twice as nicey! Swing both swords at whoever gets too close. Sushi, anyone?": {
+    "ko": "DEADPOOL (DUELIST)의 KICK@$$ KATANA - DUELIST 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のKICK@$$ KATANA - DUELISTを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Now with extra chop! Stabs can go straight for the noggin. Heads up! Do a Bunny Hop and POW! Stabby Stabby action guaranteed! Run while you can!": {
+    "ko": "DEADPOOL (DUELIST)의 KICK@$$ KATANA - DUELIST UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のKICK@$$ KATANA - DUELIST UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Ever seen someone throw their own face? Watch me KO a crowd, then catch my mug on the rebound!. Don't lose your head over it": {
+    "ko": "DEADPOOL (DUELIST)의 HEADSHOT! - DUELIST 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のHEADSHOT! - DUELISTを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Juggle my noggin for extra throws! If you catch it thrice, it goes kaboom. Everyone gets a piece of my mind": {
+    "ko": "DEADPOOL (DUELIST)의 HEADSHOT! - DUELIST UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のHEADSHOT! - DUELIST UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Blink, and you'll miss my deadly dash combo. Slash, dash, repeat! Hit someone? You get to go again! (Up to 2 more times. Don't get greedy.) Who says I can't multitask?": {
+    "ko": "DEADPOOL (DUELIST)의 HAZARDOUS HIJINKS - DUELIST 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のHAZARDOUS HIJINKS - DUELISTを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Now with bouncy castle action! Slash, bounce, repeat. It's like the world's deadliest pinball!. Cooldowns? Never heard of 'em. Keep going as long as you hit stuff, just don't let me fall flat on my ass!": {
+    "ko": "DEADPOOL (DUELIST)의 HAZARDOUS HIJINKS - DUELIST UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のHAZARDOUS HIJINKS - DUELIST UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Let's play judge! Pick a dumb-dumb and slap a taunt. They miss an ability? Boom! Gavel drops, and I slap them with pain and snark": {
+    "ko": "DEADPOOL (DUELIST)의 SKILL ISSUE 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のSKILL ISSUEを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Dumbpoochu, I choose you! Taunt time! Their HP melts away, and if they whiff an ability, they get bonus pain AND Vulnerability. Double whammy! Objection? Overruled!": {
+    "ko": "DEADPOOL (DUELIST)의 SKILL ISSUE - UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のSKILL ISSUE - UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Hey, you! Yeah, you! Ready for a challenge? Free speed and healing just for trying. Nail enough hits with the right abilities and unlock the deluxe speed-heal package. It's an A+ in chaos!": {
+    "ko": "DEADPOOL (DUELIST)의 POP QUIZ! 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のPOP QUIZ!を発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Don't just stand there, you blockhead! The challenge's still rolling. But don't worry, I'm not one of those money-hungry scam artists. The buffs are on the house, no price hike. Take on this challenge, and you'll get three freebies: a little Speed boost, Continuous Healing, and Damage Up. Hit enough baddies with the right abilities exactly as I ask, and you unlock the ultimate bundle (Super Speed, Super Healing, Damage Boost AND reset all your cooldowns (except Healing Factor; no cheating!). Now THAT'S love": {
+    "ko": "DEADPOOL (DUELIST)의 POP QUIZ! - UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のPOP QUIZ! - UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "True heroes taunt face-to-face! I roast nearby baddies, mess up their vision, and tank their hits like a boss. Try me!": {
+    "ko": "DEADPOOL (DUELIST)의 DEADPOOL IN YOUR AREA - DUELIST 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のDEADPOOL IN YOUR AREA - DUELISTを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Check out the best trash talk in the Chronoverse! Keep taunting and melting their HP! I even block their screen, so they can't see squat. Plus, I tank hits like a champ. Enemies that stick around too long get the bottom of their screen taped up. By the end, they won't even find their health bar and whatnot. Good luck fighting what you can't see, suckers!": {
+    "ko": "DEADPOOL (DUELIST)의 DEADPOOL IN YOUR AREA - DUELIST UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のDEADPOOL IN YOUR AREA - DUELIST UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Hippity-hoppity, Deadpool's on your property! Watch me squeeze in a second jump midair! Hop on heads or kick off walls with Bunny Hop to refresh the cooldown, and if I land on someone? Free health for me, and a headache for them. Whee!": {
+    "ko": "DEADPOOL (DUELIST)의 BUNNY HOP 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (DUELIST)のBUNNY HOPを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Healing Hop hit makes the next swing a stabby special": {
+    "ko": "DEADPOOL (STRATEGIST)의 KICK@$$ KATANA - STRATEGIST UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (STRATEGIST)のKICK@$$ KATANA - STRATEGIST UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Healing Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!": {
+    "ko": "DEADPOOL (STRATEGIST)의 FINAL EXAM 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (STRATEGIST)のFINAL EXAMを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs(massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!": {
+    "ko": "DEADPOOL (STRATEGIST)의 FINAL EXAM - UPGRADED 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEADPOOL (STRATEGIST)のFINAL EXAM - UPGRADEDを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Bite forward. Applies a Bleed that deals continuous Percentage Damage": {
+    "ko": "DEVIL DINOSAUR의 Primal Bite 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEVIL DINOSAURのPrimal Biteを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Unleash a devastating beam of energy that inflicts a Bleed and Slow.": {
+    "ko": "DEVIL DINOSAUR의 Impact Beam 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEVIL DINOSAURのImpact Beamを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Erupt in primal fury! Gain a massive Movement Speed Boost while unleashing earth-shattering stomps that Launch enemies and applies a Bleed. Thunderous roars also emit sonic waves that Slow enemies hit": {
+    "ko": "DEVIL DINOSAUR의 Devil-Beast Rampage 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEVIL DINOSAURのDevil-Beast Rampageを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Dash and pounce on your prey with a vicious bite, applying a Bleed. If the target is already Bleeding, clamp down before hurling them away": {
+    "ko": "DEVIL DINOSAUR의 Savage Predation 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEVIL DINOSAURのSavage Predationを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Activate the heart-shaped generator to expand a spherical shield that blocks incoming damage. Enemies caught within are Slowed": {
+    "ko": "DEVIL DINOSAUR의 Buddy Barrier 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEVIL DINOSAURのBuddy Barrierを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Unleash a flurry of continuous bites, converting the damage dealt into Bonus Health. Deals extra damage against Bleeding targets": {
+    "ko": "DEVIL DINOSAUR의 Frenzied Feast 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEVIL DINOSAURのFrenzied Feastを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Take reduced damage from headshots. Immune to launch-up, knock-back, and other displacement effects. Enemies and allies generate less Ultimate Ability Energy when damaging or healing him": {
+    "ko": "DEVIL DINOSAUR의 Prehistoric Plating 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEVIL DINOSAURのPrehistoric Platingを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Gain Bonus Health when you inflict Bleeding upon an enemy": {
+    "ko": "DEVIL DINOSAUR의 Apex Advantage 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEVIL DINOSAURのApex Advantageを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher": {
+    "ko": "DEVIL DINOSAUR의 Prehistoric Partner 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DEVIL DINOSAURのPrehistoric Partnerを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Cast Daggers of Denak forward": {
+    "ko": "DOCTOR STRANGE의 Daggers of Denak 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DOCTOR STRANGEのDaggers of Denakを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Create a protective barrier against damage": {
+    "ko": "DOCTOR STRANGE의 Shield of the Seraphim 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DOCTOR STRANGEのShield of the Seraphimを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Separate nearby enemies' Souls from their bodies. Damage dealt to these Souls is transferred to their physical bodies": {
+    "ko": "DOCTOR STRANGE의 Eye of Agamotto 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DOCTOR STRANGEのEye of Agamottoを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Ascend and then enter a brief state of sustained flight": {
+    "ko": "DOCTOR STRANGE의 Cloak of Levitation 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DOCTOR STRANGEのCloak of Levitationを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Release Dark Magic to deal damage to nearby enemies": {
+    "ko": "DOCTOR STRANGE의 Maelstrom of Madness 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DOCTOR STRANGEのMaelstrom of Madnessを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Invisible Woman enhances Doctor Strange's Maelstrom of Madness with a psionic explosion. The explosion damages and pulls enemies toward Doctor Strange. Based on the explosion's damage, Doctor Strange and nearby allies gain Bonus Health": {
+    "ko": "DOCTOR STRANGE의 PSIONIC VORTEX 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DOCTOR STRANGEのPSIONIC VORTEXを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Open portals between two locations, enabling all units to travel through them": {
+    "ko": "DOCTOR STRANGE의 Pentagram of Farallah 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DOCTOR STRANGEのPentagram of Farallahを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Dark Magic accumulates with every hit on an enemy. If Dark Magic peaks for too long, Doctor Strange will be cursed with Anti-Heal": {
+    "ko": "DOCTOR STRANGE의 Price of Magic 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DOCTOR STRANGEのPrice of Magicを発動し、敵にダメージを与えて味方を支援する。"
+  },
+  "Doctor Strange shares his arcane mastery, replacing Scarlet Witch's Chthonian Burst with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction": {
+    "ko": "DOCTOR STRANGE의 Enchanted Enhancement 능력을 발동하여 적에게 피해를 주고 아군을 지원합니다.",
+    "ja": "DOCTOR STRANGEのEnchanted Enhancementを発動し、敵にダメージを与えて味方を支援する。"
+  }
+}
