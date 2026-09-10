@@ -4,14 +4,14 @@
   <img src="assets/ignite_icon.png" width="100" alt="Marvel Rivals Ignite Logo" />
 </p>
 
-> 마블 라이벌즈(Marvel Rivals) 전체 영웅(55명, 역할별 데드풀 포함)의 정밀 스킬 수치, 베이스 스탯(HP, SPD), 최신 팀업(Team-Up) 어빌리티 정보를 한국어(KO), 일본어(JP), 영어(EN)로 제공하는 웹 도감입니다.
+> 마블 라이벌즈(Marvel Rivals) 전체 영웅(55명, 역할별 데드풀 포함)의 정밀 스킬 수치, 베이스 스탯(HP, SPD), 최신 팀업(Team-Up) 어빌리티 정보를 한국어(KR), 일본어(JP), 영어(EN)로 제공하는 웹 도감입니다.
 
 ---
 
 ## ✨ 주요 기능 (Features)
 
 - 🌐 **완벽한 3개 국어 지원 (Multi-Language Support)**
-  - 한국어(KO), 日本語(JP), English(EN) 실시간 원클릭 전환
+  - 한국어(KR), 日本語(JP), English(EN) 실시간 원클릭 전환
   - 영웅 이름, 역할군, 스킬 명칭 및 상세 설명, 툴팁 수치 다국어 지원
   - 신규 영웅 출시 시 사전 등록 전까지 영어로 자동 안전 대체(Fallback)
 - 📊 **정밀한 스킬 수치 & 스탯 표기 (Accurate Stats & Numbers)**

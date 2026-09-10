@@ -96,6 +96,7 @@
       btn.addEventListener('click', () => {
         let lang = btn.getAttribute('data-lang');
         if (lang === 'jp') lang = 'ja';
+        if (lang === 'kr') lang = 'ko';
         if (lang && lang !== currentLang) {
           currentLang = lang;
           localStorage.setItem('mr_db_lang', currentLang);
@@ -158,7 +159,7 @@
     // Update active lang button
     langBtns.forEach(btn => {
       const btnLang = btn.getAttribute('data-lang');
-      btn.classList.toggle('active', btnLang === lang || (lang === 'ja' && (btnLang === 'ja' || btnLang === 'jp')));
+      btn.classList.toggle('active', btnLang === lang || (lang === 'ja' && (btnLang === 'ja' || btnLang === 'jp')) || (lang === 'ko' && (btnLang === 'ko' || btnLang === 'kr')));
     });
 
     // Update document language
