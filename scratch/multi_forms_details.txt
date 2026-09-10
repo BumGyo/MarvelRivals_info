@@ -1,0 +1,85 @@
+
+==================== White Fox ====================
+[00] type=0 | Key=            | td_last=       | Name=White Fox
+[01] type=0 | Key=            | td_last=       | Name=White Fox
+[02] type=1 | Key=Left Click  | td_last=0      | Name=YEOWOO GUSEUL
+[03] type=1 | Key=Left Click  | td_last=0      | Name=CLAW STRIKE
+[04] type=2 | Key=Right Click | td_last=0      | Name=SPECTRAL SURGE
+[05] type=2 | Key=E           | td_last=0      | Name=FOX FORM AWAKENING
+[06] type=2 | Key=Shift       | td_last=0      | Name=SPIRIT SANCTUARY
+[07] type=2 | Key=Right Click | td_last=0      | Name=TAIL SWEEP
+[08] type=2 | Key=Shift       | td_last=0      | Name=Predatory Pounce
+[09] type=2 | Key=Q           | td_last=0      | Name=KUMIHO UNLEASHED
+[10] type=3 | Key=Passive     | td_last=0      | Name=SPIRIT FOX WARD
+[11] type=3 | Key=C           | td_last=0      | Name=NINE-TAILED AURA
+[12] type=1 | Key=Left Click  | td_last=1      | Name=NINEFOLD SLAM
+[13] type=2 | Key=Right Click | td_last=1      | Name=BLESSED BY THE NINE
+[14] type=4 | Key=            | td_last=avatar | Name=占位空格
+[15] type=4 | Key=C           | td_last=0      | Name=LUCKY LOAN
+[16] type=4 | Key=C           | td_last=0      | Name=LUCKY LOAN
+[17] type=4 | Key=Passive     | td_last=1      | Name=PSIONIC FOX
+[18] type=4 | Key=Passive     | td_last=1      | Name=PSIONIC FOX
+
+==================== Gambit ====================
+[00] type=0 | Key=            | td_last=       | Name=Gambit
+[01] type=0 | Key=            | td_last=       | Name=Gambit
+[02] type=1 | Key=Left Click  | td_last=0      | Name=Kinetic Cards
+[03] type=2 | Key=Q           | td_last=0      | Name=Ragin' Royal Flush
+[04] type=2 | Key=Shift       | td_last=0      | Name=Cajun Charge
+[05] type=2 | Key=E           | td_last=0      | Name=Healing Hearts
+[06] type=2 | Key=F           | td_last=0      | Name=Breaking Spades
+[07] type=2 | Key=Right Click | td_last=0      | Name=Bayou Bash
+[08] type=3 | Key=Passive     | td_last=0      | Name=ACE OF ACES
+[09] type=2 | Key=E           | td_last=1      | Name=Bridge Boost
+[10] type=2 | Key=F           | td_last=1      | Name=Purifying Pick-Up
+[11] type=2 | Key=F           | td_last=1      | Name=Explosive Trick
+[12] type=2 | Key=E           | td_last=1      | Name=Bidding Barrage
+[13] type=4 | Key=            | td_last=avatar | Name=占位空格
+[14] type=4 | Key=C           | td_last=0      | Name=FAVORABLE ODDS
+[15] type=4 | Key=C           | td_last=0      | Name=FAVORABLE ODDS
+[16] type=4 | Key=C           | td_last=1      | Name=SPARKLING STAFF
+[17] type=4 | Key=Passive     | td_last=1      | Name=SPARKLING STAFF
+
+==================== Cloak & Dagger ====================
+[00] type=0 | Key=            | td_last=       | Name=Cloak
+[01] type=0 | Key=            | td_last=       | Name=Dagger
+[02] type=1 | Key=Left Click  | td_last=0      | Name=Darkforce Cloak
+[03] type=2 | Key=Q           | td_last=0      | Name=Eternal Bond
+[04] type=2 | Key=SHIFT       | td_last=0      | Name=Light's Embrace
+[05] type=2 | Key=E           | td_last=0      | Name=Terror Cape
+[06] type=2 | Key=Right Click | td_last=0      | Name=Dark Teleportation
+[07] type=3 | Key=Passive     | td_last=0      | Name=FROM SHADOW TO LIGHT
+[08] type=1 | Key=Left Click  | td_last=1      | Name=Lightforce Dagger
+[09] type=2 | Key=Q           | td_last=1      | Name=Eternal Bond
+[10] type=2 | Key=SHIFT       | td_last=1      | Name=Shadow's Embrace
+[11] type=2 | Key=E           | td_last=1      | Name=Veil of Lightforce
+[12] type=2 | Key=Right Click | td_last=1      | Name=Dagger Storm
+[13] type=4 | Key=            | td_last=avatar | Name=占位空格
+[14] type=4 | Key=E           | td_last=0      | Name=OBLIVION SHROUD
+[15] type=4 | Key=E           | td_last=0      | Name=OBLIVION SHROUD
+[16] type=4 | Key=C           | td_last=1      | Name=FROZEN HAVEN
+[17] type=4 | Key=C           | td_last=1      | Name=FROZEN HAVEN
+
+==================== MAGIK ====================
+[00] type=0 | Key=            | td_last=       | Name=MAGIK
+[01] type=0 | Key=            | td_last=       | Name=MAGIK
+[02] type=1 | Key=Left Click  | td_last=0      | Name=Soulsword
+[03] type=2 | Key=Q           | td_last=0      | Name=Darkchild
+[04] type=2 | Key=SHIFT       | td_last=0      | Name=Stepping Discs
+[05] type=2 | Key=E           | td_last=0      | Name=Umbral Incursion
+[06] type=2 | Key=Left Click  | td_last=0      | Name=Eldritch Whirl
+[07] type=2 | Key=Right Click | td_last=0      | Name=Magik Slash
+[08] type=2 | Key=Right Click | td_last=0      | Name=Demon's Rage
+[09] type=2 | Key=Passive     | td_last=0      | Name=Limbo's Might
+[10] type=3 | Key=C           | td_last=0      | Name=CHAIN OF CYTTORAK
+[11] type=1 | Key=Left Click  | td_last=1      | Name=Soulsword
+[12] type=2 | Key=SHIFT       | td_last=1      | Name=Stepping Discs
+[13] type=2 | Key=E           | td_last=1      | Name=Umbral Incursion
+[14] type=2 | Key=Left Click  | td_last=1      | Name=Eldritch Whirl
+[15] type=2 | Key=Right Click | td_last=1      | Name=Magik Slash
+[16] type=2 | Key=Right Click | td_last=1      | Name=Demon's Rage
+[17] type=4 | Key=            | td_last=avatar | Name=占位空格
+[18] type=4 | Key=C           | td_last=0      | Name=CHAIN OF CYTTORAK
+[19] type=4 | Key=C           | td_last=0      | Name=CHAIN OF CYTTORAK
+[20] type=4 | Key=C           | td_last=1      | Name=VOID PENTAGRAM
+[21] type=4 | Key=C           | td_last=1      | Name=VOID PENTAGRAM

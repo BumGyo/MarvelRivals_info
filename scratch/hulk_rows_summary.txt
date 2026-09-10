@@ -1,0 +1,27 @@
+[00] type=0 | Key=            | Name=Bruce Banner              | td_last=         | Desc=Health200Movement Speed6m/s
+[01] type=0 | Key=            | Name=Hero Hulk                 | td_last=         | Desc=Health400+300 Regenerative ShieldMovement Speed6.5
+[02] type=0 | Key=            | Name=Monster Hulk              | td_last=         | Desc=Health1400Movement Speed6.5m/s
+[03] type=1 | Key=Left Click  | Name=Gamma Ray Gun             | td_last=0        | Desc=Fire with a Gamma Ray Gun
+[04] type=2 | Key=Q           | Name=Puny Banner               | td_last=0        | Desc=Transform from Bruce Banner into Hero Hulk
+[05] type=2 | Key=SHIFT       | Name=Gamma Grenade             | td_last=0        | Desc=Launch a Gamma Grenade to inflict damage and Launc
+[06] type=3 | Key=Passive     | Name=Gamma Boost               | td_last=0        | Desc=Hulk charges Iron Man and Namor with gamma radiati
+[07] type=1 | Key=Left Click  | Name=Heavy Blow                | td_last=1        | Desc=Swing fists forward to punch enemies
+[08] type=2 | Key=Q           | Name=HULK SMASH!               | td_last=1        | Desc=Unleash stored gamma energy, transforming from Her
+[09] type=2 | Key=SHIFT       | Name=Indestructible Guard      | td_last=1        | Desc=Generate gamma shields for Hero Hulk and nearby al
+[10] type=2 | Key=E           | Name=Radioactive Lockdown      | td_last=1        | Desc=Emit gamma energy to irradiate enemies and render 
+[11] type=2 | Key=Space       | Name=Incredible Leap           | td_last=1        | Desc=HOLD Space to perform a charged leap that allows H
+[12] type=2 | Key=Right Click | Name=Gamma Burst               | td_last=1        | Desc=Emit gamma-ray bursts to inflict damage. Reduce In
+[13] type=3 | Key=Passive     | Name=Gamma Boost               | td_last=1        | Desc=Hulk charges Iron Man and Namor with gamma radiati
+[14] type=3 | Key=C           | Name=Gamma Fastball            | td_last=1        | Desc=Wolverine, Hulk can interact with each other. Once
+[15] type=1 | Key=Left Click  | Name=Heavy Blow                | td_last=2        | Desc=Swing fists forward to punch and launch up enemies
+[16] type=2 | Key=Q           | Name=World Breaker             | td_last=2        | Desc=Grab and smash the enemy in front
+[17] type=2 | Key=E           | Name=Radioactive Lockdown      | td_last=2        | Desc=Emit gamma energy to irradiate enemies and render 
+[18] type=2 | Key=Space       | Name=Incredible Leap           | td_last=2        | Desc=HOLD Space to perform a charged leap that allows M
+[19] type=2 | Key=Right Click | Name=Gamma Burst               | td_last=2        | Desc=Emit gamma-ray bursts to inflict damage
+[20] type=3 | Key=Passive     | Name=Gamma Boost               | td_last=2        | Desc=Hulk charges Iron Man and Namor with gamma radiati
+[21] type=3 | Key=C           | Name=Gamma Fastball            | td_last=2        | Desc=Wolverine, Hulk can interact with each other. Once
+[22] type=4 | Key=            | Name=占位空格                      | td_last=avatar   | Desc=
+[23] type=4 | Key=C           | Name=SAVAGE SLAM               | td_last=0        | Desc=Base Effect: Leap high and smash the ground, deali
+[24] type=4 | Key=C           | Name=SAVAGE SLAM               | td_last=0        | Desc=Base Effect: Leap high and smash the ground, deali
+[25] type=4 | Key=C           | Name=GAMMA FASTBALL            | td_last=1        | Desc=Base Effect: Enter a Furious state upon activation
+[26] type=4 | Key=X           | Name=GAMMA FASTBALL            | td_last=1        | Desc=Base Effect: Enter a Furious state upon activation

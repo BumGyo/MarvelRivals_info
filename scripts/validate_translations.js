@@ -78,29 +78,35 @@ if (!fs.existsSync(heroesPath)) {
     let namePurityViolations = 0;
 
     heroes.forEach(h => {
-      // Skills check
-      (h.skills || []).forEach(s => {
+      function validateSkill(s, context) {
         totalSkills++;
         // Check skill name is kept English
         if (KOREAN_REGEX.test(s.name) || JAPANESE_REGEX.test(s.name)) {
-          reportError(`Hero ${h.name} skill name '${s.name}' contains non-English characters! Must be kept in English.`);
+          reportError(`Hero ${h.name} (${context}) skill name '${s.name}' contains non-English characters! Must be kept in English.`);
           namePurityViolations++;
         }
 
         if (s.description) {
           if (!s.description_trans || !s.description_trans.ko || !s.description_trans.ja) {
-            reportError(`Hero ${h.name} skill '${s.name}' missing description_trans (ko or ja)!`);
+            reportError(`Hero ${h.name} (${context}) skill '${s.name}' missing description_trans (ko or ja)!`);
           } else {
             translatedSkills++;
             if (JAPANESE_REGEX.test(s.description_trans.ko)) {
-              reportError(`Hero ${h.name} skill '${s.name}' KO contains Japanese characters!`);
+              reportError(`Hero ${h.name} (${context}) skill '${s.name}' KO contains Japanese characters!`);
             }
             if (KOREAN_REGEX.test(s.description_trans.ja)) {
-              reportError(`Hero ${h.name} skill '${s.name}' JA contains Korean characters!`);
+              reportError(`Hero ${h.name} (${context}) skill '${s.name}' JA contains Korean characters!`);
             }
           }
         }
-      });
+      }
+
+      (h.skills || []).forEach(s => validateSkill(s, 'primary'));
+      if (h.forms) {
+        h.forms.forEach(f => {
+          (f.skills || []).forEach(s => validateSkill(s, `form ${f.name}`));
+        });
+      }
 
       // Upgrades check (e.g. Thor)
       (h.upgrade || []).forEach(s => {

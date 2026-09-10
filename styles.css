@@ -1023,6 +1023,79 @@ body {
 .stat-box.highlight-ammo .stat-value { color: #a2d2ff; }
 
 /* ==========================================================================
+   Hero Multi-Form Switcher (Official Parity)
+   ========================================================================== */
+
+.hero-forms-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 8px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--border-subtle);
+  overflow-x: auto;
+  align-items: center;
+}
+
+.hero-form-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-muted);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.hero-form-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.hero-form-btn.active {
+  background: linear-gradient(135deg, rgba(245, 180, 50, 0.18), rgba(255, 100, 0, 0.18));
+  border-color: var(--accent-gold);
+  color: #fff;
+  box-shadow: 0 0 16px rgba(245, 180, 50, 0.35);
+}
+
+.hero-form-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid var(--border-bright);
+  transition: all var(--transition-fast);
+}
+
+.hero-form-btn.active .hero-form-avatar {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 8px rgba(245, 180, 50, 0.6);
+  transform: scale(1.08);
+}
+
+.hero-form-badge {
+  font-size: 10px;
+  background: rgba(245, 180, 50, 0.2);
+  color: var(--accent-gold);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+/* ==========================================================================
    Team-Up Revamp Section (Season 9)
    ========================================================================== */
 

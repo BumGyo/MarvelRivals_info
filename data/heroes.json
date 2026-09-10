@@ -704,30 +704,6 @@
         }
       },
       {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
-        },
-        "name": "CLAW WHIP",
-        "icon": "https://r.res.easebar.com/pic/20260416/5868fb3b-fb3d-4ed5-9907-0252b6687288.png",
-        "description": "Fire out tethered claws and whip them forward in a devastating arc, dealing damage to all enemies caught in range",
-        "stats": {
-          "Key": "Left Click",
-          "Spell Field Range": "150° cone spell field with a radius of 7.5m and a height of 2.5m",
-          "Spell Field Damage": "65",
-          "Attack Interval": "0.6s per hit",
-          "Damage Falloff": "Falloff begins at 30°, drop to 30% of maximum damage at 75°",
-          "Bonus Health Per Hit": "25",
-          "Max Bonus Health": "50"
-        },
-        "description_trans": {
-          "ko": "와이어 발톱을 발사하여 전방으로 크게 채찍질하며 호를 그리고, 범위 내의 모든 적에게 피해를 입힙니다.",
-          "ja": "ワイヤー付きの爪を射出して前方へ大きく薙ぎ払い、範囲内の全敵にダメージを与える。"
-        }
-      },
-      {
         "type": 2,
         "key": "Right Click",
         "key_trans": {
@@ -736,26 +712,6 @@
         },
         "name": "FORTUNE'S FAVOR",
         "icon": "https://r.res.easebar.com/pic/20260416/f20a3d87-0110-46b5-ae9c-e942746833cd.png",
-        "description": "Spend Fortuneto unleash either Grapple Swipeor Phantom Pursuit",
-        "stats": {
-          "Key": "Right Click",
-          "Grapple Swipe Fortune Consumption": "150",
-          "Phantom Pursuit Fortune Consumption": "300"
-        },
-        "description_trans": {
-          "ko": "행운(Fortune)을 소모하여 그래플 스와이프 또는 팬텀 퍼슈트를 발동합니다.",
-          "ja": "幸運(フォーチュン)を消費してグラップルスワイプまたはファントムパシュートを発動する。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
-        },
-        "name": "FORTUNE'S FAVOR",
-        "icon": "https://r.res.easebar.com/pic/20260416/aaaacbd7-f567-40c0-be49-494f0e6933db.png",
         "description": "Spend Fortuneto unleash either Grapple Swipeor Phantom Pursuit",
         "stats": {
           "Key": "Right Click",
@@ -794,31 +750,6 @@
       },
       {
         "type": 2,
-        "key": "Q",
-        "key_trans": {
-          "ko": "Q (궁극기)",
-          "ja": "Q (アルティメット)"
-        },
-        "name": "CALLING CARD",
-        "icon": "https://r.res.easebar.com/pic/20260416/542f0f37-1553-45e5-b794-9a5804088ccb.png",
-        "description": "Issue a Calling Card to all enemies. Instantly dash to any enemy in sight and range, tearing into them with your claws to deal Damage",
-        "stats": {
-          "Key": "Q",
-          "Energy Cost": "3100",
-          "Maximum Dash Distance": "60m",
-          "Fore-swing Damage Reduction": "50%",
-          "Ability Duration": "10s",
-          "Maximum Targeting Distance": "8m",
-          "1st Claw Strike Damage": "30",
-          "2nd Claw Strike Damage": "70"
-        },
-        "description_trans": {
-          "ko": "모든 적에게 예고장을 보냅니다. 시야와 사거리 내의 임의의 적에게 즉시 질주하여 발톱으로 찢어발기며 큰 피해를 줍니다.",
-          "ja": "全敵に予告状を放つ。視界と射程内の任意の敵へ即座にダッシュし、爪で切り裂いて大ダメージを与える。"
-        }
-      },
-      {
-        "type": 2,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -826,27 +757,6 @@
         },
         "name": "CAT'S CRADLE",
         "icon": "https://r.res.easebar.com/pic/20260416/0724214f-fa9d-4530-803b-02b40f0b9af7.png",
-        "description": "Lunge forward with claws bared, slicing through any enemies caught in your path",
-        "stats": {
-          "Key": "Shift",
-          "Maximum Dash Distance": "15m",
-          "Damage": "40",
-          "Cooldown": "1 charges, with each charge taking 8s to recharge"
-        },
-        "description_trans": {
-          "ko": "발톱을 드러내고 전방으로 돌진하여 경로상의 모든 적을 베고 지나갑니다.",
-          "ja": "爪を剥き出しにして前方に飛び込み、進路上の敵を切り裂く。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Shift",
-        "key_trans": {
-          "ko": "Shift",
-          "ja": "Shift"
-        },
-        "name": "CAT'S CRADLE",
-        "icon": "https://r.res.easebar.com/pic/20260416/de907edd-e322-4e4b-b64d-26f1dd5bd08e.png",
         "description": "Lunge forward with claws bared, slicing through any enemies caught in your path",
         "stats": {
           "Key": "Shift",
@@ -884,171 +794,6 @@
       },
       {
         "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
-        },
-        "name": "PHANTOM PURSUIT",
-        "icon": "https://r.res.easebar.com/pic/20260416/0f50962e-bc08-42a0-85db-7138a350d05f.png",
-        "description": "Swiftly dash to an enemy, unleash a rapid flurry of claw attacks, and flash back to your starting position. Black Cat is Untargetableduring this move",
-        "stats": {
-          "Key": "E",
-          "Dash Duration": "0.25s",
-          "Damage": "70",
-          "Maximum Dash Distance": "20m",
-          "Cooldown": "2s"
-        },
-        "description_trans": {
-          "ko": "적에게 신속히 질주하여 연속 발톱 난격을 퍼부은 뒤 시작 위치로 번개같이 귀환합니다. 이 동작 중 블랙 캣은 대상 지정 불가 상태가 됩니다.",
-          "ja": "敵へ素早くダッシュして連続爪撃を浴びせ、開始位置へと瞬時に戻る。発動中のブラックキャットはターゲット不能となる。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "GILDED DEAL",
-        "icon": "https://r.res.easebar.com/pic/20260416/35b59c4e-01ea-4c4f-9321-2e378148df61.png",
-        "description": "Use the Spatial Resonator to open a portal to the Elder Gods' dimension, consuming Fortune to trade with the Golden Elder and acquire items from the New York Thieves Guild vault.",
-        "stats": {
-          "Key": "F"
-        },
-        "description_trans": {
-          "ko": "공간 공명기를 사용해 고대 신들의 차원 포털을 열고, 행운을 소모하여 골든 엘더와 거래해 뉴욕 도둑 길드 금고의 아이템을 획득합니다.",
-          "ja": "空間共鳴器で古き神々の次元ポータルを開き、幸運を消費して黄金の古老と取引し、ニューヨーク盗賊ギルド金庫のアイテムを獲得する。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "TABLET OF DESTINIES",
-        "icon": "https://r.res.easebar.com/pic/20260416/ce5e92ec-444e-48f9-9a2e-73b4f86c07fe.png",
-        "description": "Gain a random amount of Fortune",
-        "stats": {
-          "Key": "F",
-          "Special Effect": "Gain 0/50/200/500 Fortune randomly",
-          "Fortune Consumption": "100"
-        },
-        "description_trans": {
-          "ko": "무작위 수량의 행운(Fortune) 포인트를 획득합니다.",
-          "ja": "ランダムな量の幸運(フォーチュン)を獲得する。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "HELM OF HADES",
-        "icon": "https://r.res.easebar.com/pic/20260416/b4507d88-ec34-4a0b-9303-96757d10cd5b.png",
-        "description": "Enter Invisiblestate for a set duration",
-        "stats": {
-          "Key": "F",
-          "Fortune Consumption": "200",
-          "Invisibility Duration": "2s",
-          "Movement Speed Boost Duration": "2s",
-          "Movement Boost": "60%, drop to 0 in 2s"
-        },
-        "description_trans": {
-          "ko": "일정 시간 동안 완전한 투명화(Invisible) 상태에 돌입합니다.",
-          "ja": "一定時間、完全な不可視(ステルス)状態に入る。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "FALTINE FLAME ORB",
-        "icon": "https://r.res.easebar.com/pic/20260416/004aee58-b3ee-436d-bbe7-41ef6c00b4d5.png",
-        "description": "Conjure an orb of mystical Faltine Flame to Revealand mark all nearby enemies",
-        "stats": {
-          "Key": "F",
-          "Fortune Consumption": "200",
-          "Summon Health": "50",
-          "Maximum Summon Quantity": "1"
-        },
-        "description_trans": {
-          "ko": "BLACK CAT의 스킬입니다. Conjure an orb of mystical Faltine Flame to Revealand mark all nearby 적들.",
-          "ja": "BLACK CATのスキル。Conjure an orb of mystical Faltine Flame to Revealand mark all nearby 敵。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "CHERNOBOG'S CRYSTAL",
-        "icon": "https://r.res.easebar.com/pic/20260416/d7499d6e-8126-4d52-b3c5-649961da300b.png",
-        "description": "Purify yourself, instantly removing any active control effects",
-        "stats": {
-          "Key": "F",
-          "Fortune Consumption": "300",
-          "Special Effect": "Remove any active control effects"
-        },
-        "description_trans": {
-          "ko": "BLACK CAT의 스킬입니다. Purify yourself, instantly removing any active control effects.",
-          "ja": "BLACK CATのスキル。Purify yourself, instantly removing any active control effects。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "RING OF ZONA",
-        "icon": "https://r.res.easebar.com/pic/20260416/37abc875-d763-4531-8095-c0d74aae0e22.png",
-        "description": "Open a portal on a surface, allowing instant traversal to the opposite side",
-        "stats": {
-          "Key": "F",
-          "Fortune Consumption": "300"
-        },
-        "description_trans": {
-          "ko": "BLACK CAT의 스킬입니다. Open a portal on a surface, allowing instant traversal to the opposite side.",
-          "ja": "BLACK CATのスキル。Open a portal on a surface, allowing instant traversal to the opposite side。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "MENTO-FISH",
-        "icon": "https://r.res.easebar.com/pic/20260416/685beeba-23c2-457c-83a0-9beb64c100d9.png",
-        "description": "Create a hypnosis field. Inflicts Slow, disables movement abilities, and Groundsall enemies caught within",
-        "stats": {
-          "Key": "F",
-          "Fortune Consumption": "300",
-          "Casting": "Projectile that generates a spell field upon impact",
-          "Projectile Speed": "30m/s",
-          "Spell Field Range": "A cylindrical spell field with a radius of 5m and a height of 40m.",
-          "Slow Ratio": "35%"
-        },
-        "description_trans": {
-          "ko": "BLACK CAT의 스킬입니다. Create a hypnosis field. Inflicts 감속, disables movement abilities, and Groundsall 적들 caught within.",
-          "ja": "BLACK CATのスキル。Create a hypnosis field. Inflicts 鈍足, disables movement abilities, and Groundsall 敵 caught within。"
-        }
-      },
-      {
-        "type": 2,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -1074,42 +819,6 @@
         },
         "name": "STEALTHY CATWALK",
         "icon": "https://r.res.easebar.com/pic/20260416/76e1a388-8bcd-40cb-b9b9-cbfea50d5264.png",
-        "description": "Hold {Jump} to crawl up vertical surfaces",
-        "stats": {
-          "Key": "Space"
-        },
-        "description_trans": {
-          "ko": "BLACK CAT의 스킬입니다. Hold {Jump} to crawl up vertical surfaces.",
-          "ja": "BLACK CATのスキル。Hold {Jump} to crawl up vertical surfaces。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Space",
-        "key_trans": {
-          "ko": "Space",
-          "ja": "Space"
-        },
-        "name": "THIEVING GRACE",
-        "icon": "https://r.res.easebar.com/pic/20260416/db492550-ee00-49bd-b8f2-a8725012dbe1.png",
-        "description": "Perform a double jump",
-        "stats": {
-          "Key": "Space"
-        },
-        "description_trans": {
-          "ko": "BLACK CAT의 스킬입니다. Perform a double jump.",
-          "ja": "BLACK CATのスキル。Perform a double jump。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Space",
-        "key_trans": {
-          "ko": "Space",
-          "ja": "Space"
-        },
-        "name": "STEALTHY CATWALK",
-        "icon": "https://r.res.easebar.com/pic/20260416/cf0e15f3-6715-49c6-8313-9513eed6fa61.png",
         "description": "Hold {Jump} to crawl up vertical surfaces",
         "stats": {
           "Key": "Space"
@@ -1154,67 +863,6 @@
         "description_trans": {
           "ko": "BLACK CAT의 스킬입니다. Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby 아군 and 적들, granting 아군 speed and healing while 피해를 입히며 and 적들을 감속시키며. Captain America receives the Vibranium Energy Amplifier, which expands 보호막 block range when raised and reflects 투사체 back along the crosshair direction.",
           "ja": "BLACK CATのスキル。Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby 味方 and 敵, granting 味方 speed and healing while ダメージを与え and 敵を減速させ. Captain America receives the Vibranium Energy Amplifier, which expands シールド block range when raised and reflects 弾丸 back along the crosshair direction.。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "MALKIN MISFORTUNE",
-        "icon": "https://r.res.easebar.com/pic/20260416/f8475d37-2f3e-495d-8783-66a39a55e6a7.png",
-        "description": "Apply Jinxto enemies on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a Critical Hit",
-        "stats": {
-          "Key": "Passive"
-        },
-        "description_trans": {
-          "ko": "BLACK CAT의 스킬입니다. Apply Jinxto 적들 on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a 치명타.",
-          "ja": "BLACK CATのスキル。Apply Jinxto 敵 on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a クリティカル。"
-        }
-      },
-      {
-        "type": 3,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "GIFT OF GOLD",
-        "icon": "https://r.res.easebar.com/pic/20260416/dba9f061-232b-4cca-8797-cf61c520201e.png",
-        "description": "Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby allies and enemies, granting allies speed and healing while dealing damage and slowing enemies. Captain America receives the Vibranium Energy Amplifier, which expands shield block range when raised and reflects projectiles back along the crosshair direction.",
-        "stats": {
-          "Key": "Passive",
-          "Team-Up Bonus": "5% Damage Boost"
-        },
-        "description_trans": {
-          "ko": "BLACK CAT의 스킬입니다. Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby 아군 and 적들, granting 아군 speed and healing while 피해를 입히며 and 적들을 감속시키며. Captain America receives the Vibranium Energy Amplifier, which expands 보호막 block range when raised and reflects 투사체 back along the crosshair direction.",
-          "ja": "BLACK CATのスキル。Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby 味方 and 敵, granting 味方 speed and healing while ダメージを与え and 敵を減速させ. Captain America receives the Vibranium Energy Amplifier, which expands シールド block range when raised and reflects 弾丸 back along the crosshair direction.。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "PASSIVE",
-        "key_trans": {
-          "ko": "PASSIVE",
-          "ja": "PASSIVE"
-        },
-        "name": "STICKY PAWS",
-        "icon": "https://r.res.easebar.com/pic/20260416/d1950ebc-6411-4006-93b9-c6db6b41ee45.png",
-        "description": "Steal a set amount of Fortunewhenever your attacks hit an enemy",
-        "stats": {
-          "Key": "PASSIVE",
-          "Fortune Gained per Target Hit (Feline Fury)": "50, up to 50",
-          "Fortune Gained per Target Hit (Claw Whip)": "50, up to 100",
-          "Fortune Gained per Target Hit (Phantom Pursuit)": "150, up to 150",
-          "Fortune Gained per Hit (Turn of Fortune)": "300",
-          "Fortune Gained per Hit (Calling Card)": "300",
-          "Fortune Lost Upon Death": "Lose 50% of Fortune when defeated, with a minimum deduction of 200"
-        },
-        "description_trans": {
-          "ko": "BLACK CAT의 스킬입니다. Steal a set amount of Fortunewhenever your attacks hit an 적.",
-          "ja": "BLACK CATのスキル。Steal a set amount of Fortunewhenever your attacks hit an 敵。"
         }
       }
     ],
@@ -1316,6 +964,594 @@
           "ko": "스파이더맨과 함께 플레이 시, 와이어 이동 경로에 적을 완전히 묶어두는 거미줄 덫을 추가로 남깁니다.",
           "ja": "スパイダーマンとチームアップ時、ワイヤー移動の軌跡に敵を完全に足止めする蜘蛛の巣トラップを設置する。"
         }
+      }
+    ],
+    "forms": [
+      {
+        "form_id": 0,
+        "name": "Claw Stance",
+        "names": {
+          "en": "Claw Stance",
+          "ko": "클로 폼 (근접)",
+          "ja": "クローフォーム (近接)"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20260416/13a9a895-86b0-43fd-b182-2c230d38a61f.png",
+        "base_stats": {
+          "Health": "150+125 Regenerative Shield",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "FELINE FURY",
+            "icon": "https://r.res.easebar.com/pic/20260416/b418cfa2-f3dd-4eae-b205-967e67831cf7.png",
+            "description": "Swipe forward with razor-sharp claws",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "Melee",
+              "Damage": "35",
+              "Maximum Distance": "3.5m"
+            },
+            "description_trans": {
+              "ko": "날카로운 발톱으로 전방을 빠르게 할퀴어 공격합니다.",
+              "ja": "鋭利な鉤爪で前方を素早く切り裂く。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "FORTUNE'S FAVOR",
+            "icon": "https://r.res.easebar.com/pic/20260416/f20a3d87-0110-46b5-ae9c-e942746833cd.png",
+            "description": "Spend Fortuneto unleash either Grapple Swipeor Phantom Pursuit",
+            "stats": {
+              "Key": "Right Click",
+              "Grapple Swipe Fortune Consumption": "150",
+              "Phantom Pursuit Fortune Consumption": "300"
+            },
+            "description_trans": {
+              "ko": "행운(Fortune)을 소모하여 그래플 스와이프 또는 팬텀 퍼슈트를 발동합니다.",
+              "ja": "幸運(フォーチュン)を消費してグラップルスワイプまたはファントムパシュートを発動する。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Q",
+            "key_trans": {
+              "ko": "Q (궁극기)",
+              "ja": "Q (アルティメット)"
+            },
+            "name": "CALLING CARD",
+            "icon": "https://r.res.easebar.com/pic/20260416/c1b8429e-cbce-4c01-ad81-b1255d6ddbb8.png",
+            "description": "Issue a Calling Card to all enemies. Instantly dash to any enemy in sight and range, tearing into them with your claws to deal Damage",
+            "stats": {
+              "Key": "Q",
+              "Energy Cost": "3100",
+              "Maximum Dash Distance": "40m",
+              "Fore-swing Damage Reduction": "50%",
+              "Ability Duration": "10s",
+              "Maximum Targeting Distance": "8m",
+              "1st Claw Strike Damage": "30",
+              "2nd Claw Strike Damage": "70"
+            },
+            "description_trans": {
+              "ko": "모든 적에게 예고장을 보냅니다. 시야와 사거리 내의 임의의 적에게 즉시 질주하여 발톱으로 찢어발기며 큰 피해를 줍니다.",
+              "ja": "全敵に予告状を放つ。視界と射程内の任意の敵へ即座にダッシュし、爪で切り裂いて大ダメージを与える。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Shift",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "CAT'S CRADLE",
+            "icon": "https://r.res.easebar.com/pic/20260416/0724214f-fa9d-4530-803b-02b40f0b9af7.png",
+            "description": "Lunge forward with claws bared, slicing through any enemies caught in your path",
+            "stats": {
+              "Key": "Shift",
+              "Maximum Dash Distance": "15m",
+              "Damage": "40",
+              "Cooldown": "1 charges, with each charge taking 8s to recharge"
+            },
+            "description_trans": {
+              "ko": "발톱을 드러내고 전방으로 돌진하여 경로상의 모든 적을 베고 지나갑니다.",
+              "ja": "爪を剥き出しにして前方に飛び込み、進路上の敵を切り裂く。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "TURN OF FORTUNE",
+            "icon": "https://r.res.easebar.com/pic/20260416/46a0da80-3314-466d-aab1-41bc525fc793.png",
+            "description": "Launch a grappling hook forward that damages an enemy on impact and steals Fortunebefore pulling it back to Black Cat",
+            "stats": {
+              "Key": "E",
+              "Hook Speed": "120m/s",
+              "Hook Maximum Distance": "30m",
+              "Hook Damage": "30",
+              "Bonus Health from Hook Hit": "50",
+              "Cooldown": "5s"
+            },
+            "description_trans": {
+              "ko": "전방으로 갈고리를 발사해 명중한 적에게 피해를 주고 행운을 훔쳐낸 뒤 블랙 캣에게 회수합니다.",
+              "ja": "前方へグラップリングフックを放ち、着弾した敵にダメージを与えて幸運を奪い、自身の手元へ引き戻す。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Space",
+            "key_trans": {
+              "ko": "Space",
+              "ja": "Space"
+            },
+            "name": "THIEVING GRACE",
+            "icon": "https://r.res.easebar.com/pic/20260416/331db52b-ea1e-4d74-a4c7-c27fa17ec1a5.png",
+            "description": "Perform a double jump",
+            "stats": {
+              "Key": "Space"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Perform a double jump.",
+              "ja": "BLACK CATのスキル。Perform a double jump。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Space",
+            "key_trans": {
+              "ko": "Space",
+              "ja": "Space"
+            },
+            "name": "STEALTHY CATWALK",
+            "icon": "https://r.res.easebar.com/pic/20260416/76e1a388-8bcd-40cb-b9b9-cbfea50d5264.png",
+            "description": "Hold {Jump} to crawl up vertical surfaces",
+            "stats": {
+              "Key": "Space"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Hold {Jump} to crawl up vertical surfaces.",
+              "ja": "BLACK CATのスキル。Hold {Jump} to crawl up vertical surfaces。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "MALKIN MISFORTUNE",
+            "icon": "https://r.res.easebar.com/pic/20260416/048b7e20-1062-44e0-9ae2-588cbb9d4fc8.png",
+            "description": "Apply Jinxto enemies on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a Critical Hit",
+            "stats": {
+              "Key": "Passive"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Apply Jinxto 적들 on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a 치명타.",
+              "ja": "BLACK CATのスキル。Apply Jinxto 敵 on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a クリティカル。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "GIFT OF GOLD",
+            "icon": "https://r.res.easebar.com/pic/20260416/dba9f061-232b-4cca-8797-cf61c520201e.png",
+            "description": "Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby allies and enemies, granting allies speed and healing while dealing damage and slowing enemies. Captain America receives the Vibranium Energy Amplifier, which expands shield block range when raised and reflects projectiles back along the crosshair direction.",
+            "stats": {
+              "Key": "Passive",
+              "Team-Up Bonus": "5% Damage Boost"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby 아군 and 적들, granting 아군 speed and healing while 피해를 입히며 and 적들을 감속시키며. Captain America receives the Vibranium Energy Amplifier, which expands 보호막 block range when raised and reflects 투사체 back along the crosshair direction.",
+              "ja": "BLACK CATのスキル。Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby 味方 and 敵, granting 味方 speed and healing while ダメージを与え and 敵を減速させ. Captain America receives the Vibranium Energy Amplifier, which expands シールド block range when raised and reflects 弾丸 back along the crosshair direction.。"
+            }
+          }
+        ]
+      },
+      {
+        "form_id": 1,
+        "name": "Whip Stance",
+        "names": {
+          "en": "Whip Stance",
+          "ko": "채찍 폼 (중거리)",
+          "ja": "ウィップフォーム (中距離)"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20260416/8fc39281-1c61-4d51-8d09-a3bbd62be2ac.png",
+        "base_stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "CLAW WHIP",
+            "icon": "https://r.res.easebar.com/pic/20260416/5868fb3b-fb3d-4ed5-9907-0252b6687288.png",
+            "description": "Fire out tethered claws and whip them forward in a devastating arc, dealing damage to all enemies caught in range",
+            "stats": {
+              "Key": "Left Click",
+              "Spell Field Range": "150° cone spell field with a radius of 7.5m and a height of 2.5m",
+              "Spell Field Damage": "65",
+              "Attack Interval": "0.6s per hit",
+              "Damage Falloff": "Falloff begins at 30°, drop to 30% of maximum damage at 75°",
+              "Bonus Health Per Hit": "25",
+              "Max Bonus Health": "50"
+            },
+            "description_trans": {
+              "ko": "와이어 발톱을 발사하여 전방으로 크게 채찍질하며 호를 그리고, 범위 내의 모든 적에게 피해를 입힙니다.",
+              "ja": "ワイヤー付きの爪を射出して前方へ大きく薙ぎ払い、範囲内の全敵にダメージを与える。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "FORTUNE'S FAVOR",
+            "icon": "https://r.res.easebar.com/pic/20260416/aaaacbd7-f567-40c0-be49-494f0e6933db.png",
+            "description": "Spend Fortuneto unleash either Grapple Swipeor Phantom Pursuit",
+            "stats": {
+              "Key": "Right Click",
+              "Grapple Swipe Fortune Consumption": "150",
+              "Phantom Pursuit Fortune Consumption": "300"
+            },
+            "description_trans": {
+              "ko": "행운(Fortune)을 소모하여 그래플 스와이프 또는 팬텀 퍼슈트를 발동합니다.",
+              "ja": "幸運(フォーチュン)を消費してグラップルスワイプまたはファントムパシュートを発動する。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Q",
+            "key_trans": {
+              "ko": "Q (궁극기)",
+              "ja": "Q (アルティメット)"
+            },
+            "name": "CALLING CARD",
+            "icon": "https://r.res.easebar.com/pic/20260416/542f0f37-1553-45e5-b794-9a5804088ccb.png",
+            "description": "Issue a Calling Card to all enemies. Instantly dash to any enemy in sight and range, tearing into them with your claws to deal Damage",
+            "stats": {
+              "Key": "Q",
+              "Energy Cost": "3100",
+              "Maximum Dash Distance": "60m",
+              "Fore-swing Damage Reduction": "50%",
+              "Ability Duration": "10s",
+              "Maximum Targeting Distance": "8m",
+              "1st Claw Strike Damage": "30",
+              "2nd Claw Strike Damage": "70"
+            },
+            "description_trans": {
+              "ko": "모든 적에게 예고장을 보냅니다. 시야와 사거리 내의 임의의 적에게 즉시 질주하여 발톱으로 찢어발기며 큰 피해를 줍니다.",
+              "ja": "全敵に予告状を放つ。視界と射程内の任意の敵へ即座にダッシュし、爪で切り裂いて大ダメージを与える。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Shift",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "CAT'S CRADLE",
+            "icon": "https://r.res.easebar.com/pic/20260416/de907edd-e322-4e4b-b64d-26f1dd5bd08e.png",
+            "description": "Lunge forward with claws bared, slicing through any enemies caught in your path",
+            "stats": {
+              "Key": "Shift",
+              "Maximum Dash Distance": "15m",
+              "Damage": "40",
+              "Cooldown": "1 charges, with each charge taking 8s to recharge"
+            },
+            "description_trans": {
+              "ko": "발톱을 드러내고 전방으로 돌진하여 경로상의 모든 적을 베고 지나갑니다.",
+              "ja": "爪を剥き出しにして前方に飛び込み、進路上の敵を切り裂く。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "PHANTOM PURSUIT",
+            "icon": "https://r.res.easebar.com/pic/20260416/0f50962e-bc08-42a0-85db-7138a350d05f.png",
+            "description": "Swiftly dash to an enemy, unleash a rapid flurry of claw attacks, and flash back to your starting position. Black Cat is Untargetableduring this move",
+            "stats": {
+              "Key": "E",
+              "Dash Duration": "0.25s",
+              "Damage": "70",
+              "Maximum Dash Distance": "20m",
+              "Cooldown": "2s"
+            },
+            "description_trans": {
+              "ko": "적에게 신속히 질주하여 연속 발톱 난격을 퍼부은 뒤 시작 위치로 번개같이 귀환합니다. 이 동작 중 블랙 캣은 대상 지정 불가 상태가 됩니다.",
+              "ja": "敵へ素早くダッシュして連続爪撃を浴びせ、開始位置へと瞬時に戻る。発動中のブラックキャットはターゲット不能となる。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Space",
+            "key_trans": {
+              "ko": "Space",
+              "ja": "Space"
+            },
+            "name": "THIEVING GRACE",
+            "icon": "https://r.res.easebar.com/pic/20260416/db492550-ee00-49bd-b8f2-a8725012dbe1.png",
+            "description": "Perform a double jump",
+            "stats": {
+              "Key": "Space"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Perform a double jump.",
+              "ja": "BLACK CATのスキル。Perform a double jump。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Space",
+            "key_trans": {
+              "ko": "Space",
+              "ja": "Space"
+            },
+            "name": "STEALTHY CATWALK",
+            "icon": "https://r.res.easebar.com/pic/20260416/cf0e15f3-6715-49c6-8313-9513eed6fa61.png",
+            "description": "Hold {Jump} to crawl up vertical surfaces",
+            "stats": {
+              "Key": "Space"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Hold {Jump} to crawl up vertical surfaces.",
+              "ja": "BLACK CATのスキル。Hold {Jump} to crawl up vertical surfaces。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "MALKIN MISFORTUNE",
+            "icon": "https://r.res.easebar.com/pic/20260416/f8475d37-2f3e-495d-8783-66a39a55e6a7.png",
+            "description": "Apply Jinxto enemies on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a Critical Hit",
+            "stats": {
+              "Key": "Passive"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Apply Jinxto 적들 on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a 치명타.",
+              "ja": "BLACK CATのスキル。Apply Jinxto 敵 on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a クリティカル。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "GIFT OF GOLD",
+            "icon": "https://r.res.easebar.com/pic/20260416/dba9f061-232b-4cca-8797-cf61c520201e.png",
+            "description": "Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby allies and enemies, granting allies speed and healing while dealing damage and slowing enemies. Captain America receives the Vibranium Energy Amplifier, which expands shield block range when raised and reflects projectiles back along the crosshair direction.",
+            "stats": {
+              "Key": "Passive",
+              "Team-Up Bonus": "5% Damage Boost"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby 아군 and 적들, granting 아군 speed and healing while 피해를 입히며 and 적들을 감속시키며. Captain America receives the Vibranium Energy Amplifier, which expands 보호막 block range when raised and reflects 투사체 back along the crosshair direction.",
+              "ja": "BLACK CATのスキル。Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby 味方 and 敵, granting 味方 speed and healing while ダメージを与え and 敵を減速させ. Captain America receives the Vibranium Energy Amplifier, which expands シールド block range when raised and reflects 弾丸 back along the crosshair direction.。"
+            }
+          }
+        ]
+      },
+      {
+        "form_id": 2,
+        "name": "Gilded Deal",
+        "names": {
+          "en": "Gilded Deal",
+          "ko": "내부자 거래 (암시장)",
+          "ja": "インサイダー取引 (闇市)"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20260416/b88fc77d-3b5e-4802-87de-6c38485e32c1.png",
+        "base_stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 2,
+            "key": "F",
+            "key_trans": {
+              "ko": "F",
+              "ja": "F"
+            },
+            "name": "GILDED DEAL",
+            "icon": "https://r.res.easebar.com/pic/20260416/35b59c4e-01ea-4c4f-9321-2e378148df61.png",
+            "description": "Use the Spatial Resonator to open a portal to the Elder Gods' dimension, consuming Fortune to trade with the Golden Elder and acquire items from the New York Thieves Guild vault.",
+            "stats": {
+              "Key": "F"
+            },
+            "description_trans": {
+              "ko": "공간 공명기를 사용해 고대 신들의 차원 포털을 열고, 행운을 소모하여 골든 엘더와 거래해 뉴욕 도둑 길드 금고의 아이템을 획득합니다.",
+              "ja": "空間共鳴器で古き神々の次元ポータルを開き、幸運を消費して黄金の古老と取引し、ニューヨーク盗賊ギルド金庫のアイテムを獲得する。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "F",
+            "key_trans": {
+              "ko": "F",
+              "ja": "F"
+            },
+            "name": "TABLET OF DESTINIES",
+            "icon": "https://r.res.easebar.com/pic/20260416/ce5e92ec-444e-48f9-9a2e-73b4f86c07fe.png",
+            "description": "Gain a random amount of Fortune",
+            "stats": {
+              "Key": "F",
+              "Special Effect": "Gain 0/50/200/500 Fortune randomly",
+              "Fortune Consumption": "100"
+            },
+            "description_trans": {
+              "ko": "무작위 수량의 행운(Fortune) 포인트를 획득합니다.",
+              "ja": "ランダムな量の幸運(フォーチュン)を獲得する。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "F",
+            "key_trans": {
+              "ko": "F",
+              "ja": "F"
+            },
+            "name": "HELM OF HADES",
+            "icon": "https://r.res.easebar.com/pic/20260416/b4507d88-ec34-4a0b-9303-96757d10cd5b.png",
+            "description": "Enter Invisiblestate for a set duration",
+            "stats": {
+              "Key": "F",
+              "Fortune Consumption": "200",
+              "Invisibility Duration": "2s",
+              "Movement Speed Boost Duration": "2s",
+              "Movement Boost": "60%, drop to 0 in 2s"
+            },
+            "description_trans": {
+              "ko": "일정 시간 동안 완전한 투명화(Invisible) 상태에 돌입합니다.",
+              "ja": "一定時間、完全な不可視(ステルス)状態に入る。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "F",
+            "key_trans": {
+              "ko": "F",
+              "ja": "F"
+            },
+            "name": "FALTINE FLAME ORB",
+            "icon": "https://r.res.easebar.com/pic/20260416/004aee58-b3ee-436d-bbe7-41ef6c00b4d5.png",
+            "description": "Conjure an orb of mystical Faltine Flame to Revealand mark all nearby enemies",
+            "stats": {
+              "Key": "F",
+              "Fortune Consumption": "200",
+              "Summon Health": "50",
+              "Maximum Summon Quantity": "1"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Conjure an orb of mystical Faltine Flame to Revealand mark all nearby 적들.",
+              "ja": "BLACK CATのスキル。Conjure an orb of mystical Faltine Flame to Revealand mark all nearby 敵。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "F",
+            "key_trans": {
+              "ko": "F",
+              "ja": "F"
+            },
+            "name": "CHERNOBOG'S CRYSTAL",
+            "icon": "https://r.res.easebar.com/pic/20260416/d7499d6e-8126-4d52-b3c5-649961da300b.png",
+            "description": "Purify yourself, instantly removing any active control effects",
+            "stats": {
+              "Key": "F",
+              "Fortune Consumption": "300",
+              "Special Effect": "Remove any active control effects"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Purify yourself, instantly removing any active control effects.",
+              "ja": "BLACK CATのスキル。Purify yourself, instantly removing any active control effects。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "F",
+            "key_trans": {
+              "ko": "F",
+              "ja": "F"
+            },
+            "name": "RING OF ZONA",
+            "icon": "https://r.res.easebar.com/pic/20260416/37abc875-d763-4531-8095-c0d74aae0e22.png",
+            "description": "Open a portal on a surface, allowing instant traversal to the opposite side",
+            "stats": {
+              "Key": "F",
+              "Fortune Consumption": "300"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Open a portal on a surface, allowing instant traversal to the opposite side.",
+              "ja": "BLACK CATのスキル。Open a portal on a surface, allowing instant traversal to the opposite side。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "F",
+            "key_trans": {
+              "ko": "F",
+              "ja": "F"
+            },
+            "name": "MENTO-FISH",
+            "icon": "https://r.res.easebar.com/pic/20260416/685beeba-23c2-457c-83a0-9beb64c100d9.png",
+            "description": "Create a hypnosis field. Inflicts Slow, disables movement abilities, and Groundsall enemies caught within",
+            "stats": {
+              "Key": "F",
+              "Fortune Consumption": "300",
+              "Casting": "Projectile that generates a spell field upon impact",
+              "Projectile Speed": "30m/s",
+              "Spell Field Range": "A cylindrical spell field with a radius of 5m and a height of 40m.",
+              "Slow Ratio": "35%"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Create a hypnosis field. Inflicts 감속, disables movement abilities, and Groundsall 적들 caught within.",
+              "ja": "BLACK CATのスキル。Create a hypnosis field. Inflicts 鈍足, disables movement abilities, and Groundsall 敵 caught within。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "PASSIVE",
+            "key_trans": {
+              "ko": "PASSIVE",
+              "ja": "PASSIVE"
+            },
+            "name": "STICKY PAWS",
+            "icon": "https://r.res.easebar.com/pic/20260416/d1950ebc-6411-4006-93b9-c6db6b41ee45.png",
+            "description": "Steal a set amount of Fortunewhenever your attacks hit an enemy",
+            "stats": {
+              "Key": "PASSIVE",
+              "Fortune Gained per Target Hit (Feline Fury)": "50, up to 50",
+              "Fortune Gained per Target Hit (Claw Whip)": "50, up to 100",
+              "Fortune Gained per Target Hit (Phantom Pursuit)": "150, up to 150",
+              "Fortune Gained per Hit (Turn of Fortune)": "300",
+              "Fortune Gained per Hit (Calling Card)": "300",
+              "Fortune Lost Upon Death": "Lose 50% of Fortune when defeated, with a minimum deduction of 200"
+            },
+            "description_trans": {
+              "ko": "BLACK CAT의 스킬입니다. Steal a set amount of Fortunewhenever your attacks hit an 적.",
+              "ja": "BLACK CATのスキル。Steal a set amount of Fortunewhenever your attacks hit an 敵。"
+            }
+          }
+        ]
       }
     ]
   },
@@ -2597,33 +2833,6 @@
         }
       },
       {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
-        },
-        "name": "Lightforce Dagger",
-        "icon": "https://r.res.easebar.com/pic/20241205/5211b159-6fa8-4589-829f-facb1c455241.png",
-        "description": "Unleash a bouncing Lightforce Dagger to damage enemies and heal nearby allies",
-        "stats": {
-          "Key": "Left Click",
-          "Casting": "Single-cast projectile that generates a spell area upon impact",
-          "Special Effect": "The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects",
-          "Damage": "18 damage per round",
-          "Healing Per Hit": "15 per hit",
-          "Area of Effect Healing": "25 per hit",
-          "Range": "8m spherical radius",
-          "Fire Rate": "2.27 hits per second",
-          "Ammo": "12",
-          "Critical Hit": "No"
-        },
-        "description_trans": {
-          "ko": "Cloak & Dagger의 스킬입니다. Unleash a bouncing Lightforce Dagger to damage 적들 and heal nearby 아군.",
-          "ja": "Cloak & Daggerのスキル。Unleash a bouncing Lightforce Dagger to damage 敵 and heal nearby 味方。"
-        }
-      },
-      {
         "type": 2,
         "key": "Right Click",
         "key_trans": {
@@ -2644,30 +2853,6 @@
         "description_trans": {
           "ko": "Cloak & Dagger의 스킬입니다. Enshroud nearby 아군 in the Darkforce Dimension, plunging them into the Phased state, making them 대상 지정 불가 and 투명화 to 적들 and granting them a Movement Boost.",
           "ja": "Cloak & Daggerのスキル。Enshroud nearby 味方 in the Darkforce Dimension, plunging them into the Phased state, making them ターゲット不能 and 不可視 to 敵 and granting them a Movement Boost。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
-        },
-        "name": "Dagger Storm",
-        "icon": "https://r.res.easebar.com/pic/20241205/a106ebc0-80b0-4dd9-bf68-0c19f464e8bc.png",
-        "description": "Launch a volley of daggers, creating a Healing Over Time field in the impact area",
-        "stats": {
-          "Key": "Right Click",
-          "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
-          "Healing Amount": "50/s",
-          "Duration": "6s",
-          "Range": "5m spherical radius",
-          "Cooldown": "12s",
-          "Special Effect": "When a Spell Field is created, allies in range get a One-Time Healing of 60"
-        },
-        "description_trans": {
-          "ko": "Cloak & Dagger의 스킬입니다. Launch a volley of daggers, creating a 지속 치유 field in the impact area.",
-          "ja": "Cloak & Daggerのスキル。Launch a volley of daggers, creating a 持続回復 field in the impact area。"
         }
       },
       {
@@ -2696,30 +2881,6 @@
       },
       {
         "type": 2,
-        "key": "Q",
-        "key_trans": {
-          "ko": "Q (궁극기)",
-          "ja": "Q (アルティメット)"
-        },
-        "name": "Eternal Bond",
-        "icon": "https://r.res.easebar.com/pic/20241205/9791de0a-9b39-4111-a535-77a8fccaef5a.png",
-        "description": "Perform four rapid dashes, healing allies and damaging enemies along the path",
-        "stats": {
-          "Key": "Q",
-          "Casting": "Persistent Spell Field",
-          "Damage": "30/s",
-          "Healing Amount": "250/s",
-          "Range": "A cylindrical spell field with a 4m radius and 15m in length",
-          "Duration": "13s",
-          "Energy Cost": "4500"
-        },
-        "description_trans": {
-          "ko": "Cloak & Dagger의 스킬입니다. Perform four rapid dashes, 아군을 치유하며 and damaging 적들 along the path.",
-          "ja": "Cloak & Daggerのスキル。Perform four rapid dashes, 味方を回復し and damaging 敵 along the path。"
-        }
-      },
-      {
-        "type": 2,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -2735,25 +2896,6 @@
         "description_trans": {
           "ko": "Cloak & Dagger의 스킬입니다. Switch to Dagger.",
           "ja": "Cloak & Daggerのスキル。Switch to Dagger。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "SHIFT",
-        "key_trans": {
-          "ko": "Shift",
-          "ja": "Shift"
-        },
-        "name": "Shadow's Embrace",
-        "icon": "https://r.res.easebar.com/pic/20241205/3e810039-6b5c-43e0-b1c6-22808f1ee3cf.png",
-        "description": "Switch to Cloak",
-        "stats": {
-          "Key": "SHIFT",
-          "Casting": "Instant Cast"
-        },
-        "description_trans": {
-          "ko": "Cloak & Dagger의 스킬입니다. Switch to Cloak.",
-          "ja": "Cloak & Daggerのスキル。Switch to Cloak。"
         }
       },
       {
@@ -2782,33 +2924,6 @@
         "description_trans": {
           "ko": "Cloak & Dagger의 스킬입니다. Deploy a Veil of Darkforce to damage 적들 upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received.",
           "ja": "Cloak & Daggerのスキル。Deploy a Veil of Darkforce to damage 敵 upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
-        },
-        "name": "Veil of Lightforce",
-        "icon": "https://r.res.easebar.com/pic/20241205/b2149229-d3c4-4056-9fa4-04704c96c3af.png",
-        "description": "Deploy a Veil of Lightforce to heal allies upon touch and grant them a Healing Boost",
-        "stats": {
-          "Key": "E",
-          "Casting": "Spell Field",
-          "Special Effect": "The spell field advances along the casting path",
-          "Healing Amount": "50",
-          "Healing Boost": "20%",
-          "Duration": "4s",
-          "Range": "Width: 6m, Height: 4.5m",
-          "Movement Speed": "20 m/s",
-          "Maximum Distance": "25m",
-          "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown"
-        },
-        "description_trans": {
-          "ko": "Cloak & Dagger의 스킬입니다. Deploy a Veil of Lightforce to 아군을 치유합니다 upon touch and grant them a Healing Boost.",
-          "ja": "Cloak & Daggerのスキル。Deploy a Veil of Lightforce to 味方を回復する upon touch and grant them a Healing Boost。"
         }
       },
       {
@@ -2930,6 +3045,300 @@
           "ko": "루나 스노우와 함께 플레이 시, 빛의 단검에 냉기 결계가 추가되어 아군에게 보호막을 씌워줍니다.",
           "ja": "ルナ・スノーとチームアップ時、光のダガーに氷の結界が宿り、味方にシールドを展開する。"
         }
+      }
+    ],
+    "forms": [
+      {
+        "form_id": 0,
+        "name": "Cloak",
+        "names": {
+          "en": "Cloak",
+          "ko": "클록",
+          "ja": "クローク"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20241205/87c86614-9f25-4e0e-a941-7a22ebb2b737.png",
+        "base_stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "Darkforce Cloak",
+            "icon": "https://r.res.easebar.com/pic/20241205/94227f4c-02fd-4954-900c-f149b05b5cea.png",
+            "description": "Inflict continuous damage on an enemy",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "Cylindrical Spell Field",
+              "Special Effect": "Attacks will target the nearest enemy to the crosshair, dealing damage",
+              "Damage": "80/s",
+              "Range": "20m",
+              "Ammo": "∞",
+              "Critical Hit": "No"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Inflict continuous damage on an 적.",
+              "ja": "Cloak & Daggerのスキル。Inflict continuous damage on an 敵。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "Dark Teleportation",
+            "icon": "https://r.res.easebar.com/pic/20241205/08104768-56d7-4bda-84ae-bd4cd7245223.png",
+            "description": "Enshroud nearby allies in the Darkforce Dimension, plunging them into the Phased state, making them untargetable and invisible to enemies and granting them a Movement Boost",
+            "stats": {
+              "Key": "Right Click",
+              "Casting": "Persistent Spell Field",
+              "Special Effect": "Allies within the area gain Invisibility and Movement Boost",
+              "Duration": "2s",
+              "Range": "10m spherical radius",
+              "Cooldown": "12s"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Enshroud nearby 아군 in the Darkforce Dimension, plunging them into the Phased state, making them 대상 지정 불가 and 투명화 to 적들 and granting them a Movement Boost.",
+              "ja": "Cloak & Daggerのスキル。Enshroud nearby 味方 in the Darkforce Dimension, plunging them into the Phased state, making them ターゲット不能 and 不可視 to 敵 and granting them a Movement Boost。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Q",
+            "key_trans": {
+              "ko": "Q (궁극기)",
+              "ja": "Q (アルティメット)"
+            },
+            "name": "Eternal Bond",
+            "icon": "https://r.res.easebar.com/pic/20241205/9791de0a-9b39-4111-a535-77a8fccaef5a.png",
+            "description": "Perform four rapid dashes, healing allies and damaging enemies along the path",
+            "stats": {
+              "Key": "Q",
+              "Casting": "Persistent Spell Field",
+              "Damage": "30/s",
+              "Healing Amount": "250/s",
+              "Range": "A cylindrical spell field with a 4m radius and 15m in length",
+              "Duration": "11s",
+              "Energy Cost": "4500"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Perform four rapid dashes, 아군을 치유하며 and damaging 적들 along the path.",
+              "ja": "Cloak & Daggerのスキル。Perform four rapid dashes, 味方を回復し and damaging 敵 along the path。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "SHIFT",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "Light's Embrace",
+            "icon": "https://r.res.easebar.com/pic/20241205/d79fe95c-03cf-4d39-97ce-a2af95dd180b.png",
+            "description": "Switch to Dagger",
+            "stats": {
+              "Key": "SHIFT",
+              "Casting": "Instant Cast"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Switch to Dagger.",
+              "ja": "Cloak & Daggerのスキル。Switch to Dagger。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "Terror Cape",
+            "icon": "https://r.res.easebar.com/pic/20241205/a57ebbc2-dcf5-4511-8a5e-7291aefbaf3f.png",
+            "description": "Deploy a Veil of Darkforce to damage enemies upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received",
+            "stats": {
+              "Key": "E",
+              "Casting": "Spell Field",
+              "Special Effect": "The spell field advances along the casting path",
+              "Damage": "55",
+              "Blinding Duration": "1.5s",
+              "Range": "Width: 6m, Height: 4.5m",
+              "Vulnerability": "28%",
+              "Vulnerability Duration": "3s",
+              "Movement Speed": "20 m/s",
+              "Maximum Distance": "25m",
+              "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Deploy a Veil of Darkforce to damage 적들 upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received.",
+              "ja": "Cloak & Daggerのスキル。Deploy a Veil of Darkforce to damage 敵 upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "FROM SHADOW TO LIGHT",
+            "icon": "https://r.res.easebar.com/pic/20251115/9a215533-35d3-4b33-b726-f9696b57259c.png",
+            "description": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses Crescent Slash, enemies hit are launched back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and boosts healing for allies, while damaging enemies and applying Vulnerability",
+            "stats": {
+              "Key": "Passive",
+              "Team-up Bonus": "15% Healing Boost"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses Crescent Slash, 적들 hit are launched back, and a blade wave filled with light and energy sweeps forward. This wave passes through both 아군 and 적들: it heals and boosts healing for 아군, while damaging 적들 and applying Vulnerability.",
+              "ja": "Cloak & Daggerのスキル。Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses Crescent Slash, 敵 hit are launched back, and a blade wave filled with light and energy sweeps forward. This wave passes through both 味方 and 敵: it heals and boosts healing for 味方, while damaging 敵 and applying Vulnerability。"
+            }
+          }
+        ]
+      },
+      {
+        "form_id": 1,
+        "name": "Dagger",
+        "names": {
+          "en": "Dagger",
+          "ko": "대거",
+          "ja": "ダガー"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20241205/6d081eaf-a0e3-4558-9d04-f7039010b141.png",
+        "base_stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "Lightforce Dagger",
+            "icon": "https://r.res.easebar.com/pic/20241205/5211b159-6fa8-4589-829f-facb1c455241.png",
+            "description": "Unleash a bouncing Lightforce Dagger to damage enemies and heal nearby allies",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "Single-cast projectile that generates a spell area upon impact",
+              "Special Effect": "The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects",
+              "Damage": "18 damage per round",
+              "Healing Per Hit": "15 per hit",
+              "Area of Effect Healing": "25 per hit",
+              "Range": "8m spherical radius",
+              "Fire Rate": "2.27 hits per second",
+              "Ammo": "12",
+              "Critical Hit": "No"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Unleash a bouncing Lightforce Dagger to damage 적들 and heal nearby 아군.",
+              "ja": "Cloak & Daggerのスキル。Unleash a bouncing Lightforce Dagger to damage 敵 and heal nearby 味方。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "Dagger Storm",
+            "icon": "https://r.res.easebar.com/pic/20241205/a106ebc0-80b0-4dd9-bf68-0c19f464e8bc.png",
+            "description": "Launch a volley of daggers, creating a Healing Over Time field in the impact area",
+            "stats": {
+              "Key": "Right Click",
+              "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
+              "Healing Amount": "50/s",
+              "Duration": "6s",
+              "Range": "5m spherical radius",
+              "Cooldown": "12s",
+              "Special Effect": "When a Spell Field is created, allies in range get a One-Time Healing of 60"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Launch a volley of daggers, creating a 지속 치유 field in the impact area.",
+              "ja": "Cloak & Daggerのスキル。Launch a volley of daggers, creating a 持続回復 field in the impact area。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Q",
+            "key_trans": {
+              "ko": "Q (궁극기)",
+              "ja": "Q (アルティメット)"
+            },
+            "name": "Eternal Bond",
+            "icon": "https://r.res.easebar.com/pic/20241205/9791de0a-9b39-4111-a535-77a8fccaef5a.png",
+            "description": "Perform four rapid dashes, healing allies and damaging enemies along the path",
+            "stats": {
+              "Key": "Q",
+              "Casting": "Persistent Spell Field",
+              "Damage": "30/s",
+              "Healing Amount": "250/s",
+              "Range": "A cylindrical spell field with a 4m radius and 15m in length",
+              "Duration": "13s",
+              "Energy Cost": "4500"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Perform four rapid dashes, 아군을 치유하며 and damaging 적들 along the path.",
+              "ja": "Cloak & Daggerのスキル。Perform four rapid dashes, 味方を回復し and damaging 敵 along the path。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "SHIFT",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "Shadow's Embrace",
+            "icon": "https://r.res.easebar.com/pic/20241205/3e810039-6b5c-43e0-b1c6-22808f1ee3cf.png",
+            "description": "Switch to Cloak",
+            "stats": {
+              "Key": "SHIFT",
+              "Casting": "Instant Cast"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Switch to Cloak.",
+              "ja": "Cloak & Daggerのスキル。Switch to Cloak。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "Veil of Lightforce",
+            "icon": "https://r.res.easebar.com/pic/20241205/b2149229-d3c4-4056-9fa4-04704c96c3af.png",
+            "description": "Deploy a Veil of Lightforce to heal allies upon touch and grant them a Healing Boost",
+            "stats": {
+              "Key": "E",
+              "Casting": "Spell Field",
+              "Special Effect": "The spell field advances along the casting path",
+              "Healing Amount": "50",
+              "Healing Boost": "20%",
+              "Duration": "4s",
+              "Range": "Width: 6m, Height: 4.5m",
+              "Movement Speed": "20 m/s",
+              "Maximum Distance": "25m",
+              "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown"
+            },
+            "description_trans": {
+              "ko": "Cloak & Dagger의 스킬입니다. Deploy a Veil of Lightforce to 아군을 치유합니다 upon touch and grant them a Healing Boost.",
+              "ja": "Cloak & Daggerのスキル。Deploy a Veil of Lightforce to 味方を回復する upon touch and grant them a Healing Boost。"
+            }
+          }
+        ]
       }
     ]
   },
@@ -6976,56 +7385,6 @@
       },
       {
         "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
-        },
-        "name": "Bridge Boost",
-        "icon": "https://r.res.easebar.com/pic/20251114/c698518d-fcb9-49f7-88e4-6a0fdef24189.png",
-        "description": "While Healing Hearts deck is active, trigger Flush Empowerment to card spring and fire a full deck forward. Cards bounce between allies on impact, granting Health and a Healing Boost",
-        "stats": {
-          "Key": "E",
-          "Casting": "Projectile that fires in a straight trajectory.",
-          "Special Effect": "The projectile automatically tracks allies and will bounce between allies on impact. Bridge Boost bounces on a single target are set to a maximum of 2",
-          "Projectile Speed": "120m/s",
-          "Max Number of Ricochets": "6",
-          "Healing": "55 per round",
-          "Healing Boost Ratio": "0.15",
-          "Duration": "4s"
-        },
-        "description_trans": {
-          "ko": "Gambit의 스킬입니다. While Healing Hearts deck is active, trigger Flush Empowerment to card spring and fire a full deck forward. Cards bounce between 아군 on impact, granting Health and a Healing Boost.",
-          "ja": "Gambitのスキル。While Healing Hearts deck is active, trigger Flush Empowerment to card spring and fire a full deck forward. Cards bounce between 味方 on impact, granting Health and a Healing Boost。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
-        },
-        "name": "Bidding Barrage",
-        "icon": "https://r.res.easebar.com/pic/20251114/5b36fc07-c4e6-496a-9944-efb824adfe0f.png",
-        "description": "While Breaking Spades deck is active, trigger Raise Empowerment to scattering cards in an arc in all directions. Explosions damage enemies and Launch them up",
-        "stats": {
-          "Key": "E",
-          "Casting": "Projectile that generates a spell field upon impact",
-          "Number of Projectiles": "10",
-          "Projectile Speed": "100 m/s",
-          "Maximum Distance": "15m",
-          "Spell Field Range": "5m spherical radius",
-          "Damage": "70",
-          "Special Effect": "Launch enemies up on hit, which can take effect only once."
-        },
-        "description_trans": {
-          "ko": "Gambit의 스킬입니다. While Breaking Spades deck is active, trigger Raise Empowerment to scattering cards in an arc in all directions. Explosions damage 적들 and Launch them up.",
-          "ja": "Gambitのスキル。While Breaking Spades deck is active, trigger Raise Empowerment to scattering cards in an arc in all directions. Explosions damage 敵 and Launch them up。"
-        }
-      },
-      {
-        "type": 2,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -7044,55 +7403,6 @@
         "description_trans": {
           "ko": "Gambit의 스킬입니다. Conjure a Spade card by consuming one stack of Sleight of Hand to gain 공격력 증가 and switch to the Breaking Spades deck.",
           "ja": "Gambitのスキル。Conjure a Spade card by consuming one stack of Sleight of Hand to gain 与ダメージ上昇 and switch to the Breaking Spades deck。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "Purifying Pick-Up",
-        "icon": "https://r.res.easebar.com/pic/20251114/4721ac14-6de6-4a2c-ad41-41f66bcf60ef.png",
-        "description": "While Healing Hearts deck is active, trigger Raise Empowerment to launch a cluster of cards in an arc ahead. Explosions heal nearby allies and Purify them",
-        "stats": {
-          "Key": "F",
-          "Casting": "Projectile that generates a spell field upon impact.",
-          "Number of Generated Projectiles": "10",
-          "Projectile Speed": "100 m/s",
-          "Maximum Distance": "15m",
-          "Spell Field Range": "5m spherical radius",
-          "Spell Field Healing": "70 per field",
-          "Special Effect": "The spell field applies Purify to allies upon impact. This can take effect on allies a maximum of 2 times and on himself once."
-        },
-        "description_trans": {
-          "ko": "Gambit의 스킬입니다. While Healing Hearts deck is active, trigger Raise Empowerment to launch a cluster of cards in an arc ahead. Explosions heal nearby 아군 and Purify them.",
-          "ja": "Gambitのスキル。While Healing Hearts deck is active, trigger Raise Empowerment to launch a cluster of cards in an arc ahead. Explosions heal nearby 味方 and Purify them。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "F",
-        "key_trans": {
-          "ko": "F",
-          "ja": "F"
-        },
-        "name": "Explosive Trick",
-        "icon": "https://r.res.easebar.com/pic/20251114/fd0e01ed-c52f-47c1-bfcf-cf6f21d7489f.png",
-        "description": "While Breaking Spades deck is active, trigger Flush Empowerment to fire a full set of cards forward. Cards explode on impact, dealing damage while inflicting Reduced Healing",
-        "stats": {
-          "Key": "F",
-          "Casting": "Projectile that generates a spell field upon impact",
-          "Projectile Speed": "150 m/s",
-          "Spell Field Range": "5m spherical radius",
-          "Damage": "70",
-          "Reduced Healing Ratio": "0.25",
-          "Reduced Healing Duration": "4s"
-        },
-        "description_trans": {
-          "ko": "Gambit의 스킬입니다. While Breaking Spades deck is active, trigger Flush Empowerment to fire a full set of cards forward. Cards explode on impact, 피해를 입히며 while inflicting Reduced Healing.",
-          "ja": "Gambitのスキル。While Breaking Spades deck is active, trigger Flush Empowerment to fire a full set of cards forward. Cards explode on impact, ダメージを与え while inflicting Reduced Healing。"
         }
       },
       {
@@ -7217,6 +7527,310 @@
           "ko": "쥬빌리와 함께 플레이 시, 폭죽 불꽃놀이 에너지가 봉 끝에 장전되어 눈부신 불꽃 폭발을 일으킵니다.",
           "ja": "ジュビリーとチームアップ時、花火エネルギーが棍の先端に宿り、眩い閃光爆発を発生させる。"
         }
+      }
+    ],
+    "forms": [
+      {
+        "form_id": 0,
+        "name": "Normal Stance",
+        "names": {
+          "en": "Normal Stance",
+          "ko": "기본 폼",
+          "ja": "通常フォーム"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20251114/699f5ef7-0710-4406-a53d-c3aaf8081992.png",
+        "base_stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "Kinetic Cards",
+            "icon": "https://r.res.easebar.com/pic/20251114/803eab7e-6824-40ba-8439-6852d4d13098.png",
+            "description": "Launch three kinetic-charged cards in an arc ahead. Each card detonates on impact, creating a single-target explosion that damages enemies and heals allies",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "Projectile that fires in a straight trajectory",
+              "Cards Launched Per Unleash": "3 cards per unleash",
+              "Angle Between the Side Cards and the Center Card": "2°",
+              "Card Damage": "20 damage per round",
+              "Card Healing": "30 health per round",
+              "Fire Rate": "0.45s per round",
+              "Ammo": "21",
+              "Critical Hit": "No",
+              "Projectile Speed": "150 m/s",
+              "Maximum Distance": "60m"
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. Launch three kinetic-charged cards in an arc ahead. Each card detonates on impact, creating a single-target explosion that damages 적들 and 아군을 치유합니다.",
+              "ja": "Gambitのスキル。Launch three kinetic-charged cards in an arc ahead. Each card detonates on impact, creating a single-target explosion that damages 敵 and 味方を回復する。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "Bayou Bash",
+            "icon": "https://r.res.easebar.com/pic/20251114/c8149d2a-578d-425b-baef-97750a81d644.png",
+            "description": "Channel kinetic energy into the bo staff, then slam it into the ground after a sweeping strike, creating a shockwave that damages nearby enemies and heals allies",
+            "stats": {
+              "Key": "Right Click",
+              "Casting": "Dash",
+              "Cooldown": "2 charges, with each charge taking 8s to recharge",
+              "Spell Field Range": "5m spherical radius",
+              "Damage": "25 per field",
+              "Healing": "To allies and self: 15/hit",
+              "Big Easy Impact": "",
+              "Dash Distance": "12m",
+              "Spell Field Generation Quantity": "3",
+              "Spell Field Generation Interval": "0.1",
+              "Range": "5m spherical radius"
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. Channel kinetic energy into the bo staff, then slam it into the ground after a sweeping strike, creating a shockwave that damages nearby 적들 and 아군을 치유합니다.",
+              "ja": "Gambitのスキル。Channel kinetic energy into the bo staff, then slam it into the ground after a sweeping strike, creating a shockwave that damages nearby 敵 and 味方を回復する。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Q",
+            "key_trans": {
+              "ko": "Q (궁극기)",
+              "ja": "Q (アルティメット)"
+            },
+            "name": "Ragin' Royal Flush",
+            "icon": "https://r.res.easebar.com/pic/20251114/1dca6707-3f6b-48ef-a180-1f2a6f2f0c6c.png",
+            "description": "Lock onto an ally within sight and unleash multiple Aces that heal and Purify. Both enter the Kinetic Transfer state, granting increased Movement Speed and Jump Boost, while enhancing attacks with additional single-target explosive damage and providing the ally with Ultimate Ability Charge Acceleration",
+            "stats": {
+              "Key": "Q",
+              "Casting": "Targeted",
+              "Energy Cost": "4500",
+              "Range": "Cone shape spell field, angle range: 110°, length: 40m",
+              "Special Effect": "Gambit and the targeted ally receive the Purify and Jump Boost effect.",
+              "One-Time Healing": "100",
+              "Movement Speed Boost Ratio": "30%",
+              "Enhanced Damage Ratio": "20%",
+              "Damage Trigger Interval": "0.5s",
+              "Healing over time": "55/s",
+              "Ultimate Abilities Charge Acceleration Ratio": "20%",
+              "Spell Field Duration": "8s"
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. Lock onto an 아군 within sight and unleash multiple Aces that heal and Purify. Both enter the Kinetic Transfer state, granting increased 이동 속도 and Jump Boost, while enhancing attacks with additional single-target explosive damage and providing the 아군 with Ultimate Ability Charge Acceleration.",
+              "ja": "Gambitのスキル。Lock onto an 味方 within sight and unleash multiple Aces that heal and Purify. Both enter the Kinetic Transfer state, granting increased 移動速度 and Jump Boost, while enhancing attacks with additional single-target explosive damage and providing the 味方 with Ultimate Ability Charge Acceleration。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Shift",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "Cajun Charge",
+            "icon": "https://r.res.easebar.com/pic/20251114/ac36a353-d40b-4511-a13a-27f14a429c04.png",
+            "description": "Side-step forward with bo staff in hand, dashing a short distance",
+            "stats": {
+              "Key": "Shift",
+              "Casting": "Dash",
+              "Cooldown": "2 charges, with each charge taking 12.5s to recharge.",
+              "Dash Duration": "8m"
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. Side-step forward with bo staff in hand, dashing a short distance.",
+              "ja": "Gambitのスキル。Side-step forward with bo staff in hand, dashing a short distance。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "Healing Hearts",
+            "icon": "https://r.res.easebar.com/pic/20251114/6ac2c5f0-a2b1-4c61-9a9d-ad754bf80f8b.png",
+            "description": "Conjure a Heart card by consuming one stack of  Sleight of Hand to Heal and switch to the Healing Hearts deck",
+            "stats": {
+              "Key": "E",
+              "Cooldown": "4 charges, with each charge taking 8s to recharge.",
+              "Self Healing": "Heal 30 health per second within duration",
+              "Maximum Duration": "6s",
+              "Special Effect": "Within the duration, consume one stack of Sleight of Hand to use Bridge Boost and Purifying Pick-Up."
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. Conjure a Heart card by consuming one stack of Sleight of Hand to Heal and switch to the Healing Hearts deck.",
+              "ja": "Gambitのスキル。Conjure a Heart card by consuming one stack of Sleight of Hand to Heal and switch to the Healing Hearts deck。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "F",
+            "key_trans": {
+              "ko": "F",
+              "ja": "F"
+            },
+            "name": "Breaking Spades",
+            "icon": "https://r.res.easebar.com/pic/20251114/1ef52531-92a7-4f67-8087-c439b12fd268.png",
+            "description": "Conjure a Spade card by consuming one stack of  Sleight of Hand to gain Damage Boost and switch to the Breaking Spades deck",
+            "stats": {
+              "Key": "F",
+              "Cooldown": "4 charges, with each charge taking 8s to recharge",
+              "Self Damage Boost": "10%",
+              "Maximum Duration": "6s",
+              "Special Effect": "Within the duration, consume one stack of Sleight of Hand to use Explosive Trick and Bidding Barrage"
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. Conjure a Spade card by consuming one stack of Sleight of Hand to gain 공격력 증가 and switch to the Breaking Spades deck.",
+              "ja": "Gambitのスキル。Conjure a Spade card by consuming one stack of Sleight of Hand to gain 与ダメージ上昇 and switch to the Breaking Spades deck。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "ACE OF ACES",
+            "icon": "https://r.res.easebar.com/pic/20251114/0e30670c-1902-40f4-94ab-95be6d0bd05b.png",
+            "description": "Gambit charges Magneto's greatsword with kinetic energy. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay",
+            "stats": {
+              "Key": "Passive",
+              "Team-Up Bonus": "5% Healing Boost"
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. Gambit charges Magneto's greatsword with kinetic energy. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking 적들. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay.",
+              "ja": "Gambitのスキル。Gambit charges Magneto's greatsword with kinetic energy. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking 敵. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay。"
+            }
+          }
+        ]
+      },
+      {
+        "form_id": 1,
+        "name": "Charged Cards",
+        "names": {
+          "en": "Charged Cards",
+          "ko": "강화 카드 폼",
+          "ja": "チャージカード"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20251114/a7d8e207-6f08-4d65-a665-db58aaef61ac.png",
+        "base_stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "Bridge Boost",
+            "icon": "https://r.res.easebar.com/pic/20251114/c698518d-fcb9-49f7-88e4-6a0fdef24189.png",
+            "description": "While Healing Hearts deck is active, trigger Flush Empowerment to card spring and fire a full deck forward. Cards bounce between allies on impact, granting Health and a Healing Boost",
+            "stats": {
+              "Key": "E",
+              "Casting": "Projectile that fires in a straight trajectory.",
+              "Special Effect": "The projectile automatically tracks allies and will bounce between allies on impact. Bridge Boost bounces on a single target are set to a maximum of 2",
+              "Projectile Speed": "120m/s",
+              "Max Number of Ricochets": "6",
+              "Healing": "55 per round",
+              "Healing Boost Ratio": "0.15",
+              "Duration": "4s"
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. While Healing Hearts deck is active, trigger Flush Empowerment to card spring and fire a full deck forward. Cards bounce between 아군 on impact, granting Health and a Healing Boost.",
+              "ja": "Gambitのスキル。While Healing Hearts deck is active, trigger Flush Empowerment to card spring and fire a full deck forward. Cards bounce between 味方 on impact, granting Health and a Healing Boost。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "Bidding Barrage",
+            "icon": "https://r.res.easebar.com/pic/20251114/5b36fc07-c4e6-496a-9944-efb824adfe0f.png",
+            "description": "While Breaking Spades deck is active, trigger Raise Empowerment to scattering cards in an arc in all directions. Explosions damage enemies and Launch them up",
+            "stats": {
+              "Key": "E",
+              "Casting": "Projectile that generates a spell field upon impact",
+              "Number of Projectiles": "10",
+              "Projectile Speed": "100 m/s",
+              "Maximum Distance": "15m",
+              "Spell Field Range": "5m spherical radius",
+              "Damage": "70",
+              "Special Effect": "Launch enemies up on hit, which can take effect only once."
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. While Breaking Spades deck is active, trigger Raise Empowerment to scattering cards in an arc in all directions. Explosions damage 적들 and Launch them up.",
+              "ja": "Gambitのスキル。While Breaking Spades deck is active, trigger Raise Empowerment to scattering cards in an arc in all directions. Explosions damage 敵 and Launch them up。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "F",
+            "key_trans": {
+              "ko": "F",
+              "ja": "F"
+            },
+            "name": "Purifying Pick-Up",
+            "icon": "https://r.res.easebar.com/pic/20251114/4721ac14-6de6-4a2c-ad41-41f66bcf60ef.png",
+            "description": "While Healing Hearts deck is active, trigger Raise Empowerment to launch a cluster of cards in an arc ahead. Explosions heal nearby allies and Purify them",
+            "stats": {
+              "Key": "F",
+              "Casting": "Projectile that generates a spell field upon impact.",
+              "Number of Generated Projectiles": "10",
+              "Projectile Speed": "100 m/s",
+              "Maximum Distance": "15m",
+              "Spell Field Range": "5m spherical radius",
+              "Spell Field Healing": "70 per field",
+              "Special Effect": "The spell field applies Purify to allies upon impact. This can take effect on allies a maximum of 2 times and on himself once."
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. While Healing Hearts deck is active, trigger Raise Empowerment to launch a cluster of cards in an arc ahead. Explosions heal nearby 아군 and Purify them.",
+              "ja": "Gambitのスキル。While Healing Hearts deck is active, trigger Raise Empowerment to launch a cluster of cards in an arc ahead. Explosions heal nearby 味方 and Purify them。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "F",
+            "key_trans": {
+              "ko": "F",
+              "ja": "F"
+            },
+            "name": "Explosive Trick",
+            "icon": "https://r.res.easebar.com/pic/20251114/fd0e01ed-c52f-47c1-bfcf-cf6f21d7489f.png",
+            "description": "While Breaking Spades deck is active, trigger Flush Empowerment to fire a full set of cards forward. Cards explode on impact, dealing damage while inflicting Reduced Healing",
+            "stats": {
+              "Key": "F",
+              "Casting": "Projectile that generates a spell field upon impact",
+              "Projectile Speed": "150 m/s",
+              "Spell Field Range": "5m spherical radius",
+              "Damage": "70",
+              "Reduced Healing Ratio": "0.25",
+              "Reduced Healing Duration": "4s"
+            },
+            "description_trans": {
+              "ko": "Gambit의 스킬입니다. While Breaking Spades deck is active, trigger Flush Empowerment to fire a full set of cards forward. Cards explode on impact, 피해를 입히며 while inflicting Reduced Healing.",
+              "ja": "Gambitのスキル。While Breaking Spades deck is active, trigger Flush Empowerment to fire a full set of cards forward. Cards explode on impact, ダメージを与え while inflicting Reduced Healing。"
+            }
+          }
+        ]
       }
     ]
   },
@@ -7943,30 +8557,6 @@
           "ko": "마우스 좌클릭",
           "ja": "左クリック"
         },
-        "name": "Gamma Ray Gun",
-        "icon": "https://r.res.easebar.com/pic/20241120/8cb6a38e-5f26-483e-8b6c-92ff443084d1.png",
-        "description": "Fire with a Gamma Ray Gun",
-        "stats": {
-          "Key": "Left Click",
-          "Casting": "Single-cast projectile with delayed impact",
-          "Projectile Speed": "80m/s",
-          "Damage": "16",
-          "Fire Rate": "5 rounds per second",
-          "Ammo": "25",
-          "Critical Hit": "Yes"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. Fire with a Gamma Ray Gun.",
-          "ja": "HULKのスキル。Fire with a Gamma Ray Gun。"
-        }
-      },
-      {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
-        },
         "name": "Heavy Blow",
         "icon": "https://r.res.easebar.com/pic/20241120/cc774c86-d162-462f-95d0-1b11d36eed83.png",
         "description": "Swing fists forward to punch enemies",
@@ -7980,28 +8570,6 @@
         "description_trans": {
           "ko": "HULK의 스킬입니다. Swing fists forward to punch 적들.",
           "ja": "HULKのスキル。Swing fists forward to punch 敵。"
-        }
-      },
-      {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
-        },
-        "name": "Heavy Blow",
-        "icon": "https://r.res.easebar.com/pic/20241120/cc774c86-d162-462f-95d0-1b11d36eed83.png",
-        "description": "Swing fists forward to punch and launch up enemies",
-        "stats": {
-          "Key": "Left Click",
-          "Casting": "Single-cast Spell Field",
-          "Damage": "70",
-          "Range": "5m",
-          "Attack Interval": "0.52s"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. Swing fists forward to punch and 적들을 공중에 띄웁니다.",
-          "ja": "HULKのスキル。Swing fists forward to punch and 敵を打ち上げる。"
         }
       },
       {
@@ -8029,49 +8597,6 @@
       },
       {
         "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
-        },
-        "name": "Gamma Burst",
-        "icon": "https://r.res.easebar.com/pic/20241120/0ac60cf3-6b01-485b-b205-900f7ac674a4.png",
-        "description": "Emit gamma-ray bursts to inflict damage",
-        "stats": {
-          "Key": "Right Click",
-          "Casting": "Single-cast projectile that can pierce through enemies",
-          "Projectile Speed": "60m/s",
-          "Damage": "125",
-          "Cooldown": "1s"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. Emit gamma-ray bursts to inflict damage.",
-          "ja": "HULKのスキル。Emit gamma-ray bursts to inflict damage。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Q",
-        "key_trans": {
-          "ko": "Q (궁극기)",
-          "ja": "Q (アルティメット)"
-        },
-        "name": "Puny Banner",
-        "icon": "https://r.res.easebar.com/pic/20241120/9a3b272b-318b-45e2-a863-274aa7bcf288.png",
-        "description": "Transform from Bruce Banner into Hero Hulk",
-        "stats": {
-          "Key": "Q",
-          "Casting": "Transformation",
-          "Energy Cost": "600",
-          "Special Effect": "The caster is immobilized during the transformation process and gains Invincibility"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. Transform from Bruce Banner into Hero Hulk.",
-          "ja": "HULKのスキル。Transform from Bruce Banner into Hero Hulk。"
-        }
-      },
-      {
-        "type": 2,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -8090,52 +8615,6 @@
         "description_trans": {
           "ko": "HULK의 스킬입니다. Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period.",
           "ja": "HULKのスキル。Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Q",
-        "key_trans": {
-          "ko": "Q (궁극기)",
-          "ja": "Q (アルティメット)"
-        },
-        "name": "World Breaker",
-        "icon": "https://r.res.easebar.com/pic/20241120/e2c65ff1-2180-4f19-b7b0-1cf08ad1b1c4.png",
-        "description": "Grab and smash the enemy in front",
-        "stats": {
-          "Key": "Q",
-          "Casting": "Targeted",
-          "Damage": "Delivers 5 hits, each dealing 40 damage",
-          "Duration": "5s",
-          "Range": "5m",
-          "Special Effect": "While performing the smash, Hulk gains a 30% Damage Reduction"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. Grab and smash the 적 in front.",
-          "ja": "HULKのスキル。Grab and smash the 敵 in front。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "SHIFT",
-        "key_trans": {
-          "ko": "Shift",
-          "ja": "Shift"
-        },
-        "name": "Gamma Grenade",
-        "icon": "https://r.res.easebar.com/pic/20241120/3187b7a0-06b5-4e1c-babe-796554bc2430.png",
-        "description": "Launch a Gamma Grenade to inflict damage and Launch Up enemies",
-        "stats": {
-          "Key": "SHIFT",
-          "Casting": "Single-cast projectile with a downward delay that creates a spell field upon impact",
-          "Damage": "40",
-          "Range": "3m spherical radius",
-          "Cooldown": "8s",
-          "Special Effect": "When the caster enters the spell field, it restores 50 gamma energy"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. Launch a Gamma Grenade to inflict damage and 적들을 공중에 띄웁니다.",
-          "ja": "HULKのスキル。Launch a Gamma Grenade to inflict damage and 敵を打ち上げる。"
         }
       },
       {
@@ -8188,51 +8667,6 @@
         }
       },
       {
-        "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
-        },
-        "name": "Radioactive Lockdown",
-        "icon": "https://r.res.easebar.com/pic/20241120/5965d229-691b-42be-859e-bc83191b3d1d.png",
-        "description": "Emit gamma energy to irradiate enemies and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status",
-        "stats": {
-          "Key": "E",
-          "Casting": "Single-cast projectile",
-          "Projectile Speed": "150m/s",
-          "Damage": "5",
-          "Cooldown": "5s",
-          "Max Duration": "2s",
-          "Special Effect": "Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. Emit gamma energy to irradiate 적들 and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status.",
-          "ja": "HULKのスキル。Emit gamma energy to irradiate 敵 and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status。"
-        }
-      },
-      {
-        "type": 3,
-        "key": "C",
-        "key_trans": {
-          "ko": "C",
-          "ja": "C"
-        },
-        "name": "Gamma Fastball",
-        "icon": "https://r.res.easebar.com/pic/20241205/cb438e5d-7e3c-47ff-af80-0b776f860874.png",
-        "description": "Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward",
-        "stats": {
-          "Key": "C",
-          "Casting": "Targeted",
-          "Maximum Distance": "20m",
-          "Cooldown": "3s when not thrown, 15s when thrown"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward.",
-          "ja": "HULKのスキル。Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward。"
-        }
-      },
-      {
         "type": 3,
         "key": "C",
         "key_trans": {
@@ -8275,68 +8709,6 @@
         "description_trans": {
           "ko": "HULK의 스킬입니다. HOLD Space to perform a charged leap that allows Hero Hulk to Knock a flying 적 to the ground.",
           "ja": "HULKのスキル。HOLD Space to perform a charged leap that allows Hero Hulk to Knock a flying 敵 to the ground。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Space",
-        "key_trans": {
-          "ko": "Space",
-          "ja": "Space"
-        },
-        "name": "Incredible Leap",
-        "icon": "https://r.res.easebar.com/pic/20241120/b74339de-5816-4639-ba7f-d32d39f620cd.png",
-        "description": "HOLD Space to perform a charged leap that allows Monster Hulk to Knock a flying enemy to the ground",
-        "stats": {
-          "Key": "Space",
-          "Casting": "Charged Dash",
-          "Minimum Charge Time": "0.7s",
-          "Maximum Charge Time": "1.5s",
-          "Speed at Minimum Charge Time": "19.4m/s",
-          "Speed at Maximum Charge Time": "25m/s",
-          "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. HOLD Space to perform a charged leap that allows Monster Hulk to Knock a flying 적 to the ground.",
-          "ja": "HULKのスキル。HOLD Space to perform a charged leap that allows Monster Hulk to Knock a flying 敵 to the ground。"
-        }
-      },
-      {
-        "type": 3,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "Gamma Boost",
-        "icon": "https://r.res.easebar.com/pic/20241120/101d8739-0c74-4e34-bbbc-207cfef95ce0.png",
-        "description": "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage",
-        "stats": {
-          "Key": "Passive",
-          "Team-Up Bonus": "Hero Hulk and Monster Hulk gain 100 Max Health"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on 적들. The longer the rays hit, the higher the damage.",
-          "ja": "HULKのスキル。Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on 敵. The longer the rays hit, the higher the damage。"
-        }
-      },
-      {
-        "type": 3,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "Gamma Boost",
-        "icon": "https://r.res.easebar.com/pic/20241120/101d8739-0c74-4e34-bbbc-207cfef95ce0.png",
-        "description": "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage",
-        "stats": {
-          "Key": "Passive",
-          "Team-Up Bonus": "Hero Hulk and Monster Hulk gain 100 Max Health"
-        },
-        "description_trans": {
-          "ko": "HULK의 스킬입니다. Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on 적들. The longer the rays hit, the higher the damage.",
-          "ja": "HULKのスキル。Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on 敵. The longer the rays hit, the higher the damage。"
         }
       },
       {
@@ -8464,6 +8836,481 @@
           "ko": "울버린과 함께 플레이 시, 헐크가 울버린을 집어던지는 '패스트볼 스페셜'을 구사하여 울버린이 적진을 급습합니다.",
           "ja": "ウルヴァリンとチームアップ時、ハルクがウルヴァリンを力任せに投げ飛ばす合体技『ファストボール・スペシャル』を発動する。"
         }
+      }
+    ],
+    "forms": [
+      {
+        "form_id": 0,
+        "name": "Bruce Banner",
+        "names": {
+          "en": "Bruce Banner",
+          "ko": "브루스 배너",
+          "ja": "ブルース・バナー"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20241120/fe9396f7-755b-4888-a2d1-57a4d446f627.png",
+        "base_stats": {
+          "Health": "200",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "Gamma Ray Gun",
+            "icon": "https://r.res.easebar.com/pic/20241120/8cb6a38e-5f26-483e-8b6c-92ff443084d1.png",
+            "description": "Fire with a Gamma Ray Gun",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "Single-cast projectile with delayed impact",
+              "Projectile Speed": "80m/s",
+              "Damage": "16",
+              "Fire Rate": "5 rounds per second",
+              "Ammo": "25",
+              "Critical Hit": "Yes"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Fire with a Gamma Ray Gun.",
+              "ja": "HULKのスキル。Fire with a Gamma Ray Gun。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Q",
+            "key_trans": {
+              "ko": "Q (궁극기)",
+              "ja": "Q (アルティメット)"
+            },
+            "name": "Puny Banner",
+            "icon": "https://r.res.easebar.com/pic/20241120/9a3b272b-318b-45e2-a863-274aa7bcf288.png",
+            "description": "Transform from Bruce Banner into Hero Hulk",
+            "stats": {
+              "Key": "Q",
+              "Casting": "Transformation",
+              "Energy Cost": "600",
+              "Special Effect": "The caster is immobilized during the transformation process and gains Invincibility"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Transform from Bruce Banner into Hero Hulk.",
+              "ja": "HULKのスキル。Transform from Bruce Banner into Hero Hulk。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "SHIFT",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "Gamma Grenade",
+            "icon": "https://r.res.easebar.com/pic/20241120/3187b7a0-06b5-4e1c-babe-796554bc2430.png",
+            "description": "Launch a Gamma Grenade to inflict damage and Launch Up enemies",
+            "stats": {
+              "Key": "SHIFT",
+              "Casting": "Single-cast projectile with a downward delay that creates a spell field upon impact",
+              "Damage": "40",
+              "Range": "3m spherical radius",
+              "Cooldown": "8s",
+              "Special Effect": "When the caster enters the spell field, it restores 50 gamma energy"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Launch a Gamma Grenade to inflict damage and 적들을 공중에 띄웁니다.",
+              "ja": "HULKのスキル。Launch a Gamma Grenade to inflict damage and 敵を打ち上げる。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "Gamma Boost",
+            "icon": "https://r.res.easebar.com/pic/20241120/101d8739-0c74-4e34-bbbc-207cfef95ce0.png",
+            "description": "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage",
+            "stats": {
+              "Key": "Passive",
+              "Team-Up Bonus": "Hero Hulk and Monster Hulk gain 100 Max Health"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on 적들. The longer the rays hit, the higher the damage.",
+              "ja": "HULKのスキル。Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on 敵. The longer the rays hit, the higher the damage。"
+            }
+          }
+        ]
+      },
+      {
+        "form_id": 1,
+        "name": "Hero Hulk",
+        "names": {
+          "en": "Hero Hulk",
+          "ko": "히어로 헐크",
+          "ja": "ヒーロー・ハルク"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20241120/f4e72b0d-bc2a-45cc-ab88-d1ec6fcf5c34.png",
+        "base_stats": {
+          "Health": "400+300 Regenerative Shield",
+          "Movement Speed": "6.5 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "Heavy Blow",
+            "icon": "https://r.res.easebar.com/pic/20241120/cc774c86-d162-462f-95d0-1b11d36eed83.png",
+            "description": "Swing fists forward to punch enemies",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "Single-cast Spell Field",
+              "Damage": "45",
+              "Range": "4.5m",
+              "Attack Interval": "0.467s"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Swing fists forward to punch 적들.",
+              "ja": "HULKのスキル。Swing fists forward to punch 敵。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "Gamma Burst",
+            "icon": "https://r.res.easebar.com/pic/20241120/c55bb9d3-8b8b-44ad-ac43-4fb9bcf02130.png",
+            "description": "Emit gamma-ray bursts to inflict damage. Reduce Indestructible Guard cooldown upon hit",
+            "stats": {
+              "Key": "Right Click",
+              "Casting": "Single-cast projectile that can pierce through enemies",
+              "Projectile Speed": "80m/s",
+              "Damage": "65",
+              "Cooldown": "Basic Cooldown 2s, with a charge of 6s per use.",
+              "Special Effect": "Each direct hit reduces Indestructible Guard cooldown by 1s"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Emit gamma-ray bursts to inflict damage. Reduce Indestructible Guard 재사용 대기시간 upon hit.",
+              "ja": "HULKのスキル。Emit gamma-ray bursts to inflict damage. Reduce Indestructible Guard クールダウン upon hit。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Q",
+            "key_trans": {
+              "ko": "Q (궁극기)",
+              "ja": "Q (アルティメット)"
+            },
+            "name": "HULK SMASH!",
+            "icon": "https://r.res.easebar.com/pic/20241120/a3a3990b-5005-4616-abc2-96e48a971420.png",
+            "description": "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period",
+            "stats": {
+              "Key": "Q",
+              "Casting": "Transformation",
+              "Duration": "12s",
+              "Energy Cost": "3700",
+              "Special Effect": "The caster is immobilized during the transformation process and gains Invincibility"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period.",
+              "ja": "HULKのスキル。Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "SHIFT",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "Indestructible Guard",
+            "icon": "https://r.res.easebar.com/pic/20241120/4879fdb5-3227-4af4-9264-dd04c12941b4.png",
+            "description": "Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for HULK SMASH",
+            "stats": {
+              "Key": "SHIFT",
+              "Casting": "Single-cast spell field that surrounds the caster",
+              "Range": "5m spherical radius",
+              "Cooldown": "10s",
+              "Caster's Shield Value": "200",
+              "Ally's Shield Value": "100",
+              "Max Shield Duration": "2.5s",
+              "Special Effect": "When the caster's shield takes damage, 130% of the damage is converted into gamma energy. When an ally's shield takes damage, 10% of the damage is converted into gamma energy"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Generate gamma shields for Hero Hulk and nearby 아군, absorbing and converting damage into energy for HULK SMASH.",
+              "ja": "HULKのスキル。Generate gamma shields for Hero Hulk and nearby 味方, absorbing and converting damage into energy for HULK SMASH。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "Radioactive Lockdown",
+            "icon": "https://r.res.easebar.com/pic/20241120/172254e3-9768-4dec-9157-76b456d5383d.png",
+            "description": "Emit gamma energy to irradiate enemies and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status",
+            "stats": {
+              "Key": "E",
+              "Casting": "Single-cast projectile.",
+              "Projectile Speed": "100m/s",
+              "Damage": "5",
+              "Cooldown": "15s",
+              "Max Duration": "2s",
+              "Special Effect": "Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Emit gamma energy to irradiate 적들 and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status.",
+              "ja": "HULKのスキル。Emit gamma energy to irradiate 敵 and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "C",
+            "key_trans": {
+              "ko": "C",
+              "ja": "C"
+            },
+            "name": "Gamma Fastball",
+            "icon": "https://r.res.easebar.com/pic/20241205/cb438e5d-7e3c-47ff-af80-0b776f860874.png",
+            "description": "Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward",
+            "stats": {
+              "Key": "C",
+              "Casting": "Targeted",
+              "Maximum Distance": "20m",
+              "Cooldown": "3s when not thrown, 15s when thrown"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward.",
+              "ja": "HULKのスキル。Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Space",
+            "key_trans": {
+              "ko": "Space",
+              "ja": "Space"
+            },
+            "name": "Incredible Leap",
+            "icon": "https://r.res.easebar.com/pic/20241120/b74339de-5816-4639-ba7f-d32d39f620cd.png",
+            "description": "HOLD Space to perform a charged leap that allows Hero Hulk to Knock a flying enemy to the ground",
+            "stats": {
+              "Key": "Space",
+              "Casting": "Charged Dash",
+              "Minimum Charge Time": "0.4s",
+              "Maximum Charge Time": "1.7s",
+              "Speed at Minimum Charge Time": "19m/s",
+              "Speed at Maximum Charge Time": "25m/s",
+              "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. HOLD Space to perform a charged leap that allows Hero Hulk to Knock a flying 적 to the ground.",
+              "ja": "HULKのスキル。HOLD Space to perform a charged leap that allows Hero Hulk to Knock a flying 敵 to the ground。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "Gamma Boost",
+            "icon": "https://r.res.easebar.com/pic/20241120/101d8739-0c74-4e34-bbbc-207cfef95ce0.png",
+            "description": "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage",
+            "stats": {
+              "Key": "Passive",
+              "Team-Up Bonus": "Hero Hulk and Monster Hulk gain 100 Max Health"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on 적들. The longer the rays hit, the higher the damage.",
+              "ja": "HULKのスキル。Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on 敵. The longer the rays hit, the higher the damage。"
+            }
+          }
+        ]
+      },
+      {
+        "form_id": 2,
+        "name": "Monster Hulk",
+        "names": {
+          "en": "Monster Hulk",
+          "ko": "몬스터 헐크",
+          "ja": "モンスター・ハルク"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20241120/c73a87ed-c216-4378-9eb6-214c45b9057d.png",
+        "base_stats": {
+          "Health": "1400",
+          "Movement Speed": "6.5 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "Heavy Blow",
+            "icon": "https://r.res.easebar.com/pic/20241120/cc774c86-d162-462f-95d0-1b11d36eed83.png",
+            "description": "Swing fists forward to punch and launch up enemies",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "Single-cast Spell Field",
+              "Damage": "70",
+              "Range": "5m",
+              "Attack Interval": "0.52s"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Swing fists forward to punch and 적들을 공중에 띄웁니다.",
+              "ja": "HULKのスキル。Swing fists forward to punch and 敵を打ち上げる。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "Gamma Burst",
+            "icon": "https://r.res.easebar.com/pic/20241120/0ac60cf3-6b01-485b-b205-900f7ac674a4.png",
+            "description": "Emit gamma-ray bursts to inflict damage",
+            "stats": {
+              "Key": "Right Click",
+              "Casting": "Single-cast projectile that can pierce through enemies",
+              "Projectile Speed": "60m/s",
+              "Damage": "125",
+              "Cooldown": "1s"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Emit gamma-ray bursts to inflict damage.",
+              "ja": "HULKのスキル。Emit gamma-ray bursts to inflict damage。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Q",
+            "key_trans": {
+              "ko": "Q (궁극기)",
+              "ja": "Q (アルティメット)"
+            },
+            "name": "World Breaker",
+            "icon": "https://r.res.easebar.com/pic/20241120/e2c65ff1-2180-4f19-b7b0-1cf08ad1b1c4.png",
+            "description": "Grab and smash the enemy in front",
+            "stats": {
+              "Key": "Q",
+              "Casting": "Targeted",
+              "Damage": "Delivers 5 hits, each dealing 40 damage",
+              "Duration": "5s",
+              "Range": "5m",
+              "Special Effect": "While performing the smash, Hulk gains a 30% Damage Reduction"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Grab and smash the 적 in front.",
+              "ja": "HULKのスキル。Grab and smash the 敵 in front。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "Radioactive Lockdown",
+            "icon": "https://r.res.easebar.com/pic/20241120/5965d229-691b-42be-859e-bc83191b3d1d.png",
+            "description": "Emit gamma energy to irradiate enemies and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status",
+            "stats": {
+              "Key": "E",
+              "Casting": "Single-cast projectile",
+              "Projectile Speed": "150m/s",
+              "Damage": "5",
+              "Cooldown": "5s",
+              "Max Duration": "2s",
+              "Special Effect": "Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Emit gamma energy to irradiate 적들 and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status.",
+              "ja": "HULKのスキル。Emit gamma energy to irradiate 敵 and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "C",
+            "key_trans": {
+              "ko": "C",
+              "ja": "C"
+            },
+            "name": "Gamma Fastball",
+            "icon": "https://r.res.easebar.com/pic/20241205/cb438e5d-7e3c-47ff-af80-0b776f860874.png",
+            "description": "Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward",
+            "stats": {
+              "Key": "C",
+              "Casting": "Targeted",
+              "Maximum Distance": "20m",
+              "Cooldown": "3s when not thrown, 15s when thrown"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward.",
+              "ja": "HULKのスキル。Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Space",
+            "key_trans": {
+              "ko": "Space",
+              "ja": "Space"
+            },
+            "name": "Incredible Leap",
+            "icon": "https://r.res.easebar.com/pic/20241120/b74339de-5816-4639-ba7f-d32d39f620cd.png",
+            "description": "HOLD Space to perform a charged leap that allows Monster Hulk to Knock a flying enemy to the ground",
+            "stats": {
+              "Key": "Space",
+              "Casting": "Charged Dash",
+              "Minimum Charge Time": "0.7s",
+              "Maximum Charge Time": "1.5s",
+              "Speed at Minimum Charge Time": "19.4m/s",
+              "Speed at Maximum Charge Time": "25m/s",
+              "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. HOLD Space to perform a charged leap that allows Monster Hulk to Knock a flying 적 to the ground.",
+              "ja": "HULKのスキル。HOLD Space to perform a charged leap that allows Monster Hulk to Knock a flying 敵 to the ground。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "Gamma Boost",
+            "icon": "https://r.res.easebar.com/pic/20241120/101d8739-0c74-4e34-bbbc-207cfef95ce0.png",
+            "description": "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage",
+            "stats": {
+              "Key": "Passive",
+              "Team-Up Bonus": "Hero Hulk and Monster Hulk gain 100 Max Health"
+            },
+            "description_trans": {
+              "ko": "HULK의 스킬입니다. Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on 적들. The longer the rays hit, the higher the damage.",
+              "ja": "HULKのスキル。Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on 敵. The longer the rays hit, the higher the damage。"
+            }
+          }
+        ]
       }
     ]
   },
@@ -11283,50 +12130,6 @@
         }
       },
       {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
-        },
-        "name": "Soulsword",
-        "icon": "https://r.res.easebar.com/pic/20241120/1429fdcf-3e9f-4dd9-873e-4ccf6f758cfd.png",
-        "description": "Slash forward with the Soulsword",
-        "stats": {
-          "Key": "Left Click",
-          "Casting": "Melee",
-          "Damage": "Deals 3 hits at intervals of 0.15s, with each hit dealing 35 damage",
-          "Maximum Distance": "10m",
-          "Damage Falloff": "Falloff begins at 6m, decreasing to 25% at 10m",
-          "Attack Interval": "1 hit per second"
-        },
-        "description_trans": {
-          "ko": "MAGIK의 스킬입니다. Slash forward with the Soulsword.",
-          "ja": "MAGIKのスキル。Slash forward with the Soulsword。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
-        },
-        "name": "Eldritch Whirl",
-        "icon": "https://r.res.easebar.com/pic/20241120/ab4444b3-e2b2-4855-bce8-ac5e4aadec45.png",
-        "description": "Spin while swinging the Soulsword after exiting a Stepping Disc",
-        "stats": {
-          "Key": "Left Click",
-          "Casting": "A cylindrical spell field in melee range",
-          "Damage": "Deals 3 hits at intervals of 0.25s, each dealing 45 damage",
-          "Range": "A cylindrical spell field with a radius of 12m and a height of 5m"
-        },
-        "description_trans": {
-          "ko": "MAGIK의 스킬입니다. Spin while swinging the Soulsword after exiting a Stepping Disc.",
-          "ja": "MAGIKのスキル。Spin while swinging the Soulsword after exiting a Stepping Disc。"
-        }
-      },
-      {
         "type": 2,
         "key": "Right Click",
         "key_trans": {
@@ -11368,53 +12171,6 @@
           "Range": "Length: 6.5m, Width: 3m, Height: 3m",
           "Maximum Duration for Summons": "4s",
           "Summons' Health": "100"
-        },
-        "description_trans": {
-          "ko": "MAGIK의 스킬입니다. Summon a Limbo demon that attacks 적들 after exiting a Stepping Disc.",
-          "ja": "MAGIKのスキル。Summon a Limbo demon that attacks 敵 after exiting a Stepping Disc。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
-        },
-        "name": "Magik Slash",
-        "icon": "https://r.res.easebar.com/pic/20241120/055e35e2-253d-45da-ae04-82984115f741.png",
-        "description": "Strike forward an air slash",
-        "stats": {
-          "Key": "Right Click",
-          "Casting": "Projectile that fires in a straight trajectory",
-          "Maximum Charge Time": "2s",
-          "Projectile Speed": "100m/s",
-          "Damage": "90 - 180 (Maximum damage is achieved after 1.8s of charging)",
-          "Cooldown": "3s"
-        },
-        "description_trans": {
-          "ko": "MAGIK의 스킬입니다. Strike forward an air slash.",
-          "ja": "MAGIKのスキル。Strike forward an air slash。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
-        },
-        "name": "Demon's Rage",
-        "icon": "https://r.res.easebar.com/pic/20241120/7c8271e5-5e8c-4394-a7d5-7a9e6f578295.png",
-        "description": "Summon a Limbo demon that attacks enemies after exiting a Stepping Disc",
-        "stats": {
-          "Key": "Right Click",
-          "Casting": "A cuboid spell field in melee range",
-          "Damage": "25 damage per hit",
-          "Attack Speed": "0.25s per hit",
-          "Range": "Length: 6m, Width: 4m, Height: 4m",
-          "Maximum Duration for Summons": "4s",
-          "Summons' Health": "200"
         },
         "description_trans": {
           "ko": "MAGIK의 스킬입니다. Summon a Limbo demon that attacks 적들 after exiting a Stepping Disc.",
@@ -11471,32 +12227,6 @@
       },
       {
         "type": 2,
-        "key": "SHIFT",
-        "key_trans": {
-          "ko": "Shift",
-          "ja": "Shift"
-        },
-        "name": "Stepping Discs",
-        "icon": "https://r.res.easebar.com/pic/20241120/77738b7f-79a1-4eae-8d72-8bbda393bd5e.png",
-        "description": "Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting",
-        "stats": {
-          "Key": "SHIFT",
-          "Casting": "Dash",
-          "Average Speed": "17m/s",
-          "Maximum Distance": "10m",
-          "Combo Ability Casting Window": "3s",
-          "Cooldown": "3s",
-          "Charges": "2",
-          "Special Effect 1": "Magik is invincible while moving",
-          "Special Effect 2": "Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon's Rage"
-        },
-        "description_trans": {
-          "ko": "MAGIK의 스킬입니다. Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting.",
-          "ja": "MAGIKのスキル。Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting。"
-        }
-      },
-      {
-        "type": 2,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -11512,29 +12242,6 @@
           "Maximum Distance": "16m",
           "Upward Slash Damage": "85",
           "Cooldown": "8s"
-        },
-        "description_trans": {
-          "ko": "Dash forward and 적들을 공중에 띄웁니다.",
-          "ja": "MAGIKのスキル。Dash forward and 敵を打ち上げる。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "E",
-        "key_trans": {
-          "ko": "E",
-          "ja": "E"
-        },
-        "name": "Umbral Incursion",
-        "icon": "https://r.res.easebar.com/pic/20241120/d5f0b817-5275-4e8f-a1cf-7674cfe5e077.png",
-        "description": "Dash forward and launch up enemies",
-        "stats": {
-          "Key": "E",
-          "Casting": "Movement-based damage ability",
-          "Average Speed": "60m/s",
-          "Maximum Distance": "20m",
-          "Upward Slash Damage": "140",
-          "Cooldown": "6s"
         },
         "description_trans": {
           "ko": "Dash forward and 적들을 공중에 띄웁니다.",
@@ -11692,6 +12399,393 @@
           "ko": "스칼렛 위치와 함께 플레이 시, 포털 주변에 혼돈의 오망진이 새겨져 텔레포트하는 적을 즉시 침묵시킵니다.",
           "ja": "スカーレット・ウィッチとチームアップ時、ポータルの周囲に混沌の五芒星が刻まれ、通過した敵を即座に沈黙させる。"
         }
+      }
+    ],
+    "forms": [
+      {
+        "form_id": 0,
+        "name": "Magik",
+        "names": {
+          "en": "Magik",
+          "ko": "일반 매직",
+          "ja": "通常マジック"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20241120/8bb769e4-de61-4d45-8dfc-690bbb5783ec.png",
+        "base_stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "Soulsword",
+            "icon": "https://r.res.easebar.com/pic/20241120/3c254667-aec0-4d1f-bac8-8f74e5c7ec57.png",
+            "description": "Slash forward with the Soulsword",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "Melee",
+              "Damage": "75",
+              "Maximum Distance": "6.5m",
+              "Damage Falloff": "Falloff begins at 4.5m, decreasing to 50% at 6.5m",
+              "Attack Interval": "0.83s per hit"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Slash forward with the Soulsword.",
+              "ja": "MAGIKのスキル。Slash forward with the Soulsword。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "Eldritch Whirl",
+            "icon": "https://r.res.easebar.com/pic/20241120/a360c242-9475-4d7b-ba43-efb57fdbc44a.png",
+            "description": "Spin while swinging the Soulsword after exiting a Stepping Disc",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "A cylindrical spell field in melee range",
+              "Damage": "50",
+              "Range": "A cylindrical spell field with a radius of 6m and a height of 5m"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Spin while swinging the Soulsword after exiting a Stepping Disc.",
+              "ja": "MAGIKのスキル。Spin while swinging the Soulsword after exiting a Stepping Disc。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "Magik Slash",
+            "icon": "https://r.res.easebar.com/pic/20241120/ddcc3be2-0a9f-4588-bbeb-b6ecc289d8cf.png",
+            "description": "Strike forward an air slash",
+            "stats": {
+              "Key": "Right Click",
+              "Casting": "Charged projectile that travels in a straight trajectory",
+              "Maximum Charge Time": "2s",
+              "Projectile Speed": "80m/s",
+              "Damage": "45 - 81 (Maximum damage is achieved after 1.2s of charging)",
+              "Special Effect": "Projectile pierces enemies and reduces Stepping Discs cooldown by 1s per enemy pierced",
+              "Cooldown": "6s"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Strike forward an air slash.",
+              "ja": "MAGIKのスキル。Strike forward an air slash。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "Demon's Rage",
+            "icon": "https://r.res.easebar.com/pic/20241120/a9c67524-0a71-4106-8a95-f26d78aa15e1.png",
+            "description": "Summon a Limbo demon that attacks enemies after exiting a Stepping Disc",
+            "stats": {
+              "Key": "Right Click",
+              "Casting": "A cuboid spell field in melee range",
+              "Damage": "20 damage per hit",
+              "Attack Speed": "0.25s per hit",
+              "Range": "Length: 6.5m, Width: 3m, Height: 3m",
+              "Maximum Duration for Summons": "4s",
+              "Summons' Health": "100"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Summon a Limbo demon that attacks 적들 after exiting a Stepping Disc.",
+              "ja": "MAGIKのスキル。Summon a Limbo demon that attacks 敵 after exiting a Stepping Disc。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Q",
+            "key_trans": {
+              "ko": "Q (궁극기)",
+              "ja": "Q (アルティメット)"
+            },
+            "name": "Darkchild",
+            "icon": "https://r.res.easebar.com/pic/20241120/54ceb957-f089-4149-9b6e-f19b0b434f76.png",
+            "description": "Transform into Darkchild, gaining enhancements to all her abilities",
+            "stats": {
+              "Key": "Q",
+              "Casting": "Transformation",
+              "Duration": "12s",
+              "Energy Cost": "3400",
+              "Special Effect": "When in the Darkchild state, all of Magik's abilities are enhanced"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Transform into Darkchild, gaining enhancements to all her abilities.",
+              "ja": "MAGIKのスキル。Transform into Darkchild, gaining enhancements to all her abilities。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "SHIFT",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "Stepping Discs",
+            "icon": "https://r.res.easebar.com/pic/20241120/83bdc026-b6c1-4c72-8a4e-b82036d06a5b.png",
+            "description": "Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting",
+            "stats": {
+              "Key": "SHIFT",
+              "Casting": "Dash",
+              "Average Speed": "12m/s",
+              "Maximum Distance": "10m",
+              "Combo Ability Casting Window": "3s",
+              "Cooldown": "6s",
+              "Charges": "2",
+              "Special Effect 1": "Magik is invincible while moving",
+              "Special Effect 2": "Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon's Rage"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting.",
+              "ja": "MAGIKのスキル。Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "Umbral Incursion",
+            "icon": "https://r.res.easebar.com/pic/20241120/23e2f98e-b25d-465f-8aca-92772da73677.png",
+            "description": "Dash forward and launch up enemies",
+            "stats": {
+              "Key": "E",
+              "Casting": "Movement-based damage ability",
+              "Average Speed": "46m/s",
+              "Maximum Distance": "16m",
+              "Upward Slash Damage": "85",
+              "Cooldown": "8s"
+            },
+            "description_trans": {
+              "ko": "Dash forward and 적들을 공중에 띄웁니다.",
+              "ja": "MAGIKのスキル。Dash forward and 敵を打ち上げる。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "C",
+            "key_trans": {
+              "ko": "C",
+              "ja": "C"
+            },
+            "name": "CHAIN OF CYTTORAK",
+            "icon": "https://r.res.easebar.com/pic/20250912/d6385e94-02b9-4890-b366-46e7194f8ade.png",
+            "description": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's Chthonian Burst is replaced with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a Chain of Cyttorak that links two enemies and slows them; the farther they are apart, the greater the Slow effect inflicted during the link",
+            "stats": {
+              "Key": "C",
+              "Max Link Generation Distance": "15m",
+              "Projectile Speed": "120m/s",
+              "Projectile Hit Damage": "45",
+              "Damage to the Link's Secondary Target": "30",
+              "Link Maximum Duration": "4s",
+              "Slow Rate": "Begins at 0%, growing to 40% at 5m",
+              "Link Breakage Distance": "30m",
+              "Cooldown": "20s",
+              "Damage Over Time": "10/s"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's Chthonian Burst is replaced with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a Chain of Cyttorak that links two 적들 and slows them; the farther they are apart, the greater the 감속 effect inflicted during the link.",
+              "ja": "MAGIKのスキル。Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's Chthonian Burst is replaced with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a Chain of Cyttorak that links two 敵 and slows them; the farther they are apart, the greater the 鈍足 effect inflicted during the link。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "Limbo's Might",
+            "icon": "https://r.res.easebar.com/pic/20241120/ca2c47d6-8349-4bae-b6bc-58436c47776b.png",
+            "description": "Convert damage inflicted on enemies into Bonus Health to herself",
+            "stats": {
+              "Key": "Passive",
+              "Conversion Rate": "30%",
+              "Bonus Max Health": "150",
+              "Energy Cost Special Effect": "Convert damage taken into Bonus Health"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Convert damage inflicted on 적들 into 추가 체력 to herself.",
+              "ja": "MAGIKのスキル。Convert damage inflicted on 敵 into 追加体力 to herself。"
+            }
+          }
+        ]
+      },
+      {
+        "form_id": 1,
+        "name": "Darkchild",
+        "names": {
+          "en": "Darkchild",
+          "ko": "다크차일드 폼",
+          "ja": "ダークチャイルド"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20241120/056e2ca6-f3c3-41f7-8b84-cf36fced9610.png",
+        "base_stats": {
+          "Health": "250+150 Regenerative Shield",
+          "Movement Speed": "6.5 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "Soulsword",
+            "icon": "https://r.res.easebar.com/pic/20241120/1429fdcf-3e9f-4dd9-873e-4ccf6f758cfd.png",
+            "description": "Slash forward with the Soulsword",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "Melee",
+              "Damage": "Deals 3 hits at intervals of 0.15s, with each hit dealing 35 damage",
+              "Maximum Distance": "10m",
+              "Damage Falloff": "Falloff begins at 6m, decreasing to 25% at 10m",
+              "Attack Interval": "1 hit per second"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Slash forward with the Soulsword.",
+              "ja": "MAGIKのスキル。Slash forward with the Soulsword。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "Eldritch Whirl",
+            "icon": "https://r.res.easebar.com/pic/20241120/ab4444b3-e2b2-4855-bce8-ac5e4aadec45.png",
+            "description": "Spin while swinging the Soulsword after exiting a Stepping Disc",
+            "stats": {
+              "Key": "Left Click",
+              "Casting": "A cylindrical spell field in melee range",
+              "Damage": "Deals 3 hits at intervals of 0.25s, each dealing 45 damage",
+              "Range": "A cylindrical spell field with a radius of 12m and a height of 5m"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Spin while swinging the Soulsword after exiting a Stepping Disc.",
+              "ja": "MAGIKのスキル。Spin while swinging the Soulsword after exiting a Stepping Disc。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "Magik Slash",
+            "icon": "https://r.res.easebar.com/pic/20241120/055e35e2-253d-45da-ae04-82984115f741.png",
+            "description": "Strike forward an air slash",
+            "stats": {
+              "Key": "Right Click",
+              "Casting": "Projectile that fires in a straight trajectory",
+              "Maximum Charge Time": "2s",
+              "Projectile Speed": "100m/s",
+              "Damage": "90 - 180 (Maximum damage is achieved after 1.8s of charging)",
+              "Cooldown": "3s"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Strike forward an air slash.",
+              "ja": "MAGIKのスキル。Strike forward an air slash。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "Demon's Rage",
+            "icon": "https://r.res.easebar.com/pic/20241120/7c8271e5-5e8c-4394-a7d5-7a9e6f578295.png",
+            "description": "Summon a Limbo demon that attacks enemies after exiting a Stepping Disc",
+            "stats": {
+              "Key": "Right Click",
+              "Casting": "A cuboid spell field in melee range",
+              "Damage": "25 damage per hit",
+              "Attack Speed": "0.25s per hit",
+              "Range": "Length: 6m, Width: 4m, Height: 4m",
+              "Maximum Duration for Summons": "4s",
+              "Summons' Health": "200"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Summon a Limbo demon that attacks 적들 after exiting a Stepping Disc.",
+              "ja": "MAGIKのスキル。Summon a Limbo demon that attacks 敵 after exiting a Stepping Disc。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "SHIFT",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "Stepping Discs",
+            "icon": "https://r.res.easebar.com/pic/20241120/77738b7f-79a1-4eae-8d72-8bbda393bd5e.png",
+            "description": "Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting",
+            "stats": {
+              "Key": "SHIFT",
+              "Casting": "Dash",
+              "Average Speed": "17m/s",
+              "Maximum Distance": "10m",
+              "Combo Ability Casting Window": "3s",
+              "Cooldown": "3s",
+              "Charges": "2",
+              "Special Effect 1": "Magik is invincible while moving",
+              "Special Effect 2": "Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon's Rage"
+            },
+            "description_trans": {
+              "ko": "MAGIK의 스킬입니다. Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting.",
+              "ja": "MAGIKのスキル。Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become Invincible while teleporting。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "Umbral Incursion",
+            "icon": "https://r.res.easebar.com/pic/20241120/d5f0b817-5275-4e8f-a1cf-7674cfe5e077.png",
+            "description": "Dash forward and launch up enemies",
+            "stats": {
+              "Key": "E",
+              "Casting": "Movement-based damage ability",
+              "Average Speed": "60m/s",
+              "Maximum Distance": "20m",
+              "Upward Slash Damage": "140",
+              "Cooldown": "6s"
+            },
+            "description_trans": {
+              "ko": "Dash forward and 적들을 공중에 띄웁니다.",
+              "ja": "MAGIKのスキル。Dash forward and 敵を打ち上げる。"
+            }
+          }
+        ]
       }
     ]
   },
@@ -18730,31 +19824,6 @@
         }
       },
       {
-        "type": 1,
-        "key": "Left Click",
-        "key_trans": {
-          "ko": "마우스 좌클릭",
-          "ja": "左クリック"
-        },
-        "name": "NINEFOLD SLAM",
-        "icon": "https://r.res.easebar.com/pic/20260320/246d56d8-a7ff-40e7-ace5-01c0fd4b9a66.png",
-        "description": "In Kumiho Form, slam the ground, causing an explosive shockwave. Hitting enemies or summons grants One-Time Healing to self and nearby allies",
-        "stats": {
-          "Key": "Left Click",
-          "Max Attack Range": "5m",
-          "Damage": "50 per hit",
-          "Explosion Damage": "50 per hit",
-          "Attack Interval": "1 per second",
-          "Attack Generated Healing Spell Field Range": "10m radius spherical spell field",
-          "Explosion Spell Field Range": "6m radius spherical spell field",
-          "Healing Amount": "100 per hit"
-        },
-        "description_trans": {
-          "ko": "White Fox의 스킬입니다. In Kumiho Form, slam the ground, causing an explosive shockwave. Hitting 적들 or summons grants One-Time Healing to self and nearby 아군.",
-          "ja": "White Foxのスキル。In Kumiho Form, slam the ground, causing an explosive shockwave. Hitting 敵 or summons grants One-Time Healing to self and nearby 味方。"
-        }
-      },
-      {
         "type": 2,
         "key": "Right Click",
         "key_trans": {
@@ -18801,29 +19870,6 @@
         "description_trans": {
           "ko": "White Fox의 스킬입니다. While Awakened, sweep forward tails to launch up hit 적들.",
           "ja": "White Foxのスキル。While Awakened, sweep forward tails to launch up hit 敵。"
-        }
-      },
-      {
-        "type": 2,
-        "key": "Right Click",
-        "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
-        },
-        "name": "BLESSED BY THE NINE",
-        "icon": "https://r.res.easebar.com/pic/20260320/36acf930-5edb-4ccb-b782-333bc20b2050.png",
-        "description": "In Kumiho Form, select an ally to grant Continuous Healing, Unstoppable, and Life-Steal for a short time",
-        "stats": {
-          "Key": "Right Click",
-          "Maximum Select Distance": "50m",
-          "Healing Over Time Amount": "40/s",
-          "Unstoppable State Duration": "3s",
-          "Life-steal Ratio": "0.25",
-          "Cooldown": "2s"
-        },
-        "description_trans": {
-          "ko": "White Fox의 스킬입니다. In Kumiho Form, select an 아군 to grant Continuous Healing, Unstoppable, and Life-Steal for a short time.",
-          "ja": "White Foxのスキル。In Kumiho Form, select an 味方 to grant Continuous Healing, Unstoppable, and Life-Steal for a short time。"
         }
       },
       {
@@ -19063,6 +20109,322 @@
           "ko": "사일록과 함께 플레이 시, 사이킥 칼날이 여우 발톱에 깃들어 타격 시 적의 정신을 혼미하게 만듭니다.",
           "ja": "サイロックとチームアップ時、サイキックブレードが爪に宿り、攻撃を受けた敵の精神を麻痺させる。"
         }
+      }
+    ],
+    "forms": [
+      {
+        "form_id": 0,
+        "name": "Human Form",
+        "names": {
+          "en": "Human Form",
+          "ko": "인간 형태",
+          "ja": "人間形態"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20260320/324b74e9-9ee9-4281-a5a1-913452f72d63.png",
+        "base_stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "YEOWOO GUSEUL",
+            "icon": "https://r.res.easebar.com/pic/20260320/c58d434c-4789-4937-961d-d27e5a1f80ef.png",
+            "description": "Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages enemies, heals allies, and restores Spirit Tail energy",
+            "stats": {
+              "Key": "Left Click",
+              "Projectile Speed": "120m/s",
+              "Bounce Projectile Speed": "80m/s",
+              "Maximum Distance": "35m",
+              "Bounce Projectile Max Distance": "6m",
+              "Healing Amount": "Direct hit: 50 per round; bounce hit: 35 per round",
+              "Damage": "Direct hit: 40 per round; bounce hit: 25 per round",
+              "Fire Rate": "0.45s per round"
+            },
+            "description_trans": {
+              "ko": "White Fox의 스킬입니다. Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages 적들, 아군을 치유합니다, and restores Spirit Tail energy.",
+              "ja": "White Foxのスキル。Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages 敵, 味方を回復する, and restores Spirit Tail energy。"
+            }
+          },
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "CLAW STRIKE",
+            "icon": "https://r.res.easebar.com/pic/20260320/e738e469-d755-4bf3-93ae-0b5a252443ca.png",
+            "description": "While Awakened, slash forward with a flurry of attacks",
+            "stats": {
+              "Key": "Left Click",
+              "Attack Interval": "0.45s per use",
+              "Damage": "35 per hit",
+              "Attack Range": "4m"
+            },
+            "description_trans": {
+              "ko": "White Fox의 스킬입니다. While Awakened, slash forward with a flurry of attacks.",
+              "ja": "White Foxのスキル。While Awakened, slash forward with a flurry of attacks。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "SPECTRAL SURGE",
+            "icon": "https://r.res.easebar.com/pic/20260320/19bc9c00-28b2-4cb5-810c-183a9635f49b.png",
+            "description": "Consume one Spirit Tail to send a spectral fox forward. It heals and grants invulnerability to allies it passes through, damages and Charms enemies, forcing foes to move toward White Fox",
+            "stats": {
+              "Key": "Right Click",
+              "Projectile Speed": "60m/s",
+              "Damage/Healing Radius": "3m",
+              "Charm/Invincibility Radius": "0.6m",
+              "Damage": "65",
+              "Healing Amount": "65",
+              "Cooldown": "6s",
+              "Charm Duration": "0.4s",
+              "Allies' Invincibility Duration": "0.4s",
+              "Maximum Distance": "35m",
+              "Self Healing Amount": "50"
+            },
+            "description_trans": {
+              "ko": "White Fox의 스킬입니다. Consume one Spirit Tail to send a spectral fox forward. It heals and grants 무적 상태 to 아군 it passes through, damages and Charms 적들, forcing foes to move toward White Fox.",
+              "ja": "White Foxのスキル。Consume one Spirit Tail to send a spectral fox forward. It heals and grants 無敵状態 to 味方 it passes through, damages and Charms 敵, forcing foes to move toward White Fox。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "TAIL SWEEP",
+            "icon": "https://r.res.easebar.com/pic/20260320/5c67a6c1-758c-467c-a4de-62f8fcf8ac11.png",
+            "description": "While Awakened, sweep forward tails to launch up hit enemies",
+            "stats": {
+              "Key": "Right Click",
+              "Cooldown": "3s",
+              "Attack Range": "5m",
+              "DAMAGE": "50"
+            },
+            "description_trans": {
+              "ko": "White Fox의 스킬입니다. While Awakened, sweep forward tails to launch up hit 적들.",
+              "ja": "White Foxのスキル。While Awakened, sweep forward tails to launch up hit 敵。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Q",
+            "key_trans": {
+              "ko": "Q (궁극기)",
+              "ja": "Q (アルティメット)"
+            },
+            "name": "KUMIHO UNLEASHED",
+            "icon": "https://r.res.easebar.com/pic/20260320/b089d7a9-c6dd-46d3-a000-4c0954353ad4.png",
+            "description": "Manifest the full Nine-Tailed Fox form and continuously heal nearby allies. Cannot receive healing effects from others while in this form",
+            "stats": {
+              "Key": "Q",
+              "Energy Cost": "4300",
+              "Maximum Health": "1200",
+              "Continuous Healing Spell Field Range": "10m radius spherical spell field",
+              "Healing Amount": "85/s",
+              "Special Effect": "After casting, automatically apply the Blessed by the Nine effect to all allies within a 10m radius for 3s."
+            },
+            "description_trans": {
+              "ko": "White Fox의 스킬입니다. Manifest the full Nine-Tailed Fox form and continuously heal nearby 아군. Cannot receive healing effects from others while in this form.",
+              "ja": "White Foxのスキル。Manifest the full Nine-Tailed Fox form and continuously heal nearby 味方. Cannot receive healing effects from others while in this form。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Shift",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "SPIRIT SANCTUARY",
+            "icon": "https://r.res.easebar.com/pic/20260320/a69660c4-0140-4d93-b09e-88695bef6c4b.png",
+            "description": "Teleport to a chosen ally, instantly healing allies in the area while generating a shield",
+            "stats": {
+              "Key": "Shift",
+              "Cooldown": "15s",
+              "Summon Health": "200",
+              "One-time Healing Amount": "50",
+              "Maximum Distance": "30m",
+              "Healing Spell Field Range": "5m radius spherical spell field",
+              "MAXIMUM DURATION FOR SUMMONS": "5s",
+              "Special Effect": "While the shield is active, it provides 20/s Healing Over Time to allies (including White Fox) within the shield's range"
+            },
+            "description_trans": {
+              "ko": "White Fox의 스킬입니다. Teleport to a chosen 아군, instantly 아군을 치유하며 in the area while generating a 보호막.",
+              "ja": "White Foxのスキル。Teleport to a chosen 味方, instantly 味方を回復し in the area while generating a シールド。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Shift",
+            "key_trans": {
+              "ko": "Shift",
+              "ja": "Shift"
+            },
+            "name": "Predatory Pounce",
+            "icon": "https://r.res.easebar.com/pic/20260320/5f574241-b3e7-46e1-83c5-658beb3885c9.png",
+            "description": "While Awakened, dash forward. Hit an enemy to slow them, enabling a second dash that knocks back enemies",
+            "stats": {
+              "Key": "Shift",
+              "Cooldown": "6s",
+              "Dash Duration": "15m",
+              "Damage": "40",
+              "Predatory Pounce Second Unleash": ""
+            },
+            "description_trans": {
+              "ko": "White Fox의 스킬입니다. While Awakened, dash forward. Hit an 적 to 감속 them, enabling a second dash that 적들을 밀쳐냅니다.",
+              "ja": "White Foxのスキル。While Awakened, dash forward. Hit an 敵 to 鈍足 them, enabling a second dash that 敵をノックバックする。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "E",
+            "key_trans": {
+              "ko": "E",
+              "ja": "E"
+            },
+            "name": "FOX FORM AWAKENING",
+            "icon": "https://r.res.easebar.com/pic/20260320/72a48398-8002-4dfa-9056-24f73c76bc01.png",
+            "description": "Enter Awakened state, transforming Spirit Tails into physical tails. While active, continuously drain Spirit Tail energy and heal nearby allies. Striking enemies provides additional area healing",
+            "stats": {
+              "Key": "E",
+              "Cooldown": "15s",
+              "Attack Generated Healing Spell Field Range": "10m radius spherical spell field",
+              "Healing Amount": "25/s",
+              "Healing Spell Field That Surrounds the Caster": "10m radius spherical spell field",
+              "Ability Duration": "Transform 3 tails: 9s; 2 tails: 8s; 1 tail: 7s"
+            },
+            "description_trans": {
+              "ko": "White Fox의 스킬입니다. Enter Awakened state, transforming Spirit Tails into physical tails. While active, continuously drain Spirit Tail energy and heal nearby 아군. Striking 적들 provides additional area healing.",
+              "ja": "White Foxのスキル。Enter Awakened state, transforming Spirit Tails into physical tails. While active, continuously drain Spirit Tail energy and heal nearby 味方. Striking 敵 provides additional area healing。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "C",
+            "key_trans": {
+              "ko": "C",
+              "ja": "C"
+            },
+            "name": "NINE-TAILED AURA",
+            "icon": "https://r.res.easebar.com/pic/20260416/dba9f061-232b-4cca-8797-cf61c520201e.png",
+            "description": "Black Cat shares her luck with her allies. When White Fox embraces her newfound fortune, she unleashestracking Spirit Tails to grant Healing and Speed to allies, while damaging and Slowing foes. When Captain America enjoys his luck, his shield's block radius expands and allows him to aim deflectedProjectiles directly toward his target",
+            "stats": {
+              "Key": "C",
+              "Cooldown": "20",
+              "Range": "10m spherical radius spell field",
+              "Movement Boost": "30% for 2s",
+              "Slow Effect": "30% for 2s",
+              "One-Time Healing": "60",
+              "One-Time Damage": "40",
+              "Passive Energy Recover": "1"
+            },
+            "description_trans": {
+              "ko": "CAPTAIN AMERICA의 스킬입니다. Black Cat shares her luck with her 아군. When White Fox embraces her newfound fortune, she unleashestracking Spirit Tails to grant Healing and Speed to 아군, while damaging and Slowing foes. When Captain America enjoys his luck, his 보호막's block radius expands and allows him to aim deflectedProjectiles directly toward his target.",
+              "ja": "CAPTAIN AMERICAのスキル。Black Cat shares her luck with her 味方. When White Fox embraces her newfound fortune, she unleashestracking Spirit Tails to grant Healing and Speed to 味方, while damaging and Slowing foes. When Captain America enjoys his luck, his シールド's block radius expands and allows him to aim deflectedProjectiles directly toward his target。"
+            }
+          },
+          {
+            "type": 3,
+            "key": "Passive",
+            "key_trans": {
+              "ko": "패시브",
+              "ja": "パッシブ"
+            },
+            "name": "SPIRIT FOX WARD",
+            "icon": "https://r.res.easebar.com/pic/20260320/4e7caa04-0fb0-4310-87b4-4754473e6016.png",
+            "description": "White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of speed and fire it forward, healing allies in its path while applying Charm to enemies",
+            "stats": {
+              "Key": "Passive",
+              "Team-Up Bonus": "10% Healing Boost"
+            },
+            "description_trans": {
+              "ko": "LUNA SNOW의 스킬입니다. White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of speed and fire it forward, 아군을 치유하며 in its path while applying Charm to 적들.",
+              "ja": "LUNA SNOWのスキル。White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of speed and fire it forward, 味方を回復し in its path while applying Charm to 敵。"
+            }
+          }
+        ]
+      },
+      {
+        "form_id": 1,
+        "name": "Kumiho Form",
+        "names": {
+          "en": "Kumiho Form",
+          "ko": "구미호 폼",
+          "ja": "九尾の狐"
+        },
+        "avatar": "https://r.res.easebar.com/pic/20260320/357ab606-04f9-485c-8edf-3ad2a6adb74f.png",
+        "base_stats": {
+          "Health": "250",
+          "Movement Speed": "6.5 m/s",
+          "Movement Mode": "Ground"
+        },
+        "skills": [
+          {
+            "type": 1,
+            "key": "Left Click",
+            "key_trans": {
+              "ko": "마우스 좌클릭",
+              "ja": "左クリック"
+            },
+            "name": "NINEFOLD SLAM",
+            "icon": "https://r.res.easebar.com/pic/20260320/246d56d8-a7ff-40e7-ace5-01c0fd4b9a66.png",
+            "description": "In Kumiho Form, slam the ground, causing an explosive shockwave. Hitting enemies or summons grants One-Time Healing to self and nearby allies",
+            "stats": {
+              "Key": "Left Click",
+              "Max Attack Range": "5m",
+              "Damage": "50 per hit",
+              "Explosion Damage": "50 per hit",
+              "Attack Interval": "1 per second",
+              "Attack Generated Healing Spell Field Range": "10m radius spherical spell field",
+              "Explosion Spell Field Range": "6m radius spherical spell field",
+              "Healing Amount": "100 per hit"
+            },
+            "description_trans": {
+              "ko": "White Fox의 스킬입니다. In Kumiho Form, slam the ground, causing an explosive shockwave. Hitting 적들 or summons grants One-Time Healing to self and nearby 아군.",
+              "ja": "White Foxのスキル。In Kumiho Form, slam the ground, causing an explosive shockwave. Hitting 敵 or summons grants One-Time Healing to self and nearby 味方。"
+            }
+          },
+          {
+            "type": 2,
+            "key": "Right Click",
+            "key_trans": {
+              "ko": "마우스 우클릭",
+              "ja": "右クリック"
+            },
+            "name": "BLESSED BY THE NINE",
+            "icon": "https://r.res.easebar.com/pic/20260320/36acf930-5edb-4ccb-b782-333bc20b2050.png",
+            "description": "In Kumiho Form, select an ally to grant Continuous Healing, Unstoppable, and Life-Steal for a short time",
+            "stats": {
+              "Key": "Right Click",
+              "Maximum Select Distance": "50m",
+              "Healing Over Time Amount": "40/s",
+              "Unstoppable State Duration": "3s",
+              "Life-steal Ratio": "0.25",
+              "Cooldown": "2s"
+            },
+            "description_trans": {
+              "ko": "White Fox의 스킬입니다. In Kumiho Form, select an 아군 to grant Continuous Healing, Unstoppable, and Life-Steal for a short time.",
+              "ja": "White Foxのスキル。In Kumiho Form, select an 味方 to grant Continuous Healing, Unstoppable, and Life-Steal for a short time。"
+            }
+          }
+        ]
       }
     ]
   },

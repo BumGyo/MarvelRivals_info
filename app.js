@@ -15,6 +15,7 @@
   let currentRole = 'ALL';
   let searchQuery = '';
   let selectedHero = null;
+  let currentFormIndex = 0;
   let selectedSkillIndex = 0;
   let selectedSkillIsUpgraded = false;
   let selectedLoadout = 1;
@@ -37,6 +38,7 @@
   const tabBtnTeamups = document.getElementById('tab-btn-teamups');
   const viewSkills = document.getElementById('view-skills');
   const viewTeamups = document.getElementById('view-teamups');
+  const heroFormsBar = document.getElementById('hero-forms-bar');
   const skillSelectorList = document.getElementById('skill-selector-list');
   const skillDetailDisplay = document.getElementById('skill-detail-display');
   const loadoutSelector = document.getElementById('loadout-selector');
@@ -269,8 +271,16 @@
         const jaName = (hero.names.ja || '').toLowerCase();
         const role = (hero.role || '').toLowerCase();
 
-        // Also search in skills
-        const skillMatch = hero.skills.some(s => 
+        // Also search in skills (including all forms)
+        let allSkills = hero.skills ? [...hero.skills] : [];
+        if (hero.forms && Array.isArray(hero.forms)) {
+          hero.forms.forEach(f => {
+            if (f.skills && Array.isArray(f.skills)) {
+              allSkills = allSkills.concat(f.skills);
+            }
+          });
+        }
+        const skillMatch = allSkills.some(s => 
           (s.name || '').toLowerCase().includes(searchQuery) ||
           (s.key || '').toLowerCase().includes(searchQuery)
         );
@@ -391,8 +401,25 @@
     if (hero.skills && Array.isArray(hero.skills)) {
       hero.skills.sort((a, b) => (KEY_ORDER[a.key] || 15) - (KEY_ORDER[b.key] || 15));
     }
+    if (hero.forms && Array.isArray(hero.forms)) {
+      hero.forms.forEach(form => {
+        if (form.skills && Array.isArray(form.skills)) {
+          form.skills.sort((a, b) => (KEY_ORDER[a.key] || 15) - (KEY_ORDER[b.key] || 15));
+        }
+      });
+    }
 
     selectedHero = hero;
+    if (selectedHero.forms && selectedHero.forms.length > 0) {
+      // Hulk default form is Hero Hulk (form_id 1) if present
+      if ((selectedHero.id === '1011' || selectedHero.names?.en?.toUpperCase() === 'HULK') && selectedHero.forms[1]) {
+        currentFormIndex = 1;
+      } else {
+        currentFormIndex = 0;
+      }
+    } else {
+      currentFormIndex = 0;
+    }
     selectedSkillIndex = 0;
     selectedSkillIsUpgraded = false;
     selectedLoadout = 1;
@@ -442,12 +469,13 @@
     if (!selectedHero) return;
 
     const hero = selectedHero;
+    const activeForm = (hero.forms && hero.forms[currentFormIndex]) ? hero.forms[currentFormIndex] : null;
     const t = i18nData[currentLang] || {};
 
     const displayName = hero.names[currentLang] || hero.names.en;
     const subName = (currentLang !== 'en') ? hero.names.en : '';
 
-    modalHeroAvatar.src = hero.avatar;
+    modalHeroAvatar.src = (activeForm && activeForm.avatar) ? activeForm.avatar : hero.avatar;
     modalHeroAvatar.alt = displayName;
     modalHeroName.textContent = displayName;
     
@@ -460,10 +488,11 @@
       </span>
     `;
 
-    // Base Stats Badges
-    const health = formatHealth(hero.base_stats?.Health, currentLang, false);
-    const speed = formatSpeed(hero.base_stats?.['Movement Speed']);
-    const rawMode = hero.base_stats?.['Movement Mode'] || 'Ground';
+    // Base Stats Badges (Form-specific stats if multi-form)
+    const baseStats = (activeForm && activeForm.base_stats) ? activeForm.base_stats : hero.base_stats;
+    const health = formatHealth(baseStats?.Health, currentLang, false);
+    const speed = formatSpeed(baseStats?.['Movement Speed']);
+    const rawMode = baseStats?.['Movement Mode'] || 'Ground';
 
     const healthLabel = t.health || 'Health';
     const speedLabel = t.speed || 'Speed';
@@ -480,9 +509,47 @@
       <div class="base-stat-badge">🚀 ${modeLabel}: <strong>${escapeHtml(modeDisplay)}</strong></div>
     `;
 
+    renderHeroFormsBar();
     renderSkillSelectorList();
     renderSkillDetailDisplay();
     renderTeamupTab();
+  }
+
+  /**
+   * Render Form Switcher Bar for multi-form heroes
+   */
+  function renderHeroFormsBar() {
+    if (!heroFormsBar) return;
+    if (!selectedHero || !selectedHero.forms || selectedHero.forms.length <= 1) {
+      heroFormsBar.style.display = 'none';
+      heroFormsBar.innerHTML = '';
+      return;
+    }
+
+    heroFormsBar.style.display = 'flex';
+    heroFormsBar.innerHTML = selectedHero.forms.map((f, idx) => {
+      const isActive = idx === currentFormIndex;
+      const formName = f.names?.[currentLang] || f.name;
+      const avatarSrc = f.avatar || selectedHero.avatar;
+      return `
+        <button type="button" class="hero-form-btn ${isActive ? 'active' : ''}" data-form-idx="${idx}">
+          <img src="${avatarSrc}" class="hero-form-avatar" alt="${escapeHtml(formName)}">
+          <span>${escapeHtml(formName)}</span>
+        </button>
+      `;
+    }).join('');
+
+    heroFormsBar.querySelectorAll('.hero-form-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const idx = parseInt(btn.getAttribute('data-form-idx'), 10);
+        if (currentFormIndex !== idx) {
+          currentFormIndex = idx;
+          selectedSkillIndex = 0;
+          selectedSkillIsUpgraded = false;
+          updateModalContent();
+        }
+      });
+    });
   }
 
   /**
@@ -491,7 +558,9 @@
   function renderSkillSelectorList() {
     if (!selectedHero) return;
 
-    const skills = selectedHero.skills || [];
+    const activeForm = (selectedHero.forms && selectedHero.forms[currentFormIndex]) ? selectedHero.forms[currentFormIndex] : null;
+    const skills = (activeForm && activeForm.skills && activeForm.skills.length > 0) ? activeForm.skills : (selectedHero.skills || []);
+
     skillSelectorList.innerHTML = skills.map((s, idx) => {
       const isActive = idx === selectedSkillIndex;
       const keyTrans = s.key_trans?.[currentLang] || s.key;
@@ -528,12 +597,20 @@
    * Render Right Skill Detail Box with Infographic Stats Grid
    */
   function renderSkillDetailDisplay() {
-    if (!selectedHero || !selectedHero.skills[selectedSkillIndex]) {
+    if (!selectedHero) {
       skillDetailDisplay.innerHTML = `<p style="color: var(--text-dim); text-align: center;">No skill selected.</p>`;
       return;
     }
 
-    const rawSkill = selectedHero.skills[selectedSkillIndex];
+    const activeForm = (selectedHero.forms && selectedHero.forms[currentFormIndex]) ? selectedHero.forms[currentFormIndex] : null;
+    const skills = (activeForm && activeForm.skills && activeForm.skills.length > 0) ? activeForm.skills : (selectedHero.skills || []);
+
+    if (!skills[selectedSkillIndex]) {
+      skillDetailDisplay.innerHTML = `<p style="color: var(--text-dim); text-align: center;">No skill selected.</p>`;
+      return;
+    }
+
+    const rawSkill = skills[selectedSkillIndex];
     const hasUpgrade = Boolean(rawSkill.upgrade);
     const activeSkill = (hasUpgrade && selectedSkillIsUpgraded) ? rawSkill.upgrade : rawSkill;
 

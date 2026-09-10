@@ -1,0 +1,803 @@
+[
+  {
+    "title": "Elsa Bloodstone",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "ELSA BLOODSTONE",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "The Hood",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "The Hood",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 7,
+    "skill_form_indices": []
+  },
+  {
+    "title": "DEVIL DINOSAUR",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "DEVIL DINOSAUR",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "BLACK CAT",
+    "type0_count": 3,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Black Cat",
+        "avatar": "https://r.res.easebar.com/pic/20260416/13a9a895-86b0-43fd-b182-2c230d38a61f.png"
+      },
+      {
+        "index": 1,
+        "name": "Black Cat",
+        "avatar": "https://r.res.easebar.com/pic/20260416/8fc39281-1c61-4d51-8d09-a3bbd62be2ac.png"
+      },
+      {
+        "index": 2,
+        "name": "Black Cat",
+        "avatar": "https://r.res.easebar.com/pic/20260416/b88fc77d-3b5e-4802-87de-6c38485e32c1.png"
+      }
+    ],
+    "skills_count": 26,
+    "skill_form_indices": [
+      "0",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "title": "Cyclops",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Cyclops",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "White Fox",
+    "type0_count": 2,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "White Fox",
+        "avatar": "https://r.res.easebar.com/pic/20260320/324b74e9-9ee9-4281-a5a1-913452f72d63.png"
+      },
+      {
+        "index": 1,
+        "name": "White Fox",
+        "avatar": "https://r.res.easebar.com/pic/20260320/357ab606-04f9-485c-8edf-3ad2a6adb74f.png"
+      }
+    ],
+    "skills_count": 12,
+    "skill_form_indices": [
+      "0",
+      "1"
+    ]
+  },
+  {
+    "title": "Jubilation Lee",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "JUBILEE",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 6,
+    "skill_form_indices": []
+  },
+  {
+    "title": "DEADPOOL",
+    "type0_count": 9,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "DEADPOOL",
+        "avatar": "https://r.res.easebar.com/pic/20260114/7e6c8659-6302-421d-a399-9731c91c1d4c.png"
+      },
+      {
+        "index": 1,
+        "name": "DEADPOOL",
+        "avatar": "https://r.res.easebar.com/pic/20260114/2298e8a7-a668-4b5f-be84-afd591e3ec7e.png"
+      },
+      {
+        "index": 2,
+        "name": "DEADPOOL",
+        "avatar": "https://r.res.easebar.com/pic/20260114/b5508bdb-edf8-4acb-9607-01f86a0c84cb.png"
+      },
+      {
+        "index": 3,
+        "name": "DEADPOOL",
+        "avatar": "https://r.res.easebar.com/pic/20260114/fe81ab1a-06f2-4b3d-bb70-67711a98955b.png"
+      },
+      {
+        "index": 4,
+        "name": "DEADPOOL",
+        "avatar": "https://r.res.easebar.com/pic/20260114/260c695e-c99e-49b6-a444-9c40d8e63fb5.png"
+      },
+      {
+        "index": 5,
+        "name": "DEADPOOL",
+        "avatar": "https://r.res.easebar.com/pic/20260114/d561dc3c-f896-4951-9dc6-8b91aea6bdeb.png"
+      },
+      {
+        "index": 6,
+        "name": "DEADPOOL",
+        "avatar": "https://r.res.easebar.com/pic/20260114/4a39f33c-0d48-4c31-a98a-e8eb23d5cf53.png"
+      },
+      {
+        "index": 7,
+        "name": "DEADPOOL",
+        "avatar": "https://r.res.easebar.com/pic/20260114/d138f3f5-8b21-4e3c-b119-cb8988cf4e2c.png"
+      },
+      {
+        "index": 8,
+        "name": "DEADPOOL",
+        "avatar": "https://r.res.easebar.com/pic/20260114/aae480a3-3bb8-4181-b125-27e84d8d624d.png"
+      }
+    ],
+    "skills_count": 78,
+    "skill_form_indices": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "title": "Rogue",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "ROGUE",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "Gambit",
+    "type0_count": 2,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Gambit",
+        "avatar": "https://r.res.easebar.com/pic/20251114/699f5ef7-0710-4406-a53d-c3aaf8081992.png"
+      },
+      {
+        "index": 1,
+        "name": "Gambit",
+        "avatar": "https://r.res.easebar.com/pic/20251114/a7d8e207-6f08-4d65-a665-db58aaef61ac.png"
+      }
+    ],
+    "skills_count": 11,
+    "skill_form_indices": [
+      "0",
+      "1"
+    ]
+  },
+  {
+    "title": "Daredevil",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "DAREDEVIL",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 10,
+    "skill_form_indices": []
+  },
+  {
+    "title": "Emma Frost",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Emma Frost",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "BLADE",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "BLADE",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 7,
+    "skill_form_indices": []
+  },
+  {
+    "title": "PHOENIX",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Phoenix",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 6,
+    "skill_form_indices": []
+  },
+  {
+    "title": "ANGELA",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "ANGELA",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "Invisible Woman",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "INVISIBLE WOMAN",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "Mister Fantastic",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "MISTER FANTASTIC",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 7,
+    "skill_form_indices": []
+  },
+  {
+    "title": "THE THING",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "THE THING",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 10,
+    "skill_form_indices": []
+  },
+  {
+    "title": "Ultron",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Ultron",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 6,
+    "skill_form_indices": []
+  },
+  {
+    "title": "SQUIRREL GIRL",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "SQUIRREL GIRL",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 6,
+    "skill_form_indices": []
+  },
+  {
+    "title": "HUMAN TORCH",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Human Torch",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "Wolverine",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Wolverine",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "Cloak & Dagger",
+    "type0_count": 2,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Cloak",
+        "avatar": "https://r.res.easebar.com/pic/20241205/87c86614-9f25-4e0e-a941-7a22ebb2b737.png"
+      },
+      {
+        "index": 1,
+        "name": "Dagger",
+        "avatar": "https://r.res.easebar.com/pic/20241205/6d081eaf-a0e3-4558-9d04-f7039010b141.png"
+      }
+    ],
+    "skills_count": 11,
+    "skill_form_indices": [
+      "0",
+      "1"
+    ]
+  },
+  {
+    "title": "IRON FIST",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "IRON FIST",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 10,
+    "skill_form_indices": []
+  },
+  {
+    "title": "Black Widow",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Black Widow",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 6,
+    "skill_form_indices": []
+  },
+  {
+    "title": "IRON MAN",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "IRON MAN",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 11,
+    "skill_form_indices": []
+  },
+  {
+    "title": "HAWKEYE",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "HAWKEYE",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "PSYLOCKE",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Psylocke",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 6,
+    "skill_form_indices": []
+  },
+  {
+    "title": "MAGIK",
+    "type0_count": 2,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "MAGIK",
+        "avatar": "https://r.res.easebar.com/pic/20241120/8bb769e4-de61-4d45-8dfc-690bbb5783ec.png"
+      },
+      {
+        "index": 1,
+        "name": "MAGIK",
+        "avatar": "https://r.res.easebar.com/pic/20241120/056e2ca6-f3c3-41f7-8b84-cf36fced9610.png"
+      }
+    ],
+    "skills_count": 15,
+    "skill_form_indices": [
+      "0",
+      "1"
+    ]
+  },
+  {
+    "title": "SCARLET WITCH",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "SCARLET WITCH",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 7,
+    "skill_form_indices": []
+  },
+  {
+    "title": "STAR-LORD",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "STAR-LORD",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 6,
+    "skill_form_indices": []
+  },
+  {
+    "title": "NAMOR",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "NAMOR",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 6,
+    "skill_form_indices": []
+  },
+  {
+    "title": "SPIDER-MAN",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "SPIDER-MAN",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 11,
+    "skill_form_indices": [
+      "0"
+    ]
+  },
+  {
+    "title": "MOON KNIGHT",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "MOON KNIGHT",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "WINTER SOLDIER",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "WINTER SOLDIER",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 7,
+    "skill_form_indices": []
+  },
+  {
+    "title": "BLACK PANTHER",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "BLACK PANTHER",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "HULK",
+    "type0_count": 3,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Bruce Banner",
+        "avatar": "https://r.res.easebar.com/pic/20241120/fe9396f7-755b-4888-a2d1-57a4d446f627.png"
+      },
+      {
+        "index": 1,
+        "name": "Hero Hulk",
+        "avatar": "https://r.res.easebar.com/pic/20241120/f4e72b0d-bc2a-45cc-ab88-d1ec6fcf5c34.png"
+      },
+      {
+        "index": 2,
+        "name": "Monster Hulk",
+        "avatar": "https://r.res.easebar.com/pic/20241120/c73a87ed-c216-4378-9eb6-214c45b9057d.png"
+      }
+    ],
+    "skills_count": 19,
+    "skill_form_indices": [
+      "0",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "title": "HELA",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "HELA",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "THE PUNISHER",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "THE PUNISHER",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 10,
+    "skill_form_indices": []
+  },
+  {
+    "title": "LUNA SNOW",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "LUNA SNOW",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 10,
+    "skill_form_indices": []
+  },
+  {
+    "title": "JEFF THE LAND SHARK",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "JEFF THE LAND SHARK",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 10,
+    "skill_form_indices": []
+  },
+  {
+    "title": "STORM",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "STORM",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 6,
+    "skill_form_indices": []
+  },
+  {
+    "title": "ADAM WARLOCK",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "ADAM WARLOCK",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "ROCKET RACCOON",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "ROCKET RACCOON",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "LOKI",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "LOKI",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "MANTIS",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "MANTIS",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "PENI PARKER",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "PENI PARKER",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "VENOM",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "VENOM",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "THOR",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "Thor",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "DOCTOR STRANGE",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "DOCTOR STRANGE",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "GROOT",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "GROOT",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  },
+  {
+    "title": "CAPTAIN AMERICA",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "CAPTAIN AMERICA",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 9,
+    "skill_form_indices": []
+  },
+  {
+    "title": "MAGNETO",
+    "type0_count": 1,
+    "type0_forms": [
+      {
+        "index": 0,
+        "name": "MAGNETO",
+        "avatar": ""
+      }
+    ],
+    "skills_count": 8,
+    "skill_form_indices": []
+  }
+]

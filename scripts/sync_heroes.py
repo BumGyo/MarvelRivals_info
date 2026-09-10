@@ -329,6 +329,8 @@ def parse_hero_page(hero):
         # Base stats row: type == 0 (table is located in tds[3])
         if type_num == 0:
             name_txt = tds[1].get_text().strip() if len(tds) > 1 else ""
+            imgs = tds[2].find_all("img") if len(tds) > 2 else []
+            img_src = imgs[0].attrs.get("src", "") if imgs else ""
             sub_tables = []
             if len(tds) > 3:
                 sub_tables = tds[3].find_all("table")
@@ -348,7 +350,7 @@ def parse_hero_page(hero):
                         if k and k != "占位空格":
                             row_stats[k] = normalize_stat_value(k, v)
             if row_stats:
-                type0_rows.append((name_txt, row_stats))
+                type0_rows.append({"name": name_txt, "avatar": img_src, "stats": row_stats})
             continue
 
         # Partner avatars row: type == 4, 2 images, no sub-table
@@ -377,8 +379,8 @@ def parse_hero_page(hero):
                         if k and k != "占位空格":
                             stats[k] = normalize_stat_value(k, v)
 
+        last_txt = tds[-1].get_text().strip() if tds else ""
         if type_num == 4:
-            last_txt = tds[-1].get_text().strip()
             lxHero = int(last_txt) if last_txt.isdigit() else 0
             teamup_raw.append({
                 "type": 4,
@@ -389,9 +391,11 @@ def parse_hero_page(hero):
                 "stats": stats
             })
         else:
+            form_idx = int(last_txt) if last_txt.isdigit() else 0
             key = stats.get("Key", "Passive")
             normal_abilities.append({
                 "type": type_num,
+                "form_index": form_idx,
                 "key": key,
                 "key_trans": KEY_TRANSLATIONS.get(key, {"ko": key, "ja": key}),
                 "name": name_txt or f"Skill ({key})",
@@ -401,16 +405,17 @@ def parse_hero_page(hero):
             })
 
     # Pick primary base_stats:
-    # 1. Row where name_txt matches hero title (e.g. Hero Hulk for HULK, DEADPOOL for DEADPOOL)
     base_stats = {}
     h_title = hero["title"].upper()
-    for name_txt, r_stats in type0_rows:
-        if name_txt.upper() in h_title or h_title in name_txt.upper():
+    for r_item in type0_rows:
+        n_txt = r_item["name"]
+        r_stats = r_item["stats"]
+        if n_txt.upper() in h_title or h_title in n_txt.upper():
             if r_stats.get("Health"):
                 base_stats = r_stats
                 break
     if not base_stats and type0_rows:
-        base_stats = type0_rows[0][1]
+        base_stats = type0_rows[0]["stats"]
 
     if "Movement Mode" not in base_stats:
         if hero["title"].upper() in ["IRON MAN", "STORM", "HUMAN TORCH"]:
@@ -472,7 +477,7 @@ def parse_hero_page(hero):
         "Passive": 20,
         "PASSIVE": 20,
     }
-    normal_abilities.sort(key=lambda s: KEY_ORDER.get(s.get("key", ""), 15))
+    normal_abilities.sort(key=lambda s: (s.get("form_index", 0), KEY_ORDER.get(s.get("key", ""), 15)))
 
     norm_name, names = resolve_hero_names(hero["title"])
 
@@ -490,6 +495,7 @@ def parse_hero_page(hero):
         "avatar": hero["avatar"],
         "full_img": hero["full_img"],
         "base_stats": base_stats,
+        "raw_forms": type0_rows,
         "skills": normal_abilities,
         "teamups": structured_teamups
     }
