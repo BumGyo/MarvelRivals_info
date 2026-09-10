@@ -3248,6 +3248,7 @@
   {
     "id": "deadpool-vanguard",
     "avatar": "https://r.res.easebar.com/pic/20260116/e877384d-6fa4-47d6-b040-f7300c7d0367.png",
+    "full_img": "https://r.res.easebar.com/pic/20260116/2d6d1d2b-281f-4efd-b252-d792a11fce98.png",
     "names": {
       "en": "DEADPOOL (VANGUARD)",
       "ko": "데드풀 (뱅가드)",
@@ -3757,6 +3758,7 @@
   {
     "id": "deadpool-duelist",
     "avatar": "https://r.res.easebar.com/pic/20260116/e877384d-6fa4-47d6-b040-f7300c7d0367.png",
+    "full_img": "https://r.res.easebar.com/pic/20260116/2d6d1d2b-281f-4efd-b252-d792a11fce98.png",
     "names": {
       "en": "DEADPOOL (DUELIST)",
       "ko": "데드풀 (듀얼리스트)",
@@ -4268,6 +4270,7 @@
   {
     "id": "deadpool-strategist",
     "avatar": "https://r.res.easebar.com/pic/20260116/e877384d-6fa4-47d6-b040-f7300c7d0367.png",
+    "full_img": "https://r.res.easebar.com/pic/20260116/2d6d1d2b-281f-4efd-b252-d792a11fce98.png",
     "names": {
       "en": "DEADPOOL (STRATEGIST)",
       "ko": "데드풀 (전략가)",
@@ -5029,8 +5032,8 @@
         "description": "Base Effect: Adds a new ability. Upon activation, Primal Bite is replaced. Devil Dinosaur gains 2 magnetic cannons that can be fired forward; the cannonballs detonate when hitting enemies or the environment.\n\t\t\tEnhanced Effect: When teaming up with The Punisher, the duo can request an interaction. Once accepted, The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, The Punisher gains Damage Reduction; Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/867b5961-ab2c-4046-9f4e-a83ee9557de5.png",
         "partner_name": {
-          "en": "The Punisher",
-          "ko": "퍼니셔",
+          "en": "THE PUNISHER",
+          "ko": "더 퍼니셔",
           "ja": "パニッシャー"
         },
         "key": "C",
@@ -5058,8 +5061,8 @@
         "description": "Base Effect: Adds a new ability. Upon activation, Primal Bite is replaced. Devil Dinosaur gains 2 magnetic cannons that can be fired forward; the cannonballs detonate when hitting enemies or the environment.\n\t\t\tEnhanced Effect: When teaming up with The Punisher, the duo can request an interaction. Once accepted, The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, The Punisher gains Damage Reduction; Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/867b5961-ab2c-4046-9f4e-a83ee9557de5.png",
         "partner_name": {
-          "en": "The Punisher",
-          "ko": "퍼니셔",
+          "en": "THE PUNISHER",
+          "ko": "더 퍼니셔",
           "ja": "パニッシャー"
         },
         "key": "X",
@@ -18565,8 +18568,8 @@
         "description": "Base Effect: Unlocks the Burst Spike ability. Using the bionic arm emits forward electricity, dealing damage and Knocking Back enemies.\n\t\t\tEnhanced Effect: When teaming up with The Punisher, the electric burst applies a Grounded effect and Knocks Back enemies even further.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/867b5961-ab2c-4046-9f4e-a83ee9557de5.png",
         "partner_name": {
-          "en": "The Punisher",
-          "ko": "퍼니셔",
+          "en": "THE PUNISHER",
+          "ko": "더 퍼니셔",
           "ja": "パニッシャー"
         },
         "key": "C",
@@ -18590,8 +18593,8 @@
         "description": "Base Effect: Unlocks the Burst Spike ability. Using the bionic arm emits forward electricity, dealing damage and Knocking Back enemies.\n\t\t\tEnhanced Effect: When teaming up with The Punisher, the electric burst applies a Grounded effect and Knocks Back enemies even further.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/867b5961-ab2c-4046-9f4e-a83ee9557de5.png",
         "partner_name": {
-          "en": "The Punisher",
-          "ko": "퍼니셔",
+          "en": "THE PUNISHER",
+          "ko": "더 퍼니셔",
           "ja": "パニッシャー"
         },
         "key": "C",
