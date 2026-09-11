@@ -23,9 +23,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "ADAM WARLOCK",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -50,6 +62,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -74,6 +87,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -98,6 +112,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -124,6 +139,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -149,6 +165,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -171,6 +188,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -196,6 +214,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -338,9 +357,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "ANGELA",
+        "avatar": "",
+        "stats": {
+          "Health": "350+200 Regenerative Shield",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -365,6 +396,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -389,6 +421,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -413,6 +446,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -441,6 +475,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -471,6 +506,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -496,6 +532,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -517,6 +554,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "PASSIVE",
         "key_trans": {
           "ko": "PASSIVE",
@@ -539,6 +577,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -681,9 +720,37 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Black Cat",
+        "avatar": "https://r.res.easebar.com/pic/20260416/13a9a895-86b0-43fd-b182-2c230d38a61f.png",
+        "stats": {
+          "Health": "150+125 Regenerative Shield",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      },
+      {
+        "name": "Black Cat",
+        "avatar": "https://r.res.easebar.com/pic/20260416/8fc39281-1c61-4d51-8d09-a3bbd62be2ac.png",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s"
+        }
+      },
+      {
+        "name": "Black Cat",
+        "avatar": "https://r.res.easebar.com/pic/20260416/b88fc77d-3b5e-4802-87de-6c38485e32c1.png",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -705,6 +772,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -725,6 +793,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -750,6 +819,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -771,6 +841,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -794,6 +865,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -812,6 +884,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -830,6 +903,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -848,6 +922,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -984,6 +1059,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 0,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -1005,6 +1081,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -1025,6 +1102,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Q",
             "key_trans": {
               "ko": "Q (궁극기)",
@@ -1050,6 +1128,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Shift",
             "key_trans": {
               "ko": "Shift",
@@ -1071,6 +1150,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -1094,6 +1174,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Space",
             "key_trans": {
               "ko": "Space",
@@ -1112,6 +1193,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Space",
             "key_trans": {
               "ko": "Space",
@@ -1130,6 +1212,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -1148,6 +1231,7 @@
           },
           {
             "type": 3,
+            "form_index": 0,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -1184,6 +1268,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 1,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -1208,6 +1293,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -1228,6 +1314,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Q",
             "key_trans": {
               "ko": "Q (궁극기)",
@@ -1253,6 +1340,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Shift",
             "key_trans": {
               "ko": "Shift",
@@ -1274,6 +1362,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -1296,6 +1385,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Space",
             "key_trans": {
               "ko": "Space",
@@ -1314,6 +1404,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Space",
             "key_trans": {
               "ko": "Space",
@@ -1332,6 +1423,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -1350,6 +1442,7 @@
           },
           {
             "type": 3,
+            "form_index": 1,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -1386,6 +1479,7 @@
         "skills": [
           {
             "type": 2,
+            "form_index": 2,
             "key": "F",
             "key_trans": {
               "ko": "F",
@@ -1404,6 +1498,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "F",
             "key_trans": {
               "ko": "F",
@@ -1424,6 +1519,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "F",
             "key_trans": {
               "ko": "F",
@@ -1446,6 +1542,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "F",
             "key_trans": {
               "ko": "F",
@@ -1467,6 +1564,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "F",
             "key_trans": {
               "ko": "F",
@@ -1487,6 +1585,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "F",
             "key_trans": {
               "ko": "F",
@@ -1506,6 +1605,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "F",
             "key_trans": {
               "ko": "F",
@@ -1529,6 +1629,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "PASSIVE",
             "key_trans": {
               "ko": "PASSIVE",
@@ -1579,9 +1680,21 @@
       "Movement Speed": "7 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "BLACK PANTHER",
+        "avatar": "",
+        "stats": {
+          "Health": "150+125 Regenerative Shield",
+          "Movement Speed": "7 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -1604,6 +1717,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -1628,6 +1742,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -1652,6 +1767,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -1677,6 +1793,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -1700,6 +1817,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -1719,6 +1837,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -1739,6 +1858,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "PASSIVE",
         "key_trans": {
           "ko": "PASSIVE",
@@ -1885,9 +2005,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "BLADE",
+        "avatar": "",
+        "stats": {
+          "Health": "350",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -1910,6 +2042,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -1936,6 +2069,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -1962,6 +2096,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -1991,6 +2126,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -2020,6 +2156,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -2049,6 +2186,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -2202,9 +2340,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Black Widow",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -2227,6 +2377,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -2251,6 +2402,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -2276,6 +2428,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -2301,6 +2454,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -2327,6 +2481,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -2473,9 +2628,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "CAPTAIN AMERICA",
+        "avatar": "",
+        "stats": {
+          "Health": "300+300 Regenerative Shield",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -2503,6 +2670,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -2525,6 +2693,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -2550,6 +2719,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -2576,6 +2746,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -2597,6 +2768,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -2621,6 +2793,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -2643,6 +2816,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -2665,6 +2839,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -2807,9 +2982,29 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Cloak",
+        "avatar": "https://r.res.easebar.com/pic/20241205/87c86614-9f25-4e0e-a941-7a22ebb2b737.png",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      },
+      {
+        "name": "Dagger",
+        "avatar": "https://r.res.easebar.com/pic/20241205/6d081eaf-a0e3-4558-9d04-f7039010b141.png",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -2834,6 +3029,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -2857,6 +3053,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -2881,6 +3078,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -2900,6 +3098,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -2928,6 +3127,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -3065,6 +3265,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 0,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -3089,6 +3290,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -3112,6 +3314,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Q",
             "key_trans": {
               "ko": "Q (궁극기)",
@@ -3136,6 +3339,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "SHIFT",
             "key_trans": {
               "ko": "Shift",
@@ -3155,6 +3359,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -3183,6 +3388,7 @@
           },
           {
             "type": 3,
+            "form_index": 0,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -3219,6 +3425,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 1,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -3246,6 +3453,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -3270,6 +3478,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Q",
             "key_trans": {
               "ko": "Q (궁극기)",
@@ -3294,6 +3503,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "SHIFT",
             "key_trans": {
               "ko": "Shift",
@@ -3313,6 +3523,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -3366,9 +3577,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Cyclops",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -3392,6 +3615,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -3418,6 +3642,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -3442,6 +3667,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -3466,6 +3692,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -3492,6 +3719,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -3516,6 +3744,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -3534,6 +3763,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -3656,6 +3886,7 @@
   },
   {
     "id": "deadpool-vanguard",
+    "name": "DEADPOOL (VANGUARD)",
     "avatar": "https://r.res.easebar.com/pic/20260116/e877384d-6fa4-47d6-b040-f7300c7d0367.png",
     "full_img": "https://r.res.easebar.com/pic/20260116/2d6d1d2b-281f-4efd-b252-d792a11fce98.png",
     "names": {
@@ -3680,6 +3911,7 @@
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -3722,6 +3954,7 @@
       },
       {
         "type": 1,
+        "form_index": 1,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -3759,6 +3992,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -3795,6 +4029,7 @@
       },
       {
         "type": 2,
+        "form_index": 1,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -3833,6 +4068,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -3876,6 +4112,7 @@
       },
       {
         "type": 2,
+        "form_index": 1,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -3918,6 +4155,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -3961,6 +4199,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -3980,6 +4219,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -4000,6 +4240,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "PASSIVE",
         "key_trans": {
           "ko": "PASSIVE",
@@ -4022,6 +4263,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -4041,6 +4283,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -4166,6 +4409,7 @@
   },
   {
     "id": "deadpool-duelist",
+    "name": "DEADPOOL (DUELIST)",
     "avatar": "https://r.res.easebar.com/pic/20260116/e877384d-6fa4-47d6-b040-f7300c7d0367.png",
     "full_img": "https://r.res.easebar.com/pic/20260116/2d6d1d2b-281f-4efd-b252-d792a11fce98.png",
     "names": {
@@ -4190,6 +4434,7 @@
     "skills": [
       {
         "type": 1,
+        "form_index": 3,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -4232,6 +4477,7 @@
       },
       {
         "type": 1,
+        "form_index": 4,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -4269,6 +4515,7 @@
       },
       {
         "type": 2,
+        "form_index": 3,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -4312,6 +4559,7 @@
       },
       {
         "type": 2,
+        "form_index": 4,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -4350,6 +4598,7 @@
       },
       {
         "type": 2,
+        "form_index": 3,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -4388,6 +4637,7 @@
       },
       {
         "type": 2,
+        "form_index": 4,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -4427,6 +4677,7 @@
       },
       {
         "type": 2,
+        "form_index": 3,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -4471,6 +4722,7 @@
       },
       {
         "type": 2,
+        "form_index": 3,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -4490,6 +4742,7 @@
       },
       {
         "type": 2,
+        "form_index": 3,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -4512,6 +4765,7 @@
       },
       {
         "type": 2,
+        "form_index": 3,
         "key": "PASSIVE",
         "key_trans": {
           "ko": "PASSIVE",
@@ -4534,6 +4788,7 @@
       },
       {
         "type": 2,
+        "form_index": 3,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -4553,6 +4808,7 @@
       },
       {
         "type": 3,
+        "form_index": 3,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -4678,6 +4934,7 @@
   },
   {
     "id": "deadpool-strategist",
+    "name": "DEADPOOL (STRATEGIST)",
     "avatar": "https://r.res.easebar.com/pic/20260116/e877384d-6fa4-47d6-b040-f7300c7d0367.png",
     "full_img": "https://r.res.easebar.com/pic/20260116/2d6d1d2b-281f-4efd-b252-d792a11fce98.png",
     "names": {
@@ -4702,6 +4959,7 @@
     "skills": [
       {
         "type": 1,
+        "form_index": 6,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -4747,6 +5005,7 @@
       },
       {
         "type": 1,
+        "form_index": 7,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -4788,6 +5047,7 @@
       },
       {
         "type": 2,
+        "form_index": 6,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -4836,6 +5096,7 @@
       },
       {
         "type": 2,
+        "form_index": 7,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -4877,6 +5138,7 @@
       },
       {
         "type": 2,
+        "form_index": 6,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -4919,6 +5181,7 @@
       },
       {
         "type": 2,
+        "form_index": 7,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -4958,6 +5221,7 @@
       },
       {
         "type": 2,
+        "form_index": 6,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -5003,6 +5267,7 @@
       },
       {
         "type": 2,
+        "form_index": 6,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -5022,6 +5287,7 @@
       },
       {
         "type": 2,
+        "form_index": 6,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -5044,6 +5310,7 @@
       },
       {
         "type": 2,
+        "form_index": 6,
         "key": "PASSIVE",
         "key_trans": {
           "ko": "PASSIVE",
@@ -5066,6 +5333,7 @@
       },
       {
         "type": 2,
+        "form_index": 6,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -5085,6 +5353,7 @@
       },
       {
         "type": 3,
+        "form_index": 6,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -5232,9 +5501,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "DEVIL DINOSAUR",
+        "avatar": "",
+        "stats": {
+          "Health": "850",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -5260,6 +5541,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -5283,6 +5565,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -5309,6 +5592,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -5331,6 +5615,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -5353,6 +5638,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -5374,6 +5660,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -5394,6 +5681,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -5413,6 +5701,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -5560,9 +5849,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "DOCTOR STRANGE",
+        "avatar": "",
+        "stats": {
+          "Health": "650",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -5588,6 +5889,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -5611,6 +5913,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -5634,6 +5937,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -5656,6 +5960,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -5678,6 +5983,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -5703,6 +6009,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -5724,6 +6031,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -5745,6 +6053,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -5891,9 +6200,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "DAREDEVIL",
+        "avatar": "",
+        "stats": {
+          "Health": "150+150 Regenerative Shield",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -5916,6 +6237,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -5938,6 +6260,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -5959,6 +6282,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -5992,6 +6316,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -6017,6 +6342,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -6039,6 +6365,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -6066,6 +6393,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -6085,6 +6413,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -6104,6 +6433,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -6244,9 +6574,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "ELSA BLOODSTONE",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -6273,6 +6615,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -6296,6 +6639,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -6322,6 +6666,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -6346,6 +6691,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -6374,6 +6720,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -6397,6 +6744,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -6426,6 +6774,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -6455,6 +6804,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "PASSIVE",
         "key_trans": {
           "ko": "PASSIVE",
@@ -6604,9 +6954,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Emma Frost",
+        "avatar": "",
+        "stats": {
+          "Health": "650",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -6631,6 +6993,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -6652,6 +7015,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -6676,6 +7040,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -6699,6 +7064,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -6723,6 +7089,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -6745,6 +7112,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -6769,6 +7137,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -6792,6 +7161,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -6940,9 +7310,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "GROOT",
+        "avatar": "",
+        "stats": {
+          "Health": "850",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -6967,6 +7349,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -6991,6 +7374,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -7015,6 +7399,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -7038,6 +7423,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -7061,6 +7447,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -7085,6 +7472,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "V",
         "key_trans": {
           "ko": "V",
@@ -7104,6 +7492,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -7254,9 +7643,29 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Gambit",
+        "avatar": "https://r.res.easebar.com/pic/20251114/699f5ef7-0710-4406-a53d-c3aaf8081992.png",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      },
+      {
+        "name": "Gambit",
+        "avatar": "https://r.res.easebar.com/pic/20251114/a7d8e207-6f08-4d65-a665-db58aaef61ac.png",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -7285,6 +7694,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -7313,6 +7723,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -7342,6 +7753,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -7363,6 +7775,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -7385,6 +7798,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -7407,6 +7821,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -7547,6 +7962,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 0,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -7575,6 +7991,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -7603,6 +8020,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Q",
             "key_trans": {
               "ko": "Q (궁극기)",
@@ -7632,6 +8050,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Shift",
             "key_trans": {
               "ko": "Shift",
@@ -7653,6 +8072,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -7675,6 +8095,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "F",
             "key_trans": {
               "ko": "F",
@@ -7697,6 +8118,7 @@
           },
           {
             "type": 3,
+            "form_index": 0,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -7733,6 +8155,7 @@
         "skills": [
           {
             "type": 2,
+            "form_index": 1,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -7758,6 +8181,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -7783,6 +8207,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "F",
             "key_trans": {
               "ko": "F",
@@ -7808,6 +8233,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "F",
             "key_trans": {
               "ko": "F",
@@ -7858,9 +8284,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "HAWKEYE",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -7886,6 +8324,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -7914,6 +8353,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -7938,6 +8378,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -7960,6 +8401,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -7987,6 +8429,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -8014,6 +8457,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -8033,6 +8477,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "V",
         "key_trans": {
           "ko": "V",
@@ -8054,6 +8499,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -8206,9 +8652,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "HELA",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -8233,6 +8691,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -8260,6 +8719,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -8287,6 +8747,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -8311,6 +8772,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -8336,6 +8798,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -8362,6 +8825,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -8382,6 +8846,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -8403,6 +8868,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -8549,9 +9015,37 @@
       "Movement Speed": "6.5 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Bruce Banner",
+        "avatar": "https://r.res.easebar.com/pic/20241120/fe9396f7-755b-4888-a2d1-57a4d446f627.png",
+        "stats": {
+          "Health": "200",
+          "Movement Speed": "6 m/s"
+        }
+      },
+      {
+        "name": "Hero Hulk",
+        "avatar": "https://r.res.easebar.com/pic/20241120/f4e72b0d-bc2a-45cc-ab88-d1ec6fcf5c34.png",
+        "stats": {
+          "Health": "400+300 Regenerative Shield",
+          "Movement Speed": "6.5 m/s",
+          "Movement Mode": "Ground"
+        }
+      },
+      {
+        "name": "Monster Hulk",
+        "avatar": "https://r.res.easebar.com/pic/20241120/c73a87ed-c216-4378-9eb6-214c45b9057d.png",
+        "stats": {
+          "Health": "1400",
+          "Movement Speed": "6.5 m/s"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 1,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -8574,6 +9068,7 @@
       },
       {
         "type": 2,
+        "form_index": 1,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -8597,6 +9092,7 @@
       },
       {
         "type": 2,
+        "form_index": 1,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -8619,6 +9115,7 @@
       },
       {
         "type": 2,
+        "form_index": 1,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -8644,6 +9141,7 @@
       },
       {
         "type": 2,
+        "form_index": 1,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -8668,6 +9166,7 @@
       },
       {
         "type": 3,
+        "form_index": 1,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -8689,6 +9188,7 @@
       },
       {
         "type": 2,
+        "form_index": 1,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -8713,6 +9213,7 @@
       },
       {
         "type": 3,
+        "form_index": 1,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -8856,6 +9357,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 0,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -8880,6 +9382,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Q",
             "key_trans": {
               "ko": "Q (궁극기)",
@@ -8901,6 +9404,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "SHIFT",
             "key_trans": {
               "ko": "Shift",
@@ -8924,6 +9428,7 @@
           },
           {
             "type": 3,
+            "form_index": 0,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -8960,6 +9465,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 1,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -8982,6 +9488,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -9005,6 +9512,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Q",
             "key_trans": {
               "ko": "Q (궁극기)",
@@ -9027,6 +9535,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "SHIFT",
             "key_trans": {
               "ko": "Shift",
@@ -9052,6 +9561,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -9076,6 +9586,7 @@
           },
           {
             "type": 3,
+            "form_index": 1,
             "key": "C",
             "key_trans": {
               "ko": "C",
@@ -9097,6 +9608,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Space",
             "key_trans": {
               "ko": "Space",
@@ -9121,6 +9633,7 @@
           },
           {
             "type": 3,
+            "form_index": 1,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -9157,6 +9670,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 2,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -9179,6 +9693,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -9201,6 +9716,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "Q",
             "key_trans": {
               "ko": "Q (궁극기)",
@@ -9224,6 +9740,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -9248,6 +9765,7 @@
           },
           {
             "type": 3,
+            "form_index": 2,
             "key": "C",
             "key_trans": {
               "ko": "C",
@@ -9269,6 +9787,7 @@
           },
           {
             "type": 2,
+            "form_index": 2,
             "key": "Space",
             "key_trans": {
               "ko": "Space",
@@ -9293,6 +9812,7 @@
           },
           {
             "type": 3,
+            "form_index": 2,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -9338,9 +9858,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Flight"
     },
+    "raw_forms": [
+      {
+        "name": "Human Torch",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Flight"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -9368,6 +9900,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -9394,6 +9927,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -9420,6 +9954,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -9442,6 +9977,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -9466,6 +10002,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -9491,6 +10028,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -9514,6 +10052,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "X",
         "key_trans": {
           "ko": "X",
@@ -9540,6 +10079,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -9690,9 +10230,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "IRON FIST",
+        "avatar": "",
+        "stats": {
+          "Health": "300",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -9717,6 +10269,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -9743,6 +10296,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -9766,6 +10320,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -9791,6 +10346,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -9815,6 +10371,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -9837,6 +10394,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -9863,6 +10421,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -9882,6 +10441,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -9901,6 +10461,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -10044,9 +10605,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Flight"
     },
+    "raw_forms": [
+      {
+        "name": "IRON MAN",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Flight"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -10078,6 +10651,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -10105,6 +10679,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -10130,6 +10705,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -10153,6 +10729,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -10180,6 +10757,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -10202,6 +10780,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -10222,6 +10801,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -10244,6 +10824,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -10269,6 +10850,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -10294,6 +10876,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -10443,9 +11026,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "INVISIBLE WOMAN",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -10474,6 +11069,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -10503,6 +11099,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -10529,6 +11126,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -10555,6 +11153,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -10579,6 +11178,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -10598,6 +11198,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -10617,6 +11218,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -10760,9 +11362,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "JEFF THE LAND SHARK",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -10788,6 +11402,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -10815,6 +11430,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -10842,6 +11458,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -10867,6 +11484,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -10893,6 +11511,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -10915,6 +11534,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "X",
         "key_trans": {
           "ko": "X",
@@ -10940,6 +11560,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Z",
         "key_trans": {
           "ko": "Z",
@@ -10964,6 +11585,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "None",
         "key_trans": {
           "ko": "None",
@@ -10985,6 +11607,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -11130,9 +11753,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "JUBILEE",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -11161,6 +11796,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -11186,6 +11822,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -11214,6 +11851,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -11240,6 +11878,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -11267,6 +11906,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -11417,9 +12057,26 @@
       "Illusion Healing": "100%",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "LOKI",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Illusion Health": "250",
+          "Illusion Duration": "60",
+          "Maximum Illusion Quantity": "2",
+          "Illusion Damage": "80%",
+          "Illusion Healing": "100%",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -11448,6 +12105,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -11470,6 +12128,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -11492,6 +12151,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -11518,6 +12178,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -11543,6 +12204,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -11565,6 +12227,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -11586,6 +12249,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "V",
         "key_trans": {
           "ko": "V",
@@ -11731,9 +12395,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "LUNA SNOW",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -11759,6 +12435,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -11782,6 +12459,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -11807,6 +12485,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -11833,6 +12512,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -11854,6 +12534,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -11873,6 +12554,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -11899,6 +12581,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -11918,6 +12601,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -11938,6 +12622,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -12084,9 +12769,29 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "MAGIK",
+        "avatar": "https://r.res.easebar.com/pic/20241120/8bb769e4-de61-4d45-8dfc-690bbb5783ec.png",
+        "stats": {
+          "Health": "150+125 Regenerative Shield",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      },
+      {
+        "name": "MAGIK",
+        "avatar": "https://r.res.easebar.com/pic/20241120/056e2ca6-f3c3-41f7-8b84-cf36fced9610.png",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -12110,6 +12815,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -12131,6 +12837,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -12155,6 +12862,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -12179,6 +12887,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -12201,6 +12910,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -12227,6 +12937,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -12250,6 +12961,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -12277,6 +12989,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -12419,6 +13132,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 0,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -12442,6 +13156,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -12463,6 +13178,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -12487,6 +13203,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -12511,6 +13228,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Q",
             "key_trans": {
               "ko": "Q (궁극기)",
@@ -12533,6 +13251,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "SHIFT",
             "key_trans": {
               "ko": "Shift",
@@ -12559,6 +13278,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -12582,6 +13302,7 @@
           },
           {
             "type": 3,
+            "form_index": 0,
             "key": "C",
             "key_trans": {
               "ko": "C",
@@ -12609,6 +13330,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -12647,6 +13369,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 1,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -12670,6 +13393,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -12691,6 +13415,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -12714,6 +13439,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -12738,6 +13464,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "SHIFT",
             "key_trans": {
               "ko": "Shift",
@@ -12764,6 +13491,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -12814,9 +13542,22 @@
       "Iron Ring Charging Speed": "3s per charge",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "MAGNETO",
+        "avatar": "",
+        "stats": {
+          "Health": "650",
+          "Movement Speed": "6 m/s",
+          "Iron Ring Charging Speed": "3s per charge",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -12842,6 +13583,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -12866,6 +13608,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -12892,6 +13635,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -12916,6 +13660,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -12940,6 +13685,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -12962,6 +13708,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -12989,6 +13736,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -13140,9 +13888,22 @@
       "Life Orb Cooldown": "4 charges, with each charge taking 3s to recharge",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "MANTIS",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Life Orb Cooldown": "4 charges, with each charge taking 3s to recharge",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -13169,6 +13930,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -13193,6 +13955,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -13220,6 +13983,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -13245,6 +14009,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -13268,6 +14033,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -13290,6 +14056,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -13313,6 +14080,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -13461,9 +14229,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "MOON KNIGHT",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -13492,6 +14272,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -13521,6 +14302,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -13548,6 +14330,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -13568,6 +14351,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -13592,6 +14376,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -13615,6 +14400,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -13634,6 +14420,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "V",
         "key_trans": {
           "ko": "V",
@@ -13654,6 +14441,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -13805,9 +14593,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "MISTER FANTASTIC",
+        "avatar": "",
+        "stats": {
+          "Health": "375",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -13834,6 +14634,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -13864,6 +14665,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -13892,6 +14694,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -13916,6 +14719,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -13941,6 +14745,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -13962,6 +14767,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -14118,9 +14924,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "NAMOR",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -14146,6 +14964,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -14173,6 +14992,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -14198,6 +15018,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -14219,6 +15040,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -14251,6 +15073,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -14418,9 +15241,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "PENI PARKER",
+        "avatar": "",
+        "stats": {
+          "Health": "650",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -14446,6 +15281,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -14475,6 +15311,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -14504,6 +15341,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -14529,6 +15367,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -14551,6 +15390,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -14576,6 +15416,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -14602,6 +15443,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -14621,6 +15463,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -14766,9 +15609,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Phoenix",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -14795,6 +15650,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -14821,6 +15677,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -14846,6 +15703,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -14869,6 +15727,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -14892,6 +15751,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -15042,9 +15902,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Psylocke",
+        "avatar": "",
+        "stats": {
+          "Health": "150+100 Regenerative Shield",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -15073,6 +15945,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -15104,6 +15977,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -15134,6 +16008,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -15159,6 +16034,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -15183,6 +16059,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -15331,9 +16208,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "ROCKET RACCOON",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -15359,6 +16248,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -15388,6 +16278,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -15415,6 +16306,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -15437,6 +16329,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -15461,6 +16354,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -15483,6 +16377,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -15502,6 +16397,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -15649,9 +16545,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "ROGUE",
+        "avatar": "",
+        "stats": {
+          "Health": "350+250 Regenerative Shield",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -15674,6 +16582,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -15698,6 +16607,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -15725,6 +16635,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -15751,6 +16662,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -15776,6 +16688,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -15804,6 +16717,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -15835,6 +16749,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -15980,9 +16895,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "SCARLET WITCH",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -16011,6 +16938,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -16036,6 +16964,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -16063,6 +16992,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -16089,6 +17019,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -16113,6 +17044,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -16139,6 +17071,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -16289,9 +17222,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "SPIDER-MAN",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -16317,6 +17262,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -16344,6 +17290,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -16374,6 +17321,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -16396,6 +17344,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -16422,6 +17371,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -16446,6 +17396,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -16471,6 +17422,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -16495,6 +17447,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -16514,6 +17467,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -16534,6 +17488,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -16680,9 +17635,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "SQUIRREL GIRL",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -16709,6 +17676,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -16733,6 +17701,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -16758,6 +17727,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -16778,6 +17748,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -16798,6 +17769,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -16951,9 +17923,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "STAR-LORD",
+        "avatar": "",
+        "stats": {
+          "Health": "150+100 Regenerative Shield",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -16979,6 +17963,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -17000,6 +17985,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -17030,6 +18016,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -17052,6 +18039,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -17077,6 +18065,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -17224,9 +18213,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Flight"
     },
+    "raw_forms": [
+      {
+        "name": "STORM",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Flight"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -17253,6 +18254,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -17275,6 +18277,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -17302,6 +18305,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -17329,6 +18333,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -17360,6 +18365,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -17514,9 +18520,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "THE PUNISHER",
+        "avatar": "",
+        "stats": {
+          "Health": "300",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -17542,6 +18560,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -17568,6 +18587,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -17593,6 +18613,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -17630,6 +18651,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -17653,6 +18675,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -17680,6 +18703,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -17704,6 +18728,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "X",
         "key_trans": {
           "ko": "X",
@@ -17724,6 +18749,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -17745,6 +18771,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -17886,9 +18913,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "THE THING",
+        "avatar": "",
+        "stats": {
+          "Health": "750",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -17911,6 +18950,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -17933,6 +18973,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -17955,6 +18996,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -17979,6 +19021,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -18001,6 +19044,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -18023,6 +19067,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -18049,6 +19094,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "X",
         "key_trans": {
           "ko": "X",
@@ -18075,6 +19121,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Z",
         "key_trans": {
           "ko": "Z",
@@ -18096,6 +19143,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "PASSIVE",
         "key_trans": {
           "ko": "PASSIVE",
@@ -18248,9 +19296,21 @@
       "Movement Speed": "6.5 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Thor",
+        "avatar": "",
+        "stats": {
+          "Health": "300+300 Regenerative Shield",
+          "Movement Speed": "6.5 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -18273,6 +19333,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -18298,6 +19359,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -18323,6 +19385,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -18346,6 +19409,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -18370,6 +19434,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -18398,6 +19463,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -18424,6 +19490,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -18574,9 +19641,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "The Hood",
+        "avatar": "",
+        "stats": {
+          "Health": "600",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -18601,6 +19680,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -18625,6 +19705,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -18647,6 +19728,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -18674,6 +19756,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -18697,6 +19780,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -18724,6 +19808,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -18878,9 +19963,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Ultron",
+        "avatar": "",
+        "stats": {
+          "Health": "250",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -18904,6 +20001,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -18930,6 +20028,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -18963,6 +20062,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -18989,6 +20089,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -19015,6 +20116,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -19170,9 +20272,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "VENOM",
+        "avatar": "",
+        "stats": {
+          "Health": "500+250 Regenerative Shield",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -19196,6 +20310,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -19219,6 +20334,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -19246,6 +20362,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -19267,6 +20384,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -19288,6 +20406,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "F",
         "key_trans": {
           "ko": "F",
@@ -19313,6 +20432,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Space",
         "key_trans": {
           "ko": "Space",
@@ -19333,6 +20453,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -19477,9 +20598,21 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "WINTER SOLDIER",
+        "avatar": "",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -19508,6 +20641,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -19533,6 +20667,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -19558,6 +20693,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -19583,6 +20719,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -19608,6 +20745,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -19634,6 +20772,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -19776,9 +20915,29 @@
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "White Fox",
+        "avatar": "https://r.res.easebar.com/pic/20260320/324b74e9-9ee9-4281-a5a1-913452f72d63.png",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s",
+          "Movement Mode": "Ground"
+        }
+      },
+      {
+        "name": "White Fox",
+        "avatar": "https://r.res.easebar.com/pic/20260320/357ab606-04f9-485c-8edf-3ad2a6adb74f.png",
+        "stats": {
+          "Health": "275",
+          "Movement Speed": "6 m/s"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -19804,6 +20963,7 @@
       },
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -19825,6 +20985,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -19853,6 +21014,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -19874,6 +21036,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -19897,6 +21060,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -19922,6 +21086,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -19944,6 +21109,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -19967,6 +21133,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "C",
         "key_trans": {
           "ko": "C",
@@ -19992,6 +21159,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -20129,6 +21297,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 0,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -20154,6 +21323,7 @@
           },
           {
             "type": 1,
+            "form_index": 0,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -20175,6 +21345,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -20203,6 +21374,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -20224,6 +21396,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Q",
             "key_trans": {
               "ko": "Q (궁극기)",
@@ -20247,6 +21420,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Shift",
             "key_trans": {
               "ko": "Shift",
@@ -20272,6 +21446,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "Shift",
             "key_trans": {
               "ko": "Shift",
@@ -20294,6 +21469,7 @@
           },
           {
             "type": 2,
+            "form_index": 0,
             "key": "E",
             "key_trans": {
               "ko": "E",
@@ -20317,6 +21493,7 @@
           },
           {
             "type": 3,
+            "form_index": 0,
             "key": "C",
             "key_trans": {
               "ko": "C",
@@ -20342,6 +21519,7 @@
           },
           {
             "type": 3,
+            "form_index": 0,
             "key": "Passive",
             "key_trans": {
               "ko": "패시브",
@@ -20378,6 +21556,7 @@
         "skills": [
           {
             "type": 1,
+            "form_index": 1,
             "key": "Left Click",
             "key_trans": {
               "ko": "마우스 좌클릭",
@@ -20403,6 +21582,7 @@
           },
           {
             "type": 2,
+            "form_index": 1,
             "key": "Right Click",
             "key_trans": {
               "ko": "마우스 우클릭",
@@ -20452,9 +21632,21 @@
       "Movement Speed": "7 m/s",
       "Movement Mode": "Ground"
     },
+    "raw_forms": [
+      {
+        "name": "Wolverine",
+        "avatar": "",
+        "stats": {
+          "Health": "350",
+          "Movement Speed": "7 m/s",
+          "Movement Mode": "Ground"
+        }
+      }
+    ],
     "skills": [
       {
         "type": 1,
+        "form_index": 0,
         "key": "Left Click",
         "key_trans": {
           "ko": "마우스 좌클릭",
@@ -20478,6 +21670,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Right Click",
         "key_trans": {
           "ko": "마우스 우클릭",
@@ -20503,6 +21696,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
@@ -20529,6 +21723,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
@@ -20556,6 +21751,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "Shift",
         "key_trans": {
           "ko": "Shift",
@@ -20586,6 +21782,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
@@ -20607,6 +21804,7 @@
       },
       {
         "type": 3,
+        "form_index": 0,
         "key": "X",
         "key_trans": {
           "ko": "X",
@@ -20632,6 +21830,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",
@@ -20655,6 +21854,7 @@
       },
       {
         "type": 2,
+        "form_index": 0,
         "key": "Passive",
         "key_trans": {
           "ko": "패시브",

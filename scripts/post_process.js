@@ -37,73 +37,71 @@ if (rawDeadpoolIdx !== -1) {
   console.log(`Found raw combined Deadpool at index ${rawDeadpoolIdx} (skills: ${heroes[rawDeadpoolIdx].skills.length}). Splitting into 3 roles...`);
   const dp = heroes[rawDeadpoolIdx];
 
-  // Helper to pair base skill with upgraded skill
-  function makeSkillWithUpgrade(sList, baseIdx, upIdx) {
-    const base = JSON.parse(JSON.stringify(sList[baseIdx]));
-    const up = sList[upIdx];
-    if (up) {
-      base.upgrade = {
-        name: up.name,
-        icon: up.icon || base.icon,
-        description: up.description,
-        stats: JSON.parse(JSON.stringify(up.stats || {}))
-      };
+  // Helper to build 12 clean consolidated skills with upgrades for a specific role
+  function buildRoleSkills(dpSkills, startForm) {
+    const l1 = dpSkills.filter(s => s.form_index === startForm);
+    const l2 = dpSkills.filter(s => s.form_index === startForm + 1);
+    const up = dpSkills.filter(s => s.form_index === startForm + 2);
+
+    const clone = obj => JSON.parse(JSON.stringify(obj));
+
+    function pairUpgrade(baseSkill) {
+      if (!baseSkill) return null;
+      const s = clone(baseSkill);
+      const upSkill = up.find(u => {
+        const uNorm = u.name.replace(/\s*-\s*UPGRADED$/i, '').replace(/\s+UPGRADED$/i, '').trim();
+        return uNorm === baseSkill.name.trim();
+      }) || up.find(u => u.name.startsWith(baseSkill.name) || baseSkill.name.startsWith(u.name.replace(/\s*-\s*UPGRADED$/i, '').replace(/\s+UPGRADED$/i, '').trim()));
+
+      if (upSkill) {
+        s.upgrade = {
+          name: upSkill.name,
+          icon: upSkill.icon || s.icon,
+          description: upSkill.description,
+          stats: clone(upSkill.stats || {})
+        };
+      }
+      return s;
     }
-    return base;
-  }
 
-  // 26 Vanguard skills
-  const vSkillsRaw = [
-    ...dp.skills.slice(0, 4),    // Left Click (0..3)
-    ...dp.skills.slice(12, 16),  // Right Click (12..15)
-    ...dp.skills.slice(24, 28),  // Q (24..27)
-    ...dp.skills.slice(36, 39),  // E (36..38)
-    ...dp.skills.slice(45, 47),  // F (45..46)
-    ...dp.skills.slice(51, 53),  // Space (51..52)
-    ...dp.skills.slice(57, 64)   // Passives (57..63)
-  ];
+    // Fallback if form_index is absent
+    if (l1.length === 0) {
+      const roleSlice = dpSkills.slice(startForm * 9, startForm * 9 + 26);
+      return roleSlice.slice(0, 12);
+    }
 
-  // 26 Duelist skills
-  const dSkillsRaw = [
-    ...dp.skills.slice(4, 8),    // Left Click (4..7)
-    ...dp.skills.slice(16, 20),  // Right Click (16..19)
-    ...dp.skills.slice(28, 32),  // Q (28..31)
-    ...dp.skills.slice(39, 42),  // E (39..41)
-    ...dp.skills.slice(47, 49),  // F (47..48)
-    ...dp.skills.slice(53, 55),  // Space (53..54)
-    ...dp.skills.slice(64, 71)   // Passives (64..70)
-  ];
+    const lc1 = l1.find(s => s.key === 'Left Click');
+    const lc2 = l2.find(s => s.key === 'Left Click');
+    const rc1 = l1.find(s => s.key === 'Right Click');
+    const rc2 = l2.find(s => s.key === 'Right Click');
+    const q1 = l1.find(s => s.key === 'Q');
+    const q2 = l2.find(s => s.key === 'Q');
+    const e = l1.find(s => s.key === 'E') || l2.find(s => s.key === 'E');
+    const f = l1.find(s => s.key === 'F');
+    const space = l1.find(s => s.key === 'Space') || l2.find(s => s.key === 'Space');
+    const p1 = l1.find(s => s.name === 'HEALING FACTOR' || s.key === 'PASSIVE');
+    const p2 = l1.find(s => s.name === 'MAXIMUM FLAIR');
+    const p3 = l1.find(s => s.name === 'Comical Chaos');
 
-  // 26 Strategist skills
-  const sSkillsRaw = [
-    ...dp.skills.slice(8, 12),   // Left Click (8..11)
-    ...dp.skills.slice(20, 24),  // Right Click (20..23)
-    ...dp.skills.slice(32, 36),  // Q (32..35)
-    ...dp.skills.slice(42, 45),  // E (42..44)
-    ...dp.skills.slice(49, 51),  // F (49..50)
-    ...dp.skills.slice(55, 57),  // Space (55..56)
-    ...dp.skills.slice(71, 78)   // Passives (71..77)
-  ];
-
-  function buildConsolidatedSkills(rawList) {
     return [
-      makeSkillWithUpgrade(rawList, 0, 2),  // Left Click (Gun)
-      makeSkillWithUpgrade(rawList, 1, 3),  // Left Click (Katana)
-      makeSkillWithUpgrade(rawList, 4, 7),  // Right Click 1
-      makeSkillWithUpgrade(rawList, 5, 6),  // Right Click 2
-      makeSkillWithUpgrade(rawList, 8, 11), // Q 1
-      makeSkillWithUpgrade(rawList, 9, 10), // Q 2
-      makeSkillWithUpgrade(rawList, 12, 14),// E
-      JSON.parse(JSON.stringify(rawList[15])), // F (Upgrade guide)
-      JSON.parse(JSON.stringify(rawList[17])), // Space
-      JSON.parse(JSON.stringify(rawList[19])), // Passive 1 (Healing Factor)
-      JSON.parse(JSON.stringify(rawList[20])), // Passive 2 (Maximum Flair)
-      JSON.parse(JSON.stringify(rawList[21]))  // Passive 3 (Comical Chaos)
-    ];
+      pairUpgrade(lc1),
+      pairUpgrade(lc2),
+      pairUpgrade(rc1),
+      pairUpgrade(rc2),
+      pairUpgrade(q1),
+      pairUpgrade(q2),
+      pairUpgrade(e),
+      clone(f),
+      clone(space),
+      clone(p1),
+      clone(p2),
+      clone(p3)
+    ].filter(Boolean);
   }
 
   const vanguardHero = {
     id: 'deadpool-vanguard',
+    name: 'DEADPOOL (VANGUARD)',
     avatar: dp.avatar,
     full_img: dp.full_img || dp.avatar,
     names: {
@@ -123,12 +121,13 @@ if (rawDeadpoolIdx !== -1) {
       'Movement Speed': '6 m/s',
       'Movement Mode': 'Ground'
     },
-    skills: buildConsolidatedSkills(vSkillsRaw),
+    skills: buildRoleSkills(dp.skills, 0),
     teamups: JSON.parse(JSON.stringify(dp.teamups || []))
   };
 
   const duelistHero = {
     id: 'deadpool-duelist',
+    name: 'DEADPOOL (DUELIST)',
     avatar: dp.avatar,
     full_img: dp.full_img || dp.avatar,
     names: {
@@ -148,12 +147,13 @@ if (rawDeadpoolIdx !== -1) {
       'Movement Speed': '6 m/s',
       'Movement Mode': 'Ground'
     },
-    skills: buildConsolidatedSkills(dSkillsRaw),
+    skills: buildRoleSkills(dp.skills, 3),
     teamups: JSON.parse(JSON.stringify(dp.teamups || []))
   };
 
   const strategistHero = {
     id: 'deadpool-strategist',
+    name: 'DEADPOOL (STRATEGIST)',
     avatar: dp.avatar,
     full_img: dp.full_img || dp.avatar,
     names: {
@@ -173,7 +173,7 @@ if (rawDeadpoolIdx !== -1) {
       'Movement Speed': '6 m/s',
       'Movement Mode': 'Ground'
     },
-    skills: buildConsolidatedSkills(sSkillsRaw),
+    skills: buildRoleSkills(dp.skills, 6),
     teamups: JSON.parse(JSON.stringify(dp.teamups || []))
   };
 
@@ -205,9 +205,16 @@ heroes.forEach(h => {
   // 1. HULK
   if (hName === 'HULK' && (!h.forms || h.forms.length === 0)) {
     const rawSkills = h.skills;
-    const bannerSkills = [rawSkills[0], rawSkills[5], rawSkills[8], rawSkills[16]].filter(Boolean);
-    const heroHulkSkills = [rawSkills[1], rawSkills[3], rawSkills[6], rawSkills[9], rawSkills[10], rawSkills[12], rawSkills[14], rawSkills[17]].filter(Boolean);
-    const monsterHulkSkills = [rawSkills[2], rawSkills[4], rawSkills[7], rawSkills[11], rawSkills[13], rawSkills[15], rawSkills[18]].filter(Boolean);
+    const hasFormIdx = rawSkills.some(s => s.form_index !== undefined);
+    const bannerSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 0)
+      : [rawSkills[0], rawSkills[5], rawSkills[8], rawSkills[16]].filter(Boolean);
+    const heroHulkSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 1)
+      : [rawSkills[1], rawSkills[3], rawSkills[6], rawSkills[9], rawSkills[10], rawSkills[12], rawSkills[14], rawSkills[17]].filter(Boolean);
+    const monsterHulkSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 2)
+      : [rawSkills[2], rawSkills[4], rawSkills[7], rawSkills[11], rawSkills[13], rawSkills[15], rawSkills[18]].filter(Boolean);
 
     h.forms = [
       {
@@ -242,9 +249,16 @@ heroes.forEach(h => {
   // 2. BLACK CAT
   if (hName === 'BLACK CAT' && (!h.forms || h.forms.length === 0)) {
     const rawSkills = h.skills;
-    const clawSkills = [rawSkills[0], rawSkills[2], rawSkills[4], rawSkills[6], rawSkills[8], rawSkills[17], rawSkills[18], rawSkills[21], rawSkills[22]].filter(Boolean);
-    const whipSkills = [rawSkills[1], rawSkills[3], rawSkills[5], rawSkills[7], rawSkills[9], rawSkills[19], rawSkills[20], rawSkills[23], rawSkills[24]].filter(Boolean);
-    const dealSkills = [rawSkills[10], rawSkills[11], rawSkills[12], rawSkills[13], rawSkills[14], rawSkills[15], rawSkills[16], rawSkills[25]].filter(Boolean);
+    const hasFormIdx = rawSkills.some(s => s.form_index !== undefined);
+    const clawSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 0)
+      : [rawSkills[0], rawSkills[2], rawSkills[4], rawSkills[6], rawSkills[8], rawSkills[17], rawSkills[18], rawSkills[21], rawSkills[22]].filter(Boolean);
+    const whipSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 1)
+      : [rawSkills[1], rawSkills[3], rawSkills[5], rawSkills[7], rawSkills[9], rawSkills[19], rawSkills[20], rawSkills[23], rawSkills[24]].filter(Boolean);
+    const dealSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 2)
+      : [rawSkills[10], rawSkills[11], rawSkills[12], rawSkills[13], rawSkills[14], rawSkills[15], rawSkills[16], rawSkills[25]].filter(Boolean);
 
     h.forms = [
       {
@@ -279,8 +293,13 @@ heroes.forEach(h => {
   // 3. MAGIK
   if (hName === 'MAGIK' && (!h.forms || h.forms.length === 0)) {
     const rawSkills = h.skills;
-    const normalSkills = [rawSkills[0], rawSkills[1], rawSkills[4], rawSkills[5], rawSkills[8], rawSkills[9], rawSkills[11], rawSkills[13], rawSkills[14]].filter(Boolean);
-    const darkchildSkills = [rawSkills[2], rawSkills[3], rawSkills[6], rawSkills[7], rawSkills[10], rawSkills[12]].filter(Boolean);
+    const hasFormIdx = rawSkills.some(s => s.form_index !== undefined);
+    const normalSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 0)
+      : [rawSkills[0], rawSkills[1], rawSkills[4], rawSkills[5], rawSkills[8], rawSkills[9], rawSkills[11], rawSkills[13], rawSkills[14]].filter(Boolean);
+    const darkchildSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 1)
+      : [rawSkills[2], rawSkills[3], rawSkills[6], rawSkills[7], rawSkills[10], rawSkills[12]].filter(Boolean);
 
     h.forms = [
       {
@@ -307,8 +326,13 @@ heroes.forEach(h => {
   // 4. CLOAK & DAGGER
   if (hName.includes('CLOAK') && hName.includes('DAGGER') && (!h.forms || h.forms.length === 0)) {
     const rawSkills = h.skills;
-    const cloakSkills = [rawSkills[0], rawSkills[2], rawSkills[4], rawSkills[6], rawSkills[8], rawSkills[10]].filter(Boolean);
-    const daggerSkills = [rawSkills[1], rawSkills[3], rawSkills[5], rawSkills[7], rawSkills[9]].filter(Boolean);
+    const hasFormIdx = rawSkills.some(s => s.form_index !== undefined);
+    const cloakSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 0)
+      : [rawSkills[0], rawSkills[2], rawSkills[4], rawSkills[6], rawSkills[8], rawSkills[10]].filter(Boolean);
+    const daggerSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 1)
+      : [rawSkills[1], rawSkills[3], rawSkills[5], rawSkills[7], rawSkills[9]].filter(Boolean);
 
     h.forms = [
       {
@@ -335,8 +359,13 @@ heroes.forEach(h => {
   // 5. GAMBIT
   if (hName === 'GAMBIT' && (!h.forms || h.forms.length === 0)) {
     const rawSkills = h.skills;
-    const normalSkills = [rawSkills[0], rawSkills[1], rawSkills[2], rawSkills[3], rawSkills[4], rawSkills[7], rawSkills[10]].filter(Boolean);
-    const chargedSkills = [rawSkills[5], rawSkills[6], rawSkills[8], rawSkills[9]].filter(Boolean);
+    const hasFormIdx = rawSkills.some(s => s.form_index !== undefined);
+    const normalSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 0)
+      : [rawSkills[0], rawSkills[1], rawSkills[2], rawSkills[3], rawSkills[4], rawSkills[7], rawSkills[10]].filter(Boolean);
+    const chargedSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 1)
+      : [rawSkills[5], rawSkills[6], rawSkills[8], rawSkills[9]].filter(Boolean);
 
     h.forms = [
       {
@@ -363,8 +392,13 @@ heroes.forEach(h => {
   // 6. WHITE FOX
   if (hName === 'WHITE FOX' && (!h.forms || h.forms.length === 0)) {
     const rawSkills = h.skills;
-    const humanSkills = [rawSkills[0], rawSkills[1], rawSkills[3], rawSkills[4], rawSkills[6], rawSkills[7], rawSkills[8], rawSkills[9], rawSkills[10], rawSkills[11]].filter(Boolean);
-    const foxSkills = [rawSkills[2], rawSkills[5]].filter(Boolean);
+    const hasFormIdx = rawSkills.some(s => s.form_index !== undefined);
+    const humanSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 0)
+      : [rawSkills[0], rawSkills[1], rawSkills[3], rawSkills[4], rawSkills[6], rawSkills[7], rawSkills[8], rawSkills[9], rawSkills[10], rawSkills[11]].filter(Boolean);
+    const foxSkills = hasFormIdx
+      ? rawSkills.filter(s => s.form_index === 1)
+      : [rawSkills[2], rawSkills[5]].filter(Boolean);
 
     h.forms = [
       {

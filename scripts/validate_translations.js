@@ -78,24 +78,26 @@ if (!fs.existsSync(heroesPath)) {
     let namePurityViolations = 0;
 
     heroes.forEach(h => {
+      const heroName = h.name || h.names?.en || h.id || 'Unknown Hero';
+
       function validateSkill(s, context) {
         totalSkills++;
         // Check skill name is kept English
         if (KOREAN_REGEX.test(s.name) || JAPANESE_REGEX.test(s.name)) {
-          reportError(`Hero ${h.name} (${context}) skill name '${s.name}' contains non-English characters! Must be kept in English.`);
+          reportError(`Hero ${heroName} (${context}) skill name '${s.name}' contains non-English characters! Must be kept in English.`);
           namePurityViolations++;
         }
 
         if (s.description) {
           if (!s.description_trans || !s.description_trans.ko || !s.description_trans.ja) {
-            reportError(`Hero ${h.name} (${context}) skill '${s.name}' missing description_trans (ko or ja)!`);
+            reportError(`Hero ${heroName} (${context}) skill '${s.name}' missing description_trans (ko or ja)!`);
           } else {
             translatedSkills++;
             if (JAPANESE_REGEX.test(s.description_trans.ko)) {
-              reportError(`Hero ${h.name} (${context}) skill '${s.name}' KO contains Japanese characters!`);
+              reportError(`Hero ${heroName} (${context}) skill '${s.name}' KO contains Japanese characters!`);
             }
             if (KOREAN_REGEX.test(s.description_trans.ja)) {
-              reportError(`Hero ${h.name} (${context}) skill '${s.name}' JA contains Korean characters!`);
+              reportError(`Hero ${heroName} (${context}) skill '${s.name}' JA contains Korean characters!`);
             }
           }
         }
@@ -112,12 +114,12 @@ if (!fs.existsSync(heroesPath)) {
       (h.upgrade || []).forEach(s => {
         totalSkills++;
         if (KOREAN_REGEX.test(s.name) || JAPANESE_REGEX.test(s.name)) {
-          reportError(`Hero ${h.name} upgrade skill name '${s.name}' contains non-English characters!`);
+          reportError(`Hero ${heroName} upgrade skill name '${s.name}' contains non-English characters!`);
           namePurityViolations++;
         }
         if (s.description) {
           if (!s.description_trans || !s.description_trans.ko || !s.description_trans.ja) {
-            reportError(`Hero ${h.name} upgrade '${s.name}' missing description_trans!`);
+            reportError(`Hero ${heroName} upgrade '${s.name}' missing description_trans!`);
           } else {
             translatedSkills++;
           }
@@ -128,25 +130,25 @@ if (!fs.existsSync(heroesPath)) {
       (h.teamups || []).forEach(tu => {
         totalTeamups++;
         if (KOREAN_REGEX.test(tu.loadout_name) || JAPANESE_REGEX.test(tu.loadout_name)) {
-          reportError(`Hero ${h.name} teamup name '${tu.loadout_name}' contains non-English characters!`);
+          reportError(`Hero ${heroName} teamup name '${tu.loadout_name}' contains non-English characters!`);
           namePurityViolations++;
         }
 
         if (tu.description_trans) {
           translatedTeamups++;
           if (JAPANESE_REGEX.test(tu.description_trans.ko)) {
-            reportError(`Hero ${h.name} teamup '${tu.loadout_name}' KO contains Japanese characters!`);
+            reportError(`Hero ${heroName} teamup '${tu.loadout_name}' KO contains Japanese characters!`);
           }
           if (KOREAN_REGEX.test(tu.description_trans.ja)) {
-            reportError(`Hero ${h.name} teamup '${tu.loadout_name}' JA contains Korean characters!`);
+            reportError(`Hero ${heroName} teamup '${tu.loadout_name}' JA contains Korean characters!`);
           }
         } else {
-          reportError(`Hero ${h.name} teamup '${tu.loadout_name}' missing description_trans!`);
+          reportError(`Hero ${heroName} teamup '${tu.loadout_name}' missing description_trans!`);
         }
 
         (tu.items || []).forEach(item => {
           if (item.description && (!item.description_trans || !item.description_trans.ko || !item.description_trans.ja)) {
-            reportError(`Hero ${h.name} teamup '${tu.loadout_name}' item missing description_trans!`);
+            reportError(`Hero ${heroName} teamup '${tu.loadout_name}' item missing description_trans!`);
           }
         });
       });
