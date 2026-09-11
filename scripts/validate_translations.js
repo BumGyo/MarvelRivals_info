@@ -25,13 +25,13 @@ console.log("==================================================");
 console.log("   Marvel Rivals Info - Translation Validation   ");
 console.log("==================================================");
 
-// 1. Validate data/translations.json and components
+let unified = {};
 const transPath = path.join(__dirname, '../data/translations.json');
 if (!fs.existsSync(transPath)) {
   reportError(`Master translations file not found: ${transPath}`);
 } else {
   try {
-    const unified = JSON.parse(fs.readFileSync(transPath, 'utf8'));
+    unified = JSON.parse(fs.readFileSync(transPath, 'utf8'));
     console.log(`✓ Loaded data/translations.json`);
 
     ['skills', 'teamups', 'stat_labels', 'stat_values', 'stat_patterns'].forEach(cat => {
@@ -209,8 +209,33 @@ if (!fs.existsSync(heroesPath)) {
       });
     });
 
+    // Check stat labels coverage across all hero skills
+    let totalStatLabels = 0;
+    let translatedStatLabels = 0;
+    const statLabelsDict = unified.stat_labels || {};
+
+    heroes.forEach(h => {
+      function checkStats(s) {
+        if (!s || !s.stats) return;
+        for (const k of Object.keys(s.stats)) {
+          if (k.toLowerCase() === 'key') continue;
+          totalStatLabels++;
+          const tr = statLabelsDict[k.trim()] || statLabelsDict[k];
+          if (tr && tr.ko && tr.ja) {
+            translatedStatLabels++;
+          } else {
+            reportError(`Hero ${h.name} stat label '${k}' is missing KO/JA translation in stat_labels!`);
+          }
+        }
+        if (s.upgrade) checkStats(s.upgrade);
+      }
+      (h.skills || []).forEach(s => checkStats(s));
+      (h.forms || []).forEach(f => (f.skills || []).forEach(s => checkStats(s)));
+    });
+
     console.log(`✓ Skills translation: ${translatedSkills} native + ${fallbackSkills} fallback / ${totalSkills} total (${(((translatedSkills + fallbackSkills)/totalSkills)*100).toFixed(1)}% available)`);
     console.log(`✓ Teamups translation: ${translatedTeamups} native + ${fallbackTeamups} fallback / ${totalTeamups} total (${(((translatedTeamups + fallbackTeamups)/totalTeamups)*100).toFixed(1)}% available)`);
+    console.log(`✓ Stat labels (titles) translation: ${translatedStatLabels} / ${totalStatLabels} (${((translatedStatLabels/totalStatLabels)*100).toFixed(1)}% translated)`);
     console.log(`✓ English name integrity: ${namePurityViolations === 0 ? 'Passed (All English)' : 'Failed'}`);
 
   } catch (e) {

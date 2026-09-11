@@ -924,12 +924,20 @@
    */
   function translateStatLabel(k, lang) {
     if (!k || lang === 'en') return k;
-    if (translationsData?.stat_labels?.[k]?.[lang]) {
-      return translationsData.stat_labels[k][lang];
+    const trimmed = typeof k === 'string' ? k.trim() : String(k);
+    if (translationsData?.stat_labels?.[trimmed]?.[lang]) {
+      return translationsData.stat_labels[trimmed][lang];
+    }
+    if (translationsData?.stat_labels) {
+      const lower = trimmed.toLowerCase();
+      const foundKey = Object.keys(translationsData.stat_labels).find(x => x.toLowerCase() === lower);
+      if (foundKey && translationsData.stat_labels[foundKey]?.[lang]) {
+        return translationsData.stat_labels[foundKey][lang];
+      }
     }
     const t = i18nData[lang] || {};
-    if (t.stats?.[k]?.[lang]) {
-      return t.stats[k][lang];
+    if (t.stats?.[trimmed]?.[lang]) {
+      return t.stats[trimmed][lang];
     }
     return k;
   }
@@ -941,9 +949,16 @@
     if (!v || typeof v !== 'string' || lang === 'en') return v;
     const trimmed = v.trim();
 
-    // 1. Exact value translation
+    // 1. Exact or case-insensitive value translation
     if (translationsData?.stat_values?.[trimmed]?.[lang]) {
       return translationsData.stat_values[trimmed][lang];
+    }
+    if (translationsData?.stat_values) {
+      const lower = trimmed.toLowerCase();
+      const foundKey = Object.keys(translationsData.stat_values).find(x => x.toLowerCase() === lower);
+      if (foundKey && translationsData.stat_values[foundKey]?.[lang]) {
+        return translationsData.stat_values[foundKey][lang];
+      }
     }
 
     // 2. Dynamic regex pattern translation (preserves numbers from patches!)
