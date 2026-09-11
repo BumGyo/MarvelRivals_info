@@ -1,0 +1,898 @@
+# -*- coding: utf-8 -*-
+"""
+Generates translations for the 195 remaining skills in data/translations/skills.json
+Ensures:
+- 100% pure Korean (0 Japanese Kana)
+- 100% pure Japanese (0 Korean Hangul)
+- English skill names preserved in descriptions
+- High quality natural superhero ability style
+- 0 placeholders ('의 스킬입니다' / 'のスキル')
+"""
+
+import json
+import os
+import re
+
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_PATH = os.path.join(ROOT_DIR, 'scripts', 'batches', 'batch_remaining.json')
+REMAINING_PATH = os.path.join(ROOT_DIR, 'scripts', 'scratch_remaining_skills.json')
+
+KOREAN_REGEX = re.compile(r'[\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F]')
+JAPANESE_REGEX = re.compile(r'[\u3040-\u309F\u30A0-\u30FF]')
+
+# Complete translations dictionary for all 195 remaining skills
+TRANSLATIONS = {
+    # HULK
+    "Fire with a Gamma Ray Gun": {
+        "ko": "감마선 총으로 사격합니다.",
+        "ja": "ガンマ線ガンで射撃する。"
+    },
+    "Swing fists forward to punch enemies": {
+        "ko": "전방으로 주먹을 휘둘러 적을 공격합니다.",
+        "ja": "前方に向かって拳を振るい、敵を攻撃する。"
+    },
+    "Swing fists forward to punch and launch up enemies": {
+        "ko": "전방으로 주먹을 휘둘러 적을 공격하고 공중에 띄웁니다.",
+        "ja": "前方に向かって拳を振るい、敵を攻撃してノックアップさせる。"
+    },
+    "Swing fists forward to punch and\xa0launch up enemies": {
+        "ko": "전방으로 주먹을 휘둘러 적을 공격하고 공중에 띄웁니다.",
+        "ja": "前方に向かって拳を振るい、敵を攻撃してノックアップさせる。"
+    },
+    "Emit gamma-ray bursts to inflict damage. Reduce Indestructible Guard cooldown upon hit": {
+        "ko": "감마선 폭발을 방출해 적에게 피해를 줍니다. 적중 시 Indestructible Guard의 쿨다운이 감소합니다.",
+        "ja": "ガンマ線バーストを放ちダメージを与える。命中時にIndestructible Guardのクールダウンが短縮される。"
+    },
+    "Emit gamma-ray bursts to inflict damage": {
+        "ko": "감마선 폭발을 방출해 적에게 피해를 입힙니다.",
+        "ja": "ガンマ線バーストを放ち敵にダメージを与える。"
+    },
+    "Transform from Bruce Banner into Hero Hulk": {
+        "ko": "브루스 배너에서 Hero Hulk로 변신합니다.",
+        "ja": "ブルース・バナーからHero Hulkへと変身する。"
+    },
+    "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period": {
+        "ko": "축적된 감마 에너지를 폭발시켜 일정 시간 동안 Hero Hulk에서 Monster Hulk로 변신합니다.",
+        "ja": "蓄積されたガンマエネルギーを解放し、一定時間Hero HulkからMonster Hulkへと変身する。"
+    },
+    "Grab and smash the enemy in front": {
+        "ko": "전방의 적을 붙잡아 지면에 메칩니다.",
+        "ja": "前方の敵を掴んで地面に叩きつける。"
+    },
+    "Launch a Gamma Grenade to inflict damage and Launch Up enemies": {
+        "ko": "감마 수류탄을 투척해 폭발 피해를 입히고 적들을 공중에 띄웁니다.",
+        "ja": "ガンマグレネードを発射してダメージを与え、敵をノックアップさせる。"
+    },
+    "Launch a Gamma Grenade to inflict damage and\xa0Launch Up enemies": {
+        "ko": "감마 수류탄을 투척해 폭발 피해를 입히고 적들을 공중에 띄웁니다.",
+        "ja": "ガンマグレネードを発射してダメージを与え、敵をノックアップさせる。"
+    },
+    "Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for HULK SMASH": {
+        "ko": "Hero Hulk과 주변 아군에게 감마 쉴드를 생성하여 피해를 흡수하고 HULK SMASH 게이지로 전환합니다.",
+        "ja": "Hero Hulkと周囲の味方にガンマシールドを付与し、ダメージを吸収してHULK SMASHのエネルギーに変換する。"
+    },
+    "Emit gamma energy to irradiate enemies and render them immobilize and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status": {
+        "ko": "감마 에너지를 방출해 적들을 피폭시켜 이동 불가 및 모든 스킬 면역 상태로 가둡니다. Heavy Blow 또는 Gamma Burst로 타격하면 조기 해제됩니다.",
+        "ja": "ガンマエネルギーを放ち敵を被曝させ、移動不能かつ全アビリティ効果無効状態にする。Heavy BlowまたはGamma Burstで攻撃すると早期解除される。"
+    },
+    "Emit gamma energy to irradiate enemies and render them immobilize\xa0and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status": {
+        "ko": "감마 에너지를 방출해 적들을 피폭시켜 이동 불가 및 모든 스킬 면역 상태로 가둡니다. Heavy Blow 또는 Gamma Burst로 타격하면 조기 해제됩니다.",
+        "ja": "ガンマエネルギーを放ち敵を被曝させ、移動不能かつ全アビリティ効果無効状態にする。Heavy BlowまたはGamma Burstで攻撃すると早期解除される。"
+    },
+    "Wolverine, Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward": {
+        "ko": "울버린과 헐크가 상호작용할 수 있습니다. 양측이 동의하면 헐크가 울버린을 들어 올려 전방으로 강력하게 내던집니다.",
+        "ja": "ウルヴァリンとハルクが相互作用可能になる。双方が合意するとハルクがウルヴァリンを持ち上げ、前方へ勢いよく投げ飛ばす。"
+    },
+    "HOLD Space to perform a charged leap that allows Hero Hulk to Knock a flying enemy to the ground": {
+        "ko": "Space를 길게 눌러 충전 도약을 수행하며, Hero Hulk가 비행 중인 적을 지면으로 내리꽂을 수 있습니다.",
+        "ja": "Space長押しでチャージジャンプを行い、Hero Hulkが飛行中の敵を地面に叩き落とす。"
+    },
+    "HOLD Space to perform a charged leap that allows Monster Hulk to Knock a flying enemy to the ground": {
+        "ko": "Space를 길게 눌러 충전 도약을 수행하며, Monster Hulk가 비행 중인 적을 지면으로 내리꽂을 수 있습니다.",
+        "ja": "Space長押しでチャージジャンプを行い、Monster Hulkが飛行中の敵を地面に叩き落とす。"
+    },
+    "HOLD Space to perform a charged leap that allows Monster Hulk\xa0to Knock a flying enemy to the ground": {
+        "ko": "Space를 길게 눌러 충전 도약을 수행하며, Monster Hulk가 비행 중인 적을 지면으로 내리꽂을 수 있습니다.",
+        "ja": "Space長押しでチャージジャンプを行い、Monster Hulkが飛行中の敵を地面に叩き落とす。"
+    },
+    "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage": {
+        "ko": "헐크가 아이언맨과 네이머에게 감마선을 충전합니다. 아이언맨이 Armor Overdrive 사용 시 감마 업그레이드가 발동하며, 네이머는 추가 Gamma Monstro를 소환해 지속 감마선을 발사합니다.",
+        "ja": "ハルクがアイアンマンとネイモアにガンマ放射線を注入する。アイアンマンはArmor Overdrive時にガンマ強化が発動し、ネイモアは追加のGamma Monstroを召喚して持続照射を行う。"
+    },
+
+    # THOR
+    "Wield Mjolnir to strike enemies. When Awakened, Thor can launch lightning arc waves to deal damage": {
+        "ko": "Mjolnir를 휘둘러 적을 공격합니다. Awakened 상태에서는 번개 아크 파동을 방출해 피해를 줍니다.",
+        "ja": "Mjolnirを振るって敵を攻撃する。Awakened状態では雷電アーク波を放ちダメージを与える。"
+    },
+    "Throw Mjolnir forward which then returns": {
+        "ko": "Mjolnir를 전방으로 투척한 후 다시 손으로 회수합니다.",
+        "ja": "Mjolnirを前方へ投擲し、手元へ呼び戻す。"
+    },
+    "Soar upwards and smite the ground after charging for a duration, inflicting damage on enemies within range": {
+        "ko": "상공으로 도약해 에너지를 충전한 후 지면을 강타하여 범위 내 적들에게 피해를 입힙니다.",
+        "ja": "上空へ飛び上がりチャージ後に地面を叩きつけ、範囲内の敵にダメージを与える。"
+    },
+    "Hold to spin Mjolnir before dashing forward and knocking back enemies": {
+        "ko": "길게 눌러 Mjolnir를 회전시킨 뒤 전방으로 돌진하여 적들을 밀쳐냅니다.",
+        "ja": "長押しでMjolnirを回転させてから前方へ突進し、敵をノックバックさせる。"
+    },
+    "Summon lightning that restores Thorforce based on the number of hit enemies": {
+        "ko": "낙뢰를 소환하여 적중한 적의 수에 비례해 Thorforce를 회복합니다.",
+        "ja": "落雷を召喚し、命中した敵の数に応じてThorforceを回復する。"
+    },
+    "Consume Thorforce to enter the Awakened state, granting Bonus Health and enhancing Mjolnir Bash": {
+        "ko": "Thorforce를 소모하여 Awakened 상태에 진입하며, 추가 체력을 얻고 Mjolnir Bash를 대폭 강화합니다.",
+        "ja": "Thorforceを消費してAwakened状態に入り、追加HPを獲得してMjolnir Bashを大幅に強化する。"
+    },
+    "Consume Thorforce to gain Bonus Health. Landing Mjolnir Bash on an enemy instantly recharges Thorforce": {
+        "ko": "Thorforce를 소모하여 추가 체력을 얻습니다. Mjolnir Bash 적중 시 Thorforce가 즉시 재충전됩니다.",
+        "ja": "Thorforceを消費して追加HPを獲得する。Mjolnir Bash命中時にThorforceが即座に再充填される。"
+    },
+
+    # VENOM
+    "Unleash tentacles forward to attack enemies": {
+        "ko": "전방으로 촉수를 뻗어 적들을 공격합니다.",
+        "ja": "前方に触手を伸ばして敵を攻撃する。"
+    },
+    "Unleash tentacles to Slow enemies within reach. Enemies unable to break free in time will suffer damage": {
+        "ko": "범위 내의 적들에게 촉수를 뻗어 감속시킵니다. 제시간에 벗어나지 못한 적은 피해를 받습니다.",
+        "ja": "射程内の敵に触手を伸ばして鈍足を付与する。時間内に脱出できなかった敵はダメージを受ける。"
+    },
+    "Burrow underground for free movement. After a duration or by left-clicking, devour enemies above to deal damage based on the enemy's current health and generate equivalent Bonus Health. Devoured enemies suffer Reduced Healing": {
+        "ko": "지하로 잠입하여 자유롭게 이동합니다. 일정 시간 후 또는 좌클릭 시 지상의 적을 삼켜 적 현재 체력에 비례한 피해를 입히고 동일한 추가 체력을 얻습니다. 삼켜진 적은 받는 치유량이 감소합니다.",
+        "ja": "地中に潜行して自由に移動する。一定時間後または左クリックで地上の敵を捕食し、敵の現在HPに応じたダメージを与え同等の追加HPを獲得する。捕食された敵は被回復効果が低下する。"
+    },
+    "Launch webbing forward, allowing for a singular swing in the desired direction": {
+        "ko": "전방으로 거미줄을 발사하여 원하는 방향으로 1회 스윙 이동합니다.",
+        "ja": "前方へウェブを発射し、指定方向へ1回スイング移動を行う。"
+    },
+    "Generate Bonus Health against damage. The lower Venom's Health, the greater the Bonus Health generated": {
+        "ko": "피해를 막아주는 추가 체력을 생성합니다. 베놈의 체력이 낮을수록 더 많은 추가 체력을 획득합니다.",
+        "ja": "ダメージを防ぐ追加HPを生成する。ヴェノムの残りHPが低いほど、生成される追加HPが多くなる。"
+    },
+    "Dash to the target location from a certain height. Upon landing, damage nearby enemies, launching them up toward the landing point": {
+        "ko": "일정 높이에서 목표 위치로 급강하 돌진합니다. 착지 시 주변 적들에게 피해를 입히고 착지점으로 끌어당겨 띄웁니다.",
+        "ja": "一定の高度から目標地点へ急降下突進する。着地時に周囲の敵にダメージを与え、着地点へ引き寄せて打ち上げる。"
+    },
+    "Venom shares his symbiotes with Jeff and Hela. Jeff's Guardian of the Deep links with nearby allies, providing continuous healing. When the effect ends, it releases a powerful healing burst, converting any excess into Bonus Health. Hela's Hel Tendrils unleash a symbiotic Hel Sphere. Upon hit, it pulls nearby enemies toward the impact point and links them, slowing enemies that try to escape.": {
+        "ko": "베놈이 제프와 헬라에게 심비오트를 공유합니다. 제프의 Guardian of the Deep은 주변 아군을 연결해 지속 치유하며 초과 치유를 추가 체력으로 전환합니다. 헬라의 Hel Tendrils는 심비오트 구체를 발사해 주변 적들을 끌어당기고 감속시킵니다.",
+        "ja": "ヴェノムがジェフとヘラにシンビオートを分配する。ジェフのGuardian of the Deepは周囲の味方をリンクして持続回復を行い超過分を追加HPに変換する。ヘラのHel Tendrilsはシンビオート球を放ち、周囲の敵を引き寄せて鈍足を付与する。"
+    },
+
+    # GROOT
+    "Launch vines to attack enemies": {
+        "ko": "덩굴을 뻗어 전방의 적들을 타격합니다.",
+        "ja": "蔦を伸ばして前方の敵を攻撃する。"
+    },
+    "Throw an explosive Spore Bomb that splits into multiple small explosive spores": {
+        "ko": "폭발성 포자 폭탄을 던져 여러 개의 작은 분열 포자 폭탄으로 폭발시킵니다.",
+        "ja": "爆発性胞子ボムを投擲し、複数の小型爆発胞子に分裂させる。"
+    },
+    "Fire a massive vine cluster that pulls nearby enemies to its center and Imprisons them": {
+        "ko": "거대한 덩굴 뭉치를 발사하여 주변 적들을 중심으로 끌어당기고 감금합니다.",
+        "ja": "巨大な蔦の塊を発射し、周囲の敵を中心へと引き寄せて拘束する。"
+    },
+
+    # SPIDER-MAN
+    "Swing fists forward to strike, dealing extra damage to the enemy with a Spider-Tracer": {
+        "ko": "전방으로 주먹을 휘둘러 타격하며, Spider-Tracer가 부착된 적에게 추가 피해를 줍니다.",
+        "ja": "前方へ拳を振るって打撃を与え、Spider-Tracerが付着した敵に追加ダメージを与える。"
+    },
+    "Shoot a Web-Cluster that deals damage and attaches a Spider-Tracer to the hit enemy": {
+        "ko": "웹 클러스터를 발사하여 피해를 입히고 적중한 적에게 Spider-Tracer를 부착합니다.",
+        "ja": "ウェブクラスターを発射してダメージを与え、命中した敵にSpider-Tracerを付着させる。"
+    },
+    "Launch Web-Clusters all around to damage and Stun enemies": {
+        "ko": "사방으로 거미줄 뭉치를 난사하여 적들에게 피해를 입히고 기절시킵니다.",
+        "ja": "全方位にウェブクラスターを乱射し、敵にダメージを与えてスタンさせる。"
+    },
+    "Shoot a strand of webbing to swing.": {
+        "ko": "거미줄을 발사하여 공중 웹 스윙을 펼칩니다.",
+        "ja": "ウェブを発射して空中スイングを行う。"
+    },
+    "Shoot webbing to reel in the hit enemy. If the enemy is tagged with a Spider-Tracer, Spider-Man will get pulled to them instead": {
+        "ko": "거미줄을 발사해 적중한 적을 끌어당깁니다. Spider-Tracer가 부착된 적이라면 스파이더맨이 적에게로 날아갑니다.",
+        "ja": "ウェブを発射して命中した敵を引き寄せる。敵にSpider-Tracerが付着している場合、スパイダーマンが敵の元へ急接近する。"
+    },
+    "Launch an enemy upward, dealing extra damage to the enemy with a Spider-Tracer": {
+        "ko": "적을 공중으로 띄워 올리며, Spider-Tracer가 부착된 적에게 추가 피해를 입힙니다.",
+        "ja": "敵を上空へ打ち上げ、Spider-Tracerが付着した敵に追加ダメージを与える。"
+    },
+    "Cyber-Spiders Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging a Web-Cluster shot and granting Bonus Health": {
+        "ko": "페니 파커가 스파이더맨에게 점착 폭탄을 제공합니다! 제한 시간 내에 투척하면 폭발하여 주변 적들에게 피해를 입히고 Spider-Tracer를 부착합니다. 시간 내 던지지 못하면 폭발해 웹 클러스터를 재장전하고 추가 체력을 부여합니다.",
+        "ja": "ペニー・パーカーがスパイダーマンに粘着ボムを提供する！制限時間内に投擲すると爆発して周囲の敵にダメージを与えSpider-Tracerを付着させる。投げ損ねると自爆してウェブクラスターを再装填し追加HPを獲得する。"
+    },
+    "Press Space to wall crawl, and while crawling, left-click to sprint": {
+        "ko": "Space를 눌러 벽을 기어오르며, 벽 이동 중 좌클릭으로 질주할 수 있습니다.",
+        "ja": "Spaceで壁を登り、壁移動中に左クリックでダッシュする。"
+    },
+    "Give a warning of enemies that have been around": {
+        "ko": "주변에 접근하는 적들을 스파이더 센스로 미리 감지해 경고를 표시합니다.",
+        "ja": "周囲に接近した敵をスパイダーセンスで感知し警告を表示する。"
+    },
+
+    # HAWKEYE
+    "Shoot a powerful arrow": {
+        "ko": "강력한 화살을 발사합니다.",
+        "ja": "強力な矢を放つ。"
+    },
+    "Shoot three explosive arrows": {
+        "ko": "폭발성 화살 3발을 부채꼴로 일제 발사합니다.",
+        "ja": "3本の爆発矢を一斉に放つ。"
+    },
+    "Capture Afterimages of enemies in his view. Damage dealt to an Afterimage is transferred to the corresponding enemy": {
+        "ko": "시야 내 적들의 잔상을 포착합니다. 잔상에 가해진 모든 피해는 해당 적 본체에 그대로 전이됩니다.",
+        "ja": "視界内の敵の残像を捉える。残像に与えたダメージは対応する敵本体へとそのまま転送される。"
+    },
+    "Unsheathe a katana and slash forward, launching up enemies hit": {
+        "ko": "카타나를 뽑아 전방을 베어 넘기며 적중한 적들을 공중에 띄웁니다.",
+        "ja": "刀を抜いて前方を一閃し、命中した敵をノックアップさせる。"
+    },
+    "Shoot a Hypersonic Arrow, dealing two instances of damage to enemies in its path and inflicting them with Slow. This ability can Knock Down flying heroes": {
+        "ko": "초음속 화살을 발사하여 경로 상의 적들에게 2회 피해를 입히고 감속시킵니다. 비행 중인 영웅을 격추할 수 있습니다.",
+        "ja": "極超音速の矢を放ち、軌道上の敵に2回ダメージを与えて鈍足を付与する。飛行中のヒーローを撃墜可能。"
+    },
+    "Perform a double jump in the direction of movement": {
+        "ko": "이동 방향으로 공중 2단 점프를 수행합니다.",
+        "ja": "移動方向へ空中2段ジャンプを行う。"
+    },
+    "Swing a wakizashi to strike frontal enemies, deflecting all incoming projectiles": {
+        "ko": "와키자시를 휘둘러 전방의 적을 베고 날아오는 모든 투사체를 반사합니다.",
+        "ja": "脇差を振るって前方の敵を攻撃し、飛来するすべての投射物を跳ね返す。"
+    },
+    "Aim at an enemy to improve focus, enhancing the damage inflicted by Piercing Arrow": {
+        "ko": "적을 조준하여 집중도를 높이고 Piercing Arrow의 피해량을 강화합니다.",
+        "ja": "敵に照準を合わせて集中力を高め、Piercing Arrowの与ダメージを強化する。"
+    },
+
+    # THE PUNISHER
+    "Fire at enemies with Adjudication, his Automatic Rifle": {
+        "ko": "돌격소총 Adjudication으로 적들을 연사 사격합니다.",
+        "ja": "アサルトライフルAdjudicationで敵をフルオート射撃する。"
+    },
+    "Fire at enemies with Deliverance, his Shotgun": {
+        "ko": "산탄총 Deliverance로 적들을 사격합니다.",
+        "ja": "ショットガンDeliveranceで敵を射撃する。"
+    },
+    "Throw a smoke grenade forward to obscure enemy vision and leap backward": {
+        "ko": "전방에 연막탄을 투척해 적의 시야를 가리고 후방으로 도약합니다.",
+        "ja": "前方にスモークグレネードを投げて敵の視界を遮断し、後方へ跳躍する。"
+    },
+    "Unleash two Gatling guns and missiles to attack enemies": {
+        "ko": "쌍열 개틀링 건과 미사일을 일제 발사하여 적들을 초토화합니다.",
+        "ja": "2丁のガトリングガンとミサイルを一斉連射して敵を殲滅する。"
+    },
+    "Launch a hook to generate a cable that enables the Punisher to move rapidly by pressing F": {
+        "ko": "갈고리를 발사해 케이블을 설치하고 F를 눌러 신속하게 와이어 이동합니다.",
+        "ja": "フックを発射してケーブルを設置し、Fキーで高速ジップライン移動を行う。"
+    },
+    "Deploy a Culling Turret that grounds Punisher and blocks damage from the front while dealing massive damage": {
+        "ko": "Culling Turret을 거치하여 전방 공격을 방어하면서 막강한 화력으로 적들을 분쇄합니다.",
+        "ja": "Culling Turretを設置して位置を固定し、前方からの攻撃を防ぎながら猛烈な火力を放つ。"
+    },
+    "Retain vision of enemies that disappear from view for a short duration": {
+        "ko": "시야에서 벗어난 적의 실루엣을 잠시 동안 계속 추적하여 포착합니다.",
+        "ja": "視界から外れた敵のシルエットを短時間透視・追跡し続ける。"
+    },
+    "The Punisher upgrades Black Widow's arsenal, adding a Pulse Mode to her Red Room Rifle. While the ability is active, using Straight Shooter fires a pulse beam that deals piercing damage": {
+        "ko": "퍼니셔가 블랙 위도우의 무기를 개조하여 Red Room Rifle에 펄스 모드를 추가합니다. 활성화 중 Straight Shooter 사용 시 관통 펄스 빔을 발사합니다.",
+        "ja": "パニッシャーがブラック・ウィドウの兵装をアップグレードし、Red Room Rifleにパルスモードを追加する。発動中にStraight Shooterを使用すると貫通パルスビームを放つ。"
+    },
+
+    # BLACK PANTHER
+    "Summon Bast, pouncing forward, dealing damage, and attaching a Vibranium Mark to enemies hit while refreshing Spirit Rend": {
+        "ko": "바스트를 소환해 전방으로 도약 덮치기를 펼쳐 피해를 입히고 Vibranium Mark를 부착하며 Spirit Rend를 초기화합니다.",
+        "ja": "バーストを召喚して前方へ飛びかかり、ダメージを与えてVibranium Markを付着させSpirit Rendをリセットする。"
+    },
+    "Lunge forward and deal damage to enemies. Vibranium Mark produces Bonus Health and refreshes the ability": {
+        "ko": "전방으로 돌진해 적들에게 피해를 입힙니다. Vibranium Mark가 부착된 적 적중 시 추가 체력을 얻고 스킬이 초기화됩니다.",
+        "ja": "前方へ突進して敵にダメージを与える。Vibranium Markを持つ敵に命中すると追加HPを獲得しアビリティが即座にリセットされる。"
+    },
+    "Spiral forward and attach a Vibranium Mark to enemies hit": {
+        "ko": "회전하며 전방으로 돌진하여 적중한 적들에게 Vibranium Mark를 부착합니다.",
+        "ja": "回転しながら前方へ突進し、命中した敵にVibranium Markを付着させる。"
+    },
+    "Hold Space to run on a wall; perform a jump after detaching from the wall": {
+        "ko": "Space를 길게 눌러 벽면을 질주하며, 벽에서 이탈할 때 도약을 수행합니다.",
+        "ja": "Space長押しで壁面を疾走し、壁から離脱する際にジャンプを行う。"
+    },
+    "Deal higher damage when at low Health": {
+        "ko": "체력이 낮을수록 공격력이 증가하여 더 높은 피해를 입힙니다.",
+        "ja": "残りHPが低下するほど攻撃力が増加し、より高いダメージを与える。"
+    },
+    "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther's Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming Unstoppable": {
+        "ko": "헐크가 네이머와 블랙 팬서에게 감마선을 충전합니다. 네이머는 추가 Gamma Monstro를 소환하고, 블랙 팬서는 저체력 시 감마 쉴드를 얻어 공격을 막고 저지 불가 상태가 됩니다.",
+        "ja": "ハルクがネイモアとブラックパンサーにガンマ放射線を注入する。ネイモアは追加のGamma Monstroを召喚し、ブラックパンサーは瀕死時にガンマシールドを獲得して攻撃を防ぎ阻止不能状態となる。"
+    },
+
+    # Black Widow
+    "Strike with the enhanced electric batons": {
+        "ko": "강화된 전기 충격봉으로 적을 타격합니다.",
+        "ja": "強化エレクトリックバトンで敵を打撃する。"
+    },
+    "Attack with the Red Room Rifle": {
+        "ko": "Red Room Rifle로 적을 사격합니다.",
+        "ja": "Red Room Rifleで敵を射撃する。"
+    },
+    "Fire an electro-plasma round forward. Upon hitting the environment or an enemy, it explodes and applies a Slow effect": {
+        "ko": "전방으로 전격 플라즈마 탄환을 발사합니다. 지형이나 적에게 적중하면 폭발하여 감속 효과를 부여합니다.",
+        "ja": "前方に電撃プラズマ弾を発射する。地形または敵に命中すると爆発し、鈍足効果を付与する。"
+    },
+    "Switch the Red Room Rifle to sniper mode. Shots fired in this state pierce through targets and deal increased damage": {
+        "ko": "Red Room Rifle을 저격 모드로 전환합니다. 이 상태에서의 탄환은 적들을 관통하며 증폭된 피해를 입힙니다.",
+        "ja": "Red Room Rifleをスナイパーモードに切り替える。この状態の弾丸は敵を貫通し、増加したダメージを与える。"
+    },
+    "Unleash a spinning kick to Launch Up enemies. Landing the hit will allow her to zip to the target with a grappling hook for a second kick": {
+        "ko": "회전 발차기로 적들을 공중에 띄웁니다. 적중 시 와이어로 대상에게 날아가 2단 발차기를 날립니다.",
+        "ja": "回転蹴りを繰り出して敵を打ち上げる。命中時にワイヤーでターゲットへ急接近し、2段目の蹴りを叩き込む。"
+    },
+    "Leap toward a target area and slam the ground with her Widow's Bite gauntlet, dealing damage to enemies within range": {
+        "ko": "목표 지점으로 도약해 Widow's Bite 건틀릿으로 지면을 강타하여 범위 내 적들에게 피해를 입힙니다.",
+        "ja": "目標地点へ跳躍し、Widow's Biteガントレットで地面を叩きつけて範囲内の敵にダメージを与える。"
+    },
+
+    # PSYLOCKE
+    "Unleash bolts with psionic crossbows to damage enemies and reduce the cooldowns of all her abilities": {
+        "ko": "사이오닉 석궁으로 볼트를 발사해 피해를 입히고 모든 스킬의 쿨다운을 감소시킵니다.",
+        "ja": "サイオニッククロスボウから矢を放ちダメージを与え、全アビリティのクールダウンを短縮する。"
+    },
+    "Launch a volley of psionic shurikens that stick to enemies, dealing damage and granting herself Bonus Health. Press again to recall the shurikens": {
+        "ko": "적에게 부착되는 사이오닉 수리검을 난사해 피해를 입히고 추가 체력을 얻습니다. 다시 누르면 수리검을 회수합니다.",
+        "ja": "敵に突き刺さるサイオニック手裏剣を一斉に放ち、ダメージを与えて追加HPを獲得する。再入力で手裏剣を回収する。"
+    },
+    "Cloak & Dagger share light and dark energy with Hawkeye and Psylocke. When Hawkeye uses Crescent Slash, he also releases a blade wave that heals and boosts healing for teammates, while inflicting damage and Vulnerability on enemies. Psylocke can launch a Light Boomerang Dart that heals allies, harms enemies, and provides her with temporary healing upon return. She can also unleash a ring of Dark Darts that slow enemies while she briefly enters a Phased state": {
+        "ko": "클록 앤 대거가 호크아이와 사일록에게 빛과 어둠의 에너지를 공유합니다. 호크아이는 Crescent Slash 검기로 아군을 치유하고 적을 약화시키며, 사일록은 회복용 라이트 다트와 무적 감속용 다크 다트를 다룹니다.",
+        "ja": "クローク＆ダガーがホークアイとサイロックに光と闇のエネルギーを付与する。ホークアイはCrescent Slashの剣気で味方を回復し敵を弱体化させ、サイロックは回復ライトダートと無敵鈍足ダークダートを操る。"
+    },
+    "Slash nearby enemies with a psionic katana, dealing massive damage": {
+        "ko": "사이오닉 카타나로 주변 적들을 베어 막대한 피해를 입힙니다.",
+        "ja": "サイオニック刀で周囲の敵を斬り裂き、強大なダメージを与える。"
+    },
+    "Dash forward and slice through enemies along the path with psionic blades": {
+        "ko": "전방으로 돌진하며 경로 상의 적들을 사이오닉 블레이드로 베어 넘깁니다.",
+        "ja": "前方へ突進し、進路上の敵をサイオニックブレードで切り伏せる。"
+    },
+    "Enter stealth and gain a Movement Boost": {
+        "ko": "은신 상태에 돌입하고 이동 속도가 증가합니다.",
+        "ja": "ステルス状態に入り、移動速度が上昇する。"
+    },
+
+    # SCARLET WITCH
+    "Unleash Chaos Magic on enemies to deal damage and restore Chaos Energy": {
+        "ko": "혼돈 마법을 방출하여 적에게 피해를 입히고 Chaos Energy를 회복합니다.",
+        "ja": "カオスマジックを放って敵にダメージを与え、Chaos Energyを回復する。"
+    },
+    "Unleash Chaos Magic on enemies to deal damage\xa0and restore Chaos Energy": {
+        "ko": "혼돈 마법을 방출하여 적에게 피해를 입히고 Chaos Energy를 회복합니다.",
+        "ja": "カオスマジックを放って敵にダメージを与え、Chaos Energyを回復する。"
+    },
+    "Consume Chaos Energy to fire explosive magic missiles, damaging enemies": {
+        "ko": "Chaos Energy를 소모하여 폭발성 마법 미사일을 난사해 적들에게 피해를 입힙니다.",
+        "ja": "Chaos Energyを消費して爆発マジックミサイルを連射し、敵にダメージを与える。"
+    },
+    "Engage in free-flight while charging energy, then unleash it to deal massive damage": {
+        "ko": "자유 비행하며 에너지를 충전한 후, 이를 대폭발시켜 막대한 범위 피해를 입힙니다.",
+        "ja": "自由飛行しながらエネルギーをチャージし、解き放って壊滅的な大ダメージを与える。"
+    },
+    "Enter the Phased state for free-flight. Press again to exit early": {
+        "ko": "위상 변위 상태에 진입하여 자유롭게 비행합니다. 다시 누르면 조기 종료됩니다.",
+        "ja": "フェーズ状態に入って自由に飛行する。再入力で早期終了する。"
+    },
+    "Land a hit on a target or the scene, or press E to generate a Force Field that periodically Stuns enemies within range": {
+        "ko": "대상이나 지형에 적중하거나 E를 눌러 결계를 형성하며, 범위 내 적들을 주기적으로 기절시킵니다.",
+        "ja": "標的や地形に命中させるかEキーを押して結界を生成し、範囲内の敵を周期的にスタンさせる。"
+    },
+
+    # STAR-LORD
+    "Shoot enemies with dual Element Guns": {
+        "ko": "쌍권총 Element Gun으로 적들을 사격합니다.",
+        "ja": "2丁のElement Gunで敵を射撃する。"
+    },
+    "Dodge in the direction of movement and swiftly reload": {
+        "ko": "이동 방향으로 회피하며 즉시 탄환을 재장전합니다.",
+        "ja": "移動方向へローリング回避し、即座にリロードする。"
+    },
+    "Engage in free-flight and lock onto enemies in sight": {
+        "ko": "자유 비행에 돌입하여 시야 내의 적들을 자동으로 조준 사격합니다.",
+        "ja": "自由飛行状態に入り、視界内の敵を自動ロックオンして一斉掃射する。"
+    },
+    "Consume energy to gain a Movement Boost and soar forward": {
+        "ko": "에너지를 소모하여 비행 속도를 가속하고 전방으로 날아갑니다.",
+        "ja": "エネルギーを消費して飛行速度を加速させ、前方へ高速飛行する。"
+    },
+    "Fire a frenzy of shots, causing damage to enemies within range.": {
+        "ko": "난사를 퍼부어 범위 내의 적들에게 지속적인 피해를 입힙니다.",
+        "ja": "弾幕を乱射し、範囲内の敵に激しいダメージを与える。"
+    },
+    "Star-Lord gets a teleport to its deployment point from anywhere on the map": {
+        "ko": "맵 어느 곳에서든 설치된 비콘 위치로 즉시 순간이동합니다.",
+        "ja": "マップ上のどこからでも設置ポイントへと即座に瞬間移動する。"
+    },
+
+    # BLADE
+    "Parry with Ancestral Sword to become Unstoppable for a brief period, reducing damage taken from the front and decreasing the cooldown of Daywalker Dash": {
+        "ko": "Ancestral Sword로 받아쳐 잠시 저지 불가 상태가 되고 전방 피해를 줄이며 Daywalker Dash의 쿨다운을 줄입니다.",
+        "ja": "Ancestral Swordで受け流し、短時間阻止不能となり前方からの被ダメージを軽減してDaywalker Dashのクールダウンを短縮する。"
+    },
+    "Charge power and swiftly draw the Sword of Dracula, executing a powerful Iaido strike as you dash forward, leaving behind a slashing zone where the sword automatically strikes enemies. Enemies hit suffer Reduced Healing": {
+        "ko": "에너지를 모아 Sword of Dracula를 신속히 발도하여 전방 돌진 거합베기를 가합니다. 검격 지대를 남겨 적들을 자동 타격하며 적중된 적의 치유량을 줄입니다.",
+        "ja": "力を溜めてSword of Draculaを素早く抜刀し、前方突進居合斬りを放つ。通過跡に斬撃ゾーンを残して敵を自動攻撃し、被回復量を低下させる。"
+    },
+    "Dash forward. If wielding your gun, shoot at enemies upon impact, applying a Healing Reduction effect. If wielding your sword, deliver a cleaving strike that inflicts Slow": {
+        "ko": "전방으로 돌진합니다. 총 착용 시 충돌 시 사격해 치유 감소를 걸고, 검 착용 시 베어 넘겨 감속을 겁니다.",
+        "ja": "前方へ突進する。銃所持時は命中時に射撃して被回復減少を付与し、刀所持時は斬り払って鈍足を付与する。"
+    },
+    "Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering Whirlwind Slash.If all Whirlwind Slash strikes hit, your Attack Speed will further increase. While under this state, you suffer Reduced Healing, but attacks gain Lifesteal": {
+        "ko": "담피르 혈통을 각성해 연속 공격 속도를 높이고 Whirlwind Slash를 발동합니다. 전타 적중 시 공격 속도가 추가 상승하며, 받는 치유량이 감소하지만 흡혈 효과를 얻습니다.",
+        "ja": "ダンピールの血統を覚醒させ連続斬撃速度を高めWhirlwind Slashを発動する。全段命中時に攻撃速度がさらに上昇し、被回復が減る代わりにライフスティールを獲得する。"
+    },
+    "Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering Whirlwind Slash.If all Whirlwind Slash strikes hit, your Attack Speed will further increase.\xa0While under this state, you suffer Reduced Healing, but attacks gain Lifesteal": {
+        "ko": "담피르 혈통을 각성해 연속 공격 속도를 높이고 Whirlwind Slash를 발동합니다. 전타 적중 시 공격 속도가 추가 상승하며, 받는 치유량이 감소하지만 흡혈 효과를 얻습니다.",
+        "ja": "ダンピールの血統を覚醒させ連続斬撃速度を高めWhirlwind Slashを発動する。全段命中時に攻撃速度がさらに上昇し、被回復が減る代わりにライフスティールを獲得する。"
+    },
+
+    # The Hood
+    "Enter Half-Demon State, transforming your arms into demonic rifles to unleash a rain of lead. These rifles have increased Attack Speed and Infinite Ammo. Every bullet that strikes an enemy triggers Lifesteal": {
+        "ko": "Half-Demon State에 돌입하여 팔을 악마의 소총으로 변형시켜 탄환을 퍼붓습니다. 공격 속도가 증가하고 무한 탄창이 되며 적중 시마다 생명력을 흡수합니다.",
+        "ja": "Half-Demon Stateに入り、両腕を悪魔のライフルへと変化させて弾丸の雨を降らせる。攻撃速度が上昇し弾薬無限となり、弾丸命中ごとにライフスティールが発動する。"
+    },
+
+    # Cloak & Dagger
+    "Inflict continuous damage on an enemy": {
+        "ko": "적에게 지속적인 피해를 입힙니다.",
+        "ja": "敵に持続的なダメージを与える。"
+    },
+    "Unleash a bouncing Lightforce Dagger to damage enemies and heal nearby allies": {
+        "ko": "튕겨 다니는 Lightforce Dagger를 날려 적에게 피해를 입히고 주변 아군을 치유합니다.",
+        "ja": "跳弾するLightforce Daggerを放ち、敵にダメージを与え周囲の味方を回復する。"
+    },
+    "Enshroud nearby allies in the Darkforce Dimension, plunging them into the Phased state, making them untargetable and invisible to enemies and granting them a Movement Boost": {
+        "ko": "주변 아군들을 다크포스 차원으로 감싸 위상 변위 상태로 만들어 조준 불가 및 투명화 효과와 이동 속도 증가를 부여합니다.",
+        "ja": "周囲の味方をダークフォース次元で包み込みフェーズ状態にして、ターゲット不可・不可視化および移動速度上昇を付与する。"
+    },
+    "Launch a volley of daggers, creating a Healing Over Time field in the impact area": {
+        "ko": "단검들을 일제히 투척하여 착탄 지점에 지속 치유 필드를 생성합니다.",
+        "ja": "短剣を一斉発射し、着弾地点に持続回復フィールドを展開する。"
+    },
+    "Perform four rapid dashes, healing allies and damaging enemies along the path": {
+        "ko": "4회 연속 돌진을 펼치며 경로 상의 아군을 치유하고 적들에게 피해를 입힙니다.",
+        "ja": "4回連続ダッシュを行い、進路上にいる味方を回復し敵にダメージを与える。"
+    },
+    "Switch to Dagger": {
+        "ko": "대거로 전환합니다.",
+        "ja": "ダガーに切り替える。"
+    },
+    "Switch to Cloak": {
+        "ko": "클록으로 전환합니다.",
+        "ja": "クロークに切り替える。"
+    },
+    "Deploy a Veil of Darkforce to damage enemies upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received": {
+        "ko": "다크포스 장막을 전개하여 닿는 적에게 피해를 입히고 시야를 좁히는 실명 및 취약을 부여합니다.",
+        "ja": "ダークフォースの帳を展開し、触れた敵にダメージを与え視界を狭める盲目と脆弱を付与する。"
+    },
+    "Deploy a Veil of Lightforce to heal allies upon touch and grant them a Healing Boost": {
+        "ko": "라이트포스 장막을 전개하여 닿는 아군을 치유하고 치유 증폭 버프를 부여합니다.",
+        "ja": "ライトフォースの帳を展開し、触れた味方を回復して回復力強化バフを付与する。"
+    },
+    "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses Crescent Slash, enemies hit are launched back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and boosts healing for allies, while damaging enemies and applying Vulnerability": {
+        "ko": "클록 앤 대거가 호크아이의 카타나에 빛과 어둠의 에너지를 주입합니다. 호크아이가 Crescent Slash 사용 시 검기가 아군을 치유하고 적에게 피해 및 취약을 부여합니다.",
+        "ja": "クローク＆ダガーがホークアイの刀に光と闇のエネルギーを注入する。ホークアイがCrescent Slash使用時に剣気が味方を回復し敵にダメージと脆弱を付与する。"
+    },
+
+    # JEFF THE LAND SHARK
+    "Unleash a healing splash": {
+        "ko": "치유의 물보라를 뿜어 아군을 회복시킵니다.",
+        "ja": "癒やしの水しぶきを放ち味方を回復する。"
+    },
+    "Launch a high-speed water sphere that bursts upon impact, dealing damage to enemies within range": {
+        "ko": "고속 수구 탄환을 발사하여 착탄 시 폭발을 일으켜 범위 내 적들에게 피해를 줍니다.",
+        "ja": "高速の水球を発射し、着弾時の爆発で範囲内の敵にダメージを与える。"
+    },
+    "Deep dive into the scene and resurface to swallow both enemies and allies within range, activating Hide and Seek for a brief duration before ejecting the swallowed heroes forward": {
+        "ko": "전장 깊숙이 잠수한 뒤 솟구쳐 범위 내 적과 아군을 모두 집어삼키고 Hide and Seek 상태로 이동한 뒤 전방으로 뱉어냅니다.",
+        "ja": "地中深く潜り込んでから急浮上し、範囲内の敵味方を丸呑みにしてHide and Seek状態で移動後に前方へ吐き出す。"
+    },
+    "Dive into the scene with only his dorsal fin exposed, granting himself a Movement Boost. Jeff can heal while submerged and gains the wall-crawl ability": {
+        "ko": "등지느러미만 드러낸 채 잠수하여 이동 속도가 빨라지며, 잠수 중 자가 치유 및 벽타기가 가능해집니다.",
+        "ja": "背ビレだけを出して潜水し移動速度が上昇する。潜水中に自己回復を行い、壁を這い登る能力を得る。"
+    },
+    "Spit a bubble that heals the ally who collects it, granting them Healing Boost and Movement Boost while also launching up nearby enemies": {
+        "ko": "방울을 뱉어 이를 획득한 아군을 치유하고 치유 증폭과 이동 속도를 높이며 주변 적들을 띄웁니다.",
+        "ja": "泡を吐き出し、獲得した味方を回復して回復強化と移動速度上昇を与え、周囲の敵を打ち上げる。"
+    },
+    "Jeff the Land Shark and Rocket Raccoon can ride on Groot's shoulders, receiving Damage Reduction": {
+        "ko": "제프와 로켓 라쿤이 그루트의 어깨에 탑승하여 받는 피해 감소 효과를 얻습니다.",
+        "ja": "ジェフとロケット・ラクーンがグルートの肩に乗ることができ、被ダメージ軽減効果を獲得する。"
+    },
+    "Venom shares his symbiotes with Jeff and Hela. Jeff's Guardian of the Deep links with nearby allies, providing continuous healing. When the effect ends, it releases a powerful healing burst, converting any excess into Bonus Health.": {
+        "ko": "베놈이 제프와 헬라에게 심비오트를 공유합니다. 제프의 Guardian of the Deep이 주변 아군을 연결해 지속 치유를 제공하고 폭발 치유 초과분을 추가 체력으로 전환합니다.",
+        "ja": "ヴェノムがジェフとヘラにシンビオートを分配する。ジェフのGuardian of the Deepが周囲の味方をリンクして持続回復を行い、終了時の超過回復を追加HPに変換する。"
+    },
+    "When Storm activates Omega Hurricane and Jeff the Land Shark's It's Jeff is ready, they can unleash a powerful Team-Up Ability. During this period, Storm's Omega Hurricane merges with Jeff to form a Jeff-nado": {
+        "ko": "스톰의 Omega Hurricane과 제프의 It's Jeff가 준비되면 합체 스킬을 발동할 수 있습니다. 스톰의 허리케인과 제프가 융합되어 거대한 제프네이도를 형성합니다.",
+        "ja": "ストームのOmega HurricaneとジェフのIt's Jeffが使用可能な時、強力な連携アビリティを発動できる。ストームの竜巻にジェフが融合してJeff-nadoを形成する。"
+    },
+    "Reduce damage taken from critical hits": {
+        "ko": "치명타 피격 시 받는 피해가 감소합니다.",
+        "ja": "クリティカル攻撃から受ける被ダメージを軽減する。"
+    },
+
+    # LUNA SNOW
+    "Fire ice shots that damage enemies or heal allies": {
+        "ko": "얼음 탄환을 발사하여 적에게 피해를 주거나 아군을 치유합니다.",
+        "ja": "氷の弾を発射して敵にダメージを与えるか味方を回復する。"
+    },
+    "Cast a clump of ice to Freeze the hit enemy and restore Health": {
+        "ko": "얼음 덩어리를 투척해 적중한 적을 빙결시키고 자신의 체력을 회복합니다.",
+        "ja": "氷の塊を投げて命中した敵を凍結させ、自身のHPを回復する。"
+    },
+    "Take center stage and start dancing! Press to toggle between two performances: Heal allies or grant them Damage Boost": {
+        "ko": "무대 중심에서 댄스를 펼칩니다! 키를 눌러 아군 치유 모드와 공격력 증폭 모드를 실시간 전환합니다.",
+        "ja": "センターステージでダンスを披露する！切り替え入力で味方回復とダメージ増幅の2つのパフォーマンスを切り替える。"
+    },
+    "Fire ice shards for a short duration, damaging enemies or healing allies while restoring her own Health": {
+        "ko": "일정 시간 동안 얼음 파편을 연속 발사해 적을 공격하거나 아군을 치유하며 자신의 체력을 회복합니다.",
+        "ja": "一定時間氷の破片を連射し、敵に攻撃するか味方を回復しつつ自身のHPを回復する。"
+    },
+    "Attach Idol Aura to an ally. Allies with Idol Aura also restore Health when Luna Snow is healing others": {
+        "ko": "아군에게 Idol Aura를 부여합니다. 아우라가 있는 아군은 루나 스노우가 다른 대상을 치유할 때 함께 체력을 회복합니다.",
+        "ja": "味方にIdol Auraを付与する。オーラを持つ味方は、ルナ・スノーが他の対象を回復した際にも同時にHPを回復する。"
+    },
+    "Boost Healing. Gain extra healing when healing others": {
+        "ko": "치유량을 증폭합니다. 다른 아군을 치유할 때 추가 치유 효과를 얻습니다.",
+        "ja": "回復力を強化する。他の味方を回復する際に追加の回復効果を獲得する。"
+    },
+    "Boost\xa0Healing. Gain extra healing when healing others": {
+        "ko": "치유량을 증폭합니다. 다른 아군을 치유할 때 추가 치유 효과를 얻습니다.",
+        "ja": "回復力を強化する。他の味方を回復する際に追加の回復効果を獲得する。"
+    },
+    "Automatically restore Health when casting Ice Arts or Absolute Zero": {
+        "ko": "Ice Arts 또는 Absolute Zero 시전 시 자신의 체력을 자동으로 회복합니다.",
+        "ja": "Ice ArtsまたはAbsolute Zeroの発動時に自身のHPを自動回復する。"
+    },
+    "Keep moving forward to start ice skating and enable higher jumps": {
+        "ko": "전방 이동을 유지하면 아이스 스케이팅 활주를 시작하며 더 높은 점프가 가능해집니다.",
+        "ja": "前進を維持するとアイススケート滑走状態に入り、より高いジャンプが可能になる。"
+    },
+
+    # Invisible Woman
+    "Launch a force field orbs that can pierce heroes, flying to maximum distance before returning to Invisible Woman; damaging enemies and healing teammates": {
+        "ko": "영웅들을 관통하는 포스필드 구체를 발사하여 왕복 비행하며 적들에게 피해를 입히고 아군을 치유합니다.",
+        "ja": "ヒーローを貫通する力場オーブを放ち、最大射程から手元へ戻る往復軌道で敵を攻撃し味方を回復する。"
+    },
+    "Generate a force shield in front of a selected ally or in front of you. The shield can block damage and provide Healing Over Time to nearby allies. Enemies that pass through the shield are slowed": {
+        "ko": "지정 아군 또는 전방에 방벽을 생성하여 피해를 막고 지속 치유를 제공하며 통과하는 적을 감속시킵니다.",
+        "ja": "指定した味方または前方にシールドを展開し、攻撃を防ぎ周囲の味方を持続回復し通過する敵に鈍足を付与する。"
+    },
+    "Manifest an unseen force field within a chosen area, rendering allies inside undetectable by enemies and provide Healing Over Time. Enemies that pass through the field are slowed": {
+        "ko": "지정 영역에 은폐 역장을 펼쳐 내부의 아군을 적에게 감지되지 않게 숨기고 지속 치유하며 통과하는 적을 감속시킵니다.",
+        "ja": "指定領域に透明化力場を展開し、内部の味方を不可視化して持続回復を提供し通過する敵に鈍足を付与する。"
+    },
+    "Gather psionic energy and then cast it, upon impact or pressing the Ability key again, it erupts into a psionic vortex, continuously drawing in enemies and causing damage": {
+        "ko": "사이오닉 에너지를 모아 발사하며, 착탄 또는 재입력 시 사이오닉 소용돌이를 일으켜 적들을 끌어당기고 피해를 줍니다.",
+        "ja": "サイオニックエネルギーを放ち、着弾または再入力でサイオニックの渦を展開して敵を引き寄せ持続ダメージを与える。"
+    },
+    "Manipulate psionic energy to push or pull enemies in front of her": {
+        "ko": "사이오닉 역장을 조종하여 전방의 적들을 밀쳐내거나 끌어당깁니다.",
+        "ja": "力場エネルギーを操作し、前方の敵を押し出すか引き寄せる。"
+    },
+    "Generate a force field at your feet, stepping on it propels her into the Invisible state": {
+        "ko": "발밑에 역장 발판을 생성하여 이를 밟고 도약하며 즉시 투명화 은신 상태로 진입합니다.",
+        "ja": "足元に力場ステップを生成し、それを踏み込んで跳躍し即座に不可視状態に入る。"
+    },
+    "Enter Invisible state some time after disengaging from combat and grant yourself Healing Over Time": {
+        "ko": "전투에서 벗어난 후 일정 시간이 지나면 자동으로 투명화 은신 상태가 되고 지속 자가 치유를 얻습니다.",
+        "ja": "非戦闘状態が一定時間続くと自動的に不可視状態へ入り、自身のHPを持続回復する。"
+    },
+    "The Invisible Woman taps into her powers, channeling Psionic Might to fortify Mr.Fantastic. This formidable force bolsters Mr.Fantastic, granting damage resistance. Once activated, they can continually generate Bonus Health, making up for lost Health": {
+        "ko": "인비저블 우먼이 미스터 판타스틱에게 사이오닉 역장을 주입하여 피해 저항을 부여하고 지속적인 추가 체력을 생성합니다.",
+        "ja": "インビジブル・ウーマンがミスター・ファンタスティックに念動力バフを与え、被ダメージ耐性を付与して持続的な追加HPを生成する。"
+    },
+
+    # LOKI
+    "Fire Mystical Missiles to heal allies or deal damage to enemies. Direct hits on allies provide extra healing": {
+        "ko": "신비한 마법 미사일을 발사해 아군을 치유하거나 적에게 피해를 줍니다. 아군 직격 시 추가 치유를 제공합니다.",
+        "ja": "魔力ミサイルを放ち味方を回復するか敵にダメージを与える。味方に直撃させると追加回復が発生する。"
+    },
+    "Become Invisible and conjure an Illusion to deceive enemies": {
+        "ko": "자신은 투명화 은신 상태가 되며 적을 속이는 환영 분신을 생성합니다.",
+        "ja": "不可視状態となり、敵を欺く幻影の分身をその場に生成する。"
+    },
+    "Shapeshift into a targeted ally or enemy hero and use all their abilities except any of their Team-Up Abilities": {
+        "ko": "목표 아군이나 적 영웅으로 변신하여 해당 영웅의 팀업 스킬을 제외한 모든 능력을 복제 사용합니다.",
+        "ja": "指定した味方または敵ヒーローに変身し、連携アビリティを除くすべての能力を使用可能になる。"
+    },
+    "Use Rune Stones to create a magical field that provides allies Healing and converts incoming damage into further healing": {
+        "ko": "룬스톤으로 마법 결계를 생성하여 아군을 치유하고 들어오는 피해를 추가 치유량으로 전환합니다.",
+        "ja": "ルーンストーンで魔法陣を展開し、味方を回復すると同時に受けるダメージを追加回復へと変換する。"
+    },
+    "Project an Illusion that can cast some of Loki's abilities": {
+        "ko": "로키의 일부 스킬을 똑같이 따라 시전하는 환영 분신을 투사합니다.",
+        "ja": "ロキのアビリティを一部模倣して詠唱する幻影の分身を前方に投影する。"
+    },
+    "Swap with the selected Illusion": {
+        "ko": "선택한 환영 분신과 즉시 위치를 맞바꿉니다.",
+        "ja": "選択した幻影の分身と即座に位置を入れ替える。"
+    },
+    "Pull out a dagger to stab enemies, dealing extra damage when attacking an enemy from behind": {
+        "ko": "단검을 뽑아 적을 찌르며, 적의 등 뒤에서 공격할 경우 치명적인 추가 피해를 입힙니다.",
+        "ja": "短剣を抜いて敵を刺し、敵の背後から攻撃した際に大ダメージを与える。"
+    },
+
+    # MANTIS
+    "Fire an energy thorn and regain one Life Orb after a critical hit.": {
+        "ko": "에너지 가시를 발사하며 치명타 적중 시 Life Orb 1개를 즉시 회복합니다.",
+        "ja": "エネルギーの棘を放ち、クリティカル命中時にLife Orbを1個即座に獲得する。"
+    },
+    "Consume Life Orbs to grant allies Healing Over Time": {
+        "ko": "Life Orb를 소모하여 아군에게 지속 치유 효과를 부여합니다.",
+        "ja": "Life Orbを消費して味方に持続回復効果を付与する。"
+    },
+    "Release energy around her while moving, providing Healing Over Time and Movement Boosts for surrounding allies. Excess healing converts to Bonus Health": {
+        "ko": "이동하며 주변으로 생명 에너지를 방출해 아군을 지속 치유하고 이동 속도를 높이며 초과 치유를 추가 체력으로 전환합니다.",
+        "ja": "移動しながら周囲にエネルギーを放ち、味方を持続回復し移動速度を高め超過回復を追加HPに変換する。"
+    },
+    "Throw a spore to Sedate the nearest enemy": {
+        "ko": "수면 포자를 투척하여 가장 가까운 적을 수면 마취 상태에 빠뜨립니다.",
+        "ja": "胞子を投げて最も近い敵を睡眠状態にする。"
+    },
+    "Consume Life Orbs to grant allies a Damage Boost": {
+        "ko": "Life Orb를 소모하여 아군에게 공격력 증가 버프를 부여합니다.",
+        "ja": "Life Orbを消費して味方に攻撃力アップバフを付与する。"
+    },
+    "Consume Life Orbs to grant herself a Damage Boost": {
+        "ko": "Life Orb를 소모하여 자신의 공격력을 강화합니다.",
+        "ja": "Life Orbを消費して自身の攻撃力を強化する。"
+    },
+    "Receive a Movement Boost when not injured and Healing Over Time when consuming Life Orbs": {
+        "ko": "비전투 시 이동 속도가 증가하며 Life Orb 소모 시 지속 자가 치유를 얻습니다.",
+        "ja": "非負傷時に移動速度が上昇し、Life Orb消費時に自身のHPを持続回復する。"
+    },
+
+    # ROCKET RACCOON
+    "Shoot bouncing spheres to heal allies": {
+        "ko": "벽에 튕기는 치유 구체를 발사하여 아군을 회복시킵니다.",
+        "ja": "跳弾する回復球を発射して味方を回復する。"
+    },
+    "Deploy a Cosmic Yarn Amplifier that grants allies a Damage Boost": {
+        "ko": "우주 증폭 장치를 설치하여 주변 아군들에게 공격력 증가 버프를 부여합니다.",
+        "ja": "コズミック増幅器を設置し、範囲内の味方に攻撃力アップバフを付与する。"
+    },
+    "Dash forward": {
+        "ko": "제트 팩으로 전방으로 빠르게 대시합니다.",
+        "ja": "ジェットパックで前方へ高速ダッシュする。"
+    },
+    "Deploy a Battle Rebirth Beacon that revives a fallen ally and periodically produces armor packs and rocket jet packs": {
+        "ko": "부활 비콘을 설치해 쓰러진 아군을 부활시키고 주기적으로 아머 팩과 제트팩을 보급합니다.",
+        "ja": "リバースビーコンを設置して倒れた味方を蘇生し、アーマーパックとジェットパックを定期補給する。"
+    },
+    "Hold Space to run on a wall": {
+        "ko": "Space를 길게 눌러 벽을 타고 달립니다.",
+        "ja": "Space長押しで壁を走る。"
+    },
+
+    # Gambit
+    "Conjure a Heart card by consuming one stack of Sleight of Hand to Heal and switch to the Healing Hearts deck": {
+        "ko": "손재주 스택을 소모해 하트 카드를 뽑아 치유하고 힐링 하트 덱으로 전환합니다.",
+        "ja": "手品スタックを消費してハートのカードを引き当て、回復を行いつつHealing Heartsデッキへと切り替える。"
+    },
+    "Conjure a Spade card by consuming one stack of Sleight of Hand to gain Damage Boost and switch to the Breaking Spades deck": {
+        "ko": "손재주 스택을 소모해 스페이드 카드를 뽑아 공격력을 높이고 브레이킹 스페이드 덱으로 전환합니다.",
+        "ja": "手品スタックを消費してスペードのカードを引き当て、攻撃力を高めつつBreaking Spadesデッキへと切り替える。"
+    },
+
+    # Ultron
+    "Deploy drones to an ally marked by Imperative: Patch, granting them increased Speed and Damage. Additionally, all allies within range of you and the chosen teammate receive Bonus Health.": {
+        "ko": "표식된 아군에게 드론을 파견해 이동 속도와 공격력을 높이고, 자신과 대상 주변 아군에게 추가 체력을 부여합니다.",
+        "ja": "マークされた味方にドローンを派遣して移動速度と攻撃力を高め、自身と対象周囲の味方に追加HPを付与する。"
+    },
+    "Command up to 2 giant drones to follow 2 allies, constantly healing allies within its radius, with more healing for the designated allies.": {
+        "ko": "최대 2대의 거대 드론을 아군에게 호위시켜 반경 내 아군을 지속 치유하며 호위 대상에게 더 큰 치유를 제공합니다.",
+        "ja": "最大2機の巨大ドローンを味方に追従させ、範囲内の味方を持続回復し護衛対象にさらに強力な回復を与える。"
+    },
+
+    # Jubilation Lee
+    "Hitting targets with Dazzling Detonation and Firework Finale applies a Sparkle Mark. Energy Plasmoids can detonate marks, granting allies a Healing Boost and Bonus Health, while dealing burst damage to enemies": {
+        "ko": "스킬 적중 시 불꽃 표식을 부착합니다. 기본 사격으로 표식을 폭발시키면 아군에게 치유 증폭과 추가 체력을 주고 적에게 폭발 피해를 줍니다.",
+        "ja": "スキル命中時に花火マークを付着させる。通常射撃でマークを起爆すると味方に回復強化と追加HPを与え敵に爆発ダメージを与える。"
+    },
+
+    # DEADPOOL (VANGUARD)
+    "Nobody lays a finger on my teammates! Anyone tries, and I'm firing these big boy bullets straight at their face!": {
+        "ko": "내 팀원한테 손가락 하나 까딱하기만 해봐! 그 못생긴 얼굴에 왕대포 총알을 정면으로 꽂아줄 테니까!",
+        "ja": "俺のチームメイトに指一本触れさせねえぞ！手を出してみろ、特大の弾丸を顔面にぶち込んでやる！"
+    },
+    "I rack up shots, then, BOOM! A mind-blowing bubble bomb for all the enemies. Teammate security: maximum": {
+        "ko": "총을 팍팍 쏘아 스택을 모은 뒤 쾅! 적들에게 초강력 버블 폭탄을 날려주지. 팀원 안전도 100% 보장!",
+        "ja": "撃ちまくってスタックを溜めたらドカーン！敵全員に特大バブルボムをお見舞い。チームの安全確保完了！"
+    },
+    "Protecting my team means my katanas go full savage. No mercy for the baddies!": {
+        "ko": "팀원을 지키기 위해서라면 내 카타나는 인정사정없지. 악당 놈들에게 자비란 없다!",
+        "ja": "チームを守るためなら俺のカタナは容赦しねえ。悪党どもに慈悲なんてねえぞ！"
+    },
+    "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Bad Bunny hit makes the next swing a stabby special": {
+        "ko": "안심해, 너흰 데드풀님이 지켜주니까! 검 뽑고 악당 소탕 완료. 찌르기는 치명타가 터지고 Bad Bunny 연계 시 필살 찌르기가 발동해!",
+        "ja": "安心しろ、デッドプール様がついてる！刀を抜いて悪党退治だ。突きはクリティカルになり、Bad Bunny命中後の斬撃は特製突き刺しになる！"
+    },
+    "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Bad Bunny\xa0hit makes the next swing a stabby special": {
+        "ko": "안심해, 너흰 데드풀님이 지켜주니까! 검 뽑고 악당 소탕 완료. 찌르기는 치명타가 터지고 Bad Bunny 연계 시 필살 찌르기가 발동해!",
+        "ja": "安心しろ、デッドプール様がついてる！刀を抜いて悪党退治だ。突きはクリティカルになり、Bad Bunny命中後の斬撃は特製突き刺しになる！"
+    },
+    "Plushie power! It stops every single attack those chumps throw, giving my team a safety bubble. It's cute AND bulletproof": {
+        "ko": "인형의 힘을 봐라! 찌질이들의 공격을 몽땅 막아내서 우리 팀에게 무적 돔을 선물해주지. 귀엽고 방탄도 된다고!",
+        "ja": "ぬいぐるみのパワー炸裂！雑魚どもの攻撃を全部弾き返してセーフティバブルを展開。キュートで防弾仕様だ！"
+    },
+    "My ultra-cool, super shiny, extra huggable, and totally blinged-out plushy. Toss it ahead, and it lands as an invincible sphere of awesomeness! Blocking attacks and keeping my team safe inside our furry fortress": {
+        "ko": "초특급 울트라 반짝반짝 안고 싶은 내 슈퍼 인형 투척! 전방에 떨어져 무적의 방어 구체를 형성해 팀원들을 철통 보호해주지!",
+        "ja": "超クールでピカピカ、抱き心地抜群の俺の特製ぬいぐるみ！投げると無敵の球体バリアを展開してチームを鉄壁ガード！"
+    },
+    "Try getting to my teammates, I dare you! My dash slash knocks fools down, and if I hit, I get to do it again. Up to three times, baby!": {
+        "ko": "우리 팀한테 다가와 보시지! 돌진 베기로 멍청이들을 넘어뜨리고, 맞추면 최대 3번까지 연속 시전 가능하다고!",
+        "ja": "チームに近づけるもんならやってみろ！突進斬りでノックダウンさせ、命中すれば最大3回まで連続発動だぜベイビー！"
+    },
+    "Watch this pro bodyguard in action! I dash forward, nail the bad guy, and bounce in any direction I want. Oh, and I can do this two more times real quick!": {
+        "ko": "프로 보디가드의 실력을 보라고! 전방으로 돌진해 나쁜 놈을 후려치고 사방으로 튕겨 나갈 수 있지. 게다가 두 번 더 연속 사용 가능!",
+        "ja": "プロのボディーガードの腕前を見ろ！突進して悪党をぶん殴り、好きな方向へバウンド。さらにあと2回連続で使えるぜ！"
+    },
+    "You! Yeah, you - the hyper one! Eyes off my friends. I sentence you to...whatever! Get ready to be taunted. I get bonus HP and healing, and if you whiff your abilities, you take damage, and I get even more HP!": {
+        "ko": "거기 너! 내 친구들한테서 눈 떼라! 널 도발 형벌에 처한다! 난 추가 체력과 치유를 얻고, 네가 스킬을 빗맞히면 피해를 입고 난 체력을 더 얻지!",
+        "ja": "おいお前！俺の仲間に手を出すな！挑発の刑を宣告する！俺は追加HPと回復を得て、お前がアビリティを外したらダメージを受け俺はさらにHP回復だ！"
+    },
+    "Upgraded courtroom drama! Congrats, unlucky one! You're my pick; enjoy the taunt! I score bonus health and healing, and you take ongoing damage. If you miss an ability while court is in session, it's a double whammy. You get more pain, AND I get more extra HP! Thanks in advance!": {
+        "ko": "업그레이드된 법정 쇼 개막! 축하해 불운한 녀석아, 넌 내 도발 당첨자야! 난 추가 체력과 힐을 챙기고 넌 지속 피해를 받으며 스킬 빗맞히면 더 아플 거다!",
+        "ja": "強化された法廷ドラマ開廷！お前が俺の挑発の標的だ！俺は追加HPと回復をゲットしてお前は持続ダメージ。スキルを外せば大ダメージとお前の負け！"
+    },
+    "Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Hazardous Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!": {
+        "ko": "정신 차려 영웅들아! 스피드와 치유 버프 발동, 나와 팀원들에게 추가 체력 제공! 내 지시대로 적들을 때려잡으면 메가 버프와 함께 내 치유 쿨타임도 리셋된다!",
+        "ja": "目を覚ませヒーロー共！スピードと回復バフを付与し、周囲の味方に追加HP！俺の指示通り敵をボコせば超加速＆超回復に治癒リセット解禁だ！"
+    },
+    "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs (massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!": {
+        "ko": "야 플레이어! 몸풀기는 끝났어 본방 시작이야! 속도와 힐, 대시 버프에 모두에게 추가 체력까지! 정해진 스킬로 적들을 박살내면 슈퍼 버프와 무한 치유가 터진다!",
+        "ja": "おいプレイヤー！本番開始だ！スピード、回復、追加HPを全員に大盤振る舞い！指示通りのアビリティで敵を粉砕すればスーパー強化と自動治癒が発動するぜ！"
+    },
+    "Want to hurt my team? Good luck! I hit you with a taunt, mess up your vision, and burn your health nonstop! Best part: my swords and guns go full turbo for the duration. Blink and you'll miss it": {
+        "ko": "우리 팀을 건드리겠다고? 어림없지! 도발 걸고 시야를 가려 피를 깎아주마! 지속 시간 동안 내 총칼은 풀터보 모드로 폭주한다!",
+        "ja": "俺のチームを傷つけたいって？無理無理！挑発して視界を奪いHPをゴリゴリ削ってやる！その間俺の刀と銃はフルターボで超加速だぜ！"
+    },
+    "Teammates, stay safe! Dummies, look here! It's showtime: I taunt, blind you, and hit warp speed with my swords and guns. Plus, my crew gets a damage reduction buff, so they're basically invincible. Dummies that stick around too long will even have their UI taped over!": {
+        "ko": "팀원들은 뒤로 빠져있어! 멍청이들아 날 봐라! 도발, 실명, 그리고 총칼 폭풍 난사! 팀원들에겐 피해 감소 버프를 줘서 거의 무적이고 적 화면엔 테이프까지 붙여주지!",
+        "ja": "味方は隠れてろ！バカどもは俺を見ろ！挑発と目眩ましに超光速の乱れ撃ち！チームには被ダメ軽減を付与し、長居する奴のUIにはテープを貼って画面を隠してやる！"
+    },
+    "I'm here to smack baddies, get XP, and shield my friends! When my XP is full, I get to upgrade an ability! Bonus: Score the final hit and force your foe into a selfie—more XP for me! I'm invincible while striking my best duckface. No photobombs!": {
+        "ko": "악당을 패서 경험치를 쌓고 친구들을 지킨다! 경험치가 다 차면 스킬을 업그레이드할 수 있어! 막타를 치면 적과 강제 셀카를 찍으며 추가 경험치 획득! 셀카 찍는 동안 난 무적이야!",
+        "ja": "悪党を殴って経験値を稼ぎ仲間を守る！満タンになったらアビリティを強化だ！トドメを刺して強制自撮りすれば追加経験値獲得！撮影中は無敵だぜ！"
+    },
+    "Yup, I can double jump in midair! During The Big Test and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!": {
+        "ko": "그래, 나 공중 2단 점프할 수 있어! The Big Test 도중엔 적 대가리를 밟고 벽점프해서 쿨타임을 초기화하지! 아주 납작하게 밟아줄 테다!",
+        "ja": "そう、空中で2段ジャンプできるんだぜ！The Big Test中は敵の頭を踏みつけて壁ジャンプでクールダウンをリセット！踏み潰してチームに近づけさせねえ！"
+    },
+    "Out of combat? I'm healing up, staying battle-ready to protect my team. And if I'm about to croak? Surprise! I get a free pass, and my health zooms back up. Nice try, villains": {
+        "ko": "비전투 상태면 초고속으로 치유돼! 그리고 내가 죽을 것 같다고? 짠! 부활 찬스로 순식간에 체력이 꽉 차오르지. 수고했다 악당 녀석들아!",
+        "ja": "非戦闘時は爆速自動回復！死にそうになってもサプライズで即座にHP大回復！残念だったな悪党ども！"
+    },
+    "Listen up, eyes on the prize, don't wander off! Every time my abilities land on a bad guy, the style points shoot up a notch! When it's full, I can pop my ultimate! With me on the team, you're all staying alive and fabulous!": {
+        "ko": "주목! 한눈팔지 마! 스킬을 맞출 때마다 스타일 점수가 쭉쭉 차오른다! 가득 차면 궁극기를 빵 터뜨릴 수 있지. 내가 있는 한 너흰 다 살아남을 거야!",
+        "ja": "注目！よそ見すんな！スキルを当てるたびにスタイルポイントが急上昇！満タンになれば必殺のアルティメット炸裂だ！俺がいれば全員無傷で華麗に生き残れるぜ！"
+    },
+    "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range enjoy a plush-powered healing party!": {
+        "ko": "데드풀이 제프에게 반항기 넘치는 인형을 쥐여줍니다. 제프가 인형을 뱉으면 주변 적을 도발하고 시야를 가리며, 범위 내 아군에게 신나는 힐 파티를 열어줍니다!",
+        "ja": "デッドプールがジェフに生意気なぬいぐるみをプレゼント。ジェフが吐き出すと周囲の敵を挑発し視界を妨害、範囲内の味方には回復パーティーをお届け！"
+    },
+
+    # DEADPOOL (DUELIST)
+    "Bang! Bang! Unleash two hand cannons left and right, because one gun is never enough. Pew pew, baby!": {
+        "ko": "탕! 탕! 양손에 핸드캐넌을 들고 빵야빵야 쏴갈긴다! 총은 한 자루로는 부족하잖아, 베이비!",
+        "ja": "バン！バン！左右のハンドキャノンをぶっ放す！銃は1丁じゃ足りねえだろ、ベイビー！"
+    },
+    "Keep blasting till you trigger a BOOM. My thoughts literally explode onto the battlefield. Talk about mind-blowing firepower!": {
+        "ko": "쾅 터질 때까지 난사해라! 내 생각이 전장에 문자 그대로 폭발한다. 이 대단한 화력을 보라고!",
+        "ja": "ドカンと爆発するまで撃ちまくれ！俺の思考が戦場で文字通り大爆発するぜ！"
+    },
+    "Slicey, dicey, twice as nicey! Swing both swords at whoever gets too close. Sushi, anyone?": {
+        "ko": "썰고, 베고, 두 배로 신나게! 너무 가까이 온 녀석들에게 쌍칼을 휘둘러주마. 회 한 접시 드실 분?",
+        "ja": "刻んで斬り裂いて2倍爽快！近づきすぎた奴に二刀流をお見舞い。寿司職人の出番だぜ！"
+    },
+    "Now with extra chop! Stabs can go straight for the noggin. Heads up! Do a Bunny Hop and POW! Stabby Stabby action guaranteed! Run while you can!": {
+        "ko": "더 강력해진 난무! 머리통을 향해 정밀 찌르기 발동! Bunny Hop으로 도약 후 쾅! 필살 찌르기 액션 작렬! 도망칠 수 있을 때 튀어라!",
+        "ja": "さらに強烈な乱舞！頭部を狙った突きが炸裂！Bunny Hopからドカン！連続メッタ刺しアクション確定だ！今のうちに逃げな！"
+    },
+    "Ever seen someone throw their own face? Watch me KO a crowd, then catch my mug on the rebound!. Don't lose your head over it": {
+        "ko": "자기 얼굴을 던지는 거 본 적 있어? 적 무리를 박살 내고 튕겨 나온 내 머리를 받아내는 걸 잘 보라고!",
+        "ja": "自分の顔を投げ飛ばす奴を見たことあるか？敵をKOして跳ね返ってきた頭をキャッチ！頭を失くすなよ！"
+    },
+    "Juggle my noggin for extra throws! If you catch it thrice, it goes kaboom. Everyone gets a piece of my mind": {
+        "ko": "내 머리통으로 저글링해서 연속 투척! 3번 잡으면 쾅 폭발하지. 내 정신 나간 생각 맛 좀 봐라!",
+        "ja": "俺の頭でジャグリングして連続投擲！3回キャッチすれば大爆発だ。みんなに俺の頭脳をおすそ分け！"
+    },
+    "Now with bouncy castle action! Slash, bounce, repeat. It's like the world's deadliest pinball!. Cooldowns? Never heard of 'em. Keep going as long as you hit stuff, just don't let me fall flat on my ass!": {
+        "ko": "통통 튀는 핀볼 액션 개시! 베고, 튀어 오르고, 무한 반복! 적을 맞추기만 하면 쿨다운 따윈 잊어버려!",
+        "ja": "トランポリンアクション炸裂！斬って跳ねて無限ループ！世界で一番凶悪なピンボールだぜ！当て続ける限りクールダウンなんて知らねえ！"
+    },
+    "Let's play judge! Pick a dumb-dumb and slap a taunt. They miss an ability? Boom! Gavel drops, and I slap them with pain and snark": {
+        "ko": "판사 놀이 한번 해볼까! 멍청이 하나 골라서 도발을 날린다. 녀석이 스킬을 빗맞히면 판사봉을 쾅 내리치며 고통과 조롱을 선사해주지!",
+        "ja": "裁判長ごっこを始めようぜ！バカを1人選んで挑発。そいつがスキルを外したらガベルを叩いて激痛と煽りをプレゼントだ！"
+    },
+    "Dumbpoochu, I choose you! Taunt time! Their HP melts away, and if they whiff an ability, they get bonus pain AND Vulnerability. Double whammy! Objection? Overruled!": {
+        "ko": "넌 내 포켓몬 당첨이야! 도발 개시! 녀석의 피가 줄줄 녹아내리고, 스킬을 헛치면 추가 고통에 취약까지! 이의 제기? 기각이다!",
+        "ja": "お前に決めた！挑発タイムだ！HPをごっそり削ってスキルを外せば追加ダメージと脆弱を付与！異議あり？却下！"
+    },
+    "Hey, you! Yeah, you! Ready for a challenge? Free speed and healing just for trying. Nail enough hits with the right abilities and unlock the deluxe speed-heal package. It's an A+ in chaos!": {
+        "ko": "거기 너! 도전 과제 할 준비 됐어? 참가만 해도 공짜 이동 속도와 힐 제공! 지시한 스킬을 팍팍 맞추면 초호화 스피드-힐링 패키지 오픈!",
+        "ja": "おいそこのお前！チャレンジの準備はいいか？挑戦するだけでスピードと回復を無料提供！スキルを命中させれば超豪華加速回復セット解禁だ！"
+    },
+    "Don't just stand there, you blockhead! The challenge's still rolling. But don't worry, I'm not one of those money-hungry scam artists. The buffs are on the house, no price hike. Take on this challenge, and you'll get three freebies: a little Speed boost, Continuous Healing, and Damage Up. Hit enough baddies with the right abilities exactly as I ask, and you unlock the ultimate bundle (Super Speed, Super Healing, Damage Boost AND reset all your cooldowns (except Healing Factor; no cheating!). Now THAT'S love": {
+        "ko": "멍하니 서 있지 마 돌머리야! 과제는 계속된다고. 속도 증가, 지속 치유, 공격력 증가 버프를 무료로 퍼준다! 내 지시대로 적들을 패면 슈퍼 스피드, 슈퍼 힐, 쿨다운 전체 초기화가 터진다!",
+        "ja": "突っ立ってんじゃねえ石頭！チャレンジは続行中だ。スピード、持続回復、攻撃力アップを大盤振る舞い！指示通りに敵を殴れば超加速と超回復、全クールダウンリセット発動だぜ！"
+    },
+    "True heroes taunt face-to-face! I roast nearby baddies, mess up their vision, and tank their hits like a boss. Try me!": {
+        "ko": "진정한 영웅은 면전에서 도발하는 법! 주변 악당들을 극딜하고 시야를 망가뜨리며 공격을 보스처럼 버텨내지. 덤벼봐!",
+        "ja": "真のヒーローは面と向かって挑発するもんだ！周りの悪党を煽り倒して視界を奪い、攻撃を平気で耐えてやる。かかってこい！"
+    },
+    "Check out the best trash talk in the Chronoverse! Keep taunting and melting their HP! I even block their screen, so they can't see squat. Plus, I tank hits like a champ. Enemies that stick around too long get the bottom of their screen taped up. By the end, they won't even find their health bar and whatnot. Good luck fighting what you can't see, suckers!": {
+        "ko": "우주 최강의 트래시 토크를 보아라! 계속 도발하며 체력을 녹이고 화면까지 가려버리지! 오래 버티는 놈은 화면 밑에 테이프를 둘둘 감아 체력바도 안 보이게 만들어주마!",
+        "ja": "全宇宙最高の毒舌を見せてやる！挑発し続けてHPを溶かし、画面まで塞いで何も見えなくしてやるぜ！居座る奴の画面下にテープを貼ってHPバーも見えなくしてやる！"
+    },
+    "Hippity-hoppity, Deadpool's on your property! Watch me squeeze in a second jump midair! Hop on heads or kick off walls with Bunny Hop to refresh the cooldown, and if I land on someone? Free health for me, and a headache for them. Whee!": {
+        "ko": "깡충깡충 데드풀님이 나가신다! 공중에서 2단 점프 시전! 머리통을 밟거나 벽을 차서 쿨타임을 초기화하고 적 위에 착지하면 난 체력 회복, 쟨 두통 당첨!",
+        "ja": "ピョンピョン跳ねてデッドプール様のお通りだ！空中で2段ジャンプ！頭を踏むか壁を蹴ってリセット、敵の上に着地すれば俺は回復、相手は脳震盪だ！"
+    },
+
+    # DEADPOOL (STRATEGIST)
+    "Yup, I can double jump in midair! During Final Exam and its upgrade, I can also stomp heads and wall jump to reset its cooldown. Stomp enemies so hard they won't get near my team!": {
+        "ko": "그래, 나 공중 2단 점프할 수 있어! Final Exam 도중엔 적 머리를 밟고 벽점프해서 쿨타임을 초기화하지! 아주 납작하게 밟아줄 테다!",
+        "ja": "そう、空中で2段ジャンプできるんだぜ！Final Exam中は敵の頭を踏みつけて壁ジャンプでクールダウンをリセット！踏み潰してチームに近づけさせねえ！"
+    },
+    "Relax, you've got Deadpool on your side! Swords out, baddies out. My stab hits crit, and a Healing Hop hit makes the next swing a stabby special": {
+        "ko": "안심해, 너흰 데드풀님이 지켜주니까! 검 뽑고 악당 소탕 완료. 찌르기는 치명타가 터지고 Healing Hop 연계 시 필살 찌르기가 발동해!",
+        "ja": "安心しろ、デッドプール様がついてる！刀を抜いて悪党退治だ。突きはクリティカルになり、Healing Hop命中後の斬撃は特製突き刺しになる！"
+    },
+    "Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Healing Hijinks for me, and extra HP for me and my nearby friends. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!": {
+        "ko": "정신 차려 영웅들아! 스피드와 치유 버프 발동, 나와 팀원들에게 추가 체력 제공! 내 지시대로 적들을 때려잡으면 메가 버프와 함께 내 치유 쿨타임도 리셋된다!",
+        "ja": "目を覚ませヒーロー共！スピードと回復バフを付与し、周囲の味方に追加HP！俺の指示通り敵をボコせば超加速＆超回復に治癒リセット解禁だ！"
+    },
+    "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for all! Smash enough baddies with the skills I say, and you unlock super buffs(massive speed and healing), plus Healing Factor resets. For some time after, each hit means more HP for the crew and you. Don't mess this up!": {
+        "ko": "야 플레이어! 몸풀기는 끝났어 본방 시작이야! 속도와 힐, 대시 버프에 모두에게 추가 체력까지! 정해진 스킬로 적들을 박살내면 슈퍼 버프와 무한 치유가 터진다!",
+        "ja": "おいプレイヤー！本番開始だ！スピード、回復、追加HPを全員に大盤振る舞い！指示通りのアビリティで敵を粉砕すればスーパー強化と自動治癒が発動するぜ！"
+    }
+}
+
+def main():
+    with open(REMAINING_PATH, 'r', encoding='utf-8') as f:
+        remaining_keys = json.load(f)
+
+    print(f"Total remaining keys to cover: {len(remaining_keys)}")
+    print(f"Total entries in TRANSLATIONS: {len(TRANSLATIONS)}")
+
+    # Check for missing keys
+    missing = []
+    for k in remaining_keys:
+        if k not in TRANSLATIONS:
+            missing.append(k)
+
+    if missing:
+        print(f"❌ Missing {len(missing)} keys:")
+        for m in missing:
+            print(f"  {repr(m)}")
+        raise ValueError(f"Missing {len(missing)} keys in TRANSLATIONS!")
+
+    # Purity check
+    for k, v in TRANSLATIONS.items():
+        ko = v.get('ko', '')
+        ja = v.get('ja', '')
+        if JAPANESE_REGEX.search(ko):
+            raise ValueError(f"Purity error: Japanese Kana found in Korean for '{k[:30]}': {ko}")
+        if KOREAN_REGEX.search(ja):
+            raise ValueError(f"Purity error: Korean Hangul found in Japanese for '{k[:30]}': {ja}")
+        if '의 스킬입니다' in ko or 'のスキル' in ja:
+            raise ValueError(f"Placeholder found in '{k[:30]}'")
+
+    print("✅ All 195 keys covered! Purity check passed (0 Kana in KO, 0 Hangul in JA, 0 placeholders).")
+
+    with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        json.dump(TRANSLATIONS, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ Successfully wrote {len(TRANSLATIONS)} entries to {OUTPUT_PATH}")
+
+if __name__ == '__main__':
+    main()

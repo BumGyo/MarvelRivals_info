@@ -436,15 +436,65 @@ if (fs.existsSync(translationsPath)) {
     return t ? t.replace(/\s+/g, ' ').trim() : '';
   }
 
+  // Pre-index normalized numeric patterns for balance patch resilience
+  const numericSkillTemplates = [];
+  for (const [key, val] of Object.entries(skillsMap)) {
+    const nums = key.match(/\d+(?:\.\d+)?/g);
+    if (nums && nums.length > 0 && val && val.ko && val.ja) {
+      const templateKey = key.replace(/\d+(?:\.\d+)?/g, '<NUM>').replace(/\s+/g, ' ').trim();
+      numericSkillTemplates.push({
+        origKey: key,
+        templateKey: templateKey,
+        nums: nums,
+        trans: val
+      });
+    }
+  }
+
+  function substituteNumbers(str, oldNums, newNums) {
+    if (!str || !oldNums || !newNums || oldNums.length !== newNums.length) return str;
+    let res = str;
+    for (let i = 0; i < oldNums.length; i++) {
+      const oldN = oldNums[i];
+      const newN = newNums[i];
+      if (oldN !== newN) {
+        const regex = new RegExp('(?<!\\d)' + oldN.replace('.', '\\.') + '(?!\\d)', 'g');
+        res = res.replace(regex, newN);
+      }
+    }
+    return res;
+  }
+
+  function resolveSkillTranslation(desc) {
+    if (!desc) return null;
+    const sDesc = norm(desc);
+    // 1. Exact match
+    if (skillsMap[sDesc]) return skillsMap[sDesc];
+    if (skillsMap[desc]) return skillsMap[desc];
+
+    // 2. Dynamic Numerical Pattern Resilience (Balance Patch Auto-Sync)
+    const targetNums = sDesc.match(/\d+(?:\.\d+)?/g);
+    if (targetNums && targetNums.length > 0) {
+      const targetTemplate = sDesc.replace(/\d+(?:\.\d+)?/g, '<NUM>').replace(/\s+/g, ' ').trim();
+      for (const item of numericSkillTemplates) {
+        if (item.templateKey === targetTemplate && item.nums.length === targetNums.length) {
+          return {
+            ko: substituteNumbers(item.trans.ko, item.nums, targetNums),
+            ja: substituteNumbers(item.trans.ja, item.nums, targetNums)
+          };
+        }
+      }
+    }
+    return null;
+  }
+
   let fallbackCount = 0;
 
   function translateSkillList(list) {
     (list || []).forEach(s => {
-      const sDesc = norm(s.description);
-      if (sDesc && skillsMap[sDesc]) {
-        s.description_trans = skillsMap[sDesc];
-      } else if (s.description && skillsMap[s.description]) {
-        s.description_trans = skillsMap[s.description];
+      const trans = resolveSkillTranslation(s.description);
+      if (trans) {
+        s.description_trans = trans;
       } else if (s.description && !s.description_trans) {
         // Fail-safe auto-fallback: use English original so new content deploys without crashing
         s.description_trans = { ko: s.description, ja: s.description };
@@ -452,11 +502,9 @@ if (fs.existsSync(translationsPath)) {
       }
 
       if (s.upgrade) {
-        const uDesc = norm(s.upgrade.description);
-        if (uDesc && skillsMap[uDesc]) {
-          s.upgrade.description_trans = skillsMap[uDesc];
-        } else if (s.upgrade.description && skillsMap[s.upgrade.description]) {
-          s.upgrade.description_trans = skillsMap[s.upgrade.description];
+        const uTrans = resolveSkillTranslation(s.upgrade.description);
+        if (uTrans) {
+          s.upgrade.description_trans = uTrans;
         } else if (s.upgrade.description && !s.upgrade.description_trans) {
           s.upgrade.description_trans = { ko: s.upgrade.description, ja: s.upgrade.description };
           fallbackCount++;

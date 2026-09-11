@@ -1,0 +1,390 @@
+{
+  "Psi-Blades: Strike forward with psi-blades": {
+    "ko": "사이킥 검으로 전방을 빠르게 연속 베기합니다.",
+    "ja": "サイキックブレードで前方へ素早い連続斬撃を繰り出す。"
+  },
+  "Strike forward with psi-blades": {
+    "ko": "사이킥 검으로 전방을 빠르게 연속 베기합니다.",
+    "ja": "サイキックブレードで前方へ素早い連続斬撃を繰り出す。"
+  },
+  "Psi-Bow: Fire a long-range piercing arrow of psionic energy": {
+    "ko": "사이킥 활로 원거리 적을 관통하는 강력한 화살을 발사합니다.",
+    "ja": "サイキックボウで遠距離の敵を射抜く強力な貫通矢を放つ。"
+  },
+  "Fire a long-range piercing arrow of psionic energy": {
+    "ko": "사이킥 활로 원거리 적을 관통하는 강력한 화살을 발사합니다.",
+    "ja": "サイキックボウで遠距離の敵を射抜く強力な貫通矢を放つ。"
+  },
+  "Psychic Dash: Dash forward and slash through enemies, becoming immune to damage while dashing": {
+    "ko": "전방으로 돌진하며 경로 상의 적들을 베어냅니다. 돌진 중 무적 상태가 됩니다.",
+    "ja": "前方へ突進しながら敵を一閃する。突進中は無敵状態となる。"
+  },
+  "Dash forward and slash through enemies, becoming immune to damage while dashing": {
+    "ko": "전방으로 돌진하며 경로 상의 적들을 베어냅니다. 돌진 중 무적 상태가 됩니다.",
+    "ja": "前方へ突進しながら敵を一閃する。突進中は無敵状態となる。"
+  },
+  "Psionic Decoy: Dash backward and deploy an illusory butterfly decoy, gaining stealth": {
+    "ko": "뒤로 도약하며 환영 나비 분신을 남기고 은신 상태에 돌입합니다.",
+    "ja": "後方へ飛び退きながら蝶の幻影を残し、ステルス状態に入る。"
+  },
+  "Dash backward and deploy an illusory butterfly decoy, gaining stealth": {
+    "ko": "뒤로 도약하며 환영 나비 분신을 남기고 은신 상태에 돌입합니다.",
+    "ja": "後方へ飛び退きながら蝶の幻影を残し、ステルス状態に入る。"
+  },
+  "Dance of the Butterfly: Unleash a storm of psychic slashes in an area, repeatedly striking all trapped enemies": {
+    "ko": "나비의 춤을 펼쳐 영역 내 모든 적에게 수많은 사이킥 참격을 퍼부어 궤멸시킵니다.",
+    "ja": "蝶の舞を展開し、エリア内の全敵へ無数のサイキック斬撃の嵐を浴びせる。"
+  },
+  "Unleash a storm of psychic slashes in an area, repeatedly striking all trapped enemies": {
+    "ko": "나비의 춤을 펼쳐 영역 내 모든 적에게 수많은 사이킥 참격을 퍼부어 궤멸시킵니다.",
+    "ja": "蝶の舞を展開し、エリア内の全敵へ無数のサイキック斬撃の嵐を浴びせる。"
+  },
+  "Adjudication/Deliverance: Fire assault rifle or switch to automatic shotgun for close quarters": {
+    "ko": "원거리 돌격소총을 사격하거나 자동 산탄총으로 전환하여 근접 적을 섬멸합니다.",
+    "ja": "アサルトライフルを発射するか、フルオート・ショットガンに切り替えて至近敵を殲滅する。"
+  },
+  "Fire assault rifle or switch to automatic shotgun for close quarters": {
+    "ko": "원거리 돌격소총을 사격하거나 자동 산탄총으로 전환하여 근접 적을 섬멸합니다.",
+    "ja": "アサルトライフルを発射するか、フルオート・ショットガンに切り替えて至近敵を殲滅する。"
+  },
+  "Culling Turret: Deploy a heavy-duty turret that unleashes relentless suppression fire": {
+    "ko": "중장갑 터렛을 설치하여 전방으로 무자비한 제압 사격을 퍼붓습니다.",
+    "ja": "重装タレットを展開し、前方へ容赦のない制圧射撃を浴びせる。"
+  },
+  "Deploy a heavy-duty turret that unleashes relentless suppression fire": {
+    "ko": "중장갑 터렛을 설치하여 전방으로 무자비한 제압 사격을 퍼붓습니다.",
+    "ja": "重装タレットを展開し、前方へ容赦のない制圧射撃を浴びせる。"
+  },
+  "Scourge Grenade: Launch a smoke grenade that impairs enemy vision and inflicts Slow": {
+    "ko": "연막 수류탄을 투척하여 적의 시야를 차단하고 이동 속도를 감소시킵니다.",
+    "ja": "スモークグレネードを投擲し、敵の視界を遮りながらスロウを付与する。"
+  },
+  "Launch a smoke grenade that impairs enemy vision and inflicts Slow": {
+    "ko": "연막 수류탄을 투척하여 적의 시야를 차단하고 이동 속도를 감소시킵니다.",
+    "ja": "スモークグレネードを投擲し、敵の視界を遮りながらスロウを付与する。"
+  },
+  "Final Judgment: Dual-wield a heavy gatling gun and shoulder rockets for devastating destruction": {
+    "ko": "거대 개틀링 건과 어깨 미사일 포대를 꺼내 전방을 완전히 초토화합니다.",
+    "ja": "巨大ガトリングガンとショルダーロケットを展開し、前方を完全に壊滅させる。"
+  },
+  "Dual-wield a heavy gatling gun and shoulder rockets for devastating destruction": {
+    "ko": "거대 개틀링 건과 어깨 미사일 포대를 꺼내 전방을 완전히 초토화합니다.",
+    "ja": "巨大ガトリングガンとショルダーロケットを展開し、前方を完全に壊滅させる。"
+  },
+  "Vantage Connection: Deploy a zipline between two locations for rapid team repositioning": {
+    "ko": "집라인을 설치하여 아군이 빠르게 이동할 수 있는 고속 와이어를 연결합니다.",
+    "ja": "ジップラインを設置し、味方が素早く移動可能な高速ワイヤーを架設する。"
+  },
+  "Deploy a zipline between two locations for rapid team repositioning": {
+    "ko": "집라인을 설치하여 아군이 빠르게 이동할 수 있는 고속 와이어를 연결합니다.",
+    "ja": "ジップラインを設置し、味方が素早く移動可能な高速ワイヤーを架設する。"
+  },
+  "Warrior's Gaze: Activate thermal vision to Reveal all enemy heat signatures through obstacles": {
+    "ko": "열화상 전술 바이저를 켜 벽 뒤의 적 열신호를 실시간으로 탐지합니다.",
+    "ja": "サーマルビジョンを起動し、壁の向こうの敵熱源をリアルタイムで探知する。"
+  },
+  "Activate thermal vision to Reveal all enemy heat signatures through obstacles": {
+    "ko": "열화상 전술 바이저를 켜 벽 뒤의 적 열신호를 실시간으로 탐지합니다.",
+    "ja": "サーマルビジョンを起動し、壁の向こうの敵熱源をリアルタイムで探知する。"
+  },
+  "Chaos Control: Unleash chaos beams that lock on to enemies and continuously drain their health": {
+    "ko": "혼돈 에너지를 조작하여 적을 유도 추적하고 지속적인 피해를 입힙니다.",
+    "ja": "カオスエネルギーを操作し、敵を自動追尾して持続ダメージを与える。"
+  },
+  "Unleash chaos beams that lock on to enemies and continuously drain their health": {
+    "ko": "혼돈 에너지를 조작하여 적을 유도 추적하고 지속적인 피해를 입힙니다.",
+    "ja": "カオスエネルギーを操作し、敵を自動追尾して持続ダメージを与える。"
+  },
+  "Chthonian Burst: Fire explosive chaos missiles that detonate on impact": {
+    "ko": "크톤의 혼돈 미사일을 발사하여 착탄 시 폭발 피해를 가합니다.",
+    "ja": "クトンのカオスミサイルを発射し、着弾時に爆発ダメージを与える。"
+  },
+  "Fire explosive chaos missiles that detonate on impact": {
+    "ko": "크톤의 혼돈 미사일을 발사하여 착탄 시 폭발 피해를 가합니다.",
+    "ja": "クトンのカオスミサイルを発射し、着弾時に爆発ダメージを与える。"
+  },
+  "Telekinesis: Ascend and float gracefully in the air": {
+    "ko": "염동력으로 부유하여 공중에서 자유롭게 활강 비행합니다.",
+    "ja": "念動力で浮遊し、空中を自在に滑空飛行する。"
+  },
+  "Ascend and float gracefully in the air": {
+    "ko": "염동력으로 부유하여 공중에서 자유롭게 활강 비행합니다.",
+    "ja": "念動力で浮遊し、空中を自在に滑空飛行する。"
+  },
+  "Mystic Projection: Phase through reality to dash forward, gaining invulnerability": {
+    "ko": "현실을 왜곡하며 전방으로 도약하여 잠시 무적 상태가 됩니다.",
+    "ja": "現実を歪めて前方へ跳躍し、一時的な無敵状態となる。"
+  },
+  "Phase through reality to dash forward, gaining invulnerability": {
+    "ko": "현실을 왜곡하며 전방으로 도약하여 잠시 무적 상태가 됩니다.",
+    "ja": "現実を歪めて前方へ跳躍し、一時的な無敵状態となる。"
+  },
+  "Reality Erasure: Ascend and channel to unleash a catastrophic reality-shattering shockwave": {
+    "ko": "하늘로 솟구쳐 현실을 지워버리는 파멸의 혼돈 충격파를 방출합니다.",
+    "ja": "上空へ舞い上がり、現実を消滅させる壊滅的なカオス衝撃波を放つ。"
+  },
+  "Ascend and channel to unleash a catastrophic reality-shattering shockwave": {
+    "ko": "하늘로 솟구쳐 현실을 지워버리는 파멸의 혼돈 충격파를 방출합니다.",
+    "ja": "上空へ舞い上がり、現実を消滅させる壊滅的なカオス衝撃波を放つ。"
+  },
+  "Spider-Strike: Strike forward with swift acrobatic punches and kicks": {
+    "ko": "날렵한 아크로바틱 격투 콤보로 전방의 적을 타격합니다.",
+    "ja": "軽快なアクロバティック格闘コンボで前方の敵を打撃する。"
+  },
+  "Strike forward with swift acrobatic punches and kicks": {
+    "ko": "날렵한 아크로바틱 격투 콤보로 전방의 적을 타격합니다.",
+    "ja": "軽快なアクロバティック格闘コンボで前方の敵を打撃する。"
+  },
+  "Web-Cluster: Shoot a bundle of webbing that damages and attaches a Spider-Tracer to the enemy": {
+    "ko": "웹 클러스터를 발사하여 피해를 주고 스파이더 트레이서를 부착합니다.",
+    "ja": "ウェブ弾を発射してダメージを与え、スパイダートレイサーを付着させる。"
+  },
+  "Shoot a bundle of webbing that damages and attaches a Spider-Tracer to the enemy": {
+    "ko": "웹 클러스터를 발사하여 피해를 주고 스파이더 트레이서를 부착합니다.",
+    "ja": "ウェブ弾を発射してダメージを与え、スパイダートレイサーを付着させる。"
+  },
+  "Web-Swing: Shoot a webline and swing with dynamic agility": {
+    "ko": "거미줄을 발사하여 전방으로 역동적인 웹스윙 이동을 펼칩니다.",
+    "ja": "ウェブを放ち、前方へダイナミックなウェブスイング移動を行う。"
+  },
+  "Shoot a webline and swing with dynamic agility": {
+    "ko": "거미줄을 발사하여 전방으로 역동적인 웹스윙 이동을 펼칩니다.",
+    "ja": "ウェブを放ち、前方へダイナミックなウェブスイング移動を行う。"
+  },
+  "Amazing Combo: Launch up enemies with an uppercut, then zip forward to slam them back down": {
+    "ko": "어퍼컷으로 적을 공중으로 띄운 뒤 즉시 거미줄로 추격해 지면으로 내리꽂습니다.",
+    "ja": "アッパーカットで敵を打ち上げ、ウェブで即座に追撃して地面へ叩き落とす。"
+  },
+  "Launch up enemies with an uppercut, then zip forward to slam them back down": {
+    "ko": "어퍼컷으로 적을 공중으로 띄운 뒤 즉시 거미줄로 추격해 지면으로 내리꽂습니다.",
+    "ja": "アッパーカットで敵を打ち上げ、ウェブで即座に追撃して地面へ叩き落とす。"
+  },
+  "Spider-Sense: Warns of incoming attacks and highlights flanking threats": {
+    "ko": "스파이더 센스가 발동하여 위험을 사전에 감지하고 회피 본능을 극대화합니다.",
+    "ja": "スパイダーセンスが作動し、迫る危険を予知して回避本能を最大化する。"
+  },
+  "Warns of incoming attacks and highlights flanking threats": {
+    "ko": "스파이더 센스가 발동하여 위험을 사전에 감지하고 회피 본능을 극대화합니다.",
+    "ja": "スパイダーセンスが作動し、迫る危険を予知して回避本能を最大化する。"
+  },
+  "Element Blasters: Fire dual elemental pistols with rapid fire": {
+    "ko": "양손의 엘리멘트 블래스터를 초고속 난사합니다.",
+    "ja": "両手のクアッド・ブラスターを超高速連射する。"
+  },
+  "Fire dual elemental pistols with rapid fire": {
+    "ko": "양손의 엘리멘트 블래스터를 초고속 난사합니다.",
+    "ja": "両手のクアッド・ブラスターを超高速連射する。"
+  },
+  "Stellar Shift: Perform rapid omni-directional tactical dashes": {
+    "ko": "부스터를 분사하여 전방향으로 신속하게 대시 회피합니다.",
+    "ja": "ブースターを噴射し、全方向へ素早くステップ回避する。"
+  },
+  "Perform rapid omni-directional tactical dashes": {
+    "ko": "부스터를 분사하여 전방향으로 신속하게 대시 회피합니다.",
+    "ja": "ブースターを噴射し、全方向へ素早くステップ回避する。"
+  },
+  "Blaster Barrage: Spin rapidly while unleashing an intense 360-degree storm of laser fire": {
+    "ko": "제자리에서 360도 회전하며 사방으로 레이저 탄환을 폭풍처럼 난사합니다.",
+    "ja": "360度回転しながら、周囲全方位へレーザー弾の猛烈な嵐を乱射する。"
+  },
+  "Spin rapidly while unleashing an intense 360-degree storm of laser fire": {
+    "ko": "제자리에서 360도 회전하며 사방으로 레이저 탄환을 폭풍처럼 난사합니다.",
+    "ja": "360度回転しながら、周囲全方位へレーザー弾の猛烈な嵐を乱射する。"
+  },
+  "Rocket Boots: Engage rocket boots to achieve free flight in any direction": {
+    "ko": "로켓 부츠를 가동하여 공중에서 자유롭게 비행 기동합니다.",
+    "ja": "ロケットブーツを起動し、空中を全方位自在に飛行する。"
+  },
+  "Engage rocket boots to achieve free flight in any direction": {
+    "ko": "로켓 부츠를 가동하여 공중에서 자유롭게 비행 기동합니다.",
+    "ja": "ロケットブーツを起動し、空中を全方位自在に飛行する。"
+  },
+  "Galactic Legend: Take flight with rocket boots and lock onto all visible enemies for continuous homing barrage": {
+    "ko": "하늘로 솟구쳐 시야 내의 모든 적을 록온한 뒤 유도 레이저 폭격을 쉼 없이 퍼붓습니다.",
+    "ja": "空へ飛び立ち、視界内の全敵をロックオンして自動追尾レーザー弾を浴びせ続ける。"
+  },
+  "Take flight with rocket boots and lock onto all visible enemies for continuous homing barrage": {
+    "ko": "하늘로 솟구쳐 시야 내의 모든 적을 록온한 뒤 유도 레이저 폭격을 쉼 없이 퍼붓습니다.",
+    "ja": "空へ飛び立ち、視界内の全敵をロックオンして自動追尾レーザー弾を浴びせ続ける。"
+  },
+  "Wind Blade: Launch forward-piercing Wind Blades": {
+    "ko": "전방으로 적을 관통하는 칼바람(Wind Blade)을 날립니다.",
+    "ja": "前方へ貫通する風の刃(Wind Blade)を発射する。"
+  },
+  "Bolt Rush: Unleash a lightning bolt forward": {
+    "ko": "전방으로 강력한 번개 줄기를 발사합니다.",
+    "ja": "前方へ強力な雷撃ボルトを放つ。"
+  },
+  "Omega Hurricane: Transform into a hurricane to draw in nearby enemies and deal damage": {
+    "ko": "거대한 오메가 허리케인으로 변신하여 주변 적들을 빨아들이며 지속 피해를 입힙니다.",
+    "ja": "巨大なオメガ・ハリケーンへと変貌し、周囲の敵を巻き込んで大ダメージを与える。"
+  },
+  "Weather Control: Switch the weather to empower allies: Tornado grants a Movement Boost; Thunder grants a Damage Boost": {
+    "ko": "날씨를 전환하여 아군을 강화합니다. 토네이도는 이동 속도를 증가시키고, 천둥은 공격력을 증가시킵니다.",
+    "ja": "天候を切り替えて味方を強化する。竜巻は移動速度を、雷は与ダメージを上昇させる。"
+  },
+  "Goddess Boost: Channel the power of the weather to empower Storm: Tornado grants a Movement Boost and inflicts Slow on enemies; Thunder grants a Damage Boost and summons lightning to inflict damage": {
+    "ko": "날씨의 여신 힘을 각성합니다. 토네이도는 스톰의 속도를 높이고 적을 감속시키며, 천둥은 공격력을 높이고 번개로 적을 타격합니다.",
+    "ja": "天候の女神の力を解放する。竜巻は加速と敵へのスロウを、雷は攻撃力上昇と落雷攻撃をもたらす。"
+  },
+  "Roterstern: Fire explosive rounds with his blaster, Roterstern, damaging the target hit and enemies behind them.": {
+    "ko": "로터슈테른 블래스터로 폭발 탄환을 발사하여 목표와 배후의 적들에게 폭발 피해를 입힙니다.",
+    "ja": "ローテルシュテルン銃から炸裂弾を撃ち出し、標的と背後の敵に爆発ダメージを与える。"
+  },
+  "Bionic Hook: Charge up and launch a hook with his bionic arm, reeling in the first target hit and enemies lurking behind": {
+    "ko": "생체공학 팔로 와이어 갈고리를 발사하여 적중한 적과 그 뒤의 적들을 한 번에 끌어당깁니다.",
+    "ja": "機械の腕からフックを射出し、命中した敵と背後の敵を一気に引き寄せる。"
+  },
+  "Kraken Impact: Leap high, then dash forward and slam down with the bionic arm, dealing damage to enemies in range, marking them for Culling. Marked enemies will perish instantly if their health falls below a certain threshold, recharging the bionic arm for another Kraken Impact within a short period": {
+    "ko": "높이 도약한 뒤 기계 팔로 지면을 강타하여 범위 피해를 주고 처형(Culling) 표식을 남깁니다. 표식 대상의 체력이 일정 이하로 떨어지면 즉사하며, Kraken Impact가 즉시 재충전됩니다.",
+    "ja": "高く跳躍して機械の腕で地面を叩きつけ、範囲ダメージと処刑標識を与える。標識の敵の体力が一定以下になると即死し、Kraken Impactが即時リチャージされる。"
+  },
+  "Trooper's Fist: Dash forward, seizing enemies along the path and launching up enemies at the end of the dash": {
+    "ko": "전방으로 돌진하여 경로 상의 적들을 쓸어 담고 돌진 끝에서 공중으로 높이 띄웁니다.",
+    "ja": "前方へ突進して軌道上の敵を巻き込み、突進終了時に高く打ち上げる。"
+  },
+  "Tainted Voltage: Charge up and launch a powerful electrical punch with the bionic arm in the target direction, dealing damage to enemies within range and Slowing them. This ability can Knock Down flying heroes": {
+    "ko": "기계 팔에 고압 전류를 충전하여 전방으로 강력한 전격 펀치를 날립니다. 적을 감속시키며 비행 중인 영웅을 지면으로 격추합니다.",
+    "ja": "高圧電流を帯びた機械の拳で電撃パンチを放つ。範囲内の敵を減速させ、飛行中のヒーローを撃墜する。"
+  },
+  "Stellar Impact: Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant Bonus Health to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and slows enemies": {
+    "ko": "윈터 솔져가 아군에게 도약해 지면을 강타하여 주변 적에게 피해를 주고 아군에게 추가 체력을 부여합니다. 캡틴 아메리카와 상호작용하여 충돌 시 적들을 감속시키는 충격파를 발산합니다.",
+    "ja": "指定の味方へ跳躍し、機械の腕で地面を叩きつけて敵にダメージを与え味方に追加空力を付与する。キャプテン・アメリカと連携して強力な衝撃波を放つ。"
+  },
+  "Ceaseless Charge: Roterstern reloads automatically while the bionic arm is in action, granting Bonus Health to the Winter Soldier": {
+    "ko": "기계 팔 스킬을 시전하는 동안 로터슈테른이 자동으로 재장전되며 윈터 솔져에게 추가 체력을 부여합니다.",
+    "ja": "機械の腕のアビリティ発動中に銃が自動リロードされ、ウィンター・ソルジャーに追加空力を付与する。"
+  },
+  "Savage Claw: Slash with Adamantium claws for a Claw Strike. Unleashing Feral Leap will enhance it to Berserk Claw Strike for a brief period": {
+    "ko": "아다만티움 발톱으로 전방을 베어냅니다. Feral Leap 시전 후 잠시 동안 광폭 공격으로 강화됩니다.",
+    "ja": "アダマンチウムの爪で切り裂く。Feral Leap発動後、短時間バーサーク攻撃へと強化される。"
+  },
+  "Vicious Rampage: Dash forward and unleash a Claw Strike": {
+    "ko": "전방으로 맹렬히 돌진하며 발톱 일격을 가합니다.",
+    "ja": "前方へ猛烈に突進して爪撃を叩き込む。"
+  },
+  "Last Stand: Knock enemies ahead airborne and spiral through the air, sweeping up enemies along the path and delivering a devastating impact at the landing point": {
+    "ko": "전방의 적들을 공중으로 쳐올린 뒤 공중 나선 회전으로 적들을 휩쓸며 착지 지점에 파괴적인 강타를 내리꽂습니다.",
+    "ja": "前方の敵を打ち上げ、空中スパイラル回転で敵を巻き込みながら着地点に壊滅的な一撃を叩き落とす。"
+  },
+  "Feral Leap: Leap like an animal to snatch the first enemy upon impact and Smash them to the ground. Unleashing this ability will enhance his normal attack to Berserk Claw Strike for a brief period": {
+    "ko": "야수처럼 도약하여 적을 낚아채 지면에 강하게 내리찍습니다. 시전 후 기본 공격이 광폭 공격으로 강화됩니다.",
+    "ja": "獣のように跳躍して敵を捕らえ、地面へ叩きつける。発動後、通常攻撃が短時間バーサーク攻撃へ強化される。"
+  },
+  "Phoenix Warrior: Wolverine and Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forwardJean Grey imbues Wolverine with the awe-inspiring Phoenix Force. With this power, Wolverine's Feral Leap transforms into Phoenix Warrior. While active, he is enveloped in Phoenix flames that continuously scorch him and nearby enemies, dealing Percentage Damage. In this state, Wolverine's abilities gain Lifesteal when inflicting damage": {
+    "ko": "진 그레이가 울버린에게 피닉스 포스를 주입하여 Feral Leap를 피닉스 워리어로 진화시킵니다. 피닉스 화염을 두르고 주변 적에게 최대 체력 비례 피해를 주며 모든 스킬에 흡혈 능력을 얻습니다.",
+    "ja": "ジーン・グレイがウルヴァリンにフェニックスフォースを授け、Feral Leapをフェニックス・ウォーリアーへと変形させる。周囲の敵に割合ダメージを与え、全攻撃に吸血効果を得る。"
+  },
+  "Undying Animal: Unleash a fierce howl to briefly reduce incoming damage": {
+    "ko": "야성의 포효를 내질러 잠시 동안 자신이 받는 모든 피해를 대폭 감소시킵니다.",
+    "ja": "野生の咆哮を放ち、短時間受ける被ダメージを大幅に軽減する。"
+  },
+  "Kinetic Claws: Cyclops supercharges Wolverine's claws, extending his attack range. While active, Wolverine's Vicious Rampage is replaced with Kinetic Claws, granting him a brief forward lunge that unleashes a flurry of slashes around him": {
+    "ko": "사이클롭스가 울버린의 발톱을 충전하여 사거리를 늘립니다. Vicious Rampage가 키네틱 클로로 대체되어 주변에 난무를 펼칩니다.",
+    "ja": "サイクロプスがウルヴァリンの爪を強化し射程を延長する。突進時に周囲へ乱撃の嵐を浴びせる。"
+  },
+  "Regenerative Healing Factor: Begin to heal and rise with a hefty Bonus Health, shaking off all debuffs. After a brief moment, any remaining Bonus Health morphs into a one-off heal, zeroing out his Rage. Assists in KOs reduce this cooldown": {
+    "ko": "힐링 팩터가 발동하여 모든 약화 효과를 해제하고 대량의 추가 체력을 얻으며 부활합니다. 적 처치 관여 시 쿨다운이 감소합니다.",
+    "ja": "ヒーリングファクターが発動して全デバフを解除し、大量の追加空力を得て回復する。キル関与でクールダウンが短縮する。"
+  },
+  "Berserker Rage: Rage builds when Wolverine attacks or takes hits, boosting the damage of his Claw Strikes and the Bonus Health from his regenerative healing factor": {
+    "ko": "공격하거나 피해를 입을 때 분노가 차오르며, 발톱 공격력과 힐링 팩터의 추가 체력이 대폭 증가합니다.",
+    "ja": "攻撃または被弾時に怒りが蓄積し、爪撃の威力とヒーリングファクターによる追加空力が上昇する。"
+  },
+  "Burst Acorn: Shoot bouncing Burst Acorns": {
+    "ko": "지형에 튕기는 도탄 폭발 도토리를 발사합니다.",
+    "ja": "地形に跳ね返る炸裂ドングリを発射する。"
+  },
+  "Squirrel Blockade: Launch an acorn to unleash Squirrel Guards, Imprisoning the first hit enemy": {
+    "ko": "도토리를 던져 다람쥐 경비대를 소환하여 적중한 적을 감금(Imprison)합니다.",
+    "ja": "ドングリを投擲してリス警備隊を召喚し、命中した敵を拘束(監禁)する。"
+  },
+  "Unbeatable Squirrel Tsunami: Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures": {
+    "ko": "거대한 다람쥐 군단 쓰나미를 소환하여 지형에 튕기며 전방의 모든 적을 휩쓸어 버립니다.",
+    "ja": "巨大なリス軍団の津波を召喚し、壁に跳ね返りながら前方の全敵を呑み込む。"
+  },
+  "Tail Bounce: Rocket upwards with a bounce of her tail": {
+    "ko": "풍성한 꼬리로 바닥을 박차고 공중으로 힘차게 솟구쳐 오릅니다.",
+    "ja": "ふさふさの尻尾で地面を蹴り、上空へ勢いよく飛び上がる。"
+  },
+  "Mammal Bond: Reload Burst Acorns and can use an ability without cooldown once in a short duration": {
+    "ko": "도토리를 즉시 재장전하고 짧은 시간 동안 쿨다운 없이 스킬을 1회 재사용합니다.",
+    "ja": "ドングリを即座にリロードし、短時間アビリティをクールダウンなしで1回再使用可能にする。"
+  },
+  "Squirrel Missile: When Iron Man, Ultron and Squirrel Girl team up, Ultron's Encephalo-Ray upgrades to Nano-Ray, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the Squirrel Missile ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!": {
+    "ko": "아이언맨의 나노테크 장갑을 탄 다람쥐 유도 미사일을 발사하여 적에게 강력한 폭발 피해를 가합니다!",
+    "ja": "アイアンマンのナノグローブに乗ったリス誘導ミサイルを放ち、敵に着弾大爆発を与える！"
+  },
+  "JUSTICE JAB: Swing Billy Clubs forward. Gain Fury on hit": {
+    "ko": "빌리 클럽을 휘둘러 전방의 적을 타격하며, 적중 시 분노(Fury)를 획득합니다.",
+    "ja": "ビリークラブを振るって敵を攻撃し、命中時にフューリーを獲得する。"
+  },
+  "RIGHTEOUS CROSS: Cross your Billy Clubs and surge forward. Gain Fury on hit": {
+    "ko": "빌리 클럽을 교차하고 전방으로 신속하게 돌진 타격합니다. 적중 시 분노를 획득합니다.",
+    "ja": "ビリークラブを交差させて前方へ突進攻撃を放つ。命中時にフューリーを獲得する。"
+  },
+  "OBJECTION!: Whirl billy clubs in a tight guard to block frontal damage and reflect projectiles, becoming immune to all incoming harm during this stance and gain Fury": {
+    "ko": "빌리 클럽을 고속 회전시켜 전방의 모든 투사체를 반사하고 피해에 면역이 되며 분노를 충전합니다.",
+    "ja": "ビリークラブを高速旋回させて前方の弾丸を跳ね返し、無敵状態となってフューリーを充填する。"
+  },
+  "INFERNAL FURY: Expend Fury to unleash Devil's Chain or Devil's Throw. Devil's Chain converts damage into Bonus Health, while Devil's Throw Slows enemies on hit and temporarily enables Cross Interrogation": {
+    "ko": "분노를 소모하여 사슬 공격이나 투척 공격을 펼칩니다. 사슬 공격은 피해를 추가 체력으로 변환하며, 투척 공격은 적을 감속시킵니다.",
+    "ja": "フューリーを消費して鎖攻撃または投擲攻撃を放つ。鎖攻撃は与ダメージを追加空力に変換し、投擲は敵にスロウを与える。"
+  },
+  "LET THE DEVIL OUT: Embrace the Beast within. Enemies in Daredevil's line of sight take damage and suffer a ramping Blind effect. Continually gain Fury while active": {
+    "ko": "내면의 야수를 해방합니다. 시야 내의 적들에게 지속 피해와 점진적인 실명 효과를 부여하며 분노를 계속 획득합니다.",
+    "ja": "内なる野獣を解放する。視界内の敵に持続ダメージと徐々に強まるブラインドを付与し、フューリーを継続獲得する。"
+  },
+  "Sonic Pursuit: Locks onto a target, gaining increased Speed; and Damage Reduction when attacked. While in range, dash to the target, Blinding them and restore Fury": {
+    "ko": "목표를 포착해 속도와 피해 감소를 얻으며, 사거리 내에서 대상에게 돌진하여 실명을 걸고 분노를 회복합니다.",
+    "ja": "標的をロックオンして加速と被ダメージ軽減を得て、突進してブラインドを付与しフューリーを回復する。"
+  },
+  "BLIND ASCENT: Run along walls and spring off them to reposition": {
+    "ko": "벽면을 질주한 뒤 반동으로 도약하여 위치를 재선정합니다.",
+    "ja": "壁面を疾走し、蹴り跳んで高所へ素早く移動する。"
+  },
+  "RADAR SENSE: Detect enemy movements within a set radius": {
+    "ko": "레이더 센스를 발동하여 일정 반경 내 모든 적의 움직임과 심장 박동을 감지합니다.",
+    "ja": "レーダーセンスを発動し、一定範囲内の全敵の動きを探知する。"
+  },
+  "BLIND VERDICT: Daredevil shares the location of his Sonic Pursuit target with The Punisher. At the same time, The Punisher can launch a devil-infused shock grenade to damage and blind enemies": {
+    "ko": "데어데블이 추적 대상 위치를 퍼니셔에게 공유하며, 퍼니셔는 악마 충격 수류탄을 투척해 적을 실명시킵니다.",
+    "ja": "デアデビルが追撃標的の位置をパニッシャーに共有し、パニッシャーは電撃グレネードで敵にダメージとブラインドを与える。"
+  },
+  "DOUBLE-BARREL BLASTER: Fire your shotgun forward": {
+    "ko": "더블 배럴 산탄총을 전방으로 발사합니다.",
+    "ja": "ダブルバレル・ショットガンを前方へ発射する。"
+  },
+  "MONSTER-PIERCER: Unleash your elephant gun forward. Bullets pierce enemies and deal high damage": {
+    "ko": "몬스터 피어서 대구경 엘리펀트 건을 발사합니다. 탄환이 적을 관통하며 치명적인 피해를 줍니다.",
+    "ja": "モンスターピアサー大口径銃を放つ。弾丸が敵を貫通し大ダメージを与える。"
+  },
+  "LIVING BULLET: Fire a Living Bullet round that splits upon impact, seeking nearby enemies and marking each with a Spectral Sigil. Hitting marked targets with Double-Barrel Blaster or Monster-Piercer grants Elsa a brief Speed boost. Living Bullets deal extra damage to shields and enemies with Bonus Health": {
+    "ko": "살아있는 탄환을 발사하여 착탄 시 분열 유도되며 적에게 유령 인장을 남깁니다. 표식 적중 시 이동 속도가 증가하며 보호막과 추가 체력에 추가 피해를 입힙니다.",
+    "ja": "生ける弾丸を放ち、着弾時に分裂して敵を追尾し印を刻む。印の敵への攻撃で加速し、シールドや追加空力に特効ダメージを与える。"
+  },
+  "BLOODSTONE'S BOOMBOX BULLETS: Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously Taunt nearby enemies and Block Vision, while allies in range are healed! Elsa Bloodstone's Living Bullet changes to special rounds that Taunt targets with Deadpool's chatter, while Slowing, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt": {
+    "ko": "데드풀과 제프, 엘사 블러드스톤의 연계 능력입니다. 엘사의 탄환이 데드풀의 수다로 적을 도발하고 감속시키며, 회수 시 체력을 회복합니다.",
+    "ja": "デッドプール、ジェフ、エルサの連携スキル。エルサの弾丸がデッドプールの挑発音声を放ち、スロウと持続ダメージを与え、弾丸回収時に体力を回復する。"
+  },
+  "APEX PREDATOR: Summon the Glartrox to charge forward. The Glartrox can be recalled to charge back toward Elsa. When colliding with terrain or upon return, it bites fiercely, dealing heavy damage": {
+    "ko": "괴수 글라트록스를 소환하여 돌진시킵니다. 다시 불러들여 복귀 경로의 적들을 물어뜯게 할 수 있습니다.",
+    "ja": "怪獣グラートロックスを召喚して突進させる。呼び戻して再度突進させ、激しい噛みつきで大ダメージを与える。"
+  },
+  "HELIX ADVANCE: Dash forward. Your next Double-Barrel Blaster becomes Monster-Piercer": {
+    "ko": "전방으로 신속하게 대시합니다. 다음 더블 배럴 사격이 강력한 Monster-Piercer로 강화됩니다.",
+    "ja": "前方へ素早くダッシュする。次の通常射撃が強力なMonster-Piercerへと強化される。"
+  },
+  "RUTHLESS PURSUIT: Dash forward, gaining Bonus Health and launching enemies hit. Follow up with a Double-Barrel Blaster shot that propels you backward and Slows enemies. Using either stage empowers your next Double-Barrel Blaster, transforming it into Monster-Piercer": {
+    "ko": "전방으로 돌진하여 추가 체력을 얻고 적을 띄운 뒤, 후방 반동 사격으로 적을 감속시키며 다음 사격을 강화합니다.",
+    "ja": "前方へ突進して追加空力を獲得し敵を打ち上げ、反動射撃で敵を減速させつつ次の射撃を強化する。"
+  },
+  "SMOKY SNARE: Launch a trap containing the monster Diablo. Once deployed, it becomes Invisible and Invulnerable. When an enemy triggers it, Diablo Immobilizes and Damages them. Use to dash to the trapped enemy. Enemies can destroy Diablo to break free": {
+    "ko": "괴수 디아블로가 든 덫을 설치합니다. 투명 무적 상태로 잠복하다가 적이 밟으면 속박하고 피해를 입힙니다.",
+    "ja": "怪獣ディアブロのトラップを投擲設置する。透明・無敵で潜伏し、敵が作動させると拘束してダメージを与える。"
+  },
+  "INHERITED INSTINCT: Dealing damage increases hunting Instinct. Defeating enemies caught by Smoky Snare grants additional Instinct. Higher Instinct reduces the cooldown of Helix Advance": {
+    "ko": "피해를 입힐 때 사냥 본능이 상승하며, 본능이 높을수록 Helix Advance의 재사용 대기시간이 단축됩니다.",
+    "ja": "ダメージを与えると狩猟本能が上昇し、本能が高いほどHelix Advanceのクールダウンが短縮される。"
+  }
+}

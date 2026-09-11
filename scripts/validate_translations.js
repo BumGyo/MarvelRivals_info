@@ -63,8 +63,22 @@ if (!fs.existsSync(transPath)) {
       }
     }
     checkPurity(unified, 'translations');
-    if (purityErrors === 0) {
-      console.log(`✓ Purity test passed for data/translations.json (0 cross-language contaminations)`);
+    // Check for placeholder text in skills
+    let placeholderErrors = 0;
+    if (unified.skills) {
+      for (const [k, v] of Object.entries(unified.skills)) {
+        if (v.ko && /의 스킬입니다/.test(v.ko)) {
+          reportError(`Placeholder "의 스킬입니다" found in skills.json for "${k.substring(0, 30)}..."`);
+          placeholderErrors++;
+        }
+        if (v.ja && /のスキル/.test(v.ja)) {
+          reportError(`Placeholder "のスキル" found in skills.json for "${k.substring(0, 30)}..."`);
+          placeholderErrors++;
+        }
+      }
+    }
+    if (placeholderErrors === 0) {
+      console.log(`✓ 0 low-quality placeholder translations detected in data/translations.json`);
     }
   } catch (e) {
     reportError(`Failed to parse data/translations.json: ${e.message}`);
@@ -113,6 +127,12 @@ if (!fs.existsSync(heroesPath)) {
               translatedSkills++;
             }
 
+            if (/의 스킬입니다/.test(s.description_trans.ko)) {
+              reportError(`Hero ${heroName} (${context}) skill '${s.name}' KO contains placeholder "의 스킬입니다"!`);
+            }
+            if (/のスキル/.test(s.description_trans.ja)) {
+              reportError(`Hero ${heroName} (${context}) skill '${s.name}' JA contains placeholder "のスキル"!`);
+            }
             if (JAPANESE_REGEX.test(s.description_trans.ko)) {
               reportError(`Hero ${heroName} (${context}) skill '${s.name}' KO contains Japanese characters!`);
             }

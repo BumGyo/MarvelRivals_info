@@ -1,0 +1,222 @@
+{
+  "Swipe forward with razor-sharp claws": {
+    "ko": "날카로운 발톱으로 전방을 빠르게 할큅니다.",
+    "ja": "鋭利な爪で前方を素早く引き裂く。"
+  },
+  "Spend Fortuneto unleash either Grapple Swipeor Phantom Pursuit": {
+    "ko": "행운(Fortune)을 소모하여 그래플 스와이프 또는 팬텀 퍼슈트를 발동합니다.",
+    "ja": "幸運(Fortune)を消費してグラップル・スワイプまたはファントム・パシュートを発動する。"
+  },
+  "Conjure an orb of mystical Faltine Flame to Revealand mark all nearby enemies": {
+    "ko": "팔틴 화염 구체를 소환하여 주변의 모든 적을 탐지(Reveal)하고 표식을 남깁니다.",
+    "ja": "ファルティンの火炎球を具現化し、周囲の全敵を探知(Reveal)して標識を刻む。"
+  },
+  "Purify yourself, instantly removing any active control effects": {
+    "ko": "자신을 정화하여 걸려있는 모든 군중 제어 효과를 즉시 해제합니다.",
+    "ja": "自身を浄化し、受けている行動阻害効果を即座に解除する。"
+  },
+  "Open a portal on a surface, allowing instant traversal to the opposite side": {
+    "ko": "벽면에 차원문을 열어 반대편으로 즉시 통과 이동합니다.",
+    "ja": "壁面にポータルを開き、反対側へ瞬時に通り抜ける。"
+  },
+  "Create a hypnosis field. Inflicts Slow, disables movement abilities, and Groundsall enemies caught within": {
+    "ko": "최면 역장을 생성하여 내부의 적들에게 감속, 이동기 사용 불가, 지상 착지(비행 불가) 효과를 부여합니다.",
+    "ja": "催眠フィールドを展開し、内部の敵にスロウ、移動アビリティ封殺、接地(飛行不可)を付与する。"
+  },
+  "Perform a double jump": {
+    "ko": "공중에서 2단 점프를 수행합니다.",
+    "ja": "空中二段ジャンプを行う。"
+  },
+  "Hold {Jump} to crawl up vertical surfaces": {
+    "ko": "점프 키를 길게 눌러 수직 벽면을 기어오릅니다.",
+    "ja": "ジャンプ長押しで垂直な壁面を這い登る。"
+  },
+  "Apply Jinxto enemies on hit. Jinxedfoes have a chance to lose their bonus damage when striking Black Cat with a Critical Hit": {
+    "ko": "적중 시 불운(Jinx)을 부여합니다. 불운에 걸린 적이 블랙 캣에게 치명타를 가할 때 추가 피해가 무효화될 확률이 생깁니다.",
+    "ja": "攻撃命中で不運(ジンクス)を付与する。不運状態の敵がブラック・キャットにクリティカルを与えた際、追加ダメージが無効化される確率を得る。"
+  },
+  "Black Cat shares items acquired from Insider Trading with White Fox and Captain America. White Fox receives the Life Orb, which restores Spirit Fox Tail energy and converts life energy into Nine-Tailed Radiance that auto-tracks nearby allies and enemies, granting allies speed and healing while dealing damage and slowing enemies. Captain America receives the Vibranium Energy Amplifier, which expands shield block range when raised and reflects projectiles back along the crosshair direction.": {
+    "ko": "블랙 캣이 화이트 폭스와 캡틴 아메리카에게 특수 장비를 공유합니다. 화이트 폭스는 유도 여우 구슬을, 캡틴 아메리카는 방패 반사 증폭기를 얻습니다.",
+    "ja": "ブラック・キャットがホワイト・フォックスとキャプテン・アメリカに特殊アイテムを共有し、誘導尾弾やシールド反射強化を付与する。"
+  },
+  "Steal a set amount of Fortunewhenever your attacks hit an enemy": {
+    "ko": "공격이 적에게 명중할 때마다 일정량의 행운(Fortune)을 훔쳐옵니다.",
+    "ja": "攻撃が敵に命中するたびに一定量の幸運(Fortune)を奪い取る。"
+  },
+  "Blink, and you'll miss my deadly dash combo. Slash, dash, repeat! Hit someone? You get to go again! (Up to 2 more times. Don't get greedy.) Who says I can't multitask?": {
+    "ko": "눈 깜짝할 사이에 치명적인 대시 콤보를 먹여줍니다. 베고, 달리고, 반복! 적중하면 최대 2회까지 재사용 가능합니다.",
+    "ja": "瞬き厳禁の猛烈ダッシュコンボ！斬って、走って、リピート！敵に当てれば最大2回まで再発動可能！"
+  },
+  "Shoot forward dual-wielded pistols. Gain increased Attack Speed when Demonic Energy exceeds 50%": {
+    "ko": "쌍권총을 전방으로 사격합니다. 악마 에너지가 50%를 초과하면 공격 속도가 증가합니다.",
+    "ja": "二丁拳銃を前方へ射撃する。悪魔エネルギーが50%を超えると攻撃速度が上昇する。"
+  },
+  "Spread your cloak to form a spherical barrier, blocking incoming enemy attacks. When Demonic Energy exceeds 50%, the radius of the sphere expands further.": {
+    "ko": "망토를 펼쳐 적의 공격을 막아내는 구형 방벽을 형성합니다. 악마 에너지가 50%를 넘으면 방벽 반경이 더욱 확장됩니다.",
+    "ja": "マントを広げて球状バリアを展開し敵弾を防ぐ。悪魔エネルギーが50%を超えるとバリア半径がさらに拡大する。"
+  },
+  "Enter Full Demon State. Fire up to 6 high-powered shots that pierce through enemies and barriers, with the final shot being the most powerful. Hitting enemies grants Bonus Health to yourself and nearby allies": {
+    "ko": "완전한 악마 상태(Full Demon State)에 돌입합니다. 적과 방벽을 관통하는 고화력 탄환을 최대 6발 발사하며, 마지막 발이 가장 강력합니다. 적 적중 시 자신과 주변 아군에게 추가 체력을 부여합니다.",
+    "ja": "完全な悪魔形態(Full Demon State)に突入する。敵とバリアを貫通する強力な弾丸を最大6発発射し、最終弾が最も強力な威力を発揮する。敵に命中時、自身と周囲の味方に追加空力を付与する。"
+  },
+  "Enter the Void for free-flight. Upon reappearing, gain a decaying Movement Boost and damage surrounding enemies": {
+    "ko": "공허 속으로 뛰어들어 자유롭게 비행합니다. 재출현 시 점차 감소하는 이동 속도 증가를 얻고 주변 적에게 피해를 입힙니다.",
+    "ja": "虚無の世界へ潜り込んで自由飛行する。再出現時に周囲へダメージを与え、徐々に減衰する加速を得る。"
+  },
+  "Throw a dark magic sphere that generates a Veil upon landing. Accursed Pistols shots passing through it generate more Demonic Energy and bullets from Leaded Transformation gain increased Lifesteal. Enemy projectiles passing through suffer reduced damage and healing output. Enemies who pass through the Veil take damage and are Blinded": {
+    "ko": "암흑 장막을 펼쳐 통과하는 아군의 탄환에 흡혈과 에너지 충전을 더하고, 적의 투사체 위력을 약화시키며 통과하는 적에게 피해와 실명을 부여합니다.",
+    "ja": "深淵の帳を展開し、通過する味方弾を強化・吸血付与し、敵弾を弱体化、通過した敵にダメージとブラインドを与える。"
+  },
+  "Accumulate Demonic Energy by dealing damage via Accursed Pistols, blocking attacks with Mantle of Oblivion, or by using Void Walk. Reaching full energy automatically triggers the Half-Demon State": {
+    "ko": "피해를 주거나 공격을 방어하여 악마 에너지를 축적하며, 게이지가 가득 차면 자동으로 반악마 상태가 발동됩니다.",
+    "ja": "攻撃や防御で悪魔エネルギーを蓄積し、最大値に達すると自動で半悪魔形態へと移行する。"
+  },
+  "Devil-Beast Rampage: Erupt in primal fury! Gain a massive Movement Speed Boost while unleashing earth-shattering stomps that Launch enemies and applies a Bleed. Thunderous roars also emit sonic waves that Slow enemies hit": {
+    "ko": "원시의 분노를 폭발시켜 이동 속도가 대폭 증가하며, 지면을 강타해 적을 띄우고 출혈을 겁니다. 포효 시 적을 감속시키는 음파를 방출합니다.",
+    "ja": "原始の怒りを爆発させ大幅に加速し、地面を踏み鳴らして敵を打ち上げ出血を付与する。咆哮でスロウ音波を放つ。"
+  },
+  "Savage Predation: Dash and pounce on your prey with a vicious bite, applying a Bleed. If the target is already Bleeding, clamp down before hurling them away": {
+    "ko": "먹잇감을 향해 도약하여 사나운 물어뜯기로 출혈을 가합니다. 이미 출혈 중인 적은 붙잡아 멀리 내던집니다.",
+    "ja": "獲物へ飛びかかって獰猛な噛みつきで出血を付与する。すでに出血中の敵は咥え込んで遠方へ投げ飛ばす。"
+  },
+  "Buddy Barrier: Activate the heart-shaped generator to expand a spherical shield that blocks incoming damage. Enemies caught within are Slowed": {
+    "ko": "하트 발생기를 작동시켜 구형 보호막을 펼칩니다. 내부의 적들은 감속됩니다.",
+    "ja": "ハート型ジェネレーターを作動させ球状シールドを展開する。内部の敵にスロウを付与する。"
+  },
+  "Frenzied Feast: Unleash a flurry of continuous bites, converting the damage dealt into Bonus Health. Deals extra damage against Bleeding targets": {
+    "ko": "연속으로 물어뜯어 입힌 피해를 추가 체력으로 전환합니다. 출혈 중인 적에게 추가 피해를 입힙니다.",
+    "ja": "怒涛の連続噛みつきを放ち、与ダメージを追加空力に変換する。出血中の敵には特効ダメージを与える。"
+  },
+  "Prehistoric Plating: Take reduced damage from headshots. Immune to launch-up, knock-back, and other displacement effects. Enemies and allies generate less Ultimate Ability Energy when damaging or healing him": {
+    "ko": "패시브: 헤드샷 피해가 감소하며 띄우기 및 넉백에 면역이 됩니다. 자신을 향한 공격이나 치유 시 상대의 궁극기 게이지 충전량이 감소합니다.",
+    "ja": "パッシブ: ヘッドショットダメージを軽減し、打ち上げやノックバックを無効化する。自身への攻撃・回復時のULT充電量を抑制する。"
+  },
+  "Apex Advantage: Gain Bonus Health when you inflict Bleeding upon an enemy": {
+    "ko": "패시브: 적에게 출혈을 부여할 때마다 추가 체력을 획득합니다.",
+    "ja": "パッシブ: 敵に出血を付与するたびに追加空力を獲得する。"
+  },
+  "Prehistoric Partner: The Punisher rides atop Devil Dinosaur, restricting him to only Adjudication/Deliverance and Scourge Grenade while disabling other abilities. While mounted, Devil Dinosaur absorbs a portion of all damage inflicted on The Punisher": {
+    "ko": "퍼니셔가 데빌 다이노소어에 탑승하여 화력을 퍼붓습니다. 탑승 중 공룡이 퍼니셔가 받는 피해의 일부를 대신 흡수합니다.",
+    "ja": "パニッシャーがデビル・ダイナソーに騎乗して射撃を行う。騎乗中、恐竜がパニッシャーの被ダメージの一部を肩代わりする。"
+  },
+  "TELEPATHIC PULSE: Fire a psionic beam to deal damage; the longer the beam hits, the higher the damage": {
+    "ko": "사이오닉 광선을 발사합니다. 광선을 오래 적중시킬수록 피해량이 지속적으로 상승합니다.",
+    "ja": "サイキックビームを照射する。照射時間が持続するほど与ダメージが上昇する。"
+  },
+  "FACETED FURY: In Diamond Form, deliver a crushing double-fisted strike to enemies": {
+    "ko": "다이아몬드 폼에서 양 주먹으로 적을 분쇄하는 강타를 내리꽂습니다.",
+    "ja": "ダイヤモンド形態で両拳による粉砕打撃を叩き込む。"
+  },
+  "MIND'S AEGIS: Create a levitating barrier at the designated location": {
+    "ko": "목표 위치에 부유하는 정신의 방벽(Mind's Aegis)을 생성하여 피해를 차단합니다.",
+    "ja": "指定位置に浮遊バリアを展開し、敵の攻撃を防ぐ。"
+  },
+  "CRYSTAL KICK: In Diamond Form, unleash a flying kick forward and knock back enemies; extra damage is dealt if they're propelled into a wall": {
+    "ko": "다이아몬드 폼에서 전방으로 날아차기를 가해 적을 밀쳐내며, 적이 벽에 충돌하면 추가 벽쿵 피해를 입힙니다.",
+    "ja": "ダイヤモンド形態で前方へ飛び蹴りを放ち敵をノックバックする。壁に衝突させると追加ダメージを与える。"
+  },
+  "PSIONIC SEDUCTION: Project a forward psychic assault that stuns foes and prevents them from unleashing their Ultimate Abilities; if the effect lingers, it gradually commandeers their mind, forcing them to move toward Emma Frost": {
+    "ko": "정신 공격을 전방으로 투사하여 적을 기절시키고 궁극기 사용을 봉쇄하며, 지속 시 정신을 조종해 엠마 프로스트 쪽으로 걸어오게 만듭니다.",
+    "ja": "前方に精神波を放ち、敵をスタンさせULTを封殺する。持続すると精神を支配し、エマの元へ歩み寄らせる。"
+  },
+  "DIAMOND FORM: Activate Diamond Form to transform your attack style while gaining Damage Reduction and becoming Unstoppable": {
+    "ko": "다이아몬드 폼을 발동하여 전투 스타일을 근접으로 바꾸고, 피해 감소와 함께 저지 불가(Unstoppable) 상태가 됩니다.",
+    "ja": "ダイヤモンド形態を起動して近接格闘へと切り替え、被ダメージ軽減と阻止不能(アンストッパブル)を得る。"
+  },
+  "PSYCHIC SPEAR: Seize control of an enemy's sentience—damage dealt to the sentience cascades to the physical form and can be pierced by Telepathic Pulse. When the sentience shatters, it unleashes extra damage on its owner": {
+    "ko": "적의 지각체를 분리 장악합니다. 지각체에 가해진 피해는 본체로 전이되며, 파괴 시 본체에 추가 폭발 피해를 가합니다.",
+    "ja": "敵の知覚体を掌握する。知覚体へのダメージは本体へ転移し、破壊時に本体へ追加爆発ダメージを与える。"
+  },
+  "CARBON CRUSH: In Diamond Form, lunge forward to grab an enemy, then execute a back slam to inflict damage": {
+    "ko": "다이아몬드 폼에서 전방으로 돌진하여 적을 붙잡은 뒤 뒤로 내리찍어 강력한 피해를 가합니다.",
+    "ja": "ダイヤモンド形態で突進して敵を掴み、後方へ叩きつけて大ダメージを与える。"
+  },
+  "ICED OUT DIAMOND: Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates Harmony Recovery, he can heal nearby allies with Lunar Chi. Emma Frost can project ice energy forward, dealing damage and slowing enemies. She can also enhance her diamond form, condensing frost into an Absolute Zero Diamond barrier that blocks enemy attacks and movement": {
+    "ko": "루나 스노우의 한기를 받아 전방으로 얼음 에너지를 방출해 감속시키고, 절대영도 다이아몬드 방벽을 전개해 적의 공격과 이동을 완벽히 차단합니다.",
+    "ja": "ルナ・スノーの冷気を得て氷のエネルギーを放ちスロウを付与、絶対零度のダイヤモンド障壁で敵の攻撃と移動を完全に遮断する。"
+  },
+  "Stretch Punch: Stretch out a forward punch to attack enemies": {
+    "ko": "고무처럼 늘어나는 주먹을 길게 뻗어 전방의 적들을 타격합니다.",
+    "ja": "ゴムのように伸縮する拳を長く伸ばして前方の敵を攻撃する。"
+  },
+  "Distended Grip: Extend arms forward to entangle an enemy, then press Primary Attack to pull the hit enemy toward him, or select and yank another enemy, Knocking Them Airborne against each other. Hit targets are Immobilized": {
+    "ko": "양팔을 뻗어 적을 옭아맨 뒤 자신 쪽으로 끌어당기거나, 다른 적과 맞부딪치게 하여 공중으로 띄웁니다.",
+    "ja": "両腕を伸ばして敵を捕縛し、手元へ引き寄せるか別の敵と正面衝突させて打ち上げる。"
+  },
+  "Brainiac Bounce: Leap upward and smash the ground, slowing enemies within range. Mister Fantastic can leap again upon landing a hit": {
+    "ko": "공중으로 높이 도약한 뒤 지면을 내리쳐 범위 내 적들을 감속시킵니다. 적중 시 다시 도약할 수 있습니다.",
+    "ja": "上空へ跳躍して地面へ叩きつけ、範囲内の敵をスロウにする。命中時に再度跳躍可能。"
+  },
+  "Reflexive Rubber: Stretch the body to absorb damage before launching stored damage in the targeted direction": {
+    "ko": "몸을 풍선처럼 팽창시켜 적의 피해를 흡수한 뒤, 축적된 피해를 목표 방향으로 강력하게 되돌려 발사합니다.",
+    "ja": "体を膨張させてダメージを吸収し、蓄積したエネルギーを指定方向へ強力に跳ね返す。"
+  },
+  "Flexible Elongation: Gain a Shield, select a target and dash towards them, dealing damage to enemies or granting a Shield to allies": {
+    "ko": "보호막을 얻고 목표를 지정하여 급돌진합니다. 적에게는 피해를, 아군에게는 보호막을 부여합니다.",
+    "ja": "シールドを獲得して標的へ急突進し、敵にはダメージを、味方にはシールドを付与する。"
+  },
+  "FANTASTIC AMPLIFIER: Rocket Raccoon upgrades his B.R.B. for Star-Lord and Mister Fantastic. Star-Lord gets an Astral Jump device, allowing him to teleport to its deployment point from anywhere on the map. Mister Fantastic receives a Fantastic Amplifier, removing his Elasticity limit and letting him actively enter Inflation state": {
+    "ko": "로켓 라쿤의 강화 장치로 탄력성 한계가 해제되어 자유롭게 팽창 상태에 돌입할 수 있게 됩니다.",
+    "ja": "ロケット・ラクーンの強化により弾力制限が解除され、能動的に膨張状態へ移行可能になる。"
+  },
+  "Elastic Strength: Using abilities generates Elasticity, boosting attack power. Reaching full Elasticity triggers an Inflated state that increases Maximum Health, further boosts damage, and enables the use of Reflexive Rubber": {
+    "ko": "패시브: 스킬 사용 시 탄력성이 축적되어 공격력이 상승하며, 최대 충전 시 팽창 상태가 되어 최대 체력이 증가하고 반사 능력이 해금됩니다.",
+    "ja": "パッシブ: スキル使用で弾力性が蓄積し攻撃力が上昇。最大充電で膨張状態となり最大体力が向上し反射スキルが解禁される。"
+  },
+  "Power Surge Punch: Punch forward with both fists": {
+    "ko": "양 주먹으로 전방을 강타합니다.",
+    "ja": "両拳で前方へパンチを放つ。"
+  },
+  "Southern Brawl: While in Defensive Stance, dash forward and slam enemies in front, dealing area damage": {
+    "ko": "방어 자세 중 전방으로 돌진하여 전방의 적들을 강타해 광역 피해를 입힙니다.",
+    "ja": "防御姿勢中、前方へ突進して前方の敵を叩きつけ範囲ダメージを与える。"
+  },
+  "Defensive Stance: Absorb nearby projectiles and reduce incoming damage; absorbed damage powers up your next Southern Brawl": {
+    "ko": "방어 자세를 취해 주변 투사체를 흡수하고 피해를 줄이며, 흡수한 피해로 다음 공격을 대폭 강화합니다.",
+    "ja": "防御の構えで周囲の弾丸を吸収し被ダメージを軽減、吸収量に応じて次の攻撃を強化する。"
+  },
+  "Heartbreaker: Continuously absorb Ultimate Ability Energy from nearby enemies and steal stats based on their role": {
+    "ko": "주변 적들의 궁극기 게이지를 지속적으로 흡수하고 역할군에 따른 능력치를 빼앗아옵니다.",
+    "ja": "周囲の敵からULTエネルギーを持続吸収し、相手のロールに応じたステータスを強奪する。"
+  },
+  "Fatal Attraction: Dash forward. Press again to unleash a burst of Chronovium Power, dealing continuous damage to nearby foes; after a delay, the energy retracts, pulling all enemies towards Rogue": {
+    "ko": "전방으로 돌진한 뒤 크로노비움 에너지를 폭발시켜 지속 피해를 주고, 잠시 후 모든 적을 로그 쪽으로 끌어당깁니다.",
+    "ja": "前方へ突進後、クロノビウムエネルギーを炸裂させて持続ダメージを与え、短時間後に全敵を自身へ引き寄せる。"
+  },
+  "Chrono Kick Combo: Dash forward and launch the enemy, entering flight; activate again to Knock Down nearby enemies. Your next two Power Surge Punch attacks become ranged, piercing enemies and granting Bonus Health": {
+    "ko": "적을 차올려 비행 상태에 돌입한 뒤 급강하하여 적들을 격추시킵니다. 이후 두 차례의 기본 공격이 관통 원거리 펀치로 강화되며 추가 체력을 부여합니다.",
+    "ja": "敵を蹴り上げて飛行状態に入り、急降下で撃墜する。次の2回のパンチが貫通遠距離攻撃へ変化し追加空力を得る。"
+  },
+  "Ability Absorption: Dash forward to knock down your target and absorb their energy; after absorbing, replace Ability Absorption with one of their abilities or refresh Fatal Attraction. Also absorb Health and stats based on their role": {
+    "ko": "전방으로 돌진하여 적을 넘어뜨리고 능력을 흡수합니다. 대상의 핵심 스킬을 복사하여 사용하며 체력과 능력치를 흡수합니다.",
+    "ja": "突進して敵をノックダウンし能力を吸収する。対象のアビリティをコピーして使用可能になり、体力とステータスを強奪する。"
+  },
+  "HEARTS AS ONE: Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, Iron Volley is replaced with Ace Greatsword, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies": {
+    "ko": "로그의 모든 공격이 운동 에너지 폭발을 일으켜 주변 적에게 피해를 주고 주변 아군을 치유합니다.",
+    "ja": "ローグの全攻撃が運動爆発を引き起こし、周囲の敵にダメージを与え周囲の味方を回復する。"
+  },
+  "Cosmic Flames: Launch a fiery projectile forward, applying 1 Spark to enemies hit. Critical hits apply 2 Sparks. At 3 Sparks, Phoenix triggers a fiery explosion that applies 1 Spark to enemies around and Healing Over Time to self. Sparks from explosions will not stack within a brief period": {
+    "ko": "우주 화염 투사체를 발사하여 적중한 적에게 불꽃(Spark) 1개를 부여합니다. 치명타 시 2개를 부여합니다. 불꽃 3개가 중첩되면 연쇄 폭발을 일으켜 주변 적에게 불꽃 1개를 부여하고 자신에게 지속 치유를 부여합니다.",
+    "ja": "宇宙の火炎弾を発射し、命中した敵に火花(Spark)1個を付与する。クリティカル時は2個付与。火花が3個に達すると爆発を起こし、周囲の敵に火花1個を付与して自身に持続回復を与える。"
+  },
+  "Telekinesis Burst: Mark a targeted area with psionic energy, followed by a series of fiery explosions. The first blast Stuns enemies, while the subsequent two explosions inflict Slow. Applies 1 Spark to enemies hit": {
+    "ko": "사이오닉 에너지로 목표 지점을 지정하여 연속 화염 폭발을 일으킵니다. 첫 폭발은 적을 기절(Stun)시키며, 이후 2회의 폭발은 감속을 부여합니다. 적중 시 불꽃 1개를 부여합니다.",
+    "ja": "念動力で指定エリアを爆撃する。初撃は敵をスタンさせ、続く2回の爆発はスロウを付与する。命中時に火花1個を付与。"
+  },
+  "Endsong Inferno: Soar into the sky with the Phoenix and crash down onto a selected area, dealing devastating damage to enemies while creating a shockwave that destroys enemy summons, shields, and any Bonus Health. Enemies hit are applied with 1 Spark": {
+    "ko": "피닉스와 함께 하늘로 솟구친 뒤 목표 지점으로 급강하하여 막대한 피해를 입히고 모든 적 소환수와 보호막, 추가 체력을 파괴하는 충격파를 일으킵니다. 적중당한 적에게 불꽃 1개를 부여합니다.",
+    "ja": "フェニックスと共に上空へ舞い上がり、目標地点へ急降下して甚大なダメージを与え、敵の召喚物・シールド・追加空力を消滅させる。命中時に火花1個を付与。"
+  },
+  "Telepathic Illusion: Leave behind an illusion and instantly teleport in the desired direction, followed by detonating the illusion. Enemies hit are applied with 1 Spark": {
+    "ko": "환영을 남기고 원하는 방향으로 즉시 순간이동하며, 직후 남겨진 환영이 폭발합니다. 적중한 적에게 불꽃 1개를 부여합니다.",
+    "ja": "幻影を残して指定方向へ瞬時にテレポートし、直後に幻影を起爆する。命中した敵に火花1個を付与。"
+  },
+  "Dark Ascent: Merge with the Phoenix, entering a state of free flight. Gain a Movement Boost": {
+    "ko": "피닉스와 하나가 되어 자유 비행 상태에 돌입하며 이동 속도가 대폭 증가합니다.",
+    "ja": "フェニックスと一体化して自由飛行状態に入り、移動速度が大幅に上昇する。"
+  },
+  "Mind's Grace: Jean Grey imbues Wolverine with the awe-inspiring Phoenix Force": {
+    "ko": "진 그레이가 울버린에게 피닉스 포스를 주입하여 전설적인 피닉스 워리어로 각성시킵니다.",
+    "ja": "ジーン・グレイがウルヴァリンにフェニックスフォースを授け、覚醒状態へ導く。"
+  }
+}

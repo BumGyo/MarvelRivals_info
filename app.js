@@ -871,10 +871,34 @@
     if (!skill) return '';
     if (lang === 'en') return skill.description || '';
     if (skill.description_trans?.[lang]) return skill.description_trans[lang];
-    if (translationsData?.skills) {
-      const normKey = skill.description ? skill.description.replace(/\s+/g, ' ').trim() : '';
+    if (translationsData?.skills && skill.description) {
+      const desc = skill.description;
+      const normKey = desc.replace(/\s+/g, ' ').trim();
       if (translationsData.skills[normKey]?.[lang]) return translationsData.skills[normKey][lang];
-      if (translationsData.skills[skill.description]?.[lang]) return translationsData.skills[skill.description][lang];
+      if (translationsData.skills[desc]?.[lang]) return translationsData.skills[desc][lang];
+
+      // Dynamic numerical pattern resilience
+      const targetNums = normKey.match(/\d+(?:\.\d+)?/g);
+      if (targetNums && targetNums.length > 0) {
+        const targetTemplate = normKey.replace(/\d+(?:\.\d+)?/g, '<NUM>');
+        for (const [candKey, trans] of Object.entries(translationsData.skills)) {
+          if (!trans?.[lang]) continue;
+          const candNums = candKey.match(/\d+(?:\.\d+)?/g);
+          if (candNums && candNums.length === targetNums.length) {
+            const candTemplate = candKey.replace(/\d+(?:\.\d+)?/g, '<NUM>').replace(/\s+/g, ' ').trim();
+            if (candTemplate === targetTemplate) {
+              let res = trans[lang];
+              for (let i = 0; i < candNums.length; i++) {
+                if (candNums[i] !== targetNums[i]) {
+                  const regex = new RegExp('(?<!\\d)' + candNums[i].replace('.', '\\.') + '(?!\\d)', 'g');
+                  res = res.replace(regex, targetNums[i]);
+                }
+              }
+              return res;
+            }
+          }
+        }
+      }
     }
     return skill.description || '';
   }
