@@ -209,15 +209,44 @@ if (!fs.existsSync(heroesPath)) {
       });
     });
 
-    // Check stat labels coverage across all hero skills
+    // Check stat labels & values coverage across all hero skills
     let totalStatLabels = 0;
     let translatedStatLabels = 0;
+    let totalStatValues = 0;
+    let translatedStatValues = 0;
+
     const statLabelsDict = unified.stat_labels || {};
+    const statValuesDict = unified.stat_values || {};
+    const statPatterns = unified.stat_patterns || [];
+
+    function translateStatVal(v, lang) {
+      if (!v || typeof v !== 'string') return v;
+      const trimmed = v.trim();
+      const stripped = trimmed.replace(/\.$/, '');
+      const withDot = stripped + '.';
+      const candidates = [trimmed, stripped, withDot];
+
+      for (const c of candidates) {
+        if (statValuesDict[c]?.[lang]) return statValuesDict[c][lang];
+      }
+      for (const c of candidates) {
+        const lower = c.toLowerCase();
+        const found = Object.keys(statValuesDict).find(x => x.toLowerCase() === lower);
+        if (found && statValuesDict[found]?.[lang]) return statValuesDict[found][lang];
+      }
+      for (const p of statPatterns) {
+        try {
+          const r = new RegExp(p.regex, 'i');
+          if (r.test(trimmed)) return trimmed.replace(r, p[lang] || p.ko || '');
+        } catch (e) {}
+      }
+      return v;
+    }
 
     heroes.forEach(h => {
       function checkStats(s) {
         if (!s || !s.stats) return;
-        for (const k of Object.keys(s.stats)) {
+        for (const [k, val] of Object.entries(s.stats)) {
           if (k.toLowerCase() === 'key') continue;
           totalStatLabels++;
           const tr = statLabelsDict[k.trim()] || statLabelsDict[k];
@@ -225,6 +254,21 @@ if (!fs.existsSync(heroesPath)) {
             translatedStatLabels++;
           } else {
             reportError(`Hero ${h.name} stat label '${k}' is missing KO/JA translation in stat_labels!`);
+          }
+
+          if (typeof val === 'string' && val.trim()) {
+            const vTrim = val.trim();
+            // Check if string contains English textual explanation
+            if (!/^[\d\s\.\,\-\+\/\%\°\(\)\:\;]+$/.test(vTrim)) {
+              totalStatValues++;
+              const koTrans = translateStatVal(vTrim, 'ko');
+              const jaTrans = translateStatVal(vTrim, 'ja');
+              const isTranslated = (koTrans !== vTrim || !/[a-zA-Z]{3,}/.test(vTrim)) &&
+                                   (jaTrans !== vTrim || !/[a-zA-Z]{3,}/.test(vTrim));
+              if (isTranslated) {
+                translatedStatValues++;
+              }
+            }
           }
         }
         if (s.upgrade) checkStats(s.upgrade);
@@ -236,6 +280,7 @@ if (!fs.existsSync(heroesPath)) {
     console.log(`✓ Skills translation: ${translatedSkills} native + ${fallbackSkills} fallback / ${totalSkills} total (${(((translatedSkills + fallbackSkills)/totalSkills)*100).toFixed(1)}% available)`);
     console.log(`✓ Teamups translation: ${translatedTeamups} native + ${fallbackTeamups} fallback / ${totalTeamups} total (${(((translatedTeamups + fallbackTeamups)/totalTeamups)*100).toFixed(1)}% available)`);
     console.log(`✓ Stat labels (titles) translation: ${translatedStatLabels} / ${totalStatLabels} (${((translatedStatLabels/totalStatLabels)*100).toFixed(1)}% translated)`);
+    console.log(`✓ Stat values (descriptions) translation: ${translatedStatValues} / ${totalStatValues} (${((translatedStatValues/totalStatValues)*100).toFixed(1)}% translated)`);
     console.log(`✓ English name integrity: ${namePurityViolations === 0 ? 'Passed (All English)' : 'Failed'}`);
 
   } catch (e) {

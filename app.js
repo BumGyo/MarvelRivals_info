@@ -949,15 +949,23 @@
     if (!v || typeof v !== 'string' || lang === 'en') return v;
     const trimmed = v.trim();
 
-    // 1. Exact or case-insensitive value translation
-    if (translationsData?.stat_values?.[trimmed]?.[lang]) {
-      return translationsData.stat_values[trimmed][lang];
+    // 1. Exact or case-insensitive value translation (supporting trailing dot variations)
+    const stripped = trimmed.replace(/\.$/, '');
+    const withDot = stripped + '.';
+    const candidates = [trimmed, stripped, withDot];
+
+    for (const cand of candidates) {
+      if (translationsData?.stat_values?.[cand]?.[lang]) {
+        return translationsData.stat_values[cand][lang];
+      }
     }
     if (translationsData?.stat_values) {
-      const lower = trimmed.toLowerCase();
-      const foundKey = Object.keys(translationsData.stat_values).find(x => x.toLowerCase() === lower);
-      if (foundKey && translationsData.stat_values[foundKey]?.[lang]) {
-        return translationsData.stat_values[foundKey][lang];
+      for (const cand of candidates) {
+        const lower = cand.toLowerCase();
+        const foundKey = Object.keys(translationsData.stat_values).find(x => x.toLowerCase() === lower);
+        if (foundKey && translationsData.stat_values[foundKey]?.[lang]) {
+          return translationsData.stat_values[foundKey][lang];
+        }
       }
     }
 

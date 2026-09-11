@@ -11501,6 +11501,2210 @@
     "Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts": {
       "ko": "전투 중 경험치를 획득하며 가득 차면 스킬을 업그레이드하여 강력한 강화를 얻습니다.",
       "ja": "戦闘で経験値を溜め、満タン時にアビリティを強化して強力なバフを獲得します。"
+    },
+    "At full charge, Spear of Ichor can launch up enemies and cause 20 extra damage.": {
+      "ko": "완전 충전 시 Spear of Ichor가 적을 공중에 띄우고 20의 추가 피해를 입힙니다.",
+      "ja": "最大チャージ時、Spear of Ichorが敵を打ち上げ20の追加ダメージを与えます。"
+    },
+    "The fourth strike propels you forward in a swift dash.": {
+      "ko": "4번째 타격 시 전방으로 신속하게 돌진합니다.",
+      "ja": "4撃目に前方へ素早くダッシュ突進します。"
+    },
+    "Mobility abilities of enemies bound by the ribbons will be disabled. Enemies within a certain distance around the spear will be slowed.": {
+      "ko": "리본에 묶인 적은 이동기가 비활성화되며, 창 주변 일정 거리 내의 적은 감속됩니다.",
+      "ja": "リボンに拘束された敵は移動アビリティが使用不可になり、槍の周囲の敵に鈍足を付与します。"
+    },
+    "25/s; 75/s when piercing an enemy": {
+      "ko": "초당 25 | 적 관통 시 초당 75",
+      "ja": "毎秒25 | 敵貫通時 毎秒75"
+    },
+    "Every enemy pierced grants Angela with a 50/s passive energy recovery.": {
+      "ko": "적을 관통할 때마다 안젤라의 초당 패시브 에너지 회복량이 50 증가합니다.",
+      "ja": "敵を貫通するごとにアンジェラのエネルギー自然回復が秒間50増加します。"
+    },
+    "Hit damage: 30; damage over time: 12.5/s": {
+      "ko": "타격 데미지: 30 | 지속 데미지: 초당 12.5",
+      "ja": "直撃ダメージ: 30 | 持続ダメージ: 秒間12.5"
+    },
+    "A cylindrical spell field with a radius of 8m and a height of 2m.": {
+      "ko": "반경 8m, 높이 2m 원기둥형 장판",
+      "ja": "半径8m・高さ2mの円柱状フィールド"
+    },
+    "Within the Divine Judgement zone, Angela’s each Axes of Ichors hit grants 50 Bonus Health to herself and 25 Bonus Health to allies within the area.": {
+      "ko": "Divine Judgement 영역 내에서 Axes of Ichors 타격 시 자신에게 50, 영역 내 아군에게 25의 Bonus Health를 부여합니다.",
+      "ja": "Divine Judgement領域内でAxes of Ichors命中時、自身に50、範囲内の味方に25のBonus Healthを付与します。"
+    },
+    "60°": {
+      "ko": "60°",
+      "ja": "60°"
+    },
+    "Maintain the forward speed faster than 5m/s for 1s": {
+      "ko": "전방 속도 5m/s 이상을 1초간 유지",
+      "ja": "前方移動速度5m/s以上を1秒間維持"
+    },
+    "Change Form": {
+      "ko": "폼 변경",
+      "ja": "フォーム切替"
+    },
+    "Melee Attack Damage: 45, Flying Shield Damage: 45": {
+      "ko": "근접 공격 데미지: 45 | 방패 투척 데미지: 45",
+      "ja": "近接攻撃ダメージ: 45 | 盾投擲ダメージ: 45"
+    },
+    "Melee 1st Hit: 0.4s, Melee 2nd Hit: 0.5s, Flying Shield 1st Hit: 0.5s, Flying Shield 2nd Hit: 0.57s": {
+      "ko": "근접 1타: 0.4초, 근접 2타: 0.5초 | 방패 1타: 0.5초, 방패 2타: 0.57초",
+      "ja": "近接1撃目: 0.4秒、近接2撃目: 0.5秒 | 盾投擲1撃目: 0.5秒、盾投擲2撃目: 0.57秒"
+    },
+    "Up to 4 throws": {
+      "ko": "최대 4회 투척",
+      "ja": "最大4回投擲"
+    },
+    "Automatically target enemies near the crosshair": {
+      "ko": "조준점 주변 적 자동 조준",
+      "ja": "照準付近の敵を自動追尾"
+    },
+    "20m (horizontal)": {
+      "ko": "20m (수평)",
+      "ja": "20m（水平）"
+    },
+    "Activation": {
+      "ko": "발동",
+      "ja": "発動"
+    },
+    "A spherical spell field with a 4m radius enveloping the caster, and a spell area with a width of 4m along the path": {
+      "ko": "시전자를 감싸는 반경 4m 구형 장판 및 경로를 따라 전개되는 너비 4m 장판",
+      "ja": "術者を包む半径4mの球状フィールド、および進路に沿った幅4mのエリア"
+    },
+    "Cast to gain 150 Bonus Health and grant allies 100 Bonus Health. Every second afterward, gain 100 Bonus Health and grant allies 60 Bonus Health": {
+      "ko": "시전 시 자신에게 150, 아군에게 100의 Bonus Health 부여. 이후 매초 자신은 100, 아군은 60의 Bonus Health 획득",
+      "ja": "発動時自身に150、味方に100のBonus Health付与。その後毎秒自身に100、味方に60のBonus Health獲得"
+    },
+    "Grant a 30% Movement Boost to both yourself and your allies": {
+      "ko": "자신과 아군 모두에게 30% 이동 속도 증가 부여",
+      "ja": "自身と味方全員に移動速度30%上昇を付与"
+    },
+    "Allies within its path gain a 20% boost to Ultimate Energy charge efficiency": {
+      "ko": "경로 상의 아군은 궁극기 에너지 충전 효율이 20% 증가합니다.",
+      "ja": "進路上の味方はアルティメットエネルギー充填効率が20%上昇します。"
+    },
+    "Single-cast projectile that can ricochet": {
+      "ko": "도탄 가능한 단일 투사체",
+      "ja": "跳弾可能な単発弾"
+    },
+    "Start at 70, with a 20% reduction for each ricochet": {
+      "ko": "기본 70 데미지, 도탄 시마다 20%씩 감소",
+      "ja": "初期ダメージ70、跳弾ごとに20%減少"
+    },
+    "Single-cast forward dash": {
+      "ko": "단일 전방 돌진",
+      "ja": "単発前方突進"
+    },
+    "Within the duration, deflect Projectiles ricochet directly toward his target direction.": {
+      "ko": "지속 시간 동안 날아오는 투사체를 목표 방향으로 즉시 반사합니다.",
+      "ja": "効果時間中、飛来する投射物を照準方向へ直接跳ね返します。"
+    },
+    "Captain America gain 100 Max Health": {
+      "ko": "캡틴 아메리카 최대 체력 +100",
+      "ja": "キャプテン・アメリカ最大体力+100"
+    },
+    "60 per ability missed": {
+      "ko": "스킬 빗맞힐 때마다 60",
+      "ja": "スキルを外すごとに60"
+    },
+    "70 per ability missed": {
+      "ko": "스킬 빗맞힐 때마다 70",
+      "ja": "スキルを外すごとに70"
+    },
+    "Self: 200; allies: 50": {
+      "ko": "자신: 200 | 아군: 50",
+      "ja": "自身: 200 | 味方: 50"
+    },
+    "Self: 300; allies: 50": {
+      "ko": "자신: 300 | 아군: 50",
+      "ja": "自身: 300 | 味方: 50"
+    },
+    "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption. Increase left-click attack speed for the duration.": {
+      "ko": "범위 내 적의 시야를 방해하고 경험치를 얻습니다. 적이 데드풀에게 피해를 주면 방해가 해제됩니다. 지속 시간 동안 좌클릭 공격 속도가 증가합니다.",
+      "ja": "範囲内の敵の視界を妨害して経験値を獲得。敵がデッドプールにダメージを与えると妨害が解除。効果時間中左クリック攻撃速度が上昇します。"
+    },
+    "Self: 35%; allies: 25%": {
+      "ko": "자신: 35% | 아군: 25%",
+      "ja": "自身: 35% | 味方: 25%"
+    },
+    "Five-round delayed hit projectiles": {
+      "ko": "5연발 시간차 타격 투사체",
+      "ja": "5連発時間差着弾弾"
+    },
+    "5.56 rounds per second, with a 0.03-second interval between every two rounds": {
+      "ko": "초당 5.56발 (연발 간격 0.03초)",
+      "ja": "毎秒5.56発（連射間隔0.03秒）"
+    },
+    "12 (1 dagger per release)": {
+      "ko": "12 (방출당 단검 1개)",
+      "ja": "12（1射あたり短剣1本）"
+    },
+    "Each point of Dark Magic deals 1.3 damage": {
+      "ko": "Dark Magic 1포인트당 1.3 데미지",
+      "ja": "Dark Magic 1ポイントにつき1.3ダメージ"
+    },
+    "Each point of energy deals 1.3 damage.": {
+      "ko": "에너지 1포인트당 1.3 데미지",
+      "ja": "エネルギー1ポイントにつき1.3ダメージ"
+    },
+    "The spell field pulls enemies in range toward Doctor Strange": {
+      "ko": "장판 범위 내 적들을 닥터 스트레인지 쪽으로 끌어당깁니다.",
+      "ja": "フィールド範囲内の敵をドクター・ストレンジの元へ引き寄せます。"
+    },
+    "Multi-segment release": {
+      "ko": "다단 방출",
+      "ja": "多段発動"
+    },
+    "Daggers of Denak: Each hit generates 3.5 Dark Magic. When using the V key, every enemy hit generates 10 Dark Magic": {
+      "ko": "Daggers of Denak: 타격당 3.5 Dark Magic 생성. V키 사용 시 적중한 적마다 10 Dark Magic 생성",
+      "ja": "Daggers of Denak: ヒットごとに3.5 Dark Magic生成。Vキー使用時は敵命中ごとに10 Dark Magic生成"
+    },
+    "Doctor Strange gain 100 Max Health": {
+      "ko": "닥터 스트레인지 최대 체력 +100",
+      "ja": "ドクター・ストレンジ最大体力+100"
+    },
+    "Spore Bomb generates a spell field with a 5m spherical radius, while small explosive spores create a spell field with a 1.5m spherical radius": {
+      "ko": "Spore Bomb는 반경 5m 구형 장판 생성, 소형 분열 포자는 반경 1.5m 구형 장판 생성",
+      "ja": "Spore Bombは半径5mの球状フィールドを生成、小型分裂胞子は半径1.5mの球状フィールドを生成"
+    },
+    "The projectile itself deals no damage, while Spore Bomb deals 55 damage and explosive spores deal 10 damage": {
+      "ko": "투사체 자체 데미지는 없으며 Spore Bomb 폭발 시 55, 분열 포자 폭발 시 10 데미지",
+      "ja": "弾自体のダメージは無く、Spore Bomb爆発時に55、分裂胞子爆発時に10ダメージ"
+    },
+    "Spore Bomb explodes into 6 explosive spores": {
+      "ko": "Spore Bomb 폭발 시 6개의 분열 포자로 분열",
+      "ja": "Spore Bomb爆発時に6個の分裂胞子へ拡散"
+    },
+    "The projectile deals 10 damage, while the spell field deals 70 damage. While imprisoning enemies, it deals 20 damage every 0.5s": {
+      "ko": "투사체 직격 시 10, 장판 폭발 시 70 데미지. 적 감금 중 0.5초마다 20 지속 데미지",
+      "ja": "弾直撃時10、フィールド爆発時70ダメージ。敵拘束中は0.5秒ごとに20持続ダメージ"
+    },
+    "Imprison enemies for 3.5s": {
+      "ko": "3.5초간 적 감금 구속",
+      "ja": "3.5秒間敵を拘束"
+    },
+    "Thornlash Wall deals 60 damage every 0.5s": {
+      "ko": "Thornlash Wall은 0.5초마다 60 데미지 부여",
+      "ja": "Thornlash Wallは0.5秒ごとに60ダメージ付与"
+    },
+    "Ironwood Wall heals 40 Bonus Health per second, up to 250 Bonus Health; gain Unstoppable status when within 15m of Awakened Ironwood Walls": {
+      "ko": "Ironwood Wall은 초당 40 Bonus Health 회복 (최대 250). 각성 Ironwood Wall 15m 이내 시 저지 불가 상태 부여",
+      "ja": "Ironwood Wallは毎秒40のBonus Health回復（最大250）。覚醒Ironwood Wallの15m以内にいる時阻止不能状態を獲得"
+    },
+    "The first two strikes can reach 3m, while the third strike can reach 4m": {
+      "ko": "1~2타 사거리 3m, 3타 사거리 4m",
+      "ja": "1~2撃目射程3m、3撃目射程4m"
+    },
+    "Basic Cooldown 2s, with a charge of 6s per use.": {
+      "ko": "기본 쿨다운 2초 (시전당 6초 충전)",
+      "ja": "基本クールダウン2秒（1使用あたり6秒チャージ）"
+    },
+    "Each direct hit reduces Indestructible Guard cooldown by 1s": {
+      "ko": "직격할 때마다 Indestructible Guard 쿨다운이 1초 감소합니다.",
+      "ja": "直撃ごとにIndestructible Guardのクールダウンが1秒短縮されます。"
+    },
+    "When the caster's shield takes damage, 130% of the damage is converted into gamma energy. When an ally's shield takes damage, 10% of the damage is converted into gamma energy": {
+      "ko": "시전자의 쉴드가 피해를 받으면 피해량의 130%가 감마 에너지로 전환됩니다. 아군의 쉴드가 피해를 받으면 10%가 감마 에너지로 전환됩니다.",
+      "ja": "自身のシールドが被弾時、被ダメージの130%がガンマエネルギーに変換されます。味方のシールド被弾時は10%が変換されます。"
+    },
+    "Single-cast projectile.": {
+      "ko": "단일 투사체",
+      "ja": "単発弾"
+    },
+    "When the caster enters the spell field, it restores 50 gamma energy": {
+      "ko": "시전자가 장판 영역에 진입하면 감마 에너지를 50 회복합니다.",
+      "ja": "術者がフィールド内に入るとガンマエネルギーが50回復します。"
+    },
+    "Delivers 5 hits, each dealing 40 damage": {
+      "ko": "5연속 타격, 타격당 40 데미지",
+      "ja": "5回連続ヒット、1撃あたり40ダメージ"
+    },
+    "While performing the smash, Hulk gains a 30% Damage Reduction": {
+      "ko": "스매시 시전 중 헐크는 받는 피해가 30% 감소합니다.",
+      "ja": "スマッシュ発動中、ハルクは被ダメージが30%軽減されます。"
+    },
+    "Single-cast projectile": {
+      "ko": "단일 투사체",
+      "ja": "単発弾"
+    },
+    "Initially, it produces a spell field with a 1m spherical radius; when the projectile reaches maximum distance, the explosion radius expands to a spell field with a 3m spherical radius": {
+      "ko": "초기 반경 1m 구형 장판 생성, 투사체가 최대 거리에 도달하면 폭발 반경이 3m 구형 장판으로 확장",
+      "ja": "初期は半径1mの球状フィールド生成、弾が最大距離到達時に爆発範囲が半径3mの球状フィールドへ拡大"
+    },
+    "Projectile Damage: 40. The spell field deals 40 damage at its center, reducing to 50% within a 3m radius from the center": {
+      "ko": "투사체 데미지: 40. 장판 중심 데미지: 40 (중심 3m 반경 외곽은 50%로 감소)",
+      "ja": "弾ダメージ: 40。フィールド中心ダメージ40（中心から3m範囲で50%に減衰）"
+    },
+    "Iron Rings' first charge deals 40 damage, the second charge deals 65 damage, and the third charge deals 90 damage": {
+      "ko": "Iron Rings 1단계 충전: 40 데미지, 2단계 충전: 65 데미지, 3단계 충전: 90 데미지",
+      "ja": "Iron Rings 1段階チャージ: 40ダメージ、2段階チャージ: 65ダメージ、3段階チャージ: 90ダメージ"
+    },
+    "No cooldown, but the ability can only be activated when the Iron Ring has at least one charge": {
+      "ko": "쿨다운 없음 (단, Iron Ring 충전이 최소 1개 이상 있을 때만 활성화 가능)",
+      "ja": "クールダウンなし（ただしIron Ringチャージが1以上ある時のみ発動可能）"
+    },
+    "When fully charged, the Iron Ring has a 6m knockback distance": {
+      "ko": "완전 충전 시 Iron Ring의 밀쳐내기 거리 6m",
+      "ja": "最大チャージ時、Iron Ringのノックバック距離6m"
+    },
+    "Create a persistent spell field that launches a projectile upon completion, which generates another spell field on impact": {
+      "ko": "지속 장판을 생성하고 완료 시 투사체를 발사하며, 착탄 시 2차 장판을 생성합니다.",
+      "ja": "継続フィールドを展開し終了時に弾を発射、着弾時に2次フィールドを生成します。"
+    },
+    "Initially, the ability has a spherical range with a radius of 5m. After charging for 4s, it expands to an 8m radius": {
+      "ko": "초기 반경 5m 구형 범위에서 4초 충전 후 반경 8m로 확장",
+      "ja": "初期は半径5mの球状範囲、4秒チャージ後に半径8mへ拡大"
+    },
+    "The projectile deals no damage. The base damage at the center of the spell field starts at 100 and increases to 350 when fully charged. Each point of Energy adds an extra 3 points of damage to the spell field, with damage reducing to 50% at a distance of 6m from the center": {
+      "ko": "투사체 자체 피해 없음. 장판 중심 기본 데미지 100~완전 충전 시 350. 에너지 1포인트당 데미지 +3 추가, 중심 6m 지점에서 50%로 감쇠",
+      "ja": "弾自体のダメージはなし。フィールド中心基本ダメージ100〜フルチャージ時350。エネルギー1につきダメージ+3追加、中心6m地点で50%減衰"
+    },
+    "For each point of projectile damage absorbed, the power increases by 0.125, with a maximum absorption of 800 projectile damage": {
+      "ko": "흡수한 투사체 데미지 1포인트당 파워 0.125 증가 (최대 흡수 800)",
+      "ja": "吸収した投射物ダメージ1ごとに威力が0.125上昇（最大800吸収）"
+    },
+    "Shield": {
+      "ko": "쉴드",
+      "ja": "シールド"
+    },
+    "The shield grants one charge of Iron Ring for every 100 damage it absorbs": {
+      "ko": "쉴드가 100의 피해를 흡수할 때마다 Iron Ring 충전 1회를 획득합니다.",
+      "ja": "シールドが100ダメージを吸収するごとにIron Ringチャージを1獲得します。"
+    },
+    "First hit 0.6s, second hit 1s": {
+      "ko": "1타: 0.6초 | 2타: 1초",
+      "ja": "1撃目: 0.6秒 | 2撃目: 1秒"
+    },
+    "Rapid-fire, delayed projectile that is accompanied by a spell field": {
+      "ko": "장판을 동반하는 연사 시간차 투사체",
+      "ja": "フィールドを伴う連射時間差弾"
+    },
+    "Projectile Damage: 15; Spell Field Damage: 15": {
+      "ko": "투사체 데미지: 15 | 장판 데미지: 15",
+      "ja": "弾ダメージ: 15 | フィールドダメージ: 15"
+    },
+    "20% slowdown on release": {
+      "ko": "시전 시 20% 감속",
+      "ja": "発動時20%鈍足"
+    },
+    "If an enemy with a Web-Tracer is hit by the snare again, they will be Immobilized for 0.7s": {
+      "ko": "Web-Tracer가 부착된 적이 덫에 다시 맞으면 0.7초간 이동 불가 상태가 됩니다.",
+      "ja": "Web-Tracerが付着した敵が再び罠にかかると0.7秒間移動不能になります。"
+    },
+    "While trapped in the Cyber-Web, Peni Parker receives 25 healing per second. Any excess healing is converted into Bonus Health, up to a maximum of 150 Health, and grants a 25% Movement Boost": {
+      "ko": "Cyber-Web 안에서 페니 파커는 초당 25의 치유를 받으며, 초과 치유는 최대 150까지 Bonus Health로 전환되고 이동 속도가 25% 증가합니다.",
+      "ja": "Cyber-Web内でペニー・パーカーは秒間25回復し、超過分は最大150までBonus Healthに変換、移動速度が25%上昇します。"
+    },
+    "Allies in Peni's Cyber-Webs now receive the same Healing Over Time and a Movement Boost effects as her. Movement Boost for allies is 25%, Healing is 15/s. Ally excess healing converts into Bonus Health, up to 25": {
+      "ko": "Cyber-Web 안의 아군은 페니 파커와 동일한 지속 치유 및 이속 증가를 받습니다. (아군 이속 25% 증가, 초당 15 치유, 초과 치유 시 최대 25 Bonus Health 전환)",
+      "ja": "Cyber-Web内の味方も持続回復と移動速度上昇を獲得します。（味方移動速度25%上昇、秒間15回復、超過分は最大25までBonus Health変換）"
+    },
+    "Enhancement": {
+      "ko": "강화",
+      "ja": "強化"
+    },
+    "Sweep Attack Damage: 60": {
+      "ko": "휘두르기 공격 데미지: 60",
+      "ja": "薙ぎ払いダメージ: 60"
+    },
+    "Gain 450 Bonus Health and a 70% Movement Boost": {
+      "ko": "Bonus Health 450 및 이동 속도 70% 증가 획득",
+      "ja": "Bonus Health 450および移動速度70%上昇を獲得"
+    },
+    "Each Spider-Drone inflicts 40 damage": {
+      "ko": "스파이더 드론 개당 40 데미지",
+      "ja": "スパイダードローン1機あたり40ダメージ"
+    },
+    "Two Spider-Drones are generated every 3s, slows hit enemies by 8% for 2s, each hit stacks the effect and resets the slow period, stacking up to 40%": {
+      "ko": "3초마다 스파이더 드론 2대 생성. 적중 시 2초간 8% 감속 (중첩 시 시간 갱신, 최대 40% 중첩)",
+      "ja": "3秒ごとにスパイダードローンを2機生成。命中時2秒間8%鈍足（命中ごとに持続時間リセット、最大40%累積）"
+    },
+    "19m, with the possibility to exceed this distance if descending": {
+      "ko": "19m (하강 시 사거리 연장 가능)",
+      "ja": "19m（降下時はこれを超える距離まで到達可能）"
+    },
+    "Double strike, 40 per hit": {
+      "ko": "2연타, 타격당 40",
+      "ja": "2連撃、1撃あたり40"
+    },
+    "Double strike 0.33s between attacks, 1s between sets.": {
+      "ko": "2연타 타격 간격 0.33초 (세트 간 1초)",
+      "ja": "2連撃の間隔0.33秒（セット間1秒）"
+    },
+    "55+10% of enemies' max Health per hit": {
+      "ko": "타격당 55 + 적 최대 체력의 10%",
+      "ja": "1撃あたり55 + 敵の最大HPの10%"
+    },
+    "Move forward 3 meters while punching; gain Bonus Health equal to damage dealt (up to 150); once hit, this ability can knock down flying enemies to the ground": {
+      "ko": "펀치하며 3m 전진. 가한 피해량만큼 Bonus Health 획득 (최대 150). 비행 중인 적 적중 시 지면으로 격추",
+      "ja": "パンチしながら3m前進。与ダメージ分のBonus Healthを獲得（最大150）。命中時に飛行中の敵を地面へ叩き落とす"
+    },
+    "Step spell field: 3m high, 10m wide, advancing 2m every 0.1 seconds, up to a maximum of 18m": {
+      "ko": "계단식 장판: 높이 3m, 너비 10m (0.1초마다 2m씩 전진, 최대 18m)",
+      "ja": "階段状フィールド: 高さ3m、幅10m（0.1秒ごとに2m前進、最大18m）"
+    },
+    "Stun duration 2.5s": {
+      "ko": "기절 지속 시간 2.5초",
+      "ja": "スタン持続時間2.5秒"
+    },
+    "Charge: 30; ground slam: 20; immobilization zone: 15 per/s": {
+      "ko": "돌진: 30 | 지면 강타: 20 | 이동 불가 영역: 초당 15",
+      "ja": "突進: 30 | 叩きつけ: 20 | 移動不能ゾーン: 秒間15"
+    },
+    "Ground slam: 8m radius, 2.5m high cylindrical spell field. Immobilization zone: 8m radius, 4m high cylindrical spell field": {
+      "ko": "지면 강타: 반경 8m, 높이 2.5m 원기둥형 장판 | 이동 불가 영역: 반경 8m, 높이 4m 원기둥형 장판",
+      "ja": "叩きつけ: 半径8m・高さ2.5m円柱状フィールド | 移動不能ゾーン: 半径8m・高さ4m円柱状フィールド"
+    },
+    "Gain 200 Bonus Health during skill activation": {
+      "ko": "스킬 시전 중 200 Bonus Health 획득",
+      "ja": "アビリティ発動中200 Bonus Health獲得"
+    },
+    "Basic Cooldown 3s, with a charge of 10s per use": {
+      "ko": "기본 쿨다운 3초 (시전당 10초 충전)",
+      "ja": "基本クールダウン3秒（1使用あたり10秒チャージ）"
+    },
+    "Apply a 20% damage reduction effect to self and 20% damage reduction to all allies within 5m of his landing point for 3s": {
+      "ko": "자신 및 착지점 5m 이내의 모든 아군에게 3초간 20% 피해 감소 효과 부여",
+      "ja": "自身および着地点5m以内の全味方に3秒間20%の被ダメージ軽減を付与"
+    },
+    "Basic Cooldown 3s, with a charge of 10s per use, shares the same Cooldown with the E Key ability": {
+      "ko": "기본 쿨다운 3초 (시전당 10초 충전, E 스킬과 쿨다운 공유)",
+      "ja": "基本クールダウン3秒（1回10秒チャージ、Eアビリティとクールダウン共有）"
+    },
+    "Apply a 20% Vulnerability to all enemies within 5m of his landing point for 3s": {
+      "ko": "착지점 5m 이내의 모든 적에게 3초간 20% 취약(Vulnerability) 부여",
+      "ja": "着地点5m以内の全敵に3秒間20%の脆弱を付与"
+    },
+    "60+11% of enemy's maximum health": {
+      "ko": "60 + 적 최대 체력의 11%",
+      "ja": "60 + 敵の最大HPの11%"
+    },
+    "Immune to launch-up, knock-back, and other displacement effects": {
+      "ko": "띄우기, 밀쳐내기 및 기타 강제 이동 효과에 면역",
+      "ja": "ノックアップ、ノックバック、その他の強制移動効果を無効化"
+    },
+    "Launch a single-target projectile that returns after a delayed hit": {
+      "ko": "단일 대상에게 발사된 후 시간차 타격을 가하고 손으로 돌아오는 투사체",
+      "ja": "単一ターゲットに発射され時間差着弾後に手元へ戻る弾"
+    },
+    "The projectile travels outward at a speed of 60m per second and returns at a speed of 80m per second": {
+      "ko": "투사체 투척 속도 초당 60m, 회수 속도 초당 80m",
+      "ja": "投擲速度秒間60m、回収速度秒間80m"
+    },
+    "Outward Projectile Damage: 50; Returning Projectile Damage: 25": {
+      "ko": "투척 투사체 데미지: 50 | 회수 투사체 데미지: 25",
+      "ja": "投擲時ダメージ: 50 | 回収時ダメージ: 25"
+    },
+    "Hits grant 75 Bonus Health (only triggers once per throw, even if hitting multiple enemies)": {
+      "ko": "적중 시 75 Bonus Health 획득 (다수 적중 시에도 투척당 1회만 발동)",
+      "ja": "命中時75 Bonus Health獲得（複数命中時も1投につき1回のみ発動）"
+    },
+    "A persistent spell field that generates a one-time spell field upon expiration": {
+      "ko": "만료 시 1회성 폭발 장판을 생성하는 지속 장판",
+      "ja": "効果終了時に1回限りの爆発フィールドを発生させる継続フィールド"
+    },
+    "The sustained spell field is cylindrical, measuring 8m in radius and 20m in height, whereas the one-time spell field has an 8m spherical radius": {
+      "ko": "지속 장판은 반경 8m, 높이 20m 원기둥형이며, 1회성 장판은 반경 8m 구형 장판입니다.",
+      "ja": "継続フィールドは半径8m・高さ20mの円柱状、1回限りフィールドは半径8mの球状です。"
+    },
+    "The sustained spell field lasts for 0.5s, dealing 40 damage, while the one-time spell field deals 220 damage": {
+      "ko": "지속 장판 0.5초간 지속 (40 데미지), 1회성 폭발 장판 220 데미지",
+      "ja": "継続フィールド0.5秒持続（40ダメージ）、1回限り爆発フィールド220ダメージ"
+    },
+    "After Ultimate Ability lands, Stun surrounding enemies for 1s": {
+      "ko": "궁극기 착지 후 주변 적을 1초간 기절",
+      "ja": "アルティメット着地後、周囲の敵を1秒間スタン"
+    },
+    "No charge: 10m; Full charge: 20m. When carrying an enemy, the ranges are 6m with no charge and 13m with full": {
+      "ko": "충전 없음: 10m | 완전 충전: 20m (적을 붙잡은 경우: 충전 없음 6m, 완전 충전 13m)",
+      "ja": "ノンチャージ: 10m | フルチャージ: 20m（敵を掴んでいる時: ノンチャージ6m、フルチャージ13m）"
+    },
+    "No Charge Damage: 40; Full Charge Damage: 60": {
+      "ko": "충전 없음: 40 데미지 | 완전 충전: 60 데미지",
+      "ja": "ノンチャージ: 40ダメージ | フルチャージ: 60ダメージ"
+    },
+    "Deal 40 damage when enemies cross the boundaries": {
+      "ko": "적이 결계 경계를 넘을 때 40 데미지 부여",
+      "ja": "敵が境界を越える際に40ダメージ付与"
+    },
+    "For each enemy within the spell area, 1 point of Thorforce is restored. Enemies that cross the boundary will be Slowed by 30%, Enemies that cross the boundary will receive an additional debuff that restricts aerial abilities for 2s.": {
+      "ko": "영역 내 적 1명당 1 Thorforce 회복. 결계를 넘는 적은 30% 감속되며 2초간 공중 이동기가 제한되는 디버프를 받습니다.",
+      "ja": "領域内の敵1体ごとに1 Thorforce回復。境界を越える敵は30%鈍足になり、2秒間空中アビリティが封じられます。"
+    },
+    "Ability Enhancement": {
+      "ko": "스킬 강화",
+      "ja": "アビリティ強化"
+    },
+    "Left Click": {
+      "ko": "좌클릭",
+      "ja": "左クリック"
+    },
+    "The first three stages last for 0.4s each, while the fourth stage lasts for 0.8s": {
+      "ko": "1~3단계 각 0.4초 지속, 4단계 0.8초 지속",
+      "ja": "1~3段階は各0.4秒持続、4段階は0.8秒持続"
+    },
+    "Projectile Damage: 70, Spell Field Damage: 15 per second": {
+      "ko": "투사체 데미지: 70 | 장판 데미지: 초당 15",
+      "ja": "弾ダメージ: 70 | フィールドダメージ: 秒間15"
+    },
+    "Inflict damage over time on nearby enemies; After casting Awakening Rune, you can manually cancel the Awakened state after a brief delay. At the end of the Awakened state, Thor restores 1 point of Thunderforce.": {
+      "ko": "주변 적에게 지속 피해 부여. Awakening Rune 시전 후 각성 상태를 수동 취소할 수 있으며, 각성 종료 시 토르는 1 Thorforce를 회복합니다.",
+      "ja": "周囲の敵に持続ダメージを付与。Awakening Rune詠唱後、短時間後に覚醒状態を手動解除可能で、終了時に1 Thorforceを回復します。"
+    },
+    "5s per Thorforce": {
+      "ko": "Thorforce 충전당 5초",
+      "ja": "Thorforce 1ポイントにつき5秒"
+    },
+    "Each point of Thorforce consumed grants 50 Bonus Health, while abilities that consume 3 points of Thorforce grant 150 Bonus Health": {
+      "ko": "Thorforce 1포인트 소모 시 50 Bonus Health 획득 (3포인트 소모 시 150 Bonus Health 획득)",
+      "ja": "Thorforce 1ポイント消費ごとに50 Bonus Health獲得（3ポイント消費時は150 Bonus Health獲得）"
+    },
+    "Quad-cast delayed spell field": {
+      "ko": "4중 시전 시간차 장판",
+      "ja": "4連撃時間差フィールド"
+    },
+    "0.9s, with a 0.1s interval between each tendril": {
+      "ko": "0.9초 (촉수 간 간격 0.1초)",
+      "ja": "0.9秒（各触手の間隔0.1秒）"
+    },
+    "Spell field that surrounds the caster": {
+      "ko": "시전자 중심 장판",
+      "ja": "術者周囲フィールド"
+    },
+    "The spell field deals 5 damage, increasing to 80 damage if the target remains in the area for a duration": {
+      "ko": "기본 5 데미지 (대상이 일정 시간 영역 내에 머무를 경우 80 데미지로 증가)",
+      "ja": "基本5ダメージ（対象がエリア内に留まり続けると80ダメージに増加）"
+    },
+    "Tendrils apply a 25% Slow on the target and take 3s to inflict damage. If the distance from Venom exceeds 11m, the tendrils will detach": {
+      "ko": "촉수가 대상에게 25% 감속을 걸고 3초 후 피해를 입힙니다. 베놈과의 거리가 11m를 초과하면 촉수가 끊어집니다.",
+      "ja": "触手が対象に25%鈍足を付与し3秒後にダメージ。ヴェノムとの距離が11mを超えると触手が切れます。"
+    },
+    "Inflict damage equal to 50% of the target's health, followed by an additional 50 damage": {
+      "ko": "대상 현재 체력의 50%에 해당하는 피해를 입힌 후 50의 추가 피해 부여",
+      "ja": "対象の現在HPの50%相当のダメージを与え、さらに50の追加ダメージを付与"
+    },
+    "130% of damage dealt is converted into Bonus Health": {
+      "ko": "가한 피해량의 130%가 Bonus Health로 전환됩니다.",
+      "ja": "与えたダメージの130%がBonus Healthに変換されます。"
+    },
+    "Grant 100 Bonus Health and convert 110% of lost Health into Bonus Health": {
+      "ko": "Bonus Health 100 획득 및 잃은 체력의 110%를 Bonus Health로 전환",
+      "ja": "Bonus Health 100獲得および失った体力の110%をBonus Healthに変換"
+    },
+    "65 damage, with damage falloff starting at 2m from the center of the spell field and decreasing to 40% at 6m": {
+      "ko": "기본 65 데미지 (장판 중심 2m부터 감쇠 시작, 6m에서 40%로 감소)",
+      "ja": "基本65ダメージ（中心から2mで減衰開始、6m地点で40%に低下）"
+    },
+    "Knocks enemies inward, with an inward knockback angle of 75°": {
+      "ko": "적들을 안쪽으로 끌어당기며 띄움 (내향 넉백 각도 75°)",
+      "ja": "敵を内側へノックバック（内向き角度75°）"
+    },
+    "Cuboid Spell Field": {
+      "ko": "직육면체형 장판",
+      "ja": "直方体フィールド"
+    },
+    "Length: 22m, Width: 20m, Height: 7m": {
+      "ko": "길이: 22m, 너비: 20m, 높이: 7m",
+      "ja": "長さ: 22m、幅: 20m、高さ: 7m"
+    },
+    "150°": {
+      "ko": "150°",
+      "ja": "150°"
+    },
+    "Gain 50% Damage Reduction during Bast's Descent startup animation": {
+      "ko": "Bast's Descent 시전 선딜레이 중 50% 피해 감소 획득",
+      "ja": "Bast's Descent発動前の予備動作中、被ダメージ50%軽減を獲得"
+    },
+    "Health drops below 100": {
+      "ko": "체력 100 미만으로 저하 시",
+      "ja": "HPが100未満に低下時"
+    },
+    "Cause 26 damage per single slash; double strike cause 13 damage per hit": {
+      "ko": "단타 베기 시 26 데미지 | 2연타 베기 시 타격당 13 데미지",
+      "ja": "単発斬撃時26ダメージ | 2連撃時1ヒットあたり13ダメージ"
+    },
+    "Projectile that fires in a straight trajectory, which breaks into shrapnel after reaching a certain distance": {
+      "ko": "직선 궤도로 발사된 후 일정 거리에 도달하면 파편으로 분열하는 투사체",
+      "ja": "直線軌道で発射後、一定距離で破片に拡散する弾"
+    },
+    "1s after activation": {
+      "ko": "발동 후 1초",
+      "ja": "発動後1秒"
+    },
+    "Every 200 damage resisted grants 1 charge for Daywalker Dash": {
+      "ko": "200의 피해를 방어할 때마다 Daywalker Dash 1회 충전 획득",
+      "ja": "200ダメージを防ぐごとにDaywalker Dashチャージを1獲得"
+    },
+    "10m, maximum distance 24m after fully charged.": {
+      "ko": "기본 10m (완전 충전 시 최대 거리 24m)",
+      "ja": "基本10m（最大チャージ時最大距離24m）"
+    },
+    "Length: Maximum dash distance; Width: 6m; Height: 4.5m": {
+      "ko": "길이: 최대 돌진 거리, 너비: 6m, 높이: 4.5m",
+      "ja": "長さ: 最大突進距離、幅: 6m、高さ: 4.5m"
+    },
+    "Dash. Cause damage and special effects to the enemies hit": {
+      "ko": "돌진하며 적중한 적에게 피해 및 특수 효과를 부여합니다.",
+      "ja": "突進し、命中した敵にダメージと特殊効果を付与します。"
+    },
+    "apply 8% Healing Reduction per strike (32% total if all hit)": {
+      "ko": "타격당 8% 치유 감소 부여 (전타 적중 시 총 32%)",
+      "ja": "1撃ごとに8%の被回復減少を付与（全弾命中で計32%）"
+    },
+    "10 per hit, 4 hits in total": {
+      "ko": "타격당 10 (총 4타)",
+      "ja": "1ヒットあたり10（計4撃）"
+    },
+    "Landing all four hits of Whirlwind Slash grants 1 slash speed stack; Excess lifesteal grants Bonus Health( max 75; conversion rate 50%)": {
+      "ko": "Whirlwind Slash 4타 모두 적중 시 공격 속도 1스택 획득. 초과 흡혈량은 Bonus Health로 전환 (최대 75, 전환율 50%)",
+      "ja": "Whirlwind Slash全4撃命中時、攻撃速度スタックを1獲得。超過ライフスティールはBonus Healthへ変換（最大75、変換率50%）"
+    },
+    "70%, Affected by Healing Reduction": {
+      "ko": "70% (치유 감소 효과 적용)",
+      "ja": "70%（被回復減少効果の影響を受ける）"
+    },
+    "20% per bounce": {
+      "ko": "바운스당 20%",
+      "ja": "跳弾ごとに20%"
+    },
+    "Charged release, with delayed projectiles.": {
+      "ko": "충전 발사 (시간차 투사체)",
+      "ja": "チャージ発射（時間差弾）"
+    },
+    "3.5m to 5m radius spherical spell field": {
+      "ko": "반경 3.5m~5m 구형 장판",
+      "ja": "半径3.5m〜5mの球状フィールド"
+    },
+    "50~70": {
+      "ko": "50~70",
+      "ja": "50~70"
+    },
+    "0.8s/Round": {
+      "ko": "발당 0.8초",
+      "ja": "1発あたり0.8秒"
+    },
+    "Launch an electric projectile that travels in a straight line, which generates a spell area upon hitting the environment or an enemy": {
+      "ko": "직선 궤도의 전격 투사체를 발사하여 지형이나 적에게 적중 시 장판을 생성합니다.",
+      "ja": "直線軌道の電撃弾を発射し、地形または敵命中時にフィールドを生成します。"
+    },
+    "0.25s per strike": {
+      "ko": "타격당 0.25초",
+      "ja": "1撃あたり0.25秒"
+    },
+    "Generate a spell area after hitting the ground": {
+      "ko": "지면 강타 시 장판 생성",
+      "ja": "地面着弾時にフィールドを生成"
+    },
+    "Radius: 6m; Height: 3m cylindrical spell area": {
+      "ko": "반경 6m, 높이 3m 원기둥형 장판",
+      "ja": "半径6m・高さ3mの円柱状フィールド"
+    },
+    "Charged projectile with an arced trajectory": {
+      "ko": "곡사 궤도로 날아가는 충전형 투사체",
+      "ja": "弧状軌道を描くチャージ弾"
+    },
+    "130 - 195 m/s (Maximum speed is achieved after 0.9s of charging)": {
+      "ko": "130 - 195 m/s (0.9초 충전 시 최대 속도 도달)",
+      "ja": "130 - 195 m/s（0.9秒チャージ時に最大速度到達）"
+    },
+    "28 - 70 (Maximum damage is achieved after 0.9s of charging)": {
+      "ko": "28 - 70 (0.9초 충전 시 최대 데미지 도달)",
+      "ja": "28 - 70（0.9秒チャージ時に最大ダメージ到達）"
+    },
+    "11.3°": {
+      "ko": "11.3°",
+      "ja": "11.3°"
+    },
+    "While Hunter's Sight is active, bow draw speed is increased": {
+      "ko": "Hunter's Sight 활성화 중 활 당김 속도가 증가합니다.",
+      "ja": "Hunter's Sight発動中、弓の引き絞り速度が上昇します。"
+    },
+    "Length: 2m, Width: 6m, Height: 2m": {
+      "ko": "길이: 2m, 너비: 6m, 높이: 2m",
+      "ja": "長さ: 2m、幅: 6m、高さ: 2m"
+    },
+    "Charge up to 2.5s": {
+      "ko": "최대 2.5초 충전",
+      "ja": "最大2.5秒チャージ"
+    },
+    "15m-40m": {
+      "ko": "15m-40m",
+      "ja": "15m-40m"
+    },
+    "Straight-line projectile that is accompanied by a spell field": {
+      "ko": "장판을 동반하는 직선 투사체",
+      "ja": "フィールドを伴う直線弾"
+    },
+    "Length: 3m, Width: 3m, Height: 2.7m": {
+      "ko": "길이: 3m, 너비: 3m, 높이: 2.7m",
+      "ja": "長さ: 3m、幅: 3m、高さ: 2.7m"
+    },
+    "Length: 3m, Width: 5m, Height: 1.6m": {
+      "ko": "길이: 3m, 너비: 5m, 높이: 1.6m",
+      "ja": "長さ: 3m、幅: 5m、高さ: 1.6m"
+    },
+    "This ability cannot block explosions or effects created by projectiles on hit": {
+      "ko": "이 스킬은 폭발 피해나 투사체 적중 시 발생하는 효과는 방어할 수 없습니다.",
+      "ja": "このアビリティは爆発ダメージや投射物の着弾効果は防御できません。"
+    },
+    "0 - 90 (Maximum damage is achieved after 0.9s of aiming)": {
+      "ko": "0 - 90 (0.9초 조준 시 최대 데미지 도달)",
+      "ja": "0 - 90（0.9秒照準時に最大ダメージ到達）"
+    },
+    "Apply bonus damage to the base damage of Piercing Arrow": {
+      "ko": "Piercing Arrow의 기본 데미지에 보너스 피해를 추가합니다.",
+      "ja": "Piercing Arrowの基本ダメージに追加ボーナスダメージを適用します。"
+    },
+    "Projectiles stick to enemies on hit": {
+      "ko": "적중 시 투사체가 적에게 부착됩니다.",
+      "ja": "命中時に弾が敵へ突き刺さります。"
+    },
+    "32% falloff at 4m.": {
+      "ko": "4m에서 32% 감쇠",
+      "ja": "4mで32%減衰"
+    },
+    "Shapeshift into a Nastrond Crow and gain invincibility": {
+      "ko": "나스트론드 까마귀로 변신하여 무적 상태를 획득합니다.",
+      "ja": "ナストロンドのカラスに変身し無敵状態を獲得します。"
+    },
+    "Slow the enemies by 20% at the center, increasing to 40% at 2.5m from the center.": {
+      "ko": "중심부 적 20% 감속, 중심 2.5m 지점에서 40%로 증가",
+      "ja": "中心部で敵に20%鈍足、中心から2.5m地点で40%に増加"
+    },
+    "Burst Projectile": {
+      "ko": "점사 투사체",
+      "ja": "バースト弾"
+    },
+    "Instantly recover all Fire Cluster energy after not using Fire Cluster for 1s": {
+      "ko": "Fire Cluster를 1초간 미사용 시 모든 에너지를 즉시 회복합니다.",
+      "ja": "Fire Clusterを1秒間未使用時、全エネルギーを即座に回復します。"
+    },
+    "5.5 per round": {
+      "ko": "발당 5.5",
+      "ja": "1発あたり5.5"
+    },
+    "Falloff begins at 15m, decreasing to 60% at 20m.": {
+      "ko": "15m부터 감쇠 시작, 20m에서 60%로 감소",
+      "ja": "15mから減衰開始、20mで60%に低下"
+    },
+    "Straight-line projectile that generates a spherical spell field upon impact.": {
+      "ko": "착탄 시 구형 장판을 생성하는 직선 투사체",
+      "ja": "着弾時に球状フィールドを生成する直線弾"
+    },
+    "2.5s per strike": {
+      "ko": "타격 간격 2.5초",
+      "ja": "1撃あたり2.5秒"
+    },
+    "3m spherical radius; 8m high capsule-shaped spell field.": {
+      "ko": "반경 3m 구형, 높이 8m 캡슐형 장판",
+      "ja": "半径3m球状、高さ8mカプセル状フィールド"
+    },
+    "Generate 5 Bonus Health per 0.1s": {
+      "ko": "0.1초마다 5 Bonus Health 생성",
+      "ja": "0.1秒ごとに5 Bonus Health生成"
+    },
+    "Invisible Woman": {
+      "ko": "Invisible Woman",
+      "ja": "Invisible Woman"
+    },
+    "Successfully interacted: 30s; fail to interact: 3s": {
+      "ko": "상호작용 성공 시: 30초 | 실패 시: 3초",
+      "ja": "インタラクト成功時: 30秒 | 失敗時: 3秒"
+    },
+    "Launch-up spell field causes 30 damage; mobility abilities disabling spell field causes 15 damage per second": {
+      "ko": "띄우기 장판: 30 데미지 | 이동기 차단 장판: 초당 15 데미지",
+      "ja": "打ち上げフィールド: 30ダメージ | 移動制限フィールド: 秒間15ダメージ"
+    },
+    "A cylindrical spell field with a radius of 8m and a height of 1m": {
+      "ko": "반경 8m, 높이 1m 원기둥형 장판",
+      "ja": "半径8m・高さ1mの円柱状フィールド"
+    },
+    "A cylindrical spell field with a radius of 8m and a height of 8m": {
+      "ko": "반경 8m, 높이 8m 원기둥형 장판",
+      "ja": "半径8m・高さ8mの円柱状フィールド"
+    },
+    "The first four strikes each deal 35 damage, while the fifth strike deals 55 damage": {
+      "ko": "1~4타 각 35 데미지, 5타 55 데미지",
+      "ja": "1~4撃目各35ダメージ、5撃目55ダメージ"
+    },
+    "The first four strikes have an interval of 0.45s between them, while the fifth strike has a 0.67s interval from the fourth strike": {
+      "ko": "1~4타 타격 간격 0.45초, 5타 간격 0.67초",
+      "ja": "1~4撃目の間隔0.45秒、5撃目の間隔0.67秒"
+    },
+    "8 base damage + 3.1% of the enemy's Max Health per strike": {
+      "ko": "타격당 기본 8 데미지 + 적 최대 체력의 3.1%",
+      "ja": "1撃あたり基本8ダメージ + 敵最大HPの3.1%"
+    },
+    "35 - 70 (Maximum damage is achieved when the target is at 50% Health)": {
+      "ko": "35 - 70 (대상 체력 50% 이하 시 최대 데미지)",
+      "ja": "35 - 70（対象のHPが50%時最大ダメージ到達）"
+    },
+    "Excess healing converts to Bonus Health.": {
+      "ko": "초과 치유량은 Bonus Health로 전환됩니다.",
+      "ja": "超過回復分はBonus Healthに変換されます。"
+    },
+    "After firing the one-handed repulsor twice in a row, the next attack will fire two repulsors at once": {
+      "ko": "한손 리펄서를 2회 연속 발사한 후, 다음 공격은 양손 리펄서를 동시 발사합니다.",
+      "ja": "片手リパルサーを2回連続発射後、次の攻撃で両手リパルサーを一斉発射します。"
+    },
+    "Repulsor Blast and Unibeam share the same ammo count": {
+      "ko": "Repulsor Blast와 Unibeam은 동일한 탄약 수를 공유합니다.",
+      "ja": "Repulsor BlastとUnibeamは共通の残弾数を共有します。"
+    },
+    "40% falloff at 5m": {
+      "ko": "5m에서 40% 감쇠",
+      "ja": "5mで40%減衰"
+    },
+    "Length: 15m, Width: 5m, Height: 5m": {
+      "ko": "길이: 15m, 너비: 5m, 높이: 5m",
+      "ja": "長さ: 15m、幅: 5m、高さ: 5m"
+    },
+    "5% falloff at 10m": {
+      "ko": "10m에서 5% 감쇠",
+      "ja": "10mで5%減衰"
+    },
+    "As the projectile travels, it creates a dispersive spell field that deals Damage Over Time to nearby enemies": {
+      "ko": "투사체가 날아가는 동안 확산 장판을 형성하여 주변 적들에게 지속 피해를 줍니다.",
+      "ja": "弾の飛翔中、周囲の敵に持続ダメージを与える拡散フィールドを展開します。"
+    },
+    "Each KO while Armor Overdrive is active extends its duration by 2s": {
+      "ko": "Armor Overdrive 활성화 중 처치(KO)를 달성할 때마다 지속 시간이 2초 연장됩니다.",
+      "ja": "Armor Overdrive発動中のキル（KO）ごとに効果時間が2秒延長されます。"
+    },
+    "Scatter-type projectile that generates a spell area upon impact": {
+      "ko": "착탄 시 장판을 생성하는 산탄형 투사체",
+      "ja": "着弾時にフィールドを生成する拡散弾"
+    },
+    "Launch missiles directly beneath Iron Man": {
+      "ko": "아이언맨 바로 아래 지면으로 미사일 발사",
+      "ja": "アイアンマンの直下へミサイルを発射"
+    },
+    "Launch in the direction of Iron Man's crosshair": {
+      "ko": "아이언맨의 조준점 방향으로 발사",
+      "ja": "アイアンマンの照準方向へ発射"
+    },
+    "Falloff begins at 4.5m, decreasing to 50% at 6.5m": {
+      "ko": "4.5m부터 감쇠 시작, 6.5m에서 50%로 감소",
+      "ja": "4.5mから減衰開始、6.5mで50%に低下"
+    },
+    "A cylindrical spell field with a radius of 6m and a height of 5m": {
+      "ko": "반경 6m, 높이 5m 원기둥형 장판",
+      "ja": "半径6m・高さ5mの円柱状フィールド"
+    },
+    "Charged projectile that travels in a straight trajectory": {
+      "ko": "직선 궤도로 날아가는 충전형 투사체",
+      "ja": "直線軌道で飛翔するチャージ弾"
+    },
+    "45 - 81 (Maximum damage is achieved after 1.2s of charging)": {
+      "ko": "45 - 81 (1.2초 충전 시 최대 데미지 도달)",
+      "ja": "45 - 81（1.2秒チャージ時に最大ダメージ到達）"
+    },
+    "Projectile pierces enemies and reduces Stepping Discs cooldown by 1s per enemy pierced": {
+      "ko": "투사체가 적을 관통하며 관통한 적 1명당 Stepping Discs 쿨다운이 1초 감소합니다.",
+      "ja": "弾が敵を貫通し、貫通した敵1体につきStepping Discsのクールダウンが1秒短縮されます。"
+    },
+    "20 damage per hit": {
+      "ko": "타격당 20 데미지",
+      "ja": "1ヒットあたり20ダメージ"
+    },
+    "Length: 6.5m, Width: 3m, Height: 3m": {
+      "ko": "길이: 6.5m, 너비: 3m, 높이: 3m",
+      "ja": "長さ: 6.5m、幅: 3m、高さ: 3m"
+    },
+    "When in the Darkchild state, all of Magik's abilities are enhanced": {
+      "ko": "Darkchild 상태에서는 매직의 모든 스킬이 강화됩니다.",
+      "ja": "Darkchild状態中、マジックの全アビリティが強化されます。"
+    },
+    "Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon's Rage": {
+      "ko": "매직은 일정 시간 내에 연계기를 발동할 수 있으며, Eldritch Whirl 또는 Demon's Rage 중 선택할 수 있습니다.",
+      "ja": "マジックは一定時間内に連携コンボを発動でき、Eldritch WhirlまたはDemon's Rageから選択可能です。"
+    },
+    "Begins at 0%, growing to 40% at 5m": {
+      "ko": "0%에서 시작, 5m에서 40%로 증가",
+      "ja": "0%から開始、5mで40%に増加"
+    },
+    "Deals 3 hits at intervals of 0.15s, with each hit dealing 35 damage": {
+      "ko": "0.15초 간격으로 3연타 (타격당 35 데미지)",
+      "ja": "0.15秒間隔で3連撃（1撃あたり35ダメージ）"
+    },
+    "Deals 3 hits at intervals of 0.25s, each dealing 45 damage": {
+      "ko": "0.25초 간격으로 3연타 (타격당 45 데미지)",
+      "ja": "0.25秒間隔で3連撃（1撃あたり45ダメージ）"
+    },
+    "A cylindrical spell field with a radius of 12m and a height of 5m": {
+      "ko": "반경 12m, 높이 5m 원기둥형 장판",
+      "ja": "半径12m・高さ5mの円柱状フィールド"
+    },
+    "90 - 180 (Maximum damage is achieved after 1.8s of charging)": {
+      "ko": "90 - 180 (1.8초 충전 시 최대 데미지 도달)",
+      "ja": "90 - 180（1.8秒チャージ時に最大ダメージ到達）"
+    },
+    "25 damage per hit": {
+      "ko": "타격당 25 데미지",
+      "ja": "1ヒットあたり25ダメージ"
+    },
+    "Length: 6m, Width: 4m, Height: 4m": {
+      "ko": "길이: 6m, 너비: 4m, 높이: 4m",
+      "ja": "長さ: 6m、幅: 4m、高さ: 4m"
+    },
+    "Triple shot that fires in a straight trajectory": {
+      "ko": "직선 궤도 3연사 투사체",
+      "ja": "直線軌道3点バースト弾"
+    },
+    "The firing interval between shots is 0.05s, with an interval of 0.57s between each round of shooting": {
+      "ko": "연발 간격 0.05초, 라운드 간 간격 0.57초",
+      "ja": "連射間隔0.05秒、発射ラウンド間隔0.57秒"
+    },
+    "25, up to a max of 76 Bonus Health": {
+      "ko": "25 (최대 76 Bonus Health)",
+      "ja": "25（最大76 Bonus Health）"
+    },
+    "Delayed Spherical Spell Field": {
+      "ko": "시간차 폭발 구형 장판",
+      "ja": "時間差爆発球状フィールド"
+    },
+    "150 damage per hit": {
+      "ko": "타격당 150 데미지",
+      "ja": "1ヒットあたり150ダメージ"
+    },
+    "Start at 1.5m, 70% falloff at 5m": {
+      "ko": "1.5m부터 감쇠 시작, 5m에서 70%로 감소",
+      "ja": "1.5mから減衰開始、5mで70%に低下"
+    },
+    "50% falloff at 3m": {
+      "ko": "3m에서 50% 감쇠",
+      "ja": "3mで50%減衰"
+    },
+    "A cylindrical spell field with an inner circle radius of 3.5m, an outer circle radius of 9m, and a height of 3m": {
+      "ko": "내경 반경 3.5m, 외경 반경 9m, 높이 3m 도넛형 원기둥 장판",
+      "ja": "内径半径3.5m・外径半径9m・高さ3mの円柱状フィールド"
+    },
+    "Inner Circle Damage: 500; Outer Circle Damage: 180": {
+      "ko": "내경 데미지: 500 | 외경 데미지: 180",
+      "ja": "内径ダメージ: 500 | 外径ダメージ: 180"
+    },
+    "Arced Trajectory (Summon Monstro Spawn), Direct Hit (Monstro Spawn)": {
+      "ko": "곡사 궤도 (Monstro Spawn 소환) | 직격 (Monstro Spawn)",
+      "ja": "曲射軌道（Monstro Spawn召喚） | 直撃（Monstro Spawn）"
+    },
+    "A cylindrical spell field with a radius of 3m and a height of 13m": {
+      "ko": "반경 3m, 높이 13m 원기둥형 장판",
+      "ja": "半径3m・高さ13mの円柱状フィールド"
+    },
+    "A cylindrical spell field with a radius of 6m and a height of 11m": {
+      "ko": "반경 6m, 높이 11m 원기둥형 장판",
+      "ja": "半径6m・高さ11mの円柱状フィールド"
+    },
+    "Undead Monstro is untargetable": {
+      "ko": "Undead Monstro는 타겟팅 불가 상태입니다.",
+      "ja": "Undead Monstroはターゲット不可状態です。"
+    },
+    "Double projectile with spread": {
+      "ko": "확산형 2연발 투사체",
+      "ja": "拡散型2連射弾"
+    },
+    "The firing interval between shots is 0.2s, with an interval of 0.6s between each round of shooting": {
+      "ko": "탄환 간격 0.2초, 발사 주기 간격 0.6초",
+      "ja": "連射間隔0.2秒、発射ラウンド間隔0.6秒"
+    },
+    "10 bonus health per round": {
+      "ko": "발당 10 Bonus Health",
+      "ja": "1発あたり10 Bonus Health"
+    },
+    "When the projectile is recalled, it will move 20s toward the crosshair before returning to Psylocke": {
+      "ko": "수리검 회수 시 조준점 방향으로 20s 이동 후 사일록에게 돌아옵니다.",
+      "ja": "手裏剣回収時、照準方向へ20s移動した後にサイロックの手元へ戻ります。"
+    },
+    "0.86°": {
+      "ko": "0.86°",
+      "ja": "0.86°"
+    },
+    "Deal 50 damage. Affect a single target at most once.": {
+      "ko": "50 데미지 부여 (단일 대상에게 최대 1회만 적용)",
+      "ja": "50ダメージ付与（単一ターゲットに最大1回のみ適用）"
+    },
+    "Heal 60 health upon unleashing and 30 health when retrieved.": {
+      "ko": "방출 시 60 치유, 회수 시 30 치유",
+      "ja": "射出時60回復、回収時30回復"
+    },
+    "Grant 2s of self healing for each target hit": {
+      "ko": "적중 대상마다 2초간 지속 자가 치유 부여",
+      "ja": "命中した対象ごとに2秒間の自己持続回復を付与"
+    },
+    "160 damage per hit": {
+      "ko": "타격당 160 데미지",
+      "ja": "1ヒットあたり160ダメージ"
+    },
+    "Psylocke will slash a random enemy, giving priority to the one who has been hit the least": {
+      "ko": "사일록이 무작위 적을 베며 피격 횟수가 가장 적은 적을 우선 타격합니다.",
+      "ja": "サイロックはランダムな敵を斬撃し、被弾回数が最も少ない敵を優先して攻撃します。"
+    },
+    "Casting this ability will automatically recall the Wing Shurikens. The shurikens will first travel to Psylocke's starting position before returning to her": {
+      "ko": "스킬 시전 시 Wing Shurikens가 자동 회수됩니다. 수리검은 사일록의 최초 시전 위치를 경유한 뒤 손으로 복귀합니다.",
+      "ja": "発動時にWing Shurikensを自動回収。手裏剣はサイロックの初期位置を経由した後に手元へ戻ります。"
+    },
+    "When attacked while in stealth, Psylocke will remain in stealth but will briefly become visible for a short duration": {
+      "ko": "은신 중 피격 시 은신은 유지되지만 짧은 시간 동안 실루엣이 드러납니다.",
+      "ja": "ステルス中に被弾時、ステルスは維持されますが短時間姿が可視化されます。"
+    },
+    "Up to a 0.075m radius.": {
+      "ko": "최대 반경 0.075m",
+      "ja": "最大半径0.075m"
+    },
+    "Create a temporary smokescreen that obstructs vision": {
+      "ko": "시야를 차단하는 임시 연막을 생성합니다.",
+      "ja": "視界を遮断する一時的な煙幕を展開します。"
+    },
+    "Rapid-fire projectiles that hit instantly and have a tracking trajectory": {
+      "ko": "즉발 적중 및 유도 궤적을 가진 연사 투사체",
+      "ja": "即時着弾かつ誘導軌道を持つ高速連射弾"
+    },
+    "Start with a spread radius of 0.6m, which reduces to 0.3m after 50 shots, and further decreases to 0.15m after 100 shots": {
+      "ko": "초기 탄퍼짐 반경 0.6m, 50발 사격 후 0.3m로 축소, 100발 사격 후 0.15m로 축소",
+      "ja": "初期拡散半径0.6m、50発射撃後0.3mへ縮小、100発射撃後0.15mへさらに縮小"
+    },
+    "20° - 160°": {
+      "ko": "20° - 160°",
+      "ja": "20° - 160°"
+    },
+    "5m - 35m": {
+      "ko": "5m - 35m",
+      "ja": "5m - 35m"
+    },
+    "Rapid-fire projectiles that create a spell field upon impact": {
+      "ko": "착탄 시 장판을 생성하는 연사 투사체",
+      "ja": "着弾時にフィールドを生成する連射弾"
+    },
+    "Start with a spread radius of 0.2m, which reduces to 0.1m after 10 shots, and further decreases to 0.05m after 20 shots": {
+      "ko": "초기 탄퍼짐 반경 0.2m, 10발 사격 후 0.1m로 축소, 20발 사격 후 0.05m로 축소",
+      "ja": "初期拡散半径0.2m、10発射撃後0.1mへ縮小、20発射撃後0.05mへさらに縮小"
+    },
+    "Warrior's Gaze": {
+      "ko": "Warrior's Gaze",
+      "ja": "Warrior's Gaze"
+    },
+    "Retain vision of enemies that disappear from view for a short duration": {
+      "ko": "시야에서 사라진 적의 실루엣을 잠시 동안 계속 포착합니다.",
+      "ja": "視界から外れた敵の姿を短時間透視・追跡し続けます。"
+    },
+    "+25 Max Health, +5% Damage Boost": {
+      "ko": "최대 체력 +25, 피해량 +5% 증가",
+      "ja": "最大体力+25、与ダメージ+5%増加"
+    },
+    "Refresh the cooldown if it hits an enemy. Deadpool bounces as the ability hits an enemy.": {
+      "ko": "적에게 적중 시 쿨다운 초기화. 적에게 적중하면 Deadpool이 튕겨 오릅니다.",
+      "ja": "敵に命中時クールダウンをリセット。敵命中時にDeadpoolが跳ね上がります。"
+    },
+    "10% for each stack. Up to 4 stacks.": {
+      "ko": "스택당 10%. 최대 4스택.",
+      "ja": "スタックごとに10%。最大4スタック。"
+    },
+    "25, up to 50": {
+      "ko": "25, 최대 50",
+      "ja": "25、最大50"
+    },
+    "Refresh the cooldown if it hits an enemy.": {
+      "ko": "적에게 적중 시 쿨다운 초기화.",
+      "ja": "敵に命中時クールダウンをリセット。"
+    },
+    "Block frontal damage and reflect projectiles, becoming immune to all incoming harm during this stance. Gain 60 Fury when successfully blocking an attack.": {
+      "ko": "전방 피해를 차단하고 투사체를 반사하며 자세 지속 중 받는 모든 피해에 면역이 됩니다. 공격 차단 성공 시 Fury 60 획득.",
+      "ja": "前方からのダメージを遮断し弾を反射、この構え中はあらゆる被ダメージを無効化。ガード成功時にFuryを60獲得。"
+    },
+    "Devil's Throw slows enemies on hit": {
+      "ko": "Devil's Throw 적중 시 적 둔화",
+      "ja": "Devil's Throw命中時に敵にスロウを付与"
+    },
+    "Falloff begins at 5s and decreases by 30/s": {
+      "ko": "5초 후 감쇠 시작, 초당 30씩 감소",
+      "ja": "5秒後に減衰開始、毎秒30減少"
+    },
+    "Box shaped spell field. Length: 8m; Width: 4m; Height: 4m": {
+      "ko": "상자형 장판. 길이: 8m, 너비: 4m, 높이: 4m",
+      "ja": "ボックス型フィールド。長さ: 8m、幅: 4m、高さ: 4m"
+    },
+    "2m spherical radius spell field at the end": {
+      "ko": "끝 지점에 반경 2m 구형 장판 생성",
+      "ja": "終端に半径2mの球状フィールドを生成"
+    },
+    "40. Cause 65 damage when the target caught in the high damage range": {
+      "ko": "40. 대상이 고데미지 범위에 걸릴 시 65 데미지",
+      "ja": "40。高ダメージ範囲に捉えた対象には65ダメージ"
+    },
+    "4. Up to 2 ricochets if there are no targets": {
+      "ko": "4회. 대상이 없을 경우 최대 2회 도탄",
+      "ja": "4回。対象がいない場合は最大2回跳弾"
+    },
+    "50/s. Cause 85 damage per second when reaching the max damage": {
+      "ko": "초당 50. 최대 데미지 도달 시 초당 85 데미지",
+      "ja": "毎秒50。最大ダメージ到達時は毎秒85ダメージ"
+    },
+    "Visual range 35m, decreasing to 10m when the Blind effect reaches its maximum": {
+      "ko": "시야 거리 35m, Blind 효과 최대치 도달 시 10m까지 감소",
+      "ja": "視界範囲35m、Blind効果が最大に達すると10mまで縮小"
+    },
+    "Enable Righteous Cross within 5 seconds after using this ability. Gain 30 Fury": {
+      "ko": "스킬 사용 후 5초 이내에 Righteous Cross 사용 가능. Fury 30 획득",
+      "ja": "アビリティ使用後5秒以内にRighteous Crossが使用可能。Furyを30獲得"
+    },
+    "2.1m/s. Falloff begins at 10m away from the target, decreasing to 0.9m/s at 40m from the target": {
+      "ko": "2.1m/s. 대상으로부터 10m 거리에서 감쇠 시작, 대상과 40m 거리에서 0.9m/s로 감소",
+      "ja": "2.1m/s。対象から10m地点で減衰開始、対象から40m地点で0.9m/sまで低下"
+    },
+    "If Daredevil defeats the target, refresh the cooldown. Gain 60 Fury after the dash": {
+      "ko": "Daredevil이 대상을 처치하면 쿨다운 초기화. 돌진 후 Fury 60 획득",
+      "ja": "Daredevilが対象を撃破するとクールダウンをリセット。ダッシュ後にFuryを60獲得"
+    },
+    "4.5 per round": {
+      "ko": "발당 4.5",
+      "ja": "1発あたり4.5"
+    },
+    "The firing interval between shots is 0.12s, with an interval of 0.8s between each round of shooting": {
+      "ko": "탄환 간 발사 간격 0.12초, 사격 세트 간 간격 0.8초",
+      "ja": "弾間の発射間隔は0.12秒、各バースト射撃間の間隔は0.8秒"
+    },
+    "13+0.8% of enemy's maximum health": {
+      "ko": "13 + 적 최대 체력의 0.8%",
+      "ja": "13 + 敵の最大HPの0.8%"
+    },
+    "After hits an enemy, the projectile splits to several bullets to trace the enemies in range": {
+      "ko": "적에게 적중 후 투사체가 여러 개의 탄환으로 분열하여 범위 내 적들을 추적",
+      "ja": "敵に命中後、弾が複数の小弾に分裂し範囲内の敵を追跡"
+    },
+    "Projectile deals 40 extra damage to shields and enemies with bonus health": {
+      "ko": "투사체가 쉴드 및 Bonus Health를 보유한 적에게 40의 추가 피해를 입힘",
+      "ja": "弾はシールドおよびBonus Healthを持つ敵に40の追加ダメージを与える"
+    },
+    "Increase movement speed by 40% for 1s": {
+      "ko": "1초 동안 이동 속도 40% 증가",
+      "ja": "1秒間、移動速度が40%上昇"
+    },
+    "First hit: 60; second hit: 40": {
+      "ko": "1타: 60 | 2타: 40",
+      "ja": "1打目: 60 | 2打目: 40"
+    },
+    "20/s for 2s": {
+      "ko": "2초 동안 초당 20",
+      "ja": "2秒間、毎秒20"
+    },
+    "Reduce movement speed by 35% for 2s": {
+      "ko": "2초 동안 이동 속도 35% 감소",
+      "ja": "2秒間、移動速度が35%低下"
+    },
+    "Enemies seized by Glartrox cannot use their abilities until it stops moving": {
+      "ko": "Glartrox에게 붙잡힌 적은 이동이 멈출 때까지 스킬을 사용할 수 없음",
+      "ja": "Glartroxに捕らわれた敵は、停止するまでアビリティを使用不可"
+    },
+    "Elsa can recall Glartrox at any time": {
+      "ko": "Elsa는 언제든지 Glartrox를 회수할 수 있습니다",
+      "ja": "ElsaはいつでもGlartroxを呼び戻すことができます"
+    },
+    "When the Glartrox collides with terrain, returns, or reaches its maximum dash duration, it bites fiercely, dealing massive damage. If Glartrox is defeated, the bite will not be triggered": {
+      "ko": "Glartrox가 지형에 충돌하거나, 복귀하거나, 최대 돌진 지속 시간에 도달하면 맹렬하게 물어뜯어 막대한 피해를 입힙니다. Glartrox가 파괴되면 물어뜯기가 발동하지 않습니다.",
+      "ja": "Glartroxが地形に衝突、帰還、または最大突進時間に達すると激しく噛みつき、大ダメージを与えます。Glartroxが倒された場合、噛みつきは発動しません。"
+    },
+    "Maximum durations for dashing and returning are 3.5s each": {
+      "ko": "돌진 및 복귀 최대 지속 시간 각 3.5초",
+      "ja": "突進および帰還の最大持続時間はそれぞれ3.5秒"
+    },
+    "Glartrox cannot be critical hit. Drag 8 targets at most": {
+      "ko": "Glartrox는 치명타를 입지 않음. 최대 8명의 대상을 끌고 감",
+      "ja": "Glartroxはクリティカルを受けない。最大8体の対象を牽引"
+    },
+    "In 6s after unleashing Helix Advance, the next Double-Barrel Blaster becomes Monster-Piercer": {
+      "ko": "Helix Advance 사용 후 6초 이내 다음 Double-Barrel Blaster가 Monster-Piercer로 전환",
+      "ja": "Helix Advance発動後6秒以内の次のDouble-Barrel BlasterがMonster-Piercerに変化"
+    },
+    "Every unleash of Ruthless Pursuit and Helix Advance grants 30 bonus health. Max bonus health is 75": {
+      "ko": "Ruthless Pursuit 및 Helix Advance 시전 시마다 30의 Bonus Health 획득. 최대 Bonus Health 75",
+      "ja": "Ruthless PursuitおよびHelix Advanceを発動するごとに30のBonus Healthを獲得。最大Bonus Healthは75"
+    },
+    "Launch up enemies hit, and activate the follow up in 5s": {
+      "ko": "적중한 적을 공중으로 띄우고 5초 이내에 연계기 활성화",
+      "ja": "命中した敵を打ち上げ、5秒以内に追撃アビリティが使用可能"
+    },
+    "Using either stage empowers your next Double-Barrel Blaster, transforming it into Monster-Piercer": {
+      "ko": "어느 단계를 사용하든 다음 Double-Barrel Blaster가 강화되어 Monster-Piercer로 전환",
+      "ja": "いずれかの段階を使用すると次のDouble-Barrel Blasterが強化され、Monster-Piercerに変化"
+    },
+    "The trap becomes Invisible and Invulnerable after one-second deployment": {
+      "ko": "함정은 설치 1초 후 투명 및 무적 상태가 됨",
+      "ja": "トラップは設置1秒後に不可視かつ無敵状態になる"
+    },
+    "Cause 5 damage every 0.2s, last 1.2s": {
+      "ko": "0.2초마다 5 데미지, 1.2초 지속",
+      "ja": "0.2秒ごとに5ダメージ、1.2秒持続"
+    },
+    "Defeat the summon to end the Immobolized state early": {
+      "ko": "소환물을 처치하면 이동 불가(Immobilized) 상태가 조기 해제됨",
+      "ja": "召喚物を倒すことで移動不能（Immobilized）状態を早期解除可能"
+    },
+    "Elsa can dash to the enemy who triggers the trap": {
+      "ko": "Elsa는 함정을 발동시킨 적에게 돌진할 수 있습니다",
+      "ja": "Elsaはトラップを発動させた敵に向かってダッシュ可能"
+    },
+    "Instinct levels up when it reaches 100, up to 3 levels": {
+      "ko": "Instinct가 100에 도달하면 레벨 업, 최대 3레벨",
+      "ja": "Instinctが100に達するとレベルアップ、最大3レベル"
+    },
+    "For each Instinct level gained, reduce the cooldown of Helix Advance by 2s": {
+      "ko": "Instinct 레벨당 Helix Advance의 쿨다운 2초 감소",
+      "ja": "Instinctレベルが上がるごとにHelix Advanceのクールダウンが2秒短縮"
+    },
+    "A cylindrical spell field with a radius of 3m and a height of 20m": {
+      "ko": "반경 3m, 높이 20m의 원기둥형 장판",
+      "ja": "半径3m、高さ20mの円柱状フィールド"
+    },
+    "Attack the nearest enemy within range": {
+      "ko": "범위 내 가장 가까운 적을 공격",
+      "ja": "範囲内で最も近い敵を攻撃"
+    },
+    "Hitting with Chaos Control charges Chthonian Burst": {
+      "ko": "Chaos Control 적중 시 Chthonian Burst 충전",
+      "ja": "Chaos Control命中時にChthonian Burstをチャージ"
+    },
+    "Chaos Control can released during the Sorcery Surge": {
+      "ko": "Sorcery Surge 지속 중 Chaos Control 시전 가능",
+      "ja": "Sorcery Surge発動中もChaos Controlを使用可能"
+    },
+    "Begin to slow down by 1.5s, with the effect gradually increasing to -25% by 3.5s": {
+      "ko": "1.5초 후 감속 시작, 3.5초까지 감속 효과가 -25%로 점진적 증가",
+      "ja": "1.5秒後に減速が開始し、3.5秒までに効果が-25%まで徐々に増加"
+    },
+    "During this period, Scarlet Witch enters a Free-flight state, pulls in nearby enemies (within 15m radius) during cast charge. Max pull speed up to 3m/s": {
+      "ko": "지속 시간 동안 Scarlet Witch는 자유 비행 상태에 진입하며, 시전 충전 중 주변 적(반경 15m 이내)을 끌어당김. 최대 견인 속도 3m/s",
+      "ja": "効果中、Scarlet Witchは自由飛行状態になり、チャージ中に周囲の敵（半径15m以内）を牽引。最大牽引速度3m/s"
+    },
+    "12s per charge": {
+      "ko": "충전당 12초",
+      "ja": "チャージごとに12秒"
+    },
+    "During this period, Scarlet Witch enters the Projection state, can be healed by teammates": {
+      "ko": "지속 시간 동안 Scarlet Witch는 투영(Projection) 상태에 진입하며, 아군의 치유를 받을 수 있음",
+      "ja": "効果中、Scarlet Witchは投影（Projection）状態になり、味方からの回復を受けられる"
+    },
+    "The default attack is a punch, but after landing two consecutive punches, the next attack will be a flying kick": {
+      "ko": "기본 공격은 펀치이지만 연속 2타 적중 시 다음 공격은 플라잉 킥이 됨",
+      "ja": "通常攻撃はパンチですが、2連撃命中後の次の攻撃はフライングキックになります"
+    },
+    "0.82s per kick": {
+      "ko": "킥당 0.82초",
+      "ja": "キック1回あたり0.82秒"
+    },
+    "2s per shot": {
+      "ko": "발당 2초",
+      "ja": "発射1回あたり2秒"
+    },
+    "15 damage per hit": {
+      "ko": "타격당 15 데미지",
+      "ja": "1ヒットあたり15ダメージ"
+    },
+    "-3% per hit": {
+      "ko": "타격당 -3%",
+      "ja": "1ヒットあたり-3%"
+    },
+    "Striking an enemy applies a stacking Slow effect, and after reaching a certain number of stacks, the enemy will be Stunned": {
+      "ko": "적 타격 시 중첩되는 둔화 효과를 부여하며, 일정 스택 도달 시 대상을 기절(Stun)시킴",
+      "ja": "敵に命中するとスタックするスロウを付与し、一定スタック到達で敵をスタン状態にする"
+    },
+    "6s per charge": {
+      "ko": "충전당 6초",
+      "ja": "チャージごとに6秒"
+    },
+    "Attack enemies marked with a Spider-Tracer, pulling Spider-Man towards them and performing a flying kick": {
+      "ko": "Spider-Tracer가 표식된 적을 공격하여 Spider-Man이 대상 쪽으로 끌려가며 플라잉 킥 시전",
+      "ja": "Spider-Tracerが付与された敵を攻撃し、Spider-Manをその対象へ引き寄せてフライングキックを放つ"
+    },
+    "Can only be cast again after landing": {
+      "ko": "착지 후에만 재시전 가능",
+      "ja": "着地後のみ再発動可能"
+    },
+    "70% falloff at 3m": {
+      "ko": "3m에서 70% 감쇠",
+      "ja": "3m地点で70%減衰"
+    },
+    "1.49 acorns per second": {
+      "ko": "초당 1.49개 도토리",
+      "ja": "毎秒1.49個のどんぐり"
+    },
+    "20 - 60 m/s (Maximum speed is achieved after 0.7s of charging)": {
+      "ko": "20 - 60 m/s (0.7초 충전 시 최대 속도 달성)",
+      "ja": "20 - 60 m/s（0.7秒チャージで最大速度到達）"
+    },
+    "Length: 3m, Width: 5m, Height: 1.75m": {
+      "ko": "길이: 3m, 너비: 5m, 높이: 1.75m",
+      "ja": "長さ: 3m、幅: 5m、高さ: 1.75m"
+    },
+    "The squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly": {
+      "ko": "다람쥐들이 무작위로 튕기는 대신 바운드 후 가장 가까운 적을 향해 돌진",
+      "ja": "リスはランダムに跳ねる代わりに、バウンド後最も近い敵に向かって突進"
+    },
+    "Automatically track enemies within a horizontal angle of 60°, a vertical angle of 60°, and a maximum distance of 60m": {
+      "ko": "수평 각도 60°, 수직 각도 60°, 최대 거리 60m 이내의 적을 자동 추적",
+      "ja": "水平角度60°、垂直角度60°、最大距離60m以内の敵を自動追跡"
+    },
+    "Rapid-fire shots with spread.": {
+      "ko": "탄 퍼짐이 있는 고속 연사 사격.",
+      "ja": "拡散を伴う高速連射射撃。"
+    },
+    "After 2 consecutive shots, the spread increases to 0.15m; after 5 consecutive shots, the spread expands to 0.24m": {
+      "ko": "연속 2발 사격 후 탄 퍼짐이 0.15m로 증가, 연속 5발 사격 후 0.24m로 확대",
+      "ja": "連続2発射撃後に拡散が0.15mに拡大、連続5発射撃後に0.24mに拡大"
+    },
+    "5s per charge": {
+      "ko": "충전당 5초",
+      "ja": "チャージごとに5秒"
+    },
+    "During this period, Star-Lord's Reload Speed increases significantly": {
+      "ko": "지속 시간 동안 Star-Lord의 재장전 속도가 대폭 증가합니다",
+      "ja": "効果中、Star-Lordのリロード速度が大幅に上昇します"
+    },
+    "7.5 damage per hit": {
+      "ko": "타격당 7.5 데미지",
+      "ja": "1ヒットあたり7.5ダメージ"
+    },
+    "Teleport Cooldown 30s; jump device deployment Cooldown 5s.": {
+      "ko": "순간이동 쿨다운 30초, 도약 장치 배치 쿨다운 5초.",
+      "ja": "テレポートクールダウン30秒、ジャンプ装置設置クールダウン5秒。"
+    },
+    "Wind Blade pierces through enemies": {
+      "ko": "Wind Blade가 적들을 관통합니다",
+      "ja": "Wind Bladeが敵を貫通します"
+    },
+    "Weather effects will be disabled during the Ultimate": {
+      "ko": "궁극기 사용 중에는 기상 오라 효과가 비활성화됩니다",
+      "ja": "アルティメット発動中は天候オーラ効果が無効化されます"
+    },
+    "Under this aura, Wind Blade hits reduce Bolt Rush cooldown by 0.5s (only once per cast, even if hitting multiple enemies). Increase Bolt Rush spell field range radius from 1m to 1.5m": {
+      "ko": "해당 오라 활성화 중 Wind Blade 적중 시 Bolt Rush 쿨다운 0.5초 감소 (여러 명 적중해도 시전당 1회만 적용). Bolt Rush 장판 범위 반경이 1m에서 1.5m로 증가",
+      "ja": "このオーラ適用中、Wind Blade命中時にBolt Rushのクールダウンが0.5秒短縮（複数命中時も発動1回につき1回のみ）。Bolt Rushのフィールド範囲半径が1mから1.5mに拡大"
+    },
+    "2s per strike": {
+      "ko": "타격당 2초",
+      "ja": "落雷1回あたり2秒"
+    },
+    "Cone-shaped spell field with a 5m radius and an apex angle of 90°": {
+      "ko": "반경 5m, 중심각 90°의 원뿔형 장판",
+      "ja": "半径5m、頂角90°の扇形（コーン型）フィールド"
+    },
+    "Projectile: Yes; Spell Field: No": {
+      "ko": "투사체: 있음 | 장판: 없음",
+      "ja": "弾（投射物）: あり | フィールド: なし"
+    },
+    "Enemies that take damage from the projectile will no longer receive damage from the spell field": {
+      "ko": "투사체로 피해를 입은 적은 장판으로부터 피해를 받지 않음",
+      "ja": "弾でダメージを受けた敵は、フィールドからのダメージを受けなくなります"
+    },
+    "0.5s - 4s": {
+      "ko": "0.5초 - 4초",
+      "ja": "0.5秒 - 4秒"
+    },
+    "Cone-shaped spell field with a 4.5m radius and an apex angle of 80°": {
+      "ko": "반경 4.5m, 중심각 80°의 원뿔형 장판",
+      "ja": "半径4.5m、頂角80°の扇形（コーン型）フィールド"
+    },
+    "20% Health": {
+      "ko": "체력 20%",
+      "ja": "HP 20%"
+    },
+    "Length: 4.5m, Width: 4.5m, Height: 2m": {
+      "ko": "길이: 4.5m, 너비: 4.5m, 높이: 2m",
+      "ja": "長さ: 4.5m、幅: 4.5m、高さ: 2m"
+    },
+    "Projectiles pierce through enemies": {
+      "ko": "투사체가 적들을 관통합니다",
+      "ja": "弾が敵を貫通します"
+    },
+    "Stellar Impact also triggers the Ceaseless Charge passive effect": {
+      "ko": "Stellar Impact 또한 Ceaseless Charge 패시브 효과를 발동시킵니다",
+      "ja": "Stellar ImpactもCeaseless Chargeパッシブ効果を発動させます"
+    },
+    "40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact)": {
+      "ko": "40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact)",
+      "ja": "40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact)"
+    },
+    "15 damage per strike": {
+      "ko": "타격당 15 데미지",
+      "ja": "1撃あたり15ダメージ"
+    },
+    "Deal damage equal to 1.5% of the target's Max Health, with an extra 0.057% damage for each point of Rage": {
+      "ko": "대상 최대 체력의 1.5%에 해당하는 피해를 입히며, Rage 포인트당 0.057% 추가 피해",
+      "ja": "対象の最大HPの1.5%に相当するダメージを与え、Rageポイントごとに0.057%の追加ダメージ"
+    },
+    "The first three strikes have an interval of 0.27s between them, while the fourth strike has a 0.84s interval from the third strike": {
+      "ko": "1~3타 간 간격은 0.27초이며, 3타와 4타 사이 간격은 0.84초",
+      "ja": "1〜3撃目の間隔は0.27秒、3撃目と4撃目の間隔は0.84秒"
+    },
+    "Deal damage equal to 10% of the target's Max Health, with an extra 0.3% damage for each point of Rage": {
+      "ko": "대상 최대 체력의 10%에 해당하는 피해를 입히며, Rage 포인트당 0.3% 추가 피해",
+      "ja": "対象の最大HPの10%に相当するダメージを与え、Rageポイントごとに0.3%の追加ダメージ"
+    },
+    "6 damage per strike": {
+      "ko": "타격당 6 데미지",
+      "ja": "1撃あたり6ダメージ"
+    },
+    "Deal damage equal to 1% of the target's Max Health, with an extra 0.035% damage for each point of Rage": {
+      "ko": "대상 최대 체력의 1%에 해당하는 피해를 입히며, Rage 포인트당 0.035% 추가 피해",
+      "ja": "対象の最大HPの1%に相当するダメージを与え、Rageポイントごとに0.035%の追加ダメージ"
+    },
+    "Deal damage equals to target's 1% Maximum Health per second": {
+      "ko": "초당 대상 최대 체력의 1%에 해당하는 피해를 입힘",
+      "ja": "毎秒、対象の最大HPの1%に相当するダメージを与える"
+    },
+    "Deal damage equal to 1% of the target's Max Health, with an extra 0.035% damage for each point of Rage.": {
+      "ko": "대상 최대 체력의 1%에 해당하는 피해를 입히며, Rage 포인트당 0.035% 추가 피해.",
+      "ja": "対象の最大HPの1%に相当するダメージを与え、Rageポイントごとに0.035%の追加ダメージ。"
+    },
+    "5 + 0.01% Max HP per Rage point": {
+      "ko": "Rage 포인트당 5 + 최대 HP의 0.01%",
+      "ja": "Rageポイントごとに5 + 最大HPの0.01%"
+    },
+    "150 - 300 (Damage increases with Rage)": {
+      "ko": "150 - 300 (Rage에 비례하여 데미지 증가)",
+      "ja": "150 - 300（Rageに応じてダメージ増加）"
+    },
+    "The firing interval for a single charged shot is 0.3s, while the interval for multiple shots is 0.07s": {
+      "ko": "단발 충전 사격의 발사 간격은 0.3초, 다중 사격 간격은 0.07초",
+      "ja": "単発チャージ射撃の間隔は0.3秒、連射時の間隔は0.07秒"
+    },
+    "Cosmic Cluster shares ammo with Quantum Magic, each hit reduces the cooldown of Avatar Life Stream by 0.6s.": {
+      "ko": "Cosmic Cluster는 Quantum Magic과 탄약을 공유하며, 적중 시마다 Avatar Life Stream의 쿨다운이 0.6초 감소합니다.",
+      "ja": "Cosmic ClusterはQuantum Magicと弾薬を共有し、命中ごとにAvatar Life Streamのクールダウンが0.6秒短縮されます。"
+    },
+    "Revive allies within range, centered on Adam. Continuously monitor for fallen allies within this range; if they enter the area, they can be revived at the casting location": {
+      "ko": "Adam을 중심으로 범위 내 아군 부활. 해당 범위 내 쓰러진 아군을 지속 감지하여 영역에 들어오면 시전 위치에서 부활시킵니다",
+      "ja": "Adamを中心に範囲内の味方を蘇生。範囲内の倒れた味方を継続監視し、エリア内に入れば発動地点で蘇生させます"
+    },
+    "Allies revived will be blessed with Bonus Health equal to 70% of their Maximum Health with a 5s duration. Bonus Health falloff begins at 5s, decreasing to 0 in 2s.": {
+      "ko": "부활한 아군은 5초 동안 최대 체력의 70%에 해당하는 Bonus Health를 부여받습니다. Bonus Health는 5초 후 감쇠가 시작되어 2초에 걸쳐 0으로 감소합니다.",
+      "ja": "蘇生された味方は5秒間、最大HPの70%に相当するBonus Healthを獲得。Bonus Healthは5秒後に減衰開始し、2秒かけて0になります。"
+    },
+    "Adam Warlock will share a portion of the damage sustained by linked allies. If Adam Warlock sustains damage that would KO him due to the link, then the link will be broken, and he will retain 1 Health. The link will also break once enough damage is sustained, if Adam Warlock or the linked ally leave the link's range, or after a certain length of time has passed": {
+      "ko": "Adam Warlock은 연결된 아군이 받는 피해의 일부를 공유합니다. 연결로 인해 처치당할 수준의 피해를 받으면 링크가 끊어지고 체력 1로 생존합니다. 일정량 이상의 피해를 받거나 연결 범위를 벗어나거나 일정 시간이 지나도 링크가 해제됩니다",
+      "ja": "Adam Warlockはリンクされた味方の被ダメージの一部を共有します。リンクにより戦闘不能になるダメージを受けた場合はリンクが切れ、HP 1で耐えます。一定以上のダメージを受けるか範囲外に出るか一定時間経過でもリンクが解除されます"
+    },
+    "Adam can hover and attack during the ability's duration": {
+      "ko": "스킬 지속 시간 동안 Adam은 체공 및 공격이 가능합니다",
+      "ja": "アビリティ発動中、Adamは滞空および攻撃が可能です"
+    },
+    "Bouncing target does not include Adam Warlock": {
+      "ko": "바운드 대상에 Adam Warlock 본인은 포함되지 않음",
+      "ja": "バウンド対象にAdam Warlock自身は含まれません"
+    },
+    "2 charges, with each charge taking 6s to recharge; when a critical hit lands on an enemy, reduce the cooldown time of Avatar Life Stream by 1s.": {
+      "ko": "2회 충전, 충전당 6초 소요. 적에게 치명타 적중 시 Avatar Life Stream의 쿨다운 1초 감소.",
+      "ja": "2チャージ、チャージごとに6秒。敵へのクリティカルヒット時、Avatar Life Streamのクールダウンが1秒短縮。"
+    },
+    "150° cone spell field with a radius of 7.5m and a height of 2.5m": {
+      "ko": "반경 7.5m, 높이 2.5m, 각도 150°의 부채꼴 장판",
+      "ja": "半径7.5m、高さ2.5m、角度150°の扇形フィールド"
+    },
+    "Falloff begins at 30°, drop to 30% of maximum damage at 75°": {
+      "ko": "30°에서 감쇠 시작, 75°에서 최대 피해의 30%까지 감소",
+      "ja": "30°で減衰開始、75°で最大ダメージの30%まで低下"
+    },
+    "Gain 0/50/200/500 Fortune randomly": {
+      "ko": "Fortune 0/50/200/500을 무작위로 획득",
+      "ja": "Fortuneをランダムに0/50/200/500獲得"
+    },
+    "60%, drop to 0 in 2s": {
+      "ko": "60%, 2초에 걸쳐 0으로 감소",
+      "ja": "60%、2秒かけて0まで低下"
+    },
+    "Remove any active control effects": {
+      "ko": "모든 활성 제어(군중 제어) 효과 제거",
+      "ja": "発動中のあらゆる行動制限（妨害効果）を解除"
+    },
+    "A cylindrical spell field with a radius of 5m and a height of 40m.": {
+      "ko": "반경 5m, 높이 40m의 원기둥형 장판.",
+      "ja": "半径5m、高さ40mの円柱状フィールド。"
+    },
+    "50, up to 50": {
+      "ko": "50, 최대 50",
+      "ja": "50、最大50"
+    },
+    "50, up to 100": {
+      "ko": "50, 최대 100",
+      "ja": "50、最大100"
+    },
+    "150, up to 150": {
+      "ko": "150, 최대 150",
+      "ja": "150、最大150"
+    },
+    "Lose 50% of Fortune when defeated, with a minimum deduction of 200": {
+      "ko": "처치 시 Fortune의 50%를 잃으며, 최소 200 차감",
+      "ja": "倒された時にFortuneの50%を失う（最低200減少）"
+    },
+    "Single-cast projectile that generates a spell area upon impact": {
+      "ko": "충돌 시 장판을 생성하는 단발 투사체",
+      "ja": "着弾時にフィールドを生成する単発弾"
+    },
+    "The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects": {
+      "ko": "투사체에 끌어당김 효과가 있어 조준선에 가장 가까운 대상을 끌어당기고 충돌 시 치유 효과를 제공하는 장판을 생성합니다",
+      "ja": "弾には牽引効果があり、照準に最も近い対象を引き寄せ着弾時に回復効果を与えるフィールドを生成します"
+    },
+    "When a Spell Field is created, allies in range get a One-Time Healing of 60": {
+      "ko": "장판 생성 시 범위 내 아군에게 60의 즉시 치유 제공",
+      "ja": "フィールド生成時、範囲内の味方に60の即時回復を付与"
+    },
+    "50%, minimum 10%": {
+      "ko": "50%, 최소 10%",
+      "ja": "50%、最低10%"
+    },
+    "75+20%Maximum Health": {
+      "ko": "75 + 최대 체력의 20%",
+      "ja": "75 + 最大HPの20%"
+    },
+    "75+40%Maximum Health": {
+      "ko": "75 + 최대 체력의 40%",
+      "ja": "75 + 最大HPの40%"
+    },
+    "First field 2m, second field 8m": {
+      "ko": "1차 장판 2m, 2차 장판 8m",
+      "ja": "1次フィールド 2m、2次フィールド 8m"
+    },
+    "Minimum 0.35s, maximum 1s": {
+      "ko": "최소 0.35초, 최대 1초",
+      "ja": "最小0.35秒、最大1秒"
+    },
+    "Minimum 11m, maximum 22m": {
+      "ko": "최소 11m, 최대 22m",
+      "ja": "最小11m、最大22m"
+    },
+    "After the first refraction, each additional refraction increases damage by 10%, up to 20%": {
+      "ko": "첫 굴절 후 추가 굴절마다 데미지 10% 증가, 최대 20%",
+      "ja": "初回転折後、追加の屈折ごとにダメージが10%増加（最大20%）"
+    },
+    "2 charges, with each charge taking 15s to recharge. Base Cooldown 2s": {
+      "ko": "2회 충전, 충전당 15초 소요. 기본 쿨다운 2초",
+      "ja": "2チャージ、チャージごとに15秒。基本クールダウン2秒"
+    },
+    "45 per round": {
+      "ko": "발당 45",
+      "ja": "1発あたり45"
+    },
+    "80 per ability missed": {
+      "ko": "빗나간 스킬당 80",
+      "ja": "外れたアビリティごとに80"
+    },
+    "90 per ability missed": {
+      "ko": "빗나간 스킬당 90",
+      "ja": "外れたアビリティごとに90"
+    },
+    "80/s upon activation; 120/s after completing the challenge": {
+      "ko": "발동 시 초당 80 | 챌린지 완료 후 초당 120",
+      "ja": "発動時 毎秒80 | チャレンジ達成後 毎秒120"
+    },
+    "Refresh the cooldown if it hits an enemy or an ally. Transform the next katana base attack to a Stab.": {
+      "ko": "적 또는 아군에게 적중 시 쿨다운 초기화. 다음 카타나 기본 공격을 찌르기(Stab)로 전환.",
+      "ja": "敵または味方に命中時クールダウンをリセット。次のカタナ通常攻撃を突き（Stab）に変化。"
+    },
+    "+5% Healing Bonus": {
+      "ko": "+5% 치유 보너스",
+      "ja": "+5% 回復ボーナス"
+    },
+    "1st and 3rd attacks: 1s; 2nd attack: 0.9s": {
+      "ko": "1타 및 3타: 1초 | 2타: 0.9초",
+      "ja": "1打目および3打目: 1秒 | 2打目: 0.9秒"
+    },
+    "0.75% Maximum Health": {
+      "ko": "최대 체력의 0.75%",
+      "ja": "最大HPの0.75%"
+    },
+    "2 times per second": {
+      "ko": "초당 2회",
+      "ja": "毎秒2回"
+    },
+    "First 4 hits: 15 each; 5th hit: 30": {
+      "ko": "1~4타: 각 15 | 5타: 30",
+      "ja": "1〜4撃目: 各15 | 5撃目: 30"
+    },
+    "First 4 hits: 8% Maximum Health each; 5th hit: 12% Maximum Health": {
+      "ko": "1~4타: 각 최대 체력의 8% | 5타: 최대 체력의 12%",
+      "ja": "1〜4撃目: 各最大HPの8% | 5撃目: 最大HPの12%"
+    },
+    "150% of Bleed Damage Dealt": {
+      "ko": "입힌 출혈 피해의 150%",
+      "ja": "与えた出血ダメージの150%"
+    },
+    "Maximum Health +100": {
+      "ko": "최대 체력 +100",
+      "ja": "最大HP +100"
+    },
+    "Damage increases with energy: 0 - 70/s, 99 - 110/s, full energy - 140/s": {
+      "ko": "에너지에 따라 데미지 증가: 0 - 초당 70, 99 - 초당 110, 풀 에너지 - 초당 140",
+      "ja": "エネルギーに応じてダメージ増加: 0で毎秒70、99で毎秒110、最大エネルギーで毎秒140"
+    },
+    "Energy gain: Hero hit: 12/s; Sentience hit: 18/s; Common summons hit: 5/s; Shield hit: 6/s. Falloff begins 4s after not hitting an enemy, at a rate of 30/s": {
+      "ko": "에너지 획득: 영웅 적중 초당 12, Sentience 적중 초당 18, 일반 소환수 적중 초당 5, 쉴드 적중 초당 6. 적 미적중 4초 후 초당 30씩 감쇠",
+      "ja": "エネルギー獲得: ヒーロー命中 毎秒12、Sentience命中 毎秒18、通常召喚物命中 毎秒5、シールド命中 毎秒6。敵非命中4秒後、毎秒30ずつ減衰"
+    },
+    "First & second hit: 50; third hit: 70; fourth hit: 80": {
+      "ko": "1~2타: 50 | 3타: 70 | 4타: 80",
+      "ja": "1〜2撃目: 50 | 3撃目: 70 | 4撃目: 80"
+    },
+    "Deployable Shield": {
+      "ko": "설치형 쉴드",
+      "ja": "設置型シールド"
+    },
+    "Hit damage: 40; damage increases to 90 when the target is knocked into walls": {
+      "ko": "타격 데미지: 40 | 대상을 벽에 충돌시킬 경우 90으로 데미지 증가",
+      "ja": "命中ダメージ: 40 | 対象を壁に激突させた場合ダメージが90に増加"
+    },
+    "Maximum knockback distance: 10m": {
+      "ko": "최대 넉백 거리: 10m",
+      "ja": "最大ノックバック距離: 10m"
+    },
+    "Large-ranged Persistent Spell Field": {
+      "ko": "광범위 지속형 장판",
+      "ja": "広範囲持続型フィールド"
+    },
+    "Basic damage 80/s; distance falloff: falloff begins at 10m, decreasing to 70% at 30m; angle falloff: falloff begins at 7° from the center of view, decreasing to 80% at 20°": {
+      "ko": "기본 데미지 초당 80. 거리 감쇠: 10m에서 감쇠 시작, 30m에서 70%로 감소. 각도 감쇠: 시야 중심 7°에서 감쇠 시작, 20°에서 80%로 감소",
+      "ja": "基本ダメージ毎秒80。距離減衰: 10mで減衰開始、30mで70%に低下。角度減衰: 視界中央7°で減衰開始、20°で80%に低下"
+    },
+    "When exposed to the ability, enemies accumulate 10 stacks per second, and the stacks decrease by 10 stacks per second when they leave the exposure. At 15 stacks, a control effect is triggered. Each enemy can only be controlled once per ultimate activation. Gain 25% Damage Reduction during the ability.": {
+      "ko": "스킬 범위 노출 시 적은 초당 10스택이 누적되며 벗어나면 초당 10스택씩 감소합니다. 15스택 시 제어 효과가 발동합니다. 궁극기 발동당 적마다 1회만 제어 가능. 스킬 지속 중 피해 감소 25% 획득.",
+      "ja": "効果範囲にいる敵は毎秒10スタック蓄積し、離脱すると毎秒10スタック減少します。15スタックで行動妨害が発動。アルティメット発動ごとに各敵1回のみ妨害可能。発動中は被ダメージ25%軽減を獲得。"
+    },
+    "Switch Form": {
+      "ko": "형태 전환",
+      "ja": "形態切り替え"
+    },
+    "25% Damage Reduction in Diamond form": {
+      "ko": "Diamond 형태에서 피해 감소 25%",
+      "ja": "Diamond形態時、被ダメージ25%軽減"
+    },
+    "Single-cast delayed projectile": {
+      "ko": "단발 지연 투사체",
+      "ja": "単発遅延弾"
+    },
+    "Target's 25% Current Health": {
+      "ko": "대상 현재 체력의 25%",
+      "ja": "対象の現在HPの25%"
+    },
+    "Deal 5 damage per direct hit. When the sentience shatters, it deals damage to the target, which is equal to 25% of the target's maximum health": {
+      "ko": "직격당 5 데미지. Sentience가 파괴될 때 대상 최대 체력의 25%에 해당하는 피해를 입힘",
+      "ja": "直撃時5ダメージ。Sentience粉砕時、対象の最大HPの25%に相当するダメージを与える"
+    },
+    "When the distance between the target and its sentience is more than 15m, their linkage can be broken": {
+      "ko": "대상과 Sentience 간의 거리가 15m를 초과하면 연결이 끊어질 수 있음",
+      "ja": "対象とSentienceの距離が15mを超えるとリンクが解除される"
+    },
+    "Dash Based Control": {
+      "ko": "돌진형 제어",
+      "ja": "突進型行動妨害"
+    },
+    "Control effect duration: 1.6s": {
+      "ko": "제어 효과 지속 시간: 1.6초",
+      "ja": "行動妨害持続時間: 1.6秒"
+    },
+    "A fan-shaped spell field with a radius of 12m, a height of 3m, and an angle of 60°": {
+      "ko": "반경 12m, 높이 3m, 각도 60°의 부채꼴 장판",
+      "ja": "半径12m、高さ3m、角度60°の扇形フィールド"
+    },
+    "2°": {
+      "ko": "2°",
+      "ja": "2°"
+    },
+    "Heal 30 health per second within duration": {
+      "ko": "지속 시간 동안 초당 30 체력 치유",
+      "ja": "持続時間中、毎秒30HPを回復"
+    },
+    "Within the duration, consume one stack of Sleight of Hand to use Bridge Boost and Purifying Pick-Up.": {
+      "ko": "지속 시간 동안 Sleight of Hand 1스택을 소모하여 Bridge Boost 및 Purifying Pick-Up 사용 가능.",
+      "ja": "持続時間中、Sleight of Handを1スタック消費してBridge BoostおよびPurifying Pick-Upを使用可能。"
+    },
+    "Within the duration, consume one stack of Sleight of Hand to use Explosive Trick and Bidding Barrage": {
+      "ko": "지속 시간 동안 Sleight of Hand 1스택을 소모하여 Explosive Trick 및 Bidding Barrage 사용 가능",
+      "ja": "持続時間中、Sleight of Handを1スタック消費してExplosive TrickおよびBidding Barrageを使用可能"
+    },
+    "The projectile automatically tracks allies and will bounce between allies on impact. Bridge Boost bounces on a single target are set to a maximum of 2": {
+      "ko": "투사체가 아군을 자동 추적하며 충돌 시 아군 사이를 바운드합니다. 단일 대상에 대한 Bridge Boost 바운드는 최대 2회",
+      "ja": "弾は味方を自動追跡し、着弾時に味方同士をバウンドします。単一対象に対するBridge Boostのバウンドは最大2回"
+    },
+    "55 per round": {
+      "ko": "발당 55",
+      "ja": "1発あたり55"
+    },
+    "Launch enemies up on hit, which can take effect only once.": {
+      "ko": "적중 시 적을 띄움 (1회만 적용 가능).",
+      "ja": "命中時に敵を打ち上げる（発動は1回のみ有効）。"
+    },
+    "The spell field applies Purify to allies upon impact. This can take effect on allies a maximum of 2 times and on himself once.": {
+      "ko": "장판이 충돌 시 아군에게 정화(Purify) 효과를 부여합니다. 아군에게는 최대 2회, 본인에게는 1회 적용 가능.",
+      "ja": "フィールド着弾時に味方へ浄化（Purify）を付与。味方には最大2回、自身には1回まで発動可能。"
+    },
+    "40 for the 1st/3rd hits, 60 for the 2nd/4th hits": {
+      "ko": "1/3타: 40 | 2/4타: 60",
+      "ja": "1/3撃目: 40 | 2/4撃目: 60"
+    },
+    "0.4s for the 1st/3rd hits, 0.6s for the 2nd/4th hits": {
+      "ko": "1/3타: 0.4초 | 2/4타: 0.6초",
+      "ja": "1/3撃目: 0.4秒 | 2/4撃目: 0.6秒"
+    },
+    "65 + 10% Max Health": {
+      "ko": "65 + 최대 체력의 10%",
+      "ja": "65 + 最大HPの10%"
+    },
+    "100%, up to 50": {
+      "ko": "100%, 최대 50",
+      "ja": "100%、最大50"
+    },
+    "2 charges, 10s recharge each.": {
+      "ko": "2회 충전, 충전당 10초 소요.",
+      "ja": "2チャージ、チャージごとに10秒。"
+    },
+    "50% of the Black Berserker's remaining Health, up to 50; shares the Bonus Health cap with Berserker Swarm": {
+      "ko": "Black Berserker 남은 체력의 50%, 최대 50. Berserker Swarm과 Bonus Health 상한 공유",
+      "ja": "Black Berserkerの残HPの50%（最大50）。Berserker SwarmとBonus Health上限を共有"
+    },
+    "5 + 5% Max Health": {
+      "ko": "5 + 최대 체력의 5%",
+      "ja": "5 + 最大HPの5%"
+    },
+    "55 + 2% Max Health": {
+      "ko": "55 + 최대 체력의 2%",
+      "ja": "55 + 最大HPの2%"
+    },
+    "Orbs can pierce heroes and return to Invisible Woman after reaching their maximum distance. They damage enemies and heal teammates": {
+      "ko": "구체는 영웅을 관통하며 최대 사거리에 도달한 후 Invisible Woman에게 복귀합니다. 적에게 피해를 주고 아군을 치유합니다",
+      "ja": "オーブはヒーローを貫通し、最大距離到達後にInvisible Womanへ戻ります。敵にダメージを与え、味方を回復します"
+    },
+    "Deal 30 damage per hit upon being shot out and 15 damage per hit on its return journey.": {
+      "ko": "발사 시 타격당 30 데미지, 복귀 시 타격당 15 데미지.",
+      "ja": "射出時1ヒットあたり30ダメージ、帰還時1ヒットあたり15ダメージ。"
+    },
+    "No falloff": {
+      "ko": "감쇠 없음",
+      "ja": "減衰なし"
+    },
+    "Heal 50 health per hit upon being shot out and 45 health per hit on its return journey.": {
+      "ko": "발사 시 타격당 50 치유, 복귀 시 타격당 45 치유.",
+      "ja": "射出時1ヒットあたり50回復、帰還時1ヒットあたり45回復。"
+    },
+    "50/sec, self 20/sec": {
+      "ko": "초당 50 | 본인 초당 20",
+      "ja": "毎秒50 | 自身 毎秒20"
+    },
+    "Before the shield is destroyed, Invisible Woman can choose to reproject the shield onto a selected teammate at any time": {
+      "ko": "쉴드가 파괴되기 전에는 언제든지 선택한 팀원에게 쉴드를 재배치할 수 있습니다",
+      "ja": "シールドが破壊される前であれば、いつでも選択した味方にシールドを再展開可能"
+    },
+    "After the shield has been damaged, Invisible Woman can press the F key to reclaim the shield and restore its value": {
+      "ko": "쉴드가 피해를 입은 후 F키를 눌러 쉴드를 회수하고 내구도를 복구할 수 있습니다",
+      "ja": "シールド損傷後、Fキーを押してシールドを回収し耐久値を回復可能"
+    },
+    "If no Guardian Shield is present, pressing the recall key now deploys a shield in front of Invisible Woman": {
+      "ko": "배치된 Guardian Shield가 없을 때 회수 키를 누르면 Invisible Woman 전방에 쉴드를 전개합니다",
+      "ja": "展開中のGuardian Shieldがない場合、回収キーを押すとInvisible Womanの前方にシールドを展開します"
+    },
+    "Targeted, generates a cylindrical spell field": {
+      "ko": "타겟 지정형, 원기둥형 장판 생성",
+      "ja": "ターゲット指定型、円柱状フィールドを生成"
+    },
+    "200/sec": {
+      "ko": "초당 200",
+      "ja": "毎秒200"
+    },
+    "10m radius, 40m height": {
+      "ko": "반경 10m, 높이 40m",
+      "ja": "半径10m、高さ40m"
+    },
+    "Slows enemies within range by 20%": {
+      "ko": "범위 내 적을 20% 둔화",
+      "ja": "範囲内の敵に20%のスロウを付与"
+    },
+    "35/sec": {
+      "ko": "초당 35",
+      "ja": "毎秒35"
+    },
+    "Applies a slow effect to enemies within the spell field; the closer they are to the center of the field, the greater the slow effect": {
+      "ko": "장판 내 적에게 둔화 효과 적용. 장판 중심에 가까울수록 더 강한 둔화 적용",
+      "ja": "フィールド内の敵にスロウを付与。中心に近いほどスロウ効果が増加"
+    },
+    "Center 50%, Edge 0": {
+      "ko": "중심 50%, 외곽 0",
+      "ja": "中心50%、外縁0"
+    },
+    "1.5m radius, 35m length": {
+      "ko": "반경 1.5m, 길이 35m",
+      "ja": "半径1.5m、長さ35m"
+    },
+    "30/sec": {
+      "ko": "초당 30",
+      "ja": "毎秒30"
+    },
+    "Rapid-fire, delayed projectile": {
+      "ko": "고속 연사, 지연 투사체",
+      "ja": "高速連射、遅延弾"
+    },
+    "Damage falloff starts at 15m to a maximum of 60% at 30m": {
+      "ko": "15m에서 데미지 감쇠 시작, 30m에서 최대 60%까지 감소",
+      "ja": "15mで減衰開始、30mで最大60%まで低下"
+    },
+    "Projectile Damage: 25 damage per round, Spell Field Damage: 45 damage per cast": {
+      "ko": "투사체 데미지: 발당 25 | 장판 데미지: 시전당 45",
+      "ja": "弾ダメージ: 1発あたり25 | フィールドダメージ: 発動ごとに45"
+    },
+    "Falloff begins at 1m, decreasing to 50% at 3m (projectile damage has no falloff)": {
+      "ko": "1m에서 감쇠 시작, 3m에서 50%로 감소 (투사체 데미지는 감쇠 없음)",
+      "ja": "1mで減衰開始、3mで50%に低下（弾ダメージは減衰なし）"
+    },
+    "Direct hits can launch enemies up": {
+      "ko": "직격 시 적을 공중으로 띄움",
+      "ja": "直撃時に敵を打ち上げる"
+    },
+    "After swallowing allies and enemies, Jeff will deal damage to enemies and heal allies for the duration of the effect, during which they will also benefit from Hide and Seek": {
+      "ko": "아군과 적을 삼킨 후 효과 지속 시간 동안 적에게 피해를 주고 아군을 치유하며 아군은 Hide and Seek 효과도 적용받습니다",
+      "ja": "味方と敵を飲み込んだ後、効果持続中に敵へダメージを与え味方を回復、味方はHide and Seekの恩恵も受けます"
+    },
+    "It's Jeff! (Ultimate Ability) leaves an 8m radius Healing Pool at the point of activation that heals allies within range by 100/s. Healing Pool lasts for 8s": {
+      "ko": "It's Jeff! (궁극기) 시전 지점에 반경 8m의 Healing Pool을 남겨 범위 내 아군을 초당 100 치유합니다. Healing Pool은 8초간 지속됩니다",
+      "ja": "It's Jeff!（アルティメット）発動地点に半径8mのHealing Poolを残し、範囲内の味方を毎秒100回復。Healing Poolは8秒間持続"
+    },
+    "10m radius,5m high cylindrical spell field": {
+      "ko": "반경 10m, 높이 5m의 원기둥형 장판",
+      "ja": "半径10m、高さ5mの円柱状フィールド"
+    },
+    "Overflow healing on swallowed allies grants 45 Health per second as Bonus Health, up to 150": {
+      "ko": "삼켜진 아군의 초과 치유량은 초당 45만큼 Bonus Health로 전환 (최대 150)",
+      "ja": "飲み込まれた味方の超過回復量は毎秒45のBonus Healthとして付与（最大150）"
+    },
+    "During the dive, gain Unstoppable, healing over time, and a Movement Boost, while Jeff's hitbox is reduced": {
+      "ko": "잠수 중 저지 불가(Unstoppable), 지속 치유, 이동 속도 증가를 획득하며 Jeff의 피격 판정이 축소됩니다",
+      "ja": "潜航中、妨害無効（Unstoppable）、継続回復、移動速度上昇を獲得し、Jeffの当たり判定が縮小"
+    },
+    "Summons": {
+      "ko": "소환물",
+      "ja": "召喚物"
+    },
+    "Touching the bubble will immediately activate its effect": {
+      "ko": "방울에 접촉 시 즉시 효과 발동",
+      "ja": "泡に触れると即座に効果が発動"
+    },
+    "Falloff begins at 3s and decreases by 30/s": {
+      "ko": "3초 후 감쇠 시작, 초당 30씩 감소",
+      "ja": "3秒後に減衰開始、毎秒30減少"
+    },
+    "60m radius, 90° fan-shaped area in front of Jeff": {
+      "ko": "Jeff 전방 반경 60m, 90° 부채꼴 영역",
+      "ja": "Jeffの前方、半径60m・90°の扇形エリア"
+    },
+    "10m spherical radius spell field centered around Storm": {
+      "ko": "Storm 중심 반경 10m 구형 장판",
+      "ja": "Stormを中心とする半径10mの球状フィールド"
+    },
+    "6 seconds; when reaching its max charge for the first time, duration is increased by 6 seconds": {
+      "ko": "6초. 처음 최대 충전에 도달할 때 지속 시간 6초 증가",
+      "ja": "6秒。初回最大チャージ到達時に持続時間が6秒延長"
+    },
+    "250 Healing/Damage": {
+      "ko": "250 치유/피해",
+      "ja": "250 回復/ダメージ"
+    },
+    "4m radius, increasing linearly with energy; up to 8m at max energy": {
+      "ko": "반경 4m, 에너지에 따라 선형 증가 (최대 에너지 시 최대 8m)",
+      "ja": "半径4m、エネルギーに応じて線形増加（最大エネルギー時 最大8m）"
+    },
+    "35/sec, increasing linearly with energy; up to 50/sec at max energy": {
+      "ko": "초당 35, 에너지에 따라 선형 증가 (최대 에너지 시 최대 초당 50)",
+      "ja": "毎秒35、エネルギーに応じて線形増加（最大エネルギー時 最大毎秒50）"
+    },
+    "0; increases linearly with energy, reaching max when the orb's remaining duration is greater than 6 seconds, restoring 1 charge": {
+      "ko": "0. 에너지에 따라 선형 증가하며, 구체의 남은 지속 시간이 6초보다 길 때 최대치에 도달하여 충전 1회 복구",
+      "ja": "0。エネルギーに応じて線形増加し、オーブの残り時間が6秒以上の時に最大となりチャージを1回復"
+    },
+    "Inner circle radius 6m; Outer circle radius 10m": {
+      "ko": "내측 원 반경 6m, 외측 원 반경 10m",
+      "ja": "内円半径6m、外円半径10m"
+    },
+    "Matches current range of selected orb": {
+      "ko": "선택된 구체의 현재 범위와 동일",
+      "ja": "選択したオーブの現在の範囲と一致"
+    },
+    "25/sec for 3s": {
+      "ko": "3초 동안 초당 25",
+      "ja": "3秒間、毎秒25"
+    },
+    "The projectile deals no damage, while the spell field inflicts 25 damage per cast": {
+      "ko": "투사체 피해는 없으며, 장판이 시전당 25의 피해를 입힙니다",
+      "ja": "弾自体にダメージはなく、フィールドが発動ごとに25ダメージを与えます"
+    },
+    "Falloff begins at 0.5m, decreasing to 80% at 2.5m": {
+      "ko": "0.5m에서 감쇠 시작, 2.5m에서 80%로 감소",
+      "ja": "0.5mで減衰開始、2.5mで80%に低下"
+    },
+    "Loki leaves an illusion in his place and becomes invisible while continuously healing himself. This invisibility has no time limit, but any actions other than casting Devious Exchange, reloading, or casting Doppelganger will render him visible": {
+      "ko": "Loki는 원래 자리에 분신을 남기고 은신 상태가 되어 자신을 지속 치유합니다. 이 은신은 시간 제한이 없으나 Devious Exchange 시전, 재장전, Doppelganger 시전 외의 행동을 하면 은신이 해제됩니다",
+      "ja": "Lokiはその場に分身を残して透明化し、自身を継続回復します。この透明化には時間制限がありませんが、Devious Exchange発動、リロード、Doppelganger発動以外のアクションを行うと姿を現します"
+    },
+    "Health regenerates at a rate of 20 Health per second while invisible": {
+      "ko": "은신 상태 동안 초당 20의 체력이 회복됩니다",
+      "ja": "透明化中、毎秒20のHPが自動回復します"
+    },
+    "After transforming, Loki's Ultimate ability will be fully charged. Casting a transformation-type Ultimate ability will extend the duration of God of Mischief until the transformation ability ends": {
+      "ko": "변신 후 Loki의 궁극기가 완전히 충전됩니다. 변신형 궁극기를 시전하면 God of Mischief 지속 시간이 해당 변신 궁극기가 끝날 때까지 연장됩니다",
+      "ja": "変身後、Lokiのアルティメットがフルチャージされます。変身系アルティメットを発動すると、そのアビリティ終了までGod of Mischiefの持続時間が延長されます"
+    },
+    "Release a spell field at the location of Loki and the Illusion": {
+      "ko": "Loki 및 분신의 위치에 장판 방출",
+      "ja": "Lokiおよび分身の位置にフィールドを展開"
+    },
+    "The spell field is sustained by Rune Stones. It will disappear if the Rune Stone is destroyed or if its maximum duration is reached. Allies within the field will receive healing over time, and any damage taken will be converted into healing based on the amount of damage taken": {
+      "ko": "장판은 Rune Stone에 의해 유지됩니다. Rune Stone이 파괴되거나 최대 지속 시간에 도달하면 소멸합니다. 장판 내 아군은 지속 치유를 받으며, 받는 피해는 피해량에 비례하여 치유로 전환됩니다",
+      "ja": "フィールドはRune Stoneによって維持されます。Rune Stoneが破壊されるか最大持続時間に達すると消失します。フィールド内の味方は継続回復を受け、被ダメージは受けた量に応じて回復に変換されます"
+    },
+    "A cylindrical spell field with a radius of 5m and a height of 2m": {
+      "ko": "반경 5m, 높이 2m의 원기둥형 장판",
+      "ja": "半径5m、高さ2mの円柱状フィールド"
+    },
+    "A cylindrical spell field with a radius of 6.5m and a height of 2m.": {
+      "ko": "반경 6.5m, 높이 2m의 원기둥형 장판.",
+      "ja": "半径6.5m、高さ2mの円柱状フィールド。"
+    },
+    "Project an Illusion at a selected location": {
+      "ko": "지정한 위치에 분신 투영",
+      "ja": "指定した地点に分身を投影"
+    },
+    "Damage: 30; Backstab Damage: +15 (total of 45)": {
+      "ko": "데미지: 30 | 백스탭 데미지: +15 (총 45)",
+      "ja": "ダメージ: 30 | バックスタブダメージ: +15（合計45）"
+    },
+    "A triple shot that hits instantly": {
+      "ko": "즉시 적중하는 3연발 사격",
+      "ja": "即座に着弾する3連発射撃"
+    },
+    "24 damage per round, for a total of 72 damage": {
+      "ko": "발당 24 데미지 (총 72 데미지)",
+      "ja": "1発あたり24ダメージ（合計72ダメージ）"
+    },
+    "24 health per round, for a total of 72 health": {
+      "ko": "발당 24 치유 (총 72 치유)",
+      "ja": "1発あたり24回復（合計72回復）"
+    },
+    "0.5s for three shots. The interval between the first two shots is 0.05s": {
+      "ko": "3발 발사 시 0.5초. 첫 2발 간의 간격은 0.05초",
+      "ja": "3発で0.5秒。最初の2発の間隔は0.05秒"
+    },
+    "Freeze enemies for 2.7s. However, if they are attacked during the last 2.2s of the freeze, the effect will be canceled. Grants 50 Bonus Health per enemy hit": {
+      "ko": "적을 2.7초 동안 결빙시킵니다. 단 결빙 마지막 2.2초 동안 공격을 받으면 결빙이 해제됩니다. 적중한 적마다 50의 Bonus Health 부여",
+      "ja": "敵を2.7秒間凍結。ただし凍結の後半2.2秒間に攻撃を受けると解除されます。命中した敵ごとに50のBonus Healthを獲得"
+    },
+    "Single-cast spell field that pierces through enemies": {
+      "ko": "적을 관통하는 단발 장판",
+      "ja": "敵を貫通する単発フィールド"
+    },
+    "Replace the previous Light & Dark Ice cast": {
+      "ko": "이전 Light & Dark Ice 시전을 대체",
+      "ja": "直前のLight & Dark Iceの発動を上書き"
+    },
+    "A cylindrical spell field with a radius of 1m and a height of 40m": {
+      "ko": "반경 1m, 높이 40m의 원기둥형 장판",
+      "ja": "半径1m、高さ40mの円柱状フィールド"
+    },
+    "Provide healing to allies marked with Idol Aura; Reduce Ice Arts cooldown by 2s whenever a hero with Idol Aura takes part in a KO": {
+      "ko": "Idol Aura가 부여된 아군에게 치유 제공. Idol Aura를 가진 영웅이 처치에 관여할 때마다 Ice Arts 쿨다운 2초 감소",
+      "ja": "Idol Auraが付与された味方を回復。Idol Auraを持つヒーローが撃破に関与するたびにIce Artsのクールダウンが2秒短縮"
+    },
+    "30/s for 3 seconds": {
+      "ko": "3초 동안 초당 30",
+      "ja": "3秒間、毎秒30"
+    },
+    "Critical hit generates 1 Life Orb": {
+      "ko": "치명타 적중 시 Life Orb 1개 생성",
+      "ja": "クリティカルヒット時にLife Orbを1個生成"
+    },
+    "Healing Flower provides two types of healing effects: One-time Healing and Healing Over Time": {
+      "ko": "Healing Flower는 즉시 치유와 지속 치유의 두 가지 치유 효과를 제공합니다",
+      "ja": "Healing Flowerは即時回復と継続回復の2種類の回復効果を提供します"
+    },
+    "10 + 2.5% of the target's maximum Health per second": {
+      "ko": "초당 10 + 대상 최대 체력의 2.5%",
+      "ja": "毎秒10 + 対象の最大HPの2.5%"
+    },
+    "8s (16s maximum duration)": {
+      "ko": "8초 (최대 지속 시간 16초)",
+      "ja": "8秒（最大持続時間16秒）"
+    },
+    "A Mantis illusions will manifest beside the sedated heroes. Allies can attack this illusion to awaken the affected hero": {
+      "ko": "수면 상태에 걸린 영웅 옆에 Mantis 분신이 나타납니다. 아군이 이 분신을 공격하여 수면 상태의 영웅을 깨울 수 있습니다",
+      "ja": "催眠状態のヒーローの隣にMantisの幻影が現れます。味方はこの幻影を攻撃することで対象ヒーローを目覚めさせることができます"
+    },
+    "8s (the duration cannot stack; repeatedly casting will only refresh the duration)": {
+      "ko": "8초 (지속 시간은 중첩되지 않으며 재시전 시 지속 시간만 갱신)",
+      "ja": "8秒（効果時間はスタックせず、再発動時は持続時間のみ更新）"
+    },
+    "Consume Life Orbs to receive Healing Over Time": {
+      "ko": "Life Orb를 소모하여 지속 치유 획득",
+      "ja": "Life Orbを消費して継続回復を獲得"
+    },
+    "Straight Spell Field": {
+      "ko": "직선형 장판",
+      "ja": "直線型フィールド"
+    },
+    "Swinging your arms can attack multiple targets": {
+      "ko": "팔을 휘둘러 여러 대상을 동시에 공격 가능",
+      "ja": "腕を振り回すことで複数の対象を攻撃可能"
+    },
+    "After successfully pulling an enemy with Distended Grip, the target is afflicted with a 1-second immobilize effect": {
+      "ko": "Distended Grip으로 적을 당겨오는 데 성공하면 대상에게 1초간 이동 불가(Immobilize) 부여",
+      "ja": "Distended Gripで敵を引き寄せることに成功すると、対象に1秒間の移動不能（Immobilize）を付与"
+    },
+    "Initial 70, Each Additional Leap +14, Max 140": {
+      "ko": "기본 70, 추가 도약마다 +14, 최대 140",
+      "ja": "初期70、追加ジャンプごとに+14、最大140"
+    },
+    "Start at 3m, 71.4% falloff at 10m": {
+      "ko": "3m에서 감쇠 시작, 10m에서 71.4% 감쇠",
+      "ja": "3mで減衰開始、10mで71.4%減衰"
+    },
+    "Per Leap -10%, Can Stack, Max -60%": {
+      "ko": "도약마다 -10%, 중첩 가능, 최대 -60%",
+      "ja": "ジャンプごとに-10%、スタック可能、最大-60%"
+    },
+    "When Mister Fantastic uses Brainiac Bounce (Ultimate Ability), immediately gain Bonus Health equal to that gained when entering inflated state": {
+      "ko": "Mister Fantastic이 Brainiac Bounce (궁극기) 사용 시 팽창 상태 진입 시와 동일한 Bonus Health 즉시 획득",
+      "ja": "Mister FantasticがBrainiac Bounce（アルティメット）使用時、膨張状態突入時と同等のBonus Healthを即座に獲得"
+    },
+    "gain 350 Maximum Health and a one-time heal of 350, which is removed upon exiting the Inflated state": {
+      "ko": "최대 체력 350 증가 및 350 즉시 치유 획득 (팽창 상태 종료 시 제거)",
+      "ja": "最大HPが350増加し350の即時回復を獲得（膨張状態終了時に消失）"
+    },
+    "Apply 1 Spark to enemies hit. Critical hits apply 2 Sparks. At 3 Sparks, Phoenix triggers a fiery explosion that applies 1 Spark to enemies around. Sparks from explosions will not stack within a brief period.": {
+      "ko": "적중한 적에게 Spark 1개 부여. 치명타 적중 시 Spark 2개 부여. 3스택 시 폭발을 일으키며 주변 적에게 Spark 1개를 부여합니다. 폭발로 인한 Spark는 짧은 시간 동안 중첩되지 않습니다.",
+      "ja": "命中した敵にSparkを1個付与。クリティカル時は2個付与。3個で火炎爆発を引き起こし周囲の敵にSparkを1個付与。爆発によるSparkは短時間の間スタックしません。"
+    },
+    "5/s for 4 s": {
+      "ko": "4초 동안 초당 5",
+      "ja": "4秒間、毎秒5"
+    },
+    "The first blast Stuns enemies, while the subsequent two explosions inflict Slow.": {
+      "ko": "첫 번째 폭발은 적을 기절(Stun)시키며, 이어지는 두 번의 폭발은 둔화를 부여합니다.",
+      "ja": "最初の爆発は敵をスタンさせ、続く2回の爆発はスロウを付与します。"
+    },
+    "Inflict 30% Slow for 2 seconds.": {
+      "ko": "2초 동안 30% 둔화 부여.",
+      "ja": "2秒間、30%のスロウを付与。"
+    },
+    "The shockwave destroys enemy summons, shields, and any Bonus Health. Enemies hit by the spell field and the shockwave are applied with 1 Spark.": {
+      "ko": "충격파가 적 소환물, 쉴드, Bonus Health를 모두 파괴합니다. 장판 및 충격파에 적중당한 적에게 Spark 1개를 부여합니다.",
+      "ja": "衝撃波は敵の召喚物、シールド、Bonus Healthを破壊します。フィールドと衝撃波に命中した敵にSparkを1個付与します。"
+    },
+    "The detonation applies 1 Spark to enemies hit.": {
+      "ko": "폭발 시 적중한 적에게 Spark 1개 부여.",
+      "ja": "起爆時、命中した敵にSparkを1個付与。"
+    },
+    "Enter a state of free flight within the duration. Gain a 50% Movement Boost": {
+      "ko": "지속 시간 동안 자유 비행 상태 진입. 이동 속도 50% 증가 획득",
+      "ja": "効果時間中、自由飛行状態に突入。移動速度50%上昇を獲得"
+    },
+    "One-time healing for allies when projectile hits them，Bouncing Spheres will bounce off surfaces upon contact, with a maximum of 10 bounces. When they approach injured allies, their speed will reduce": {
+      "ko": "투사체 적중 시 아군 즉시 치유. Bouncing Spheres는 표면 접촉 시 최대 10회까지 튕깁니다. 부상당한 아군에게 접근하면 속도가 느려집니다",
+      "ja": "弾の着弾時に味方を即時回復。Bouncing Spheresは接触時に最大10回バウンドします。負傷した味方に接近すると速度が低下します"
+    },
+    "Targeted ability that, when activated, summons a creature and detects allies within the area.": {
+      "ko": "발동 시 생명체를 소환하고 범위 내 아군을 탐지하는 타겟 지정 스킬.",
+      "ja": "発動時にクリーチャーを召喚しエリア内の味方を索敵するターゲット指定アビリティ。"
+    },
+    "During the ability's duration, linked allies will receive an additional 100 Bonus Health points per second, capping at 150. After breaking the link, this bonus starts to falloff after 1 second at a rate of 75 per/s": {
+      "ko": "스킬 지속 중 연결된 아군은 초당 100의 Bonus Health를 추가로 받으며 최대 150까지 적용됩니다. 연결 해제 후 1초 뒤부터 초당 75의 속도로 감쇠하기 시작합니다",
+      "ja": "アビリティ中、リンクされた味方は毎秒100のBonus Healthを追加獲得（最大150）。リンク解除後は1秒後から毎秒75の割合で減衰が始まります"
+    },
+    "Crosshair Direction": {
+      "ko": "조준선 방향",
+      "ja": "照準方向"
+    },
+    "Generate an item every 3s, including Armor Pack and Rocket Boots": {
+      "ko": "Armor Pack 및 Rocket Boots를 포함한 아이템을 3초마다 생성",
+      "ja": "Armor PackおよびRocket Bootsを含むアイテムを3秒ごとに生成"
+    },
+    "40s. You can reclaim the beacon by pressing E. When reclaimed, the cooldown will be reduced based on the beacon's remaining health. If you reclaim a full-health beacon, the minimum cooldown will be 5s": {
+      "ko": "40초. E키를 눌러 비콘을 회수할 수 있습니다. 회수 시 비콘의 남은 체력에 따라 쿨다운이 감소합니다. 풀 체력 비콘 회수 시 최소 쿨다운은 5초입니다",
+      "ja": "40秒。Eキーを押してビーコンを回収可能。回収時、ビーコンの残HPに応じてクールダウンが短縮されます。フルHPのビーコンを回収した場合、最小クールダウンは5秒です"
+    },
+    "Pressing SHIFT will exit the Team-Up status with Groot": {
+      "ko": "SHIFT를 누르면 Groot와의 Team-Up 상태를 종료합니다",
+      "ja": "SHIFTを押すとGrootとのTeam-Up状態を解除します"
+    },
+    "The first two strikes deal 35 damage, while the third strike deals 45 damage": {
+      "ko": "1~2타는 35 데미지, 3타는 45 데미지",
+      "ja": "1〜2撃目は35ダメージ、3撃目は45ダメージ"
+    },
+    "The first two strikes: 0.33s/hit; the third strike: 0.73s/hit": {
+      "ko": "1~2타: 타당 0.33초 | 3타: 타당 0.73초",
+      "ja": "1〜2撃目: 1打あたり0.33秒 | 3撃目: 1打あたり0.73秒"
+    },
+    "Launch up the enemies hit": {
+      "ko": "적중한 적을 띄움",
+      "ja": "命中した敵を打ち上げる"
+    },
+    "The reduced damage transforms into backlash energy that powers up the next Southern Brawl.": {
+      "ko": "경감된 피해는 반격 에너지로 전환되어 다음 Southern Brawl을 강화합니다.",
+      "ja": "軽減されたダメージは反動エネルギーに変換され、次のSouthern Brawlを強化します。"
+    },
+    "Absorb 4% of ultimate ability energy per second": {
+      "ko": "초당 궁극기 에너지 4% 흡수",
+      "ja": "毎秒4%のアルティメットエネルギーを吸収"
+    },
+    "400 maximum health": {
+      "ko": "최대 체력 400",
+      "ja": "最大HP 400"
+    },
+    "Self healing 75/s": {
+      "ko": "초당 75 자가 치유",
+      "ja": "毎秒75の自己回復"
+    },
+    "Launch up enemies hit": {
+      "ko": "적중한 적을 띄움",
+      "ja": "命中した敵を打ち上げる"
+    },
+    "Cylindrical Spell Field with a height of 3m, whose radius will expand to 8m after 0.8s": {
+      "ko": "높이 3m의 원기둥형 장판, 0.8초 후 반경이 8m로 확장",
+      "ja": "高さ3mの円柱状フィールド、0.8秒後に半径が8mまで拡大"
+    },
+    "Box shaped spell field. Length: 6.5m; Width: 4.5m; Height: 2m": {
+      "ko": "상자형 장판. 길이: 6.5m, 너비: 4.5m, 높이: 2m",
+      "ja": "ボックス型フィールド。長さ: 6.5m、幅: 4.5m、高さ: 2m"
+    },
+    "Launch up the enemy hit, entering flight. The next two Power Surge Punch attacks become ranged, and Chrono Kick Combo can be unleashed again.": {
+      "ko": "적중한 적을 띄우고 비행 상태에 진입합니다. 다음 2회의 Power Surge Punch가 원거리 공격으로 바뀌며 Chrono Kick Combo를 재시전할 수 있습니다.",
+      "ja": "命中した敵を打ち上げ、飛行状態に突入。次の2回のPower Surge Punchが遠距離攻撃となり、Chrono Kick Comboを再発動可能になります。"
+    },
+    "After absorbing, replace Ability Absorption with one of their abilities or refresh Fatal Attraction.": {
+      "ko": "흡수 후 Ability Absorption을 대상의 스킬 중 하나로 대체하거나 Fatal Attraction을 초기화합니다.",
+      "ja": "吸収後、Ability Absorptionが対象のアビリティの1つに置き換わるか、Fatal Attractionをリセットします。"
+    },
+    "125 Maximum Health": {
+      "ko": "최대 체력 125",
+      "ja": "最大HP 125"
+    },
+    "Reduce 20 Maximum Health": {
+      "ko": "최대 체력 20 감소",
+      "ja": "最大HP 20減少"
+    },
+    "Reduce 3% damage dealt": {
+      "ko": "주는 피해 3% 감소",
+      "ja": "与ダメージ 3%減少"
+    },
+    "Self healing 20/s": {
+      "ko": "초당 20 자가 치유",
+      "ja": "毎秒20の自己回復"
+    },
+    "Reduce 4% healing dealt": {
+      "ko": "주는 치유 4% 감소",
+      "ja": "与回復量 4%減少"
+    },
+    "5+targets' 2% Maximum Health": {
+      "ko": "5 + 대상 최대 체력의 2%",
+      "ja": "5 + 対象の最大HPの2%"
+    },
+    "26 per round": {
+      "ko": "발당 26",
+      "ja": "1発あたり26"
+    },
+    "21 per round": {
+      "ko": "발당 21",
+      "ja": "1発あたり21"
+    },
+    "4 per round": {
+      "ko": "발당 4",
+      "ja": "1発あたり4"
+    },
+    "40%, Max100": {
+      "ko": "40%, 최대 100",
+      "ja": "40%、最大100"
+    },
+    "Spread radius reaches 0.5m after 10 consecutive shots (calculated at 10m distance)": {
+      "ko": "연속 10발 사격 후 탄 퍼짐 반경 0.5m 도달 (10m 거리 기준 계산)",
+      "ja": "連続10発射撃後に拡散半径が0.5mに到達（10m地点換算）"
+    },
+    "90 + 10% of Target's Max Health": {
+      "ko": "90 + 대상 최대 체력의 10%",
+      "ja": "90 + 対象の最大HPの10%"
+    },
+    "140 + 15% of Target's Max Health": {
+      "ko": "140 + 대상 최대 체력의 15%",
+      "ja": "140 + 対象の最大HPの15%"
+    },
+    "40% during the Ability, decaying to 0% over 2s after it ends": {
+      "ko": "스킬 중 40%, 종료 후 2초에 걸쳐 0%로 감쇠",
+      "ja": "発動中40%、終了後2秒かけて0%まで減衰"
+    },
+    "Width: 8m, Height: 3.5m.": {
+      "ko": "너비: 8m, 높이: 3.5m.",
+      "ja": "幅: 8m、高さ: 3.5m。"
+    },
+    "First constant beam; Second single-cast cylindrical spell field": {
+      "ko": "1차 지속 광선, 2차 단발 원기둥형 장판",
+      "ja": "1次 継続ビーム、2次 単発円柱状フィールド"
+    },
+    "First beam 6 rounds in 0.5s, 12 per hit; second single-cast spell field 75 per hit": {
+      "ko": "1차 광선 0.5초 동안 6발, 타당 12 | 2차 단발 장판 타당 75",
+      "ja": "1次ビーム 0.5秒で6発・1打あたり12 | 2次単発フィールド 1打あたり75"
+    },
+    "Grant bonus health to Ultron and Allies within range, centered around Ultron and the drones; the selected ally gains a 20% Movement Speed and 10% Damage boost": {
+      "ko": "Ultron과 드론을 중심으로 범위 내 Ultron 및 아군에게 Bonus Health 부여. 선택된 아군은 이동 속도 20% 및 피해 10% 증가 획득",
+      "ja": "Ultronとドローンを中心に、範囲内のUltronと味方にBonus Healthを付与。選択した味方は移動速度20%およびダメージ10%上昇を獲得"
+    },
+    "Ultron's Encephalo-Rays 18, Drone's Encephalo-Rays 12": {
+      "ko": "Ultron의 Encephalo-Rays 18 | 드론의 Encephalo-Rays 12",
+      "ja": "UltronのEncephalo-Rays 18 | ドローンのEncephalo-Rays 12"
+    },
+    "Starts at 1.5m after Encephalo-Rays explode, with a max falloff to 50% at 3m": {
+      "ko": "Encephalo-Rays 폭발 후 1.5m에서 감쇠 시작, 3m에서 최대 50%까지 감쇠",
+      "ja": "Encephalo-Rays爆発後1.5mで減衰開始、3mで最大50%まで低下"
+    },
+    "5 rounds": {
+      "ko": "5발",
+      "ja": "5発"
+    },
+    "Within the ultimate duration, Ultron grants an Unstoppable effect; Deals 125% damage to Bonus Health": {
+      "ko": "궁극기 지속 시간 동안 Ultron에게 저지 불가(Unstoppable) 부여. Bonus Health에 125% 데미지 적용",
+      "ja": "アルティメット持続中、Ultronに妨害無効（Unstoppable）を付与。Bonus Healthに対して125%ダメージ"
+    },
+    "Dynamic Flight can trigger a one-time dash followed by an constant accelerated effect.": {
+      "ko": "Dynamic Flight는 1회 돌진 후 지속적인 가속 효과를 발동할 수 있습니다.",
+      "ja": "Dynamic Flightは1回のダッシュ後に継続的な加速効果を発動できます。"
+    },
+    "Reticle direction combined with key input": {
+      "ko": "키 입력과 결합된 조준점 방향",
+      "ja": "キー入力と連動したレティクル方向"
+    },
+    "Imperative: Patch can deploy up to 2 drones, allowing support for two allies at once": {
+      "ko": "Imperative: Patch는 최대 2대의 드론을 배치하여 동시에 두 명의 아군을 지원할 수 있습니다",
+      "ja": "Imperative: Patchは最大2機のドローンを展開し、同時に2人の味方を支援可能です"
+    },
+    "2.5m radius, infinite length cylindrical spell field": {
+      "ko": "반경 2.5m, 무한 길이의 원기둥형 장판",
+      "ja": "半径2.5m、無限長の円柱状フィールド"
+    },
+    "Direct hit: 50 per round; bounce hit: 35 per round": {
+      "ko": "직격: 발당 50 | 바운드 적중: 발당 35",
+      "ja": "直撃: 1発あたり50 | バウンド命中: 1発あたり35"
+    },
+    "Direct hit: 40 per round; bounce hit: 25 per round": {
+      "ko": "직격: 발당 40 | 바운드 적중: 발당 25",
+      "ja": "直撃: 1発あたり40 | バウンド命中: 1発あたり25"
+    },
+    "After casting, automatically apply the Blessed by the Nine effect to all allies within a 10m radius for 3s.": {
+      "ko": "시전 후 반경 10m 이내 모든 아군에게 3초 동안 Blessed by the Nine 효과를 자동 부여합니다.",
+      "ja": "発動後、半径10m以内の全味方に3秒間Blessed by the Nine効果を自動付与。"
+    },
+    "While the shield is active, it provides 20/s Healing Over Time to allies (including White Fox) within the shield's range": {
+      "ko": "쉴드가 활성화된 동안 쉴드 범위 내의 아군(White Fox 포함)에게 초당 20의 지속 치유를 제공합니다",
+      "ja": "シールド展開中、範囲内の味方（White Foxを含む）に毎秒20の継続回復を提供します"
+    },
+    "Transform 3 tails: 9s; 2 tails: 8s; 1 tail: 7s": {
+      "ko": "변신 3꼬리: 9초 | 2꼬리: 8초 | 1꼬리: 7초",
+      "ja": "変身 3本尾: 9秒 | 2本尾: 8秒 | 1本尾: 7秒"
+    },
+    "Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts.": {
+      "ko": "전투에서 경험치를 축적합니다. 최대 도달 시 스킬을 선택하여 강력한 부스트로 업그레이드합니다.",
+      "ja": "戦闘でXPを蓄積。最大到達時、アビリティを選択して強力な強化にアップグレードします。"
     }
   },
   "stat_patterns": [
@@ -11798,6 +14002,111 @@
       "regex": "^Upon activation:\\s*(\\d+(?:\\.\\d+)?/s);\\s*challenge completed:\\s*(\\d+(?:\\.\\d+)?/s)$",
       "ko": "발동 시: 초당 $1 | 챌린지 완료 시: 초당 $2",
       "ja": "発動時: 毎秒$1 | チャレンジ完了時: 毎秒$2"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*per round$",
+      "ko": "발당 $1",
+      "ja": "1発あたり$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*damage per hit$",
+      "ko": "타격당 $1 데미지",
+      "ja": "1ヒットあたり$1ダメージ"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*damage per strike$",
+      "ko": "타격당 $1 데미지",
+      "ja": "1撃あたり$1ダメージ"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*damage per shot$",
+      "ko": "발당 $1 데미지",
+      "ja": "1発あたり$1ダメージ"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*damage per cast$",
+      "ko": "시전당 $1 데미지",
+      "ja": "発動ごとに$1ダメージ"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/s$",
+      "ko": "초당 $1",
+      "ja": "毎秒$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/sec$",
+      "ko": "초당 $1",
+      "ja": "毎秒$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/s for (\\d+(?:\\.\\d+)?)s$",
+      "ko": "$2초 동안 초당 $1",
+      "ja": "$2秒間、毎秒$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/sec for (\\d+(?:\\.\\d+)?)s$",
+      "ko": "$2초 동안 초당 $1",
+      "ja": "$2秒間、毎秒$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/s for (\\d+(?:\\.\\d+)?)\\s*s$",
+      "ko": "$2초 동안 초당 $1",
+      "ja": "$2秒間、毎秒$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)s per charge$",
+      "ko": "충전당 $1초",
+      "ja": "チャージごとに$1秒"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)s per shot$",
+      "ko": "발당 $1초",
+      "ja": "発射1回あたり$1秒"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)s per strike$",
+      "ko": "타격당 $1초",
+      "ja": "1撃あたり$1秒"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*health per round.*$",
+      "ko": "발당 $1 치유",
+      "ja": "1発あたり$1回復"
+    },
+    {
+      "regex": "^(\\d+),\\s*up to (\\d+)$",
+      "ko": "$1, 최대 $2",
+      "ja": "$1、最大$2"
+    },
+    {
+      "regex": "^(\\d+)% for each stack\\.\\s*Up to (\\d+) stacks\\.$",
+      "ko": "스택당 $1%. 최대 $2스택.",
+      "ja": "スタックごとに$1%。最大$2スタック。"
+    },
+    {
+      "regex": "^(\\d+)%\\s*Maximum Health$",
+      "ko": "최대 체력의 $1%",
+      "ja": "最大HPの$1%"
+    },
+    {
+      "regex": "^(\\d+)%\\s*Health$",
+      "ko": "체력 $1%",
+      "ja": "HP $1%"
+    },
+    {
+      "regex": "^Reduce movement speed by (\\d+)% for (\\d+(?:\\.\\d+)?)s$",
+      "ko": "$2초 동안 이동 속도 $1% 감소",
+      "ja": "$2秒間、移動速度が$1%低下"
+    },
+    {
+      "regex": "^Increase movement speed by (\\d+)% for (\\d+(?:\\.\\d+)?)s$",
+      "ko": "$2초 동안 이동 속도 $1% 증가",
+      "ja": "$2秒間、移動速度が$1%上昇"
+    },
+    {
+      "regex": "^Falloff begins at (\\d+(?:\\.\\d+)?s) and decreases by (\\d+(?:\\.\\d+)?)/s$",
+      "ko": "$1 후 감쇠 시작, 초당 $2씩 감소",
+      "ja": "$1後に減衰開始、毎秒$2減少"
     }
   ]
 }
