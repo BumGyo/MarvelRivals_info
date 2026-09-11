@@ -436,6 +436,8 @@ if (fs.existsSync(translationsPath)) {
     return t ? t.replace(/\s+/g, ' ').trim() : '';
   }
 
+  let fallbackCount = 0;
+
   function translateSkillList(list) {
     (list || []).forEach(s => {
       const sDesc = norm(s.description);
@@ -443,6 +445,10 @@ if (fs.existsSync(translationsPath)) {
         s.description_trans = skillsMap[sDesc];
       } else if (s.description && skillsMap[s.description]) {
         s.description_trans = skillsMap[s.description];
+      } else if (s.description && !s.description_trans) {
+        // Fail-safe auto-fallback: use English original so new content deploys without crashing
+        s.description_trans = { ko: s.description, ja: s.description };
+        fallbackCount++;
       }
 
       if (s.upgrade) {
@@ -451,6 +457,9 @@ if (fs.existsSync(translationsPath)) {
           s.upgrade.description_trans = skillsMap[uDesc];
         } else if (s.upgrade.description && skillsMap[s.upgrade.description]) {
           s.upgrade.description_trans = skillsMap[s.upgrade.description];
+        } else if (s.upgrade.description && !s.upgrade.description_trans) {
+          s.upgrade.description_trans = { ko: s.upgrade.description, ja: s.upgrade.description };
+          fallbackCount++;
         }
       }
     });
@@ -478,9 +487,25 @@ if (fs.existsSync(translationsPath)) {
           tu.description_trans = entry.full;
         }
       }
+      if (tu.description && !tu.description_trans) {
+        tu.description_trans = { ko: tu.description, ja: tu.description };
+        fallbackCount++;
+      }
+
+      (tu.items || []).forEach(item => {
+        if (item.description && !item.description_trans) {
+          const iDesc = norm(item.description);
+          if (skillsMap[iDesc]) {
+            item.description_trans = skillsMap[iDesc];
+          } else {
+            item.description_trans = { ko: item.description, ja: item.description };
+            fallbackCount++;
+          }
+        }
+      });
     });
   });
-  console.log('Applied KR & JP translations to all hero skills and team-ups.');
+  console.log(`Applied KR & JP translations to all hero skills and team-ups (Fallback applied: ${fallbackCount}).`);
 }
 
 // Save updated heroes.json

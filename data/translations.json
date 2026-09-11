@@ -1891,6 +1891,34 @@
     "Rage builds when Wolverine attacks or takes hits, boosting the damage of his Claw Strikes and the Bonus Health from his regenerative healing factor": {
       "ko": "Wolverine의 스킬입니다. Rage builds when Wolverine attacks or takes hits, boosting the damage of his Claw Strikes and the 추가 체력 from his regenerative healing factor.",
       "ja": "Wolverineのスキル。Rage builds when Wolverine attacks or takes hits, boosting the damage of his Claw Strikes and the 追加体力 from his regenerative healing factor。"
+    },
+    "Unleash up to a 4-strike rapid combo with All-Black the Necrosword": {
+      "ko": "올블랙 네크로소드로 최대 4타의 연속 베기 콤보를 펼칩니다.",
+      "ja": "オールブラック・ネクロソードで最大4連続の斬撃コンボを繰り出す。"
+    },
+    "Charge and launch a symbiote mass forward. Hitting an enemy Slows and teleports nearby Black Berserkers to them, or spawns a new one. Arriving Berserkers unleash a two-strike melee attack to Launch Up nearby enemies before reverting to ranged mode": {
+      "ko": "심비오트 덩어리를 충전하여 전방으로 발사합니다. 적에게 명중 시 둔화를 부여하고 주변의 블랙 버서커를 해당 위치로 순간이동시키거나 새로 소환합니다. 도착한 버서커는 2회 연속 근접 공격으로 주변 적을 띄운 뒤 원거리 모드로 전환됩니다.",
+      "ja": "シンビオートの塊をチャージして前方へ発射する。敵に命中するとスロウを付与し、周囲のブラック・バーサーカーをその位置へテレポートさせるか、新たに召喚する。到着したバーサーカーは2連撃の近接攻撃で周囲の敵を打ち上げた後、遠距離モードに戻る。"
+    },
+    "Unseal All-Black's true power, transforming it into the Annihilablade. Upon activation, an expanding Necroverse is formed, instantly spawning a Black Berserker next to all enemies caught inside. While active, every slash of the Annihilablade deals devastating damage. The Necroverse moves with Gorr; Berserkers within the field will not expire and remain locked in a perpetual Frenzied State": {
+      "ko": "올블랙의 진정한 힘을 해방하여 파멸도(Annihilablade)로 변형합니다. 시전 시 팽창하는 네크로버스가 형성되며 내부의 모든 적 옆에 블랙 버서커가 즉시 소환됩니다. 활성화 동안 파멸도의 모든 베기가 치명적인 피해를 입힙니다. 네크로버스는 고르를 따라 이동하며, 영역 내 버서커는 지속시간이 만료되지 않고 영구 광폭 상태를 유지합니다.",
+      "ja": "オールブラックの真の力を解放し、アナイアブレードへと変形させる。発動時に拡大するネクロバースが展開され、内部の全敵の隣にブラック・バーサーカーが即座に召喚される。有効中、アナイアブレードの斬撃は壊滅的なダメージを与える。ネクロバースはゴアと共に移動し、領域内のバーサーカーは消滅せず永続的な狂乱状態を維持する。"
+    },
+    "Surge forward as an Invincible symbiote mass, leaving a Black Berserker behind and driving all active Berserkers into a Frenzied State. Upon landing, manifest a Necroverse that continuously damages trapped enemies, converting them into Bonus Health": {
+      "ko": "무적 상태의 심비오트 덩어리가 되어 전방으로 돌진하며, 지나간 자리에 블랙 버서커를 남기고 모든 버서커를 광폭 상태로 만듭니다. 착지 시 네크로버스를 형성해 갇힌 적들에게 지속 피해를 입히고 추가 체력으로 흡수합니다.",
+      "ja": "無敵状態のシンビオート塊となって前方へ突進し、通過地点にブラック・バーサーカーを残して全バーサーカーを狂乱状態にする。着地時にネクロバースを展開し、閉じ込めた敵へ持続ダメージを与えて追加体力へと変換する。"
+    },
+    "Lob a symbiote mass that spawns a Black Berserker on landing to immediately shoot the nearest enemy. If summoned beside an enemy via Necro-Power, it unleashes a two-strike melee attack instead": {
+      "ko": "심비오트 덩어리를 투척하여 착탄 위치에 블랙 버서커를 소환합니다. 버서커는 즉시 가장 가까운 적을 사격하며, 네크로-파워를 통해 적 옆에 소환될 경우 2회 연속 근접 공격을 대신 가합니다.",
+      "ja": "シンビオート塊を投擲し、着弾地点にブラック・バーサーカーを召喚して最も近い敵を即座に射撃する。ネクロ・パワーで敵の隣に召喚された場合は、代わりに2連続近接攻撃を繰り出す。"
+    },
+    "Warp to a selected Black Berserker, sacrificing it for Bonus Health equal to half its Health and triggering a symbiote explosion. Briefly unlocks Shadow Scythe: fire a piercing shockwave forward. All-Black then becomes a scythe for a set duration or 4 slashes": {
+      "ko": "선택한 블랙 버서커에게 순간이동하여 희생시키며, 버서커 체력의 절반에 해당하는 추가 체력을 얻고 심비오트 폭발을 일으킵니다. 잠시 그림자 낫(Shadow Scythe)이 해금되어 전방으로 관통 충격파를 발사하며, 올블랙이 일정 시간 또는 4회 공격 동안 대낫 형태로 변형됩니다.",
+      "ja": "選択したブラック・バーサーカーの位置へワープして生贄にし、その体力の半分に相当する追加体力を獲得してシンビオート爆発を起こす。一時的にシャドウサイスが解放され、前方へ貫通衝撃波を発射する。その後オールブラックは一定時間または4回の斬撃まで大鎌形態へと変化する。"
+    },
+    "Black Berserker damage grants Gorr Bonus Health. Defeating an enemy instantly spawns a Black Berserker at their location": {
+      "ko": "블랙 버서커가 적에게 피해를 입히면 고르가 추가 체력을 획득합니다. 적을 처치하면 처치된 위치에 즉시 블랙 버서커가 소환됩니다.",
+      "ja": "ブラック・バーサーカーがダメージを与えるとゴアが追加体力を獲得する。敵を撃破すると、その位置に即座にブラック・バーサーカーが召喚される。"
     }
   },
   "teamups": {
@@ -5284,6 +5312,102 @@
       "full": {
         "ko": "기본 효과: 치명상을 입었을 때 아다만티움 골격이 버텨주어 잠시 동안 죽지 않고 버팁니다.\n강화 효과: 데드풀과 함께 플레이 시, 둘의 힐링 팩터가 공명하여 주변 적들을 도발하고 서로의 체력을 2배 속도로 회복시킵니다.",
         "ja": "基本効果: 致命傷を受けた際、アダマンチウム骨格が耐え抜き、短時間死亡を免れる。\n強化効果: デッドプールとチームアップ時、二人の治癒因子が共鳴し、周囲の敵を挑発しつつ互いの体力を超高速回復させる。"
+      }
+    },
+    "Base Effect: Gain a new ability to morph the All-Black into a scythe and execute a sweeping strike, damaging and briefly Grounding nearby enemies. The weapon stays in scythe form for a short duration.\n\t\t\tEnhanced Effect: When teaming up with Hela, the scythe's attack range is expanded. Each hit scatters symbiote fragments, granting Bonus Health to Gorr and nearby allies": {
+      "loadout_name": "Ragnarök",
+      "hero": "Gorr the God Butcher",
+      "base": {
+        "ko": "올블랙을 대낫으로 변형해 회전 베기를 가하여 주변 적에게 피해를 주고 잠시 착지 상태로 만드는 새 능력을 얻습니다. 무기는 잠시 대낫 형태를 유지합니다.",
+        "ja": "オールブラックを大鎌に変形させて薙ぎ払い、周囲の敵にダメージを与えて短時間拘束(接地)させる新アビリティを獲得する。武器は短時間大鎌形態を維持する。"
+      },
+      "enhanced": {
+        "ko": "헬라와 함께 플레이 시 대낫의 공격 범위가 확장됩니다. 적을 맞출 때마다 심비오트 파편이 흩어져 고르와 주변 아군에게 추가 체력을 부여합니다.",
+        "ja": "ヘラとチームアップ時、大鎌の攻撃範囲が拡大する。命中ごとにシンビオートの破片が散らばり、ゴアと周囲の味方に追加体力を付与する。"
+      },
+      "full": {
+        "ko": "기본 효과: 올블랙을 대낫으로 변형해 회전 베기를 가하여 주변 적에게 피해를 주고 잠시 착지 상태로 만드는 새 능력을 얻습니다. 무기는 잠시 대낫 형태를 유지합니다.\n강화 효과: 헬라와 함께 플레이 시 대낫의 공격 범위가 확장됩니다. 적을 맞출 때마다 심비오트 파편이 흩어져 고르와 주변 아군에게 추가 체력을 부여합니다.",
+        "ja": "基本効果: オールブラックを大鎌に変形させて薙ぎ払い、周囲の敵にダメージを与えて短時間拘束(接地)させる新アビリティを獲得する。武器は短時間大鎌形態を維持する。\n強化効果: ヘラとチームアップ時、大鎌の攻撃範囲が拡大する。命中ごとにシンビオートの破片が散らばり、ゴアと周囲の味方に追加体力を付与する。"
+      }
+    },
+    "Ragnarök": {
+      "loadout_name": "Ragnarök",
+      "hero": "Gorr the God Butcher",
+      "base": {
+        "ko": "올블랙을 대낫으로 변형해 회전 베기를 가하여 주변 적에게 피해를 주고 잠시 착지 상태로 만드는 새 능력을 얻습니다. 무기는 잠시 대낫 형태를 유지합니다.",
+        "ja": "オールブラックを大鎌に変形させて薙ぎ払い、周囲の敵にダメージを与えて短時間拘束(接地)させる新アビリティを獲得する。武器は短時間大鎌形態を維持する。"
+      },
+      "enhanced": {
+        "ko": "헬라와 함께 플레이 시 대낫의 공격 범위가 확장됩니다. 적을 맞출 때마다 심비오트 파편이 흩어져 고르와 주변 아군에게 추가 체력을 부여합니다.",
+        "ja": "ヘラとチームアップ時、大鎌の攻撃範囲が拡大する。命中ごとにシンビオートの破片が散らばり、ゴアと周囲の味方に追加体力を付与する。"
+      },
+      "full": {
+        "ko": "기본 효과: 올블랙을 대낫으로 변형해 회전 베기를 가하여 주변 적에게 피해를 주고 잠시 착지 상태로 만드는 새 능력을 얻습니다. 무기는 잠시 대낫 형태를 유지합니다.\n강화 효과: 헬라와 함께 플레이 시 대낫의 공격 범위가 확장됩니다. 적을 맞출 때마다 심비오트 파편이 흩어져 고르와 주변 아군에게 추가 체력을 부여합니다.",
+        "ja": "基本効果: オールブラックを大鎌に変形させて薙ぎ払い、周囲の敵にダメージを与えて短時間拘束(接地)させる新アビリティを獲得する。武器は短時間大鎌形態を維持する。\n強化効果: ヘラとチームアップ時、大鎌の攻撃範囲が拡大する。命中ごとにシンビオートの破片が散らばり、ゴアと周囲の味方に追加体力を付与する。"
+      }
+    },
+    "Base Effect: Gain a new ability to morph the All-Black into a scythe and execute a sweeping strike, damaging and briefly Grounding nearby enemies. The weapon stays in scythe form for a short duration. Enhanced Effect: When teaming up with Hela, the scythe's attack range is expanded. Each hit scatters symbiote fragments, granting Bonus Health to Gorr and nearby allies": {
+      "loadout_name": "Ragnarök",
+      "hero": "Gorr the God Butcher",
+      "base": {
+        "ko": "올블랙을 대낫으로 변형해 회전 베기를 가하여 주변 적에게 피해를 주고 잠시 착지 상태로 만드는 새 능력을 얻습니다. 무기는 잠시 대낫 형태를 유지합니다.",
+        "ja": "オールブラックを大鎌に変形させて薙ぎ払い、周囲の敵にダメージを与えて短時間拘束(接地)させる新アビリティを獲得する。武器は短時間大鎌形態を維持する。"
+      },
+      "enhanced": {
+        "ko": "헬라와 함께 플레이 시 대낫의 공격 범위가 확장됩니다. 적을 맞출 때마다 심비오트 파편이 흩어져 고르와 주변 아군에게 추가 체력을 부여합니다.",
+        "ja": "ヘラとチームアップ時、大鎌の攻撃範囲が拡大する。命中ごとにシンビオートの破片が散らばり、ゴアと周囲の味方に追加体力を付与する。"
+      },
+      "full": {
+        "ko": "기본 효과: 올블랙을 대낫으로 변형해 회전 베기를 가하여 주변 적에게 피해를 주고 잠시 착지 상태로 만드는 새 능력을 얻습니다. 무기는 잠시 대낫 형태를 유지합니다.\n강화 효과: 헬라와 함께 플레이 시 대낫의 공격 범위가 확장됩니다. 적을 맞출 때마다 심비오트 파편이 흩어져 고르와 주변 아군에게 추가 체력을 부여합니다.",
+        "ja": "基本効果: オールブラックを大鎌に変形させて薙ぎ払い、周囲の敵にダメージを与えて短時間拘束(接地)させる新アビリティを獲得する。武器は短時間大鎌形態を維持する。\n強化効果: ヘラとチームアップ時、大鎌の攻撃範囲が拡大する。命中ごとにシンビオートの破片が散らばり、ゴアと周囲の味方に追加体力を付与する。"
+      }
+    },
+    "Base Effect: Gain a new ability to fire a Symbiote Claw forward, dealing piercing damage to enemies in its path. Upon reaching max distance, it retracts, Launching caught enemies toward Gorr.\n\t\t\tEnhanced Effect: When teaming up with Venom, Black Berserkers receive a slight Damage Boost and apply a Slow effect to enemies they strike": {
+      "loadout_name": "Hive Mind",
+      "hero": "Gorr the God Butcher",
+      "base": {
+        "ko": "전방으로 심비오트 클로를 발사하여 경로 상의 적에게 관통 피해를 주는 새 능력을 얻습니다. 최대 사거리에 도달하면 회수되며 잡힌 적을 고르 쪽으로 끌어당깁니다.",
+        "ja": "前方へシンビオート・クローを発射し、直線上の敵へ貫通ダメージを与える新アビリティを獲得する。最大距離に達すると巻き戻り、捕らえた敵をゴアの元へ引き寄せる。"
+      },
+      "enhanced": {
+        "ko": "베놈과 함께 플레이 시 블랙 버서커가 약간의 피해 증가 효과를 얻고 타격한 적에게 둔화를 적용합니다.",
+        "ja": "ヴェノムとチームアップ時、ブラック・バーサーカーのダメージがわずかに上昇し、攻撃した敵へスロウを付与する。"
+      },
+      "full": {
+        "ko": "기본 효과: 전방으로 심비오트 클로를 발사하여 경로 상의 적에게 관통 피해를 주는 새 능력을 얻습니다. 최대 사거리에 도달하면 회수되며 잡힌 적을 고르 쪽으로 끌어당깁니다.\n강화 효과: 베놈과 함께 플레이 시 블랙 버서커가 약간의 피해 증가 효과를 얻고 타격한 적에게 둔화를 적용합니다.",
+        "ja": "基本効果: 前方へシンビオート・クローを発射し、直線上の敵へ貫通ダメージを与える新アビリティを獲得する。最大距離に達すると巻き戻り、捕らえた敵をゴアの元へ引き寄せる。\n強化効果: ヴェノムとチームアップ時、ブラック・バーサーカーのダメージがわずかに上昇し、攻撃した敵へスロウを付与する。"
+      }
+    },
+    "Hive Mind": {
+      "loadout_name": "Hive Mind",
+      "hero": "Gorr the God Butcher",
+      "base": {
+        "ko": "전방으로 심비오트 클로를 발사하여 경로 상의 적에게 관통 피해를 주는 새 능력을 얻습니다. 최대 사거리에 도달하면 회수되며 잡힌 적을 고르 쪽으로 끌어당깁니다.",
+        "ja": "前方へシンビオート・クローを発射し、直線上の敵へ貫通ダメージを与える新アビリティを獲得する。最大距離に達すると巻き戻り、捕らえた敵をゴアの元へ引き寄せる。"
+      },
+      "enhanced": {
+        "ko": "베놈과 함께 플레이 시 블랙 버서커가 약간의 피해 증가 효과를 얻고 타격한 적에게 둔화를 적용합니다.",
+        "ja": "ヴェノムとチームアップ時、ブラック・バーサーカーのダメージがわずかに上昇し、攻撃した敵へスロウを付与する。"
+      },
+      "full": {
+        "ko": "기본 효과: 전방으로 심비오트 클로를 발사하여 경로 상의 적에게 관통 피해를 주는 새 능력을 얻습니다. 최대 사거리에 도달하면 회수되며 잡힌 적을 고르 쪽으로 끌어당깁니다.\n강화 효과: 베놈과 함께 플레이 시 블랙 버서커가 약간의 피해 증가 효과를 얻고 타격한 적에게 둔화를 적용합니다.",
+        "ja": "基本効果: 前方へシンビオート・クローを発射し、直線上の敵へ貫通ダメージを与える新アビリティを獲得する。最大距離に達すると巻き戻り、捕らえた敵をゴアの元へ引き寄せる。\n強化効果: ヴェノムとチームアップ時、ブラック・バーサーカーのダメージがわずかに上昇し、攻撃した敵へスロウを付与する。"
+      }
+    },
+    "Base Effect: Gain a new ability to fire a Symbiote Claw forward, dealing piercing damage to enemies in its path. Upon reaching max distance, it retracts, Launching caught enemies toward Gorr. Enhanced Effect: When teaming up with Venom, Black Berserkers receive a slight Damage Boost and apply a Slow effect to enemies they strike": {
+      "loadout_name": "Hive Mind",
+      "hero": "Gorr the God Butcher",
+      "base": {
+        "ko": "전방으로 심비오트 클로를 발사하여 경로 상의 적에게 관통 피해를 주는 새 능력을 얻습니다. 최대 사거리에 도달하면 회수되며 잡힌 적을 고르 쪽으로 끌어당깁니다.",
+        "ja": "前方へシンビオート・クローを発射し、直線上の敵へ貫通ダメージを与える新アビリティを獲得する。最大距離に達すると巻き戻り、捕らえた敵をゴアの元へ引き寄せる。"
+      },
+      "enhanced": {
+        "ko": "베놈과 함께 플레이 시 블랙 버서커가 약간의 피해 증가 효과를 얻고 타격한 적에게 둔화를 적용합니다.",
+        "ja": "ヴェノムとチームアップ時、ブラック・バーサーカーのダメージがわずかに上昇し、攻撃した敵へスロウを付与する。"
+      },
+      "full": {
+        "ko": "기본 효과: 전방으로 심비오트 클로를 발사하여 경로 상의 적에게 관통 피해를 주는 새 능력을 얻습니다. 최대 사거리에 도달하면 회수되며 잡힌 적을 고르 쪽으로 끌어당깁니다.\n강화 효과: 베놈과 함께 플레이 시 블랙 버서커가 약간의 피해 증가 효과를 얻고 타격한 적에게 둔화를 적용합니다.",
+        "ja": "基本効果: 前方へシンビオート・クローを発射し、直線上の敵へ貫通ダメージを与える新アビリティを獲得する。最大距離に達すると巻き戻り、捕らえた敵をゴアの元へ引き寄せる。\n強化効果: ヴェノムとチームアップ時、ブラック・バーサーカーのダメージがわずかに上昇し、攻撃した敵へスロウを付与する。"
       }
     }
   },

@@ -2,8 +2,8 @@ name: Marvel Rivals Official Data Auto-Sync
 
 on:
   schedule:
-    # 매일 UTC 00:00 (한국 시간 오전 9시)에 자동으로 공홈 확인
-    - cron: '0 0 * * *'
+    # 매주 금요일 UTC 00:00 (한국 시간 매주 금요일 오전 9시)에 정기적으로 공식 홈페이지 패치 및 영웅 확인
+    - cron: '0 0 * * 5'
   # GitHub 웹사이트 Actions 탭에서 수동으로 즉시 1클릭 실행 가능
   workflow_dispatch:
 
@@ -33,6 +33,10 @@ jobs:
       # 신규 영웅/스킬은 KO와 JA에도 일단 영문명으로 자동 반영
       - name: Fetch Official NetEase Data
         run: python scripts/sync_heroes.py
+
+      # 1.5. 다국어 마스터 번역 데이터 통합 빌드
+      - name: Build Unified Translations
+        run: python scripts/build_unified_translations.py
 
       # 2. 데드풀 3개 역할 분리, 별(⭐) 토글 스킬 통합 및 영웅 카운트 동기화
       - name: Post-process Custom Logic & Hero Count

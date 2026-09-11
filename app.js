@@ -217,18 +217,19 @@
    */
   function formatHealth(val, lang, isShort = false) {
     if (!val) return 'N/A';
-    const str = String(val).trim();
+    let str = String(val).trim();
     if (/regenerative shield/i.test(str)) {
-      if (isShort) {
-        if (lang === 'ko') return str.replace(/regenerative shield/i, '보호막');
-        if (lang === 'ja') return str.replace(/regenerative shield/i, 'シールド');
-        return str.replace(/regenerative shield/i, 'Shield');
-      } else {
-        if (lang === 'ko') return str.replace(/regenerative shield/i, '재생 보호막');
-        if (lang === 'ja') return str.replace(/regenerative shield/i, '再生シールド');
-        return str;
+      if (lang === 'ko') {
+        str = str.replace(/\bHealth\b/gi, '체력');
+        return isShort ? str.replace(/regenerative shield/i, '보호막') : str.replace(/regenerative shield/i, '재생 보호막');
+      } else if (lang === 'ja') {
+        str = str.replace(/\bHealth\b/gi, '体力');
+        return isShort ? str.replace(/regenerative shield/i, 'シールド') : str.replace(/regenerative shield/i, '再生シールド');
       }
+      return isShort ? str.replace(/regenerative shield/i, 'Shield') : str;
     }
+    if (lang === 'ko') str = str.replace(/\bHealth\b/gi, '체력');
+    if (lang === 'ja') str = str.replace(/\bHealth\b/gi, '体力');
     return str;
   }
 

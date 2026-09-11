@@ -128,7 +128,10 @@ HERO_NAMES = {
     "Elsa Bloodstone": {"ko": "엘사 블러드스톤", "ja": "エルサ・ブラッドストーン"},
     "ELSA BLOODSTONE": {"ko": "엘사 블러드스톤", "ja": "エルサ・ブラッドストーン"},
     "Daredevil": {"ko": "데어데블", "ja": "デアデビル"},
-    "DAREDEVIL": {"ko": "데어데블", "ja": "デアデビル"}
+    "DAREDEVIL": {"ko": "데어데블", "ja": "デアデビル"},
+    "Gorr the God Butcher": {"ko": "고르", "ja": "ゴア"},
+    "Gorr": {"ko": "고르", "ja": "ゴア"},
+    "GORR": {"ko": "고르", "ja": "ゴア"}
 }
 
 ROLE_TRANSLATIONS = {
@@ -265,7 +268,7 @@ def parse_hero_list():
             continue
         seen.add(hid)
         
-        imgs = re.findall(r'src="([^"]+)"', inner)
+        imgs = re.findall(r'src=[\'"]([^\'"]+)[\'"]', inner)
         avatar = imgs[2] if len(imgs) >= 3 else (imgs[0] if imgs else "")
         full_img = imgs[0] if imgs else ""
         

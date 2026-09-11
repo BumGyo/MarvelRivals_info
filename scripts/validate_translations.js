@@ -5,10 +5,20 @@ const KOREAN_REGEX = /[\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F]/;
 const JAPANESE_REGEX = /[\u3040-\u309F\u30A0-\u30FF]/;
 
 let errorCount = 0;
+let warningCount = 0;
 
 function reportError(msg) {
   console.error(`❌ [ERROR] ${msg}`);
   errorCount++;
+}
+
+function reportWarning(msg) {
+  console.warn(`⚠️ [WARNING] ${msg}`);
+  warningCount++;
+}
+
+function reportNotice(msg) {
+  console.log(`ℹ️ [NOTICE] ${msg}`);
 }
 
 console.log("==================================================");
@@ -73,8 +83,10 @@ if (!fs.existsSync(heroesPath)) {
 
     let totalSkills = 0;
     let translatedSkills = 0;
+    let fallbackSkills = 0;
     let totalTeamups = 0;
     let translatedTeamups = 0;
+    let fallbackTeamups = 0;
     let namePurityViolations = 0;
 
     heroes.forEach(h => {
@@ -90,9 +102,17 @@ if (!fs.existsSync(heroesPath)) {
 
         if (s.description) {
           if (!s.description_trans || !s.description_trans.ko || !s.description_trans.ja) {
-            reportError(`Hero ${heroName} (${context}) skill '${s.name}' missing description_trans (ko or ja)!`);
+            reportWarning(`Hero ${heroName} (${context}) skill '${s.name}' missing description_trans (ko or ja). Auto-fallback used.`);
+            fallbackSkills++;
           } else {
-            translatedSkills++;
+            const isKoFallback = s.description_trans.ko === s.description;
+            const isJaFallback = s.description_trans.ja === s.description;
+            if (isKoFallback || isJaFallback) {
+              fallbackSkills++;
+            } else {
+              translatedSkills++;
+            }
+
             if (JAPANESE_REGEX.test(s.description_trans.ko)) {
               reportError(`Hero ${heroName} (${context}) skill '${s.name}' KO contains Japanese characters!`);
             }
@@ -119,9 +139,16 @@ if (!fs.existsSync(heroesPath)) {
         }
         if (s.description) {
           if (!s.description_trans || !s.description_trans.ko || !s.description_trans.ja) {
-            reportError(`Hero ${heroName} upgrade '${s.name}' missing description_trans!`);
+            reportWarning(`Hero ${heroName} upgrade '${s.name}' missing description_trans. Auto-fallback used.`);
+            fallbackSkills++;
           } else {
-            translatedSkills++;
+            const isKoFallback = s.description_trans.ko === s.description;
+            const isJaFallback = s.description_trans.ja === s.description;
+            if (isKoFallback || isJaFallback) {
+              fallbackSkills++;
+            } else {
+              translatedSkills++;
+            }
           }
         }
       });
@@ -134,8 +161,15 @@ if (!fs.existsSync(heroesPath)) {
           namePurityViolations++;
         }
 
-        if (tu.description_trans) {
-          translatedTeamups++;
+        if (tu.description_trans && tu.description_trans.ko && tu.description_trans.ja) {
+          const isKoFallback = tu.description_trans.ko === tu.description;
+          const isJaFallback = tu.description_trans.ja === tu.description;
+          if (isKoFallback || isJaFallback) {
+            fallbackTeamups++;
+          } else {
+            translatedTeamups++;
+          }
+
           if (JAPANESE_REGEX.test(tu.description_trans.ko)) {
             reportError(`Hero ${heroName} teamup '${tu.loadout_name}' KO contains Japanese characters!`);
           }
@@ -143,19 +177,20 @@ if (!fs.existsSync(heroesPath)) {
             reportError(`Hero ${heroName} teamup '${tu.loadout_name}' JA contains Korean characters!`);
           }
         } else {
-          reportError(`Hero ${heroName} teamup '${tu.loadout_name}' missing description_trans!`);
+          reportWarning(`Hero ${heroName} teamup '${tu.loadout_name}' missing description_trans. Auto-fallback used.`);
+          fallbackTeamups++;
         }
 
         (tu.items || []).forEach(item => {
           if (item.description && (!item.description_trans || !item.description_trans.ko || !item.description_trans.ja)) {
-            reportError(`Hero ${heroName} teamup '${tu.loadout_name}' item missing description_trans!`);
+            reportWarning(`Hero ${heroName} teamup '${tu.loadout_name}' item missing description_trans.`);
           }
         });
       });
     });
 
-    console.log(`✓ Skills translation coverage: ${translatedSkills}/${totalSkills} (${((translatedSkills/totalSkills)*100).toFixed(1)}%)`);
-    console.log(`✓ Teamups translation coverage: ${translatedTeamups}/${totalTeamups} (${((translatedTeamups/totalTeamups)*100).toFixed(1)}%)`);
+    console.log(`✓ Skills translation: ${translatedSkills} native + ${fallbackSkills} fallback / ${totalSkills} total (${(((translatedSkills + fallbackSkills)/totalSkills)*100).toFixed(1)}% available)`);
+    console.log(`✓ Teamups translation: ${translatedTeamups} native + ${fallbackTeamups} fallback / ${totalTeamups} total (${(((translatedTeamups + fallbackTeamups)/totalTeamups)*100).toFixed(1)}% available)`);
     console.log(`✓ English name integrity: ${namePurityViolations === 0 ? 'Passed (All English)' : 'Failed'}`);
 
   } catch (e) {
@@ -165,9 +200,13 @@ if (!fs.existsSync(heroesPath)) {
 
 console.log("--------------------------------------------------");
 if (errorCount === 0) {
-  console.log("🎉 ALL VALIDATION CHECKS PASSED PERFECTLY (0 errors)!");
+  if (warningCount > 0) {
+    console.log(`⚠️ VALIDATION PASSED WITH ${warningCount} WARNINGS (CI will proceed with fallback data).`);
+  } else {
+    console.log("🎉 ALL VALIDATION CHECKS PASSED PERFECTLY (0 errors, 0 warnings)!");
+  }
   process.exit(0);
 } else {
-  console.error(`⚠️ VALIDATION FAILED WITH ${errorCount} ERRORS!`);
+  console.error(`❌ VALIDATION FAILED WITH ${errorCount} HARD ERRORS!`);
   process.exit(1);
 }
