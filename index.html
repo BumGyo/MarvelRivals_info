@@ -17,20 +17,29 @@
   <meta property="og:type" content="website">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
 
   <!-- App Header -->
   <header class="app-header" id="main-header">
     <div class="header-container">
-      <a href="#" class="logo-group" id="logo-btn" aria-label="Marvel Rivals Skill DB Home">
-        <img src="assets/ignite_icon.png" alt="Marvel Rivals Ignite" class="site-logo-icon">
-        <div class="logo-text">
-          <h1 class="logo-title" id="site-logo-title">MARVEL RIVALS</h1>
-          <span class="logo-subtitle" id="site-logo-subtitle">SKILL & TEAM-UP DATABASE</span>
-        </div>
-      </a>
+      <div class="brand-wrapper">
+        <a href="#" class="logo-group" id="logo-btn" aria-label="Marvel Rivals Skill DB Home">
+          <img src="assets/ignite_icon.png" alt="Marvel Rivals Ignite" class="site-logo-icon">
+          <div class="logo-text">
+            <h1 class="logo-title" id="site-logo-title">MARVEL RIVALS</h1>
+            <span class="logo-subtitle" id="site-logo-subtitle">SKILL & TEAM-UP DATABASE</span>
+          </div>
+        </a>
+        <button type="button" class="dev-info-btn" id="dev-info-btn" aria-label="개발자 정보 (Developer Info)" title="개발자 정보">
+          <svg class="dev-info-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+        </button>
+      </div>
 
       <!-- Global Hero/Skill Search -->
       <div class="search-wrapper">
@@ -156,12 +165,124 @@
     </div>
   </div>
 
+  <!-- Developer Info Modal -->
+  <div class="modal-overlay dev-modal-overlay" id="dev-modal" role="dialog" aria-modal="true" aria-labelledby="dev-modal-title">
+    <div class="dev-modal-container">
+      <div class="dev-modal-header">
+        <div class="dev-header-badge">
+          <span class="dev-badge-dot"></span>
+          <span id="dev-badge-text">CREATOR INFO</span>
+        </div>
+        <button type="button" class="modal-close-btn dev-modal-close-btn" id="dev-modal-close-btn" aria-label="Close Developer Info">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="dev-profile-section">
+        <div class="dev-avatar-box">
+          <div class="dev-avatar-ring"></div>
+          <span class="dev-avatar-letter">N</span>
+        </div>
+        <div class="dev-profile-meta">
+          <div class="dev-profile-title-row">
+            <h2 class="dev-profile-name" id="dev-modal-title">Neil</h2>
+            <span class="dev-verified-badge" title="Verified Creator">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </span>
+          </div>
+          <span class="dev-profile-role" id="dev-role-text">Marvel Rivals 플레이어 &amp; 프로그래머</span>
+        </div>
+      </div>
+
+      <div class="dev-sns-divider">
+        <span id="dev-sns-heading">OFFICIAL CHANNELS &amp; SNS</span>
+      </div>
+
+      <div class="dev-sns-grid">
+        <!-- X (Twitter) -->
+        <a href="https://x.com/Neil__MR" target="_blank" rel="noopener noreferrer" class="dev-sns-card sns-x">
+          <div class="dev-sns-icon-wrap">
+            <svg class="dev-sns-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </div>
+          <div class="dev-sns-info">
+            <div class="dev-sns-name">X (Twitter)</div>
+            <div class="dev-sns-handle">@Neil__MR</div>
+          </div>
+          <div class="dev-sns-action">
+            <svg class="dev-sns-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H8M17 7V16" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </a>
+
+        <!-- Twitch -->
+        <a href="https://twitch.tv/neil_mr" target="_blank" rel="noopener noreferrer" class="dev-sns-card sns-twitch">
+          <div class="dev-sns-icon-wrap">
+            <svg class="dev-sns-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M2.149 0L.537 4.119v16.836h5.131V24h3.208l3.208-3.045h4.634l6.743-6.743V0H2.149zm19.124 13.064l-3.746 3.746h-5.228l-2.784 2.784v-2.784H5.892V1.957h15.381v11.107zM16.51 5.922h-2.143v6.275h2.143V5.922zm-5.787 0h-2.143v6.275h2.143V5.922z"/>
+            </svg>
+          </div>
+          <div class="dev-sns-info">
+            <div class="dev-sns-name">Twitch</div>
+            <div class="dev-sns-handle">neil_mr</div>
+          </div>
+          <div class="dev-sns-action">
+            <svg class="dev-sns-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H8M17 7V16" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </a>
+
+        <!-- Liquipedia -->
+        <a href="https://liquipedia.net/marvelrivals/Neil" target="_blank" rel="noopener noreferrer" class="dev-sns-card sns-liquipedia">
+          <div class="dev-sns-icon-wrap">
+            <img src="assets/liquipedia.png" alt="Liquipedia" class="dev-sns-img">
+          </div>
+          <div class="dev-sns-info">
+            <div class="dev-sns-name">Liquipedia</div>
+            <div class="dev-sns-handle">Neil (Marvel Rivals)</div>
+          </div>
+          <div class="dev-sns-action">
+            <svg class="dev-sns-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H8M17 7V16" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </a>
+
+        <!-- Youtube -->
+        <a href="https://www.youtube.com/@ow_Neil" target="_blank" rel="noopener noreferrer" class="dev-sns-card sns-youtube">
+          <div class="dev-sns-icon-wrap">
+            <svg class="dev-sns-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </div>
+          <div class="dev-sns-info">
+            <div class="dev-sns-name">YouTube</div>
+            <div class="dev-sns-handle">@ow_Neil</div>
+          </div>
+          <div class="dev-sns-action">
+            <svg class="dev-sns-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H8M17 7V16" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer class="app-footer">
     <p>© 2026 Marvel Rivals Skill & Team-Up Database. Data parsed from NetEase Official Site. Non-commercial community fan project.</p>
   </footer>
 
   <!-- Application Logic -->
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>

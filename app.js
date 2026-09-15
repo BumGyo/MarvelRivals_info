@@ -44,6 +44,11 @@
   const loadoutSelector = document.getElementById('loadout-selector');
   const teamupColumns = document.getElementById('teamup-columns');
 
+  // Developer Info Modal Elements
+  const devInfoBtn = document.getElementById('dev-info-btn');
+  const devModal = document.getElementById('dev-modal');
+  const devModalCloseBtn = document.getElementById('dev-modal-close-btn');
+
   // Static stat color class mappings
   const STAT_HIGHLIGHT_CLASSES = {
     'damage': 'highlight-damage',
@@ -136,17 +141,41 @@
       renderHeroGrid();
     });
 
-    // Keyboard shortcut for search
+    // Keyboard shortcut for search & escape
     window.addEventListener('keydown', (e) => {
-      if (e.key === '/' && document.activeElement !== heroSearchInput && !modalOverlay.classList.contains('open')) {
+      const isDevModalOpen = devModal && devModal.classList.contains('open');
+      const isHeroModalOpen = modalOverlay && modalOverlay.classList.contains('open');
+
+      if (e.key === '/' && document.activeElement !== heroSearchInput && !isHeroModalOpen && !isDevModalOpen) {
         e.preventDefault();
         heroSearchInput.focus();
-      } else if (e.key === 'Escape' && modalOverlay.classList.contains('open')) {
-        closeModal();
+      } else if (e.key === 'Escape') {
+        if (isDevModalOpen) {
+          closeDevModal();
+        } else if (isHeroModalOpen) {
+          closeModal();
+        }
       }
     });
 
-    // Modal Close
+    // Developer Info Button & Modal Listeners
+    if (devInfoBtn) {
+      devInfoBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        openDevModal();
+      });
+    }
+    if (devModalCloseBtn) {
+      devModalCloseBtn.addEventListener('click', closeDevModal);
+    }
+    if (devModal) {
+      devModal.addEventListener('click', (e) => {
+        if (e.target === devModal) closeDevModal();
+      });
+    }
+
+    // Hero Modal Close
     modalCloseBtn.addEventListener('click', closeModal);
     modalOverlay.addEventListener('click', (e) => {
       if (e.target === modalOverlay) closeModal();
@@ -209,6 +238,22 @@
     const noticeEl = document.getElementById('teamup-notice-text');
     if (noticeEl) {
       noticeEl.textContent = t.teamUpNotice || '';
+    }
+
+    // Developer Modal i18n
+    const devBadgeText = document.getElementById('dev-badge-text');
+    if (devBadgeText) {
+      devBadgeText.textContent = (lang === 'ko') ? '개발자 정보' : (lang === 'ja' ? '制作者情報' : 'CREATOR INFO');
+    }
+    const devRoleText = document.getElementById('dev-role-text');
+    if (devRoleText) {
+      devRoleText.textContent = (lang === 'ko') 
+        ? 'Marvel Rivals 플레이어 & 프로그래머' 
+        : (lang === 'ja' ? 'Marvel Rivals プレイヤー ＆ プログラマー' : 'Marvel Rivals Player & Programmer');
+    }
+    const devSnsHeading = document.getElementById('dev-sns-heading');
+    if (devSnsHeading) {
+      devSnsHeading.textContent = (lang === 'ko') ? '공식 채널 & SNS' : (lang === 'ja' ? '公式チャンネル ＆ SNS' : 'OFFICIAL CHANNELS & SNS');
     }
   }
 
@@ -434,6 +479,28 @@
     modalOverlay.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
     selectedHero = null;
+  }
+
+  /**
+   * Open Developer Info Modal
+   */
+  function openDevModal() {
+    if (!devModal) return;
+    devModal.classList.add('open');
+    devModal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  /**
+   * Close Developer Info Modal
+   */
+  function closeDevModal() {
+    if (!devModal) return;
+    devModal.classList.remove('open');
+    devModal.setAttribute('aria-hidden', 'true');
+    if (!modalOverlay || !modalOverlay.classList.contains('open')) {
+      document.body.style.overflow = '';
+    }
   }
 
   /**
