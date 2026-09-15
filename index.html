@@ -17,7 +17,7 @@
   <meta property="og:type" content="website">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
 
@@ -96,17 +96,19 @@
       
       <!-- Modal Header -->
       <div class="modal-header">
-        <div class="modal-hero-profile">
-          <img src="" alt="" class="modal-avatar" id="modal-hero-avatar">
-          <div class="modal-hero-title">
-            <h2 id="modal-hero-name">Hero Name</h2>
-            <div class="name-alt" id="modal-hero-subname">English Name</div>
-            <div class="modal-base-stats" id="modal-base-stats">
-              <!-- e.g. Health: 250, Speed: 6m/s -->
+        <div class="modal-header-top">
+          <div class="modal-hero-profile">
+            <img src="" alt="" class="modal-avatar" id="modal-hero-avatar">
+            <div class="modal-hero-title">
+              <h2 id="modal-hero-name">Hero Name</h2>
+              <div class="name-alt" id="modal-hero-subname">English Name</div>
             </div>
           </div>
+          <button type="button" class="close-btn" id="modal-close-btn" aria-label="Close modal">✕</button>
         </div>
-        <button type="button" class="close-btn" id="modal-close-btn" aria-label="Close modal">✕</button>
+        <div class="modal-base-stats" id="modal-base-stats">
+          <!-- e.g. Health: 250, Speed: 6m/s -->
+        </div>
       </div>
 
       <!-- Navigation Tabs -->
@@ -160,6 +162,6 @@
   </footer>
 
   <!-- Application Logic -->
-  <script src="app.js"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

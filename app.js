@@ -329,12 +329,6 @@
       const health = formatHealth(hero.base_stats?.Health, currentLang, true);
       const speed = formatSpeed(hero.base_stats?.['Movement Speed']);
 
-      // Preview top 4 skill icons
-      const skillIconsHtml = hero.skills.slice(0, 4).map(s => {
-        if (!s.icon) return '';
-        return `<img src="${s.icon}" alt="${escapeHtml(s.name)}" title="${escapeHtml(s.name)}" class="skill-mini-icon" loading="lazy">`;
-      }).join('');
-
       return `
         <article class="hero-card role-${hero.role.toLowerCase()}" data-id="${hero.id}" tabindex="0" role="button" aria-label="${escapeHtml(displayName)}">
           <div class="hero-avatar-wrapper">
@@ -349,9 +343,6 @@
             <div class="hero-chips">
               <span class="stat-chip">HP <strong>${escapeHtml(health)}</strong></span>
               <span class="stat-chip">SPD <strong>${escapeHtml(speed)}</strong></span>
-            </div>
-            <div class="hero-skills-preview">
-              ${skillIconsHtml}
             </div>
           </div>
         </article>
