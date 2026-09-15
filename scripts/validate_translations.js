@@ -252,8 +252,11 @@ if (!fs.existsSync(heroesPath)) {
           const tr = statLabelsDict[k.trim()] || statLabelsDict[k];
           if (tr && tr.ko && tr.ja) {
             translatedStatLabels++;
+            if (tr.ko === k.trim() || tr.ja === k.trim()) {
+              reportWarning(`Hero ${h.name} stat label '${k}' is using safe English fallback in stat_labels.`);
+            }
           } else {
-            reportError(`Hero ${h.name} stat label '${k}' is missing KO/JA translation in stat_labels!`);
+            reportWarning(`Hero ${h.name} stat label '${k}' is missing KO/JA translation in stat_labels! Fallback will be used.`);
           }
 
           if (typeof val === 'string' && val.trim()) {

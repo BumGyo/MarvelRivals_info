@@ -3379,6 +3379,30 @@
     "a little Speed boost, Continuous Healing, and Damage Up. Hit enough baddies with the right abilities exactly as I ask, and you unlock the ultimate bundle (Super Speed, Super Healing, Damage Boost AND reset all your cooldowns (except Healing Factor; no cheating!). Now THAT'S love": {
       "ko": "멍하니 서 있지 마 돌머리야! 과제는 계속된다고. 속도 증가, 지속 치유, 공격력 증가 버프를 무료로 퍼준다! 내 지시대로 적들을 패면 슈퍼 스피드, 슈퍼 힐, 쿨다운 전체 초기화가 터진다!",
       "ja": "突っ立ってんじゃねえ石頭！チャレンジは続行中だ。スピード、持続回復、攻撃力アップを大盤振る舞い！指示通りに敵を殴れば超加速と超回復、全クールダウンリセット発動だぜ！"
+    },
+    "Swiftly dash to an enemy, unleash a rapid flurry of claw attacks, and flash back to your starting position.": {
+      "ko": "적에게 신속히 질주하여 연속 발톱 난격을 퍼부은 뒤 시작 위치로 번개같이 귀환합니다.",
+      "ja": "敵へ素早くダッシュして連続爪撃を浴びせ、開始位置へと瞬時に戻る。"
+    },
+    "Unleash Chaos Magic on enemies to deal damage and restore Chaos Energy. Concurrently damages any enemies within range bearing a Chaos Magic mark": {
+      "ko": "혼돈 마법을 방출하여 적에게 피해를 입히고 Chaos Energy를 회복합니다. 동시에 범위 내 혼돈 마법 표식이 있는 모든 적에게 피해를 입힙니다.",
+      "ja": "カオスマジックを放って敵にダメージを与え、Chaos Energyを回復する。同時に範囲内のカオスマジックのマークが付与されたすべての敵にもダメージを与える。"
+    },
+    "Engage in free-flight while gaining Bonus Health and charging energy. While flying, continuously pull in nearby enemies and inflict Chaos Marks, dealing gradually increasing damage over time. Then, unleash the charged energy to deal massive area damage. Small chance to be immune to incoming damage from enemies within the ultimate's attack range": {
+      "ko": "자유 비행하며 추가 체력을 얻고 에너지를 충전합니다. 비행 중에는 주변 적들을 지속적으로 끌어당겨 혼돈 표식을 부여하고 점차 증가하는 지속 피해를 입힙니다. 그 후 충전된 에너지를 폭발시켜 막대한 범위 피해를 입힙니다. 궁극기 공격 범위 내의 적들로부터 받는 피해에 면역이 될 확률이 약간 있습니다.",
+      "ja": "自由飛行しながら追加体力を獲得しエネルギーをチャージする。飛行中は周囲の敵を引き寄せてカオスマークを付与し時間経過とともに増加する持続ダメージを与える。その後チャージしたエネルギーを解放して壊滅的な大範囲ダメージを与える。ULTの攻撃範囲内にいる敵から受けるダメージを無効化する確率がわずかにある。"
+    },
+    "Land a hit on a target or the scene, or press {Ability1} again to generate a Force Field. The initial explosion Stuns enemies within range, while continuing to apply a Slow effect for the remaining duration. Continuously inflicts Chaos Marks on enemies within range": {
+      "ko": "대상이나 지형에 적중하거나 {Ability1} 키를 다시 눌러 결계를 형성합니다. 초기 폭발은 범위 내 적들을 기절시키며, 남은 지속 시간 동안 감속 효과를 지속적으로 적용합니다. 범위 내 적들에게 지속적으로 혼돈 표식을 부여합니다.",
+      "ja": "標的や地形に命中させるか、{Ability1}キーをもう一度押して結界を生成する。初期爆発で範囲内の敵をスタンさせ、残りの持続時間中はスロウ効果を与え続ける。範囲内の敵にカオスマークを継続的に付与する。"
+    },
+    "Unleash a shockwave of Chaos Magic forward, dealing damage and applying a Chaos Magic mark to enemies": {
+      "ko": "전방으로 혼돈 마법의 충격파를 방출하여 적에게 피해를 입히고 혼돈 마법 표식을 부여합니다.",
+      "ja": "前方へカオスマジックの衝撃波を放ち、敵にダメージを与えてカオスマジックのマークを付与する。"
+    },
+    "While the mark is active, using Chaos Control deals damage to marked enemies. Dealing damage to enemies with a Chaos Mark grants Bonus Health": {
+      "ko": "표식이 활성화되어 있는 동안 Chaos Control을 사용하면 표식이 남겨진 적들에게 피해를 입힙니다. 혼돈 표식을 가진 적에게 피해를 입히면 추가 체력을 얻습니다.",
+      "ja": "マークが有効な間、Chaos Controlを使用するとマークされた敵にダメージを与える。カオスマークを持つ敵にダメージを与えると追加体力を獲得する。"
     }
   },
   "teamups": {
@@ -11219,6 +11243,22 @@
     "Summon Damage/Health Conversion": {
       "ko": "소환물 피해 체력 전환율",
       "ja": "召喚物ダメージHP変換率"
+    },
+    "Fortune Gained per Hit (FELINE ALLIANCE)": {
+      "ko": "타격당 행운 획득 (FELINE ALLIANCE)",
+      "ja": "命中ごとの幸運獲得量 (FELINE ALLIANCE)"
+    },
+    "Marked Enemy Pull-In Range": {
+      "ko": "표식 대상 적 끌어당김 범위",
+      "ja": "マークされた敵の引き寄せ範囲"
+    },
+    "Affected Enemies' Attack Chance": {
+      "ko": "영향을 받는 적의 공격 확률",
+      "ja": "影響を受けた敵の攻撃確率"
+    },
+    "CD": {
+      "ko": "재사용 대기시간",
+      "ja": "クールダウン"
     }
   },
   "stat_values": {
@@ -13705,6 +13745,26 @@
     "Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts.": {
       "ko": "전투에서 경험치를 축적합니다. 최대 도달 시 스킬을 선택하여 강력한 부스트로 업그레이드합니다.",
       "ja": "戦闘でXPを蓄積。最大到達時、アビリティを選択して強力な強化にアップグレードします。"
+    },
+    "grants 50% Damage Reduction and Unstoppable while casting Phantom Pursuit": {
+      "ko": "Phantom Pursuit 시전 중 50% 피해 감소 및 저지 불가 상태 부여",
+      "ja": "Phantom Pursuit発動中、被ダメージが50%軽減され妨害無効状態を獲得"
+    },
+    "120° cone": {
+      "ko": "120° 원뿔형",
+      "ja": "120°円錐形"
+    },
+    "50/s, increasing to 80/s over 4s": {
+      "ko": "초당 50, 4초에 걸쳐 초당 80까지 증가",
+      "ja": "毎秒50、4秒かけて毎秒80まで増加"
+    },
+    "replace Namor's Monstro Spawn with Frozen Spawn. The Frozen Spawn attacks apply a 15% slow effect on hit, lasting 1s": {
+      "ko": "Namor의 Monstro Spawn을 Frozen Spawn으로 교체합니다. Frozen Spawn의 공격은 적중 시 1초 동안 15% 감속 효과를 적용합니다.",
+      "ja": "NamorのMonstro SpawnをFrozen Spawnに置き換える。Frozen Spawnの攻撃が命中すると、1秒間15%のスロウ効果を付与する。"
+    },
+    "Ironwood Wall heals 50 Bonus Health per second, up to 250 Bonus Health; gain Unstoppable status when within 15m of Awakened Ironwood Walls": {
+      "ko": "Ironwood Wall이 초당 50의 추가 체력을 회복(최대 250); 각성한 Ironwood Wall 15m 이내에 있을 때 저지 불가 상태 획득",
+      "ja": "Ironwood Wallが毎秒50の追加体力を回復(最大250)。覚醒したIronwood Wallから15m以内にいるとき妨害無効状態を獲得"
     }
   },
   "stat_patterns": [

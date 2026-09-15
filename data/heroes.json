@@ -664,7 +664,7 @@
         "stats": {
           "Key": "C",
           "Cooldown": "20s",
-          "Illusion Max Damage Absorbed": "250"
+          "Illusion Max Damage Absorbed": "150"
         },
         "description_trans": {
           "ko": "전방으로 환영을 투사합니다. 환영은 암살자의 돌진(Assassin's Charge)을 사용하여 전방의 적을 들이받으며, 정면으로 충돌한 적을 잠시 공중으로 끌고 갑니다.",
@@ -784,7 +784,7 @@
         "stats": {
           "Key": "Right Click",
           "Grapple Swipe Fortune Consumption": "150",
-          "Phantom Pursuit Fortune Consumption": "300"
+          "Phantom Pursuit Fortune Consumption": "250"
         },
         "description_trans": {
           "ko": "행운(Fortune)을 소모하여 그래플 스와이프 또는 팬텀 퍼슈트를 발동합니다.",
@@ -1093,7 +1093,7 @@
             "stats": {
               "Key": "Right Click",
               "Grapple Swipe Fortune Consumption": "150",
-              "Phantom Pursuit Fortune Consumption": "300"
+              "Phantom Pursuit Fortune Consumption": "250"
             },
             "description_trans": {
               "ko": "행운(Fortune)을 소모하여 그래플 스와이프 또는 팬텀 퍼슈트를 발동합니다.",
@@ -1305,7 +1305,7 @@
             "stats": {
               "Key": "Right Click",
               "Grapple Swipe Fortune Consumption": "150",
-              "Phantom Pursuit Fortune Consumption": "300"
+              "Phantom Pursuit Fortune Consumption": "250"
             },
             "description_trans": {
               "ko": "행운(Fortune)을 소모하여 그래플 스와이프 또는 팬텀 퍼슈트를 발동합니다.",
@@ -1370,17 +1370,18 @@
             },
             "name": "PHANTOM PURSUIT",
             "icon": "https://r.res.easebar.com/pic/20260416/0f50962e-bc08-42a0-85db-7138a350d05f.png",
-            "description": "Swiftly dash to an enemy, unleash a rapid flurry of claw attacks, and flash back to your starting position. Black Cat is Untargetableduring this move",
+            "description": "Swiftly dash to an enemy, unleash a rapid flurry of claw attacks, and flash back to your starting position.",
             "stats": {
               "Key": "E",
               "Dash Duration": "0.25s",
               "Damage": "70",
               "Maximum Dash Distance": "20m",
-              "Cooldown": "2s"
+              "Cooldown": "2s",
+              "Special Effect": "grants 50% Damage Reduction and Unstoppable while casting Phantom Pursuit"
             },
             "description_trans": {
-              "ko": "적에게 신속히 질주하여 연속 발톱 난격을 퍼부은 뒤 시작 위치로 번개같이 귀환합니다. 이 동작 중 블랙 캣은 대상 지정 불가 상태가 됩니다.",
-              "ja": "敵へ素早くダッシュして連続爪撃を浴びせ、開始位置へと瞬時に戻る。発動中のブラックキャットはターゲット不能となる。"
+              "ko": "적에게 신속히 질주하여 연속 발톱 난격을 퍼부은 뒤 시작 위치로 번개같이 귀환합니다.",
+              "ja": "敵へ素早くダッシュして連続爪撃を浴びせ、開始位置へと瞬時に戻る。"
             }
           },
           {
@@ -1531,9 +1532,9 @@
             "stats": {
               "Key": "F",
               "Fortune Consumption": "200",
-              "Invisibility Duration": "2s",
-              "Movement Speed Boost Duration": "2s",
-              "Movement Boost": "60%, drop to 0 in 2s"
+              "Invisibility Duration": "2.5s",
+              "Movement Speed Boost Duration": "2.5s",
+              "Movement Boost": "60%, drop to 0 in 2.5s"
             },
             "description_trans": {
               "ko": "일정 시간 동안 완전한 투명화(Invisible) 상태에 돌입합니다.",
@@ -1642,10 +1643,11 @@
               "Key": "PASSIVE",
               "Fortune Gained per Target Hit (Feline Fury)": "50, up to 50",
               "Fortune Gained per Target Hit (Claw Whip)": "50, up to 100",
-              "Fortune Gained per Target Hit (Phantom Pursuit)": "150, up to 150",
+              "Fortune Gained per Target Hit (Phantom Pursuit)": "125, up to 125",
               "Fortune Gained per Hit (Turn of Fortune)": "300",
               "Fortune Gained per Hit (Calling Card)": "300",
-              "Fortune Lost Upon Death": "Lose 50% of Fortune when defeated, with a minimum deduction of 200"
+              "Fortune Lost Upon Death": "Lose 50% of Fortune when defeated, with a minimum deduction of 200",
+              "Fortune Gained per Hit (FELINE ALLIANCE)": "50, up to 100"
             },
             "description_trans": {
               "ko": "공격이 적에게 명중할 때마다 일정량의 행운(Fortune)을 훔쳐옵니다.",
@@ -2282,7 +2284,8 @@
         "key": "Passive",
         "stats": {
           "Key": "Passive",
-          "Bloodline Awakening Stacks Gained from Damage Taken": "40 per stack"
+          "Bloodline Awakening Stacks Gained from Damage Taken": "40 per stack",
+          "Bloodline Awakening Max Stacks Increase": "2"
         },
         "description_trans": {
           "ko": "적에게 입힌 출혈 데미지에 비례하여 블레이드의 이동 속도가 점진적으로 상승합니다.",
@@ -2305,7 +2308,7 @@
         "key": "Passive",
         "stats": {
           "Key": "Passive",
-          "Bloodline Awakening Max Stacks Increase": "2",
+          "Bloodline Awakening Max Stacks Increase": "4",
           "Health Percentage Threshold": "65%",
           "Bonus Stacks Gained": "5"
         },
@@ -2390,7 +2393,7 @@
           "Key": "Left Click",
           "Casting": "Single-cast direct hit",
           "Damage": "40 damage per round",
-          "Damage Falloff": "Falloff begins at 10m, decreasing to 75% at 40m",
+          "Damage Falloff": "Falloff begins at 10m, decreasing to 65% at 40m",
           "Fire Rate": "0.25s per hit",
           "Ammo": "20",
           "Critical Hit": "Yes"
@@ -2439,7 +2442,7 @@
         "description": "Switch the Red Room Rifle to sniper mode. Shots fired in this state pierce through targets and deal increased damage",
         "stats": {
           "Key": "Q",
-          "Energy Cost": "2800",
+          "Energy Cost": "3100",
           "Bullet Damage": "160",
           "Rounds": "6",
           "Critical Hit": "Yes",
@@ -2624,7 +2627,7 @@
     "avatar": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/d24.png",
     "full_img": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_24.png",
     "base_stats": {
-      "Health": "300+300 Regenerative Shield",
+      "Health": "350+300 Regenerative Shield",
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
@@ -2633,7 +2636,7 @@
         "name": "CAPTAIN AMERICA",
         "avatar": "",
         "stats": {
-          "Health": "300+300 Regenerative Shield",
+          "Health": "350+300 Regenerative Shield",
           "Movement Speed": "6 m/s",
           "Movement Mode": "Ground"
         }
@@ -2783,7 +2786,7 @@
           "Projectile Speed": "80 m/s",
           "Maximum Distance": "25m",
           "Number of Ricochets": "3",
-          "Damage": "Start at 70, with a 20% reduction for each ricochet",
+          "Damage": "70,",
           "Cooldown": "6s"
         },
         "description_trans": {
@@ -2924,7 +2927,7 @@
         "stats": {
           "Key": "C",
           "Cooldown": "15s",
-          "Ability Duration": "7s",
+          "Ability Duration": "10s",
           "Thunderous Shield Damage": "45"
         },
         "description_trans": {
@@ -3114,7 +3117,7 @@
           "Damage": "55",
           "Blinding Duration": "1.5s",
           "Range": "Width: 6m, Height: 4.5m",
-          "Vulnerability": "28%",
+          "Vulnerability": "20%",
           "Vulnerability Duration": "3s",
           "Movement Speed": "20 m/s",
           "Maximum Distance": "25m",
@@ -3213,7 +3216,7 @@
         "key": "C",
         "stats": {
           "Key": "C",
-          "Ability Duration": "2.5s",
+          "Ability Duration": "2s",
           "Spell Field Range": "8m radius",
           "Healing Amount": "50/s",
           "Cooldown": "20s"
@@ -3375,7 +3378,7 @@
               "Damage": "55",
               "Blinding Duration": "1.5s",
               "Range": "Width: 6m, Height: 4.5m",
-              "Vulnerability": "28%",
+              "Vulnerability": "20%",
               "Vulnerability Duration": "3s",
               "Movement Speed": "20 m/s",
               "Maximum Distance": "25m",
@@ -3440,7 +3443,7 @@
               "Special Effect": "The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects",
               "Damage": "18 damage per round",
               "Healing Per Hit": "15 per hit",
-              "Area of Effect Healing": "25 per hit",
+              "Area of Effect Healing": "20 per hit",
               "Range": "8m spherical radius",
               "Fire Rate": "2.27 hits per second",
               "Ammo": "12",
@@ -3924,7 +3927,7 @@
           "Key": "Left Click",
           "Casting": "Rapid-fire projectile.",
           "Damage": "36 damage per round",
-          "Damage Falloff": "Falloff begins at 15m, decreasing to 50% at 30m",
+          "Damage Falloff": "Falloff begins at 15m, decreasing to 75% at 30m",
           "Fire Rate": "2.5 rounds per second",
           "Ammo": "30"
         },
@@ -4082,8 +4085,8 @@
           "Damage From Per Ability Missed": "35",
           "Bonus Health From Per Ability Missed": "60 per ability missed",
           "Ability Duration": "8s",
-          "Bonus Health Gained Upon Activation": "200",
-          "Healing Over Time During Activation": "25/s",
+          "Bonus Health Gained Upon Activation": "300",
+          "Healing Over Time During Activation": "35/s",
           "Cooldown": "60s"
         },
         "upgrade": {
@@ -4095,8 +4098,8 @@
             "Damage From Per Ability Missed": "35",
             "Bonus Health From Per Ability Missed": "70 per ability missed",
             "Ability Duration": "8s",
-            "Bonus Health upon Activation": "200",
-            "Healing During Activation": "25/s",
+            "Bonus Health upon Activation": "300",
+            "Healing During Activation": "35/s",
             "Cooldown": "60s",
             "Damage Over Time": "25/s"
           },
@@ -4125,7 +4128,7 @@
           "Key": "Q",
           "Ability Duration": "The challenge lasts 12s. The buff lasts 6s after you complete it.",
           "Boost Spell Field Range": "6m radius spherical spell field",
-          "Bonus Health": "Self: 200; allies: 50",
+          "Bonus Health": "Self: 300; allies: 50",
           "Healing over Time": "Upon activation: 50/s; challenge completed: 100/s",
           "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
           "Cooldown": "60s"
@@ -4446,7 +4449,7 @@
         "stats": {
           "Key": "Left Click",
           "Casting": "Rapid-fire projectile",
-          "Damage": "38 per hit",
+          "Damage": "42 per hit",
           "Damage Falloff": "Falloff begins at 18m, decreasing to 80% at 30m",
           "Fire Rate": "2.5 rounds per second",
           "Ammo": "30"
@@ -5232,7 +5235,7 @@
         "description": "Want to hurt my team? Good luck! I hit you with a taunt, mess up your vision, and burn your health nonstop! Best part: my swords and guns go full turbo for the duration. Blink and you'll miss it",
         "stats": {
           "Key": "E",
-          "Cooldown": "12s",
+          "Cooldown": "10s",
           "Ability Duration": "5s",
           "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
           "Damage Needed to Remove the Disruption": "100",
@@ -5530,7 +5533,7 @@
           "Damage": "75",
           "Maximum Distance": "4m",
           "Attack Interval": "1st and 3rd attacks: 1s; 2nd attack: 0.9s",
-          "Bleed Damage": "0.75% Maximum Health",
+          "Bleed Damage": "1.2% Maximum Health",
           "Bleed Duration": "4s",
           "Bleed Tick Rate": "2 times per second"
         },
@@ -5875,10 +5878,10 @@
         "stats": {
           "Key": "Left Click",
           "Casting": "Five-round delayed hit projectiles",
-          "Projectile Speed": "60 m/s",
+          "Projectile Speed": "80  m/s",
           "Damage": "18",
           "Damage Falloff": "Falloff begins at 10m, decreasing to 80% at 20m",
-          "Fire Rate": "5.56 rounds per second, with a 0.03-second interval between every two rounds",
+          "Fire Rate": "6.25 rounds per second, with a 0.03-second interval between every two rounds",
           "Ammo": "12 (1 dagger per release)",
           "Critical Hit": "No"
         },
@@ -6091,7 +6094,6 @@
           "Key": "E",
           "Damage": "Each point of Dark Magic deals 1.3 damage.",
           "Range": "10m spherical radius spell field",
-          "Damage Falloff": "Falloff begins at 6m, decreasing to 75% at 10m",
           "Cooldown": "6s"
         },
         "description_trans": {
@@ -6627,7 +6629,7 @@
         "stats": {
           "Key": "Left Click",
           "Casting": "Shotgun projectiles that hit instantly",
-          "Damage": "13+0.8% of enemy's maximum health",
+          "Damage": "12+0.8% of enemy's maximum health",
           "Bullets Fired Each Cast": "5",
           "Crosshair Spread Radius (at 10m)": "6m",
           "Critical Hit": "No"
@@ -6734,7 +6736,7 @@
           "Max Dash Speed": "27.5m/s",
           "Max Dash Duration": "0.28s",
           "Special Effect": "In 6s after unleashing Helix Advance, the next Double-Barrel Blaster becomes Monster-Piercer",
-          "Special Effect 2": "Every unleash of Ruthless Pursuit and Helix Advance grants 30 bonus health. Max bonus health is 75",
+          "Special Effect 2": "Every unleash of Ruthless Pursuit and Helix Advance grants 25 bonus health. Max bonus health is 75",
           "Cooldown": "11s"
         },
         "description_trans": {
@@ -6762,7 +6764,7 @@
           "Cooldown": "8s",
           "Special Effect 1": "Launch up enemies hit, and activate the follow up in 5s",
           "Special Effect 2": "Using either stage empowers your next Double-Barrel Blaster, transforming it into Monster-Piercer",
-          "Bonus Health": "Every unleash of Ruthless Pursuit and Helix Advance grants 30 bonus health. Max bonus health is 75",
+          "Bonus Health": "Every unleash of Ruthless Pursuit and Helix Advance grants 25 bonus health. Max bonus health is 75",
           "Follow Up": "",
           "Max Damage Distance": "8m",
           "Dash Speed": "15 m/s"
@@ -6844,6 +6846,7 @@
         "key": "F",
         "stats": {
           "Key": "F",
+          "Cooldown": "15s",
           "Trap Trigger Range": "5m radius",
           "Trap Damage": "30",
           "Lethal Gas Range": "3m radius",
@@ -6950,7 +6953,7 @@
     "avatar": "https://r.res.easebar.com/pic/20250408/8a48f02e-4525-42e9-b465-38e228aee7db.png",
     "full_img": "https://r.res.easebar.com/pic/20250408/f625b9b9-e844-4ccf-b98e-eaff91818258.png",
     "base_stats": {
-      "Health": "650",
+      "Health": "675",
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
@@ -6959,7 +6962,7 @@
         "name": "Emma Frost",
         "avatar": "",
         "stats": {
-          "Health": "650",
+          "Health": "675",
           "Movement Speed": "6 m/s",
           "Movement Mode": "Ground"
         }
@@ -6982,7 +6985,7 @@
           "Casting": "Channeled",
           "Ammo": "70",
           "Damage": "Damage increases with energy: 0 - 70/s, 99 - 110/s, full energy - 140/s",
-          "Attack Range": "18m",
+          "Attack Range": "20m",
           "Ammo Consumption": "10/s",
           "Special Effect": "Energy gain: Hero hit: 12/s; Sentience hit: 18/s; Common summons hit: 5/s; Shield hit: 6/s. Falloff begins 4s after not hitting an enemy, at a rate of 30/s"
         },
@@ -7150,7 +7153,7 @@
           "Key": "E",
           "Casting": "Dash Based Control",
           "Damage": "30",
-          "Maximum Distance": "7m",
+          "Maximum Distance": "8.5m",
           "Cooldown": "6s",
           "Special Effect": "Control effect duration: 1.6s"
         },
@@ -7438,7 +7441,7 @@
           "Maximum Distance": "10m",
           "Thornlash Wall Health": "600",
           "Cooldown": "12s",
-          "Special Effect": "Ironwood Wall heals 40 Bonus Health per second, up to 250 Bonus Health; gain Unstoppable status when within 15m of Awakened Ironwood Walls"
+          "Special Effect": "Ironwood Wall heals 50 Bonus Health per second, up to 250 Bonus Health; gain Unstoppable status when within 15m of Awakened Ironwood Walls"
         },
         "description_trans": {
           "ko": "목표 위치에 단단한 아이언우드 벽(Ironwood Wall)을 생성합니다. 벽이 각성하면 그루트와 주변 아군이 입힌 피해에 비례해 그루트가 추가 체력을 얻으며, 벽 근처에서 저지 불가 상태가 됩니다.",
@@ -10568,7 +10571,7 @@
         "stats": {
           "Key": "Left Click",
           "Casting": "Melee",
-          "Damage": "The first four strikes each deal 35 damage, while the fifth strike deals 55 damage",
+          "Damage": "The first four strikes each deal 38 damage, while the fifth strike deals 60 damage",
           "Maximum Distance": "3m",
           "Attack Interval": "The first four strikes have an interval of 0.45s between them, while the fifth strike has a 0.67s interval from the fourth strike",
           "Maximum Pull-In Distance": "6m",
@@ -10649,7 +10652,7 @@
           "Damage Boost": "30%",
           "Movement Boost": "20%",
           "Yat Jee Chung Kuen Cooldown Reduction": "-80%",
-          "Energy Cost": "3400"
+          "Energy Cost": "3100"
         },
         "description_trans": {
           "ko": "살아있는 기 그 자체가 되어 이동 속도, 공격력, 사거리가 대폭 증가하고 더욱 강력한 타격을 퍼부으며 Dragon's Defense의 재사용 대기시간을 줄입니다.",
@@ -10835,7 +10838,7 @@
         "stats": {
           "Key": "Left Click",
           "Damage Distance": "5m",
-          "Damage": "45"
+          "Damage": "50"
         },
         "description_trans": {
           "ko": "더 씽과 함께 플레이 시, 암석의 힘이 권법에 융합되어 주먹을 휘두를 때마다 지진 파편이 솟구칩니다.",
@@ -11367,7 +11370,7 @@
           "Special Effect": "Orbs can pierce heroes and return to Invisible Woman after reaching their maximum distance. They damage enemies and heal teammates",
           "Damage": "Deal 30 damage per hit upon being shot out and 15 damage per hit on its return journey.",
           "Damage Falloff": "No falloff",
-          "Healing Amount": "Heal 50 health per hit upon being shot out and 45 health per hit on its return journey.",
+          "Healing Amount": "Heal 50 health per hit upon being shot out and 40 health per hit on its return journey.",
           "Fire Rate": "0.5s per hit",
           "Projectile Speed": "150 m/s",
           "Maximum Flight Distance": "35m",
@@ -11501,7 +11504,8 @@
         "description": "Generate a force field at your feet, stepping on it propels her into the Invisible state",
         "stats": {
           "Key": "Space",
-          "Cooldown": "6s"
+          "Cooldown": "6s",
+          "Special Effect": "For the first 1s after entering Invisible state, taking damage will no longer break stealth"
         },
         "description_trans": {
           "ko": "발밑에 역장 발판을 생성하여 이를 밟고 도약하며 즉시 투명화 은신 상태로 진입합니다.",
@@ -11701,7 +11705,7 @@
           "Key": "Left Click",
           "Casting": "Rapid-fire, delayed projectile",
           "Projectile Speed": "100m/s",
-          "Healing Amount": "130/s",
+          "Healing Amount": "140/s",
           "Damage": "70/s",
           "Damage Falloff": "Damage falloff starts at 15m to a maximum of 60% at 30m",
           "Fire Rate": "20 rounds per second",
@@ -11726,10 +11730,10 @@
         "stats": {
           "Key": "Right Click",
           "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
-          "Damage": "Projectile Damage: 25 damage per round, Spell Field Damage: 45 damage per cast",
+          "Damage": "Projectile Damage: 30 damage per round, Spell Field Damage: 45 damage per cast",
           "Range": "3m spherical radius",
           "Damage Falloff": "Falloff begins at 1m, decreasing to 50% at 3m (projectile damage has no falloff)",
-          "Projectile Speed": "100m/s",
+          "Projectile Speed": "150m/s",
           "Fire Rate": "1.75 rounds per second",
           "Cooldown": "3 charges, with each charge taking 3s to recharge",
           "Special Effect": "Direct hits can launch enemies up",
@@ -11755,7 +11759,7 @@
           "Key": "Q",
           "Casting": "Targeted",
           "Special Effect1": "After swallowing allies and enemies, Jeff will deal damage to enemies and heal allies for the duration of the effect, during which they will also benefit from Hide and Seek",
-          "Special Effect2": "It's Jeff! (Ultimate Ability) leaves an 8m radius Healing Pool at the point of activation that heals allies within range by 100/s. Healing Pool lasts for 8s",
+          "Special Effect2": "It's Jeff! (Ultimate Ability) leaves an 8m radius Healing Pool at the point of activation that heals allies within range by 130/s. Healing Pool lasts for 8s",
           "Range": "10m radius,5m high cylindrical spell field",
           "Damage": "25/s",
           "Healing Amount": "225/s",
@@ -12408,7 +12412,7 @@
           "Fire Rate": "1.75 rounds per second",
           "Ammo": "10",
           "Critical Hit": "No",
-          "Healing Per Hit": "10 per hit"
+          "Healing Per Hit": "15 per hit"
         },
         "description_trans": {
           "ko": "신비한 마법 미사일을 발사해 아군을 치유하거나 적에게 피해를 줍니다. 아군 직격 시 추가 치유를 제공합니다.",
@@ -12430,7 +12434,7 @@
           "Key": "Right Click",
           "Casting": "Instant Cast",
           "Special Effect": "Loki leaves an illusion in his place and becomes invisible while continuously healing himself. This invisibility has no time limit, but any actions other than casting Devious Exchange, reloading, or casting Doppelganger will render him visible",
-          "Healing Amount": "Health regenerates at a rate of 20 Health per second while invisible",
+          "Healing Amount": "Health regenerates at a rate of 30 Health per second while invisible",
           "Cooldown": "15s"
         },
         "description_trans": {
@@ -12904,7 +12908,7 @@
         "description": "Automatically restore Health when casting Ice Arts or Absolute Zero",
         "stats": {
           "Key": "Passive",
-          "Healing Amount": "30/s for 3 seconds"
+          "Healing Amount": "35/s for 3 seconds"
         },
         "description_trans": {
           "ko": "Ice Arts 또는 Absolute Zero 시전 시 자신의 체력을 자동으로 회복합니다.",
@@ -13387,7 +13391,7 @@
         "key": "C",
         "stats": {
           "Key": "C",
-          "Cooldown": "15s",
+          "Cooldown": "20s",
           "Duration": "5s",
           "Magic Circle Range": "8m radius",
           "Hellfire Trail Energy Refund": "0.5",
@@ -13417,7 +13421,7 @@
         "key": "C",
         "stats": {
           "Key": "C",
-          "Hell Frontier Demon Health Increase": "100",
+          "Hell Frontier Demon Health Increase": "25",
           "Hell Frontier Demon Attack Range Increase": "2.5m"
         },
         "description_trans": {
@@ -13849,7 +13853,7 @@
     "avatar": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/d11.png",
     "full_img": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_11.png",
     "base_stats": {
-      "Health": "650",
+      "Health": "600",
       "Movement Speed": "6 m/s",
       "Iron Ring Charging Speed": "3s per charge",
       "Movement Mode": "Ground"
@@ -13859,7 +13863,7 @@
         "name": "MAGNETO",
         "avatar": "",
         "stats": {
-          "Health": "650",
+          "Health": "600",
           "Movement Speed": "6 m/s",
           "Iron Ring Charging Speed": "3s per charge",
           "Movement Mode": "Ground"
@@ -13985,7 +13989,7 @@
           "Key": "E",
           "Casting": "Targeted",
           "Maximum Distance": "20m",
-          "Shield Value": "250",
+          "Shield Value": "200",
           "Max Shield Duration": "2.5s",
           "Cooldown": "15s",
           "Special Effect": "The shield grants one charge of Iron Ring for every 100 damage it absorbs"
@@ -14008,7 +14012,7 @@
         "description": "Conjure an iron shield around himself. Damage taken will transform into rings on Magneto's back",
         "stats": {
           "Key": "F",
-          "Shield Value": "250",
+          "Shield Value": "200",
           "Max Shield Duration": "2.5s",
           "Cooldown": "10s",
           "Special Effect": "The shield grants one charge of Iron Ring for every 100 damage it absorbs"
@@ -14085,10 +14089,10 @@
         "key": "C",
         "stats": {
           "Key": "C",
-          "Cooldown": "12s",
+          "Cooldown": "18s",
           "Ability Duration": "8s",
           "Projectile Hit Damage": "45",
-          "Spell Field Explosion Damage": "40",
+          "Spell Field Explosion Damage": "35",
           "Projectile Damage Falloff": "Falloff starts at 20m, down to 70% at 30m",
           "Spell Field Damage Falloff": "Falloff starts at 0m, down to 70% at 3m",
           "Projectile Speed": "120m/s"
@@ -14115,7 +14119,7 @@
         "stats": {
           "Key": "C",
           "Charge Interval": "0.33s per use",
-          "Projectile Hit Damage": "20",
+          "Projectile Hit Damage": "10",
           "Spell Field Explosion Damage": "25",
           "Projectile Speed": "120m/s"
         },
@@ -14197,7 +14201,7 @@
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
-      "Life Orb Cooldown": "4 charges, with each charge taking 3s to recharge",
+      "Life Orb Cooldown": "4 charges, with each charge taking 4s to recharge",
       "Movement Mode": "Ground"
     },
     "raw_forms": [
@@ -14207,7 +14211,7 @@
         "stats": {
           "Health": "250",
           "Movement Speed": "6 m/s",
-          "Life Orb Cooldown": "4 charges, with each charge taking 3s to recharge",
+          "Life Orb Cooldown": "4 charges, with each charge taking 4s to recharge",
           "Movement Mode": "Ground"
         }
       }
@@ -14256,7 +14260,7 @@
           "Casting": "Targeted",
           "Special Effect": "Healing Flower provides two types of healing effects: One-time Healing and Healing Over Time",
           "One-time Healing Amount": "60",
-          "Healing Over Time Amount": "10 + 2.5% of the target's maximum Health per second",
+          "Healing Over Time Amount": "12 + 3% of the target's maximum Health per second",
           "Duration": "8s (16s maximum duration)",
           "Cooldown": "Consume 1 Life Orb"
         },
@@ -14428,10 +14432,10 @@
         "key": "Right Click",
         "stats": {
           "Key": "Right Click",
-          "Healing Flower Healing Amount": "12+Target's 3% Maximum Health/s",
+          "Healing Flower Healing Amount": "10+Target's 3% Maximum Health/s",
           "Spread Spell Field Range": "8m radius",
           "Spread Healing": "7.5+Targe's 1.75% Maximum Health/s",
-          "Enhanced Heal Bonus Healing": "15+Target's 3.5% Maximum Health/s",
+          "Enhanced Heal Bonus Healing": "10+Target's 3.5% Maximum Health/s",
           "Spread Spell Field One-time Healing": "10, 15 when enhanced",
           "Special effect": "When Star-Lord is selected as her Team-Up partner, enhance the healing output of Healing Flower from 10 + 2.5% of target's max Health/s to 15 + 3% of target's max Health/s"
         },
@@ -14481,8 +14485,7 @@
         "stats": {
           "Key": "Passive",
           "Cooldown": "90",
-          "Area of Effect Healing": "5/s",
-          "Nature's Favor Bonus Healing Amount": "5/s",
+          "Area of Effect Healing": "30/s",
           "Special effect": "When Adam Warlock is selected as her Team-Up partner, the Nature's Favor passive effect is enhanced. After casting Natural Anger (and ONLY while Natural Anger is active), increase her self-healing from 12.5/s to 17.5/s"
         },
         "description_trans": {
@@ -15169,11 +15172,9 @@
         "key": "C",
         "stats": {
           "Key": "C",
-          "Cooldown": "20s",
-          "Ability Duration": "10s",
-          "Brawling Punch Damage": "55, 100 when fully charged",
-          "Time to Full Charge": "1s",
-          "Max Hold Time": "1s",
+          "Brawling Punch Damage": "65, 100 when fully charged",
+          "Time to Full Charge": "0.75s",
+          "Max Hold Time": "0.75s",
           "Bonus Health Conversion Rate from Damage": "0.75",
           "Max Bonus Health": "75"
         },
@@ -15262,7 +15263,7 @@
         "stats": {
           "Key": "Left Click",
           "Casting": "Projectile with an arced trajectory",
-          "Damage": "75",
+          "Damage": "80",
           "Projectile Speed": "150 m/s",
           "Fire Rate": "1.09 rounds per second",
           "Ammo": "Infinite",
@@ -15438,9 +15439,9 @@
         "key": "C",
         "stats": {
           "Key": "C",
-          "Cooldown": "30",
+          "Cooldown": "25",
           "Gamma Monstro Attack Interval": "0.1s per use",
-          "Gamma Monstro Attack Damage": "5 per hit",
+          "Gamma Monstro Attack Damage": "5.5 per hit",
           "Gamma Monstro Damage Growth Rate over Time": "10% per second",
           "Gamma Monstro Health": "150",
           "Gamma Monstro Frenzy Attack Damage": "3.5",
@@ -15496,7 +15497,8 @@
           "Cooldown": "15s",
           "Frost Tide Movement Speed": "17.5m/s",
           "Frost Tide Max Travel Time": "1s",
-          "Frost Tide Range": "6m wide, 3m tall"
+          "Frost Tide Range": "6m wide, 3m tall",
+          "Special Effect": "replace Namor's Monstro Spawn with Frozen Spawn. The Frozen Spawn attacks apply a 15% slow effect on hit, lasting 1s"
         },
         "description_trans": {
           "ko": "발목 날개를 퍼덕이며 공중으로 날아올라 삼지창을 투척합니다.",
@@ -15581,10 +15583,9 @@
           "Casting": "Rapid-fire, delayed projectile that is accompanied by a spell field",
           "Projectile Speed": "150m/s",
           "Range": "1.5m spherical radius",
-          "Fire Rate": "3.33 rounds per second",
+          "Fire Rate": "4 rounds per second",
           "Damage": "Projectile Damage: 15; Spell Field Damage: 15",
-          "Critical Hit": "Yes",
-          "Special Effect": "20% slowdown on release"
+          "Critical Hit": "Yes"
         },
         "description_trans": {
           "ko": "전방으로 사이버 거미줄 덩어리(Cyber-Web Cluster)를 발사합니다.",
@@ -15811,10 +15812,10 @@
         "key": "C",
         "stats": {
           "Key": "C",
-          "Cooldown": "20s",
+          "Cooldown": "15s",
           "Duration": "5s",
           "Barrier Health": "300",
-          "Attack Interval": "0.2s per shot"
+          "Attack Interval": "0.18s per shot"
         },
         "description_trans": {
           "ko": "SP//dr 로봇 슈트의 거미줄 지뢰 설치 속도가 증가합니다.",
@@ -16275,8 +16276,8 @@
           "Cooldown": "8s",
           "Special Mechanic": "When the projectile is recalled, it will move 20s toward the crosshair before returning to Psylocke",
           "Firing Phase": "",
-          "Damage": "9 per hit",
-          "Projectile Speed": "120 m/s",
+          "Damage": "10 per hit",
+          "Projectile Speed": "150 m/s",
           "Spread Angle": "0.86°",
           "Maximum Distance": "25m",
           "Damage Falloff": "Falloff begins at 15m, decreasing to 80% at 25m",
@@ -16853,7 +16854,7 @@
     "avatar": "https://r.res.easebar.com/pic/20251212/f6f6bb5a-a093-467a-9e1b-a34915911967.png",
     "full_img": "https://r.res.easebar.com/pic/20251212/f443e1cb-5605-4c4e-8d29-24078699d479.png",
     "base_stats": {
-      "Health": "350+250 Regenerative Shield",
+      "Health": "350+275 Regenerative Shield",
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
@@ -16862,7 +16863,7 @@
         "name": "ROGUE",
         "avatar": "",
         "stats": {
-          "Health": "350+250 Regenerative Shield",
+          "Health": "350+275 Regenerative Shield",
           "Movement Speed": "6 m/s",
           "Movement Mode": "Ground"
         }
@@ -16932,8 +16933,8 @@
           "Key": "Right Click",
           "Damage Reduction": "60%",
           "Maximum Energy": "100",
-          "Energy Recovery Speed": "15/s",
-          "Energy Consumption": "50/s",
+          "Energy Recovery Speed": "25/s",
+          "Energy Consumption": "60/s",
           "Energy Required to Activate the Ability": "30",
           "Special Effect": "The reduced damage transforms into backlash energy that powers up the next Southern Brawl.",
           "Reduced Damage-Backlash Energy Conversion Ratio": "0.55",
@@ -17045,7 +17046,7 @@
           "Absorption Damage Over Time": "30/s",
           "Absorption Healing Over Time": "60/s",
           "Absorbed Ability Duration": "10s",
-          "Boost from Vanguard Ability Absorption": "125 Maximum Health",
+          "Boost from Vanguard Ability Absorption": "150 Maximum Health",
           "Debuff to the Vanguard Absorption Target": "Reduce 20 Maximum Health",
           "Boost from Duelist Ability Absorption": "20% Damage Boost",
           "Debuff to the Duelist Absorption Target": "Reduce 3% damage dealt",
@@ -17229,7 +17230,7 @@
         },
         "name": "Chaos Control",
         "icon": "https://r.res.easebar.com/pic/20241120/9df1d11b-6486-4f0e-83a8-b7e5dca461b6.png",
-        "description": "Unleash Chaos Magic on enemies to deal damage and restore Chaos Energy",
+        "description": "Unleash Chaos Magic on enemies to deal damage and restore Chaos Energy. Concurrently damages any enemies within range bearing a Chaos Magic mark",
         "stats": {
           "Key": "Left Click",
           "Casting": "Cylindrical Spell Field",
@@ -17241,11 +17242,12 @@
           "Ammo": "Infinite",
           "Critical Hit": "No",
           "Special Effect 1": "Attack the nearest enemy within range",
-          "Special Effect 2": "Hitting with Chaos Control charges Chthonian Burst"
+          "Special Effect 2": "Hitting with Chaos Control charges Chthonian Burst",
+          "Marked Enemy Pull-In Range": "120° cone"
         },
         "description_trans": {
-          "ko": "혼돈 마법을 방출하여 적에게 피해를 입히고 Chaos Energy를 회복합니다.",
-          "ja": "カオスマジックを放って敵にダメージを与え、Chaos Energyを回復する。"
+          "ko": "혼돈 마법을 방출하여 적에게 피해를 입히고 Chaos Energy를 회복합니다. 동시에 범위 내 혼돈 마법 표식이 있는 모든 적에게 피해를 입힙니다.",
+          "ja": "カオスマジックを放って敵にダメージを与え、Chaos Energyを回復する。同時に範囲内のカオスマジックのマークが付与されたすべての敵にもダメージを与える。"
         }
       },
       {
@@ -17312,7 +17314,7 @@
         },
         "name": "Reality Erasure",
         "icon": "https://r.res.easebar.com/pic/20241120/9fe279e3-1ca1-4202-b925-4eaddc649f14.png",
-        "description": "Engage in free-flight while charging energy, then unleash it to deal massive damage",
+        "description": "Engage in free-flight while gaining Bonus Health and charging energy. While flying, continuously pull in nearby enemies and inflict Chaos Marks, dealing gradually increasing damage over time. Then, unleash the charged energy to deal massive area damage. Small chance to be immune to incoming damage from enemies within the ultimate's attack range",
         "stats": {
           "Key": "Q",
           "Casting": "Spherical Spell Field",
@@ -17322,11 +17324,13 @@
           "Slow Rate": "Begin to slow down by 1.5s, with the effect gradually increasing to -25% by 3.5s",
           "Bonus Health (Self)": "100",
           "Special Effect": "During this period, Scarlet Witch enters a Free-flight state, pulls in nearby enemies (within 15m radius) during cast charge. Max pull speed up to 3m/s",
-          "Energy Cost": "3400"
+          "Energy Cost": "3400",
+          "Damage Over Time": "50/s, increasing to 80/s over 4s",
+          "Affected Enemies' Attack Chance": "5%"
         },
         "description_trans": {
-          "ko": "자유 비행하며 에너지를 충전한 후, 이를 대폭발시켜 막대한 범위 피해를 입힙니다.",
-          "ja": "自由飛行しながらエネルギーをチャージし、解き放って壊滅的な大ダメージを与える。"
+          "ko": "자유 비행하며 추가 체력을 얻고 에너지를 충전합니다. 비행 중에는 주변 적들을 지속적으로 끌어당겨 혼돈 표식을 부여하고 점차 증가하는 지속 피해를 입힙니다. 그 후 충전된 에너지를 폭발시켜 막대한 범위 피해를 입힙니다. 궁극기 공격 범위 내의 적들로부터 받는 피해에 면역이 될 확률이 약간 있습니다.",
+          "ja": "自由飛行しながら追加体力を獲得しエネルギーをチャージする。飛行中は周囲の敵を引き寄せてカオスマークを付与し時間経過とともに増加する持続ダメージを与える。その後チャージしたエネルギーを解放して壊滅的な大範囲ダメージを与える。ULTの攻撃範囲内にいる敵から受けるダメージを無効化する確率がわずかにある。"
         }
       },
       {
@@ -17364,7 +17368,7 @@
         },
         "name": "Dark Seal",
         "icon": "https://r.res.easebar.com/pic/20241120/06d393d2-e8b7-443c-8e04-3696ecefac86.png",
-        "description": "Land a hit on a target or the scene, or press E to generate a Force Field that periodically Stuns enemies within range",
+        "description": "Land a hit on a target or the scene, or press {Ability1} again to generate a Force Field. The initial explosion Stuns enemies within range, while continuing to apply a Slow effect for the remaining duration. Continuously inflicts Chaos Marks on enemies within range",
         "stats": {
           "Key": "E",
           "Casting": "Straight-line projectile that generates a spell field upon impact",
@@ -17374,11 +17378,35 @@
           "Spell Field Duration": "4.5s",
           "Detection Interval": "1.25s",
           "Stun Duration Per Detection": "0.5s",
-          "Cooldown": "12s"
+          "Cooldown": "12s",
+          "Damage": "20/s",
+          "Slow Rate": "30%"
         },
         "description_trans": {
-          "ko": "대상이나 지형에 적중하거나 E를 눌러 결계를 형성하며, 범위 내 적들을 주기적으로 기절시킵니다.",
-          "ja": "標的や地形に命中させるかEキーを押して結界を生成し、範囲内の敵を周期的にスタンさせる。"
+          "ko": "대상이나 지형에 적중하거나 {Ability1} 키를 다시 눌러 결계를 형성합니다. 초기 폭발은 범위 내 적들을 기절시키며, 남은 지속 시간 동안 감속 효과를 지속적으로 적용합니다. 범위 내 적들에게 지속적으로 혼돈 표식을 부여합니다.",
+          "ja": "標的や地形に命中させるか、{Ability1}キーをもう一度押して結界を生成する。初期爆発で範囲内の敵をスタンさせ、残りの持続時間中はスロウ効果を与え続ける。範囲内の敵にカオスマークを継続的に付与する。"
+        }
+      },
+      {
+        "type": 2,
+        "form_index": 0,
+        "key": "F",
+        "key_trans": {
+          "ko": "F",
+          "ja": "F"
+        },
+        "name": "SCARLET HEX",
+        "icon": "https://r.res.easebar.com/pic/20260914/55bc9760-2d1b-43b7-85d3-c72e89e2c2c0.png",
+        "description": "Unleash a shockwave of Chaos Magic forward, dealing damage and applying a Chaos Magic mark to enemies",
+        "stats": {
+          "Key": "F",
+          "CD": "10s",
+          "Spell Field Range": "4m-radius, 20m-long cylindrical field",
+          "Damage": "40"
+        },
+        "description_trans": {
+          "ko": "전방으로 혼돈 마법의 충격파를 방출하여 적에게 피해를 입히고 혼돈 마법 표식을 부여합니다.",
+          "ja": "前方へカオスマジックの衝撃波を放ち、敵にダメージを与えてカオスマジックのマークを付与する。"
         }
       },
       {
@@ -17400,6 +17428,26 @@
         "description_trans": {
           "ko": "스페이스 키를 길게 눌러 천천히 활강 강하합니다.",
           "ja": "スペース長押しでゆっくりと滑空降下する。"
+        }
+      },
+      {
+        "type": 2,
+        "form_index": 0,
+        "key": "Passive",
+        "key_trans": {
+          "ko": "패시브",
+          "ja": "パッシブ"
+        },
+        "name": "CHAOS MARK",
+        "icon": "https://r.res.easebar.com/pic/20260914/b4c8a3c8-f03e-46fc-8a78-a4d105dc57be.png",
+        "description": "While the mark is active, using Chaos Control deals damage to marked enemies. Dealing damage to enemies with a Chaos Mark grants Bonus Health",
+        "stats": {
+          "Key": "Passive",
+          "Damage/Health Conversion": "25%"
+        },
+        "description_trans": {
+          "ko": "표식이 활성화되어 있는 동안 Chaos Control을 사용하면 표식이 남겨진 적들에게 피해를 입힙니다. 혼돈 표식을 가진 적에게 피해를 입히면 추가 체력을 얻습니다.",
+          "ja": "マークが有効な間、Chaos Controlを使用するとマークされた敵にダメージを与える。カオスマークを持つ敵にダメージを与えると追加体力を獲得する。"
         }
       }
     ],
@@ -17699,7 +17747,7 @@
           "Damage": "70",
           "Charges": "2",
           "Recharge Speed": "6s per charge",
-          "Cooldown": "2s"
+          "Cooldown": "1s"
         },
         "description_trans": {
           "ko": "적을 공중으로 띄워 올리며, Spider-Tracer가 부착된 적에게 추가 피해를 입힙니다.",
@@ -17888,7 +17936,7 @@
         "key": "C",
         "stats": {
           "Key": "C",
-          "Cooldown": "15s",
+          "Cooldown": "10s",
           "Sticky Spider-Bomb Explosion Damage": "50",
           "Bonus Health": "50",
           "Explosion Countdown": "2s"
@@ -18231,7 +18279,7 @@
     "avatar": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/d16.png",
     "full_img": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_16.png",
     "base_stats": {
-      "Health": "150+100 Regenerative Shield",
+      "Health": "150+125 Regenerative Shield",
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
@@ -18240,7 +18288,7 @@
         "name": "STAR-LORD",
         "avatar": "",
         "stats": {
-          "Health": "150+100 Regenerative Shield",
+          "Health": "150+125 Regenerative Shield",
           "Movement Speed": "6 m/s",
           "Movement Mode": "Ground"
         }
@@ -18262,7 +18310,7 @@
           "Key": "Left Click",
           "Casting": "Rapid-fire shots with spread.",
           "Damage": "6.5 damage per round",
-          "Damage Falloff": "Falloff begins at 10m, decreasing to 50% at 25m",
+          "Damage Falloff": "Falloff begins at 10m, decreasing to 60% at 25m",
           "Crosshair Spread Radius (at 10m)": "After 2 consecutive shots, the spread increases to 0.15m; after 5 consecutive shots, the spread expands to 0.24m",
           "Fire Rate": "40 rounds per second",
           "Ammo": "50",
@@ -18342,7 +18390,7 @@
           "Movement Boost": "100%",
           "Maximum Energy": "1800",
           "Energy Cost": "300/s",
-          "Energy Recovery Speed": "100/s"
+          "Energy Recovery Speed": "120/s"
         },
         "description_trans": {
           "ko": "에너지를 소모하여 비행 속도를 가속하고 전방으로 날아갑니다.",
@@ -18366,7 +18414,7 @@
           "Duration": "3s",
           "Range": "8m spherical radius",
           "Attack Interval": "0.1 per hit",
-          "Damage": "7.5 damage per hit",
+          "Damage": "8 damage per hit",
           "Damage Falloff": "Falloff begins at 4m, decreasing to 80% at 8m",
           "Cooldown": "8s"
         },
@@ -19221,7 +19269,7 @@
     "avatar": "https://r.res.easebar.com/pic/20250220/657d8eca-6d1f-4ad9-8c9a-99e1afac2a25.png",
     "full_img": "https://r.res.easebar.com/pic/20250220/48b05dd6-4ddf-431a-b517-ff7634940528.png",
     "base_stats": {
-      "Health": "750",
+      "Health": "725",
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
@@ -19230,7 +19278,7 @@
         "name": "THE THING",
         "avatar": "",
         "stats": {
-          "Health": "750",
+          "Health": "725",
           "Movement Speed": "6 m/s",
           "Movement Mode": "Ground"
         }
@@ -19274,7 +19322,7 @@
         "stats": {
           "Key": "Right Click",
           "Casting": "Single-cast Spell Field",
-          "Damage": "55+10% of enemies' max Health per hit",
+          "Damage": "55+8% of enemies' max Health per hit",
           "Attack Range": "8m",
           "Special Effect": "Move forward 3 meters while punching; gain Bonus Health equal to damage dealt (up to 150); once hit, this ability can knock down flying enemies to the ground"
         },
@@ -19323,7 +19371,7 @@
           "Duration": "5s",
           "Damage": "Charge: 30; ground slam: 20; immobilization zone: 15 per/s",
           "Spell Field Range": "Ground slam: 8m radius, 2.5m high cylindrical spell field. Immobilization zone: 8m radius, 4m high cylindrical spell field",
-          "Cooldown": "10s",
+          "Cooldown": "12s",
           "Special Effect": "Gain 200 Bonus Health during skill activation"
         },
         "description_trans": {
@@ -19491,10 +19539,10 @@
         "key": "C",
         "stats": {
           "Key": "C",
-          "Cooldown": "15s",
+          "Cooldown": "18s",
           "Rock Jab Max Attack Range": "6m",
           "Stone Haymaker Max Attack Range": "9.5m",
-          "Ability Duration": "10s",
+          "Ability Duration": "8s",
           "Special Effect": "Increases the cast speed of Rock Jab and Stone Haymaker"
         },
         "description_trans": {
@@ -19949,7 +19997,7 @@
     "avatar": "https://r.res.easebar.com/pic/20260807/5e1cf89e-44c5-4574-9882-5a418aaf6971.png",
     "full_img": "https://r.res.easebar.com/pic/20260807/4986acc8-2650-439e-984e-3946c2698c7c.png",
     "base_stats": {
-      "Health": "600",
+      "Health": "550",
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
@@ -19958,7 +20006,7 @@
         "name": "The Hood",
         "avatar": "",
         "stats": {
-          "Health": "600",
+          "Health": "550",
           "Movement Speed": "6 m/s",
           "Movement Mode": "Ground"
         }
@@ -20003,7 +20051,7 @@
         "description": "Enter Half-Demon State, transforming your arms into demonic rifles to unleash a rain of lead. These rifles have increased Attack Speed and Infinite Ammo. Every bullet that strikes an enemy triggers Lifesteal",
         "stats": {
           "Key": "Left Click",
-          "Shooting Damage": "4 per round",
+          "Shooting Damage": "3.5 per round",
           "Shooting Interval": "0.05s",
           "Lifesteal Ratio": "10%",
           "Leaded Transformation Damage/Bonus Health Conversion": "40%, Max100",
@@ -20028,7 +20076,7 @@
         "description": "Spread your cloak to form a spherical barrier, blocking incoming enemy attacks. When Demonic Energy exceeds 50%, the radius of the sphere expands further.",
         "stats": {
           "Key": "Right Click",
-          "Cooldown": "10",
+          "Cooldown": "12",
           "Max Duration": "1s",
           "Sphere Radius": "2m",
           "Sphere Radius after Demonic Energy exceeds 50%": "3m"
@@ -20057,7 +20105,7 @@
           "First 5 Rounds Damage": "90 + 10% of Target's Max Health",
           "Final Round Damage": "140 + 15% of Target's Max Health",
           "Bonus Health Per Firing": "50",
-          "Damage/Bonus Health Conversion": "60%",
+          "Damage/Bonus Health Conversion": "50%",
           "Bonus Health Range": "8m radius",
           "Max Bonus Health": "200"
         },
@@ -20106,7 +20154,7 @@
           "Cooldown": "10s",
           "Summon Duration": "6s",
           "Veil Size": "Width: 8m, Height: 3.5m.",
-          "Damage Reduction": "35%",
+          "Damage Reduction": "20%",
           "Healing Reduction": "20%",
           "Leaded Transformation Lifesteal Ratio": "10%",
           "Energy Gain Increased Per Accursed Pistols Hit": "0.75",
@@ -20240,7 +20288,7 @@
         "stats": {
           "Key": "E",
           "Summons' Health": "300",
-          "Max Bounce Distance": "3m",
+          "Max Bounce Distance": "6m",
           "Max Number of Bounces": "3",
           "Damage Falloff Per Bounce": "50%"
         },
@@ -20325,13 +20373,15 @@
         "stats": {
           "Key": "Right Click",
           "Casting": "Instant Cast",
-          "Bonus Health to Ultron": "65",
-          "Bonus Health to allies near Ultron and the drones": "50",
+          "Bonus Health to Ultron": "40",
+          "Bonus Health to allies near Ultron and the drones": "40",
           "Cooldown": "12s",
           "Range": "8m spherical radius spell field",
           "Bonus Health Falloff Begins at": "3s",
           "Bonus Health Falloff Speed": "40/s",
-          "Special Effect": "Grant bonus health to Ultron and Allies within range, centered around Ultron and the drones; the selected ally gains a 20% Movement Speed and 10% Damage boost"
+          "Special Effect": "Grant bonus health to Ultron and Allies within range, centered around Ultron and the drones; the selected ally gains a 20% Movement Speed and 10% Damage boost",
+          "Self Healing Amount": "20 per second",
+          "Self Healing Duration": "3s"
         },
         "description_trans": {
           "ko": "표식된 아군에게 드론을 파견해 이동 속도와 공격력을 높이고, 자신과 대상 주변 아군에게 추가 체력을 부여합니다.",
@@ -21045,10 +21095,10 @@
           "Casting": "Projectile that fires in a straight trajectory",
           "Projectile Speed": "100 m/s",
           "Damage": "55",
-          "Slow Rate": "-35%",
+          "Slow Rate": "-25%",
           "Slow Duration": "2s",
           "Special Mechanic": "Projectiles pierce through enemies",
-          "Cooldown": "5s"
+          "Cooldown": "6s"
         },
         "description_trans": {
           "ko": "기계 팔에 고압 전류를 충전하여 전방으로 강력한 전격 펀치를 날립니다. 적을 감속시키며 비행 중인 영웅을 지면으로 격추합니다.",
@@ -21194,7 +21244,7 @@
         "key": "Passive",
         "stats": {
           "Key": "Passive",
-          "Bonus Health": "70"
+          "Bonus Health": "55"
         },
         "description_trans": {
           "ko": "호크아이와 함께 플레이 시, 호크아이의 정찰 센서와 연동되어 연막 뒤의 적을 완전 조준 사격합니다.",
@@ -21264,7 +21314,7 @@
           "Bounce Projectile Speed": "80m/s",
           "Maximum Distance": "35m",
           "Bounce Projectile Max Distance": "6m",
-          "Healing Amount": "Direct hit: 50 per round; bounce hit: 35 per round",
+          "Healing Amount": "Direct hit: 55 per round; bounce hit: 40 per round",
           "Damage": "Direct hit: 40 per round; bounce hit: 25 per round",
           "Fire Rate": "0.45s per round"
         },
@@ -21624,7 +21674,7 @@
               "Bounce Projectile Speed": "80m/s",
               "Maximum Distance": "35m",
               "Bounce Projectile Max Distance": "6m",
-              "Healing Amount": "Direct hit: 50 per round; bounce hit: 35 per round",
+              "Healing Amount": "Direct hit: 55 per round; bounce hit: 40 per round",
               "Damage": "Direct hit: 40 per round; bounce hit: 25 per round",
               "Fire Rate": "0.45s per round"
             },
@@ -21970,8 +22020,8 @@
         "stats": {
           "Key": "Left Click",
           "Casting": "Melee",
-          "Base Damage": "15 damage per strike",
-          "Percentage Damage": "Deal damage equal to 1.5% of the target's Max Health, with an extra 0.057% damage for each point of Rage",
+          "Base Damage": "18 damage per strike",
+          "Percentage Damage": "Deal damage equal to 1.5% of the target's Max Health, with an extra 0.062% damage for each point of Rage",
           "Maximum Distance": "3.5m",
           "Attack Interval": "The first three strikes have an interval of 0.27s between them, while the fourth strike has a 0.84s interval from the third strike"
         },
@@ -22153,7 +22203,7 @@
         "description": "Begin to heal and rise with a hefty Bonus Health, shaking off all debuffs. After a brief moment, any remaining Bonus Health morphs into a one-off heal, zeroing out his Rage. Assists in KOs reduce this cooldown",
         "stats": {
           "Key": "Passive",
-          "Bonus Health": "150 - 300 (Damage increases with Rage)",
+          "Bonus Health": "300",
           "Bonus Health Duration": "3s",
           "Bonus Health/Healing Conversion": "1",
           "Cooldown Reduction Per KO Engaged": "10s",
@@ -22213,7 +22263,7 @@
           "Ability Duration": "8s",
           "Attack Range Increase": "1m",
           "Kinetic Claws Cooldown": "3s",
-          "Kinetic Claws Damage": "5 + 0.01% of Max Health as damage per Rage point",
+          "Kinetic Claws Damage": "5 + 0.012% of Max Health as damage per Rage point",
           "Kinetic Claws Duration": "1s"
         },
         "description_trans": {

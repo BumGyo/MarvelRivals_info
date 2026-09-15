@@ -30,35 +30,35 @@ jobs:
           node-version: '20'
 
       # 1. 공식 홈페이지에서 최신 영웅 및 스킬 수치 데이터 크롤링
-      # 신규 영웅/스킬은 KO와 JA에도 일단 영문명으로 자동 반영
       - name: Fetch Official NetEase Data
         run: python scripts/sync_heroes.py
 
-      # 1.5. 다국어 마스터 번역 데이터 통합 빌드
+      # 2. 데드풀 3개 역할 분리, 스펙 라벨 자동 감지/등록, 영웅 카운트 동기화
+      - name: Post-process Custom Logic, Hero Count & Auto-Register Stats
+        run: node scripts/post_process.js
+
+      # 3. 다국어 마스터 번역 데이터 통합 빌드 (신규 등록된 스펙 포함)
       - name: Build Unified Translations
         run: python scripts/build_unified_translations.py
 
-      # 2. 데드풀 3개 역할 분리, 별(⭐) 토글 스킬 통합 및 영웅 카운트 동기화
-      - name: Post-process Custom Logic & Hero Count
-        run: node scripts/post_process.js
-
-      # 2.5. 다국어(KR/JP) 번역 및 데이터 무결성 검증
+      # 4. 다국어(KR/JP) 번역 및 데이터 무결성 검증 (신규 라벨은 경고로 처리하여 무중단 배포 보장)
       - name: Validate Translations & Data Integrity
         run: node scripts/validate_translations.js
 
-      # 3. 변경 사항 감지 및 자동 커밋 & 푸시
+      # 5. 변경 사항 감지 및 자동 커밋 & 푸시
       - name: Commit and Push if Changes Detected
         run: |
           git config --global user.name "MarvelRivals-SyncBot"
           git config --global user.email "sync-bot@marvelrivals.local"
 
-          git add data/heroes.json data/translations.json data/translations/ index.html scripts/sync_heroes.py
+          git add data/heroes.json data/translations.json data/translations/ index.html scripts/
 
           if git diff --staged --quiet; then
             echo "✅ 최신 상태입니다. (새로운 패치 또는 변경사항 없음)"
           else
             echo "🚀 공식 홈페이지의 새로운 패치/영웅 업데이트가 감지되었습니다! 자동 커밋 및 배포를 진행합니다."
             git commit -m "Auto-sync: Marvel Rivals official patch update & hero stats sync"
-            git push
+            git pull --rebase origin main
+            git push origin main
             echo "🎉 배포 성공!"
           fi

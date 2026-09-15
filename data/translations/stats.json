@@ -4347,6 +4347,22 @@
     "Summon Damage/Health Conversion": {
       "ko": "소환물 피해 체력 전환율",
       "ja": "召喚物ダメージHP変換率"
+    },
+    "Fortune Gained per Hit (FELINE ALLIANCE)": {
+      "ko": "타격당 행운 획득 (FELINE ALLIANCE)",
+      "ja": "命中ごとの幸運獲得量 (FELINE ALLIANCE)"
+    },
+    "Marked Enemy Pull-In Range": {
+      "ko": "표식 대상 적 끌어당김 범위",
+      "ja": "マークされた敵の引き寄せ範囲"
+    },
+    "Affected Enemies' Attack Chance": {
+      "ko": "영향을 받는 적의 공격 확률",
+      "ja": "影響を受けた敵の攻撃確率"
+    },
+    "CD": {
+      "ko": "재사용 대기시간",
+      "ja": "クールダウン"
     }
   },
   "values": {
@@ -6833,6 +6849,26 @@
     "Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts.": {
       "ko": "전투에서 경험치를 축적합니다. 최대 도달 시 스킬을 선택하여 강력한 부스트로 업그레이드합니다.",
       "ja": "戦闘でXPを蓄積。最大到達時、アビリティを選択して強力な強化にアップグレードします。"
+    },
+    "grants 50% Damage Reduction and Unstoppable while casting Phantom Pursuit": {
+      "ko": "Phantom Pursuit 시전 중 50% 피해 감소 및 저지 불가 상태 부여",
+      "ja": "Phantom Pursuit発動中、被ダメージが50%軽減され妨害無効状態を獲得"
+    },
+    "120° cone": {
+      "ko": "120° 원뿔형",
+      "ja": "120°円錐形"
+    },
+    "50/s, increasing to 80/s over 4s": {
+      "ko": "초당 50, 4초에 걸쳐 초당 80까지 증가",
+      "ja": "毎秒50、4秒かけて毎秒80まで増加"
+    },
+    "replace Namor's Monstro Spawn with Frozen Spawn. The Frozen Spawn attacks apply a 15% slow effect on hit, lasting 1s": {
+      "ko": "Namor의 Monstro Spawn을 Frozen Spawn으로 교체합니다. Frozen Spawn의 공격은 적중 시 1초 동안 15% 감속 효과를 적용합니다.",
+      "ja": "NamorのMonstro SpawnをFrozen Spawnに置き換える。Frozen Spawnの攻撃が命中すると、1秒間15%のスロウ効果を付与する。"
+    },
+    "Ironwood Wall heals 50 Bonus Health per second, up to 250 Bonus Health; gain Unstoppable status when within 15m of Awakened Ironwood Walls": {
+      "ko": "Ironwood Wall이 초당 50의 추가 체력을 회복(최대 250); 각성한 Ironwood Wall 15m 이내에 있을 때 저지 불가 상태 획득",
+      "ja": "Ironwood Wallが毎秒50の追加体力を回復(最大250)。覚醒したIronwood Wallから15m以内にいるとき妨害無効状態を獲得"
     }
   },
   "patterns": [

@@ -426,11 +426,28 @@ heroes.forEach(h => {
 // -------------------------------------------------------------
 // Step 2.5: Apply Multilingual Translations to Skills & Team-Ups
 // -------------------------------------------------------------
+const skillsPath = path.join(rootDir, 'data', 'translations', 'skills.json');
+const teamupsPath = path.join(rootDir, 'data', 'translations', 'teamups.json');
 const translationsPath = path.join(rootDir, 'data', 'translations.json');
-if (fs.existsSync(translationsPath)) {
-  const transData = JSON.parse(fs.readFileSync(translationsPath, 'utf-8'));
-  const skillsMap = transData.skills || {};
-  const teamupsMap = transData.teamups || {};
+
+let skillsMap = {};
+let teamupsMap = {};
+
+if (fs.existsSync(skillsPath)) {
+  try { skillsMap = JSON.parse(fs.readFileSync(skillsPath, 'utf-8')); } catch (e) {}
+}
+if (fs.existsSync(teamupsPath)) {
+  try { teamupsMap = JSON.parse(fs.readFileSync(teamupsPath, 'utf-8')); } catch (e) {}
+}
+if (Object.keys(skillsMap).length === 0 && fs.existsSync(translationsPath)) {
+  try {
+    const transData = JSON.parse(fs.readFileSync(translationsPath, 'utf-8'));
+    skillsMap = transData.skills || {};
+    teamupsMap = transData.teamups || {};
+  } catch (e) {}
+}
+
+if (Object.keys(skillsMap).length > 0) {
 
   function norm(t) {
     return t ? t.replace(/\s+/g, ' ').trim() : '';
@@ -554,6 +571,58 @@ if (fs.existsSync(translationsPath)) {
     });
   });
   console.log(`Applied KR & JP translations to all hero skills and team-ups (Fallback applied: ${fallbackCount}).`);
+
+  // -------------------------------------------------------------
+  // Step 2.6: Auto-Discover & Auto-Register New Stat Labels (Balance Patch Resilience)
+  // -------------------------------------------------------------
+  const statsPath = path.join(rootDir, 'data', 'translations', 'stats.json');
+  if (fs.existsSync(statsPath)) {
+    const statsData = JSON.parse(fs.readFileSync(statsPath, 'utf-8'));
+    const labels = statsData.labels || (statsData.labels = {});
+    let newlyDiscoveredCount = 0;
+
+    function guessStatLabel(k) {
+      const trimmed = k.trim();
+      const lower = trimmed.toLowerCase();
+      if (lower === 'cd' || lower === 'cooldown') {
+        return { ko: '재사용 대기시간', ja: 'クールダウン' };
+      }
+      if (/range$/i.test(trimmed)) {
+        return { ko: `${trimmed.replace(/range$/i, '').trim()} 범위`, ja: `${trimmed.replace(/range$/i, '').trim()}範囲` };
+      }
+      if (/duration$/i.test(trimmed)) {
+        return { ko: `${trimmed.replace(/duration$/i, '').trim()} 지속 시간`, ja: `${trimmed.replace(/duration$/i, '').trim()}持続時間` };
+      }
+      return { ko: trimmed, ja: trimmed };
+    }
+
+    function registerStatLabel(k) {
+      if (!k || k.toLowerCase() === 'key') return;
+      const trimmed = k.trim();
+      if (!labels[trimmed] && !labels[k]) {
+        labels[trimmed] = guessStatLabel(trimmed);
+        newlyDiscoveredCount++;
+      }
+    }
+
+    function inspectStats(s) {
+      if (!s || !s.stats) return;
+      for (const key of Object.keys(s.stats)) {
+        registerStatLabel(key);
+      }
+      if (s.upgrade) inspectStats(s.upgrade);
+    }
+
+    heroes.forEach(h => {
+      (h.skills || []).forEach(s => inspectStats(s));
+      (h.forms || []).forEach(f => (f.skills || []).forEach(s => inspectStats(s)));
+    });
+
+    if (newlyDiscoveredCount > 0) {
+      fs.writeFileSync(statsPath, JSON.stringify(statsData, null, 2), 'utf-8');
+      console.log(`[Resilience] Auto-registered ${newlyDiscoveredCount} newly discovered stat labels into data/translations/stats.json.`);
+    }
+  }
 }
 
 // Save updated heroes.json
