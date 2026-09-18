@@ -7198,9 +7198,9 @@
         "description": "Base Effect: Deals damage to the summoned Soul Crystal, which can be converted into Bonus Healthfor yourself.\n\t\t\tEnhanced Effect: When Emma Frost teams up with Mantis, shattering the Soul Crystalgrants a one-time Bonus Healthand reduces the cooldown of Mind Control.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/09f4b65b-0132-4903-ba04-3ffdcca4f8c9.png",
         "partner_name": {
-          "en": "MANTIS",
-          "ko": "맨티스",
-          "ja": "マンティス"
+          "en": "",
+          "ko": "",
+          "ja": ""
         },
         "key": "E",
         "stats": {
@@ -7221,9 +7221,9 @@
         "description": "Base Effect: Deals damage to the summoned Soul Crystal, which can be converted into Bonus Healthfor yourself.\n\t\t\tEnhanced Effect: When Emma Frost teams up with Mantis, shattering the Soul Crystalgrants a one-time Bonus Healthand reduces the cooldown of Mind Control.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/09f4b65b-0132-4903-ba04-3ffdcca4f8c9.png",
         "partner_name": {
-          "en": "MANTIS",
-          "ko": "맨티스",
-          "ja": "マンティス"
+          "en": "",
+          "ko": "",
+          "ja": ""
         },
         "key": "E",
         "stats": {
@@ -7245,9 +7245,9 @@
         "description": "Base Effect: Emma Frost releases winter energy forward, dealing damage and Slowto enemies. She can also enhance her diamond form, condensing frost in front of her to form Zero Diamondthat blocks enemy attacks and movement.\n\t\t\tEnhanced Effect: When Emma Frost teams up with Luna Snow, after activating Diamond Form, all ability damage applies Slow, and Soul Wavealso applies Slow.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/9f15c043-bf87-418d-9fc5-0d848b5c480a.png",
         "partner_name": {
-          "en": "LUNA SNOW",
-          "ko": "루나 스노우",
-          "ja": "ルナ・スノー"
+          "en": "",
+          "ko": "",
+          "ja": ""
         },
         "key": "C",
         "stats": {
@@ -7272,9 +7272,9 @@
         "description": "Base Effect: Emma Frost releases winter energy forward, dealing damage and Slowto enemies. She can also enhance her diamond form, condensing frost in front of her to form Zero Diamondthat blocks enemy attacks and movement.\n\t\t\tEnhanced Effect: When Emma Frost teams up with Luna Snow, after activating Diamond Form, all ability damage applies Slow, and Soul Wavealso applies Slow.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/9f15c043-bf87-418d-9fc5-0d848b5c480a.png",
         "partner_name": {
-          "en": "LUNA SNOW",
-          "ko": "루나 스노우",
-          "ja": "ルナ・スノー"
+          "en": "",
+          "ko": "",
+          "ja": ""
         },
         "key": "Passive",
         "stats": {
@@ -10805,9 +10805,9 @@
         "description": "Base Effect: Unleash a powerful uppercut to Launch Up enemies.\n\t\t\tEnhanced Effect: When teaming up The Thing, unleashing the uppercut can be chained directly into a sweeping leg sweep for a follow-up attack.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/5919c9b7-0bcc-432c-ad94-e8e3e9680899.png",
         "partner_name": {
-          "en": "THE THING",
-          "ko": "더 씽",
-          "ja": "ザ・シング"
+          "en": "",
+          "ko": "",
+          "ja": ""
         },
         "key": "C",
         "stats": {
@@ -10830,9 +10830,9 @@
         "description": "Base Effect: Unleash a powerful uppercut to Launch Up enemies.\n\t\t\tEnhanced Effect: When teaming up The Thing, unleashing the uppercut can be chained directly into a sweeping leg sweep for a follow-up attack.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/5919c9b7-0bcc-432c-ad94-e8e3e9680899.png",
         "partner_name": {
-          "en": "THE THING",
-          "ko": "더 씽",
-          "ja": "ザ・シング"
+          "en": "",
+          "ko": "",
+          "ja": ""
         },
         "key": "Left Click",
         "stats": {
@@ -10854,9 +10854,9 @@
         "description": "Base Effect: Hitting an enemy with Yat Jee Chung Kuen provides a burst of healing to nearby allies.\n\t\t\tEnhanced Effect: When teaming up White Fox, the lock-on distance for Yat Jee Chung Kuen is significantly increased.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/fe9081c1-2bcf-4188-9a5f-33bb2856283b.png",
         "partner_name": {
-          "en": "White Fox",
-          "ko": "화이트 폭스",
-          "ja": "ホワイト・フォックス"
+          "en": "",
+          "ko": "",
+          "ja": ""
         },
         "key": "Passive",
         "stats": {
@@ -10878,9 +10878,9 @@
         "description": "Base Effect: Hitting an enemy with Yat Jee Chung Kuen provides a burst of healing to nearby allies.\n\t\t\tEnhanced Effect: When teaming up White Fox, the lock-on distance for Yat Jee Chung Kuen is significantly increased.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/fe9081c1-2bcf-4188-9a5f-33bb2856283b.png",
         "partner_name": {
-          "en": "White Fox",
-          "ko": "화이트 폭스",
-          "ja": "ホワイト・フォックス"
+          "en": "",
+          "ko": "",
+          "ja": ""
         },
         "key": "Passive",
         "stats": {
@@ -11563,9 +11563,9 @@
         "description": "Base Effect: Generate a Flame Shield for a targeted ally that blocks incoming damage while providing a Continuous Healing aura to everyone nearby. Projectiles from teammates shot through the Flame Shield receive a Damage Boost. Enemies that pass though the shield are Slowed\n\t\t\tEnhanced Effect: When teaming up with Human Torch, the Flame Shield boasts a larger radius and heavily increased shield value.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/266857cb-f553-4792-be81-569366c3ac5f.png",
         "partner_name": {
-          "en": "HUMAN TORCH",
-          "ko": "휴먼 토치",
-          "ja": "ヒューマン・トーチ"
+          "en": "Human",
+          "ko": "Human",
+          "ja": "Human"
         },
         "key": "Right Click",
         "stats": {
@@ -11587,9 +11587,9 @@
         "description": "Base Effect: Generate a Flame Shield for a targeted ally that blocks incoming damage while providing a Continuous Healing aura to everyone nearby. Projectiles from teammates shot through the Flame Shield receive a Damage Boost. Enemies that pass though the shield are Slowed\n\t\t\tEnhanced Effect: When teaming up with Human Torch, the Flame Shield boasts a larger radius and heavily increased shield value.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/266857cb-f553-4792-be81-569366c3ac5f.png",
         "partner_name": {
-          "en": "HUMAN TORCH",
-          "ko": "휴먼 토치",
-          "ja": "ヒューマン・トーチ"
+          "en": "Human",
+          "ko": "Human",
+          "ja": "Human"
         },
         "key": "Right Click",
         "stats": {
@@ -19532,9 +19532,9 @@
         "description": "Base Effect: Enter an enhanced state upon activation. For the duration, The Thing's fists are violently engulfed in flames. Every Rocky Jab deals splash damage, and every Stone Haymaker creates an explosion, dealing damage in a frontal cone.\n\t\t\tEnhanced Effect: When teaming up with Human Torch, Human Torch can lift The Thing into the air and slam him down, dealing damage and Stun to enemies. The Thing then automatically enters his flaming enhanced state upon landing.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/266857cb-f553-4792-be81-569366c3ac5f.png",
         "partner_name": {
-          "en": "HUMAN TORCH",
-          "ko": "휴먼 토치",
-          "ja": "ヒューマン・トーチ"
+          "en": "Human",
+          "ko": "Human",
+          "ja": "Human"
         },
         "key": "C",
         "stats": {
@@ -19559,9 +19559,9 @@
         "description": "Base Effect: Enter an enhanced state upon activation. For the duration, The Thing's fists are violently engulfed in flames. Every Rocky Jab deals splash damage, and every Stone Haymaker creates an explosion, dealing damage in a frontal cone.\n\t\t\tEnhanced Effect: When teaming up with Human Torch, Human Torch can lift The Thing into the air and slam him down, dealing damage and Stun to enemies. The Thing then automatically enters his flaming enhanced state upon landing.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/266857cb-f553-4792-be81-569366c3ac5f.png",
         "partner_name": {
-          "en": "HUMAN TORCH",
-          "ko": "휴먼 토치",
-          "ja": "ヒューマン・トーチ"
+          "en": "Human",
+          "ko": "Human",
+          "ja": "Human"
         },
         "key": "X",
         "stats": {
@@ -19586,9 +19586,9 @@
         "description": "Base Effect: Generate a layer of Psionic Armor upon activation, granting Bonus Health scaling off currently missing Health.\n\t\t\tEnhanced Effect: When teaming up Invisible Woman, the Psionic Armor is fortified. While active, every time The Thing takes a set amount of damage, the armor pulses out a wave of area healing for allies. Furthermore, the conversion ratio for missing Health into Bonus Health is increased.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/4d51352d-c892-40ce-bed5-c5cc448ceb39.png",
         "partner_name": {
-          "en": "Invisible Woman",
-          "ko": "인비저블 우먼",
-          "ja": "インビジブル・ウーマン"
+          "en": "",
+          "ko": "",
+          "ja": ""
         },
         "key": "C",
         "stats": {
@@ -19613,9 +19613,9 @@
         "description": "Base Effect: Generate a layer of Psionic Armor upon activation, granting Bonus Health scaling off currently missing Health.\n\t\t\tEnhanced Effect: When teaming up Invisible Woman, the Psionic Armor is fortified. While active, every time The Thing takes a set amount of damage, the armor pulses out a wave of area healing for allies. Furthermore, the conversion ratio for missing Health into Bonus Health is increased.",
         "partner_avatar": "https://r.res.easebar.com/pic/20260707/4d51352d-c892-40ce-bed5-c5cc448ceb39.png",
         "partner_name": {
-          "en": "Invisible Woman",
-          "ko": "인비저블 우먼",
-          "ja": "インビジブル・ウーマン"
+          "en": "",
+          "ko": "",
+          "ja": ""
         },
         "key": "C",
         "stats": {
@@ -22100,8 +22100,8 @@
           "Smash Damage": "35",
           "Knockdown Duration": "0.75s",
           "Berserk Claw Strike Duration": "5s",
-          "Berserk Claw Strike Base Damage": "6 damage per strike",
-          "Berserk Claw Strike Percentage Damage": "Deal damage equal to 1% of the target's Max Health, with an extra 0.035% damage for each point of Rage",
+          "Berserk Claw Strike Base Damage": "8 damage per strike",
+          "Berserk Claw Strike Percentage Damage": "Deal damage equal to 1% of the target's Max Health, with an extra 0.025% damage for each point of Rage",
           "Berserk Claw Strike Maximum Distance": "3.5m",
           "Berserk Claw Strike Attack Interval": "5.88 strikes per second",
           "Cooldown": "12s"
