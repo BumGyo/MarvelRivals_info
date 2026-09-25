@@ -12099,7 +12099,7 @@
           "Damage": "11 per hit",
           "Healing": "15 per hit",
           "Energy": "48",
-          "Speed Boost: Fire Rate": "20 per second",
+          "Speed Boost: Fire Rate": "32 per second",
           "Speed Boost: Damage": "5 per hit",
           "Speed Boost: Healing": "6.5 per hit",
           "Damage Falloff": "Falloff begins at 10m, decreasing to 70% at 30m",
@@ -16002,7 +16002,7 @@
         "stats": {
           "Key": "Q",
           "Energy Cost": "3100",
-          "Explosion Damage": "140",
+          "Explosion Damage": "150",
           "Explosion Range": "10m spherical radius spell field",
           "Shockwave Damage": "50",
           "Summons' Health": "500",
@@ -17326,7 +17326,7 @@
           "Special Effect": "During this period, Scarlet Witch enters a Free-flight state, pulls in nearby enemies (within 15m radius) during cast charge. Max pull speed up to 3m/s",
           "Energy Cost": "3400",
           "Damage Over Time": "50/s, increasing to 80/s over 4s",
-          "Affected Enemies' Attack Chance": "5%"
+          "Affected Enemies' Attack Chance": "0.5%"
         },
         "description_trans": {
           "ko": "자유 비행하며 추가 체력을 얻고 에너지를 충전합니다. 비행 중에는 주변 적들을 지속적으로 끌어당겨 혼돈 표식을 부여하고 점차 증가하는 지속 피해를 입힙니다. 그 후 충전된 에너지를 폭발시켜 막대한 범위 피해를 입힙니다. 궁극기 공격 범위 내의 적들로부터 받는 피해에 면역이 될 확률이 약간 있습니다.",
