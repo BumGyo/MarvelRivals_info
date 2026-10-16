@@ -298,7 +298,7 @@
         "key": "Right Click",
         "stats": {
           "Key": "Right Click",
-          "Healing to Allies Hit by Cosmic Cluster": "16 damage per round",
+          "Healing to Allies Hit by Cosmic Cluster": "18 per round",
           "Quantum Magic Ammo Increase": "10"
         },
         "description_trans": {
@@ -324,7 +324,7 @@
           "Key": "Right Click",
           "Spell Field Range": "3m spherical radius",
           "Spell Field Damage": "5/shot",
-          "Spell Field Healing": "5/shot"
+          "Spell Field Healing": "7/shot"
         },
         "description_trans": {
           "ko": "울트론과 함께 플레이 시, 코스믹 클러스터가 착탄 시 추가 폭발을 일으킵니다.",
@@ -2235,6 +2235,7 @@
           "Cooldown": "12s",
           "Dash Duration": "0.15",
           "Max Dash Speed": "60 m/s",
+          "Dash Damage": "30",
           "Darkmoon Blade Damage": "40",
           "Darkmoon Blade Flight Speed": "150 m/s",
           "Darkmoon Blades Fired": "4",
@@ -3157,7 +3158,7 @@
         "name": "OBLIVION SHROUD",
         "icon": "https://r.res.easebar.com/pic/20260707/b557fdff-bff2-4e77-bf87-4b5d2fd58f33.png",
         "description": "Base Effect: Veil of Lightforce and Terror Cape are warped by hellfire energy, changing into Veil of Light and Veil of Darkness while retaining their original effects. After traveling a set distance, the veils halt in place. Enemy damage passing through the Veil of Light is weakened, while enemy healing passing through the Veil of Darkness suffers Healing Reduction.\n\t\t\tEnhanced Effect: When teaming up with The Hood, the width of both the Veil of Light and Veil of Darkness expands. Additionally, allies passing through the veils are empowered by hellfire energy, gaining Damage Boost for a duration.",
-        "partner_avatar": "https://r.res.easebar.com/pic/20260707/445014d1-f21f-4a40-9b27-eb04a08870fe.png",
+        "partner_avatar": "https://r.res.easebar.com/pic/20260807/de13bf7b-2d32-4b40-bb7e-e70430cd2eaf.png",
         "partner_name": {
           "en": "The Hood",
           "ko": "더 후드",
@@ -3183,7 +3184,7 @@
         "name": "OBLIVION SHROUD",
         "icon": "https://r.res.easebar.com/pic/20260707/b557fdff-bff2-4e77-bf87-4b5d2fd58f33.png",
         "description": "Base Effect: Veil of Lightforce and Terror Cape are warped by hellfire energy, changing into Veil of Light and Veil of Darkness while retaining their original effects. After traveling a set distance, the veils halt in place. Enemy damage passing through the Veil of Light is weakened, while enemy healing passing through the Veil of Darkness suffers Healing Reduction.\n\t\t\tEnhanced Effect: When teaming up with The Hood, the width of both the Veil of Light and Veil of Darkness expands. Additionally, allies passing through the veils are empowered by hellfire energy, gaining Damage Boost for a duration.",
-        "partner_avatar": "https://r.res.easebar.com/pic/20260707/445014d1-f21f-4a40-9b27-eb04a08870fe.png",
+        "partner_avatar": "https://r.res.easebar.com/pic/20260807/de13bf7b-2d32-4b40-bb7e-e70430cd2eaf.png",
         "partner_name": {
           "en": "The Hood",
           "ko": "더 후드",
@@ -3606,10 +3607,10 @@
         "stats": {
           "Key": "Left Click",
           "Tick Rate": "0.03s per use",
-          "Damage per Tick": "22",
+          "Damage per Tick": "23",
           "Hit Checks per Attack": "3",
           "Attack Interval": "0.6s",
-          "Ricochet Force CD Reduction per Hit": "0.25s"
+          "Ricochet Force CD Reduction per Hit": "0.3s"
         },
         "description_trans": {
           "ko": "전방으로 신속한 옵틱 블래스트를 발사합니다. 적중 시 Ricochet Force 충전 속도가 가속됩니다.",
@@ -3656,7 +3657,7 @@
         "description": "Remove visor and fire a powerful sweeping beam forward. The blast leaves behind volatile excess energy that erupts, dealing massive secondary explosive damage",
         "stats": {
           "Key": "Q",
-          "Energy Cost": "3700",
+          "Energy Cost": "3400",
           "First Spell Field Damage": "75+20%Maximum Health",
           "Interval Between Two Fields": "1.1s",
           "Second Spell Field Damage": "75+40%Maximum Health",
@@ -3852,7 +3853,7 @@
         "stats": {
           "Key": "C",
           "Cooldown": "15s",
-          "Duration": "6s",
+          "Duration": "8s",
           "Movement Boost": "40%",
           "Enhanced Jump Speed": "5m/s"
         },
@@ -4128,7 +4129,7 @@
           "Key": "Q",
           "Ability Duration": "The challenge lasts 12s. The buff lasts 6s after you complete it.",
           "Boost Spell Field Range": "6m radius spherical spell field",
-          "Bonus Health": "Self: 300; allies: 50",
+          "Bonus Health": "Self: 350; allies: 50",
           "Healing over Time": "Upon activation: 50/s; challenge completed: 100/s",
           "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
           "Cooldown": "60s"
@@ -4141,10 +4142,11 @@
             "Key": "Q",
             "Ability Duration": "The challenge lasts 12s. The buff lasts 8s after you complete it.",
             "Boost Spell Field Range": "6m radius spherical spell field",
-            "Bonus Health": "Self: 300; allies: 50",
+            "Bonus Health": "Self: 350; allies: 50",
             "Healing over Time": "Upon activation: 50/s; challenge completed: 100/s",
             "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
-            "Cooldown": "60s"
+            "Cooldown": "60s",
+            "DAMAGE/HEALTH CONVERSION": "100%"
           },
           "description_trans": {
             "ko": "야 플레이어! 몸풀기는 끝났어 본방 시작이야! 속도와 힐, 대시 버프에 모두에게 추가 체력까지! 정해진 스킬로 적들을 박살내면 슈퍼 버프와 무한 치유가 터진다!",
@@ -5500,7 +5502,7 @@
     "avatar": "https://r.res.easebar.com/pic/20260515/4153653e-1dfa-4780-8aa2-cc2881dad902.png",
     "full_img": "https://r.res.easebar.com/pic/20260515/84181e94-e504-48a8-94e2-6002678fb4dd.png",
     "base_stats": {
-      "Health": "850",
+      "Health": "825",
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
@@ -5509,7 +5511,7 @@
         "name": "DEVIL DINOSAUR",
         "avatar": "",
         "stats": {
-          "Health": "850",
+          "Health": "825",
           "Movement Speed": "6 m/s",
           "Movement Mode": "Ground"
         }
@@ -7739,7 +7741,7 @@
           "Key": "Q",
           "Casting": "Targeted",
           "Energy Cost": "4500",
-          "Range": "Cone shape spell field, angle range: 110°, length: 40m",
+          "Range": "Cone shape spell field, angle range: 110°, length: 30m",
           "Special Effect": "Gambit and the targeted ally receive the Purify and Jump Boost effect.",
           "One-Time Healing": "100",
           "Movement Speed Boost Ratio": "30%",
@@ -7789,7 +7791,7 @@
         "description": "Conjure a Heart card by consuming one stack of  Sleight of Hand to Heal and switch to the Healing Hearts deck",
         "stats": {
           "Key": "E",
-          "Cooldown": "4 charges, with each charge taking 8s to recharge.",
+          "Cooldown": "4 charges, with each charge taking 7s to recharge.",
           "Self Healing": "Heal 30 health per second within duration",
           "Maximum Duration": "6s",
           "Special Effect": "Within the duration, consume one stack of Sleight of Hand to use Bridge Boost and Purifying Pick-Up."
@@ -7812,7 +7814,7 @@
         "description": "Conjure a Spade card by consuming one stack of  Sleight of Hand to gain Damage Boost and switch to the Breaking Spades deck",
         "stats": {
           "Key": "F",
-          "Cooldown": "4 charges, with each charge taking 8s to recharge",
+          "Cooldown": "4 charges, with each charge taking 7s to recharge",
           "Self Damage Boost": "10%",
           "Maximum Duration": "6s",
           "Special Effect": "Within the duration, consume one stack of Sleight of Hand to use Explosive Trick and Bidding Barrage"
@@ -7912,7 +7914,7 @@
         "stats": {
           "Key": "C",
           "Cooldown": "12s",
-          "Duration": "1.5s",
+          "Duration": "2s",
           "Damage Spell Field Range": "5m spherical radius",
           "Damage": "45/s",
           "Healing Spell Field Range": "8m spherical radius spell field",
@@ -8036,7 +8038,7 @@
               "Key": "Q",
               "Casting": "Targeted",
               "Energy Cost": "4500",
-              "Range": "Cone shape spell field, angle range: 110°, length: 40m",
+              "Range": "Cone shape spell field, angle range: 110°, length: 30m",
               "Special Effect": "Gambit and the targeted ally receive the Purify and Jump Boost effect.",
               "One-Time Healing": "100",
               "Movement Speed Boost Ratio": "30%",
@@ -8086,7 +8088,7 @@
             "description": "Conjure a Heart card by consuming one stack of  Sleight of Hand to Heal and switch to the Healing Hearts deck",
             "stats": {
               "Key": "E",
-              "Cooldown": "4 charges, with each charge taking 8s to recharge.",
+              "Cooldown": "4 charges, with each charge taking 7s to recharge.",
               "Self Healing": "Heal 30 health per second within duration",
               "Maximum Duration": "6s",
               "Special Effect": "Within the duration, consume one stack of Sleight of Hand to use Bridge Boost and Purifying Pick-Up."
@@ -8109,7 +8111,7 @@
             "description": "Conjure a Spade card by consuming one stack of  Sleight of Hand to gain Damage Boost and switch to the Breaking Spades deck",
             "stats": {
               "Key": "F",
-              "Cooldown": "4 charges, with each charge taking 8s to recharge",
+              "Cooldown": "4 charges, with each charge taking 7s to recharge",
               "Self Damage Boost": "10%",
               "Maximum Duration": "6s",
               "Special Effect": "Within the duration, consume one stack of Sleight of Hand to use Explosive Trick and Bidding Barrage"
@@ -8360,7 +8362,7 @@
         "stats": {
           "Key": "Q",
           "Energy Cost": "3400",
-          "Maximum Duration": "12",
+          "Maximum Duration": "10",
           "Berserker Spawn Range": "10m radius",
           "Necroverse Range": "30m radius",
           "Annihilablade Damage": "65 + 10% Max Health",
@@ -8386,9 +8388,9 @@
         "description": "Surge forward as an Invincible symbiote mass, leaving a Black Berserker behind and driving all active Berserkers into a Frenzied State. Upon landing, manifest a Necroverse that continuously damages trapped enemies, converting them into Bonus Health",
         "stats": {
           "Key": "Shift",
-          "Cooldown": "15s",
+          "Cooldown": "13s",
           "Ability Duration": "1.5s",
-          "Movement Boost": "13m/s",
+          "Movement Boost": "10m/s",
           "Attack Speed Boost to Frenzied Berserkers": "40%",
           "Necroverse Damage": "30/s",
           "Necroverse Range": "10m radius",
@@ -8443,10 +8445,10 @@
           "Bonus Health": "50% of the Black Berserker's remaining Health, up to 50; shares the Bonus Health cap with Berserker Swarm",
           "Explosion Damage": "5 + 5% Max Health",
           "Explosion Range": "5m radius",
-          "Shadow Scythe Damage": "55 + 2% Max Health",
+          "Shadow Scythe Damage": "50 + 2% Max Health",
           "Shadow Scythe Attack Interval": "0.6s",
           "Shadow Scythe Maximum Distance": "8m",
-          "Shockwave Damage": "60"
+          "Shockwave Damage": "55"
         },
         "description_trans": {
           "ko": "선택한 블랙 버서커에게 순간이동하여 희생시키며, 버서커 체력의 절반에 해당하는 추가 체력을 얻고 심비오트 폭발을 일으킵니다. 잠시 그림자 낫(Shadow Scythe)이 해금되어 전방으로 관통 충격파를 발사하며, 올블랙이 일정 시간 또는 4회 공격 동안 대낫 형태로 변형됩니다.",
@@ -8488,8 +8490,9 @@
           "ko": "헬라",
           "ja": "ヘラ"
         },
-        "key": "Passive",
+        "key": "C",
         "stats": {
+          "Key": "C",
           "Cooldown": "20s",
           "Grounded Duration": "1s",
           "Sweeping Range": "5m radius",
@@ -8627,7 +8630,7 @@
           "Casting": "Charged projectile with an arced trajectory",
           "Slow Rate While Charging": "-20%",
           "Minimum Charge Time": "0.7s",
-          "Projectile Speed": "130 - 195 m/s (Maximum speed is achieved after 0.9s of charging)",
+          "Projectile Speed": "140 - 210 m/s (Maximum speed is achieved after 0.9s of charging)",
           "Damage": "28 - 70 (Maximum damage is achieved after 0.9s of charging)",
           "Ammo": "Infinite",
           "Critical Hit": "Yes"
@@ -8757,7 +8760,7 @@
           "Key": "E",
           "Casting": "Straight-line projectile that is accompanied by a spell field",
           "Projectile Speed": "150 m/s",
-          "First Spell Field Range": "Length: 3m, Width: 3m, Height: 2.7m",
+          "First Spell Field Range": "Length: 3m, Width: 5m, Height: 2.7m",
           "First Damage": "55",
           "Second Spell Field Range": "Length: 3m, Width: 5m, Height: 1.6m",
           "Second Damage": "55",
@@ -8856,7 +8859,7 @@
           "Charge Time per Arrow (s)": "0.09",
           "Spread Type": "Fixed spread",
           "Psionic Arrows Fired": "5",
-          "Psionic Arrow Damage": "32/shot"
+          "Psionic Arrow Damage": "33/shot"
         },
         "description_trans": {
           "ko": "폭발 화살(Blast Arrow)이 사이오닉 화살(Psionic Arrow)로 업그레이드됩니다. 활을 당기는 동안 호크아이는 추가 사이오닉 화살을 연속으로 축적할 수 있습니다. 시위를 놓으면 축적된 모든 화살이 전방으로 차례대로 연속 발사됩니다.",
@@ -9619,11 +9622,11 @@
           "Key": "C",
           "Cooldown": "15s",
           "Furious Duration": "6s",
-          "Movement Speed Boost": "20%",
-          "Attack Speed Boost": "20%",
-          "Unstoppable Threshold": "300",
+          "Movement Speed Boost": "25%",
+          "Attack Speed Boost": "25%",
+          "Unstoppable Threshold": "400",
           "Unstoppable Duration": "6s",
-          "Unstoppable CD": "60s"
+          "Unstoppable CD": "45s"
         },
         "description_trans": {
           "ko": "스킬 활성화 시 분노(Furious) 상태에 진입하여 일정 시간 동안 이동 속도 및 공격 속도가 증가합니다. 또한 늑대인간과의 춤(Dances With Werewolves) 스킬이 해금되어 체력이 특정 수치 이하로 떨어지면 일정 시간 저지 불가(Unstoppable) 상태가 됩니다.",
@@ -9684,7 +9687,7 @@
             "stats": {
               "Key": "Left Click",
               "Casting": "Single-cast projectile with delayed impact",
-              "Projectile Speed": "80m/s",
+              "Projectile Speed": "120m/s",
               "Damage": "16",
               "Fire Rate": "5 rounds per second",
               "Ammo": "25",
@@ -9734,7 +9737,7 @@
               "Damage": "40",
               "Range": "3m spherical radius",
               "Cooldown": "8s",
-              "Special Effect": "When the caster enters the spell field, it restores 50 gamma energy"
+              "Special Effect": "When the caster enters the spell field, it restores 100 gamma energy"
             },
             "description_trans": {
               "ko": "감마 수류탄을 투척해 폭발 피해를 입히고 적들을 공중에 띄웁니다.",
@@ -10253,7 +10256,7 @@
         "description": "Explode with cosmic fire to deal damage to enemies within range. Upon skill activation, all Flame Fields will transform into Flame Tornadoes, dealing extra damage",
         "stats": {
           "Key": "Q",
-          "Energy Cost": "3400",
+          "Energy Cost": "4000",
           "Duration": "8s",
           "Activation Shock Wave Range": "20m spherical radius",
           "Activation Wave Damage": "75",
@@ -10434,7 +10437,7 @@
           "Ability Duration": "5s",
           "Spell Field Range": "10m spherical radius",
           "Tick Rate": "0.1s per use",
-          "Spark Damage": "9 per round"
+          "Spark Damage": "7 per round"
         },
         "description_trans": {
           "ko": "근처에 있는 적을 지속적으로 탐지하고 유도 불꽃(Sparks)을 발사하여 적의 체력을 갉아먹습니다.",
@@ -10510,7 +10513,7 @@
           "Flame Nado Damage": "35/hit, 2 times per second",
           "Flame Tornado Range": "3m radius, 6m height",
           "Burning Hurricane Damage": "75 damage per hit, 2 hits per second",
-          "Duration Increase from Passing Through Flame Field": "3s",
+          "Duration Increase from Passing Through Flame Field": "2s",
           "Burning Hurricane Max Duration": "11s",
           "Burning Hurricane Radius": "10m"
         },
@@ -11152,9 +11155,9 @@
           "Key": "F",
           "Casting": "Scatter-type projectile that generates a spell area upon impact",
           "Missiles": "16",
-          "Projectile Speed": "15 m/s",
+          "Projectile Speed": "60 m/s",
           "Range": "2m spherical radius",
-          "Spell Field Damage": "20 damage per round",
+          "Spell Field Damage": "10 damage per round",
           "Cooldown": "8s",
           "Special Mechanic": "Launch missiles directly beneath Iron Man"
         },
@@ -11180,7 +11183,7 @@
           "Missiles": "18",
           "Projectile Speed": "60 m/s",
           "Range": "2m spherical radius",
-          "Spell Field Damage": "15 damage per round",
+          "Spell Field Damage": "10 damage per round",
           "Cooldown": "6s",
           "Special Mechanic": "Launch in the direction of Iron Man's crosshair"
         },
@@ -11283,7 +11286,7 @@
         "stats": {
           "Key": "E",
           "Unibeam Outer Ring Range": "0.75m radius",
-          "Unibeam Outer Ring Damage": "7/hit, 10 times per second",
+          "Unibeam Outer Ring Damage": "8/hit, 10 times per second",
           "Unibeam Damage": "14/hit, 10 times per second",
           "Thunder Overdrive Unibeam Outer Ring Range": "18/hit, 10 times per second"
         },
@@ -12153,7 +12156,7 @@
           "Ability Duration": "10s",
           "Spell Field Range": "Inner circle radius 6m; Outer circle radius 10m",
           "Spell Field Damage": "20/s",
-          "Spell Field Healing": "150/s",
+          "Spell Field Healing": "180/s",
           "Firework Cluster Range": "2m radius",
           "Firework Cluster Healing Amount": "40 per hit",
           "Firework Cluster Damage": "25 per hit",
@@ -12179,6 +12182,7 @@
         "stats": {
           "Key": "Shift",
           "Speed Boost Multiplier": "40%",
+          "Self Healing Amount": "25/s",
           "Maximum Energy": "12",
           "Energy Cost": "4/s",
           "Energy Recovery": "1/s",
@@ -12208,7 +12212,7 @@
           "Cooldown": "12s",
           "Spell Field Range": "Matches current range of selected orb",
           "Damage": "50",
-          "Blind Duration": "1.5s",
+          "Blind Duration": "0.8s",
           "Vulnerability": "10% for 3s",
           "Healing Spell Field Generation Interval": "0.2s",
           "One-time Healing Amount": "65",
@@ -12251,7 +12255,7 @@
         "name": "HELLFIRE SPARKS",
         "icon": "https://r.res.easebar.com/pic/20260707/2114804d-8467-4973-8bb9-48174b7fac01.png",
         "description": "Base Effect: When Attack Speed is enhanced, Energy Plasmoids transform into a hitscan attack that grants self-healing on hit and is capable of dealing critical hits.\n\t\t\tEnhanced Effect: When teaming up with The Hood, the Void Magic Mark is never cleared, allowing her to indefinitely sustain the hitscan attack form.",
-        "partner_avatar": "https://r.res.easebar.com/pic/20260707/445014d1-f21f-4a40-9b27-eb04a08870fe.png",
+        "partner_avatar": "https://r.res.easebar.com/pic/20260807/de13bf7b-2d32-4b40-bb7e-e70430cd2eaf.png",
         "partner_name": {
           "en": "The Hood",
           "ko": "더 후드",
@@ -12277,7 +12281,7 @@
         "name": "HELLFIRE SPARKS",
         "icon": "https://r.res.easebar.com/pic/20260707/2114804d-8467-4973-8bb9-48174b7fac01.png",
         "description": "Base Effect: When Attack Speed is enhanced, Energy Plasmoids transform into a hitscan attack that grants self-healing on hit and is capable of dealing critical hits.\n\t\t\tEnhanced Effect: When teaming up with The Hood, the Void Magic Mark is never cleared, allowing her to indefinitely sustain the hitscan attack form.",
-        "partner_avatar": "https://r.res.easebar.com/pic/20260707/445014d1-f21f-4a40-9b27-eb04a08870fe.png",
+        "partner_avatar": "https://r.res.easebar.com/pic/20260807/de13bf7b-2d32-4b40-bb7e-e70430cd2eaf.png",
         "partner_name": {
           "en": "The Hood",
           "ko": "더 후드",
@@ -12312,7 +12316,8 @@
           "Cooldown": "15s",
           "Field Range": "12m spherical radius spell field",
           "Ability Duration": "6s",
-          "Lifesteal Rate": "30%"
+          "Lifesteal Rate": "30%",
+          "Healing Over Time": "15/s"
         },
         "description_trans": {
           "ko": "흡혈 영역(Vampiric Field)을 전개합니다. 영역 안에 서 있는 아군들은 적을 공격할 때 생명력 흡수(Life Steal) 효과를 얻습니다.",
@@ -14146,8 +14151,8 @@
           "Key": "C",
           "Cooldown": "15s",
           "Magnetic Projection Max Damage Absorbed": "300",
-          "Magnetic Projection Damage Dealt Ratio": "45%",
-          "Magnetic Projection Max Duration": "5s"
+          "Magnetic Projection Damage Dealt Ratio": "50%",
+          "Magnetic Projection Max Duration": "6s"
         },
         "description_trans": {
           "ko": "적의 시점에서 매그니토의 이동과 스킬 시전을 완벽하게 흉내 내는 자기 투영체(Magnetic Projection)를 투사합니다.",
@@ -15947,14 +15952,14 @@
         "description": "Launch a fiery projectile forward, applying 1 Spark to enemies hit. Critical hits apply 2 Sparks. At 3 Sparks, Phoenix triggers a fiery explosion that applies 1 Spark to enemies around and Healing Over Time to self. Sparks from explosions will not stack within a brief period",
         "stats": {
           "Key": "Left Click",
-          "Damage": "60",
+          "Damage": "65",
           "Damage Falloff": "Falloff begins at 10m, decreasing to 65% at 30m",
           "Fire Rate": "0.435s per round",
           "Special Effect": "Apply 1 Spark to enemies hit. Critical hits apply 2 Sparks. At 3 Sparks, Phoenix triggers a fiery explosion that applies 1 Spark to enemies around. Sparks from explosions will not stack within a brief period.",
-          "Explosion Direct Damage": "40",
-          "Explosion Range Damage": "15",
+          "Explosion Direct Damage": "45",
+          "Explosion Range Damage": "20",
           "Explosion Range": "4m spherical radius spell field",
-          "Self Healing Amount after the Explosion": "5/s for 4 s"
+          "Self Bonus Health after the Explosion": "5/s for 4 s"
         },
         "description_trans": {
           "ko": "우주 화염 투사체를 발사하여 적중한 적에게 불꽃(Spark) 1개를 부여합니다. 치명타 시 2개를 부여합니다. 불꽃 3개가 중첩되면 연쇄 폭발을 일으켜 주변 적에게 불꽃 1개를 부여하고 자신에게 지속 치유를 부여합니다.",
@@ -16006,7 +16011,7 @@
           "Explosion Range": "10m spherical radius spell field",
           "Shockwave Damage": "50",
           "Summons' Health": "500",
-          "Special Effect": "The shockwave destroys enemy summons, shields, and any Bonus Health. Enemies hit by the spell field and the shockwave are applied with 1 Spark.",
+          "Special Effect": "The shockwave destroys enemy summons, shields, and any Bonus Health. Enemies hit by the spell field and the shockwave are applied with 2 Spark.",
           "Self Healing Amount": "250"
         },
         "description_trans": {
@@ -16100,7 +16105,7 @@
         "key": "Right Click",
         "stats": {
           "Key": "Right Click",
-          "Cooldown": "12s",
+          "Cooldown": "10s",
           "First Spell Field Damage": "15",
           "2nd & 3rd Spell Field Damage": "20",
           "Stun Duration": "0.3s",
@@ -17267,7 +17272,7 @@
           "Projectile Speed": "120 m/s",
           "Projectile Damage": "40",
           "Range": "3m spherical radius",
-          "Spell Field Damage": "40",
+          "Spell Field Damage": "35",
           "Charges": "4",
           "Default Charging Speed": "0.2/s"
         },
@@ -19593,7 +19598,7 @@
         "key": "C",
         "stats": {
           "Key": "C",
-          "Cooldown": "20s",
+          "Cooldown": "15s",
           "Duration": "5s",
           "Bonus Health Recovery": "15/hit",
           "Bonus Health Generation Frequency": "5 times per second",
@@ -19621,7 +19626,7 @@
         "stats": {
           "Key": "C",
           "Bonus Health Recovery": "20 per hit",
-          "Damage Taken Required to Trigger Healing": "150",
+          "Damage Taken Required to Trigger Healing": "125",
           "Healing Amount": "80",
           "Healing Spell Field Range": "8m radius"
         },

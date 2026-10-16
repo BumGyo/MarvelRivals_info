@@ -14575,6 +14575,14 @@
     "CD": {
       "ko": "재사용 대기시간",
       "ja": "クールダウン"
+    },
+    "DAMAGE/HEALTH CONVERSION": {
+      "ko": "DAMAGE/HEALTH CONVERSION",
+      "ja": "DAMAGE/HEALTH CONVERSION"
+    },
+    "Self Bonus Health after the Explosion": {
+      "ko": "Self Bonus Health after the Explosion",
+      "ja": "Self Bonus Health after the Explosion"
     }
   },
   "stat_values": {
