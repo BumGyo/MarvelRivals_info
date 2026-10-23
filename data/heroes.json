@@ -4654,7 +4654,7 @@
         "stats": {
           "Key": "Q",
           "Ability Duration": "The challenge lasts 12s. The buff lasts 6s after you complete it.",
-          "Healing over Time": "Upon activation: 35/s; challenge completed: 70/s",
+          "Healing over Time": "Upon activation: 25/s; challenge completed: 50/s",
           "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
           "Cooldown": "45s"
         },
@@ -4665,7 +4665,7 @@
           "stats": {
             "Key": "Q",
             "Ability Duration": "The challenge lasts 12s. The buff lasts 8s after you complete it.",
-            "Healing over Time": "Upon activation: 30/s; challenge completed: 60/s",
+            "Healing over Time": "Upon activation: 35/s; challenge completed: 70/s",
             "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
             "Damage Boost": "Upon activation: 15%; challenge completed: 30%",
             "Cooldown": "45s"
@@ -8291,7 +8291,7 @@
     },
     "raw_forms": [
       {
-        "name": "Gorr",
+        "name": "Gorr the God Butcher",
         "avatar": "",
         "stats": {
           "Health": "175 Health + 175 Regenerative Shield",
@@ -9222,9 +9222,9 @@
           "ko": "베놈",
           "ja": "ヴェノム"
         },
-        "key": "E",
+        "key": "PASSIVE",
         "stats": {
-          "Key": "E",
+          "Key": "PASSIVE",
           "Cooldown": "10",
           "Gravity Field Range": "3m spherical radius",
           "Max Gravity Duration": "2s",
@@ -9250,8 +9250,9 @@
           "ko": "베놈",
           "ja": "ヴェノム"
         },
-        "key": "Passive",
+        "key": "PASSIVE",
         "stats": {
+          "Key": "PASSIVE",
           "Nightsword Thorn Increase": "2",
           "Health Restored": "20 per round"
         },
@@ -9273,8 +9274,9 @@
           "ko": "네이머",
           "ja": "ネイモア"
         },
-        "key": "Passive",
+        "key": "PASSIVE",
         "stats": {
+          "Key": "PASSIVE",
           "Undead Monstro Health": "150",
           "Undead Monstro Damage": "10 per round",
           "Damage Falloff": "Falloff begins at 20m, decreasing to 50% at 40m",
@@ -9298,8 +9300,9 @@
           "ko": "네이머",
           "ja": "ネイモア"
         },
-        "key": "Passive",
+        "key": "PASSIVE",
         "stats": {
+          "Key": "PASSIVE",
           "Special Effect": "Each attack during Goddess of Death spawns an Undead Monstro at the point of impact."
         },
         "description_trans": {
@@ -12976,8 +12979,9 @@
           "ko": "화이트 폭스",
           "ja": "ホワイト・フォックス"
         },
-        "key": "Passive",
+        "key": "C",
         "stats": {
+          "Key": "C",
           "Cooldown": "12s",
           "Healing Amount": "70",
           "Charm Duration": "0.35s",
@@ -13005,8 +13009,9 @@
           "ko": "화이트 폭스",
           "ja": "ホワイト・フォックス"
         },
-        "key": "Passive",
+        "key": "C",
         "stats": {
+          "Key": "C",
           "Cooldown": "10"
         },
         "description_trans": {
@@ -13027,8 +13032,9 @@
           "ko": "아담 워록",
           "ja": "アダム・ウォーロック"
         },
-        "key": "Passive",
+        "key": "C",
         "stats": {
+          "Key": "C",
           "Cooldown": "15s",
           "Ability Duration": "6s",
           "Chain Cast Detection Range": "20m radius",
@@ -13054,8 +13060,9 @@
           "ko": "아담 워록",
           "ja": "アダム・ウォーロック"
         },
-        "key": "Passive",
+        "key": "C",
         "stats": {
+          "Key": "C",
           "Ice Arts CD Reduction per Crit": "1.5s",
           "Absolute Zero CD Reduction per Crit": "0.5s"
         },
