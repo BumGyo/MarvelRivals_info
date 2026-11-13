@@ -14699,6 +14699,10 @@
     "Second-Stage Damage": {
       "ko": "2단계 피해량",
       "ja": "第2段階のダメージ"
+    },
+    "Soaring Surge Speed Boost Percentage (When Storm Is Selected)": {
+      "ko": "Soaring Surge Speed Boost Percentage (When Storm Is Selected)",
+      "ja": "Soaring Surge Speed Boost Percentage (When Storm Is Selected)"
     }
   },
   "stat_values": {

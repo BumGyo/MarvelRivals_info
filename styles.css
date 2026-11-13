@@ -52,6 +52,8 @@
   --transition-bounce: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+
+
 /* ==========================================================================
    Base & Reset
    ========================================================================== */
@@ -2126,4 +2128,96 @@ body {
     font-size: 9px;
     padding: 1px 4px;
   }
+}
+
+
+/* Reference: restrained dark encyclopedia with a single red accent. */
+:root {
+  --bg-darkest: #101010;
+  --bg-primary: #151515;
+  --bg-secondary: #202020;
+  --bg-card: #191919;
+  --bg-card-hover: #222222;
+  --bg-modal: #171717;
+  --bg-overlay: rgba(0, 0, 0, .82);
+  --border-subtle: rgba(255, 255, 255, .09);
+  --border-bright: rgba(255, 255, 255, .2);
+  --border-gold: #a72a32;
+  --accent-gold: #e54b53;
+  --accent-gold-glow: rgba(229, 75, 83, .16);
+  --accent-cyan: #e54b53;
+  --text-main: #f1f1f1;
+  --text-muted: #b2b2b2;
+  --text-dim: #929292;
+}
+
+body { background: var(--bg-darkest); letter-spacing: 0; }
+.app-header { background: #111; backdrop-filter: none; border-bottom: 1px solid #343434; padding: 12px 28px; }
+.site-logo-icon { filter: none; }
+.logo-group:hover .site-logo-icon { transform: none; }
+.logo-title { background: none; -webkit-text-fill-color: initial; color: #fff; letter-spacing: 0; }
+.logo-subtitle { color: #aaa; letter-spacing: 0; }
+.search-input { background: #202020; border-color: #3b3b3b; border-radius: 4px; }
+.search-input:focus { border-color: #e54b53; box-shadow: 0 0 0 2px rgba(229,75,83,.18); }
+.lang-switch { border-radius: 4px; background: #202020; }
+.lang-btn { border-radius: 3px; }
+.lang-btn.active { background: #b62e37; color: #fff; box-shadow: none; }
+.dev-info-btn:hover { background: #282020; border-color: #e54b53; color: #fff; box-shadow: none; transform: none; }
+.filter-section { margin-top: 0; padding-top: 22px; }
+.filter-bar { border-bottom: 1px solid #393939; }
+.role-filter-group { gap: 4px; }
+.role-btn, .role-btn[data-role].active { border: 0; border-bottom: 3px solid transparent; border-radius: 0; background: transparent; color: #aaa; box-shadow: none; padding: 10px 15px 13px; backdrop-filter: none; }
+.role-btn:hover { background: #202020; color: #fff; transform: none; }
+.role-btn.active, .role-btn[data-role].active { border-bottom-color: #e54b53; color: #fff; }
+.role-btn[data-role="STRATEGIST"].active .role-btn-icon { filter: brightness(0) invert(1); }
+.role-btn:hover .role-btn-icon { transform: none; }
+.count-indicator { color: #aaa; }
+.main-content { margin-top: 20px; }
+.hero-grid { grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); gap: 14px; }
+.hero-card { display: block; padding: 0; background: #1c1c1c; border: 1px solid #303030; border-radius: 4px; text-align: left; backdrop-filter: none; }
+.hero-card::before { display: none; }
+.hero-card:hover, .hero-card.role-vanguard:hover, .hero-card.role-duelist:hover, .hero-card.role-strategist:hover { background: #242424; border-color: #d94149; transform: none; box-shadow: none; }
+.hero-card:focus-visible { outline: 2px solid #f36a70; outline-offset: 2px; }
+.hero-avatar-wrapper { width: 100%; height: auto; aspect-ratio: 1.35; border-radius: 0; padding: 0; margin: 0; background: #292929; overflow: hidden; }
+.hero-card:hover .hero-avatar-wrapper { transform: none; }
+.hero-avatar { border-radius: 0; object-fit: cover; object-position: center 20%; }
+.role-pill, .role-pill.VANGUARD, .role-pill.DUELIST, .role-pill.STRATEGIST { bottom: 8px; right: 8px; width: 27px; height: 27px; border: 0; border-radius: 3px; background: #171717; box-shadow: none; }
+.hero-info { padding: 11px 12px 13px; }
+.hero-name-primary { font-size: 15px; white-space: normal; line-height: 1.35; min-height: 21px; }
+.hero-name-sub { color: #aaa; font-size: 11px; margin: 2px 0 9px; min-height: 17px; }
+.hero-chips { justify-content: flex-start; gap: 12px; }
+.stat-chip { background: none; border: 0; padding: 0; color: #aaa; font-size: 11px; }
+.modal-overlay { backdrop-filter: none; }
+.modal-container { border-radius: 6px; box-shadow: 0 20px 70px #000; }
+.modal-header { background: #1d1d1d; }
+.modal-avatar { border-radius: 4px; border-color: #555; box-shadow: none; }
+.modal-tabs { background: #171717; }
+.tab-btn.active { color: #fff; }
+.tab-btn.active::after { background: #e54b53; }
+.skill-selector-list { background: transparent; }
+.skill-select-item { border-radius: 3px; }
+.skill-select-item.active { background: #292020; border-color: #c33b43; box-shadow: none; }
+.skill-detail-display, .skill-desc-box { background: transparent; border-color: #393939; border-radius: 3px; box-shadow: none; }
+.stat-box { background: #222; border-color: #333; border-radius: 3px; box-shadow: none; }
+.stat-box:hover { transform: none; box-shadow: none; }
+.loadout-btn, .hero-form-btn { border-radius: 3px; box-shadow: none; }
+.loadout-btn.active, .hero-form-btn.active { border-color: #d94149; background: #302023; box-shadow: none; }
+.partner-highlight-bar, .teamup-card { border-radius: 3px; box-shadow: none; }
+.teamup-card.base, .teamup-card.enhanced { background: #202020; border-color: #3a3a3a; }
+.app-footer { border-color: #333; }
+
+@media (max-width: 768px) {
+  .hero-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .hero-card { padding: 0; }
+  .hero-avatar-wrapper { width: 100%; height: auto; aspect-ratio: 1.2; margin: 0; }
+  .hero-info { padding: 8px; }
+  .hero-name-primary { font-size: 13px; }
+  .hero-name-sub { font-size: 10px; overflow-wrap: anywhere; }
+  .hero-chips { gap: 7px; }
+  .stat-chip { font-size: 10px; }
+  .role-filter-group { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; }
+  .role-btn, .role-btn[data-role].active { white-space: nowrap; padding: 9px 10px; font-size: 12px; }
+}
+@media (max-width: 380px) {
+  .hero-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

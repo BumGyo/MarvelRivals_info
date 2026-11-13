@@ -290,8 +290,9 @@ def parse_hero_list():
         seen.add(title.upper())
         
         imgs = [urljoin(image_base, img.attrs.get("src", "")) for img in item.find_all("img") if img.attrs.get("src")]
-        avatar = imgs[2] if len(imgs) >= 3 else (imgs[0] if imgs else "")
-        full_img = imgs[0] if imgs else ""
+        card_img = next((img for img in imgs if "/card-image" in img), "")
+        avatar = card_img or (imgs[0] if imgs else "")
+        full_img = next((img for img in imgs if "/avatar" in img), avatar)
         
         tag = tag.upper().strip()
         if not tag:
@@ -320,8 +321,8 @@ def parse_hero_list():
             "role": "STRATEGIST",
             "roles": ["STRATEGIST"],
             "url": "https://www.marvelrivals.com/20241123/41360_1195670.html",
-            "avatar": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/d21.png",
-            "full_img": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_21.png"
+            "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/card-image_abf2a5ad.png",
+            "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/avatar_e2f9f6e4.png"
         })
 
     if len(heroes) < 50:

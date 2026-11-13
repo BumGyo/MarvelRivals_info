@@ -16,6 +16,14 @@ const indexPath = path.join(rootDir, 'index.html');
 
 console.log('=== [START] Post-Processing Pipeline ===');
 
+function normalizeCardImage(hero) {
+  if (!hero || typeof hero.avatar !== 'string') return;
+  if (hero.avatar.includes('/card-image')) return;
+  if (typeof hero.full_img === 'string' && hero.full_img.includes('/card-image')) {
+    hero.avatar = hero.full_img;
+  }
+}
+
 if (!fs.existsSync(heroesPath)) {
   console.error('Error: heroes.json not found at', heroesPath);
   process.exit(1);
@@ -23,6 +31,7 @@ if (!fs.existsSync(heroesPath)) {
 
 const heroes = JSON.parse(fs.readFileSync(heroesPath, 'utf-8'));
 console.log(`Loaded ${heroes.length} heroes from heroes.json.`);
+heroes.forEach(normalizeCardImage);
 
 if (!Array.isArray(heroes) || heroes.length < 50) {
   console.error(`[FATAL ERROR] heroes.json has invalid hero count (${heroes ? heroes.length : 0} < 50). Aborting post-process to prevent data corruption.`);

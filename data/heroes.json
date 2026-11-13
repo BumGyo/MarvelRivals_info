@@ -16,7 +16,7 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/select-card_eee141e0.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/card-image_abf2a5ad.png",
     "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/avatar_e2f9f6e4.png",
     "base_stats": {
       "Health": "275",
@@ -135,9 +135,9 @@
         "stats": {
           "Casting": "Targeted",
           "Special Effect": "Bouncing target does not include Adam Warlock",
-          "Healing Amount": "95",
+          "Healing Amount": "55",
           "Healing Amount (Self)": "35",
-          "Number Of Bounces": "2",
+          "Number Of Bounces": "4",
           "Range": "20m spherical radius",
           "Cooldown": "2 charges, with each charge taking 6s to recharge; when a critical hit lands on an enemy, reduce the cooldown time of Avatar Life Stream by 1s."
         },
@@ -201,13 +201,14 @@
         "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/skills/strategist-08_2aeb8c71.png",
         "description": "Storm channels her elemental power into Adam Warlock. When Adam uses Soaring Surge, his movement speed is increased. While flying, Adam leaves behind a storm-charged trail that heals and speeds up allies within it",
         "stats": {
-          "Movement Boost": "0.25",
+          "Soaring Surge Speed Boost Percentage (When Storm Is Selected)": "100%",
           "Maximum Energy": "120",
           "Energy Cost": "30/s",
           "Energy Recovery Speed": "8/s",
           "Trail Width": "4m",
           "Trail Duration": "5s",
-          "Healing Amount": "35/s"
+          "Healing Amount": "35/s",
+          "Movement Boost": "0.25"
         },
         "description_trans": {
           "ko": "스톰이 원소의 힘을 아담 워록에게 주입합니다. 비행 돌진 시 이동 속도가 증가하며, 비행 경로에 아군을 치유하고 가속하는 폭풍 궤적을 남깁니다.",
@@ -254,7 +255,7 @@
         },
         "key": "SHIFT",
         "stats": {
-          "Damage Boost": "12%",
+          "Damage Boost": "8%",
           "Movement Boost": "30%"
         },
         "description_trans": {
