@@ -2221,3 +2221,81 @@ body { background: var(--bg-darkest); letter-spacing: 0; }
 @media (max-width: 380px) {
   .hero-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* Secondary surfaces use the same restrained red system as the main view. */
+.dev-modal-container {
+  max-width: 440px;
+  background: #181818;
+  border: 1px solid #3b3b3b;
+  border-radius: 6px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .82);
+  padding: 22px;
+  gap: 18px;
+}
+.dev-header-badge {
+  background: #2a1c1e;
+  border: 1px solid #8d353b;
+  color: #f06a70;
+  border-radius: 3px;
+  letter-spacing: .06em;
+}
+.dev-badge-dot {
+  background: #e54b53;
+  box-shadow: none;
+  animation: none;
+}
+.dev-modal-close-btn {
+  background: #242424;
+  border: 1px solid #404040;
+  border-radius: 4px;
+}
+.dev-modal-close-btn:hover {
+  background: #302023;
+  border-color: #d94149;
+  color: #ff7379;
+  transform: none;
+}
+.dev-avatar-box {
+  background: #b62e37;
+  border-radius: 4px;
+  box-shadow: none;
+}
+.dev-avatar-ring {
+  inset: -3px;
+  border: 1px solid #d85a60;
+  border-radius: 5px;
+  animation: none;
+}
+.dev-avatar-letter { color: #fff; }
+.dev-verified-badge, .dev-profile-role { color: #ed6269; }
+.dev-sns-divider::before, .dev-sns-divider::after { background: #3a3a3a; }
+.dev-sns-card {
+  background: #202020;
+  border: 1px solid #353535;
+  border-radius: 4px;
+  transition: background .18s ease, border-color .18s ease;
+}
+.dev-sns-card:hover {
+  background: #292020;
+  border-color: #c43c44;
+  transform: none;
+  box-shadow: none;
+}
+.dev-sns-icon-wrap {
+  background: #292929;
+  border-radius: 4px;
+}
+.dev-sns-card:hover .dev-sns-icon-wrap {
+  background: #3a2224;
+  transform: none;
+}
+.dev-sns-svg, .sns-twitch .dev-sns-svg, .sns-youtube .dev-sns-svg { color: #e96a70; }
+.dev-sns-card:hover .dev-sns-svg,
+.dev-sns-card:hover .dev-sns-name,
+.dev-sns-card:hover .dev-sns-action { color: #ff858a; }
+.sns-x:hover, .sns-twitch:hover, .sns-liquipedia:hover, .sns-youtube:hover { background: #292020; border-color: #c43c44; }
+.app-footer a { color: #e96a70; }
+
+@media (max-width: 768px) {
+  .dev-modal-container { border-radius: 5px; padding: 18px; }
+}
