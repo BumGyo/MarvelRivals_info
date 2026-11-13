@@ -475,16 +475,12 @@ if (Object.keys(skillsMap).length > 0) {
 
   function substituteNumbers(str, oldNums, newNums) {
     if (!str || !oldNums || !newNums || oldNums.length !== newNums.length) return str;
-    let res = str;
+    const replacements = new Map();
     for (let i = 0; i < oldNums.length; i++) {
-      const oldN = oldNums[i];
-      const newN = newNums[i];
-      if (oldN !== newN) {
-        const regex = new RegExp('(?<!\\d)' + oldN.replace('.', '\\.') + '(?!\\d)', 'g');
-        res = res.replace(regex, newN);
-      }
+      if (replacements.has(oldNums[i]) && replacements.get(oldNums[i]) !== newNums[i]) return null;
+      replacements.set(oldNums[i], newNums[i]);
     }
-    return res;
+    return str.replace(/\d+(?:\.\d+)?/g, number => replacements.get(number) ?? number);
   }
 
   function resolveSkillTranslation(desc) {
@@ -500,10 +496,9 @@ if (Object.keys(skillsMap).length > 0) {
       const targetTemplate = sDesc.replace(/\d+(?:\.\d+)?/g, '<NUM>').replace(/\s+/g, ' ').trim();
       for (const item of numericSkillTemplates) {
         if (item.templateKey === targetTemplate && item.nums.length === targetNums.length) {
-          return {
-            ko: substituteNumbers(item.trans.ko, item.nums, targetNums),
-            ja: substituteNumbers(item.trans.ja, item.nums, targetNums)
-          };
+          const ko = substituteNumbers(item.trans.ko, item.nums, targetNums);
+          const ja = substituteNumbers(item.trans.ja, item.nums, targetNums);
+          if (ko && ja) return { ko, ja };
         }
       }
     }

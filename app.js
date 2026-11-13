@@ -81,6 +81,9 @@
 
       heroesData = await heroesRes.json();
       i18nData = await i18nRes.json();
+      if (!Array.isArray(heroesData) || heroesData.length === 0) {
+        throw new Error('Hero data is empty or invalid');
+      }
       if (transRes && transRes.ok) {
         try {
           translationsData = await transRes.json();
@@ -94,10 +97,11 @@
       renderHeroGrid();
     } catch (err) {
       console.error('Initialization error:', err);
+      heroesCountEl.textContent = '—';
       heroGrid.innerHTML = `
         <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #ff4d6d;">
           <h3>⚠️ 데이터를 불러오는 데 실패했습니다.</h3>
-          <p style="margin-top: 8px; color: #94a3b8;">${err.message}</p>
+          <p style="margin-top: 8px; color: #94a3b8;">${escapeHtml(err.message)}</p>
         </div>
       `;
     }
@@ -945,14 +949,13 @@
           if (candNums && candNums.length === targetNums.length) {
             const candTemplate = candKey.replace(/\d+(?:\.\d+)?/g, '<NUM>').replace(/\s+/g, ' ').trim();
             if (candTemplate === targetTemplate) {
-              let res = trans[lang];
+              const replacements = new Map();
+              let ambiguous = false;
               for (let i = 0; i < candNums.length; i++) {
-                if (candNums[i] !== targetNums[i]) {
-                  const regex = new RegExp('(?<!\\d)' + candNums[i].replace('.', '\\.') + '(?!\\d)', 'g');
-                  res = res.replace(regex, targetNums[i]);
-                }
+                if (replacements.has(candNums[i]) && replacements.get(candNums[i]) !== targetNums[i]) ambiguous = true;
+                replacements.set(candNums[i], targetNums[i]);
               }
-              return res;
+              if (!ambiguous) return trans[lang].replace(/\d+(?:\.\d+)?/g, number => replacements.get(number) ?? number);
             }
           }
         }

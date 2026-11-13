@@ -2,13 +2,17 @@ name: Marvel Rivals Official Data Auto-Sync
 
 on:
   schedule:
-    # 매주 금요일 UTC 00:00 (한국 시간 매주 금요일 오전 9시)에 정기적으로 공식 홈페이지 패치 및 영웅 확인
-    - cron: '0 0 * * 5'
+    # 매일 UTC 00:00 (한국 시간 오전 9시)에 공식 홈페이지 확인
+    - cron: '0 0 * * *'
   # GitHub 웹사이트 Actions 탭에서 수동으로 즉시 1클릭 실행 가능
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: marvel-data-sync
+  cancel-in-progress: false
 
 jobs:
   sync-marvel-rivals:
@@ -45,6 +49,9 @@ jobs:
       - name: Validate Translations & Data Integrity
         run: node scripts/validate_translations.js
 
+      - name: Test Frontend Integration
+        run: node scripts/test_integration.js
+
       # 5. 변경 사항 감지 및 자동 커밋 & 푸시
       - name: Commit and Push if Changes Detected
         run: |
@@ -58,7 +65,7 @@ jobs:
           else
             echo "🚀 공식 홈페이지의 새로운 패치/영웅 업데이트가 감지되었습니다! 자동 커밋 및 배포를 진행합니다."
             git commit -m "Auto-sync: Marvel Rivals official patch update & hero stats sync"
-            git pull --rebase origin main
-            git push origin main
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
             echo "🎉 배포 성공!"
           fi

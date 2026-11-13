@@ -7,33 +7,23 @@
       "ko": "아담 워록",
       "ja": "アダム・ウォーロック"
     },
-    "role": "STRATEGIST",
+    "role": "DUELIST",
     "roles": [
-      "STRATEGIST"
+      "DUELIST"
     ],
     "role_name": {
-      "en": "Strategist",
-      "ko": "전략가 (지원)",
-      "ja": "ストラテジスト (サポート)"
+      "en": "Duelist",
+      "ko": "듀얼리스트 (공격)",
+      "ja": "デュエリスト (DPS)"
     },
-    "avatar": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/d21.png",
-    "full_img": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_21.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/select-card_eee141e0.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/avatar_e2f9f6e4.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
       "Movement Mode": "Ground"
     },
-    "raw_forms": [
-      {
-        "name": "ADAM WARLOCK",
-        "avatar": "",
-        "stats": {
-          "Health": "275",
-          "Movement Speed": "6 m/s",
-          "Movement Mode": "Ground"
-        }
-      }
-    ],
+    "raw_forms": [],
     "skills": [
       {
         "type": 1,
@@ -43,11 +33,10 @@
           "ko": "마우스 좌클릭",
           "ja": "左クリック"
         },
-        "name": "Quantum Magic",
-        "icon": "https://r.res.easebar.com/pic/20241120/996e6c76-b2b8-42c6-9e17-c74f25768123.png",
+        "name": "QUANTUM MAGIC",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/skills/strategist-01_93b63639.png",
         "description": "Launch quantum energy to deal damage",
         "stats": {
-          "Key": "Left Click",
           "Casting": "Single-cast direct hit",
           "Damage": "60 damage per round",
           "Damage Falloff": "Falloff begins at 20m, decreasing to 60% at 40m",
@@ -61,43 +50,39 @@
         }
       },
       {
-        "type": 2,
+        "type": 1,
         "form_index": 0,
-        "key": "Right Click",
+        "key": "F",
         "key_trans": {
-          "ko": "마우스 우클릭",
-          "ja": "右クリック"
+          "ko": "F",
+          "ja": "F"
         },
-        "name": "Cosmic Cluster",
-        "icon": "https://r.res.easebar.com/pic/20241120/cac2ca73-29e2-4ea4-87f9-1f1c0c24f382.png",
-        "description": "Gather quantum energy into a cluster and then swiftly launch it at the enemy",
+        "name": "KARMIC REVIVAL",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/skills/strategist-02_fe458efb.png",
+        "description": "Take to the skies, entering a flying state and swiftly surge forward",
         "stats": {
-          "Key": "Right Click",
-          "Casting": "Charged release, with multiple delayed projectiles",
-          "Damage": "35",
-          "Maximum Projectile Count": "5",
-          "Fire Rate": "The firing interval for a single charged shot is 0.3s, while the interval for multiple shots is 0.07s",
-          "Projectile Speed": "100 m/s",
-          "Special Effect": "Cosmic Cluster shares ammo with Quantum Magic, each hit reduces the cooldown of Avatar Life Stream by 0.6s."
+          "Movement Boost": "4m/s",
+          "Maximum Energy": "120",
+          "Energy Cost": "30/s",
+          "Energy Recovery Speed": "8/s"
         },
         "description_trans": {
-          "ko": "양자 에너지를 구체로 응축한 뒤 전방의 적에게 신속하게 발사합니다.",
-          "ja": "量子エネルギーを凝縮し、前方の敵へ素早く撃ち出す。"
+          "ko": "하늘로 날아올라 비행 상태에 돌입하며 전방으로 신속하게 급돌진합니다.",
+          "ja": "上空へ飛び立って飛行状態に入り、前方へ素早く急突進する。"
         }
       },
       {
-        "type": 2,
+        "type": 1,
         "form_index": 0,
         "key": "Q",
         "key_trans": {
           "ko": "Q (궁극기)",
           "ja": "Q (アルティメット)"
         },
-        "name": "Karmic Revival",
-        "icon": "https://r.res.easebar.com/pic/20241120/bedb33ea-a7d7-482f-a3ba-695afc84d7df.png",
+        "name": "KARMIC REVIVAL",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/skills/strategist-03_b4507da7.png",
         "description": "Awaken the karma of allies to revive them. Allies revived have lower health but enjoy a brief period of Invincibility",
         "stats": {
-          "Key": "Q",
           "Casting": "Persistent spell field that surrounds the caster",
           "Special Effect": "Revive allies within range, centered on Adam. Continuously monitor for fallen allies within this range; if they enter the area, they can be revived at the casting location",
           "Health Upon Revival": "Allies revived will be blessed with Bonus Health equal to 70% of their Maximum Health with a 5s duration. Bonus Health falloff begins at 5s, decreasing to 0 in 2s.",
@@ -111,18 +96,17 @@
         }
       },
       {
-        "type": 2,
+        "type": 1,
         "form_index": 0,
         "key": "SHIFT",
         "key_trans": {
           "ko": "Shift",
           "ja": "Shift"
         },
-        "name": "Soul Bond",
-        "icon": "https://r.res.easebar.com/pic/20241120/6d9c5f2f-ad6d-4f5e-9a1d-bf039b2d6fdc.png",
+        "name": "SOUL BOND",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/skills/strategist-04_da063bfd.png",
         "description": "Forge a soul bond with allies, granting Healing Over Time and distributing damage taken across the bond",
         "stats": {
-          "Key": "SHIFT",
           "Casting": "Instant Cast",
           "Special Effect 1": "Adam Warlock will share a portion of the damage sustained by linked allies. If Adam Warlock sustains damage that would KO him due to the link, then the link will be broken, and he will retain 1 Health. The link will also break once enough damage is sustained, if Adam Warlock or the linked ally leave the link's range, or after a certain length of time has passed",
           "Special Effect 2": "Adam can hover and attack during the ability's duration",
@@ -138,23 +122,22 @@
         }
       },
       {
-        "type": 2,
+        "type": 1,
         "form_index": 0,
         "key": "E",
         "key_trans": {
           "ko": "E",
           "ja": "E"
         },
-        "name": "Avatar Life Stream",
-        "icon": "https://r.res.easebar.com/pic/20241120/00ceedf0-0fab-45f5-bcb6-009797271b65.png",
+        "name": "AVATAR LIFE STREAM",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/skills/strategist-05_97cc78ae.png",
         "description": "Target an ally for a bouncing stream of healing energy, which also heals himself upon casting; self-targets if no ally is selected",
         "stats": {
-          "Key": "E",
           "Casting": "Targeted",
           "Special Effect": "Bouncing target does not include Adam Warlock",
           "Healing Amount": "95",
           "Healing Amount (Self)": "35",
-          "Number of Bounces": "2",
+          "Number Of Bounces": "2",
           "Range": "20m spherical radius",
           "Cooldown": "2 charges, with each charge taking 6s to recharge; when a critical hit lands on an enemy, reduce the cooldown time of Avatar Life Stream by 1s."
         },
@@ -164,30 +147,50 @@
         }
       },
       {
-        "type": 2,
+        "type": 1,
         "form_index": 0,
-        "key": "F",
+        "key": "Right Click",
         "key_trans": {
-          "ko": "F",
-          "ja": "F"
+          "ko": "마우스 우클릭",
+          "ja": "右クリック"
         },
-        "name": "Karmic Revival",
-        "icon": "https://r.res.easebar.com/pic/20260311/6c4e7eed-03e0-472a-a3a5-8f81cbd9cf4a.png",
-        "description": "Take to the skies, entering a flying state and swiftly surge forward",
+        "name": "COSMIC CLUSTER",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/skills/strategist-06_239d6e18.png",
+        "description": "Gather quantum energy into a cluster and then swiftly launch it at the enemy",
         "stats": {
-          "Key": "F",
-          "MOVEMENT BOOST": "4m/s",
-          "MAXIMUM ENERGY": "120",
-          "ENERGY COST": "30/s",
-          "ENERGY RECOVERY SPEED": "8/s"
+          "Casting": "Charged release, with multiple delayed projectiles",
+          "Damage": "35",
+          "Maximum Projectile Count": "5",
+          "Fire Rate": "The firing interval for a single charged shot is 0.3s, while the interval for multiple shots is 0.07s",
+          "Projectile Speed": "100 m/s",
+          "Special Effect": "Cosmic Cluster shares ammo with Quantum Magic, each hit reduces the cooldown of Avatar Life Stream by 0.6s."
         },
         "description_trans": {
-          "ko": "하늘로 날아올라 비행 상태에 돌입하며 전방으로 신속하게 급돌진합니다.",
-          "ja": "上空へ飛び立って飛行状態に入り、前方へ素早く急突進する。"
+          "ko": "양자 에너지를 구체로 응축한 뒤 전방의 적에게 신속하게 발사합니다.",
+          "ja": "量子エネルギーを凝縮し、前方の敵へ素早く撃ち出す。"
         }
       },
       {
-        "type": 3,
+        "type": 1,
+        "form_index": 0,
+        "key": "Passive",
+        "key_trans": {
+          "ko": "패시브",
+          "ja": "パッシブ"
+        },
+        "name": "REGENERATIVE COCOON",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/skills/strategist-07_03be18ba.png",
+        "description": "Once his body perishes, Adam Warlock can freely move as a soul and reforge his body at a chosen spot",
+        "stats": {
+          "Cooldown": "105s"
+        },
+        "description_trans": {
+          "ko": "육체가 쓰러지면 아담 워록은 영혼 상태로 자유롭게 이동하여 원하는 위치에서 육체를 재구성해 부활할 수 있습니다.",
+          "ja": "肉体が滅びると、魂の状態で自由に移動し、選んだ地点で肉体を再構築して蘇生できる。"
+        }
+      },
+      {
+        "type": 1,
         "form_index": 0,
         "key": "F",
         "key_trans": {
@@ -195,10 +198,9 @@
           "ja": "F"
         },
         "name": "HEAVENLY HARMONY",
-        "icon": "https://r.res.easebar.com/pic/20260323/aba481e1-c898-43e5-be33-be8393bae864.png",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/366w78k4i4gap/skills/strategist-08_2aeb8c71.png",
         "description": "Storm channels her elemental power into Adam Warlock. When Adam uses Soaring Surge, his movement speed is increased. While flying, Adam leaves behind a storm-charged trail that heals and speeds up allies within it",
         "stats": {
-          "Key": "F",
           "Movement Boost": "0.25",
           "Maximum Energy": "120",
           "Energy Cost": "30/s",
@@ -211,26 +213,6 @@
           "ko": "스톰이 원소의 힘을 아담 워록에게 주입합니다. 비행 돌진 시 이동 속도가 증가하며, 비행 경로에 아군을 치유하고 가속하는 폭풍 궤적을 남깁니다.",
           "ja": "ストームが元素の力をアダム・ウォーロックに注ぎ込む。飛行突進時に移動速度が上昇し、軌跡に味方を回復・加速させる嵐の軌道を残す。"
         }
-      },
-      {
-        "type": 2,
-        "form_index": 0,
-        "key": "Passive",
-        "key_trans": {
-          "ko": "패시브",
-          "ja": "パッシブ"
-        },
-        "name": "Regenerative Cocoon",
-        "icon": "https://r.res.easebar.com/pic/20241120/b85e229f-e718-4402-9c78-3ce82b3b5ee0.png",
-        "description": "Once his body perishes, Adam Warlock can freely move as a soul and reforge his body at a chosen spot",
-        "stats": {
-          "Key": "Passive",
-          "Cooldown": "105s"
-        },
-        "description_trans": {
-          "ko": "육체가 쓰러지면 아담 워록은 영혼 상태로 자유롭게 이동하여 원하는 위치에서 육체를 재구성해 부활할 수 있습니다.",
-          "ja": "肉体が滅びると、魂の状態で自由に移動し、選んだ地点で肉体を再構築して蘇生できる。"
-        }
       }
     ],
     "teamups": [
@@ -239,17 +221,16 @@
         "loadout_name": "COSMIC CYCLONE",
         "tier": "base",
         "name": "COSMIC CYCLONE",
-        "icon": "https://r.res.easebar.com/pic/20260707/a745d010-09f6-4db4-926b-cd913b112b6a.png",
-        "description": "Base Effect: Teammates linked by Soul Bond receive a Speed Boost.\n\t\t\tEnhanced Effect: When teaming up with Storm, linked teammates additionally gain a Damage Boost.",
-        "partner_avatar": "https://r.res.easebar.com/pic/20260707/1aa243db-2946-4b2f-acdb-1c305f0c19fe.png",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/0szgnvcxspazm-366w78k4i4gap/base_c8253b7f.png",
+        "description": "Base Effect: Teammates linked by Soul Bond receive a Speed Boost.\nEnhanced Effect: When teaming up with Storm, linked teammates additionally gain a Damage Boost.",
+        "partner_avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/0szgnvcxspazm-0y3irl675pm6t/avatar_01050541.png",
         "partner_name": {
           "en": "STORM",
           "ko": "스톰",
           "ja": "ストーム"
         },
-        "key": "Shift",
+        "key": "SHIFT",
         "stats": {
-          "Key": "Shift",
           "Movement Boost": "20%",
           "Soul Bond Range Increase": "5m"
         },
@@ -263,17 +244,16 @@
         "loadout_name": "COSMIC CYCLONE",
         "tier": "enhanced",
         "name": "COSMIC CYCLONE",
-        "icon": "https://r.res.easebar.com/pic/20260707/a745d010-09f6-4db4-926b-cd913b112b6a.png",
-        "description": "Base Effect: Teammates linked by Soul Bond receive a Speed Boost.\n\t\t\tEnhanced Effect: When teaming up with Storm, linked teammates additionally gain a Damage Boost.",
-        "partner_avatar": "https://r.res.easebar.com/pic/20260707/1aa243db-2946-4b2f-acdb-1c305f0c19fe.png",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/0szgnvcxspazm-366w78k4i4gap/base_c8253b7f.png",
+        "description": "Base Effect: Teammates linked by Soul Bond receive a Speed Boost.\nEnhanced Effect: When teaming up with Storm, linked teammates additionally gain a Damage Boost.",
+        "partner_avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/0szgnvcxspazm-0y3irl675pm6t/avatar_01050541.png",
         "partner_name": {
           "en": "STORM",
           "ko": "스톰",
           "ja": "ストーム"
         },
-        "key": "Shift",
+        "key": "SHIFT",
         "stats": {
-          "Key": "Shift",
           "Damage Boost": "12%",
           "Movement Boost": "30%"
         },
@@ -287,9 +267,9 @@
         "loadout_name": "FLAWLESS DESIGN",
         "tier": "base",
         "name": "FLAWLESS DESIGN",
-        "icon": "https://r.res.easebar.com/pic/20260707/fb9dc6cd-3fe2-4e72-98b4-02a74ef8775a.png",
-        "description": "Base Effect: Cosmic Cluster now provides healing to allies.\n\t\t\tEnhanced Effect: When teaming up with Ultron, Cosmic Cluster creates an explosion upon impact.",
-        "partner_avatar": "https://r.res.easebar.com/pic/20260707/98c85a5a-4d58-4c35-ad2c-b5ed855511f2.png",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/3967ycx3ftnjf-366w78k4i4gap/base_6d012c1f.png",
+        "description": "Base Effect: Cosmic Cluster now provides healing to allies.\nEnhanced Effect: When teaming up with Ultron, Cosmic Cluster creates an explosion upon impact.",
+        "partner_avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/3967ycx3ftnjf-366w78k4i4gap/avatar_fe7225d9.png",
         "partner_name": {
           "en": "ULTRON",
           "ko": "울트론",
@@ -297,8 +277,7 @@
         },
         "key": "Right Click",
         "stats": {
-          "Key": "Right Click",
-          "Healing to Allies Hit by Cosmic Cluster": "18 per round",
+          "Healing To Allies Hit By Cosmic Cluster": "18 per round",
           "Quantum Magic Ammo Increase": "10"
         },
         "description_trans": {
@@ -311,9 +290,9 @@
         "loadout_name": "FLAWLESS DESIGN",
         "tier": "enhanced",
         "name": "FLAWLESS DESIGN",
-        "icon": "https://r.res.easebar.com/pic/20260707/fb9dc6cd-3fe2-4e72-98b4-02a74ef8775a.png",
-        "description": "Base Effect: Cosmic Cluster now provides healing to allies.\n\t\t\tEnhanced Effect: When teaming up with Ultron, Cosmic Cluster creates an explosion upon impact.",
-        "partner_avatar": "https://r.res.easebar.com/pic/20260707/98c85a5a-4d58-4c35-ad2c-b5ed855511f2.png",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/3967ycx3ftnjf-366w78k4i4gap/base_6d012c1f.png",
+        "description": "Base Effect: Cosmic Cluster now provides healing to allies.\nEnhanced Effect: When teaming up with Ultron, Cosmic Cluster creates an explosion upon impact.",
+        "partner_avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/3967ycx3ftnjf-366w78k4i4gap/avatar_fe7225d9.png",
         "partner_name": {
           "en": "ULTRON",
           "ko": "울트론",
@@ -321,7 +300,6 @@
         },
         "key": "Right Click",
         "stats": {
-          "Key": "Right Click",
           "Spell Field Range": "3m spherical radius",
           "Spell Field Damage": "5/shot",
           "Spell Field Healing": "7/shot"
@@ -350,8 +328,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/2g4bea0bj96lx/card-image_e321be87.png",
-    "full_img": "../img/heroes/2g4bea0bj96lx/card-image_e321be87.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2g4bea0bj96lx/card-image_e321be87.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2g4bea0bj96lx/card-image_e321be87.png",
     "base_stats": {
       "Health": "350+200 Regenerative Shield",
       "Movement Speed": "6 m/s",
@@ -713,8 +691,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/03kacngf2fr99/card-image_3cd41880.png",
-    "full_img": "../img/heroes/03kacngf2fr99/card-image_3cd41880.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/03kacngf2fr99/card-image_3cd41880.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/03kacngf2fr99/card-image_3cd41880.png",
     "base_stats": {
       "Health": "150+125 Regenerative Shield",
       "Movement Speed": "6 m/s",
@@ -1675,8 +1653,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/2se8196a55ypo/card-image_678c485e.png",
-    "full_img": "../img/heroes/2se8196a55ypo/card-image_678c485e.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2se8196a55ypo/card-image_678c485e.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2se8196a55ypo/card-image_678c485e.png",
     "base_stats": {
       "Health": "150+125 Regenerative Shield",
       "Movement Speed": "7 m/s",
@@ -2000,8 +1978,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/023s6ao1s3qto/card-image_8aa2ff28.png",
-    "full_img": "../img/heroes/023s6ao1s3qto/card-image_8aa2ff28.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/023s6ao1s3qto/card-image_8aa2ff28.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/023s6ao1s3qto/card-image_8aa2ff28.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -2288,8 +2266,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/34s5ggd4at7n9/card-image_b0c37600.png",
-    "full_img": "../img/heroes/34s5ggd4at7n9/card-image_b0c37600.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/34s5ggd4at7n9/card-image_b0c37600.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/34s5ggd4at7n9/card-image_b0c37600.png",
     "base_stats": {
       "Health": "350",
       "Movement Speed": "6 m/s",
@@ -2625,8 +2603,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/2la9l05kjlraq/card-image_686d9071.png",
-    "full_img": "../img/heroes/2la9l05kjlraq/card-image_686d9071.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2la9l05kjlraq/card-image_686d9071.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2la9l05kjlraq/card-image_686d9071.png",
     "base_stats": {
       "Health": "350+300 Regenerative Shield",
       "Movement Speed": "6 m/s",
@@ -2979,8 +2957,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/26wq9lvvt43cn/card-image_0ccd51b5.png",
-    "full_img": "../img/heroes/26wq9lvvt43cn/card-image_0ccd51b5.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/26wq9lvvt43cn/card-image_0ccd51b5.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/26wq9lvvt43cn/card-image_0ccd51b5.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -3574,8 +3552,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/0fiivwpc3axbz/card-image_2e1f1caf.png",
-    "full_img": "../img/heroes/0fiivwpc3axbz/card-image_2e1f1caf.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0fiivwpc3axbz/card-image_2e1f1caf.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0fiivwpc3axbz/card-image_2e1f1caf.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -3905,8 +3883,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/0ecye05qgza4p/card-image_d2162092.png",
-    "full_img": "../img/heroes/0ecye05qgza4p/card-image_d2162092.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0ecye05qgza4p/card-image_d2162092.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0ecye05qgza4p/card-image_d2162092.png",
     "base_stats": {
       "Health": "150+150 Regenerative Shield",
       "Movement Speed": "6 m/s",
@@ -4265,8 +4243,8 @@
   {
     "id": "deadpool-vanguard",
     "name": "DEADPOOL (VANGUARD)",
-    "avatar": "../img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
-    "full_img": "../img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
     "names": {
       "en": "DEADPOOL (VANGUARD)",
       "ko": "데드풀 (뱅가드)",
@@ -4789,8 +4767,8 @@
   {
     "id": "deadpool-duelist",
     "name": "DEADPOOL (DUELIST)",
-    "avatar": "../img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
-    "full_img": "../img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
     "names": {
       "en": "DEADPOOL (DUELIST)",
       "ko": "데드풀 (듀얼리스트)",
@@ -5314,8 +5292,8 @@
   {
     "id": "deadpool-strategist",
     "name": "DEADPOOL (STRATEGIST)",
-    "avatar": "../img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
-    "full_img": "../img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
     "names": {
       "en": "DEADPOOL (STRATEGIST)",
       "ko": "데드풀 (전략가)",
@@ -5873,8 +5851,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/1udf35cfda1w5/card-image_e0b5f449.png",
-    "full_img": "../img/heroes/1udf35cfda1w5/card-image_e0b5f449.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1udf35cfda1w5/card-image_e0b5f449.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1udf35cfda1w5/card-image_e0b5f449.png",
     "base_stats": {
       "Health": "825",
       "Movement Speed": "6 m/s",
@@ -6221,8 +6199,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/1885sylnb9foa/card-image_02001222.png",
-    "full_img": "../img/heroes/1885sylnb9foa/card-image_02001222.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1885sylnb9foa/card-image_02001222.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1885sylnb9foa/card-image_02001222.png",
     "base_stats": {
       "Health": "650",
       "Movement Speed": "6 m/s",
@@ -6571,8 +6549,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/1a68bjjit9agr/card-image_b5a3e5e1.png",
-    "full_img": "../img/heroes/1a68bjjit9agr/card-image_b5a3e5e1.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1a68bjjit9agr/card-image_b5a3e5e1.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1a68bjjit9agr/card-image_b5a3e5e1.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -6952,8 +6930,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/1zvubw4gcz9v9/card-image_2cf2ec66.png",
-    "full_img": "../img/heroes/1zvubw4gcz9v9/card-image_2cf2ec66.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1zvubw4gcz9v9/card-image_2cf2ec66.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1zvubw4gcz9v9/card-image_2cf2ec66.png",
     "base_stats": {
       "Health": "675",
       "Movement Speed": "6 m/s",
@@ -7308,8 +7286,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/1e3akq165rqt0/card-image_f6ec2273.png",
-    "full_img": "../img/heroes/1e3akq165rqt0/card-image_f6ec2273.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1e3akq165rqt0/card-image_f6ec2273.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1e3akq165rqt0/card-image_f6ec2273.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -7949,8 +7927,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/3srgsedhnqwpy/card-image_e28af8be.png",
-    "full_img": "../img/heroes/3srgsedhnqwpy/card-image_e28af8be.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3srgsedhnqwpy/card-image_e28af8be.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3srgsedhnqwpy/card-image_e28af8be.png",
     "base_stats": {
       "Health": "175 Health + 175 Regenerative Shield",
       "Movement Speed": "6 m/s",
@@ -8262,8 +8240,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/3ab3nnuhj0l01/card-image_a0358056.png",
-    "full_img": "../img/heroes/3ab3nnuhj0l01/card-image_a0358056.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3ab3nnuhj0l01/card-image_a0358056.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3ab3nnuhj0l01/card-image_a0358056.png",
     "base_stats": {
       "Health": "850",
       "Movement Speed": "6 m/s",
@@ -8595,8 +8573,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/0k4tfqxvuk48o/card-image_edca8354.png",
-    "full_img": "../img/heroes/0k4tfqxvuk48o/card-image_edca8354.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0k4tfqxvuk48o/card-image_edca8354.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0k4tfqxvuk48o/card-image_edca8354.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -8963,8 +8941,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/2ggfqgft8uagz/card-image_15b64b28.png",
-    "full_img": "../img/heroes/2ggfqgft8uagz/card-image_15b64b28.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2ggfqgft8uagz/card-image_15b64b28.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2ggfqgft8uagz/card-image_15b64b28.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -9329,8 +9307,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/26wbd16jct7y3/card-image_6fdeb0f0.png",
-    "full_img": "../img/heroes/26wbd16jct7y3/card-image_6fdeb0f0.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/26wbd16jct7y3/card-image_6fdeb0f0.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/26wbd16jct7y3/card-image_6fdeb0f0.png",
     "base_stats": {
       "Health": "400+300 Regenerative Shield",
       "Movement Speed": "6.5 m/s",
@@ -10172,8 +10150,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/0y3irl675pm6t/card-image_608356c8.png",
-    "full_img": "../img/heroes/0y3irl675pm6t/card-image_608356c8.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0y3irl675pm6t/card-image_608356c8.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0y3irl675pm6t/card-image_608356c8.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -10544,8 +10522,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/2zwnmbtspadzd/card-image_9520ed32.png",
-    "full_img": "../img/heroes/2zwnmbtspadzd/card-image_9520ed32.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2zwnmbtspadzd/card-image_9520ed32.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2zwnmbtspadzd/card-image_9520ed32.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -10881,8 +10859,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/3qm0npe20wgl7/card-image_d561d035.png",
-    "full_img": "../img/heroes/3qm0npe20wgl7/card-image_d561d035.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3qm0npe20wgl7/card-image_d561d035.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3qm0npe20wgl7/card-image_d561d035.png",
     "base_stats": {
       "Health": "300",
       "Movement Speed": "6 m/s",
@@ -11256,8 +11234,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/2dtihs4hzomix/card-image_28913c87.png",
-    "full_img": "../img/heroes/2dtihs4hzomix/card-image_28913c87.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2dtihs4hzomix/card-image_28913c87.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2dtihs4hzomix/card-image_28913c87.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -11677,8 +11655,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/0qmdlat6ntsoy/card-image_423cad6f.png",
-    "full_img": "../img/heroes/0qmdlat6ntsoy/card-image_423cad6f.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0qmdlat6ntsoy/card-image_423cad6f.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0qmdlat6ntsoy/card-image_423cad6f.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -12068,8 +12046,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/0v334i0a6c44e/card-image_9472d62d.png",
-    "full_img": "../img/heroes/0v334i0a6c44e/card-image_9472d62d.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0v334i0a6c44e/card-image_9472d62d.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0v334i0a6c44e/card-image_9472d62d.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -12369,8 +12347,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/1d6lxkihe5j49/card-image_f0c76423.png",
-    "full_img": "../img/heroes/1d6lxkihe5j49/card-image_f0c76423.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1d6lxkihe5j49/card-image_f0c76423.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1d6lxkihe5j49/card-image_f0c76423.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -12712,8 +12690,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/2medpbnf8yfaj/card-image_fb3de11b.png",
-    "full_img": "../img/heroes/2medpbnf8yfaj/card-image_fb3de11b.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2medpbnf8yfaj/card-image_fb3de11b.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2medpbnf8yfaj/card-image_fb3de11b.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -13090,8 +13068,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/28nlw6cpjo8pz/card-image_6605830b.png",
-    "full_img": "../img/heroes/28nlw6cpjo8pz/card-image_6605830b.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/28nlw6cpjo8pz/card-image_6605830b.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/28nlw6cpjo8pz/card-image_6605830b.png",
     "base_stats": {
       "Health": "150+125 Regenerative Shield",
       "Movement Speed": "6 m/s",
@@ -13862,8 +13840,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/0wgpqtfwmiobl/card-image_148a420c.png",
-    "full_img": "../img/heroes/0wgpqtfwmiobl/card-image_148a420c.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0wgpqtfwmiobl/card-image_148a420c.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0wgpqtfwmiobl/card-image_148a420c.png",
     "base_stats": {
       "Health": "600",
       "Movement Speed": "6 m/s",
@@ -14208,8 +14186,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/25xs3w66dq13a/card-image_b5606f0d.png",
-    "full_img": "../img/heroes/25xs3w66dq13a/card-image_b5606f0d.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/25xs3w66dq13a/card-image_b5606f0d.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/25xs3w66dq13a/card-image_b5606f0d.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -14549,8 +14527,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/109bxrqivqg25/card-image_640636d6.png",
-    "full_img": "../img/heroes/109bxrqivqg25/card-image_640636d6.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/109bxrqivqg25/card-image_640636d6.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/109bxrqivqg25/card-image_640636d6.png",
     "base_stats": {
       "Health": "375",
       "Movement Speed": "6 m/s",
@@ -14878,8 +14856,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/0n19dqb03eafq/card-image_1946c3b7.png",
-    "full_img": "../img/heroes/0n19dqb03eafq/card-image_1946c3b7.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0n19dqb03eafq/card-image_1946c3b7.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0n19dqb03eafq/card-image_1946c3b7.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -15242,8 +15220,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/14srzf1eun6qj/card-image_54d9f853.png",
-    "full_img": "../img/heroes/14srzf1eun6qj/card-image_54d9f853.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/14srzf1eun6qj/card-image_54d9f853.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/14srzf1eun6qj/card-image_54d9f853.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -15544,6 +15522,301 @@
     ]
   },
   {
+    "id": "2mpwiwa9ct6hn",
+    "name": "NIGHTCRAWLER",
+    "names": {
+      "en": "NIGHTCRAWLER",
+      "ko": "나이트크롤러",
+      "ja": "ナイトクローラー"
+    },
+    "role": "STRATEGIST",
+    "roles": [
+      "STRATEGIST"
+    ],
+    "role_name": {
+      "en": "Strategist",
+      "ko": "전략가 (지원)",
+      "ja": "ストラテジスト (サポート)"
+    },
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/card-image_4f49e4f5.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/card-image_4f49e4f5.png",
+    "base_stats": {
+      "Health": "275",
+      "Movement Speed": "6 m/s",
+      "Movement Mode": "Ground"
+    },
+    "raw_forms": [],
+    "skills": [
+      {
+        "type": 1,
+        "form_index": 0,
+        "key": "Left Click",
+        "key_trans": {
+          "ko": "마우스 좌클릭",
+          "ja": "左クリック"
+        },
+        "name": "FORGED BRIMSTONE",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/skills/strategist-01_0a6e990c.png",
+        "description": "Toss 3 consecutive grenades forward that explode on impact, damaging enemies while healing allies.",
+        "stats": {
+          "Damage": "10 on impact, 15 in the spell field",
+          "Attack Interval": "0.9s per 3 shots",
+          "Healing Amount": "10 on impact, 30 in the spell field"
+        },
+        "description_trans": {
+          "ko": "전방으로 수류탄 3개를 연속으로 던집니다. 수류탄은 충돌 시 폭발하여 적에게 피해를 주고 아군을 치유합니다.",
+          "ja": "前方にグレネードを3発連続で投げる。着弾時に爆発し、敵にダメージを与え、味方を回復する。"
+        }
+      },
+      {
+        "type": 1,
+        "form_index": 0,
+        "key": "Right Click",
+        "key_trans": {
+          "ko": "마우스 우클릭",
+          "ja": "右クリック"
+        },
+        "name": "THREE-SWORD STYLE",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/skills/strategist-02_c55c3ad6.png",
+        "description": "Strike forward with continuous thrusts using two cutlasses and the Hopesword. Can deal critical damage.",
+        "stats": {
+          "Maximum Energy": "60",
+          "Energy Cost": "20/s",
+          "Energy Recovery Speed": "10/s",
+          "Damage": "11 per thrust",
+          "Critical Damage": "150%",
+          "Maximum Range": "7m",
+          "Thrust Frequency": "9 thrusts/s"
+        },
+        "description_trans": {
+          "ko": "두 자루의 커틀러스와 희망의 검으로 전방을 연속해서 찌릅니다. 치명타를 가할 수 있습니다.",
+          "ja": "2本のカットラスとホープソードで前方を連続して突く。クリティカルダメージを与えられる。"
+        }
+      },
+      {
+        "type": 1,
+        "form_index": 0,
+        "key": "SHIFT",
+        "key_trans": {
+          "ko": "Shift",
+          "ja": "Shift"
+        },
+        "name": "SWIFT INTERVENTION",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/skills/strategist-03_4e6b2bc1.png",
+        "description": "Target an ally and teleport to their side, granting them a one-time heal, Healing Boost, and Healing Over Time.",
+        "stats": {
+          "Cooldown": "2 charges, with each charge taking 12s to recharge.",
+          "Interval Between Uses": "2s",
+          "Maximum Targeting Range": "20m",
+          "Instant Healing To Ally": "50",
+          "Healing Over Time To Self And Ally": "25/sec for 4 seconds",
+          "Healing Boost": "20% for 4s",
+          "Invincibility Duration": "0.5s"
+        },
+        "description_trans": {
+          "ko": "아군을 지정해 곁으로 순간이동하고 즉시 치유, 치유량 증가, 지속 치유 효과를 부여합니다.",
+          "ja": "味方を指定してその傍にテレポートし、即時回復、回復量アップ、継続回復を付与する。"
+        }
+      },
+      {
+        "type": 1,
+        "form_index": 0,
+        "key": "E",
+        "key_trans": {
+          "ko": "E",
+          "ja": "E"
+        },
+        "name": "SMOKE SHIFT",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/skills/strategist-04_31e7d3f7.png",
+        "description": "Mark your starting point with brimstone smoke and dash forward in a spinning slash to deal damage. The dash creates a smoke blast that damages and Launches enemies while healing allies. Can be recast shortly after; the third activation teleports you back to the initial mark.",
+        "stats": {
+          "Cooldown": "15s",
+          "Dash Distance": "10m",
+          "Slash Damage": "45",
+          "Dash Damage": "15",
+          "Smoke Explosion Damage": "15",
+          "Smoke Healing To Allies": "50",
+          "Slash Range": "6m radius",
+          "Recast Window": "4s"
+        },
+        "description_trans": {
+          "ko": "출발 지점을 유황 연기로 표시하고 회전 베기와 함께 전방으로 돌진해 피해를 줍니다. 돌진 중 발생한 연기 폭발은 적에게 피해를 주고 띄우며 아군을 치유합니다. 잠시 후 재사용할 수 있으며 세 번째 사용 시 처음 표시한 지점으로 순간이동합니다.",
+          "ja": "出発地点を硫黄の煙でマークし、回転斬りで前方に突進してダメージを与える。突進時の煙の爆発は敵にダメージを与えて打ち上げ、味方を回復する。短時間以内に再発動でき、3回目の発動で最初のマークへテレポートする。"
+        }
+      },
+      {
+        "type": 1,
+        "form_index": 0,
+        "key": "F",
+        "key_trans": {
+          "ko": "F",
+          "ja": "F"
+        },
+        "name": "TANDEM TELEPORT",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/skills/strategist-05_d3c26b97.png",
+        "description": "Send an invitation to an ally. Upon confirmation, teleport to their side and pull them back to your original location, granting both instant Healing and Healing Over Time.",
+        "stats": {
+          "Cooldown": "15s",
+          "Maximum Select Distance": "20m",
+          "Instant Healing To Ally": "50",
+          "Healing Over Time Amount": "25/sec for 4 seconds",
+          "Speed Boost": "20% for 4s",
+          "Invincibility Duration": "1s",
+          "Maximum Teleport Distance": "25m"
+        },
+        "description_trans": {
+          "ko": "아군에게 초대를 보냅니다. 아군이 수락하면 그 곁으로 순간이동한 뒤 원래 위치로 함께 돌아오며, 둘 모두에게 즉시 치유와 지속 치유를 부여합니다.",
+          "ja": "味方に招待を送る。承諾されるとその傍へテレポートし、元の位置へ連れ戻す。2人とも即時回復と継続回復を得る。"
+        }
+      },
+      {
+        "type": 1,
+        "form_index": 0,
+        "key": "Passive",
+        "key_trans": {
+          "ko": "패시브",
+          "ja": "パッシブ"
+        },
+        "name": "CRAWLER CLING",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/skills/strategist-06_da8b898a.png",
+        "description": "Press the Jump key to crawl on vertical surfaces.",
+        "stats": {
+          "Effect": "Can cling to walls and crawl freely."
+        },
+        "description_trans": {
+          "ko": "점프 키를 눌러 수직 벽면을 기어다닙니다.",
+          "ja": "ジャンプキーを押すと垂直な壁面を這って移動できる。"
+        }
+      },
+      {
+        "type": 1,
+        "form_index": 0,
+        "key": "Q",
+        "key_trans": {
+          "ko": "Q (궁극기)",
+          "ja": "Q (アルティメット)"
+        },
+        "name": "PHASING FINALE",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/skills/strategist-07_d593cc8d.png",
+        "description": "Select a target location to teleport all nearby allies there one by one, granting them Damage Boost and Healing Over Time while creating a Smoke Domain at the destination. Cast again to teleport to and slash all enemies within the Smoke Domain, pulling them to your location.",
+        "stats": {
+          "Energy Cost": "4500",
+          "Maximum Select Distance": "30m",
+          "Teleport Range": "20m radius",
+          "Landing Spread Radius": "Vanguards 4m / Duelists 2.5m / Strategists 0.75m",
+          "Damage Boost": "20% for 10s",
+          "Bonus Health": "200; an additional 200 upon landing after teleportation",
+          "Healing Over Time Amount": "50/sec for 10 seconds",
+          "Enemy Teleport Range": "15m radius",
+          "Second-Stage Damage": "60"
+        },
+        "description_trans": {
+          "ko": "목표 지점을 선택하면 주변 아군을 한 명씩 그곳으로 순간이동시키고 공격력 증가와 지속 치유를 부여하며, 도착 지점에 연기 영역을 생성합니다. 다시 사용하면 영역 안의 모든 적에게 순간이동해 베고 자신의 위치로 끌어당깁니다.",
+          "ja": "目標地点を選ぶと、周囲の味方を1人ずつそこへテレポートさせ、ダメージアップと継続回復を付与し、到着地点に煙の領域を作る。再発動すると領域内の全敵にテレポートして斬りつけ、自分の位置へ引き寄せる。"
+        }
+      }
+    ],
+    "teamups": [
+      {
+        "loadout_number": 1,
+        "loadout_name": "PROTECTIVE SIBLINGS",
+        "tier": "base",
+        "name": "PROTECTIVE SIBLINGS",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/2mpwiwa9ct6hn-0arjd4dso01gy/base_697c9274.png",
+        "description": "Base Effect: Rogue infuses Nightcrawler with Chronovium Power. Upon activation, briefly vanish, and the energy radiates outward from your vanishing point, damaging enemies and healing allies. After a short delay, reappear above your original location, slamming down with three swords to deal secondary damage and apply a Slow to enemies in range.\nEnhanced Effect: When teaming up with Rogue, the Chronovium Power is recalled after the downward thrust. The recall heals allies, damages enemies, and Launches enemies toward you.",
+        "partner_avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/2mpwiwa9ct6hn-0arjd4dso01gy/avatar_e27d0aeb.png",
+        "partner_name": {
+          "en": "ROGUE",
+          "ko": "로그",
+          "ja": "ローグ"
+        },
+        "key": "C",
+        "stats": {
+          "Cooldown": "15s",
+          "Damage": "15",
+          "Healing Amount": "50",
+          "Range": "5m radius",
+          "Slam Down Damage": "40",
+          "Slam Down Range": "3m radius"
+        },
+        "description_trans": {
+          "ko": "로그가 나이트크롤러에게 크로노비움의 힘을 부여합니다. 사용 시 잠시 사라지며 사라진 지점에서 에너지가 퍼져 적에게 피해를 주고 아군을 치유합니다. 잠시 후 원래 위치 위에 나타나 세 자루의 검으로 내려찍어 추가 피해를 주고 범위 안의 적을 둔화시킵니다.",
+          "ja": "ローグがナイトクローラーにクロノビウムの力を与える。発動時に一瞬姿を消し、その地点からエネルギーが広がって敵にダメージを与え、味方を回復する。少し後に元の位置の上空に現れ、3本の剣で叩きつけて追加ダメージを与え、範囲内の敵を減速させる。"
+        }
+      },
+      {
+        "loadout_number": 1,
+        "loadout_name": "PROTECTIVE SIBLINGS",
+        "tier": "enhanced",
+        "name": "PROTECTIVE SIBLINGS",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/2mpwiwa9ct6hn-0arjd4dso01gy/enhanced_97a26467.png",
+        "description": "Base Effect: Rogue infuses Nightcrawler with Chronovium Power. Upon activation, briefly vanish, and the energy radiates outward from your vanishing point, damaging enemies and healing allies. After a short delay, reappear above your original location, slamming down with three swords to deal secondary damage and apply a Slow to enemies in range.\nEnhanced Effect: When teaming up with Rogue, the Chronovium Power is recalled after the downward thrust. The recall heals allies, damages enemies, and Launches enemies toward you.",
+        "partner_avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/2mpwiwa9ct6hn-0arjd4dso01gy/avatar_e27d0aeb.png",
+        "partner_name": {
+          "en": "ROGUE",
+          "ko": "로그",
+          "ja": "ローグ"
+        },
+        "key": "C",
+        "stats": {
+          "Damage": "30",
+          "Healing Amount": "30",
+          "Range": "8m radius"
+        },
+        "description_trans": {
+          "ko": "로그와 함께하면 내려찍은 후 크로노비움의 힘이 돌아옵니다. 돌아오는 힘은 아군을 치유하고 적에게 피해를 주며 자신 쪽으로 띄워 보냅니다.",
+          "ja": "ローグとのチームアップ時、叩きつけの後にクロノビウムの力が戻る。戻る力は味方を回復し、敵にダメージを与えて自分の方向へ打ち上げる。"
+        }
+      },
+      {
+        "loadout_number": 2,
+        "loadout_name": "DEMON DISCIPLE",
+        "tier": "base",
+        "name": "DEMON DISCIPLE",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/2mpwiwa9ct6hn-28nlw6cpjo8pz/base_cb77700e.png",
+        "description": "Base Effect: Magik empowers Nightcrawler with Limbo's demonic magic. Each spatial warp (all 3 stages of Smoke Shift, both stages of Tandem Teleport, or the single stage of Swift Intervention) generates a spell field that damages enemies and heals allies.\nEnhanced Effect: When teaming up with Magik, every warp also coalesces demonic armor, granting Bonus Health.",
+        "partner_avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/2mpwiwa9ct6hn-28nlw6cpjo8pz/avatar_02e17111.png",
+        "partner_name": {
+          "en": "MAGIK",
+          "ko": "매직",
+          "ja": "マジック"
+        },
+        "key": "Passive",
+        "stats": {
+          "Damage": "10",
+          "Healing Amount": "40",
+          "Range": "8m radius"
+        },
+        "description_trans": {
+          "ko": "매직이 나이트크롤러에게 림보의 악마 마법을 부여합니다. 공간 이동할 때마다 연기 이동의 세 단계, 동반 순간이동의 두 단계, 신속한 개입 각각에서 적에게 피해를 주고 아군을 치유하는 영역이 생성됩니다.",
+          "ja": "マジックがナイトクローラーにリンボの悪魔の魔法を与える。空間移動するたびに、スモークシフトの全3段階、タンデムテレポートの両段階、スウィフトインターベンションそれぞれで、敵にダメージを与え味方を回復する領域を生成する。"
+        }
+      },
+      {
+        "loadout_number": 2,
+        "loadout_name": "DEMON DISCIPLE",
+        "tier": "enhanced",
+        "name": "DEMON DISCIPLE",
+        "icon": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/2mpwiwa9ct6hn-28nlw6cpjo8pz/enhanced_cb77700e.png",
+        "description": "Base Effect: Magik empowers Nightcrawler with Limbo's demonic magic. Each spatial warp (all 3 stages of Smoke Shift, both stages of Tandem Teleport, or the single stage of Swift Intervention) generates a spell field that damages enemies and heals allies.\nEnhanced Effect: When teaming up with Magik, every warp also coalesces demonic armor, granting Bonus Health.",
+        "partner_avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/teamups/2mpwiwa9ct6hn-28nlw6cpjo8pz/avatar_02e17111.png",
+        "partner_name": {
+          "en": "MAGIK",
+          "ko": "매직",
+          "ja": "マジック"
+        },
+        "key": "Passive",
+        "stats": {
+          "Bonus Health": "25"
+        },
+        "description_trans": {
+          "ko": "매직과 함께하면 공간 이동할 때마다 악마의 갑옷이 형성되어 추가 체력을 얻습니다.",
+          "ja": "マジックとのチームアップ時、空間移動するたびに悪魔の鎧が形成され、ボーナス体力を得る。"
+        }
+      }
+    ]
+  },
+  {
     "id": "3d57v7spb7z92",
     "name": "PENI PARKER",
     "names": {
@@ -15560,8 +15833,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/3d57v7spb7z92/card-image_683137ac.png",
-    "full_img": "../img/heroes/3d57v7spb7z92/card-image_683137ac.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3d57v7spb7z92/card-image_683137ac.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3d57v7spb7z92/card-image_683137ac.png",
     "base_stats": {
       "Health": "650",
       "Movement Speed": "6 m/s",
@@ -15927,8 +16200,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/3jcs8kuv4wzpi/card-image_76c336f2.png",
-    "full_img": "../img/heroes/3jcs8kuv4wzpi/card-image_76c336f2.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3jcs8kuv4wzpi/card-image_76c336f2.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3jcs8kuv4wzpi/card-image_76c336f2.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -16220,8 +16493,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/0igyncbe3223v/card-image_f8616ce0.png",
-    "full_img": "../img/heroes/0igyncbe3223v/card-image_f8616ce0.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0igyncbe3223v/card-image_f8616ce0.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0igyncbe3223v/card-image_f8616ce0.png",
     "base_stats": {
       "Health": "150+100 Regenerative Shield",
       "Movement Speed": "6 m/s",
@@ -16526,8 +16799,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/1r7dptnv9wuzj/card-image_f33ea278.png",
-    "full_img": "../img/heroes/1r7dptnv9wuzj/card-image_f33ea278.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1r7dptnv9wuzj/card-image_f33ea278.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1r7dptnv9wuzj/card-image_f33ea278.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -16863,8 +17136,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/0arjd4dso01gy/card-image_55754f08.png",
-    "full_img": "../img/heroes/0arjd4dso01gy/card-image_55754f08.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0arjd4dso01gy/card-image_55754f08.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0arjd4dso01gy/card-image_55754f08.png",
     "base_stats": {
       "Health": "350+275 Regenerative Shield",
       "Movement Speed": "6 m/s",
@@ -17213,8 +17486,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/20s4uxvi8x721/card-image_02720cef.png",
-    "full_img": "../img/heroes/20s4uxvi8x721/card-image_02720cef.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/20s4uxvi8x721/card-image_02720cef.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/20s4uxvi8x721/card-image_02720cef.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -17587,8 +17860,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/0lnmr1uivtdwz/card-image_3c6c38df.png",
-    "full_img": "../img/heroes/0lnmr1uivtdwz/card-image_3c6c38df.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0lnmr1uivtdwz/card-image_3c6c38df.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0lnmr1uivtdwz/card-image_3c6c38df.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -18000,8 +18273,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/2oorwtc594su0/card-image_41f3e602.png",
-    "full_img": "../img/heroes/2oorwtc594su0/card-image_41f3e602.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2oorwtc594su0/card-image_41f3e602.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2oorwtc594su0/card-image_41f3e602.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -18288,8 +18561,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/1w5x2xvuh39tq/card-image_70220e4b.png",
-    "full_img": "../img/heroes/1w5x2xvuh39tq/card-image_70220e4b.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1w5x2xvuh39tq/card-image_70220e4b.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1w5x2xvuh39tq/card-image_70220e4b.png",
     "base_stats": {
       "Health": "150+125 Regenerative Shield",
       "Movement Speed": "6 m/s",
@@ -18578,8 +18851,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/0szgnvcxspazm/card-image_93cea5ec.png",
-    "full_img": "../img/heroes/0szgnvcxspazm/card-image_93cea5ec.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0szgnvcxspazm/card-image_93cea5ec.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0szgnvcxspazm/card-image_93cea5ec.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -18885,8 +19158,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/1bw3qyyoyzg69/card-image_fd105a46.png",
-    "full_img": "../img/heroes/1bw3qyyoyzg69/card-image_fd105a46.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1bw3qyyoyzg69/card-image_fd105a46.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/1bw3qyyoyzg69/card-image_fd105a46.png",
     "base_stats": {
       "Health": "550",
       "Movement Speed": "6 m/s",
@@ -19207,8 +19480,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/004fazux9pvyb/card-image_6f240dc4.png",
-    "full_img": "../img/heroes/004fazux9pvyb/card-image_6f240dc4.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/004fazux9pvyb/card-image_6f240dc4.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/004fazux9pvyb/card-image_6f240dc4.png",
     "base_stats": {
       "Health": "300",
       "Movement Speed": "6 m/s",
@@ -19600,8 +19873,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/3g61jk7soo18x/card-image_4f2df36a.png",
-    "full_img": "../img/heroes/3g61jk7soo18x/card-image_4f2df36a.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3g61jk7soo18x/card-image_4f2df36a.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3g61jk7soo18x/card-image_4f2df36a.png",
     "base_stats": {
       "Health": "725",
       "Movement Speed": "6 m/s",
@@ -19983,8 +20256,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/0eez9a3uaamlz/card-image_b7e4a10f.png",
-    "full_img": "../img/heroes/0eez9a3uaamlz/card-image_b7e4a10f.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0eez9a3uaamlz/card-image_b7e4a10f.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0eez9a3uaamlz/card-image_b7e4a10f.png",
     "base_stats": {
       "Health": "300+300 Regenerative Shield",
       "Movement Speed": "6.5 m/s",
@@ -20328,8 +20601,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/3967ycx3ftnjf/card-image_dedc2d02.png",
-    "full_img": "../img/heroes/3967ycx3ftnjf/card-image_dedc2d02.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3967ycx3ftnjf/card-image_dedc2d02.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/3967ycx3ftnjf/card-image_dedc2d02.png",
     "base_stats": {
       "Health": "250",
       "Movement Speed": "6 m/s",
@@ -20639,8 +20912,8 @@
       "ko": "뱅가드 (돌격)",
       "ja": "ヴァンガード (タンク)"
     },
-    "avatar": "../img/heroes/0igspdjvuz3u1/card-image_83f0b04b.png",
-    "full_img": "../img/heroes/0igspdjvuz3u1/card-image_83f0b04b.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0igspdjvuz3u1/card-image_83f0b04b.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0igspdjvuz3u1/card-image_83f0b04b.png",
     "base_stats": {
       "Health": "500+250 Regenerative Shield",
       "Movement Speed": "6 m/s",
@@ -20965,8 +21238,8 @@
       "ko": "전략가 (지원)",
       "ja": "ストラテジスト (サポート)"
     },
-    "avatar": "../img/heroes/0jhzg2kej6tzh/card-image_fc50f81c.png",
-    "full_img": "../img/heroes/0jhzg2kej6tzh/card-image_fc50f81c.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0jhzg2kej6tzh/card-image_fc50f81c.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/0jhzg2kej6tzh/card-image_fc50f81c.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -21682,8 +21955,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/29jechwuy3hum/card-image_dea0a964.png",
-    "full_img": "../img/heroes/29jechwuy3hum/card-image_dea0a964.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/29jechwuy3hum/card-image_dea0a964.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/29jechwuy3hum/card-image_dea0a964.png",
     "base_stats": {
       "Health": "275",
       "Movement Speed": "6 m/s",
@@ -21999,8 +22272,8 @@
       "ko": "듀얼리스트 (공격)",
       "ja": "デュエリスト (DPS)"
     },
-    "avatar": "../img/heroes/09hxm7p0c7nmn/card-image_f795543f.png",
-    "full_img": "../img/heroes/09hxm7p0c7nmn/card-image_f795543f.png",
+    "avatar": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/09hxm7p0c7nmn/card-image_f795543f.png",
+    "full_img": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/09hxm7p0c7nmn/card-image_f795543f.png",
     "base_stats": {
       "Health": "350",
       "Movement Speed": "7 m/s",

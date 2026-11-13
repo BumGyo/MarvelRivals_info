@@ -13,17 +13,17 @@ import os
 import sys
 import re
 import json
-import ssl
 import urllib.request
+import time
+from urllib.parse import urljoin
 from html import unescape
 from html.parser import HTMLParser
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-ctx = ssl._create_unverified_context()
-
 BASE_URL = "https://www.marvelrivals.com/heroes/index.html?heroId=0"
 
 HERO_NAMES = {
+    "NIGHTCRAWLER": {"ko": "나이트크롤러", "ja": "ナイトクローラー"},
     "The Hood": {"ko": "더 후드", "ja": "ザ・フッド"},
     "Jubilation Lee": {"ko": "쥬빌리", "ja": "ジュビリー"},
     "Jubilee": {"ko": "쥬빌리", "ja": "ジュビリー"},
@@ -253,29 +253,43 @@ class TreeBuilder(HTMLParser):
 
 def fetch_url(url, timeout=15):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"})
-    with urllib.request.urlopen(req, context=ctx, timeout=timeout) as resp:
-        return resp.read().decode("utf-8", errors="replace")
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except (OSError, TimeoutError):
+            if attempt == 2:
+                raise
+            time.sleep(2 ** attempt)
 
 
 def parse_hero_list():
     html = fetch_url(BASE_URL)
-    pattern = r'<a\s+[^>]*data-url="([^"]*)"[^>]*data-id="([^"]+)"[^>]*data-tag="([^"]*)"[^>]*title="([^"]+)"[^>]*>(.*?)</a>'
-    items = re.findall(pattern, html, re.DOTALL)
+    static_match = re.search(r'https://www\.marvelrivals\.com/pc/gw/[^/"\s]+/img/heroes/', html)
+    if not static_match:
+        raise RuntimeError('[ABORT] Official hero image base URL not found.')
+    image_base = static_match.group(0).split('/img/heroes/')[0] + '/heroes/'
+    builder = TreeBuilder()
+    builder.feed(html)
+    items = builder.root.find_all("a")
 
     heroes = []
     seen = set()
-    for url, hid, tag, title, inner in items:
-        title = unescape(title).strip()
-        url = url.strip()
+    for item in items:
+        url = item.attrs.get("data-url", "").strip()
+        hid = item.attrs.get("data-id", "")
+        tag = item.attrs.get("data-tag", "")
+        title = unescape(item.attrs.get("title", "")).strip()
         # Skip entries without valid URL (e.g. teasers like Nightcrawler)
-        if not url:
+        if not hid or not title:
             continue
+        url = urljoin(BASE_URL, url) if url else urljoin(BASE_URL, f"/heroes/{hid}/")
         if hid in seen or title.upper() in seen:
             continue
         seen.add(hid)
         seen.add(title.upper())
         
-        imgs = re.findall(r'src=[\'"]([^\'"]+)[\'"]', inner)
+        imgs = [urljoin(image_base, img.attrs.get("src", "")) for img in item.find_all("img") if img.attrs.get("src")]
         avatar = imgs[2] if len(imgs) >= 3 else (imgs[0] if imgs else "")
         full_img = imgs[0] if imgs else ""
         
@@ -328,7 +342,7 @@ def parse_hero_page(hero):
 
     tables = builder.root.find_all("table")
     if not tables:
-        return None
+        return parse_static_hero(hero, html)
     main_table = tables[0]
 
     top_trs = []
@@ -526,12 +540,54 @@ def parse_hero_page(hero):
     }
 
 
+def parse_static_hero(hero, html):
+    match = re.search(r'window\.__HERO_DATA__\s*=\s*', html)
+    if not match:
+        return None
+    data, _ = json.JSONDecoder().raw_decode(html[match.end():])
+    if data.get('id') != hero['id'] or not data.get('skills'):
+        return None
+    key_map = {'mouse-left': 'Left Click', 'mouse-right': 'Right Click', 'shift': 'SHIFT', 'passive': 'Passive'}
+
+    def stats(items):
+        return {s['label'].title(): normalize_stat_value(s['label'].title(), s.get('value', '')) for s in items if s.get('label')}
+
+    skills = []
+    for skill in data['skills']:
+        key = key_map.get(skill.get('key'), skill.get('key', 'Passive'))
+        skills.append({'type': 1, 'form_index': skill.get('variantIndex', 0), 'key': key,
+                       'key_trans': KEY_TRANSLATIONS.get(key, {'ko': key, 'ja': key}),
+                       'name': skill['name'], 'icon': skill.get('icon', ''),
+                       'description': skill.get('description', ''), 'stats': stats(skill.get('stats', []))})
+    teamups = []
+    for number, teamup in enumerate(data.get('teamups', []), 1):
+        for tier in teamup.get('tiers', []):
+            partner = extract_partner_name(tier.get('description', ''))
+            partner_en, partner_local = resolve_hero_names(partner)
+            teamups.append({'loadout_number': number, 'loadout_name': tier.get('name', ''),
+                            'tier': tier.get('tier', 'base'), 'name': tier.get('name', ''),
+                            'icon': tier.get('icon', ''), 'description': tier.get('description', ''),
+                            'partner_avatar': teamup.get('avatar', ''),
+                            'partner_name': {'en': partner_en, **partner_local},
+                            'key': key_map.get(tier.get('key'), tier.get('key', 'Passive')),
+                            'stats': stats(tier.get('stats', []))})
+    name, names = resolve_hero_names(hero['title'])
+    variants = data.get('variants', [])
+    base_stats = stats(variants[0].get('stats', [])) if variants else {}
+    base_stats.setdefault('Movement Mode', 'Ground')
+    return {'id': hero['id'], 'name': name, 'names': {'en': name, **names},
+            'role': hero['role'], 'roles': hero['roles'], 'role_name': ROLE_TRANSLATIONS.get(hero['role'], {}),
+            'avatar': hero['avatar'], 'full_img': hero['full_img'], 'base_stats': base_stats,
+            'raw_forms': [], 'skills': skills, 'teamups': teamups}
+
+
 def main():
     print("Fetching Marvel Rivals official hero roster...")
     heroes = parse_hero_list()
     print(f"Discovered {len(heroes)} heroes. Extracting details...")
 
     results = []
+    failed = []
     with ThreadPoolExecutor(max_workers=8) as executor:
         futures = {executor.submit(parse_hero_page, h): h for h in heroes}
         for future in as_completed(futures):
@@ -539,17 +595,35 @@ def main():
             if h_info:
                 results.append(h_info)
                 print(f" -> {h_info['name']} (Skills: {len(h_info['skills'])}, Team-Ups: {len(h_info['teamups'])})")
+            else:
+                failed.append(futures[future]["title"])
 
     results.sort(key=lambda x: x["name"])
 
-    if len(results) < 50:
-        raise RuntimeError(f"[ABORT] Only {len(results)} heroes extracted successfully (< 50). Preserving current heroes.json.")
+    if failed or len(results) != len(heroes):
+        raise RuntimeError(f"[ABORT] Failed to extract: {', '.join(failed)}. Preserving current heroes.json.")
+    invalid = [h['name'] for h in results if not h['skills'] or not h['base_stats'].get('Health')]
+    if invalid:
+        raise RuntimeError(f"[ABORT] Missing skills or health: {', '.join(invalid)}. Preserving current heroes.json.")
+    untranslated = [h['name'] for h in results if h['names']['ko'] == h['name'] or h['names']['ja'] == h['name']]
+    if untranslated:
+        print(f"[WARNING] Korean and Japanese names need translation: {', '.join(untranslated)}. English names will be used.")
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_dir = os.path.join(base_dir, "data")
     os.makedirs(data_dir, exist_ok=True)
 
     heroes_file = os.path.join(data_dir, "heroes.json")
+    if os.path.exists(heroes_file):
+        with open(heroes_file, encoding="utf-8") as f:
+            previous = json.load(f)
+        previous_ids = {h['id'] for h in previous if not h['id'].startswith('deadpool-')}
+        if any(h['id'].startswith('deadpool-') for h in previous) and not any(h['name'].upper() == 'DEADPOOL' for h in results):
+            raise RuntimeError('[ABORT] Previously published Deadpool is missing.')
+        current_ids = {h['id'] for h in results}
+        missing = previous_ids - current_ids
+        if missing:
+            raise RuntimeError(f"[ABORT] Previously published hero IDs missing: {sorted(missing)}. Preserving current heroes.json.")
     with open(heroes_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     print(f"\n[DONE] Saved {len(results)} heroes into {heroes_file}")

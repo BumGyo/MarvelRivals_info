@@ -1,5 +1,33 @@
 {
   "skills": {
+    "Toss 3 consecutive grenades forward that explode on impact, damaging enemies while healing allies.": {
+      "ko": "전방으로 수류탄 3개를 연속으로 던집니다. 수류탄은 충돌 시 폭발하여 적에게 피해를 주고 아군을 치유합니다.",
+      "ja": "前方にグレネードを3発連続で投げる。着弾時に爆発し、敵にダメージを与え、味方を回復する。"
+    },
+    "Strike forward with continuous thrusts using two cutlasses and the Hopesword. Can deal critical damage.": {
+      "ko": "두 자루의 커틀러스와 희망의 검으로 전방을 연속해서 찌릅니다. 치명타를 가할 수 있습니다.",
+      "ja": "2本のカットラスとホープソードで前方を連続して突く。クリティカルダメージを与えられる。"
+    },
+    "Target an ally and teleport to their side, granting them a one-time heal, Healing Boost, and Healing Over Time.": {
+      "ko": "아군을 지정해 곁으로 순간이동하고 즉시 치유, 치유량 증가, 지속 치유 효과를 부여합니다.",
+      "ja": "味方を指定してその傍にテレポートし、即時回復、回復量アップ、継続回復を付与する。"
+    },
+    "Mark your starting point with brimstone smoke and dash forward in a spinning slash to deal damage. The dash creates a smoke blast that damages and Launches enemies while healing allies. Can be recast shortly after; the third activation teleports you back to the initial mark.": {
+      "ko": "출발 지점을 유황 연기로 표시하고 회전 베기와 함께 전방으로 돌진해 피해를 줍니다. 돌진 중 발생한 연기 폭발은 적에게 피해를 주고 띄우며 아군을 치유합니다. 잠시 후 재사용할 수 있으며 세 번째 사용 시 처음 표시한 지점으로 순간이동합니다.",
+      "ja": "出発地点を硫黄の煙でマークし、回転斬りで前方に突進してダメージを与える。突進時の煙の爆発は敵にダメージを与えて打ち上げ、味方を回復する。短時間以内に再発動でき、3回目の発動で最初のマークへテレポートする。"
+    },
+    "Send an invitation to an ally. Upon confirmation, teleport to their side and pull them back to your original location, granting both instant Healing and Healing Over Time.": {
+      "ko": "아군에게 초대를 보냅니다. 아군이 수락하면 그 곁으로 순간이동한 뒤 원래 위치로 함께 돌아오며, 둘 모두에게 즉시 치유와 지속 치유를 부여합니다.",
+      "ja": "味方に招待を送る。承諾されるとその傍へテレポートし、元の位置へ連れ戻す。2人とも即時回復と継続回復を得る。"
+    },
+    "Press the Jump key to crawl on vertical surfaces.": {
+      "ko": "점프 키를 눌러 수직 벽면을 기어다닙니다.",
+      "ja": "ジャンプキーを押すと垂直な壁面を這って移動できる。"
+    },
+    "Select a target location to teleport all nearby allies there one by one, granting them Damage Boost and Healing Over Time while creating a Smoke Domain at the destination. Cast again to teleport to and slash all enemies within the Smoke Domain, pulling them to your location.": {
+      "ko": "목표 지점을 선택하면 주변 아군을 한 명씩 그곳으로 순간이동시키고 공격력 증가와 지속 치유를 부여하며, 도착 지점에 연기 영역을 생성합니다. 다시 사용하면 영역 안의 모든 적에게 순간이동해 베고 자신의 위치로 끌어당깁니다.",
+      "ja": "目標地点を選ぶと、周囲の味方を1人ずつそこへテレポートさせ、ダメージアップと継続回復を付与し、到着地点に煙の領域を作る。再発動すると領域内の全敵にテレポートして斬りつけ、自分の位置へ引き寄せる。"
+    },
     "Launch quantum energy to deal damage": {
       "ko": "양자 에너지를 발사하여 적에게 피해를 입힙니다.",
       "ja": "量子エネルギーを発射して敵にダメージを与える。"
@@ -3406,6 +3434,26 @@
     }
   },
   "teamups": {
+    "PROTECTIVE SIBLINGS": {
+      "base": {
+        "ko": "로그가 나이트크롤러에게 크로노비움의 힘을 부여합니다. 사용 시 잠시 사라지며 사라진 지점에서 에너지가 퍼져 적에게 피해를 주고 아군을 치유합니다. 잠시 후 원래 위치 위에 나타나 세 자루의 검으로 내려찍어 추가 피해를 주고 범위 안의 적을 둔화시킵니다.",
+        "ja": "ローグがナイトクローラーにクロノビウムの力を与える。発動時に一瞬姿を消し、その地点からエネルギーが広がって敵にダメージを与え、味方を回復する。少し後に元の位置の上空に現れ、3本の剣で叩きつけて追加ダメージを与え、範囲内の敵を減速させる。"
+      },
+      "enhanced": {
+        "ko": "로그와 함께하면 내려찍은 후 크로노비움의 힘이 돌아옵니다. 돌아오는 힘은 아군을 치유하고 적에게 피해를 주며 자신 쪽으로 띄워 보냅니다.",
+        "ja": "ローグとのチームアップ時、叩きつけの後にクロノビウムの力が戻る。戻る力は味方を回復し、敵にダメージを与えて自分の方向へ打ち上げる。"
+      }
+    },
+    "DEMON DISCIPLE": {
+      "base": {
+        "ko": "매직이 나이트크롤러에게 림보의 악마 마법을 부여합니다. 공간 이동할 때마다 연기 이동의 세 단계, 동반 순간이동의 두 단계, 신속한 개입 각각에서 적에게 피해를 주고 아군을 치유하는 영역이 생성됩니다.",
+        "ja": "マジックがナイトクローラーにリンボの悪魔の魔法を与える。空間移動するたびに、スモークシフトの全3段階、タンデムテレポートの両段階、スウィフトインターベンションそれぞれで、敵にダメージを与え味方を回復する領域を生成する。"
+      },
+      "enhanced": {
+        "ko": "매직과 함께하면 공간 이동할 때마다 악마의 갑옷이 형성되어 추가 체력을 얻습니다.",
+        "ja": "マジックとのチームアップ時、空間移動するたびに悪魔の鎧が形成され、ボーナス体力を得る。"
+      }
+    },
     "Base Effect: Teammates linked by Soul Bond receive a Speed Boost. Enhanced Effect: When teaming up with Storm, linked teammates additionally gain a Damage Boost.": {
       "loadout_name": "COSMIC CYCLONE",
       "hero": "ADAM WARLOCK",
@@ -14583,9 +14631,121 @@
     "Self Bonus Health after the Explosion": {
       "ko": "Self Bonus Health after the Explosion",
       "ja": "Self Bonus Health after the Explosion"
+    },
+    "Number Of Bounces": {
+      "ko": "튕김 횟수",
+      "ja": "バウンド回数"
+    },
+    "Thrust Frequency": {
+      "ko": "찌르기 빈도",
+      "ja": "突きの頻度"
+    },
+    "Interval Between Uses": {
+      "ko": "사용 간격",
+      "ja": "使用間隔"
+    },
+    "Maximum Targeting Range": {
+      "ko": "최대 지정 범위",
+      "ja": "最大ターゲット範囲"
+    },
+    "Instant Healing To Ally": {
+      "ko": "아군 즉시 치유량",
+      "ja": "味方への即時回復量"
+    },
+    "Healing Over Time To Self And Ally": {
+      "ko": "자신과 아군의 지속 치유량",
+      "ja": "自身と味方への継続回復量"
+    },
+    "Slash Damage": {
+      "ko": "베기 피해량",
+      "ja": "斬撃ダメージ"
+    },
+    "Smoke Explosion Damage": {
+      "ko": "연기 폭발 피해량",
+      "ja": "煙の爆発ダメージ"
+    },
+    "Smoke Healing To Allies": {
+      "ko": "연기의 아군 치유량",
+      "ja": "煙による味方の回復量"
+    },
+    "Slash Range": {
+      "ko": "베기 범위",
+      "ja": "斬撃範囲"
+    },
+    "Recast Window": {
+      "ko": "재사용 가능 시간",
+      "ja": "再発動可能時間"
+    },
+    "Maximum Teleport Distance": {
+      "ko": "최대 순간이동 거리",
+      "ja": "最大テレポート距離"
+    },
+    "Effect": {
+      "ko": "효과",
+      "ja": "効果"
+    },
+    "Teleport Range": {
+      "ko": "순간이동 범위",
+      "ja": "テレポート範囲"
+    },
+    "Landing Spread Radius": {
+      "ko": "착지 분산 반경",
+      "ja": "着地時の分散半径"
+    },
+    "Enemy Teleport Range": {
+      "ko": "적 순간이동 범위",
+      "ja": "敵へのテレポート範囲"
+    },
+    "Second-Stage Damage": {
+      "ko": "2단계 피해량",
+      "ja": "第2段階のダメージ"
     }
   },
   "stat_values": {
+    "10 on impact, 15 in the spell field": {
+      "ko": "충돌 시 10, 영역 내 15",
+      "ja": "着弾時10、領域内15"
+    },
+    "10 on impact, 30 in the spell field": {
+      "ko": "충돌 시 10, 영역 내 30",
+      "ja": "着弾時10、領域内30"
+    },
+    "0.9s per 3 shots": {
+      "ko": "3발당 0.9초",
+      "ja": "3発ごとに0.9秒"
+    },
+    "11 per thrust": {
+      "ko": "찌르기당 11",
+      "ja": "突き1回につき11"
+    },
+    "9 thrusts/s": {
+      "ko": "초당 9회 찌르기",
+      "ja": "毎秒9回の突き"
+    },
+    "2 charges, with each charge taking 12s to recharge.": {
+      "ko": "2회 충전, 각 충전에 12초 소요",
+      "ja": "2回チャージ、各チャージに12秒"
+    },
+    "25/sec for 4 seconds": {
+      "ko": "4초 동안 초당 25",
+      "ja": "4秒間、毎秒25"
+    },
+    "50/sec for 10 seconds": {
+      "ko": "10초 동안 초당 50",
+      "ja": "10秒間、毎秒50"
+    },
+    "Can cling to walls and crawl freely.": {
+      "ko": "벽에 달라붙어 자유롭게 기어다닐 수 있습니다.",
+      "ja": "壁に張り付き、自由に這って移動できる。"
+    },
+    "Vanguards 4m / Duelists 2.5m / Strategists 0.75m": {
+      "ko": "뱅가드 4m / 듀얼리스트 2.5m / 전략가 0.75m",
+      "ja": "ヴァンガード4m / デュエリスト2.5m / ストラテジスト0.75m"
+    },
+    "200; an additional 200 upon landing after teleportation": {
+      "ko": "200, 순간이동 후 착지 시 추가 200",
+      "ja": "200、テレポート後の着地時に追加で200"
+    },
     "Single-cast direct hit": {
       "ko": "단일 시전 직격",
       "ja": "単発直撃"
