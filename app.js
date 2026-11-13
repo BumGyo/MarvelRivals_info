@@ -70,9 +70,9 @@
   async function init() {
     try {
       const [heroesRes, i18nRes, transRes] = await Promise.all([
-        fetch('data/heroes.json'),
-        fetch('data/i18n.json'),
-        fetch('data/translations.json').catch(() => null)
+        fetch('data/heroes.json?v=7', { cache: 'no-store' }),
+        fetch('data/i18n.json?v=7', { cache: 'no-store' }),
+        fetch('data/translations.json?v=7', { cache: 'no-store' }).catch(() => null)
       ]);
 
       if (!heroesRes.ok || !i18nRes.ok) {
