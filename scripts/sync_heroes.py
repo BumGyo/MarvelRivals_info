@@ -148,6 +148,8 @@ def resolve_hero_names(raw_name):
     if not raw_name:
         return "", {"ko": "", "ja": ""}
     norm = raw_name.strip()
+    if norm.upper() in ["CLOAK&DAGGER", "CLOAK & DAGGER"]:
+        return "CLOAK & DAGGER", HERO_NAMES.get("CLOAK & DAGGER", {"ko": "클록 & 대거", "ja": "クローク＆ダガー"})
     # 1. Exact match
     if norm in HERO_NAMES:
         return norm, HERO_NAMES[norm]
@@ -257,16 +259,21 @@ def fetch_url(url, timeout=15):
 
 def parse_hero_list():
     html = fetch_url(BASE_URL)
-    pattern = r'<a\s+[^>]*data-url="([^"]+)"[^>]*data-id="([^"]+)"[^>]*data-tag="([^"]*)"[^>]*title="([^"]+)"[^>]*>(.*?)</a>'
+    pattern = r'<a\s+[^>]*data-url="([^"]*)"[^>]*data-id="([^"]+)"[^>]*data-tag="([^"]*)"[^>]*title="([^"]+)"[^>]*>(.*?)</a>'
     items = re.findall(pattern, html, re.DOTALL)
 
     heroes = []
     seen = set()
     for url, hid, tag, title, inner in items:
-        title = title.strip()
-        if hid in seen:
+        title = unescape(title).strip()
+        url = url.strip()
+        # Skip entries without valid URL (e.g. teasers like Nightcrawler)
+        if not url:
+            continue
+        if hid in seen or title.upper() in seen:
             continue
         seen.add(hid)
+        seen.add(title.upper())
         
         imgs = re.findall(r'src=[\'"]([^\'"]+)[\'"]', inner)
         avatar = imgs[2] if len(imgs) >= 3 else (imgs[0] if imgs else "")
@@ -290,6 +297,21 @@ def parse_hero_list():
             "avatar": avatar,
             "full_img": full_img
         })
+
+    # Ensure ADAM WARLOCK is always included (on BASE_URL he is active and may lack data-url in heroNewsList)
+    if "ADAM WARLOCK" not in seen:
+        heroes.append({
+            "id": "366w78k4i4gap",
+            "title": "ADAM WARLOCK",
+            "role": "STRATEGIST",
+            "roles": ["STRATEGIST"],
+            "url": "https://www.marvelrivals.com/20241123/41360_1195670.html",
+            "avatar": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/d21.png",
+            "full_img": "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_21.png"
+        })
+
+    if len(heroes) < 50:
+        raise RuntimeError(f"[ABORT] Failed to discover enough heroes ({len(heroes)} < 50). Preserving current database.")
 
     return heroes
 
@@ -519,6 +541,9 @@ def main():
                 print(f" -> {h_info['name']} (Skills: {len(h_info['skills'])}, Team-Ups: {len(h_info['teamups'])})")
 
     results.sort(key=lambda x: x["name"])
+
+    if len(results) < 50:
+        raise RuntimeError(f"[ABORT] Only {len(results)} heroes extracted successfully (< 50). Preserving current heroes.json.")
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_dir = os.path.join(base_dir, "data")

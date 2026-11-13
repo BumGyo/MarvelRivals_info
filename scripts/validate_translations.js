@@ -95,6 +95,10 @@ if (!fs.existsSync(heroesPath)) {
     const heroes = Array.isArray(parsed) ? parsed : (parsed.heroes || []);
     console.log(`✓ Loaded data/heroes.json (${heroes.length} heroes)`);
 
+    if (heroes.length < 50) {
+      reportError(`Abnormally low hero count in data/heroes.json (${heroes.length} < 50)! Auto-sync data appears corrupted or incomplete.`);
+    }
+
     let totalSkills = 0;
     let translatedSkills = 0;
     let fallbackSkills = 0;

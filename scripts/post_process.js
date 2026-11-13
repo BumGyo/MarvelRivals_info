@@ -24,6 +24,11 @@ if (!fs.existsSync(heroesPath)) {
 const heroes = JSON.parse(fs.readFileSync(heroesPath, 'utf-8'));
 console.log(`Loaded ${heroes.length} heroes from heroes.json.`);
 
+if (!Array.isArray(heroes) || heroes.length < 50) {
+  console.error(`[FATAL ERROR] heroes.json has invalid hero count (${heroes ? heroes.length : 0} < 50). Aborting post-process to prevent data corruption.`);
+  process.exit(1);
+}
+
 // -------------------------------------------------------------
 // Step 1: Check if Deadpool needs to be split
 // -------------------------------------------------------------
