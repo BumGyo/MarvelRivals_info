@@ -108,11 +108,38 @@ if (!fs.existsSync(heroesPath)) {
   const statValuesLower = new Map(
     Object.entries(statValuesExact).map(([k, v]) => [k.trim().toLowerCase(), v])
   );
+  const statValueNumTemplates = new Map();
+  for (const [k, v] of Object.entries(statValuesExact)) {
+    const cleanK = k.trim();
+    const nums = cleanK.match(/\d+(?:\.\d+)?/g);
+    if (nums && nums.length > 0 && v && v.ko && v.ja) {
+      const tpl = cleanK.replace(/\.$/, '').replace(/\d+(?:\.\d+)?/g, '<NUM>').toLowerCase();
+      if (!statValueNumTemplates.has(tpl)) statValueNumTemplates.set(tpl, []);
+      statValueNumTemplates.get(tpl).push({ nums, trans: v });
+    }
+  }
   const compiledPatterns = (unified.stat_patterns || []).map(p => ({
     rx: new RegExp(p.regex, 'i'),
     ko: p.ko || '',
     ja: p.ja || p.ko || ''
   }));
+
+  function subNums(text, oldNums, newNums) {
+    const tNums = text.match(/\d+(?:\.\d+)?/g) || [];
+    if (tNums.length === oldNums.length && tNums.every((n, i) => n === oldNums[i])) {
+      let idx = 0;
+      return text.replace(/\d+(?:\.\d+)?/g, () => newNums[idx++]);
+    }
+    const rep = new Map();
+    for (let i = 0; i < oldNums.length; i++) {
+      if (rep.has(oldNums[i]) && rep.get(oldNums[i]) !== newNums[i]) return null;
+      rep.set(oldNums[i], newNums[i]);
+    }
+    if (oldNums.every(o => tNums.includes(o))) {
+      return text.replace(/\d+(?:\.\d+)?/g, m => rep.get(m) ?? m);
+    }
+    return null;
+  }
 
   function translateStatVal(v, lang) {
     const trimmed = v.trim();
@@ -126,6 +153,16 @@ if (!fs.existsSync(heroesPath)) {
     }
     for (const p of compiledPatterns) {
       if (p.rx.test(trimmed)) return trimmed.replace(p.rx, p[lang]);
+    }
+    const targetNums = stripped.match(/\d+(?:\.\d+)?/g);
+    if (targetNums && targetNums.length > 0) {
+      const tpl = stripped.replace(/\d+(?:\.\d+)?/g, '<NUM>').toLowerCase();
+      for (const cand of (statValueNumTemplates.get(tpl) || [])) {
+        if (cand.nums.length === targetNums.length && cand.trans[lang]) {
+          const out = subNums(cand.trans[lang], cand.nums, targetNums);
+          if (out) return out;
+        }
+      }
     }
     return v;
   }

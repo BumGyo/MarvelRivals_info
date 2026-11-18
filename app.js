@@ -26,6 +26,7 @@
   let statLabelsLower = new Map();
   let statValuesExact = Object.create(null);
   let statValuesLower = new Map();
+  let statValueNumTemplates = new Map();
   let compiledStatPatterns = [];
   const labelMemo = { ko: new Map(), ja: new Map() };
   const valueMemo = { ko: new Map(), ja: new Map() };
@@ -145,8 +146,16 @@
 
     statValuesExact = trans.stat_values || Object.create(null);
     statValuesLower = new Map();
+    statValueNumTemplates = new Map();
     for (const [k, v] of Object.entries(statValuesExact)) {
-      statValuesLower.set(k.trim().toLowerCase(), v);
+      const cleanK = k.trim();
+      statValuesLower.set(cleanK.toLowerCase(), v);
+      const nums = cleanK.match(/\d+(?:\.\d+)?/g);
+      if (nums && nums.length > 0 && v && v.ko && v.ja) {
+        const tpl = cleanK.replace(/\.$/, '').replace(/\d+(?:\.\d+)?/g, '<NUM>').toLowerCase();
+        if (!statValueNumTemplates.has(tpl)) statValueNumTemplates.set(tpl, []);
+        statValueNumTemplates.get(tpl).push({ nums, trans: v });
+      }
     }
 
     compiledStatPatterns = [];
@@ -1110,8 +1119,43 @@
       }
     }
 
+    // Dynamic numerical template fallback for balance-patched sentence stats
+    const targetNums = stripped.match(/\d+(?:\.\d+)?/g);
+    if (targetNums && targetNums.length > 0) {
+      const tpl = stripped.replace(/\d+(?:\.\d+)?/g, '<NUM>').toLowerCase();
+      const candidatesList = statValueNumTemplates.get(tpl);
+      if (candidatesList) {
+        for (const cand of candidatesList) {
+          if (cand.nums.length === targetNums.length && cand.trans[lang]) {
+            const subbed = substituteNumbersInText(cand.trans[lang], cand.nums, targetNums);
+            if (subbed) {
+              if (memo) memo.set(trimmed, subbed);
+              return subbed;
+            }
+          }
+        }
+      }
+    }
+
     if (memo) memo.set(trimmed, v);
     return v;
+  }
+
+  function substituteNumbersInText(text, oldNums, newNums) {
+    const tNums = text.match(/\d+(?:\.\d+)?/g) || [];
+    if (tNums.length === oldNums.length && tNums.every((n, i) => n === oldNums[i])) {
+      let idx = 0;
+      return text.replace(/\d+(?:\.\d+)?/g, () => newNums[idx++]);
+    }
+    const rep = new Map();
+    for (let i = 0; i < oldNums.length; i++) {
+      if (rep.has(oldNums[i]) && rep.get(oldNums[i]) !== newNums[i]) return null;
+      rep.set(oldNums[i], newNums[i]);
+    }
+    if (oldNums.every(o => tNums.includes(o))) {
+      return text.replace(/\d+(?:\.\d+)?/g, m => rep.get(m) ?? m);
+    }
+    return null;
   }
 
   function escapeHtml(str) {

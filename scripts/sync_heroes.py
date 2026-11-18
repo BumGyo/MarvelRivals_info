@@ -220,7 +220,8 @@ def normalize_key(raw_key):
 
 
 def smart_label_case(label):
-    cleaned = unescape(str(label)).replace("\xa0", " ").strip()
+    cleaned = re.sub(r"&nbsp;", " ", unescape(str(label)), flags=re.IGNORECASE).replace("\xa0", " ")
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
     if not cleaned:
         return ""
     if cleaned != cleaned.upper():
@@ -257,9 +258,13 @@ def resolve_hero_names(raw_name):
 def normalize_stat_value(k, v):
     if v is None:
         return ""
-    v_str = unescape(str(v)).replace("\xa0", " ").strip()
+    v_str = re.sub(r"&nbsp;", " ", unescape(str(v)), flags=re.IGNORECASE).replace("\xa0", " ").strip()
     if not v_str:
         return ""
+    if v_str.lower() == "mouse-left":
+        return "Left Click"
+    if v_str.lower() == "mouse-right":
+        return "Right Click"
     if k.lower() == "movement speed":
         m_num = re.match(r"^(\d+(?:\.\d+)?)$", v_str)
         if m_num:
@@ -453,7 +458,8 @@ def parse_hero_list():
             continue
         seen_titles.add(title.upper())
 
-        url = urljoin(BASE_URL, entry["raw_url"]) if entry["raw_url"] else urljoin(BASE_URL, f"/heroes/{hid}/")
+        static_url = urljoin(BASE_URL, f"/heroes/{hid}/")
+        legacy_url = urljoin(BASE_URL, entry["raw_url"]) if entry["raw_url"] else ""
         avatar = entry["card_img"] or entry["fallback_img"] or entry["avatar_img"]
         full_img = entry["avatar_img"] or avatar
 
@@ -471,7 +477,8 @@ def parse_hero_list():
             "role": primary_role,
             "roles": roles_list,
             "has_explicit_role": has_explicit_role,
-            "url": url,
+            "url": static_url,
+            "legacy_url": legacy_url,
             "avatar": avatar,
             "full_img": full_img,
         })
@@ -483,10 +490,23 @@ def parse_hero_list():
 
 
 def parse_hero_page(hero):
+    html = None
     try:
         html = fetch_url(hero["url"])
+        static_parsed = parse_static_hero(hero, html)
+        if static_parsed:
+            return static_parsed
     except Exception as e:
-        print(f"Error fetching hero {hero['title']}: {e}")
+        print(f"Notice: static endpoint failed for {hero['title']} ({e}), trying legacy URL...")
+
+    fallback_url = hero.get("legacy_url")
+    if fallback_url and fallback_url != hero["url"]:
+        try:
+            html = fetch_url(fallback_url)
+        except Exception as e:
+            print(f"Error fetching fallback for {hero['title']}: {e}")
+            return None
+    if not html:
         return None
 
     builder = TreeBuilder()
@@ -776,11 +796,19 @@ def parse_static_hero(hero, html):
         if v_stats:
             raw_forms.append({
                 "name": unescape(v.get("name", "")).strip(),
-                "avatar": v.get("avatar", ""),
+                "avatar": v.get("icon") or v.get("avatar") or "",
                 "stats": v_stats,
             })
 
-    base_stats = dict(raw_forms[0]["stats"]) if raw_forms else {}
+    base_stats = {}
+    h_title = hero["title"].upper()
+    for rf in raw_forms:
+        n_txt = rf["name"].upper()
+        if n_txt and (n_txt in h_title or h_title in n_txt) and rf["stats"].get("Health"):
+            base_stats = dict(rf["stats"])
+            break
+    if not base_stats and raw_forms:
+        base_stats = dict(raw_forms[0]["stats"])
     base_stats.setdefault("Movement Mode", "Flight" if name.upper() in ("IRON MAN", "STORM", "HUMAN TORCH", "ULTRON") else "Ground")
 
     return {

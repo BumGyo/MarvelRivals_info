@@ -3430,5 +3430,65 @@
   "Fire energy projectiles that deal damage.": {
     "ko": "피해를 입히는 에너지 투사체를 연속 발사합니다.",
     "ja": "ダメージを与えるエネルギー弾を連射する。"
+  },
+  "Dive downward, switch to twin axes and infuse the ground with Ichors to create a Divine Judgement Zone upon impact. Upon activation, gain enhanced Speed and attacks grant Bonus Health to self and nearby allies for 6s, without needing to remain within the zone. Using Wingblade Ascent during this time removes these buffs": {
+    "ko": "아래로 급강하하여 쌍도끼로 전환하고 착탄 시 지면에 이코르를 주입해 신성한 심판 영역을 생성합니다. 발동 시 영역 내에 머무를 필요 없이 6초 동안 이동 속도가 증가하고 공격 시 자신과 주변 아군에게 추가 체력을 부여합니다. 지속 중 Wingblade Ascent를 사용하면 버프가 해제됩니다.",
+    "ja": "急降下して双斧に切り替え、着地時にイコルを注入して神聖なる審判エリアを生成する。発動するとエリア内に留まる必要なく6秒間移動速度が上昇し、攻撃時に自身と周囲の味方へ追加HPを付与する。効果中にWingblade Ascentを使用するとバフは解除される。"
+  },
+  "Wake the #!&% up, hero! We've got a game to win! Speed and healing buffs for starters, bonus Hazardous Hijinks for me, and extra HP for me. Hit enough baddies with the right abilities exactly as I ask, and you unlock mega speed and healing, plus reset my Healing Factor cooldown!. Team protection mode: activated!": {
+    "ko": "정신 차려 영웅들아, 이겨야 할 게임이 있다고! 우선 이동 속도·치유 버프에다 내 Hazardous Hijinks 강화랑 내 추가 체력까지 챙긴다! 내가 지시한 스킬로 적들을 제대로 맞추면 초특급 이속·치유 버프가 해금되고 내 Healing Factor 쿨다운도 초기화되지! 팀 보호 모드 가동!",
+    "ja": "目を覚ませヒーローども、勝つべき試合だぞ！まずは移動速度・回復バフに、俺様のHazardous Hijinks強化と追加HPだ！俺の指示通りのアビリティで敵を叩けば、超特大の速度＆回復バフが解放され、Healing Factorのクールダウンもリセットされるぞ！"
+  },
+  "Hey, player! Warm-up's over, time for the main event! Speed, healing, dashes, for me, and bonus HP for me! Smash enough baddies with the skills I say, and you unlock super buffs (massive speed and healing), plus Healing Factor resets. For some time after completing the challenge, 150% of the damage I deal is converted into my own Bonus Health, no longer granting Bonus Health to nearby allies. Don't mess this up!": {
+    "ko": "이봐 플레이어! 몸풀기는 끝났고 이제 메인 이벤트다! 속도, 치유, 돌진 강화, 그리고 내 추가 체력까지! 내가 말한 스킬로 적들을 박살 내면 슈퍼 버프(폭발적인 이속·치유)와 Healing Factor 초기화가 해금된다. 도전 달성 후 일정 시간 동안 내가 가한 피해의 150%가 내 추가 체력으로 전환되며, 더 이상 주변 아군에게는 추가 체력을 부여하지 않는다. 망치지 마!",
+    "ja": "おいプレイヤー！ウォーミングアップは終わり、ここからが本番だ！速度、回復、ダッシュ強化、そして俺様の追加HPだ！指定スキルで敵をぶちのめせば超バフとHealing Factorリセットが解放される。チャレンジ達成後の一定時間、俺が与えたダメージの150%が自身の追加HPに変換される（周囲の味方への追加HP付与はなし）。しくじるなよ！"
+  },
+  "Activate the heart-shaped generator to expand a spherical shield that blocks incoming damage.": {
+    "ko": "하트 모양 발생기를 가동해 날아오는 피해를 막아내는 구형 방벽을 전개합니다.",
+    "ja": "ハート型の発生装置を起動し、飛来するダメージを防ぐ球状シールドを展開する。"
+  },
+  "Launch forward a splittable fireball with a fixed projectile spread": {
+    "ko": "고정된 탄퍼짐으로 분열하는 화염구를 전방에 발사합니다.",
+    "ja": "固定拡散で分裂する火球を前方へ発射する。"
+  },
+  "Hitting targets with Dazzling Detonation and Firework Finale applies a Sparkle Mark. Energy Plasmoids can detonate marks, granting allies Bonus Health, while dealing burst damage to enemies": {
+    "ko": "Dazzling Detonation 및 Firework Finale 적중 시 불꽃 표식(Sparkle Mark)을 부착합니다. 기본 사격(Energy Plasmoids)으로 표식을 격발시키면 아군에게 추가 체력을 부여하고 적에게 폭발 피해를 입힙니다.",
+    "ja": "Dazzling DetonationとFirework Finaleが命中した対象にSparkle Markを付与する。Energy Plasmoidsでマークを起爆すると、味方に追加HPを付与し敵に爆発ダメージを与える。"
+  },
+  "Fire an energy thorn and regain one Life Orb after a critical hit or 0.3 Life Orbs after a non-critical hit.": {
+    "ko": "에너지 가시를 발사하며, 치명타 적중 시 생명 구체(Life Orb) 1개를, 일반 적중 시 0.3개를 회복합니다.",
+    "ja": "エネルギーの棘を発射し、クリティカル命中時にライフオーブを1個、通常命中時に0.3個回復する。"
+  },
+  "Soar into the sky with the Phoenix and crash down onto a selected area, dealing devastating damage to enemies while creating a shockwave that destroys enemy summons, shields, and any Bonus Health. Enemies hit by the explosion spell field are applied with 2 Sparks; enemies hit by the shockwave are applied with 1 Spark": {
+    "ko": "피닉스와 함께 하늘로 솟구친 뒤 지정 구역으로 급강하 충돌해 치명적인 피해를 입히고, 적의 소환물·방벽·추가 체력을 모두 파괴하는 충격파를 일으킵니다. 폭발 장판 적중 시 불꽃(Spark) 2스택, 충격파 적중 시 1스택을 부여합니다.",
+    "ja": "フェニックスと共に空へ舞い上がり、指定地点へ急降下激突して壊滅的なダメージを与えつつ、敵の召喚物・シールド・追加HPを破壊する衝撃波を放つ。爆発フィールド命中でSparkを2スタック、衝撃波命中で1スタック付与する。"
+  },
+  "Dash forward, granting yourself 25 Bonus Health with each cast": {
+    "ko": "전방으로 빠르게 돌진하며, 시전할 때마다 자신에게 25의 추가 체력을 부여합니다.",
+    "ja": "前方へ素早くダッシュし、発動ごとに自身へ25の追加HPを付与する。"
+  },
+  "Launch an acorn to unleash Squirrel Guards, Imprisoning the first hit enemy. Upon hitting, create an acorn rain centered on the enemy's current position, continuously damaging and Slowing enemies within the area": {
+    "ko": "도토리를 발사해 다람쥐 경비대를 풀어 첫 번째로 적중한 적을 속박(Imprison)합니다. 적중 시 해당 적 위치를 중심으로 도토리 비를 내려 범위 내 적들에게 지속 피해와 감속을 부여합니다.",
+    "ja": "どんぐりを放ってリス親衛隊を呼び出し、最初に命中した敵を拘束する。命中地点を中心にどんぐりの雨を降らせ、範囲内の敵に継続ダメージと鈍足を付与する。"
+  },
+  "Rocket upwards with a bounce of her tail, gaining 25 Bonus Health upon activation": {
+    "ko": "꼬리의 반동으로 공중으로 높이 솟구쳐 오르며, 발동 시 25의 추가 체력을 획득합니다.",
+    "ja": "尻尾の反動で上空へ勢いよく跳び上がり、発動時に25の追加HPを獲得する。"
+  },
+  "Reload Burst Acorns and can use an ability without cooldown once in a short duration. Upon activation, gain a 100% Attack Speed Boost for 5s. During this time, Burst Acorn projectile speed increases to 150 m/s, damage per acorn is 65% of normal, and projectiles are unaffected by gravity. This boost persists until its duration ends, even after using the refreshed ability": {
+    "ko": "폭발 도토리를 즉시 재장전하고 잠시 동안 스킬 1회를 쿨다운 없이 사용할 수 있습니다. 발동 시 5초간 공격 속도가 100% 증가하며, 이 동안 투사체 속도가 150 m/s로 빨라지고 무중력 직선 탄도가 되는 대신 발당 데미지는 기존의 65%로 조정됩니다. 강화 효과는 초기화 스킬 사용 후에도 지속 시간이 끝날 때까지 유지됩니다.",
+    "ja": "爆発どんぐりを即時リロードし、短時間内にアビリティを1回クールダウンなしで使用できる。発動時に5秒間攻撃速度が100%上昇し、弾速が150 m/sに増加して重力の影響を受けなくなる（1発あたりのダメージは通常の65%）。この強化はスキル使用後も持続終了まで維持される。"
+  },
+  "Unleash tentacles forward to attack enemies; projectile detection radius is slightly increased": {
+    "ko": "전방으로 촉수를 뻗어 적들을 타격합니다. 투사체 판정 반경이 소폭 증가했습니다.",
+    "ja": "前方へ触手を伸ばして敵を攻撃する。弾の判定半径がわずかに拡大されている。"
+  },
+  "Consume one Spirit Tail to send a spectral fox forward. It heals allies it passes through without granting invulnerability, damages and Charms enemies, forcing foes to move toward White Fox": {
+    "ko": "영혼 꼬리 1개를 소모해 전방으로 영혼 여우를 날려 보냅니다. 통과하는 아군을 치유하며(무적 미부여), 적에게는 피해와 매혹(Charm)을 걸어 화이트 폭스 쪽으로 걸어오게 만듭니다.",
+    "ja": "霊狐の尾を1本消費して前方に霊狐を放つ。通過した味方を回復し（無敵付与なし）、敵にはダメージと魅了(Charm)を与えてホワイト・フォックスの方へ引き寄せる。"
+  },
+  "Manifest the full Nine-Tailed Fox form and continuously heal nearby allies.": {
+    "ko": "완전한 구미호 형상을 현현시켜 주변 아군을 지속적으로 치유합니다.",
+    "ja": "完全なる九尾の狐の姿を現顕させ、周囲の味方を継続回復する。"
   }
 }

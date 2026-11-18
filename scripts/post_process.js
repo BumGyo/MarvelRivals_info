@@ -372,6 +372,21 @@ function translateSkillList(list) {
   });
 }
 
+// Pre-index numeric teamup templates for balance-patch number resilience
+const numericTeamupTemplates = [];
+for (const [key, entry] of Object.entries(teamupsMap)) {
+  const nKey = norm(key);
+  if (!nKey || !entry || (!entry.base && !entry.enhanced)) continue;
+  const nums = nKey.match(/\d+(?:\.\d+)?/g);
+  if (nums && nums.length > 0) {
+    numericTeamupTemplates.push({
+      templateKey: nKey.replace(/\d+(?:\.\d+)?/g, '<NUM>'),
+      nums,
+      entry
+    });
+  }
+}
+
 heroes.forEach(h => {
   delete h.raw_forms;
   translateSkillList(h.skills);
@@ -382,15 +397,51 @@ heroes.forEach(h => {
   (h.teamups || []).forEach(tu => {
     const rawDesc = tu.description || '';
     const tDesc = norm(rawDesc);
-    const entry = teamupsMap[tDesc] || teamupsMap[rawDesc] || teamupsMap[tu.loadout_name];
+    const hasNumbersInDesc = /\d/.test(tDesc);
+
+    // 1. Exact description match (only fall back to loadout_name if description has NO numbers and matches same hero)
+    let entry = teamupsMap[tDesc] || teamupsMap[rawDesc];
+    let subNums = null;
+
+    // 2. Dynamic numerical pattern match when numbers in teamup description were patched
+    if (!entry && hasNumbersInDesc) {
+      const targetNums = tDesc.match(/\d+(?:\.\d+)?/g);
+      const targetTemplate = tDesc.replace(/\d+(?:\.\d+)?/g, '<NUM>');
+      for (const cand of numericTeamupTemplates) {
+        if (cand.templateKey === targetTemplate && cand.nums.length === targetNums.length) {
+          entry = cand.entry;
+          subNums = { oldNums: cand.nums, newNums: targetNums };
+          break;
+        }
+      }
+    }
+
+    if (!entry && !hasNumbersInDesc) {
+      const byName = teamupsMap[tu.loadout_name];
+      if (byName && (!byName.hero || byName.hero.toUpperCase() === h.name.toUpperCase())) {
+        entry = byName;
+      }
+    }
 
     if (entry) {
+      let transObj = null;
       if (tu.tier === 'base' && entry.base) {
-        tu.description_trans = entry.base;
+        transObj = entry.base;
       } else if (tu.tier === 'enhanced' && entry.enhanced) {
-        tu.description_trans = entry.enhanced;
+        transObj = entry.enhanced;
       } else if (entry.full) {
-        tu.description_trans = entry.full;
+        transObj = entry.full;
+      }
+
+      if (transObj && subNums) {
+        const ko = substituteNumbers(transObj.ko, subNums.oldNums, subNums.newNums);
+        const ja = substituteNumbers(transObj.ja, subNums.oldNums, subNums.newNums);
+        if (ko && ja) transObj = { ko, ja };
+        else transObj = null;
+      }
+
+      if (transObj) {
+        tu.description_trans = transObj;
       }
 
       // Backfill partner_name if missing from description heuristic

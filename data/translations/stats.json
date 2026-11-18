@@ -4511,6 +4511,18 @@
     "Unstoppable CD": {
       "ko": "저지 불가 쿨다운",
       "ja": "アンストッパブルCD"
+    },
+    "Damage-to-bonus Health Conversion": {
+      "ko": "피해량 → 추가 체력 전환율",
+      "ja": "与ダメージ→追加HP変換率"
+    },
+    "Smoky Snare Cooldown After Activating Prehistoric Trap": {
+      "ko": "Prehistoric Trap 발동 후 Smoky Snare 쿨다운",
+      "ja": "Prehistoric Trap発動後のSmoky Snare CD"
+    },
+    "Lifesteal Rate (self and Allies Within Range)": {
+      "ko": "생명력 흡수율 (자신 및 범위 내 아군)",
+      "ja": "ライフスティール率（自身および範囲内の味方）"
     }
   },
   "values": {
@@ -5275,7 +5287,7 @@
       "ja": "アビリティ強化"
     },
     "Left Click": {
-      "ko": "좌클릭",
+      "ko": "마우스 좌클릭",
       "ja": "左クリック"
     },
     "The first three stages last for 0.4s each, while the fourth stage lasts for 0.8s": {
@@ -7289,9 +7301,60 @@
     "While the illusion exists, reactivate the ability to swap places with the Psionic Illusion, up to once": {
       "ko": "환영 유지 중 스킬을 재활성화해 사이오닉 환영과 위치를 1회 맞바꿀 수 있습니다.",
       "ja": "幻影の持続中、再発動でサイオニック幻影と1回まで位置を入れ替えられます。"
+    },
+    "Right Click": {
+      "ko": "마우스 우클릭",
+      "ja": "右クリック"
+    },
+    "12s (no longer grants an additional ability charge)": {
+      "ko": "12초 (추가 충전 횟수 미부여)",
+      "ja": "12秒（追加チャージ付与なし）"
+    },
+    "During the 6s buff after activating Divine Judgement, Angela’s each Axes of Ichors hit grants 55 Bonus Health to herself and 25 Bonus Health to allies within the area. She does not need to remain within the zone; using Wingblade Ascent removes the buff.": {
+      "ko": "Divine Judgement 발동 후 6초 버프 동안 Axes of Ichors 적중 시 자신에게 55, 범위 내 아군에게 25의 추가 체력을 부여합니다. 영역 내에 머무를 필요가 없으며, Wingblade Ascent 사용 시 버프가 해제됩니다.",
+      "ja": "Divine Judgement発動後の6秒バフ中、Axes of Ichors命中ごとに自身へ55、範囲内の味方へ25の追加HPを付与します（エリア内に留まる必要なし。Wingblade Ascent使用で解除）。"
+    },
+    "Each ally or enemy hit reduces Dagger Storm's cooldown by 0.6s.": {
+      "ko": "적중한 아군 또는 적 1명당 Dagger Storm의 쿨다운 0.6초 감소",
+      "ja": "命中した味方または敵1人につきDagger StormのCDが0.6秒短縮"
+    },
+    "Deal 5 damage per direct hit. When the sentience shatters, it deals damage to the target, which is equal to 60 + 10% of the target's maximum health": {
+      "ko": "직격 시 5 데미지. 의식체 파괴 시 대상에게 (60 + 대상 최대 체력의 10%) 데미지 부여",
+      "ja": "直撃時5ダメージ。意識体粉砕時に対象へ（60 + 対象の最大HPの10%）ダメージ"
+    },
+    "Freeze enemies for a total of 1.5s; attacking them can end the freeze early. Grants 50 Bonus Health per enemy hit": {
+      "ko": "적을 총 1.5초간 빙결시킵니다(피격 시 조기 해제 가능). 적중한 적 1명당 추가 체력 50 획득",
+      "ja": "敵を計1.5秒間凍結させる（攻撃を受けると早期解除）。命中した敵1人につき追加HP 50を獲得"
+    },
+    "Critical hit generates 1 Life Orb; a non-critical hit generates 0.3 Life Orbs": {
+      "ko": "치명타 적중 시 생명 구체 1개 생성 | 일반 적중 시 0.3개 생성",
+      "ja": "クリティカル命中時ライフオーブ1個生成 | 通常命中時0.3個生成"
+    },
+    "The shockwave destroys enemy summons, shields, and any Bonus Health. Enemies hit by the explosion spell field are applied with 2 Sparks; enemies hit by the shockwave are applied with 1 Spark.": {
+      "ko": "충격파가 적 소환물·방벽·추가 체력을 파괴하며, 폭발 장판 적중 시 불꽃(Spark) 2스택, 충격파 적중 시 1스택을 부여합니다.",
+      "ja": "衝撃波が敵の召喚物・シールド・追加HPを破壊し、爆発フィールド命中でSpark 2スタック、衝撃波命中で1スタックを付与します。"
+    },
+    "Base duration: 8s; each Spirit Tail extends the duration by 2s, up to a maximum of 12s": {
+      "ko": "기본 지속 8초 | 영혼 꼬리당 2초 연장 (최대 12초)",
+      "ja": "基本持続8秒 | 霊狐の尾1本ごとに2秒延長（最大12秒）"
     }
   },
   "patterns": [
+    {
+      "regex": "^Damage (?:falls off|decreases) to (\\d+(?:\\.\\d+)?)% (?:beyond|at) (\\d+(?:\\.\\d+)?)m$",
+      "ko": "$2m 거리에서 데미지 $1%로 감쇠",
+      "ja": "$2m地点でダメージ$1%に減衰"
+    },
+    {
+      "regex": "^Center\\s*(\\d+(?:\\.\\d+)?)%,\\s*Edge\\s*(\\d+(?:\\.\\d+)?)%$",
+      "ko": "중심부 $1% / 외곽 $2%",
+      "ja": "中心 $1% / 外周 $2%"
+    },
+    {
+      "regex": "^Self:\\s*(\\d+(?:\\.\\d+)?)$",
+      "ko": "자신: $1",
+      "ja": "自身: $1"
+    },
     {
       "regex": "^(\\d+(?:\\.\\d+)?)%\\s*(?:of\\s+(?:the\\s+)?)?Max(?:imum)?\\s*Health$",
       "ko": "최대 체력의 $1%",
