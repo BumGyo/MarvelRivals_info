@@ -4,7 +4,7 @@ on:
   schedule:
     # 매일 UTC 00:00 (한국 시간 오전 9시)에 공식 홈페이지 확인
     - cron: '0 0 * * *'
-  # GitHub 웹사이트 Actions 탭에서 수동으로 즉시 1클릭 실행 가능
+  # GitHub 웹사이트 Actions 탭에서 수동 1클릭 실행 가능
   workflow_dispatch:
 
 permissions:
@@ -23,10 +23,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Python 3.10
+      - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Setup Node.js 20
         uses: actions/setup-node@v4
@@ -37,28 +37,34 @@ jobs:
       - name: Fetch Official NetEase Data
         run: python scripts/sync_heroes.py
 
-      # 2. 데드풀 3개 역할 분리, 스펙 라벨 자동 감지/등록, 영웅 카운트 동기화
-      - name: Post-process Custom Logic, Hero Count & Auto-Register Stats
+      # 2. 데드풀 3역할 분리, 멀티 폼 동적 구성, 번역 주입 및 캐시 해시 동기화
+      - name: Post-Process Hero Data & Cache Hash
         run: node scripts/post_process.js
 
-      # 3. 다국어 마스터 번역 데이터 통합 빌드 (신규 등록된 스펙 포함)
-      - name: Build Unified Translations
+      # 3. 경량 스탯 다국어 런타임 번들 빌드
+      - name: Build Runtime Stat Translations Bundle
         run: python scripts/build_unified_translations.py
 
-      # 4. 다국어(KR/JP) 번역 및 데이터 무결성 검증 (신규 라벨은 경고로 처리하여 무중단 배포 보장)
-      - name: Validate Translations & Data Integrity
+      # 4. 다국어(KR/JP) 번역, 스키마, 이미지 URL 및 프론트엔드 통합 검증
+      - name: Validate Translations & Purity
         run: node scripts/validate_translations.js
+
+      - name: Validate Hero Schema & Base Stats
+        run: python scripts/validate_heroes.py
 
       - name: Test Frontend Integration
         run: node scripts/test_integration.js
 
-      # 5. 변경 사항 감지 및 자동 커밋 & 푸시
+      - name: Verify Official Image URLs
+        run: python scripts/check_images.py
+
+      # 5. 데이터/문서 변경 사항 감지 및 자동 커밋 & 푸시
       - name: Commit and Push if Changes Detected
         run: |
           git config --global user.name "MarvelRivals-SyncBot"
           git config --global user.email "sync-bot@marvelrivals.local"
 
-          git add data/heroes.json data/translations.json data/translations/ index.html scripts/
+          git add data/heroes.json data/translations.json index.html README.md
 
           if git diff --staged --quiet; then
             echo "✅ 최신 상태입니다. (새로운 패치 또는 변경사항 없음)"

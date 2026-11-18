@@ -1,374 +1,125 @@
 {
   "ko": {
-    "siteTitle": "마블 라이벌즈 영웅 스킬 도감",
-    "siteSubtitle": "영웅별 스킬 수치 및 팀업 정보",
-    "searchPlaceholder": "영웅 이름 또는 스킬명 검색...",
+    "siteSubtitle": "스킬 수치 & 팀업 백과사전",
+    "searchPlaceholder": "영웅 이름, 폼 또는 스킬 검색... (/ 키)",
     "allRoles": "전체",
     "vanguard": "뱅가드 (돌격)",
     "duelist": "듀얼리스트 (공격)",
     "strategist": "전략가 (지원)",
+    "heroCountSingle": "1명의 영웅",
+    "heroCountPlural": "{n}명의 영웅",
     "health": "체력",
     "speed": "이동 속도",
+    "movementMode": "이동 방식",
+    "modeFlight": "비행",
+    "modeGround": "지상",
     "skillsTab": "일반 스킬",
     "teamUpTab": "팀업",
-    "teamUpNotice": "",
-    "baseEffect": "기본 효과 (솔로 적용)",
-    "enhancedEffect": "강화 효과 (팀업 발동)",
-    "viewDetails": "스킬 수치 상세 보기",
-    "close": "닫기",
-    "damage": "데미지",
-    "cooldown": "쿨다운",
-    "range": "사거리/범위",
-    "fireRate": "연사 속도",
-    "ammo": "탄약",
-    "projectileSpeed": "투사체 속도",
-    "key": "단축키",
-    "noSkills": "스킬 정보가 없습니다.",
-    "stats": {
-      "Health": {
-        "ko": "체력",
-        "ja": "体力"
-      },
-      "Movement Speed": {
-        "ko": "이동 속도",
-        "ja": "移動速度"
-      },
-      "Movement Mode": {
-        "ko": "이동 방식",
-        "ja": "移動モード"
-      },
-      "Damage": {
-        "ko": "데미지",
-        "ja": "ダメージ"
-      },
-      "Healing": {
-        "ko": "치유량",
-        "ja": "回復量"
-      },
-      "Healing Amount": {
-        "ko": "치유량",
-        "ja": "回復量"
-      },
-      "Cooldown": {
-        "ko": "재사용 대기시간(쿨다운)",
-        "ja": "クールダウン"
-      },
-      "Range": {
-        "ko": "사거리 / 범위",
-        "ja": "射程 / 範囲"
-      },
-      "Spell Field Range": {
-        "ko": "영역 반경",
-        "ja": "展開半径"
-      },
-      "Spell Field Damage": {
-        "ko": "영역 지속 데미지",
-        "ja": "展開ダメージ"
-      },
-      "Spell Field Damage Falloff": {
-        "ko": "영역 데미지 감쇠",
-        "ja": "展開ダメージ減衰"
-      },
-      "Damage Falloff": {
-        "ko": "거리별 데미지 감쇠",
-        "ja": "ダメージ減衰"
-      },
-      "Projectile Speed": {
-        "ko": "투사체 속도",
-        "ja": "弾速"
-      },
-      "Fire Rate": {
-        "ko": "연사 속도",
-        "ja": "発射速度"
-      },
-      "Ammo": {
-        "ko": "탄약 수",
-        "ja": "装弾数"
-      },
-      "Ammo Consumption": {
-        "ko": "탄약 소모량",
-        "ja": "弾薬消費量"
-      },
-      "Critical Hit": {
-        "ko": "치명타(헤드샷)",
-        "ja": "クリティカル"
-      },
-      "Casting": {
-        "ko": "시전 방식",
-        "ja": "発動タイプ"
-      },
-      "Duration": {
-        "ko": "지속 시간",
-        "ja": "持続時間"
-      },
-      "Maximum Duration": {
-        "ko": "최대 지속 시간",
-        "ja": "最大持続時間"
-      },
-      "Energy Cost": {
-        "ko": "에너지 소모량",
-        "ja": "エネルギー消費"
-      },
-      "Speed Boost": {
-        "ko": "이동속도 증가",
-        "ja": "移動速度上昇"
-      },
-      "Base Effect": {
-        "ko": "기본 효과 (솔로 적용)",
-        "ja": "基本効果 (ソロ常時発動)"
-      },
-      "Enhanced Effect": {
-        "ko": "강화 효과 (팀업 발동)",
-        "ja": "強化効果 (チームアップ発動)"
-      }
-    }
+    "specTitle": "스킬 수치 상세 스펙",
+    "upgradedSpecTitle": "업그레이드 스킬 상세 스펙",
+    "noSpecData": "상세 수치 정보가 없습니다.",
+    "noSkillSelected": "선택된 스킬이 없습니다.",
+    "upgradeViewBase": "기본 효과 보기",
+    "upgradeViewUpgraded": "스킬 업그레이드 효과 보기",
+    "loadoutLabel": "로드아웃 {n}",
+    "synergyPartnerLabel": "🤝 강화 시너지 파트너 영웅",
+    "synergyPartnerFallback": "시너지 파트너",
+    "baseEffectBadge": "⚡ 기본 효과 (솔로 적용)",
+    "enhancedEffectBadge": "🔥 강화 효과 (팀업 발동)",
+    "baseStatsTitle": "기본 효과 수치",
+    "enhancedStatsTitle": "팀업 강화 수치",
+    "baseFallbackDesc": "아군 조합 없이도 솔로로 상시 발동되는 기본 효과입니다.",
+    "enhancedFallbackDesc": "{partner}와(과) 함께 플레이 시 스킬이 강화됩니다.",
+    "noTeamups": "이 영웅은 현재 등록된 팀업 스킬이 없습니다.",
+    "noResultsTitle": "검색 결과가 없습니다",
+    "noResultsDesc": "다른 검색어나 역할군 필터를 선택해 보세요.",
+    "loadErrorTitle": "데이터를 불러오는 데 실패했습니다.",
+    "devBadge": "개발자 정보",
+    "devRole": "Marvel Rivals 플레이어 & 프로그래머",
+    "devSnsHeading": "공식 채널 & SNS",
+    "devBtnLabel": "개발자 정보",
+    "closeModalLabel": "창 닫기"
   },
   "ja": {
-    "siteTitle": "マーベル・ライバルズ スキル図鑑",
-    "siteSubtitle": "ヒーロー別スキル数値 ＆ チームアップ情報",
-    "searchPlaceholder": "ヒーロー名またはスキルを検索...",
+    "siteSubtitle": "スキル数値 ＆ チームアップ図鑑",
+    "searchPlaceholder": "ヒーロー名・フォーム・スキルを検索... (/ キー)",
     "allRoles": "すべて",
     "vanguard": "ヴァンガード (タンク)",
     "duelist": "デュエリスト (DPS)",
     "strategist": "ストラテジスト (サポート)",
+    "heroCountSingle": "1 ヒーロー",
+    "heroCountPlural": "{n} ヒーロー",
     "health": "体力",
     "speed": "移動速度",
+    "movementMode": "移動モード",
+    "modeFlight": "飛行",
+    "modeGround": "地上",
     "skillsTab": "通常スキル",
     "teamUpTab": "チームアップ",
-    "teamUpNotice": "",
-    "baseEffect": "基本効果 (ソロ常時発動)",
-    "enhancedEffect": "強化効果 (チームアップ発動)",
-    "viewDetails": "詳細数値を確認",
-    "close": "閉じる",
-    "damage": "ダメージ",
-    "cooldown": "クールダウン",
-    "range": "射程/範囲",
-    "fireRate": "発射速度",
-    "ammo": "装弾数",
-    "projectileSpeed": "弾速",
-    "key": "キー操作",
-    "noSkills": "スキル情報がありません。",
-    "stats": {
-      "Health": {
-        "ko": "체력",
-        "ja": "体力"
-      },
-      "Movement Speed": {
-        "ko": "이동 속도",
-        "ja": "移動速度"
-      },
-      "Movement Mode": {
-        "ko": "이동 방식",
-        "ja": "移動モード"
-      },
-      "Damage": {
-        "ko": "데미지",
-        "ja": "ダメージ"
-      },
-      "Healing": {
-        "ko": "치유량",
-        "ja": "回復量"
-      },
-      "Healing Amount": {
-        "ko": "치유량",
-        "ja": "回復量"
-      },
-      "Cooldown": {
-        "ko": "재사용 대기시간(쿨다운)",
-        "ja": "クールダウン"
-      },
-      "Range": {
-        "ko": "사거리 / 범위",
-        "ja": "射程 / 範囲"
-      },
-      "Spell Field Range": {
-        "ko": "영역 반경",
-        "ja": "展開半径"
-      },
-      "Spell Field Damage": {
-        "ko": "영역 지속 데미지",
-        "ja": "展開ダメージ"
-      },
-      "Spell Field Damage Falloff": {
-        "ko": "영역 데미지 감쇠",
-        "ja": "展開ダメージ減衰"
-      },
-      "Damage Falloff": {
-        "ko": "거리별 데미지 감쇠",
-        "ja": "ダメージ減衰"
-      },
-      "Projectile Speed": {
-        "ko": "투사체 속도",
-        "ja": "弾速"
-      },
-      "Fire Rate": {
-        "ko": "연사 속도",
-        "ja": "発射速度"
-      },
-      "Ammo": {
-        "ko": "탄약 수",
-        "ja": "装弾数"
-      },
-      "Ammo Consumption": {
-        "ko": "탄약 소모량",
-        "ja": "弾薬消費量"
-      },
-      "Critical Hit": {
-        "ko": "치명타(헤드샷)",
-        "ja": "クリティカル"
-      },
-      "Casting": {
-        "ko": "시전 방식",
-        "ja": "発動タイプ"
-      },
-      "Duration": {
-        "ko": "지속 시간",
-        "ja": "持続時間"
-      },
-      "Maximum Duration": {
-        "ko": "최대 지속 시간",
-        "ja": "最大持続時間"
-      },
-      "Energy Cost": {
-        "ko": "에너지 소모량",
-        "ja": "エネルギー消費"
-      },
-      "Speed Boost": {
-        "ko": "이동속도 증가",
-        "ja": "移動速度上昇"
-      },
-      "Base Effect": {
-        "ko": "기본 효과 (솔로 적용)",
-        "ja": "基本効果 (ソロ常時発動)"
-      },
-      "Enhanced Effect": {
-        "ko": "강화 효과 (팀업 발동)",
-        "ja": "強化効果 (チームアップ発動)"
-      }
-    }
+    "specTitle": "スキル詳細数値スペック",
+    "upgradedSpecTitle": "強化スキル詳細数値スペック",
+    "noSpecData": "詳細数値データがありません。",
+    "noSkillSelected": "スキルが選択されていません。",
+    "upgradeViewBase": "基本効果を見る",
+    "upgradeViewUpgraded": "スキル強化効果を見る",
+    "loadoutLabel": "ロードアウト {n}",
+    "synergyPartnerLabel": "🤝 強化シナジー対象ヒーロー",
+    "synergyPartnerFallback": "シナジーパートナー",
+    "baseEffectBadge": "⚡ 基本効果 (ソロ常時発動)",
+    "enhancedEffectBadge": "🔥 強化効果 (チームアップ発動)",
+    "baseStatsTitle": "基本効果数値",
+    "enhancedStatsTitle": "チームアップ強化数値",
+    "baseFallbackDesc": "味方の編成に関係なくソロで常時発動する基本効果です。",
+    "enhancedFallbackDesc": "{partner}とチームを組むことでアビリティが強化されます。",
+    "noTeamups": "このヒーローには現在登録されたチームアップがありません。",
+    "noResultsTitle": "検索結果が見つかりません",
+    "noResultsDesc": "別のキーワードまたはロールフィルターをお試しください。",
+    "loadErrorTitle": "データの読み込みに失敗しました。",
+    "devBadge": "制作者情報",
+    "devRole": "Marvel Rivals プレイヤー ＆ プログラマー",
+    "devSnsHeading": "公式チャンネル ＆ SNS",
+    "devBtnLabel": "制作者情報",
+    "closeModalLabel": "閉じる"
   },
   "en": {
-    "siteTitle": "Marvel Rivals Skill Database",
-    "siteSubtitle": "Hero Skill Stats & Team-Up Loadouts",
-    "searchPlaceholder": "Search hero name or skill...",
-    "allRoles": "All Roles",
+    "siteSubtitle": "SKILL & TEAM-UP DATABASE",
+    "searchPlaceholder": "Search hero, form, or skill... (Press /)",
+    "allRoles": "All",
     "vanguard": "Vanguard",
     "duelist": "Duelist",
     "strategist": "Strategist",
+    "heroCountSingle": "1 Hero",
+    "heroCountPlural": "{n} Heroes",
     "health": "Health",
     "speed": "Speed",
+    "movementMode": "Movement",
+    "modeFlight": "Flight",
+    "modeGround": "Ground",
     "skillsTab": "Abilities",
     "teamUpTab": "Team-Up",
-    "teamUpNotice": "",
-    "baseEffect": "Base Effect (Solo)",
-    "enhancedEffect": "Enhanced Effect (Team-Up)",
-    "viewDetails": "View Stats",
-    "close": "Close",
-    "damage": "Damage",
-    "cooldown": "Cooldown",
-    "range": "Range",
-    "fireRate": "Fire Rate",
-    "ammo": "Ammo",
-    "projectileSpeed": "Projectile Speed",
-    "key": "Key",
-    "noSkills": "No abilities found.",
-    "stats": {
-      "Health": {
-        "ko": "체력",
-        "ja": "体力"
-      },
-      "Movement Speed": {
-        "ko": "이동 속도",
-        "ja": "移動速度"
-      },
-      "Movement Mode": {
-        "ko": "이동 방식",
-        "ja": "移動モード"
-      },
-      "Damage": {
-        "ko": "데미지",
-        "ja": "ダメージ"
-      },
-      "Healing": {
-        "ko": "치유량",
-        "ja": "回復量"
-      },
-      "Healing Amount": {
-        "ko": "치유량",
-        "ja": "回復量"
-      },
-      "Cooldown": {
-        "ko": "재사용 대기시간(쿨다운)",
-        "ja": "クールダウン"
-      },
-      "Range": {
-        "ko": "사거리 / 범위",
-        "ja": "射程 / 範囲"
-      },
-      "Spell Field Range": {
-        "ko": "영역 반경",
-        "ja": "展開半径"
-      },
-      "Spell Field Damage": {
-        "ko": "영역 지속 데미지",
-        "ja": "展開ダメージ"
-      },
-      "Spell Field Damage Falloff": {
-        "ko": "영역 데미지 감쇠",
-        "ja": "展開ダメージ減衰"
-      },
-      "Damage Falloff": {
-        "ko": "거리별 데미지 감쇠",
-        "ja": "ダメージ減衰"
-      },
-      "Projectile Speed": {
-        "ko": "투사체 속도",
-        "ja": "弾速"
-      },
-      "Fire Rate": {
-        "ko": "연사 속도",
-        "ja": "発射速度"
-      },
-      "Ammo": {
-        "ko": "탄약 수",
-        "ja": "装弾数"
-      },
-      "Ammo Consumption": {
-        "ko": "탄약 소모량",
-        "ja": "弾薬消費量"
-      },
-      "Critical Hit": {
-        "ko": "치명타(헤드샷)",
-        "ja": "クリティカル"
-      },
-      "Casting": {
-        "ko": "시전 방식",
-        "ja": "発動タイプ"
-      },
-      "Duration": {
-        "ko": "지속 시간",
-        "ja": "持続時間"
-      },
-      "Maximum Duration": {
-        "ko": "최대 지속 시간",
-        "ja": "最大持続時間"
-      },
-      "Energy Cost": {
-        "ko": "에너지 소모량",
-        "ja": "エネルギー消費"
-      },
-      "Speed Boost": {
-        "ko": "이동속도 증가",
-        "ja": "移動速度上昇"
-      },
-      "Base Effect": {
-        "ko": "기본 효과 (솔로 적용)",
-        "ja": "基本効果 (ソロ常時発動)"
-      },
-      "Enhanced Effect": {
-        "ko": "강화 효과 (팀업 발동)",
-        "ja": "強化効果 (チームアップ発動)"
-      }
-    }
+    "specTitle": "SPECIFICATIONS",
+    "upgradedSpecTitle": "UPGRADED SPECIFICATIONS",
+    "noSpecData": "No specification numbers available.",
+    "noSkillSelected": "No ability selected.",
+    "upgradeViewBase": "Click to view base stats",
+    "upgradeViewUpgraded": "Click to view upgraded stats",
+    "loadoutLabel": "Loadout {n}",
+    "synergyPartnerLabel": "🤝 SYNERGY PARTNER HERO",
+    "synergyPartnerFallback": "Synergy Partner",
+    "baseEffectBadge": "⚡ Base Effect (Solo)",
+    "enhancedEffectBadge": "🔥 Enhanced Effect (Team-Up)",
+    "baseStatsTitle": "Base Stats",
+    "enhancedStatsTitle": "Enhanced Stats",
+    "baseFallbackDesc": "Solo passive ability applied without requiring team-up partners.",
+    "enhancedFallbackDesc": "Activated when teaming up with {partner}.",
+    "noTeamups": "No team-up loadouts registered for this hero.",
+    "noResultsTitle": "No matching heroes found",
+    "noResultsDesc": "Try a different keyword or role filter.",
+    "loadErrorTitle": "Failed to load database.",
+    "devBadge": "CREATOR INFO",
+    "devRole": "Marvel Rivals Player & Programmer",
+    "devSnsHeading": "OFFICIAL CHANNELS & SNS",
+    "devBtnLabel": "Creator Info",
+    "closeModalLabel": "Close modal"
   }
 }

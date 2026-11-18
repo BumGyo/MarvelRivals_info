@@ -1,48 +1,57 @@
 #!/usr/bin/env python3
+"""
+Marvel Rivals Hero Schema & Base Stats Validator
+"""
+
 import json
 import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+VALID_ROLES = {"VANGUARD", "DUELIST", "STRATEGIST"}
+
 
 def validate():
-    with open('data/heroes.json', 'r', encoding='utf-8') as f:
+    heroes_path = ROOT / "data" / "heroes.json"
+    with heroes_path.open("r", encoding="utf-8") as f:
         heroes = json.load(f)
 
     print(f"Total heroes loaded: {len(heroes)}")
-    assert len(heroes) >= 50, f"Expected at least 50 heroes, found {len(heroes)}"
+    if len(heroes) < 55:
+        print(f"❌ Expected at least 55 heroes, found {len(heroes)}")
+        sys.exit(1)
 
     errors = []
     for h in heroes:
-        name = h.get('name')
-        base_stats = h.get('base_stats', {})
-        
-        # Check Health
-        hp = base_stats.get('Health')
-        if not hp:
-            errors.append(f"[{name}] Missing Health in base_stats: {base_stats}")
-        elif hp == 'N/A':
-            errors.append(f"[{name}] Health is N/A")
-            
-        # Check Movement Speed
-        spd = base_stats.get('Movement Speed')
-        if not spd:
-            errors.append(f"[{name}] Missing Movement Speed in base_stats: {base_stats}")
-        elif spd == 'N/A':
-            errors.append(f"[{name}] Movement Speed is N/A")
-        elif not spd.endswith('m/s'):
-            errors.append(f"[{name}] Movement Speed '{spd}' does not end with 'm/s'")
+        name = h.get("name", "<unknown>")
+        role = h.get("role")
+        if role not in VALID_ROLES:
+            errors.append(f"[{name}] Invalid role: {role}")
 
-        # Check Movement Mode
-        mode = base_stats.get('Movement Mode')
-        if not mode:
-            errors.append(f"[{name}] Missing Movement Mode in base_stats")
+        if name == "ADAM WARLOCK" and role != "STRATEGIST":
+            errors.append(f"[ADAM WARLOCK] Expected STRATEGIST, got {role}")
 
-        # Check Skills
-        skills = h.get('skills', [])
-        if not skills:
-            errors.append(f"[{name}] Has no skills!")
+        names = h.get("names", {})
+        if not (names.get("en") and names.get("ko") and names.get("ja")):
+            errors.append(f"[{name}] Missing localized name in names: {names}")
 
-        # Check Team-ups
-        teamups = h.get('teamups', [])
-        if not teamups:
+        base_stats = h.get("base_stats", {})
+        hp = base_stats.get("Health")
+        if not hp or hp == "N/A":
+            errors.append(f"[{name}] Missing or invalid Health: {hp}")
+
+        spd = base_stats.get("Movement Speed", "")
+        if not spd or not spd.endswith("m/s"):
+            errors.append(f"[{name}] Invalid Movement Speed '{spd}' (must end with 'm/s')")
+
+        if not base_stats.get("Movement Mode"):
+            errors.append(f"[{name}] Missing Movement Mode")
+
+        has_skills = bool(h.get("skills")) or any(bool(fm.get("skills")) for fm in h.get("forms", []))
+        if not has_skills:
+            errors.append(f"[{name}] Has no skills in skills or forms!")
+
+        if not h.get("teamups"):
             errors.append(f"[{name}] Has no teamups!")
 
     if errors:
@@ -50,11 +59,9 @@ def validate():
         for err in errors:
             print(" -", err)
         sys.exit(1)
-    else:
-        print("\n✅ ALL 53 HEROES PASSED VALIDATION WITH 0 ERRORS!")
-        print(f"Sample heroes base_stats:")
-        for sample in [heroes[0], heroes[15], heroes[30], heroes[52]]:
-            print(f" - {sample['name']:15} | HP: {sample['base_stats']['Health']:30} | SPD: {sample['base_stats']['Movement Speed']:10} | Mode: {sample['base_stats']['Movement Mode']}")
 
-if __name__ == '__main__':
+    print(f"\n✅ ALL {len(heroes)} HEROES PASSED SCHEMA VALIDATION WITH 0 ERRORS!")
+
+
+if __name__ == "__main__":
     validate()

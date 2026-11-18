@@ -142,11 +142,11 @@
     },
     "Damage per Round": {
       "ko": "발당 데미지",
-      "ja": "1発あたりのダメージ"
+      "ja": "1 発あたりのダメージ"
     },
     "Damage per Tick": {
       "ko": "틱당 데미지",
-      "ja": "1tickあたりのダメージ"
+      "ja": "1tick あたりのダメージ"
     },
     "Bonus Health": {
       "ko": "추가 체력",
@@ -294,7 +294,7 @@
     },
     "Secondary Damage": {
       "ko": "2차 데미지",
-      "ja": "2次ダメージ"
+      "ja": "2 次ダメージ"
     },
     "Direct Hit Damage": {
       "ko": "직격 데미지",
@@ -337,51 +337,47 @@
       "ja": "冷却速度"
     },
     "Healing to Allies Hit by Cosmic Cluster": {
-      "ko": "치유량 to 아군 Hit by Cosmic Cluster",
-      "ja": "回復量to味方HitbyCosmicCluster"
+      "ko": "Cosmic Cluster 적중 아군 치유량",
+      "ja": "Cosmic Cluster 命中味方への回復量"
     },
     "Quantum Magic Ammo Increase": {
-      "ko": "Quantum Magic 탄약 Increase",
-      "ja": "QuantumMagic装弾数Increase"
+      "ko": "Quantum Magic 탄약 증가량",
+      "ja": "Quantum Magic 装弾数増加"
     },
     "Spell Field Healing": {
-      "ko": "Spell 영역 치유량",
-      "ja": "Spellフィールド回復量"
+      "ko": "장판 치유량",
+      "ja": "Spell フィールド回復量"
     },
     "Charge-Damage Conversion Ratio": {
-      "ko": "충전 데미지 Conversion Ratio",
-      "ja": "チャージダメージConversionRatio"
+      "ko": "충전량 → 데미지 전환 비율",
+      "ja": "チャージ→ダメージ変換率"
     },
     "Maximum Shield Value": {
-      "ko": "최대 보호막 Value",
-      "ja": "最大シールドValue"
+      "ko": "최대 보호막 수치",
+      "ja": "最大シールド耐久値"
     },
     "Cooldown After Destroyed": {
-      "ko": "재사용 대기시간 After Destroyed",
-      "ja": "クールダウンAfterDestroyed"
-    },
-    "Delayed Recovery After Release": {
-      "ko": "Delayed Recovery After Release",
-      "ja": "DelayedRecoveryAfterRelease"
+      "ko": "파괴 시 재사용 대기시간",
+      "ja": "破壊後のクールダウン"
     },
     "Recovery Speed": {
-      "ko": "Recovery 속도",
-      "ja": "Recovery速度"
+      "ko": "회복 속도",
+      "ja": "回復速度"
     },
     "Damage Resisted-Charge Conversion Ratio": {
-      "ko": "데미지 Resisted 충전 Conversion Ratio",
-      "ja": "ダメージResistedチャージConversionRatio"
+      "ko": "방어 피해량 → 충전 전환 비율",
+      "ja": "軽減ダメージ→チャージ変換率"
     },
     "Hit Ground Damage": {
-      "ko": "Hit Ground 데미지",
-      "ja": "HitGroundダメージ"
+      "ko": "지면 착탄 데미지",
+      "ja": "着地ダメージ"
     },
     "HIt Ground Spell Field Range": {
-      "ko": "H It Ground Spell 영역 사거리 / 범위",
-      "ja": "HItGroundSpellフィールド射程 / 範囲"
+      "ko": "착지 장판 범위",
+      "ja": "着地フィールド範囲"
     },
     "Slow Rate": {
-      "ko": "감속 속도/비율",
+      "ko": "감속 비율",
       "ja": "鈍足率"
     },
     "Projectile Damage": {
@@ -389,40 +385,40 @@
       "ja": "弾速ダメージ"
     },
     "SUMMONS' HEALTH": {
-      "ko": "SUMMONS 체력",
-      "ja": "SUMMONS体力"
+      "ko": "소환물 체력",
+      "ja": "召喚物の体力"
     },
     "One-time Energy Cost": {
-      "ko": "One time 에너지 소모량",
-      "ja": "Onetimeエネルギー消費"
+      "ko": "즉시 에너지 소모량",
+      "ja": "即時エネルギー消費"
     },
     "Energy Required to Activate the Ability": {
-      "ko": "에너지 Required to Activate the Ability",
-      "ja": "エネルギーRequiredtoActivatetheAbility"
+      "ko": "스킬 발동 필요 에너지",
+      "ja": "アビリティ発動必要エネルギー"
     },
     "Recover Delay": {
       "ko": "Recover 지연 시간",
-      "ja": "Recover遅延時間"
+      "ja": "Recover 遅延時間"
     },
     "Dash State Speed": {
-      "ko": "Dash State 속도",
-      "ja": "DashState速度"
+      "ko": "돌진 상태 이동 속도",
+      "ja": "ダッシュ状態の速度"
     },
     "Maximum Enemies Could Be Carried": {
-      "ko": "최대 적 Could Be Carried",
-      "ja": "最大敵CouldBeCarried"
+      "ko": "최대 동시 납치 가능 적 수",
+      "ja": "同時に運搬可能な最大敵数"
     },
     "Passive Energy Gained During the Dash": {
-      "ko": "Passive 에너지 Gained During the Dash",
-      "ja": "PassiveエネルギーGainedDuringtheDash"
+      "ko": "돌진 중 패시브 에너지 획득",
+      "ja": "突進中のパッシブエネルギー獲得"
     },
     "Piercing Damage": {
-      "ko": "Piercing 데미지",
-      "ja": "Piercingダメージ"
+      "ko": "관통 데미지",
+      "ja": "貫通ダメージ"
     },
     "Damage Over Time Spell Field Range": {
-      "ko": "데미지 Over Time Spell 영역 사거리 / 범위",
-      "ja": "ダメージOverTimeSpellフィールド射程 / 範囲"
+      "ko": "지속 데미지 장판 범위",
+      "ja": "継続ダメージフィールド範囲"
     },
     "Movement Boost (Self)": {
       "ko": "이동 속도 증가 자신",
@@ -432,53 +428,41 @@
       "ko": "추가 최대 체력",
       "ja": "追加最大体力"
     },
-    "Ascent Height": {
-      "ko": "Ascent Height",
-      "ja": "AscentHeight"
-    },
     "Ascent Duration": {
-      "ko": "Ascent 지속 시간",
-      "ja": "Ascent持続時間"
+      "ko": "상승 지속 시간",
+      "ja": "上昇持続時間"
     },
     "Ascent Elevation Angle": {
-      "ko": "Ascent Elevation 각도",
-      "ja": "AscentElevation角度"
-    },
-    "Time Required to Enter Glide": {
-      "ko": "Time Required to Enter Glide",
-      "ja": "TimeRequiredtoEnterGlide"
-    },
-    "Glide Activation Condition": {
-      "ko": "Glide Activation Condition",
-      "ja": "GlideActivationCondition"
+      "ko": "상승 각도",
+      "ja": "上昇角度"
     },
     "Glide Speed": {
-      "ko": "Glide 속도",
-      "ja": "Glide速度"
+      "ko": "활공 속도",
+      "ja": "滑空速度"
     },
     "Passive Energy Gained During Glide": {
-      "ko": "Passive 에너지 Gained During Glide",
-      "ja": "PassiveエネルギーGainedDuringGlide"
+      "ko": "활공 중 패시브 에너지 획득",
+      "ja": "滑空中のパッシブエネルギー獲得"
     },
     "Reveal Spell Field Range": {
-      "ko": "Reveal Spell 영역 사거리 / 범위",
-      "ja": "RevealSpellフィールド射程 / 範囲"
+      "ko": "시야 드러내기 장판 범위",
+      "ja": "位置露呈フィールド範囲"
     },
     "Ground Slam Spell Field Range": {
-      "ko": "Ground 내리치기 Spell 영역 사거리 / 범위",
-      "ja": "Ground叩きつけSpellフィールド射程 / 範囲"
+      "ko": "지면 강타 장판 범위",
+      "ja": "地面叩きつけフィールド範囲"
     },
     "Ground Slam Damage": {
       "ko": "Ground 내리치기 데미지",
-      "ja": "Ground叩きつけダメージ"
+      "ja": "Ground 叩きつけダメージ"
     },
     "Ground Bind Duration": {
-      "ko": "Ground Bind 지속 시간",
-      "ja": "GroundBind持続時間"
+      "ko": "지면 속박 지속 시간",
+      "ja": "地上拘束持続時間"
     },
     "Illusion Max Damage Absorbed": {
       "ko": "Illusion 최대 데미지 Absorbed",
-      "ja": "Illusion最大ダメージAbsorbed"
+      "ja": "Illusion 最大ダメージAbsorbed"
     },
     "Bonus Health Per Hit": {
       "ko": "추가 체력 타격당",
@@ -489,108 +473,104 @@
       "ja": "最大追加体力"
     },
     "Grapple Swipe Fortune Consumption": {
-      "ko": "Grapple Swipe Fortune 소모량",
-      "ja": "GrappleSwipeFortune消費量"
+      "ko": "Grapple Swipe 행운 소모량",
+      "ja": "Grapple Swipe 幸運消費量"
     },
     "Phantom Pursuit Fortune Consumption": {
-      "ko": "Phantom Pursuit Fortune 소모량",
-      "ja": "PhantomPursuitFortune消費量"
+      "ko": "Phantom Pursuit 행운 소모량",
+      "ja": "Phantom Pursuit 幸運消費量"
     },
     "Maximum Dash Distance": {
-      "ko": "최대 Dash 거리",
-      "ja": "最大Dash距離"
+      "ko": "최대 돌진 거리",
+      "ja": "最大ダッシュ距離"
     },
     "Fore-swing Damage Reduction": {
       "ko": "Fore swing 피해 감소",
-      "ja": "Foreswing被ダメージ軽減"
+      "ja": "Foreswing 被ダメージ軽減"
     },
     "Maximum Targeting Distance": {
       "ko": "최대 Targeting 거리",
-      "ja": "最大Targeting距離"
+      "ja": "最大Targeting 距離"
     },
     "1st Claw Strike Damage": {
-      "ko": "1 st 발톱 타격 데미지",
-      "ja": "1st爪打撃ダメージ"
+      "ko": "1타 발톱 공격 데미지",
+      "ja": "1 段目爪攻撃ダメージ"
     },
     "2nd Claw Strike Damage": {
-      "ko": "2 nd 발톱 타격 데미지",
-      "ja": "2nd爪打撃ダメージ"
+      "ko": "2타 발톱 공격 데미지",
+      "ja": "2 段目爪攻撃ダメージ"
     },
     "Hook Speed": {
       "ko": "Hook 속도",
-      "ja": "Hook速度"
+      "ja": "Hook 速度"
     },
     "Hook Maximum Distance": {
       "ko": "Hook 최대 거리",
-      "ja": "Hook最大距離"
+      "ja": "Hook 最大距離"
     },
     "Hook Damage": {
       "ko": "Hook 데미지",
-      "ja": "Hookダメージ"
+      "ja": "Hook ダメージ"
     },
     "Bonus Health from Hook Hit": {
-      "ko": "추가 체력 from Hook Hit",
-      "ja": "追加体力fromHookHit"
+      "ko": "갈고리 적중 시 추가 체력",
+      "ja": "フック命中時の追加HP"
     },
     "Dash Duration": {
-      "ko": "Dash 지속 시간",
-      "ja": "Dash持続時間"
+      "ko": "돌진 지속 시간",
+      "ja": "ダッシュ持続時間"
     },
     "Fortune Consumption": {
       "ko": "Fortune 소모량",
-      "ja": "Fortune消費量"
+      "ja": "Fortune 消費量"
     },
     "Invisibility Duration": {
       "ko": "Invisibility 지속 시간",
-      "ja": "Invisibility持続時間"
+      "ja": "Invisibility 持続時間"
     },
     "Movement Speed Boost Duration": {
       "ko": "이동 속도 증가 지속 시간",
       "ja": "移動速度上昇持続時間"
     },
     "Maximum Summon Quantity": {
-      "ko": "최대 소환수 Quantity",
-      "ja": "最大召喚物Quantity"
+      "ko": "최대 소환 수",
+      "ja": "最大召喚数"
     },
     "Slow Ratio": {
-      "ko": "감속 Ratio",
-      "ja": "鈍足Ratio"
+      "ko": "감속 비율",
+      "ja": "鈍足率"
     },
     "Fortune Gained per Target Hit (Feline Fury)": {
-      "ko": "Fortune Gained per 대상 Hit Feline Fury",
-      "ja": "FortuneGainedper対象HitFelineFury"
+      "ko": "적중 대상당 행운 획득 (Feline Fury)",
+      "ja": "命中対象ごとの幸運獲得 (Feline Fury)"
     },
     "Fortune Gained per Target Hit (Claw Whip)": {
-      "ko": "Fortune Gained per 대상 Hit 발톱 Whip",
-      "ja": "FortuneGainedper対象Hit爪Whip"
+      "ko": "적중 대상당 행운 획득 (Claw Whip)",
+      "ja": "命中対象ごとの幸運獲得 (Claw Whip)"
     },
     "Fortune Gained per Target Hit (Phantom Pursuit)": {
-      "ko": "Fortune Gained per 대상 Hit Phantom Pursuit",
-      "ja": "FortuneGainedper対象HitPhantomPursuit"
+      "ko": "적중 대상당 행운 획득 (Phantom Pursuit)",
+      "ja": "命中対象ごとの幸運獲得 (Phantom Pursuit)"
     },
     "Fortune Gained per Hit (Turn of Fortune)": {
-      "ko": "Fortune Gained 타격당 Turn of Fortune",
-      "ja": "FortuneGained命中ごとTurnofFortune"
+      "ko": "적중당 행운 획득 (Turn of Fortune)",
+      "ja": "命中ごとの幸運獲得 (Turn of Fortune)"
     },
     "Fortune Gained per Hit (Calling Card)": {
-      "ko": "Fortune Gained 타격당 Calling Card",
-      "ja": "FortuneGained命中ごとCallingCard"
-    },
-    "Fortune Lost Upon Death": {
-      "ko": "Fortune Lost Upon Death",
-      "ja": "FortuneLostUponDeath"
+      "ko": "적중당 행운 획득 (Calling Card)",
+      "ja": "命中ごとの幸運獲得 (Calling Card)"
     },
     "Damage Taken Threshold": {
-      "ko": "데미지 Taken Threshold",
-      "ja": "ダメージTakenThreshold"
+      "ko": "피격 데미지 임계치",
+      "ja": "被ダメージ閾値"
     },
     "Bonus Damage on Mark Trigge": {
-      "ko": "추가 데미지 on Mark Trigge",
-      "ja": "追加ダメージonMarkTrigge"
+      "ko": "표식 격발 추가 데미지",
+      "ja": "マーク起爆追加ダメージ"
     },
     "Imprison Duration": {
       "ko": "Imprison 지속 시간",
-      "ja": "Imprison持続時間"
+      "ja": "Imprison 持続時間"
     },
     "Casting Angle": {
       "ko": "시전 방식 각도",
@@ -598,27 +578,23 @@
     },
     "Average Speed": {
       "ko": "Average 속도",
-      "ja": "Average速度"
+      "ja": "Average 速度"
     },
     "Wall-Crawling Speed": {
-      "ko": "Wall Crawling 속도",
-      "ja": "WallCrawling速度"
-    },
-    "Trigger Condition": {
-      "ko": "Trigger Condition",
-      "ja": "TriggerCondition"
+      "ko": "벽 타기 이동 속도",
+      "ja": "壁登り移動速度"
     },
     "Shield Value": {
-      "ko": "보호막 Value",
-      "ja": "シールドValue"
+      "ko": "보호막 수치",
+      "ja": "シールド耐久値"
     },
     "Health Threshold for Ability Activation": {
       "ko": "체력 Threshold for Ability Activation",
-      "ja": "体力ThresholdforAbilityActivation"
+      "ja": "体力Thresholdfor AbilityActivation"
     },
     "Explosion Range": {
-      "ko": "폭발 사거리 / 범위",
-      "ja": "爆発射程 / 範囲"
+      "ko": "폭발 범위",
+      "ja": "爆発範囲"
     },
     "Initial Projectile Maximum Distance": {
       "ko": "초기 투사체 최대 거리",
@@ -626,163 +602,143 @@
     },
     "Initial Projectile Speed": {
       "ko": "초기 투사체 속도",
-      "ja": "初期弾速速度"
-    },
-    "Shrapnel Amount": {
-      "ko": "Shrapnel Amount",
-      "ja": "ShrapnelAmount"
+      "ja": "初期弾速"
     },
     "Damage per Shrapnel Hit": {
-      "ko": "데미지 per Shrapnel Hit",
-      "ja": "ダメージperShrapnelHit"
+      "ko": "파편 적중당 데미지",
+      "ja": "破片1 ヒットあたりのダメージ"
     },
     "Shrapnel Projectile Speed": {
       "ko": "Shrapnel 투사체 속도",
-      "ja": "Shrapnel弾速速度"
+      "ja": "Shrapnel 弾速"
     },
     "Shrapnel Damage Falloff": {
       "ko": "Shrapnel 거리별 데미지 감쇠",
-      "ja": "Shrapnelダメージ減衰"
+      "ja": "Shrapnel ダメージ減衰"
     },
     "Activation Cost": {
-      "ko": "Activation 소모량",
-      "ja": "Activation消費量"
+      "ko": "발동 소모량",
+      "ja": "発動消費量"
     },
     "Unstoppable Duration": {
       "ko": "Unstoppable 지속 시간",
-      "ja": "Unstoppable持続時間"
+      "ja": "Unstoppable 持続時間"
     },
     "Self Slow": {
       "ko": "자신 감속",
       "ja": "自身鈍足"
     },
     "Maximum Charge Time": {
-      "ko": "최대 충전 Time",
-      "ja": "最大チャージTime"
+      "ko": "최대 충전 시간",
+      "ja": "最大チャージ時間"
     },
     "Charge time for max distance": {
-      "ko": "충전 time for 최대 거리",
-      "ja": "チャージtimefor最大距離"
+      "ko": "최대 거리 도달 충전 시간",
+      "ja": "最大距離到達チャージ時間"
     },
     "Dash Distance": {
-      "ko": "Dash 거리",
-      "ja": "Dash距離"
+      "ko": "돌진 거리",
+      "ja": "ダッシュ距離"
     },
     "Spell Field Damage Over Time": {
-      "ko": "Spell 영역 데미지 Over Time",
-      "ja": "SpellフィールドダメージOverTime"
+      "ko": "장판 지속 데미지",
+      "ja": "フィールド継続ダメージ"
     },
     "Gun Second Hit Damage": {
-      "ko": "Gun 2차 Hit 데미지",
-      "ja": "Gun2次Hitダメージ"
+      "ko": "총기 2타 데미지",
+      "ja": "銃2 撃目ダメージ"
     },
     "Sword Second Hit Damage": {
-      "ko": "Sword 2차 Hit 데미지",
-      "ja": "Sword2次Hitダメージ"
+      "ko": "검 2타 데미지",
+      "ja": "剣2 撃目ダメージ"
     },
     "Second Hit Damage Range": {
-      "ko": "2차 Hit 데미지 사거리 / 범위",
-      "ja": "2次Hitダメージ射程 / 範囲"
+      "ko": "2타 피해 범위",
+      "ja": "2 撃目ダメージ範囲"
     },
     "Self Reduce Healing Proportion": {
       "ko": "자신 Reduce 치유량 비율",
-      "ja": "自身Reduce回復量割合"
+      "ja": "自身Reduce 回復量割合"
     },
     "Movement Speed Boost": {
       "ko": "이동 속도 증가",
       "ja": "移動速度上昇"
     },
     "Max Attack Speed Boost Buff Stack": {
-      "ko": "최대 공격 속도 증가 Buff Stack",
-      "ja": "最大攻撃速度上昇BuffStack"
-    },
-    "Left Click Hit Buff Stack": {
-      "ko": "Left Click Hit Buff Stack",
-      "ja": "LeftClickHitBuffStack"
-    },
-    "Shift Hit Buff Stack": {
-      "ko": "Shift Hit Buff Stack",
-      "ja": "ShiftHitBuffStack"
+      "ko": "공격 속도 버프 최대 스택",
+      "ja": "攻撃速度上昇バフ最大スタック"
     },
     "Attack Speed Boost Proportion from Each Buff Stack": {
-      "ko": "공격 속도 증가 비율 from Each Buff Stack",
-      "ja": "攻撃速度上昇割合fromEachBuffStack"
+      "ko": "버프 스택당 공격 속도 증가율",
+      "ja": "バフ1 スタックごとの攻撃速度上昇率"
     },
     "Duration of Each Buff Stack": {
-      "ko": "지속 시간 of Each Buff Stack",
-      "ja": "持続時間ofEachBuffStack"
+      "ko": "각 버프 스택 지속 시간",
+      "ja": "各バフスタック持続時間"
     },
     "Whirlwind Slash Damage": {
       "ko": "Whirlwind 베기 데미지",
-      "ja": "Whirlwind斬撃ダメージ"
+      "ja": "Whirlwind 斬撃ダメージ"
     },
     "Hits to Trigger the Whirlwind Slash": {
-      "ko": "Hits to Trigger the Whirlwind 베기",
-      "ja": "HitstoTriggertheWhirlwind斬撃"
+      "ko": "Whirlwind Slash 발동 필요 타수",
+      "ja": "Whirlwind Slash 発動必要ヒット数"
     },
     "Dash Damage": {
-      "ko": "Dash 데미지",
-      "ja": "Dashダメージ"
+      "ko": "돌진 데미지",
+      "ja": "ダッシュダメージ"
     },
     "Number of Projectiles": {
-      "ko": "수 of Projectiles",
-      "ja": "数ofProjectiles"
+      "ko": "투사체 수",
+      "ja": "発射弾数"
     },
     "Bounce Range": {
       "ko": "튕김 사거리 / 범위",
       "ja": "バウンド射程 / 範囲"
     },
     "Damage Falloff Per Bounce": {
-      "ko": "거리별 데미지 감쇠 Per 튕김",
-      "ja": "ダメージ減衰Perバウンド"
+      "ko": "튕김당 데미지 감쇠",
+      "ja": "跳弾ごとのダメージ減衰"
     },
     "Maximum Times of Bounce": {
       "ko": "최대 Times of 튕김",
-      "ja": "最大Timesofバウンド"
+      "ja": "最大Timesof バウンド"
     },
     "Max Dash Speed": {
-      "ko": "최대 Dash 속도",
-      "ja": "最大Dash速度"
+      "ko": "최대 돌진 속도",
+      "ja": "最大ダッシュ速度"
     },
     "Darkmoon Blade Damage": {
       "ko": "Darkmoon Blade 데미지",
-      "ja": "DarkmoonBladeダメージ"
+      "ja": "Darkmoon Blade ダメージ"
     },
     "Darkmoon Blade Flight Speed": {
-      "ko": "Darkmoon Blade Flight 속도",
-      "ja": "DarkmoonBladeFlight速度"
-    },
-    "Darkmoon Blades Fired": {
-      "ko": "Darkmoon Blades Fired",
-      "ja": "DarkmoonBladesFired"
+      "ko": "다크문 블레이드 비행 속도",
+      "ja": "ダークムーンブレード弾速"
     },
     "DAMAGE FALLOFF PER BOUNCE": {
-      "ko": "거리별 데미지 감쇠 PER 튕김",
-      "ja": "ダメージ減衰PERバウンド"
+      "ko": "튕김당 데미지 감쇠",
+      "ja": "跳弾ごとのダメージ減衰"
     },
     "Bloodline Awakening Stacks Gained from Damage Taken": {
-      "ko": "Bloodline Awakening Stacks Gained from 데미지 Taken",
-      "ja": "BloodlineAwakeningStacksGainedfromダメージTaken"
+      "ko": "피격 데미지당 Bloodline Awakening 스택 획득",
+      "ja": "被ダメージによるBloodline Awakening スタック獲得"
     },
     "Bloodline Awakening Max Stacks Increase": {
-      "ko": "Bloodline Awakening 최대 Stacks Increase",
-      "ja": "BloodlineAwakening最大StacksIncrease"
+      "ko": "Bloodline Awakening 최대 스택 증가량",
+      "ja": "Bloodline Awakening 最大スタック増加"
     },
     "Health Percentage Threshold": {
-      "ko": "체력 백분율 Threshold",
-      "ja": "体力割合Threshold"
+      "ko": "발동 체력 비율 기준",
+      "ja": "発動HP 割合閾値"
     },
     "Bonus Stacks Gained": {
-      "ko": "추가 Stacks Gained",
-      "ja": "追加StacksGained"
+      "ko": "추가 획득 스택",
+      "ja": "追加獲得スタック"
     },
     "Bullet Damage": {
       "ko": "Bullet 데미지",
-      "ja": "Bulletダメージ"
-    },
-    "Rounds": {
-      "ko": "Rounds",
-      "ja": "Rounds"
+      "ja": "Bullet ダメージ"
     },
     "Critical Hit Multiplier": {
       "ko": "치명타 (헤드샷) 배율",
@@ -790,75 +746,67 @@
     },
     "Spinning Kick Damage": {
       "ko": "Spinning 발차기 데미지",
-      "ja": "Spinningキックダメージ"
+      "ja": "Spinning キックダメージ"
     },
     "Flying Kick Distance": {
       "ko": "Flying 발차기 거리",
-      "ja": "Flyingキック距離"
+      "ja": "Flying キック距離"
     },
     "Second Flying Kick Damage": {
       "ko": "2차 Flying 발차기 데미지",
-      "ja": "2次Flyingキックダメージ"
+      "ja": "2 次Flying キックダメージ"
     },
     "Flying Kick Stun Duration": {
       "ko": "Flying 발차기 기절 지속 시간",
-      "ja": "Flyingキックスタン持続時間"
+      "ja": "Flying キックスタン持続時間"
     },
     "Flying Kick Casting Window": {
-      "ko": "Flying 발차기 시전 방식 Window",
-      "ja": "Flyingキック発動タイプWindow"
+      "ko": "날아차기 입력 유지 시간",
+      "ja": "飛び蹴り発動受付時間"
     },
     "Damage Range": {
-      "ko": "데미지 사거리 / 범위",
-      "ja": "ダメージ射程 / 範囲"
-    },
-    "Focus Gained on Crit": {
-      "ko": "Focus Gained on Crit",
-      "ja": "FocusGainedonCrit"
-    },
-    "Focus Gained on Red Room Rifle Hit": {
-      "ko": "Focus Gained on Red Room Rifle Hit",
-      "ja": "FocusGainedonRedRoomRifleHit"
+      "ko": "피해 범위",
+      "ja": "ダメージ範囲"
     },
     "Focused State Bullet Damage": {
-      "ko": "Focused State Bullet 데미지",
-      "ja": "FocusedStateBulletダメージ"
+      "ko": "집중(Focused) 상태 탄환 데미지",
+      "ja": "集中状態の銃弾ダメージ"
     },
     "Fire Rate Increase": {
-      "ko": "연사 속도 Increase",
-      "ja": "発射速度Increase"
+      "ko": "연사 속도 증가",
+      "ja": "発射速度上昇"
     },
     "Plasma Cannon Damage": {
       "ko": "Plasma Cannon 데미지",
-      "ja": "PlasmaCannonダメージ"
+      "ja": "Plasma Cannon ダメージ"
     },
     "Plasma Cannon Cooldown": {
       "ko": "Plasma Cannon 재사용 대기시간",
-      "ja": "PlasmaCannonクールダウン"
+      "ja": "Plasma Cannon クールダウン"
     },
     "Plasma CannonRange": {
-      "ko": "Plasma Cannon 사거리 / 범위",
-      "ja": "PlasmaCannon射程 / 範囲"
+      "ko": "플라즈마 캐논 범위",
+      "ja": "プラズマキャノン範囲"
     },
     "Plasma Cannon Slow Effect": {
-      "ko": "Plasma Cannon 감속 Effect",
-      "ja": "PlasmaCannon鈍足Effect"
+      "ko": "플라즈마 캐논 감속 효과",
+      "ja": "プラズマキャノン鈍足効果"
     },
     "Melee Range": {
-      "ko": "근접 사거리 / 범위",
-      "ja": "近接射程 / 範囲"
+      "ko": "근접 공격 사거리",
+      "ja": "近接攻撃射程"
     },
     "Shield Flying Speed": {
       "ko": "보호막 Flying 속도",
-      "ja": "シールドFlying速度"
+      "ja": "シールドFlying 速度"
     },
     "Max Flying Distance": {
       "ko": "최대 Flying 거리",
-      "ja": "最大Flying距離"
+      "ja": "最大Flying 距離"
     },
     "Recovery Shield Value": {
-      "ko": "Recovery 보호막 Value",
-      "ja": "RecoveryシールドValue"
+      "ko": "회복 보호막 수치",
+      "ja": "回復シールド耐久値"
     },
     "Ricochet Damage Falloff": {
       "ko": "도탄(튕김) 거리별 데미지 감쇠",
@@ -866,19 +814,15 @@
     },
     "Spell Area Duration": {
       "ko": "Spell 범위 지속 시간",
-      "ja": "Spell範囲持続時間"
+      "ja": "Spell 範囲持続時間"
     },
     "Health Recovery Rate": {
-      "ko": "체력 Recovery 속도/비율",
-      "ja": "体力Recovery率"
-    },
-    "Fearless Leap Height": {
-      "ko": "Fearless Leap Height",
-      "ja": "FearlessLeapHeight"
+      "ko": "체력 회복 속도",
+      "ja": "HP 回復速度"
     },
     "Number of Ricochets": {
-      "ko": "수 of Ricochets",
-      "ja": "数ofRicochets"
+      "ko": "도탄 횟수",
+      "ja": "跳弾回数"
     },
     "Summon Radius Increase": {
       "ko": "소환수 반경 Increase",
@@ -886,63 +830,59 @@
     },
     "Damage Sharing Duration": {
       "ko": "데미지 Sharing 지속 시간",
-      "ja": "ダメージSharing持続時間"
+      "ja": "ダメージSharing 持続時間"
     },
     "Thunderous Shield Damage": {
       "ko": "Thunderous 보호막 데미지",
-      "ja": "Thunderousシールドダメージ"
+      "ja": "Thunderous シールドダメージ"
     },
     "AoE Damage": {
-      "ko": "Ao E 데미지",
-      "ja": "AoEダメージ"
+      "ko": "광역 데미지",
+      "ja": "範囲ダメージ"
     },
     "Area of Effect Healing": {
-      "ko": "범위 of Effect 치유량",
-      "ja": "範囲ofEffect回復量"
+      "ko": "광역 치유량",
+      "ja": "範囲回復量"
     },
     "Blinding Duration": {
       "ko": "Blinding 지속 시간",
-      "ja": "Blinding持続時間"
+      "ja": "Blinding 持続時間"
     },
     "Healing Boost": {
       "ko": "치유량 증가",
       "ja": "回復量上昇"
     },
     "Team-up Bonus": {
-      "ko": "Team up 추가",
-      "ja": "Teamup追加"
+      "ko": "팀업 보너스",
+      "ja": "チームアップボーナス"
     },
     "Light Veil Enemy Damage Reduction": {
-      "ko": "Light Veil 적 피해 감소",
-      "ja": "LightVeil敵被ダメージ軽減"
+      "ko": "Light Veil 적 공격력 감소",
+      "ja": "Light Veil 敵与ダメージ減少"
     },
     "Dark Veil Enemy Healing Reduction": {
-      "ko": "Dark Veil 적 치유량 감소",
-      "ja": "DarkVeil敵回復量短縮"
+      "ko": "Dark Veil 적 치유 감소율",
+      "ja": "Dark Veil 敵被回復減少率"
     },
     "Veil Duration": {
       "ko": "Veil 지속 시간",
-      "ja": "Veil持続時間"
+      "ja": "Veil 持続時間"
     },
     "Veil Range": {
-      "ko": "Veil 사거리 / 범위",
-      "ja": "Veil射程 / 範囲"
+      "ko": "장막 범위",
+      "ja": "ヴェール範囲"
     },
     "Tick Rate": {
-      "ko": "Tick 속도/비율",
-      "ja": "Tick率"
-    },
-    "Hit Checks per Attack": {
-      "ko": "Hit Checks per Attack",
-      "ja": "HitChecksperAttack"
+      "ko": "Tick 비율",
+      "ja": "Tick 率"
     },
     "Ricochet Force CD Reduction per Hit": {
-      "ko": "도탄(튕김) Force 쿨다운 감소 타격당",
-      "ja": "跳弾ForceCD短縮命中ごと"
+      "ko": "도탄 적중당 쿨다운 감소",
+      "ja": "跳弾命中ごとのCD 短縮"
     },
     "Environment Ricochet Damage Falloff": {
       "ko": "Environment 도탄(튕김) 거리별 데미지 감쇠",
-      "ja": "Environment跳弾ダメージ減衰"
+      "ja": "Environment 跳弾ダメージ減衰"
     },
     "Energy Cost per Second": {
       "ko": "에너지 소모량 초당",
@@ -953,52 +893,52 @@
       "ja": "エネルギー回復秒間"
     },
     "First Spell Field Damage": {
-      "ko": "1차 Spell 영역 데미지",
-      "ja": "1次Spellフィールドダメージ"
+      "ko": "1차 장판 데미지",
+      "ja": "1 次Spell フィールドダメージ"
     },
     "Interval Between Two Fields": {
-      "ko": "간격 Between Two Fields",
-      "ja": "間隔BetweenTwoFields"
+      "ko": "두 장판 간 발동 간격",
+      "ja": "2 つのフィールド間の間隔"
     },
     "Second Spell Field Damage": {
-      "ko": "2차 Spell 영역 데미지",
-      "ja": "2次Spellフィールドダメージ"
+      "ko": "2차 장판 데미지",
+      "ja": "2 次Spell フィールドダメージ"
     },
     "Maximum Range": {
-      "ko": "최대 사거리 / 범위",
-      "ja": "最大射程 / 範囲"
+      "ko": "최대 사거리",
+      "ja": "最大射程"
     },
     "Spell Field Width": {
-      "ko": "Spell 영역 너비",
-      "ja": "Spellフィールド幅"
+      "ko": "장판 너비",
+      "ja": "Spell フィールド幅"
     },
     "Slow Effect": {
-      "ko": "감속 Effect",
-      "ja": "鈍足Effect"
+      "ko": "감속 효과",
+      "ja": "鈍足効果"
     },
     "Beam Damage": {
       "ko": "광선 데미지",
       "ja": "ビームダメージ"
     },
     "Environment Refraction Damage Falloff": {
-      "ko": "Environment Refraction 거리별 데미지 감쇠",
-      "ja": "EnvironmentRefractionダメージ減衰"
+      "ko": "지형 굴절 데미지 감쇠",
+      "ja": "地形反射ダメージ減衰"
     },
     "Character Refraction Damage Falloff": {
-      "ko": "Character Refraction 거리별 데미지 감쇠",
-      "ja": "CharacterRefractionダメージ減衰"
+      "ko": "캐릭터 굴절 데미지 감쇠",
+      "ja": "キャラクター反射ダメージ減衰"
     },
     "Environment Refraction Damage Falloff Distance": {
-      "ko": "Environment Refraction 거리별 데미지 감쇠 거리",
-      "ja": "EnvironmentRefractionダメージ減衰距離"
+      "ko": "지형 굴절 데미지 감쇠 거리",
+      "ja": "地形反射ダメージ減衰距離"
     },
     "Environment Refraction Damage Scaling per Refraction": {
-      "ko": "Environment Refraction 데미지 Scaling per Refraction",
-      "ja": "EnvironmentRefractionダメージScalingperRefraction"
+      "ko": "지형 굴절당 데미지 배율",
+      "ja": "地形反射ごとのダメージ倍率"
     },
     "Environment Refraction Character Tracking Range": {
-      "ko": "Environment Refraction Character Tracking 사거리 / 범위",
-      "ja": "EnvironmentRefractionCharacterTracking射程 / 範囲"
+      "ko": "지형 굴절 시 적 유도 범위",
+      "ja": "地形反射時の敵追尾範囲"
     },
     "Burn Damage": {
       "ko": "화상 데미지",
@@ -1009,24 +949,24 @@
       "ja": "火傷ダメージ持続時間"
     },
     "Spark Detonation Damage": {
-      "ko": "Spark Detonation 데미지",
-      "ja": "SparkDetonationダメージ"
+      "ko": "불꽃 격발 데미지",
+      "ja": "スパーク起爆ダメージ"
     },
     "Ricochet Force Charges": {
       "ko": "도탄(튕김) Force 충전 횟수",
-      "ja": "跳弾Forceチャージ数"
+      "ja": "跳弾Force チャージ数"
     },
     "Enhanced Jump Speed": {
-      "ko": "Enhanced Jump 속도",
-      "ja": "EnhancedJump速度"
+      "ko": "강화 점프 속도",
+      "ja": "強化ジャンプ速度"
     },
     "Optic Blast Attack Speed Boost": {
       "ko": "Optic Blast 공격 속도 증가",
-      "ja": "OpticBlast攻撃速度上昇"
+      "ja": "Optic Blast 攻撃速度上昇"
     },
     "Concussive Beam Attack Frequency Boost": {
-      "ko": "Concussive 광선 Attack Frequency 증가",
-      "ja": "ConcussiveビームAttackFrequency上昇"
+      "ko": "Concussive Beam 타격 빈도 증가",
+      "ja": "Concussive Beam 攻撃頻度上昇"
     },
     "Beam Attack Interval": {
       "ko": "광선 공격 간격",
@@ -1037,100 +977,100 @@
       "ja": "弾速攻撃間隔"
     },
     "Summons' Health": {
-      "ko": "Summons 체력",
-      "ja": "Summons体力"
+      "ko": "소환물 체력",
+      "ja": "召喚物のHP"
     },
     "Maximum Duration for Summons": {
-      "ko": "최대 지속 시간 for Summons",
-      "ja": "最大持続時間forSummons"
+      "ko": "소환물 최대 지속 시간",
+      "ja": "召喚物の最大持続時間"
     },
     "Damage From Per Ability Missed": {
-      "ko": "데미지 From Per Ability Missed",
-      "ja": "ダメージFromPerAbilityMissed"
+      "ko": "적 스킬 빗나감당 피해량",
+      "ja": "敵スキル空振りごとのダメージ"
     },
     "Bonus Health From Per Ability Missed": {
-      "ko": "추가 체력 From Per Ability Missed",
-      "ja": "追加体力FromPerAbilityMissed"
+      "ko": "적 스킬 빗나감당 추가 체력 획득",
+      "ja": "敵スキル空振りごとの追加HP 獲得"
     },
     "Bonus Health Gained Upon Activation": {
-      "ko": "추가 체력 Gained Upon Activation",
-      "ja": "追加体力GainedUponActivation"
+      "ko": "발동 시 획득 추가 체력",
+      "ja": "発動時獲得追加HP"
     },
     "Healing Over Time During Activation": {
-      "ko": "치유량 Over Time During Activation",
-      "ja": "回復量OverTimeDuringActivation"
+      "ko": "발동 중 지속 치유량",
+      "ja": "発動中の継続回復量"
     },
     "Bonus Health upon Activation": {
-      "ko": "추가 체력 upon Activation",
-      "ja": "追加体力uponActivation"
+      "ko": "발동 시 추가 체력",
+      "ja": "発動時追加HP"
     },
     "Healing During Activation": {
-      "ko": "치유량 During Activation",
-      "ja": "回復量DuringActivation"
+      "ko": "발동 중 치유량",
+      "ja": "発動中の回復量"
     },
     "Damage Over Time": {
-      "ko": "데미지 Over Time",
-      "ja": "ダメージOverTime"
+      "ko": "지속 데미지",
+      "ja": "継続ダメージ"
     },
     "Boost Spell Field Range": {
-      "ko": "증가 Spell 영역 사거리 / 범위",
-      "ja": "上昇Spellフィールド射程 / 範囲"
+      "ko": "강화 장판 범위",
+      "ja": "強化フィールド範囲"
     },
     "Healing over Time": {
-      "ko": "치유량 over Time",
-      "ja": "回復量overTime"
+      "ko": "지속 치유량",
+      "ja": "継続回復量"
     },
     "Damage Needed to Remove the Disruption": {
-      "ko": "데미지 Needed to Remove the Disruption",
-      "ja": "ダメージNeededtoRemovetheDisruption"
+      "ko": "교란 해제에 필요한 피해량",
+      "ja": "妨害解除に必要なダメージ量"
     },
     "Maximum Jump Distance": {
-      "ko": "최대 Jump 거리",
-      "ja": "最大Jump距離"
+      "ko": "최대 점프 거리",
+      "ja": "最大ジャンプ距離"
     },
     "Healing over Time from Activated Healing Factor": {
-      "ko": "치유량 over Time from Activated 치유량 Factor",
-      "ja": "回復量overTimefromActivated回復量Factor"
+      "ko": "활성화된 힐링 팩터 지속 치유량",
+      "ja": "Healing Factor 発動時の継続回復量"
     },
     "Vanguard Detonation Damage": {
-      "ko": "Vanguard Detonation 데미지",
-      "ja": "VanguardDetonationダメージ"
+      "ko": "뱅가드 폭발 데미지",
+      "ja": "ヴァンガード起爆ダメージ"
     },
     "Duelist Detonation Damage": {
-      "ko": "Duelist Detonation 데미지",
-      "ja": "DuelistDetonationダメージ"
+      "ko": "듀얼리스트 폭발 데미지",
+      "ja": "デュエリスト起爆ダメージ"
     },
     "Strategist Detonation Damage": {
-      "ko": "Strategist Detonation 데미지",
-      "ja": "StrategistDetonationダメージ"
+      "ko": "전략가 폭발 데미지",
+      "ja": "ストラテジスト起爆ダメージ"
     },
     "Strategist Detonation Self-Healing": {
-      "ko": "Strategist Detonation 자신 치유량",
-      "ja": "StrategistDetonation自身回復量"
+      "ko": "전략가 폭발 자가 치유량",
+      "ja": "ストラテジスト起爆自己回復量"
     },
     "Vanguard Spell Field Damage": {
-      "ko": "Vanguard Spell 영역 데미지",
-      "ja": "VanguardSpellフィールドダメージ"
+      "ko": "뱅가드 장판 데미지",
+      "ja": "ヴァンガードフィールドダメージ"
     },
     "Duelist Spell Field Damage": {
-      "ko": "Duelist Spell 영역 데미지",
-      "ja": "DuelistSpellフィールドダメージ"
+      "ko": "듀얼리스트 장판 데미지",
+      "ja": "デュエリストフィールドダメージ"
     },
     "Strategist Spell Field Damage": {
-      "ko": "Strategist Spell 영역 데미지",
-      "ja": "StrategistSpellフィールドダメージ"
+      "ko": "전략가 장판 데미지",
+      "ja": "ストラテジストフィールドダメージ"
     },
     "Strategist Spell Field Healing": {
-      "ko": "Strategist Spell 영역 치유량",
-      "ja": "StrategistSpellフィールド回復量"
+      "ko": "전략가 장판 치유량",
+      "ja": "ストラテジストフィールド回復量"
     },
     "Third Unleash Explosion Damage": {
-      "ko": "3차 Unleash 폭발 데미지",
-      "ja": "3次Unleash爆発ダメージ"
+      "ko": "3타 폭발 데미지",
+      "ja": "3 段目爆発ダメージ"
     },
     "Vulnerability Ration From Ability Missed": {
-      "ko": "받는 피해 증가 Ration From Ability Missed",
-      "ja": "被ダメージ上昇RationFromAbilityMissed"
+      "ko": "적 스킬 빗나감당 받는 피해 증가율",
+      "ja": "敵スキル空振りごとの被ダメージ増加率"
     },
     "Self Damage Reduction": {
       "ko": "자신 피해 감소",
@@ -1145,24 +1085,24 @@
       "ja": "弾速回復量"
     },
     "Healing Spell Field Range": {
-      "ko": "치유량 Spell 영역 사거리 / 범위",
-      "ja": "回復量Spellフィールド射程 / 範囲"
+      "ko": "치유 장판 범위",
+      "ja": "回復フィールド範囲"
     },
     "Third Unleash Explosion Healing": {
-      "ko": "3차 Unleash 폭발 치유량",
-      "ja": "3次Unleash爆発回復量"
+      "ko": "3타 폭발 치유량",
+      "ja": "3 段目爆発回復量"
     },
     "Healing Over Time": {
-      "ko": "치유량 Over Time",
-      "ja": "回復量OverTime"
+      "ko": "지속 치유량",
+      "ja": "継続回復量"
     },
     "Healing From Per Ability Missed": {
-      "ko": "치유량 From Per Ability Missed",
-      "ja": "回復量FromPerAbilityMissed"
+      "ko": "적 스킬 빗나감당 치유량",
+      "ja": "敵スキル空振りごとの回復量"
     },
     "Bonus Health from Completing the Challenge": {
-      "ko": "추가 체력 from Completing the Challenge",
-      "ja": "追加体力fromCompletingtheChallenge"
+      "ko": "도전 과제 달성 시 추가 체력",
+      "ja": "チャレンジ達成時の追加HP"
     },
     "Bleed Damage": {
       "ko": "출혈 데미지",
@@ -1173,56 +1113,56 @@
       "ja": "出血持続時間"
     },
     "Bleed Tick Rate": {
-      "ko": "출혈 Tick 속도/비율",
-      "ja": "出血Tick率"
+      "ko": "출혈 Tick 비율",
+      "ja": "出血Tick 率"
     },
     "Attack Range": {
-      "ko": "Attack 사거리 / 범위",
-      "ja": "Attack射程 / 範囲"
+      "ko": "공격 사거리",
+      "ja": "攻撃射程"
     },
     "Spell Field Radius": {
-      "ko": "Spell 영역 반경",
-      "ja": "Spellフィールド半径"
+      "ko": "장판 반경",
+      "ja": "Spell フィールド半径"
     },
     "Stomp Field Spawn Interval": {
       "ko": "Stomp 영역 Spawn 간격",
-      "ja": "StompフィールドSpawn間隔"
+      "ja": "Stomp フィールドSpawn 間隔"
     },
     "Frenzied Feast Cooldown Reduction": {
       "ko": "Frenzied Feast 재사용 대기시간 감소",
-      "ja": "FrenziedFeastクールダウン短縮"
+      "ja": "Frenzied Feast クールダウン短縮"
     },
     "Savage Predation Cooldown Reduction": {
       "ko": "Savage Predation 재사용 대기시간 감소",
-      "ja": "SavagePredationクールダウン短縮"
+      "ja": "Savage Predation クールダウン短縮"
     },
     "Speed Boost During Ultimate": {
-      "ko": "속도 증가 During Ultimate",
-      "ja": "速度上昇DuringUltimate"
+      "ko": "궁극기 중 이동 속도 증가",
+      "ja": "アルティメット中の移動速度上昇"
     },
     "Stomp Field Range": {
-      "ko": "Stomp 영역 사거리 / 범위",
-      "ja": "Stompフィールド射程 / 範囲"
+      "ko": "발구르기 장판 범위",
+      "ja": "踏みつけフィールド範囲"
     },
     "Stomp Field Damage": {
       "ko": "Stomp 영역 데미지",
-      "ja": "Stompフィールドダメージ"
+      "ja": "Stomp フィールドダメージ"
     },
     "Stomp Field Launch-up Interval": {
       "ko": "Stomp 영역 공중 띄우기 up 간격",
-      "ja": "Stompフィールド打ち上げup間隔"
+      "ja": "Stomp フィールド打ち上げup 間隔"
     },
     "Dashing Speed": {
       "ko": "Dashing 속도",
-      "ja": "Dashing速度"
+      "ja": "Dashing 速度"
     },
     "Bite Damage": {
       "ko": "물어뜯기 데미지",
       "ja": "噛みつきダメージ"
     },
     "Summons Max Health": {
-      "ko": "Summons 최대 체력",
-      "ja": "Summons最大体力"
+      "ko": "소환물 최대 체력",
+      "ja": "召喚物の最大HP"
     },
     "Bite Damge": {
       "ko": "물어뜯기 Damge",
@@ -1233,148 +1173,132 @@
       "ja": "追加ダメージ"
     },
     "Headshot Damage Taken Reduction": {
-      "ko": "Headshot 데미지 Taken 감소",
-      "ja": "HeadshotダメージTaken短縮"
+      "ko": "헤드샷 피격 데미지 감소",
+      "ja": "ヘッドショット被ダメージ軽減"
     },
     "Ultimate Energy Gain Reduction from Damage/Healing Him": {
-      "ko": "Ultimate 에너지 Gain 감소 from 데미지 치유량 Him",
-      "ja": "UltimateエネルギーGain短縮fromダメージ回復量Him"
+      "ko": "대상 공격/치유 시 궁극기 충전 감소율",
+      "ja": "対象への攻撃/回復によるULT チャージ減少率"
     },
     "Damage Conversion Rate": {
-      "ko": "데미지 Conversion 속도/비율",
-      "ja": "ダメージConversion率"
+      "ko": "피해 전환율",
+      "ja": "ダメージ変換率"
     },
     "Max Attack Range": {
-      "ko": "최대 Attack 사거리 / 범위",
-      "ja": "最大Attack射程 / 範囲"
+      "ko": "최대 공격 사거리",
+      "ja": "最大攻撃射程"
     },
     "Soul Separation Duration": {
-      "ko": "Soul Separation 지속 시간",
-      "ja": "SoulSeparation持続時間"
+      "ko": "영혼 분리 지속 시간",
+      "ja": "魂分離持続時間"
     },
     "Free-Flight Duration": {
-      "ko": "Free Flight 지속 시간",
-      "ja": "FreeFlight持続時間"
+      "ko": "자유 비행 지속 시간",
+      "ja": "自由飛行持続時間"
     },
     "Self Bonus Health Conversion": {
       "ko": "자신 추가 체력 Conversion",
       "ja": "自身追加体力Conversion"
     },
     "Ally Bonus Health Conversion": {
-      "ko": "아군 추가 체력 Conversion",
-      "ja": "味方追加体力Conversion"
+      "ko": "아군 추가 체력 전환율",
+      "ja": "味方追加HP 変換率"
     },
     "Anti-Heal Activation Delay at Peak Dark Magic": {
-      "ko": "Anti 치유 Activation 지연 시간 at Peak Dark Magic",
-      "ja": "Anti回復Activation遅延時間atPeakDarkMagic"
+      "ko": "최대 흑마법 도달 시 치유 차단 발동 지연",
+      "ja": "最大黒魔術到達時の回復阻害発動遅延"
     },
     "Anti-Heal Duration": {
-      "ko": "Anti 치유 지속 시간",
-      "ja": "Anti回復持続時間"
-    },
-    "Generate Dark Magic": {
-      "ko": "Generate Dark Magic",
-      "ja": "GenerateDarkMagic"
+      "ko": "치유 차단 지속 시간",
+      "ja": "回復阻害持続時間"
     },
     "Minimum Energy": {
       "ko": "최소 에너지",
       "ja": "最小エネルギー"
     },
     "Shield of the Seraphim Health Boost": {
-      "ko": "보호막 of the Seraphim 체력 증가",
-      "ja": "シールドoftheSeraphim体力上昇"
+      "ko": "Shield of the Seraphim 내구도 증가",
+      "ja": "Shield of the Seraphim 耐久値増加"
     },
     "Bonus Health (Self)": {
       "ko": "추가 체력 자신",
       "ja": "追加体力自身"
     },
     "Ally Bonus Health Conversion Factor": {
-      "ko": "아군 추가 체력 Conversion Factor",
-      "ja": "味方追加体力ConversionFactor"
+      "ko": "아군 추가 체력 전환 계수",
+      "ja": "味方追加HP 変換係数"
     },
     "Spell Field Maximum Distance": {
-      "ko": "Spell 영역 최대 거리",
-      "ja": "Spellフィールド最大距離"
-    },
-    "Fury Required for Activation": {
-      "ko": "Fury Required for Activation",
-      "ja": "FuryRequiredforActivation"
+      "ko": "장판 최대 거리",
+      "ja": "Spell フィールド最大距離"
     },
     "Bonus Health Falloff": {
       "ko": "추가 체력 감쇠",
       "ja": "追加体力減衰"
     },
     "DEVIL'S CHAIN": {
-      "ko": "DEVIL S CHAIN",
-      "ja": "DEVILSCHAIN"
+      "ko": "데블스 체인 (Devil's Chain)",
+      "ja": "デビルズ・チェーン (Devil's Chain)"
     },
     "High Damage Spell Field Range": {
-      "ko": "High 데미지 Spell 영역 사거리 / 범위",
-      "ja": "HighダメージSpellフィールド射程 / 範囲"
+      "ko": "고화력 장판 범위",
+      "ja": "高威力フィールド範囲"
     },
     "Damage/Bonus Health Conversion": {
-      "ko": "데미지 추가 체력 Conversion",
-      "ja": "ダメージ追加体力Conversion"
+      "ko": "피해량 → 추가 체력 전환율",
+      "ja": "与ダメージ→追加HP 変換率"
     },
     "Bonus Health Gained": {
       "ko": "추가 체력 Gained",
       "ja": "追加体力Gained"
     },
     "DEVIL'S THROW": {
-      "ko": "DEVIL S THROW",
-      "ja": "DEVILSTHROW"
+      "ko": "데블스 스로우 (Devil's Throw)",
+      "ja": "デビルズ・スロー (Devil's Throw)"
     },
     "Max Number of Ricochets": {
-      "ko": "최대 수 of Ricochets",
-      "ja": "最大数ofRicochets"
+      "ko": "최대 도탄 횟수",
+      "ja": "最大跳弾回数"
     },
     "Time Required to Reach the Maximum Blind Range and Damage": {
-      "ko": "Time Required to Reach the 최대 Blind 사거리 / 범위 and 데미지",
-      "ja": "TimeRequiredtoReachthe最大Blind射程 / 範囲andダメージ"
-    },
-    "Blind Effect": {
-      "ko": "Blind Effect",
-      "ja": "BlindEffect"
+      "ko": "최대 실명 범위·데미지 도달 시간",
+      "ja": "最大視界制限範囲・ダメージ到達時間"
     },
     "Fury Recovery Speed": {
-      "ko": "Fury Recovery 속도",
-      "ja": "FuryRecovery速度"
+      "ko": "분노(Fury) 회복 속도",
+      "ja": "Fury 回復速度"
     },
     "Select Range": {
-      "ko": "Select 사거리 / 범위",
-      "ja": "Select射程 / 範囲"
+      "ko": "대상 선택 사거리",
+      "ja": "対象選択射程"
     },
     "Dash Cooldown": {
-      "ko": "Dash 재사용 대기시간",
-      "ja": "Dashクールダウン"
+      "ko": "돌진 쿨다운",
+      "ja": "ダッシュクールダウン"
     },
     "Dash Select Range": {
-      "ko": "Dash Select 사거리 / 범위",
-      "ja": "DashSelect射程 / 範囲"
+      "ko": "돌진 대상 지정 거리",
+      "ja": "ダッシュ対象指定射程"
     },
     "Dash Damage Range": {
-      "ko": "Dash 데미지 사거리 / 범위",
-      "ja": "Dashダメージ射程 / 範囲"
+      "ko": "돌진 피해 범위",
+      "ja": "ダッシュダメージ範囲"
     },
     "Maximum Detection Distance": {
       "ko": "최대 Detection 거리",
-      "ja": "最大Detection距離"
-    },
-    "Bullets Fired Each Cast": {
-      "ko": "Bullets Fired Each Cast",
-      "ja": "BulletsFiredEachCast"
+      "ja": "最大Detection 距離"
     },
     "Crosshair Spread Radius(at 10m)": {
-      "ko": "Crosshair Spread 반경 at 10 m",
-      "ja": "CrosshairSpread半径at10m"
+      "ko": "조준선 탄퍼짐 반경 (10m 기준)",
+      "ja": "照準拡散半径（10m 地点）"
     },
     "Crosshair Spread Radius (at 10m)": {
-      "ko": "Crosshair Spread 반경 at 10 m",
-      "ja": "CrosshairSpread半径at10m"
+      "ko": "조준선 탄퍼짐 반경 (10m 기준)",
+      "ja": "照準拡散半径（10m 地点）"
     },
     "Tracing Range": {
-      "ko": "Tracing 사거리 / 범위",
-      "ja": "Tracing射程 / 範囲"
+      "ko": "추적 범위",
+      "ja": "追跡範囲"
     },
     "Maximum Splits": {
       "ko": "최대 Splits",
@@ -1382,51 +1306,47 @@
     },
     "Second Hit Damage Over Time": {
       "ko": "2차 Hit 데미지 Over Time",
-      "ja": "2次HitダメージOverTime"
+      "ja": "2 次Hit ダメージOverTime"
     },
     "Taunt Duration": {
       "ko": "Taunt 지속 시간",
-      "ja": "Taunt持続時間"
+      "ja": "Taunt 持続時間"
     },
     "Damage/Healing Conversion Rate": {
-      "ko": "데미지 치유량 Conversion 속도/비율",
-      "ja": "ダメージ回復量Conversion率"
+      "ko": "데미지 치유량 Conversion 비율",
+      "ja": "ダメージ回復量Conversion 率"
     },
     "Glartrox Health": {
       "ko": "Glartrox 체력",
-      "ja": "Glartrox体力"
+      "ja": "Glartrox 体力"
     },
     "Glartrox Seize Damage": {
       "ko": "Glartrox Seize 데미지",
-      "ja": "GlartroxSeizeダメージ"
+      "ja": "Glartrox Seize ダメージ"
     },
     "Glartrox Bite Damage": {
       "ko": "Glartrox 물어뜯기 데미지",
-      "ja": "Glartrox噛みつきダメージ"
+      "ja": "Glartrox 噛みつきダメージ"
     },
     "Glartrox Movement Speed": {
       "ko": "Glartrox 이동 속도",
-      "ja": "Glartrox移動速度"
+      "ja": "Glartrox 移動速度"
     },
     "Glartrox Maximum Dash Duration": {
-      "ko": "Glartrox 최대 Dash 지속 시간",
-      "ja": "Glartrox最大Dash持続時間"
+      "ko": "글라트록스 최대 돌진 지속 시간",
+      "ja": "グラートロクス最大突進時間"
     },
     "Max Dash Duration": {
-      "ko": "최대 Dash 지속 시간",
-      "ja": "最大Dash持続時間"
-    },
-    "Follow Up": {
-      "ko": "Follow Up",
-      "ja": "FollowUp"
+      "ko": "최대 돌진 지속 시간",
+      "ja": "最大ダッシュ持続時間"
     },
     "Max Damage Distance": {
       "ko": "최대 데미지 거리",
       "ja": "最大ダメージ距離"
     },
     "Dash Speed": {
-      "ko": "Dash 속도",
-      "ja": "Dash速度"
+      "ko": "돌진 속도",
+      "ja": "ダッシュ速度"
     },
     "Trap Health": {
       "ko": "함정 체력",
@@ -1434,271 +1354,247 @@
     },
     "Maximum Immobilizing Duration": {
       "ko": "최대 Immobilizing 지속 시간",
-      "ja": "最大Immobilizing持続時間"
+      "ja": "最大Immobilizing 持続時間"
     },
     "Triggered Trap Damage": {
       "ko": "Triggered 함정 데미지",
-      "ja": "Triggeredトラップダメージ"
+      "ja": "Triggered トラップダメージ"
     },
     "Maximum Select Distance": {
       "ko": "최대 Select 거리",
-      "ja": "最大Select距離"
+      "ja": "最大Select 距離"
     },
     "Maximum Dash Duration": {
-      "ko": "최대 Dash 지속 시간",
-      "ja": "最大Dash持続時間"
+      "ko": "최대 돌진 지속 시간",
+      "ja": "最大ダッシュ持続時間"
     },
     "Maximum Dash Speed": {
-      "ko": "최대 Dash 속도",
-      "ja": "最大Dash速度"
-    },
-    "Instinct from KOs": {
-      "ko": "Instinct from K Os",
-      "ja": "InstinctfromKOs"
-    },
-    "Additional Instinct from KOs Caught by Smoky Snare": {
-      "ko": "Additional Instinct from K Os Caught by Smoky Snare",
-      "ja": "AdditionalInstinctfromKOsCaughtbySmokySnare"
+      "ko": "최대 돌진 속도",
+      "ja": "最大ダッシュ速度"
     },
     "Damage/Instinct Conversion Rate": {
-      "ko": "데미지 Instinct Conversion 속도/비율",
-      "ja": "ダメージInstinctConversion率"
+      "ko": "피해량 → 본능 전환율",
+      "ja": "ダメージ→本能変換率"
     },
     "Trap Trigger Range": {
-      "ko": "함정 Trigger 사거리 / 범위",
-      "ja": "トラップTrigger射程 / 範囲"
+      "ko": "함정 발동 범위",
+      "ja": "トラップ作動範囲"
     },
     "Trap Damage": {
       "ko": "함정 데미지",
       "ja": "トラップダメージ"
     },
     "Lethal Gas Range": {
-      "ko": "Lethal Gas 사거리 / 범위",
-      "ja": "LethalGas射程 / 範囲"
+      "ko": "맹독 가스 범위",
+      "ja": "猛毒ガス範囲"
     },
     "Lethal Gas Duration": {
-      "ko": "Lethal Gas 지속 시간",
-      "ja": "LethalGas持続時間"
+      "ko": "맹독 가스 지속 시간",
+      "ja": "猛毒ガス持続時間"
     },
     "Lethal Gas Damage": {
-      "ko": "Lethal Gas 데미지",
-      "ja": "LethalGasダメージ"
+      "ko": "맹독 가스 데미지",
+      "ja": "猛毒ガスダメージ"
     },
     "Split Bullet Damage": {
-      "ko": "Split Bullet 데미지",
-      "ja": "SplitBulletダメージ"
+      "ko": "분열 탄환 데미지",
+      "ja": "分裂弾ダメージ"
     },
     "Energy Gain Multiplier from Damage": {
-      "ko": "에너지 Gain 배율 from 데미지",
-      "ja": "エネルギーGain倍率fromダメージ"
+      "ko": "피해 기반 에너지 획득 배율",
+      "ja": "ダメージによるエネルギー獲得倍率"
     },
     "Reposition Cooldown": {
       "ko": "Reposition 재사용 대기시간",
-      "ja": "Repositionクールダウン"
+      "ja": "Reposition クールダウン"
     },
     "Hit Range": {
-      "ko": "Hit 사거리 / 범위",
-      "ja": "Hit射程 / 範囲"
+      "ko": "타격 범위",
+      "ja": "命中範囲"
     },
     "Sentience Health": {
       "ko": "Sentience 체력",
-      "ja": "Sentience体力"
+      "ja": "Sentience 体力"
     },
     "Bonus Health Conversion Rate from Damage": {
-      "ko": "추가 체력 Conversion 속도/비율 from 데미지",
-      "ja": "追加体力Conversion率fromダメージ"
+      "ko": "피해량 → 추가 체력 전환 비율",
+      "ja": "与ダメージ→追加HP 変換率"
     },
     "Mind Control CD Reduction": {
       "ko": "Mind Control 쿨다운 감소",
-      "ja": "MindControlCD短縮"
+      "ja": "Mind ControlCD 短縮"
     },
     "One-time Bonus Health": {
-      "ko": "One time 추가 체력",
-      "ja": "Onetime追加体力"
+      "ko": "즉시 추가 체력",
+      "ja": "即時追加HP"
     },
     "Diamond Form Damage Slow Amount": {
-      "ko": "Diamond Form 데미지 감속 Amount",
-      "ja": "DiamondFormダメージ鈍足Amount"
+      "ko": "다이아몬드 폼 피격 감속량",
+      "ja": "ダイヤモンド形態の鈍足効果"
     },
     "Telepathic Pulse Added Slow Effect": {
-      "ko": "Telepathic Pulse Added 감속 Effect",
-      "ja": "TelepathicPulseAdded鈍足Effect"
+      "ko": "텔레파시 파동 추가 감속 효과",
+      "ja": "テレパシーパルス追加鈍足効果"
     },
     "Thornlash Wall Health": {
       "ko": "Thornlash Wall 체력",
-      "ja": "ThornlashWall体力"
+      "ja": "Thornlash Wall 体力"
     },
     "Flower Wall Health": {
       "ko": "Flower Wall 체력",
-      "ja": "FlowerWall体力"
+      "ja": "Flower Wall 体力"
     },
     "Maximum Unleash Distance": {
       "ko": "최대 Unleash 거리",
-      "ja": "最大Unleash距離"
+      "ja": "最大Unleash 距離"
     },
     "Wild Wall Range": {
-      "ko": "Wild Wall 사거리 / 범위",
-      "ja": "WildWall射程 / 範囲"
-    },
-    "Buff Frequency": {
-      "ko": "Buff Frequency",
-      "ja": "BuffFrequency"
+      "ko": "야생의 벽 범위",
+      "ja": "ワイルドウォール範囲"
     },
     "Buff Duration per Application": {
-      "ko": "Buff 지속 시간 per Application",
-      "ja": "Buff持続時間perApplication"
+      "ko": "부여당 버프 지속 시간",
+      "ja": "付与ごとのバフ持続時間"
     },
     "Wild Wall Health": {
       "ko": "Wild Wall 체력",
-      "ja": "WildWall体力"
+      "ja": "Wild Wall 体力"
     },
     "Healing Required to Enhance": {
-      "ko": "치유량 Required to Enhance",
-      "ja": "回復量RequiredtoEnhance"
+      "ko": "강화에 필요한 누적 치유량",
+      "ja": "強化に必要な回復量"
     },
     "Enhanced Healing": {
-      "ko": "Enhanced 치유량",
-      "ja": "Enhanced回復量"
+      "ko": "강화 치유량",
+      "ja": "強化回復量"
     },
     "Health Increase per Upgrade": {
-      "ko": "체력 Increase per Upgrade",
-      "ja": "体力IncreaseperUpgrade"
+      "ko": "업그레이드당 최대 체력 증가",
+      "ja": "アップグレードごとの最大HP 増加"
     },
     "Increase Healing Amount": {
-      "ko": "Increase 치유량",
-      "ja": "Increase回復量"
+      "ko": "치유량 증가",
+      "ja": "回復量増加"
     },
     "Overhealing to Bonus Health Conversion Rate": {
-      "ko": "Overhealing to 추가 체력 Conversion 속도/비율",
-      "ja": "Overhealingto追加体力Conversion率"
-    },
-    "Cards Launched Per Unleash": {
-      "ko": "Cards Launched Per Unleash",
-      "ja": "CardsLaunchedPerUnleash"
+      "ko": "초과 치유 → 추가 체력 전환율",
+      "ja": "超過回復→追加HP 変換率"
     },
     "Angle Between the Side Cards and the Center Card": {
-      "ko": "각도 Between the Side Cards and the Center Card",
-      "ja": "角度BetweentheSideCardsandtheCenterCard"
+      "ko": "중앙 카드와 측면 카드 사이 각도",
+      "ja": "中央カードと左右カードの角度"
     },
     "Card Damage": {
       "ko": "Card 데미지",
-      "ja": "Cardダメージ"
+      "ja": "Card ダメージ"
     },
     "Card Healing": {
       "ko": "Card 치유량",
-      "ja": "Card回復量"
-    },
-    "Big Easy Impact": {
-      "ko": "Big Easy Impact",
-      "ja": "BigEasyImpact"
+      "ja": "Card 回復量"
     },
     "Spell Field Generation Quantity": {
-      "ko": "Spell 영역 Generation Quantity",
-      "ja": "SpellフィールドGenerationQuantity"
+      "ko": "장판 생성 개수",
+      "ja": "フィールド生成数"
     },
     "Spell Field Generation Interval": {
-      "ko": "Spell 영역 Generation 간격",
-      "ja": "SpellフィールドGeneration間隔"
+      "ko": "장판 Generation 간격",
+      "ja": "Spell フィールドGeneration 間隔"
     },
     "One-Time Healing": {
-      "ko": "One Time 치유량",
-      "ja": "OneTime回復量"
+      "ko": "즉시 치유량",
+      "ja": "即時回復量"
     },
     "Movement Speed Boost Ratio": {
-      "ko": "이동 속도 증가 Ratio",
-      "ja": "移動速度上昇Ratio"
+      "ko": "이동 속도 증가율",
+      "ja": "移動速度上昇率"
     },
     "Enhanced Damage Ratio": {
-      "ko": "Enhanced 데미지 Ratio",
-      "ja": "EnhancedダメージRatio"
+      "ko": "강화 데미지 비율",
+      "ja": "強化ダメージ倍率"
     },
     "Damage Trigger Interval": {
       "ko": "데미지 Trigger 간격",
-      "ja": "ダメージTrigger間隔"
+      "ja": "ダメージTrigger 間隔"
     },
     "Healing over time": {
-      "ko": "치유량 over time",
-      "ja": "回復量overtime"
+      "ko": "지속 치유량",
+      "ja": "継続回復量"
     },
     "Ultimate Abilities Charge Acceleration Ratio": {
-      "ko": "Ultimate Abilities 충전 Acceleration Ratio",
-      "ja": "UltimateAbilitiesチャージAccelerationRatio"
+      "ko": "궁극기 충전 가속 비율",
+      "ja": "アルティメットチャージ加速率"
     },
     "Self Healing": {
       "ko": "자신 치유량",
       "ja": "自身回復量"
     },
     "Healing Boost Ratio": {
-      "ko": "치유량 증가 Ratio",
-      "ja": "回復量上昇Ratio"
+      "ko": "치유량 증가 비율",
+      "ja": "回復量上昇率"
     },
     "Self Damage Boost": {
       "ko": "자신 데미지 증가",
       "ja": "自身ダメージ上昇"
     },
     "Number of Generated Projectiles": {
-      "ko": "수 of Generated Projectiles",
-      "ja": "数ofGeneratedProjectiles"
+      "ko": "생성 투사체 수",
+      "ja": "生成弾数"
     },
     "Reduced Healing Ratio": {
-      "ko": "Reduced 치유량 Ratio",
-      "ja": "Reduced回復量Ratio"
+      "ko": "치유 감소율",
+      "ja": "被回復減少率"
     },
     "Reduced Healing Duration": {
       "ko": "Reduced 치유량 지속 시간",
-      "ja": "Reduced回復量持続時間"
+      "ja": "Reduced 回復量持続時間"
     },
     "One-Time Damage": {
-      "ko": "One Time 데미지",
-      "ja": "OneTimeダメージ"
+      "ko": "단발 데미지",
+      "ja": "単発ダメージ"
     },
     "Damage Spell Field Range": {
-      "ko": "데미지 Spell 영역 사거리 / 범위",
-      "ja": "ダメージSpellフィールド射程 / 範囲"
+      "ko": "피해 장판 범위",
+      "ja": "ダメージフィールド範囲"
     },
     "Bonus Healing": {
       "ko": "추가 치유량",
       "ja": "追加回復量"
     },
     "Slow Rate While Charging": {
-      "ko": "감속 속도/비율 While Charging",
-      "ja": "鈍足率WhileCharging"
+      "ko": "충전 중 자가 감속 비율",
+      "ja": "チャージ中の移動速度低下率"
     },
     "Minimum Charge Time": {
-      "ko": "최소 충전 Time",
-      "ja": "最小チャージTime"
-    },
-    "Blast Arrows Per Cast": {
-      "ko": "Blast Arrows Per Cast",
-      "ja": "BlastArrowsPerCast"
+      "ko": "최소 충전 시간",
+      "ja": "最小チャージ時間"
     },
     "Spread Angle": {
       "ko": "Spread 각도",
-      "ja": "Spread角度"
+      "ja": "Spread 角度"
     },
     "Afterimage Generation Interval": {
-      "ko": "Afterimage Generation 간격",
-      "ja": "AfterimageGeneration間隔"
+      "ko": "잔상 생성 간격",
+      "ja": "残像生成間隔"
     },
     "Afterimage Duration": {
-      "ko": "Afterimage 지속 시간",
-      "ja": "Afterimage持続時間"
+      "ko": "잔상 지속 시간",
+      "ja": "残像持続時間"
     },
     "Draw Speed Boost Multiplier": {
       "ko": "Draw 속도 증가 배율",
-      "ja": "Draw速度上昇倍率"
+      "ja": "Draw 速度上昇倍率"
     },
     "Blade Wave Speed": {
       "ko": "Blade Wave 속도",
-      "ja": "BladeWave速度"
+      "ja": "Blade Wave 速度"
     },
     "Blade Wave Range": {
       "ko": "Blade Wave 사거리 / 범위",
-      "ja": "BladeWave射程 / 範囲"
+      "ja": "Blade Wave 射程 / 範囲"
     },
     "Blade Wave Damage": {
       "ko": "Blade Wave 데미지",
-      "ja": "BladeWaveダメージ"
+      "ja": "Blade Wave ダメージ"
     },
     "Vulnerability Ratio": {
       "ko": "받는 피해 증가 Ratio",
@@ -1706,79 +1602,71 @@
     },
     "Blade Wave Healing": {
       "ko": "Blade Wave 치유량",
-      "ja": "BladeWave回復量"
+      "ja": "Blade Wave 回復量"
     },
     "Healing Boost Duration": {
       "ko": "치유량 증가 지속 시간",
       "ja": "回復量上昇持続時間"
     },
     "First Spell Field Range": {
-      "ko": "1차 Spell 영역 사거리 / 범위",
-      "ja": "1次Spellフィールド射程 / 範囲"
+      "ko": "1차 장판 범위",
+      "ja": "第1 フィールド範囲"
     },
     "First Damage": {
       "ko": "1차 데미지",
-      "ja": "1次ダメージ"
+      "ja": "1 次ダメージ"
     },
     "Second Spell Field Range": {
-      "ko": "2차 Spell 영역 사거리 / 범위",
-      "ja": "2次Spellフィールド射程 / 範囲"
+      "ko": "2차 장판 범위",
+      "ja": "第2 フィールド範囲"
     },
     "Second Damage": {
       "ko": "2차 데미지",
-      "ja": "2次ダメージ"
+      "ja": "2 次ダメージ"
     },
     "Triggering Distance": {
       "ko": "Triggering 거리",
-      "ja": "Triggering距離"
+      "ja": "Triggering 距離"
     },
     "Charge Time per Arrow (s)": {
-      "ko": "충전 Time per Arrow s",
-      "ja": "チャージTimeperArrows"
-    },
-    "Spread Type": {
-      "ko": "Spread Type",
-      "ja": "SpreadType"
-    },
-    "Psionic Arrows Fired": {
-      "ko": "Psionic Arrows Fired",
-      "ja": "PsionicArrowsFired"
+      "ko": "화살당 충전 시간(초)",
+      "ja": "矢1 本あたりのチャージ時間(秒)"
     },
     "Psionic Arrow Damage": {
       "ko": "Psionic Arrow 데미지",
-      "ja": "PsionicArrowダメージ"
+      "ja": "Psionic Arrow ダメージ"
     },
     "Psionic Arrow Explosion Damage": {
       "ko": "Psionic Arrow 폭발 데미지",
-      "ja": "PsionicArrow爆発ダメージ"
+      "ja": "Psionic Arrow 爆発ダメージ"
     },
     "Light Blade Damage": {
-      "ko": "Light Blade 데미지",
-      "ja": "LightBladeダメージ"
+      "ko": "빛의 검기 데미지",
+      "ja": "ライトブレードダメージ"
     },
     "Vulnerability Rate": {
-      "ko": "받는 피해 증가 속도/비율",
+      "ko": "받는 피해 증가 비율",
       "ja": "被ダメージ上昇率"
     },
     "Light Blade Healing": {
-      "ko": "Light Blade 치유량",
-      "ja": "LightBlade回復量"
+      "ko": "빛의 검기 치유량",
+      "ja": "ライトブレード回復量"
     },
     "Healing Boost Rate": {
-      "ko": "치유량 증가 속도/비율",
+      "ko": "치유량 증가 비율",
       "ja": "回復量上昇率"
     },
     "Sword Aura Healing": {
-      "ko": "Sword Aura 치유량",
-      "ja": "SwordAura回復量"
+      "ko": "검기 치유량",
+      "ja": "剣気回復量"
     },
     "Explosion Delay": {
       "ko": "폭발 지연 시간",
       "ja": "爆発遅延時間"
     },
     "Nastrond Crow Health": {
-      "ko": "Nastrond Crow 체력",
-      "ja": "NastrondCrow体力"
+      "ko": "나스트론드 까마귀 체력",
+      "ja": "ナストロンドのカラス体力"
     },
     "Explosion Damage Falloff": {
       "ko": "폭발 거리별 데미지 감쇠",
@@ -1786,19 +1674,19 @@
     },
     "Maximum Linking Distance": {
       "ko": "최대 Linking 거리",
-      "ja": "最大Linking距離"
+      "ja": "最大Linking 距離"
     },
     "Maximum Linking Duration": {
       "ko": "최대 Linking 지속 시간",
-      "ja": "最大Linking持続時間"
+      "ja": "最大Linking 持続時間"
     },
     "Horizontal Movement Speed": {
       "ko": "Horizontal 이동 속도",
-      "ja": "Horizontal移動速度"
+      "ja": "Horizontal 移動速度"
     },
     "Descending Speed": {
       "ko": "Descending 속도",
-      "ja": "Descending速度"
+      "ja": "Descending 速度"
     },
     "Delay": {
       "ko": "지연 시간",
@@ -1806,27 +1694,23 @@
     },
     "Undead Monstro Duration": {
       "ko": "Undead Monstro 지속 시간",
-      "ja": "UndeadMonstro持続時間"
+      "ja": "Undead Monstro 持続時間"
     },
     "Undead Monstro Damage": {
       "ko": "Undead Monstro 데미지",
-      "ja": "UndeadMonstroダメージ"
+      "ja": "Undead Monstro ダメージ"
     },
     "Undead Monstro Fire Rate": {
       "ko": "Undead Monstro 연사 속도",
-      "ja": "UndeadMonstro発射速度"
+      "ja": "Undead Monstro 発射速度"
     },
     "Gravity Field Range": {
-      "ko": "Gravity 영역 사거리 / 범위",
-      "ja": "Gravityフィールド射程 / 範囲"
+      "ko": "중력장 범위",
+      "ja": "重力フィールド範囲"
     },
     "Max Gravity Duration": {
       "ko": "최대 Gravity 지속 시간",
-      "ja": "最大Gravity持続時間"
-    },
-    "Nightsword Thorn Increase": {
-      "ko": "Nightsword Thorn Increase",
-      "ja": "NightswordThornIncrease"
+      "ja": "最大Gravity 持続時間"
     },
     "Health Restored": {
       "ko": "체력 Restored",
@@ -1834,19 +1718,19 @@
     },
     "Undead Monstro Health": {
       "ko": "Undead Monstro 체력",
-      "ja": "UndeadMonstro体力"
+      "ja": "Undead Monstro 体力"
     },
     "Attack Speed": {
       "ko": "공격 속도",
       "ja": "攻撃速度"
     },
     "Caster's Shield Value": {
-      "ko": "Caster s 보호막 Value",
-      "ja": "CastersシールドValue"
+      "ko": "시전자 보호막 수치",
+      "ja": "術者シールド耐久値"
     },
     "Ally's Shield Value": {
-      "ko": "아군 s 보호막 Value",
-      "ja": "味方sシールドValue"
+      "ko": "아군 보호막 수치",
+      "ja": "味方シールド耐久値"
     },
     "Max Shield Duration": {
       "ko": "최대 보호막 지속 시간",
@@ -1857,52 +1741,44 @@
       "ja": "最大持続時間"
     },
     "Speed at Minimum Charge Time": {
-      "ko": "속도 at 최소 충전 Time",
-      "ja": "速度at最小チャージTime"
+      "ko": "최소 충전 시 속도",
+      "ja": "最小チャージ時の速度"
     },
     "Speed at Maximum Charge Time": {
-      "ko": "속도 at 최대 충전 Time",
-      "ja": "速度at最大チャージTime"
+      "ko": "최대 충전 시 속도",
+      "ja": "最大チャージ時の速度"
     },
     "Launch Speed": {
       "ko": "공중 띄우기 속도",
       "ja": "打ち上げ速度"
     },
     "Landing Damage Range": {
-      "ko": "Landing 데미지 사거리 / 범위",
-      "ja": "Landingダメージ射程 / 範囲"
+      "ko": "착지 피해 범위",
+      "ja": "着地ダメージ範囲"
     },
     "Landing Damage": {
       "ko": "Landing 데미지",
-      "ja": "Landingダメージ"
+      "ja": "Landing ダメージ"
     },
     "Gamma Burst CD Reduction": {
       "ko": "Gamma Burst 쿨다운 감소",
-      "ja": "GammaBurstCD短縮"
+      "ja": "Gamma BurstCD 短縮"
     },
     "Radioactive Lockdown CD Reduction": {
       "ko": "Radioactive Lockdown 쿨다운 감소",
-      "ja": "RadioactiveLockdownCD短縮"
+      "ja": "Radioactive LockdownCD 短縮"
     },
     "Indestructible Guard CD Reduction": {
       "ko": "Indestructible Guard 쿨다운 감소",
-      "ja": "IndestructibleGuardCD短縮"
+      "ja": "Indestructible GuardCD 短縮"
     },
     "Furious Duration": {
       "ko": "Furious 지속 시간",
-      "ja": "Furious持続時間"
+      "ja": "Furious 持続時間"
     },
     "Attack Speed Boost": {
       "ko": "공격 속도 증가",
       "ja": "攻撃速度上昇"
-    },
-    "Unstoppable Threshold": {
-      "ko": "Unstoppable Threshold",
-      "ja": "UnstoppableThreshold"
-    },
-    "Unstoppable CD": {
-      "ko": "Unstoppable 쿨다운",
-      "ja": "UnstoppableCD"
     },
     "Charge Speed": {
       "ko": "충전 속도",
@@ -1914,75 +1790,75 @@
     },
     "Blazing Blast Projectile Speed": {
       "ko": "Blazing Blast 투사체 속도",
-      "ja": "BlazingBlast弾速速度"
+      "ja": "Blazing Blast 弾速"
     },
     "Blazing Blast Damage": {
       "ko": "Blazing Blast 데미지",
-      "ja": "BlazingBlastダメージ"
+      "ja": "Blazing Blast ダメージ"
     },
     "Flame Field Range": {
-      "ko": "Flame 영역 사거리 / 범위",
-      "ja": "Flameフィールド射程 / 範囲"
+      "ko": "화염 장판 범위",
+      "ja": "火炎フィールド範囲"
     },
     "Flame Field Duration": {
       "ko": "Flame 영역 지속 시간",
-      "ja": "Flameフィールド持続時間"
+      "ja": "Flame フィールド持続時間"
     },
     "Flame Field Continuous Damage": {
       "ko": "Flame 영역 Continuous 데미지",
-      "ja": "FlameフィールドContinuousダメージ"
+      "ja": "Flame フィールドContinuous ダメージ"
     },
     "Activation Shock Wave Range": {
-      "ko": "Activation Shock Wave 사거리 / 범위",
-      "ja": "ActivationShockWave射程 / 範囲"
+      "ko": "발동 충격파 범위",
+      "ja": "発動衝撃波範囲"
     },
     "Activation Wave Damage": {
-      "ko": "Activation Wave 데미지",
-      "ja": "ActivationWaveダメージ"
+      "ko": "발동 파동 데미지",
+      "ja": "発動ウェーブダメージ"
     },
     "Flame Tornado Unleash Speed": {
-      "ko": "Flame Tornado Unleash 속도",
-      "ja": "FlameTornadoUnleash速度"
+      "ko": "화염 회오리 이동 속도",
+      "ja": "火炎竜巻速度"
     },
     "Flame Tornado Range": {
-      "ko": "Flame Tornado 사거리 / 범위",
-      "ja": "FlameTornado射程 / 範囲"
+      "ko": "화염 회오리 범위",
+      "ja": "火炎竜巻範囲"
     },
     "Flame Tornado Continuous Damage": {
-      "ko": "Flame Tornado Continuous 데미지",
-      "ja": "FlameTornadoContinuousダメージ"
+      "ko": "화염 회오리 지속 데미지",
+      "ja": "火炎竜巻継続ダメージ"
     },
     "Supernova Damage Reduction": {
       "ko": "Supernova 피해 감소",
-      "ja": "Supernova被ダメージ軽減"
+      "ja": "Supernova 被ダメージ軽減"
     },
     "Max Link Distance": {
       "ko": "최대 Link 거리",
-      "ja": "最大Link距離"
+      "ja": "最大Link 距離"
     },
     "Max Link Height": {
-      "ko": "최대 Link Height",
-      "ja": "最大LinkHeight"
+      "ko": "최대 연결 높이",
+      "ja": "最大リンク高度"
     },
     "Fire Wall Duration": {
-      "ko": "Fire Wall 지속 시간",
-      "ja": "FireWall持続時間"
+      "ko": "화염 벽 지속 시간",
+      "ja": "炎の壁持続時間"
     },
     "Fire Wall Damage": {
-      "ko": "Fire Wall 데미지",
-      "ja": "FireWallダメージ"
+      "ko": "화염 벽 데미지",
+      "ja": "炎の壁ダメージ"
     },
     "Pyro-Prison Continuous Damage": {
-      "ko": "Pyro Prison Continuous 데미지",
-      "ja": "PyroPrisonContinuousダメージ"
+      "ko": "Pyro-Prison 지속 데미지",
+      "ja": "Pyro-Prison 継続ダメージ"
     },
     "Flame Field Detonation Range": {
-      "ko": "Flame 영역 Detonation 사거리 / 범위",
-      "ja": "FlameフィールドDetonation射程 / 範囲"
+      "ko": "화염 장판 폭발 범위",
+      "ja": "火炎フィールド起爆範囲"
     },
     "Flame Field Detonation Damage": {
-      "ko": "Flame 영역 Detonation 데미지",
-      "ja": "FlameフィールドDetonationダメージ"
+      "ko": "화염 장판 폭발 데미지",
+      "ja": "火炎フィールド起爆ダメージ"
     },
     "Bonus Health Growth": {
       "ko": "추가 체력 Growth",
@@ -1990,115 +1866,111 @@
     },
     "Team-Up Target": {
       "ko": "Team Up 대상",
-      "ja": "TeamUp対象"
+      "ja": "TeamUp 対象"
     },
     "Flight Speed": {
-      "ko": "Flight 속도",
-      "ja": "Flight速度"
+      "ko": "비행 속도",
+      "ja": "飛行速度"
     },
     "Slam Down Initial Horizontal Velocity": {
       "ko": "내리치기 Down 초기 Horizontal Velocity",
-      "ja": "叩きつけDown初期HorizontalVelocity"
+      "ja": "叩きつけDown 初期HorizontalVelocity"
     },
     "Maximum Flight Duration": {
-      "ko": "최대 Flight 지속 시간",
-      "ja": "最大Flight持続時間"
+      "ko": "최대 비행 시간",
+      "ja": "最大飛行時間"
     },
     "Launch Up Range": {
       "ko": "공중 띄우기 Up 사거리 / 범위",
-      "ja": "打ち上げUp射程 / 範囲"
+      "ja": "打ち上げUp 射程 / 範囲"
     },
     "Mobility Abilities Disabling Range": {
       "ko": "Mobility Abilities Disabling 사거리 / 범위",
-      "ja": "MobilityAbilitiesDisabling射程 / 範囲"
+      "ja": "Mobility AbilitiesDisabling 射程 / 範囲"
     },
     "Spark Damage": {
       "ko": "Spark 데미지",
-      "ja": "Sparkダメージ"
+      "ja": "Spark ダメージ"
     },
     "Bonus Health Gain through Sparks": {
-      "ko": "추가 체력 Gain through Sparks",
-      "ja": "追加体力GainthroughSparks"
+      "ko": "불꽃(Spark) 통한 추가 체력 획득",
+      "ja": "Spark による追加HP 獲得"
     },
     "Single-cast Spell Field": {
-      "ko": "Single cast Spell 영역",
-      "ja": "SinglecastSpellフィールド"
+      "ko": "단발 시전 장판",
+      "ja": "単発フィールド"
     },
     "Flame Nado Damage": {
-      "ko": "Flame Nado 데미지",
-      "ja": "FlameNadoダメージ"
+      "ko": "화염 회오리 데미지",
+      "ja": "フレイムネードダメージ"
     },
     "Burning Hurricane Damage": {
       "ko": "Burning Hurricane 데미지",
-      "ja": "BurningHurricaneダメージ"
+      "ja": "Burning Hurricane ダメージ"
     },
     "Duration Increase from Passing Through Flame Field": {
-      "ko": "지속 시간 Increase from Passing Through Flame 영역",
-      "ja": "持続時間IncreasefromPassingThroughFlameフィールド"
+      "ko": "화염 장판 통과 시 지속 시간 증가",
+      "ja": "火炎フィールド通過時の持続時間延長"
     },
     "Burning Hurricane Max Duration": {
       "ko": "Burning Hurricane 최대 지속 시간",
-      "ja": "BurningHurricane最大持続時間"
+      "ja": "Burning Hurricane 最大持続時間"
     },
     "Burning Hurricane Radius": {
       "ko": "Burning Hurricane 반경",
-      "ja": "BurningHurricane半径"
+      "ja": "Burning Hurricane 半径"
     },
     "Maximum Pull-In Distance": {
-      "ko": "최대 Pull In 거리",
-      "ja": "最大PullIn距離"
+      "ko": "최대 끌어당기기 거리",
+      "ja": "最大引き寄せ距離"
     },
     "Dragon's Defense Cooldown Reduction Per Hit": {
-      "ko": "Dragon s Defense 재사용 대기시간 감소 타격당",
-      "ja": "DragonsDefenseクールダウン短縮命中ごと"
+      "ko": "적중당 Dragon's Defense 쿨다운 감소",
+      "ja": "命中ごとのDragon's Defense CD 短縮"
     },
     "Dashing Speed Without Target": {
-      "ko": "Dashing 속도 Without 대상",
-      "ja": "Dashing速度Without対象"
+      "ko": "비지정 돌진 속도",
+      "ja": "ターゲット未指定時のダッシュ速度"
     },
     "Dashing Distance Without Target": {
-      "ko": "Dashing 거리 Without 대상",
-      "ja": "Dashing距離Without対象"
-    },
-    "Block Time": {
-      "ko": "Block Time",
-      "ja": "BlockTime"
+      "ko": "비지정 돌진 거리",
+      "ja": "ターゲット未指定時のダッシュ距離"
     },
     "Bonus Health/Damage Blocked Conversion": {
-      "ko": "추가 체력 데미지 Blocked Conversion",
-      "ja": "追加体力ダメージBlockedConversion"
+      "ko": "방어 피해량 → 추가 체력 전환율",
+      "ja": "ブロック量→追加HP 変換率"
     },
     "Max Health/Damage Blocked Conversion": {
-      "ko": "최대 체력 데미지 Blocked Conversion",
-      "ja": "最大体力ダメージBlockedConversion"
+      "ko": "방어 피해량 → 최대 체력 전환율",
+      "ja": "ブロック量→最大HP 変換率"
     },
     "Yat Jee Chung Kuen Bonus Range": {
-      "ko": "Yat Jee Chung Kuen 추가 사거리 / 범위",
-      "ja": "YatJeeChungKuen追加射程 / 範囲"
+      "ko": "일지충권 추가 사거리",
+      "ja": "日字衝拳追加射程"
     },
     "K'un-Lun Kick Bonus Range": {
-      "ko": "K un Lun 발차기 추가 사거리 / 범위",
-      "ja": "KunLunキック追加射程 / 範囲"
+      "ko": "K'un-Lun Kick 추가 사거리",
+      "ja": "K'un-Lun Kick 追加射程"
     },
     "Yat Jee Chung Kuen Cooldown Reduction": {
       "ko": "Yat Jee Chung Kuen 재사용 대기시간 감소",
-      "ja": "YatJeeChungKuenクールダウン短縮"
+      "ja": "Yat JeeChung Kuen クールダウン短縮"
     },
     "First Flying Kick Damage": {
       "ko": "1차 Flying 발차기 데미지",
-      "ja": "1次Flyingキックダメージ"
+      "ja": "1 次Flying キックダメージ"
     },
     "Healing Per Second": {
       "ko": "치유량 초당",
       "ja": "回復量秒間"
     },
     "Excess Healing/Max Health Conversion": {
-      "ko": "Excess 치유량 최대 체력 Conversion",
-      "ja": "Excess回復量最大体力Conversion"
+      "ko": "초과 치유 → 최대 체력 전환율",
+      "ja": "超過回復→最大HP 変換率"
     },
     "Healing Range": {
-      "ko": "치유량 사거리 / 범위",
-      "ja": "回復量射程 / 範囲"
+      "ko": "치유 범위",
+      "ja": "回復範囲"
     },
     "Bonus Health Falloff Delay": {
       "ko": "추가 체력 감쇠 지연 시간",
@@ -2113,12 +1985,12 @@
       "ja": "ダメージ距離"
     },
     "Targetless Dash Speed Increase": {
-      "ko": "Targetless Dash 속도 Increase",
-      "ja": "TargetlessDash速度Increase"
+      "ko": "비지정 돌진 속도 증가",
+      "ja": "ターゲット未指定時のダッシュ速度上昇"
     },
     "Target Selection Max Range Increase": {
-      "ko": "대상 Selection 최대 사거리 / 범위 Increase",
-      "ja": "対象Selection最大射程 / 範囲Increase"
+      "ko": "대상 지정 최대 사거리 증가",
+      "ja": "ターゲット指定最大射程増加"
     },
     "Special Mechanic 1": {
       "ko": "특수 메커니즘 1",
@@ -2129,96 +2001,92 @@
       "ja": "特殊メカニズム2"
     },
     "Two-handed Repulsors": {
-      "ko": "Two handed Repulsors",
-      "ja": "TwohandedRepulsors"
+      "ko": "양손 리펄서 (강화)",
+      "ja": "両手リパルサー（強化）"
     },
     "Beam Length": {
-      "ko": "광선 Length",
-      "ja": "ビームLength"
+      "ko": "광선 길이",
+      "ja": "ビーム長"
     },
     "Dispersive Spell Field": {
-      "ko": "Dispersive Spell 영역",
-      "ja": "DispersiveSpellフィールド"
-    },
-    "Missiles": {
-      "ko": "Missiles",
-      "ja": "Missiles"
+      "ko": "확산 장판",
+      "ja": "拡散フィールド"
     },
     "Ability Duration Extension per Assist/Kill (s)": {
-      "ko": "Ability 지속 시간 Extension per Assist Kill s",
-      "ja": "Ability持続時間ExtensionperAssistKills"
+      "ko": "처치/어시스트당 지속 시간 연장(초)",
+      "ja": "KO/アシストごとの持続時間延長(秒)"
     },
     "Pulse Cannon Projectile Hit Damage": {
-      "ko": "Pulse Cannon 투사체 Hit 데미지",
-      "ja": "PulseCannon弾速Hitダメージ"
+      "ko": "펄스 캐논 직격 데미지",
+      "ja": "パルスキャノン直撃ダメージ"
     },
     "Pulse Cannon Spell Field Damage": {
-      "ko": "Pulse Cannon Spell 영역 데미지",
-      "ja": "PulseCannonSpellフィールドダメージ"
+      "ko": "펄스 캐논 장판 데미지",
+      "ja": "パルスキャノンフィールドダメージ"
     },
     "Pulse Cannon Spell Field Range": {
-      "ko": "Pulse Cannon Spell 영역 사거리 / 범위",
-      "ja": "PulseCannonSpellフィールド射程 / 範囲"
+      "ko": "펄스 캐논 장판 범위",
+      "ja": "パルスキャノンフィールド範囲"
     },
     "Pulse Cannon Damage Falloff": {
       "ko": "Pulse Cannon 거리별 데미지 감쇠",
-      "ja": "PulseCannonダメージ減衰"
+      "ja": "Pulse Cannon ダメージ減衰"
     },
     "Unibeam Damage": {
       "ko": "Unibeam 데미지",
-      "ja": "Unibeamダメージ"
+      "ja": "Unibeam ダメージ"
     },
     "Gamma Shield Health": {
       "ko": "Gamma 보호막 체력",
-      "ja": "Gammaシールド体力"
+      "ja": "Gamma シールド体力"
     },
     "Gamma Shield Max Duration": {
       "ko": "Gamma 보호막 최대 지속 시간",
-      "ja": "Gammaシールド最大持続時間"
+      "ja": "Gamma シールド最大持続時間"
     },
     "Dissipation Damage": {
       "ko": "Dissipation 데미지",
-      "ja": "Dissipationダメージ"
+      "ja": "Dissipation ダメージ"
     },
     "Unibeam Outer Ring Range": {
-      "ko": "Unibeam Outer Ring 사거리 / 범위",
-      "ja": "UnibeamOuterRing射程 / 範囲"
+      "ko": "유니빔 외곽 범위",
+      "ja": "ユニビーム外周範囲"
     },
     "Unibeam Outer Ring Damage": {
-      "ko": "Unibeam Outer Ring 데미지",
-      "ja": "UnibeamOuterRingダメージ"
+      "ko": "유니빔 외곽 데미지",
+      "ja": "ユニビーム外周ダメージ"
     },
     "Thunder Overdrive Unibeam Outer Ring Range": {
-      "ko": "Thunder Overdrive Unibeam Outer Ring 사거리 / 범위",
-      "ja": "ThunderOverdriveUnibeamOuterRing射程 / 範囲"
+      "ko": "썬더 오버드라이브 유니빔 외곽 범위",
+      "ja": "サンダーオーバードライブ・ユニビーム外周範囲"
     },
     "Thunder Overdrive CD Reduction": {
       "ko": "Thunder Overdrive 쿨다운 감소",
-      "ja": "ThunderOverdriveCD短縮"
+      "ja": "Thunder OverdriveCD 短縮"
     },
     "Maximum Flight Distance": {
-      "ko": "최대 Flight 거리",
-      "ja": "最大Flight距離"
+      "ko": "최대 비행 거리",
+      "ja": "最大飛行距離"
     },
     "Recovery Shield Value Per Second": {
-      "ko": "Recovery 보호막 Value 초당",
-      "ja": "RecoveryシールドValue秒間"
+      "ko": "초당 보호막 회복량",
+      "ja": "毎秒シールド回復量"
     },
     "Pass-Through Slow Rate": {
-      "ko": "Pass Through 감속 속도/비율",
-      "ja": "PassThrough鈍足率"
+      "ko": "관통 감속 비율",
+      "ja": "通過時の鈍足率"
     },
     "Push Range": {
-      "ko": "Push 사거리 / 범위",
-      "ja": "Push射程 / 範囲"
+      "ko": "밀치기 범위",
+      "ja": "押し出し範囲"
     },
     "Pull-Range": {
-      "ko": "Pull 사거리 / 범위",
-      "ja": "Pull射程 / 範囲"
+      "ko": "끌어당기기 범위",
+      "ja": "引き寄せ範囲"
     },
     "Piercing Damage Boost Rate": {
-      "ko": "Piercing 데미지 증가 속도/비율",
-      "ja": "Piercingダメージ上昇率"
+      "ko": "관통 데미지 증가율",
+      "ja": "貫通ダメージ上昇率"
     },
     "Special Effect1": {
       "ko": "특수 효과 1",
@@ -2233,48 +2101,40 @@
       "ja": "追加体力味方"
     },
     "Buff Duration": {
-      "ko": "Buff 지속 시간",
-      "ja": "Buff持続時間"
+      "ko": "버프 지속 시간",
+      "ja": "バフ持続時間"
     },
     "Continuous Healing Duration": {
       "ko": "Continuous 치유량 지속 시간",
-      "ja": "Continuous回復量持続時間"
+      "ja": "Continuous 回復量持続時間"
     },
     "Continuous Healing Efficiency": {
       "ko": "Continuous 치유량 Efficiency",
-      "ja": "Continuous回復量Efficiency"
+      "ja": "Continuous 回復量Efficiency"
     },
     "One-time Healing Amount": {
-      "ko": "One time 치유량",
-      "ja": "Onetime回復量"
-    },
-    "Swallow Time Required": {
-      "ko": "Swallow Time Required",
-      "ja": "SwallowTimeRequired"
-    },
-    "Warning before Swallow": {
-      "ko": "Warning before Swallow",
-      "ja": "WarningbeforeSwallow"
+      "ko": "즉시 치유량",
+      "ja": "即時回復量"
     },
     "Swallow Range": {
       "ko": "Swallow 사거리 / 범위",
-      "ja": "Swallow射程 / 範囲"
+      "ja": "Swallow 射程 / 範囲"
     },
     "Swallow Damage": {
       "ko": "Swallow 데미지",
-      "ja": "Swallowダメージ"
+      "ja": "Swallow ダメージ"
     },
     "Critical Hit Damage Reduction": {
       "ko": "치명타 (헤드샷) 피해 감소",
       "ja": "クリティカル被ダメージ軽減"
     },
     "Deadpool Plushie Duration": {
-      "ko": "Deadpool Plushie 지속 시간",
-      "ja": "DeadpoolPlushie持続時間"
+      "ko": "데드풀 인형 지속 시간",
+      "ja": "デッドプールぬいぐるみ持続時間"
     },
     "Deadpool Plushie Range": {
-      "ko": "Deadpool Plushie 사거리 / 범위",
-      "ja": "DeadpoolPlushie射程 / 範囲"
+      "ko": "데드풀 인형 효과 범위",
+      "ja": "デッドプールぬいぐるみ範囲"
     },
     "Energy": {
       "ko": "에너지",
@@ -2293,40 +2153,32 @@
       "ja": "速度上昇回復量"
     },
     "Attack Speed Boost Duration Per Sparkle Mark Triggered": {
-      "ko": "공격 속도 증가 지속 시간 Per Sparkle Mark Triggered",
-      "ja": "攻撃速度上昇持続時間PerSparkleMarkTriggered"
+      "ko": "불꽃 표식 격발당 공격 속도 증가 지속 시간",
+      "ja": "スパークルマーク起爆ごとの攻撃速度上昇時間"
     },
     "Orb Maximum Duration": {
-      "ko": "Orb 최대 지속 시간",
-      "ja": "Orb最大持続時間"
+      "ko": "구체 최대 지속 시간",
+      "ja": "オーブ最大持続時間"
     },
     "Energy Required to Charge Orb": {
-      "ko": "에너지 Required to 충전 Orb",
-      "ja": "エネルギーRequiredtoチャージOrb"
+      "ko": "구체 충전 필요 에너지",
+      "ja": "オーブ充填必要エネルギー"
     },
     "Returned Energy on Recall": {
-      "ko": "Returned 에너지 on Recall",
-      "ja": "ReturnedエネルギーonRecall"
+      "ko": "회수 시 반환 에너지",
+      "ja": "回収時の返還エネルギー"
     },
     "Firework Cluster Range": {
-      "ko": "Firework Cluster 사거리 / 범위",
-      "ja": "FireworkCluster射程 / 範囲"
+      "ko": "불꽃 탄환 범위",
+      "ja": "花火クラスター範囲"
     },
     "Firework Cluster Healing Amount": {
-      "ko": "Firework Cluster 치유량",
-      "ja": "FireworkCluster回復量"
+      "ko": "불꽃 탄환 치유량",
+      "ja": "花火クラスター回復量"
     },
     "Firework Cluster Damage": {
-      "ko": "Firework Cluster 데미지",
-      "ja": "FireworkClusterダメージ"
-    },
-    "Firework Cluster": {
-      "ko": "Firework Cluster",
-      "ja": "FireworkCluster"
-    },
-    "Firework Cluster Amount": {
-      "ko": "Firework Cluster Amount",
-      "ja": "FireworkClusterAmount"
+      "ko": "불꽃 탄환 데미지",
+      "ja": "花火クラスターダメージ"
     },
     "Speed Boost Multiplier": {
       "ko": "속도 증가 배율",
@@ -2337,64 +2189,64 @@
       "ja": "エネルギー回復"
     },
     "Blind Duration": {
-      "ko": "Blind 지속 시간",
-      "ja": "Blind持続時間"
+      "ko": "실명 지속 시간",
+      "ja": "視界制限持続時間"
     },
     "Healing Spell Field Generation Interval": {
-      "ko": "치유량 Spell 영역 Generation 간격",
-      "ja": "回復量SpellフィールドGeneration間隔"
+      "ko": "치유량 장판 Generation 간격",
+      "ja": "回復量Spell フィールドGeneration 間隔"
     },
     "Healing Over Time Amount": {
-      "ko": "치유량 Over Time Amount",
-      "ja": "回復量OverTimeAmount"
+      "ko": "지속 치유량",
+      "ja": "継続回復量"
     },
     "Hitscan Attack Damage": {
-      "ko": "Hitscan Attack 데미지",
-      "ja": "HitscanAttackダメージ"
+      "ko": "히트스캔 공격 데미지",
+      "ja": "ヒットスキャン攻撃ダメージ"
     },
     "Hitscan Attack Healing": {
-      "ko": "Hitscan Attack 치유량",
-      "ja": "HitscanAttack回復量"
+      "ko": "히트스캔 공격 치유량",
+      "ja": "ヒットスキャン攻撃回復量"
     },
     "Healing on Hit": {
-      "ko": "치유량 on Hit",
-      "ja": "回復量onHit"
+      "ko": "적중 시 치유량",
+      "ja": "命中時回復量"
     },
     "Field Range": {
-      "ko": "영역 사거리 / 범위",
-      "ja": "フィールド射程 / 範囲"
+      "ko": "영역 범위",
+      "ja": "フィールド範囲"
     },
     "Lifesteal Rate": {
-      "ko": "Lifesteal 속도/비율",
-      "ja": "Lifesteal率"
+      "ko": "생명력 흡수율",
+      "ja": "ライフスティール率"
     },
     "Area Of Effect Healing": {
-      "ko": "범위 Of Effect 치유량",
-      "ja": "範囲OfEffect回復量"
+      "ko": "광역 치유량",
+      "ja": "範囲回復量"
     },
     "Conversion Rate": {
-      "ko": "Conversion 속도/비율",
-      "ja": "Conversion率"
+      "ko": "전환 비율",
+      "ja": "変換率"
     },
     "Rune Stone Health": {
       "ko": "Rune Stone 체력",
-      "ja": "RuneStone体力"
+      "ja": "Rune Stone 体力"
     },
     "Health Retained on Death": {
-      "ko": "체력 Retained on Death",
-      "ja": "体力RetainedonDeath"
+      "ko": "치명상 시 잔류 체력",
+      "ja": "致死ダメージ時の残存HP"
     },
     "Summon Health Bar": {
       "ko": "소환수 체력 Bar",
       "ja": "召喚物体力Bar"
     },
     "Damage Boost Rate": {
-      "ko": "데미지 증가 속도/비율",
+      "ko": "데미지 증가 비율",
       "ja": "ダメージ上昇率"
     },
     "Cast to heal the ally once": {
-      "ko": "Cast to 치유 the 아군 once",
-      "ja": "Castto回復the味方once"
+      "ko": "시전 시 아군 즉시 치유량",
+      "ja": "発動時の味方即時回復量"
     },
     "Damage Area Radius": {
       "ko": "데미지 범위 반경",
@@ -2402,19 +2254,15 @@
     },
     "Charm Area Radius": {
       "ko": "Charm 범위 반경",
-      "ja": "Charm範囲半径"
+      "ja": "Charm 範囲半径"
     },
     "Charm Duration": {
       "ko": "Charm 지속 시간",
-      "ja": "Charm持続時間"
-    },
-    "Time Required to Start Skating": {
-      "ko": "Time Required to Start Skating",
-      "ja": "TimeRequiredtoStartSkating"
+      "ja": "Charm 持続時間"
     },
     "Skating Speed": {
       "ko": "Skating 속도",
-      "ja": "Skating速度"
+      "ja": "Skating 速度"
     },
     "Damage Radius": {
       "ko": "데미지 반경",
@@ -2422,103 +2270,103 @@
     },
     "Charm Radius": {
       "ko": "Charm 반경",
-      "ja": "Charm半径"
+      "ja": "Charm 半径"
     },
     "Chain Cast Detection Range": {
-      "ko": "Chain Cast Detection 사거리 / 범위",
-      "ja": "ChainCastDetection射程 / 範囲"
+      "ko": "연계 시전 감지 범위",
+      "ja": "連携発動感知範囲"
     },
     "Max Chain Distance": {
       "ko": "최대 Chain 거리",
-      "ja": "最大Chain距離"
+      "ja": "最大Chain 距離"
     },
     "Damage Dealt to Self-Healing Ratio": {
-      "ko": "데미지 Dealt to 자신 치유량 Ratio",
-      "ja": "ダメージDealtto自身回復量Ratio"
+      "ko": "가한 피해 대비 자가 치유 비율",
+      "ja": "与ダメージに対する自己回復率"
     },
     "Ally Healing to Self-Healing Ratio": {
-      "ko": "아군 치유량 to 자신 치유량 Ratio",
-      "ja": "味方回復量to自身回復量Ratio"
+      "ko": "아군 치유 대비 자가 치유 비율",
+      "ja": "味方回復に対する自己回復割合"
     },
     "Ice Arts CD Reduction per Crit": {
-      "ko": "Ice Arts 쿨다운 감소 per Crit",
-      "ja": "IceArtsCD短縮perCrit"
+      "ko": "치명타당 Ice Arts 쿨다운 감소",
+      "ja": "クリティカルごとのIce Arts CD 短縮"
     },
     "Absolute Zero CD Reduction per Crit": {
-      "ko": "Absolute Zero 쿨다운 감소 per Crit",
-      "ja": "AbsoluteZeroCD短縮perCrit"
+      "ko": "치명타당 Absolute Zero 쿨다운 감소",
+      "ja": "クリティカルごとのAbsolute Zero CD 短縮"
     },
     "Combo Ability Casting Window": {
-      "ko": "Combo Ability 시전 방식 Window",
-      "ja": "ComboAbility発動タイプWindow"
+      "ko": "연계 스킬 입력 유지 시간",
+      "ja": "コンボ入力受付時間"
     },
     "Upward Slash Damage": {
       "ko": "Upward 베기 데미지",
-      "ja": "Upward斬撃ダメージ"
+      "ja": "Upward 斬撃ダメージ"
     },
     "Max Link Generation Distance": {
       "ko": "최대 Link Generation 거리",
-      "ja": "最大LinkGeneration距離"
+      "ja": "最大LinkGeneration 距離"
     },
     "Projectile Hit Damage": {
-      "ko": "투사체 Hit 데미지",
-      "ja": "弾速Hitダメージ"
+      "ko": "투사체 직격 데미지",
+      "ja": "弾丸直撃ダメージ"
     },
     "Damage to the Link's Secondary Target": {
       "ko": "데미지 to the Link s 2차 대상",
-      "ja": "ダメージtotheLinks2次対象"
+      "ja": "ダメージtothe Links2 次対象"
     },
     "Link Maximum Duration": {
       "ko": "Link 최대 지속 시간",
-      "ja": "Link最大持続時間"
+      "ja": "Link 最大持続時間"
     },
     "Link Breakage Distance": {
       "ko": "Link Breakage 거리",
-      "ja": "LinkBreakage距離"
+      "ja": "Link Breakage 距離"
     },
     "Energy Cost Special Effect": {
       "ko": "에너지 소모량 특수 효과",
       "ja": "エネルギー消費特殊効果"
     },
     "SLOW RATE": {
-      "ko": "감속 속도/비율",
+      "ko": "감속 비율",
       "ja": "鈍足率"
     },
     "Chain Damage over Time": {
-      "ko": "Chain 데미지 over Time",
-      "ja": "ChainダメージoverTime"
+      "ko": "사슬 지속 데미지",
+      "ja": "鎖の継続ダメージ"
     },
     "Magic Circle Range": {
-      "ko": "Magic Circle 사거리 / 범위",
-      "ja": "MagicCircle射程 / 範囲"
+      "ko": "마법진 범위",
+      "ja": "魔法陣範囲"
     },
     "Hellfire Trail Energy Refund": {
       "ko": "Hellfire 궤적 에너지 Refund",
-      "ja": "Hellfire軌跡エネルギーRefund"
+      "ja": "Hellfire 軌跡エネルギーRefund"
     },
     "Limbo Demo Health": {
-      "ko": "Limbo Demo 체력",
-      "ja": "LimboDemo体力"
+      "ko": "림보 악마 체력",
+      "ja": "リンボ悪魔体力"
     },
     "Limbo Demo Duration": {
-      "ko": "Limbo Demo 지속 시간",
-      "ja": "LimboDemo持続時間"
+      "ko": "림보 악마 지속 시간",
+      "ja": "リンボ悪魔持続時間"
     },
     "Limbo Demo Attack Range": {
-      "ko": "Limbo Demo Attack 사거리 / 범위",
-      "ja": "LimboDemoAttack射程 / 範囲"
+      "ko": "림보 악마 공격 사거리",
+      "ja": "リンボ悪魔の攻撃射程"
     },
     "Hell Frontier Demon Health Increase": {
-      "ko": "Hell Frontier Demon 체력 Increase",
-      "ja": "HellFrontierDemon体力Increase"
+      "ko": "지옥 변경 악마 체력 증가",
+      "ja": "ヘル・フロンティア悪魔のHP 増加"
     },
     "Hell Frontier Demon Attack Range Increase": {
-      "ko": "Hell Frontier Demon Attack 사거리 / 범위 Increase",
-      "ja": "HellFrontierDemonAttack射程 / 範囲Increase"
+      "ko": "지옥 변경 악마 공격 사거리 증가",
+      "ja": "ヘル・フロンティア悪魔の攻撃射程増加"
     },
     "Projectile Absorption Range": {
-      "ko": "투사체 Absorption 사거리 / 범위",
-      "ja": "弾速Absorption射程 / 範囲"
+      "ko": "투사체 흡수 범위",
+      "ja": "弾丸吸収範囲"
     },
     "Energy Recovery Delay": {
       "ko": "에너지 회복 지연 시간",
@@ -2526,15 +2374,15 @@
     },
     "Shoot Interval": {
       "ko": "Shoot 간격",
-      "ja": "Shoot間隔"
+      "ja": "Shoot 間隔"
     },
     "Delay Explosion Damage": {
       "ko": "지연 시간 폭발 데미지",
       "ja": "遅延時間爆発ダメージ"
     },
     "Spell Field Explosion Damage": {
-      "ko": "Spell 영역 폭발 데미지",
-      "ja": "Spellフィールド爆発ダメージ"
+      "ko": "장판 폭발 데미지",
+      "ja": "Spell フィールド爆発ダメージ"
     },
     "Projectile Damage Falloff": {
       "ko": "투사체 거리별 데미지 감쇠",
@@ -2545,64 +2393,60 @@
       "ja": "チャージ間隔"
     },
     "Magnetic Projection Max Damage Absorbed": {
-      "ko": "Magnetic Projection 최대 데미지 Absorbed",
-      "ja": "MagneticProjection最大ダメージAbsorbed"
+      "ko": "자기 투영 최대 피해 흡수량",
+      "ja": "磁力投影最大吸収ダメージ"
     },
     "Magnetic Projection Damage Dealt Ratio": {
-      "ko": "Magnetic Projection 데미지 Dealt Ratio",
-      "ja": "MagneticProjectionダメージDealtRatio"
+      "ko": "자기 투영 피해량 비율",
+      "ja": "磁力投影ダメージ割合"
     },
     "Magnetic Projection Max Duration": {
-      "ko": "Magnetic Projection 최대 지속 시간",
-      "ja": "MagneticProjection最大持続時間"
+      "ko": "자기 투영 최대 지속 시간",
+      "ja": "磁力投影最大持続時間"
     },
     "Magnetic Projection Max Damage Absorbed Increase": {
-      "ko": "Magnetic Projection 최대 데미지 Absorbed Increase",
-      "ja": "MagneticProjection最大ダメージAbsorbedIncrease"
+      "ko": "자기 투영 최대 피해 흡수량 증가",
+      "ja": "磁力投影最大吸収ダメージ増加"
     },
     "Caster & Ally One-time Healing Amount": {
-      "ko": "Caster 아군 One time 치유량",
-      "ja": "Caster味方Onetime回復量"
+      "ko": "시전자 및 아군 즉시 치유량",
+      "ja": "術者・味方の即時回復量"
     },
     "Excess Healing/Bonus Health Conversion": {
-      "ko": "Excess 치유량 추가 체력 Conversion",
-      "ja": "Excess回復量追加体力Conversion"
+      "ko": "초과 치유 → 추가 체력 전환율",
+      "ja": "超過回復→追加HP 変換率"
     },
     "Sedation Duration": {
       "ko": "Sedation 지속 시간",
-      "ja": "Sedation持続時間"
+      "ja": "Sedation 持続時間"
     },
     "Illusion Health": {
       "ko": "Illusion 체력",
-      "ja": "Illusion体力"
-    },
-    "Time Required to Leave Combat": {
-      "ko": "Time Required to Leave Combat",
-      "ja": "TimeRequiredtoLeaveCombat"
+      "ja": "Illusion 体力"
     },
     "Out-of-Combat Movement Speed": {
-      "ko": "Out of Combat 이동 속도",
-      "ja": "OutofCombat移動速度"
+      "ko": "비전투 시 이동 속도",
+      "ja": "非戦闘時の移動速度"
     },
     "Healing Flower Healing Amount": {
       "ko": "치유량 Flower 치유량",
-      "ja": "回復量Flower回復量"
+      "ja": "回復量Flower 回復量"
     },
     "Spread Spell Field Range": {
-      "ko": "Spread Spell 영역 사거리 / 범위",
-      "ja": "SpreadSpellフィールド射程 / 範囲"
+      "ko": "확산 장판 범위",
+      "ja": "拡散フィールド範囲"
     },
     "Spread Healing": {
       "ko": "Spread 치유량",
-      "ja": "Spread回復量"
+      "ja": "Spread 回復量"
     },
     "Enhanced Heal Bonus Healing": {
-      "ko": "Enhanced 치유 추가 치유량",
-      "ja": "Enhanced回復追加回復量"
+      "ko": "강화 치유 추가 회복량",
+      "ja": "強化ヒール追加回復量"
     },
     "Spread Spell Field One-time Healing": {
-      "ko": "Spread Spell 영역 One time 치유량",
-      "ja": "SpreadSpellフィールドOnetime回復量"
+      "ko": "확산 장판 즉시 치유량",
+      "ja": "拡散フィールド即時回復量"
     },
     "Special effect": {
       "ko": "특수 효과",
@@ -2610,99 +2454,83 @@
     },
     "Nature's Favor Bonus Healing Amount": {
       "ko": "Nature s Favor 추가 치유량",
-      "ja": "NaturesFavor追加回復量"
+      "ja": "Natures Favor 追加回復量"
     },
     "Max Damage Shared per Character": {
-      "ko": "최대 데미지 Shared per Character",
-      "ja": "最大ダメージSharedperCharacter"
+      "ko": "캐릭터당 최대 피해 분담량",
+      "ja": "1 人あたりの最大ダメージ分担量"
     },
     "Maximum Bounce Distance": {
       "ko": "최대 튕김 거리",
       "ja": "最大バウンド距離"
     },
     "Maximum Number of Bounces": {
-      "ko": "최대 수 of Bounces",
-      "ja": "最大数ofBounces"
+      "ko": "최대 튕김 횟수",
+      "ja": "最大跳弾回数"
     },
     "Descending Range": {
-      "ko": "Descending 사거리 / 범위",
-      "ja": "Descending射程 / 範囲"
-    },
-    "Frequency": {
-      "ko": "Frequency",
-      "ja": "Frequency"
+      "ko": "낙하 공격 범위",
+      "ja": "降下攻撃範囲"
     },
     "Number of Hits": {
-      "ko": "수 of Hits",
-      "ja": "数ofHits"
+      "ko": "타격 횟수",
+      "ja": "ヒット数"
     },
     "Pull-In Range": {
-      "ko": "Pull In 사거리 / 범위",
-      "ja": "PullIn射程 / 範囲"
+      "ko": "끌어당기기 범위",
+      "ja": "引き寄せ範囲"
     },
     "Pull-In Damage": {
-      "ko": "Pull In 데미지",
-      "ja": "PullInダメージ"
+      "ko": "끌어당기기 데미지",
+      "ja": "引き寄せダメージ"
     },
     "Bouncing Range": {
-      "ko": "Bouncing 사거리 / 범위",
-      "ja": "Bouncing射程 / 範囲"
+      "ko": "튕김 전이 범위",
+      "ja": "跳弾範囲"
     },
     "Grappling Hook Speed": {
-      "ko": "Grappling Hook 속도",
-      "ja": "GrapplingHook速度"
-    },
-    "Grappling Hook Length": {
-      "ko": "Grappling Hook Length",
-      "ja": "GrapplingHookLength"
+      "ko": "갈고리 발사 속도",
+      "ja": "グラップリングフック速度"
     },
     "Phased Duration": {
       "ko": "Phased 지속 시간",
-      "ja": "Phased持続時間"
+      "ja": "Phased 持続時間"
     },
     "ANKH Health": {
       "ko": "ANKH 체력",
-      "ja": "ANKH体力"
+      "ja": "ANKH 体力"
     },
     "Time for Trap to Turn Invisible": {
-      "ko": "Time for 함정 to Turn Invisible",
-      "ja": "TimeforトラップtoTurnInvisible"
+      "ko": "함정 은신 전환 시간",
+      "ja": "トラップ透明化までの時間"
     },
     "Talons of Khonshu Range": {
-      "ko": "Talons of Khonshu 사거리 / 범위",
-      "ja": "TalonsofKhonshu射程 / 範囲"
-    },
-    "Talons of Khonshu Generated": {
-      "ko": "Talons of Khonshu Generated",
-      "ja": "TalonsofKhonshuGenerated"
-    },
-    "Gained Elasticity": {
-      "ko": "Gained Elasticity",
-      "ja": "GainedElasticity"
+      "ko": "콘슈의 발톱 범위",
+      "ja": "コンスの鉤爪範囲"
     },
     "Initial Projectile Range": {
-      "ko": "초기 투사체 사거리 / 범위",
-      "ja": "初期弾速射程 / 範囲"
+      "ko": "초기 투사체 사거리",
+      "ja": "初期弾射程"
     },
     "Secondary Release Maximum Distance": {
       "ko": "2차 Release 최대 거리",
-      "ja": "2次Release最大距離"
+      "ja": "2 次Release 最大距離"
     },
     "Secondary Projectile Damage": {
       "ko": "2차 투사체 데미지",
-      "ja": "2次弾速ダメージ"
+      "ja": "2 次弾速ダメージ"
     },
     "Single-Target Pull Range": {
-      "ko": "Single 대상 Pull 사거리 / 범위",
-      "ja": "Single対象Pull射程 / 範囲"
+      "ko": "단일 대상 끌어당기기 사거리",
+      "ja": "単体引き寄せ射程"
     },
     "Single-Target Pull Damage": {
-      "ko": "Single 대상 Pull 데미지",
-      "ja": "Single対象Pullダメージ"
+      "ko": "단일 대상 끌어당기기 데미지",
+      "ja": "単体引き寄せダメージ"
     },
     "Dual-Target Pull Damage": {
-      "ko": "Dual 대상 Pull 데미지",
-      "ja": "Dual対象Pullダメージ"
+      "ko": "2인 끌어당기기 데미지",
+      "ja": "2 体引き寄せダメージ"
     },
     "Minimum Leaps": {
       "ko": "최소 Leaps",
@@ -2713,20 +2541,20 @@
       "ja": "最大Leaps"
     },
     "Self Slow Rate": {
-      "ko": "자신 감속 속도/비율",
+      "ko": "자신 감속 비율",
       "ja": "自身鈍足率"
     },
     "Damage Absorbed - Damage Reflected Conversion Rate": {
-      "ko": "데미지 Absorbed 데미지 Reflected Conversion 속도/비율",
-      "ja": "ダメージAbsorbedダメージReflectedConversion率"
+      "ko": "흡수 피해 → 반사 피해 전환율",
+      "ja": "吸収ダメージ→反射ダメージ変換率"
     },
     "Reflected Projectile Speed": {
       "ko": "Reflected 투사체 속도",
-      "ja": "Reflected弾速速度"
+      "ja": "Reflected 弾速"
     },
     "Energy Consumed Per Second During Inflation State": {
       "ko": "에너지 Consumed 초당 During Inflation State",
-      "ja": "エネルギーConsumed秒間DuringInflationState"
+      "ja": "エネルギーConsumed 秒間During InflationState"
     },
     "Max Elasticity": {
       "ko": "최대 Elasticity",
@@ -2734,347 +2562,327 @@
     },
     "Inflated Duration": {
       "ko": "Inflated 지속 시간",
-      "ja": "Inflated持続時間"
+      "ja": "Inflated 持続時間"
     },
     "Active Inflation Cooldown": {
-      "ko": "Active Inflation 재사용 대기시간",
-      "ja": "ActiveInflationクールダウン"
-    },
-    "Inflation State Elasticity Decay": {
-      "ko": "Inflation State Elasticity Decay",
-      "ja": "InflationStateElasticityDecay"
+      "ko": "능동 팽창 재사용 대기시간",
+      "ja": "手動膨張クールダウン"
     },
     "Brawling Punch Damage": {
       "ko": "Brawling 주먹 데미지",
-      "ja": "Brawlingパンチダメージ"
+      "ja": "Brawling パンチダメージ"
     },
     "Time to Full Charge": {
-      "ko": "Time to Full 충전",
-      "ja": "TimetoFullチャージ"
+      "ko": "완전 충전 소요 시간",
+      "ja": "最大チャージ所要時間"
     },
     "Max Hold Time": {
-      "ko": "최대 Hold Time",
-      "ja": "最大HoldTime"
+      "ko": "최대 유지 시간",
+      "ja": "最大ホールド時間"
     },
     "Distended Hammer Cooldown": {
       "ko": "Distended Hammer 재사용 대기시간",
-      "ja": "DistendedHammerクールダウン"
+      "ja": "Distended Hammer クールダウン"
     },
     "Distended Hammer Damage": {
       "ko": "Distended Hammer 데미지",
-      "ja": "DistendedHammerダメージ"
+      "ja": "Distended Hammer ダメージ"
     },
     "Aquatic Dominion Charge Per Hit": {
-      "ko": "Aquatic Dominion 충전 타격당",
-      "ja": "AquaticDominionチャージ命中ごと"
+      "ko": "타격당 Aquatic Dominion 충전량",
+      "ja": "命中ごとのAquatic Dominion チャージ量"
     },
     "Enhanced Monstro Spawn Projectile Damage": {
-      "ko": "Enhanced Monstro Spawn 투사체 데미지",
-      "ja": "EnhancedMonstroSpawn弾速ダメージ"
+      "ko": "강화 몬스트로 투사체 데미지",
+      "ja": "強化モンストロ弾ダメージ"
     },
     "Enhanced Monstro Spawn Projectile Speed": {
-      "ko": "Enhanced Monstro Spawn 투사체 속도",
-      "ja": "EnhancedMonstroSpawn弾速速度"
+      "ko": "강화 몬스트로 투사체 속도",
+      "ja": "強化モンストロ弾速"
     },
     "Hit Delay": {
-      "ko": "Hit 지연 시간",
-      "ja": "Hit遅延時間"
+      "ko": "타격 판정 지연",
+      "ja": "命中判定遅延"
     },
     "Immobilize Duration": {
       "ko": "속박 지속 시간",
       "ja": "移動不能持続時間"
     },
     "Vertical Moving Distance": {
-      "ko": "Vertical Moving 거리",
-      "ja": "VerticalMoving距離"
+      "ko": "수직 이동 거리",
+      "ja": "垂直移動距離"
     },
     "Projectile Speed (Summon Monstro Spawn)": {
-      "ko": "투사체 속도 소환수 Monstro Spawn",
-      "ja": "弾速速度召喚物MonstroSpawn"
+      "ko": "투사체 속도 (몬스트로 소환체)",
+      "ja": "弾速（モンストロ召喚）"
     },
     "Monstro Spawn Maximum Duration": {
       "ko": "Monstro Spawn 최대 지속 시간",
-      "ja": "MonstroSpawn最大持続時間"
+      "ja": "Monstro Spawn 最大持続時間"
     },
     "Monstro Spawn Health": {
       "ko": "Monstro Spawn 체력",
-      "ja": "MonstroSpawn体力"
+      "ja": "Monstro Spawn 体力"
     },
     "Monstro Spawn Attack Range": {
-      "ko": "Monstro Spawn Attack 사거리 / 범위",
-      "ja": "MonstroSpawnAttack射程 / 範囲"
+      "ko": "몬스트로 공격 사거리",
+      "ja": "モンストロ攻撃射程"
     },
     "Monstro Spawn Maximum Quantity": {
-      "ko": "Monstro Spawn 최대 Quantity",
-      "ja": "MonstroSpawn最大Quantity"
+      "ko": "몬스트로 최대 소환 수",
+      "ja": "モンストロ最大召喚数"
     },
     "Default Charging Speed": {
-      "ko": "Default Charging 속도",
-      "ja": "DefaultCharging速度"
-    },
-    "Default": {
-      "ko": "Default",
-      "ja": "Default"
+      "ko": "기본 충전 속도",
+      "ja": "基本チャージ速度"
     },
     "Monstro Spawn Fire Rate": {
       "ko": "Monstro Spawn 연사 속도",
-      "ja": "MonstroSpawn発射速度"
+      "ja": "Monstro Spawn 発射速度"
     },
     "Monstro Spawn Damage": {
       "ko": "Monstro Spawn 데미지",
-      "ja": "MonstroSpawnダメージ"
+      "ja": "Monstro Spawn ダメージ"
     },
     "Monstro Spawn Damage Falloff": {
       "ko": "Monstro Spawn 거리별 데미지 감쇠",
-      "ja": "MonstroSpawnダメージ減衰"
-    },
-    "Enhanced": {
-      "ko": "Enhanced",
-      "ja": "Enhanced"
+      "ja": "Monstro Spawn ダメージ減衰"
     },
     "Inner Circle Spell Field Range": {
-      "ko": "Inner Circle Spell 영역 사거리 / 범위",
-      "ja": "InnerCircleSpellフィールド射程 / 範囲"
+      "ko": "Inner Circle 장판 사거리 / 범위",
+      "ja": "Inner CircleSpell フィールド射程 / 範囲"
     },
     "Outer Circle Spell Field Range": {
-      "ko": "Outer Circle Spell 영역 사거리 / 범위",
-      "ja": "OuterCircleSpellフィールド射程 / 範囲"
+      "ko": "Outer Circle 장판 사거리 / 범위",
+      "ja": "Outer CircleSpell フィールド射程 / 範囲"
     },
     "Inner Circle Damage": {
       "ko": "Inner Circle 데미지",
-      "ja": "InnerCircleダメージ"
+      "ja": "Inner Circle ダメージ"
     },
     "Outer Circle Damage": {
       "ko": "Outer Circle 데미지",
-      "ja": "OuterCircleダメージ"
+      "ja": "Outer Circle ダメージ"
     },
     "Reduced Healing Rate": {
-      "ko": "Reduced 치유량 속도/비율",
-      "ja": "Reduced回復量率"
+      "ko": "Reduced 치유량 비율",
+      "ja": "Reduced 回復量率"
     },
     "Outer Circle Generate Delay": {
       "ko": "Outer Circle Generate 지연 시간",
-      "ja": "OuterCircleGenerate遅延時間"
-    },
-    "Undead Monstro": {
-      "ko": "Undead Monstro",
-      "ja": "UndeadMonstro"
+      "ja": "Outer CircleGenerate 遅延時間"
     },
     "Undead Monstro Rage Damage": {
       "ko": "Undead Monstro Rage 데미지",
-      "ja": "UndeadMonstroRageダメージ"
+      "ja": "Undead MonstroRage ダメージ"
     },
     "Undead Monstro Rage Fire Rate": {
       "ko": "Undead Monstro Rage 연사 속도",
-      "ja": "UndeadMonstroRage発射速度"
+      "ja": "Undead MonstroRage 発射速度"
     },
     "Undead Monstro Maximum Amount": {
       "ko": "Undead Monstro 최대 Amount",
-      "ja": "UndeadMonstro最大Amount"
+      "ja": "Undead Monstro 最大Amount"
     },
     "Rage Duration": {
       "ko": "Rage 지속 시간",
-      "ja": "Rage持続時間"
+      "ja": "Rage 持続時間"
     },
     "Gamma Monstro Attack Interval": {
       "ko": "Gamma Monstro 공격 간격",
-      "ja": "GammaMonstro攻撃間隔"
+      "ja": "Gamma Monstro 攻撃間隔"
     },
     "Gamma Monstro Attack Damage": {
-      "ko": "Gamma Monstro Attack 데미지",
-      "ja": "GammaMonstroAttackダメージ"
+      "ko": "감마 몬스트로 공격 데미지",
+      "ja": "ガンマ・モンストロ攻撃ダメージ"
     },
     "Gamma Monstro Damage Growth Rate over Time": {
-      "ko": "Gamma Monstro 데미지 Growth 속도/비율 over Time",
-      "ja": "GammaMonstroダメージGrowth率overTime"
+      "ko": "감마 몬스트로 시간당 데미지 증가율",
+      "ja": "ガンマ・モンストロ時間経過ダメージ上昇率"
     },
     "Gamma Monstro Health": {
       "ko": "Gamma Monstro 체력",
-      "ja": "GammaMonstro体力"
+      "ja": "Gamma Monstro 体力"
     },
     "Gamma Monstro Frenzy Attack Damage": {
-      "ko": "Gamma Monstro Frenzy Attack 데미지",
-      "ja": "GammaMonstroFrenzyAttackダメージ"
+      "ko": "감마 몬스트로 광란 공격 데미지",
+      "ja": "ガンマ・モンストロ狂乱攻撃ダメージ"
     },
     "Gamma Monstro Frenzy Attack Interval": {
-      "ko": "Gamma Monstro Frenzy 공격 간격",
-      "ja": "GammaMonstroFrenzy攻撃間隔"
+      "ko": "감마 몬스트로 광란 공격 간격",
+      "ja": "ガンマ・モンストロ狂乱攻撃間隔"
     },
     "Cooldown Recovery Speed Boost": {
-      "ko": "재사용 대기시간 Recovery 속도 증가",
-      "ja": "クールダウンRecovery速度上昇"
+      "ko": "쿨다운 회복 속도 가속",
+      "ja": "クールダウン回復速度上昇"
     },
     "Gamma Octopus Damage Boost Rate": {
-      "ko": "Gamma Octopus 데미지 증가 속도/비율",
-      "ja": "GammaOctopusダメージ上昇率"
+      "ko": "감마 문어 데미지 증가율",
+      "ja": "ガンマ・オクトパス与ダメージ上昇率"
     },
     "Frost Tide Damage": {
       "ko": "Frost Tide 데미지",
-      "ja": "FrostTideダメージ"
+      "ja": "Frost Tide ダメージ"
     },
     "Frost Tide Movement Speed": {
       "ko": "Frost Tide 이동 속도",
-      "ja": "FrostTide移動速度"
+      "ja": "Frost Tide 移動速度"
     },
     "Frost Tide Max Travel Time": {
-      "ko": "Frost Tide 최대 Travel Time",
-      "ja": "FrostTide最大TravelTime"
+      "ko": "서리 파동 최대 이동 시간",
+      "ja": "フロストタイド最大移動時間"
     },
     "Frost Tide Range": {
-      "ko": "Frost Tide 사거리 / 범위",
-      "ja": "FrostTide射程 / 範囲"
+      "ko": "서리 파동 범위",
+      "ja": "フロストタイド範囲"
     },
     "Frost Wave Damage at Max Distance": {
-      "ko": "Frost Wave 데미지 at 최대 거리",
-      "ja": "FrostWaveダメージat最大距離"
+      "ko": "최대 거리 서리 파동 데미지",
+      "ja": "最大距離での氷波ダメージ"
     },
     "SLOW DURATION": {
       "ko": "감속 지속 시간",
       "ja": "鈍足持続時間"
     },
     "Web-Tracer DURATION": {
-      "ko": "Web Tracer 지속 시간",
-      "ja": "WebTracer持続時間"
+      "ko": "웹 트레이서 지속 시간",
+      "ja": "ウェブ・トレーサー持続時間"
     },
     "Sweep Range": {
-      "ko": "Sweep 사거리 / 범위",
-      "ja": "Sweep射程 / 範囲"
+      "ko": "휩쓸기 범위",
+      "ja": "薙ぎ払い範囲"
     },
     "Spider-Drone Generation Interval": {
-      "ko": "Spider Drone Generation 간격",
-      "ja": "SpiderDroneGeneration間隔"
+      "ko": "스파이더 드론 생성 간격",
+      "ja": "スパイダードローン生成間隔"
     },
     "Arachno-Mine Attack Interval": {
-      "ko": "Arachno 지뢰 공격 간격",
-      "ja": "Arachnoマイン攻撃間隔"
+      "ko": "거미 지뢰 공격 간격",
+      "ja": "スパイダーマイン攻撃間隔"
     },
     "Maximum Arachno-Mine Quantity": {
-      "ko": "최대 Arachno 지뢰 Quantity",
-      "ja": "最大ArachnoマインQuantity"
+      "ko": "거미 지뢰 최대 설치 수",
+      "ja": "スパイダーマイン最大設置数"
     },
     "Spider-Nest Health": {
       "ko": "Spider Nest 체력",
-      "ja": "SpiderNest体力"
+      "ja": "SpiderNest 体力"
     },
     "Pull-back Distance": {
-      "ko": "Pull back 거리",
-      "ja": "Pullback距離"
+      "ko": "끌어오는 거리",
+      "ja": "引き戻し距離"
     },
     "Maximum Cyber-Bond Distance": {
-      "ko": "최대 Cyber Bond 거리",
-      "ja": "最大CyberBond距離"
+      "ko": "사이버 결속 최대 유지 거리",
+      "ja": "サイバーボンド最大維持距離"
     },
     "Minimum Dash Distance": {
-      "ko": "최소 Dash 거리",
-      "ja": "最小Dash距離"
+      "ko": "최소 돌진 거리",
+      "ja": "最小ダッシュ距離"
     },
     "Spider-Drone Generate Interval": {
-      "ko": "Spider Drone Generate 간격",
-      "ja": "SpiderDroneGenerate間隔"
+      "ko": "스파이더 드론 생성 간격",
+      "ja": "スパイダードローン生成間隔"
     },
     "Spider-Drone Generate Quantity": {
       "ko": "Spider Drone Generate Quantity",
-      "ja": "SpiderDroneGenerateQuantity"
+      "ja": "SpiderDrone GenerateQuantity"
     },
     "Spider-Drone Explosion Range": {
       "ko": "Spider Drone 폭발 사거리 / 범위",
-      "ja": "SpiderDrone爆発射程 / 範囲"
+      "ja": "SpiderDrone 爆発射程 / 範囲"
     },
     "Spider-Drone Damage": {
-      "ko": "Spider Drone 데미지",
-      "ja": "SpiderDroneダメージ"
+      "ko": "스파이더 드론 데미지",
+      "ja": "スパイダードローンダメージ"
     },
     "Armor Pack Generate Interval": {
-      "ko": "방어력 Pack Generate 간격",
-      "ja": "アーマーPackGenerate間隔"
+      "ko": "아머 팩 생성 간격",
+      "ja": "アーマーパック生成間隔"
     },
     "Bonus Health From Armor Pack": {
-      "ko": "추가 체력 From 방어력 Pack",
-      "ja": "追加体力FromアーマーPack"
+      "ko": "아머 팩 추가 체력 부여량",
+      "ja": "アーマーパック追加HP 付与量"
     },
     "Spider-Drone self healing": {
-      "ko": "Spider Drone 자신 치유량",
-      "ja": "SpiderDrone自身回復量"
+      "ko": "스파이더 드론 자가 치유",
+      "ja": "スパイダードローン自己回復"
     },
     "Explosion Direct Damage": {
       "ko": "폭발 Direct 데미지",
-      "ja": "爆発Directダメージ"
+      "ja": "爆発Direct ダメージ"
     },
     "Explosion Range Damage": {
-      "ko": "폭발 사거리 / 범위 데미지",
-      "ja": "爆発射程 / 範囲ダメージ"
+      "ko": "폭발 범위 데미지",
+      "ja": "爆発範囲ダメージ"
     },
     "Self Healing Amount after the Explosion": {
       "ko": "자신 치유량 after the 폭발",
-      "ja": "自身回復量afterthe爆発"
+      "ja": "自身回復量afterthe 爆発"
     },
     "Target Explosion Damage": {
       "ko": "대상 폭발 데미지",
       "ja": "対象爆発ダメージ"
     },
     "Target Explosion Range": {
-      "ko": "대상 폭발 사거리 / 범위",
-      "ja": "対象爆発射程 / 範囲"
+      "ko": "대상 폭발 범위",
+      "ja": "対象爆発範囲"
     },
     "Subsequent Explosion Damage": {
       "ko": "Subsequent 폭발 데미지",
-      "ja": "Subsequent爆発ダメージ"
+      "ja": "Subsequent 爆発ダメージ"
     },
     "Subsequent Explosion Range": {
-      "ko": "Subsequent 폭발 사거리 / 범위",
-      "ja": "Subsequent爆発射程 / 範囲"
+      "ko": "후속 폭발 범위",
+      "ja": "後続爆発範囲"
     },
     "Shockwave Damage": {
       "ko": "Shockwave 데미지",
-      "ja": "Shockwaveダメージ"
+      "ja": "Shockwave ダメージ"
     },
     "Self Healing Amount": {
       "ko": "자신 치유량",
       "ja": "自身回復量"
     },
     "Detonation Damage": {
-      "ko": "Detonation 데미지",
-      "ja": "Detonationダメージ"
+      "ko": "폭발 데미지",
+      "ja": "起爆ダメージ"
     },
     "Detonation Range": {
-      "ko": "Detonation 사거리 / 범위",
-      "ja": "Detonation射程 / 範囲"
+      "ko": "폭발 범위",
+      "ja": "起爆範囲"
     },
     "2nd & 3rd Spell Field Damage": {
-      "ko": "2 nd 3 rd Spell 영역 데미지",
-      "ja": "2nd3rdSpellフィールドダメージ"
+      "ko": "2·3차 장판 데미지",
+      "ja": "2 ・3 段目フィールドダメージ"
     },
     "Healing Reduction Amount": {
-      "ko": "치유량 감소 Amount",
-      "ja": "回復量短縮Amount"
+      "ko": "치유 감소량",
+      "ja": "被回復減少率"
     },
     "Ember Stacks Added per Hit": {
-      "ko": "Ember Stacks Added 타격당",
-      "ja": "EmberStacksAdded命中ごと"
+      "ko": "적중당 불씨 스택 부여",
+      "ja": "命中ごとの火種スタック付与"
     },
     "Bounce Damage": {
       "ko": "튕김 데미지",
       "ja": "バウンドダメージ"
     },
     "Bounce Spell Field Detection Range": {
-      "ko": "튕김 Spell 영역 Detection 사거리 / 범위",
-      "ja": "バウンドSpellフィールドDetection射程 / 範囲"
+      "ko": "튕김 장판 탐색 범위",
+      "ja": "跳弾フィールド索敵範囲"
     },
     "Self Health Recovery": {
-      "ko": "자신 체력 Recovery",
-      "ja": "自身体力Recovery"
+      "ko": "자가 체력 회복량",
+      "ja": "自己HP 回復量"
     },
     "Spark Stacks Added per Hit": {
-      "ko": "Spark Stacks Added 타격당",
-      "ja": "SparkStacksAdded命中ごと"
+      "ko": "적중당 불꽃 스택 부여",
+      "ja": "命中ごとのスパークスタック付与"
     },
     "MAXIMUM NUMBER OF BOUNCES": {
-      "ko": "최대 수 OF BOUNCES",
-      "ja": "最大数OFBOUNCES"
-    },
-    "Spark Stacks Added on Hit": {
-      "ko": "Spark Stacks Added on Hit",
-      "ja": "SparkStacksAddedonHit"
+      "ko": "최대 튕김 횟수",
+      "ja": "最大跳弾回数"
     },
     "SELF HEALING AMOUNT": {
       "ko": "자신 치유량",
@@ -3085,60 +2893,36 @@
       "ja": "クリティカルダメージ"
     },
     "Cooldown Reduction On Hit": {
-      "ko": "재사용 대기시간 감소 On Hit",
-      "ja": "クールダウン短縮OnHit"
-    },
-    "Recall Window": {
-      "ko": "Recall Window",
-      "ja": "RecallWindow"
-    },
-    "Firing Phase": {
-      "ko": "Firing Phase",
-      "ja": "FiringPhase"
-    },
-    "Recall Phase": {
-      "ko": "Recall Phase",
-      "ja": "RecallPhase"
-    },
-    "Light Boomerang Dart": {
-      "ko": "Light Boomerang Dart",
-      "ja": "LightBoomerangDart"
+      "ko": "적중 시 쿨다운 감소",
+      "ja": "命中時クールダウン短縮"
     },
     "Projectile Maximum Flight Duration": {
       "ko": "투사체 최대 Flight 지속 시간",
-      "ja": "弾速最大Flight持続時間"
+      "ja": "弾速最大Flight 持続時間"
     },
     "Self Healing Duration": {
       "ko": "자신 치유량 지속 시간",
       "ja": "自身回復量持続時間"
     },
-    "Dark Darts": {
-      "ko": "Dark Darts",
-      "ja": "DarkDarts"
-    },
     "Phased State Duration": {
       "ko": "Phased State 지속 시간",
-      "ja": "PhasedState持続時間"
-    },
-    "FLEX UP": {
-      "ko": "FLEX UP",
-      "ja": "FLEXUP"
+      "ja": "Phased State 持続時間"
     },
     "Illusion Damage": {
       "ko": "Illusion 데미지",
-      "ja": "Illusionダメージ"
+      "ja": "Illusion ダメージ"
     },
     "MAGNETIC PROJECTION MAX DURATION": {
       "ko": "MAGNETIC PROJECTION 최대 지속 시간",
-      "ja": "MAGNETICPROJECTION最大持続時間"
+      "ja": "MAGNETIC PROJECTION 最大持続時間"
     },
     "Field Duration": {
       "ko": "영역 지속 시간",
       "ja": "フィールド持続時間"
     },
     "Psionic Crossbow base damage per shot": {
-      "ko": "Psionic Crossbow 기본 데미지 per 사격",
-      "ja": "PsionicCrossbow基本ダメージper射撃"
+      "ko": "사이오닉 석궁 발당 기본 데미지",
+      "ja": "サイオニッククロスボウ1 発の基本ダメージ"
     },
     "Healing Amount (Ally)": {
       "ko": "치유량 아군",
@@ -3146,35 +2930,27 @@
     },
     "Projectile Speed Reduction": {
       "ko": "투사체 속도 감소",
-      "ja": "弾速速度短縮"
-    },
-    "Dash Direction": {
-      "ko": "Dash Direction",
-      "ja": "DashDirection"
+      "ja": "弾速短縮"
     },
     "Maximum Revive Distance": {
       "ko": "최대 Revive 거리",
-      "ja": "最大Revive距離"
-    },
-    "Vitality Acorn Amount": {
-      "ko": "Vitality Acorn Amount",
-      "ja": "VitalityAcornAmount"
+      "ja": "最大Revive 距離"
     },
     "Vitality Acorn Healing Amount": {
-      "ko": "Vitality Acorn 치유량",
-      "ja": "VitalityAcorn回復量"
+      "ko": "생명력 도토리 치유량",
+      "ja": "活力どんぐり回復量"
     },
     "Ability Cooldown Reduction": {
-      "ko": "Ability 재사용 대기시간 감소",
-      "ja": "Abilityクールダウン短縮"
+      "ko": "스킬 재사용 대기시간 감소",
+      "ja": "スキルクールダウン短縮"
     },
     "Spore Fire Rate": {
       "ko": "Spore 연사 속도",
-      "ja": "Spore発射速度"
+      "ja": "Spore 発射速度"
     },
     "Spore Damage": {
       "ko": "Spore 데미지",
-      "ja": "Sporeダメージ"
+      "ja": "Spore ダメージ"
     },
     "Duration:": {
       "ko": "지속 시간",
@@ -3185,180 +2961,176 @@
       "ja": "基本ダメージ"
     },
     "Backlash Energy-Extra Damage Conversion Ratio": {
-      "ko": "Backlash 에너지 Extra 데미지 Conversion Ratio",
-      "ja": "BacklashエネルギーExtraダメージConversionRatio"
+      "ko": "반동 에너지 → 추가 데미지 전환 비율",
+      "ja": "反動エネルギー→追加ダメージ変換率"
     },
     "Energy Consumption": {
       "ko": "에너지 소모량",
       "ja": "エネルギー消費量"
     },
     "Reduced Damage-Backlash Energy Conversion Ratio": {
-      "ko": "Reduced 데미지 Backlash 에너지 Conversion Ratio",
-      "ja": "ReducedダメージBacklashエネルギーConversionRatio"
+      "ko": "감소 피해 → 반동 에너지 전환 비율",
+      "ja": "軽減ダメージ→反動エネルギー変換率"
     },
     "Maximum Backlash Energy": {
       "ko": "최대 Backlash 에너지",
-      "ja": "最大Backlashエネルギー"
+      "ja": "最大Backlash エネルギー"
     },
     "Maximum Backlash Energy Falloff": {
       "ko": "최대 Backlash 에너지 감쇠",
-      "ja": "最大Backlashエネルギー減衰"
+      "ja": "最大Backlash エネルギー減衰"
     },
     "Ultimate Ability Energy Absorption Speed": {
-      "ko": "Ultimate Ability 에너지 Absorption 속도",
-      "ja": "UltimateAbilityエネルギーAbsorption速度"
+      "ko": "궁극기 에너지 흡수 속도",
+      "ja": "アルティメットエネルギー吸収速度"
     },
     "Maximum Stats Stolen from Vanguards": {
-      "ko": "최대 Stats Stolen from Vanguards",
-      "ja": "最大StatsStolenfromVanguards"
+      "ko": "뱅가드 대상 최대 능력치 탈취량",
+      "ja": "ヴァンガードからの最大ステータス奪取量"
     },
     "Maximum Stats Stolen from Duelists": {
-      "ko": "최대 Stats Stolen from Duelists",
-      "ja": "最大StatsStolenfromDuelists"
+      "ko": "듀얼리스트 대상 최대 능력치 탈취량",
+      "ja": "デュエリストからの最大ステータス奪取量"
     },
     "Maximum Stats Stolen from Strategists": {
-      "ko": "최대 Stats Stolen from Strategists",
-      "ja": "最大StatsStolenfromStrategists"
+      "ko": "전략가 대상 최대 능력치 탈취량",
+      "ja": "ストラテジストからの最大ステータス奪取量"
     },
     "Spreading Spell Field Range": {
-      "ko": "Spreading Spell 영역 사거리 / 범위",
-      "ja": "SpreadingSpellフィールド射程 / 範囲"
+      "ko": "확산 장판 범위",
+      "ja": "拡散フィールド範囲"
     },
     "Spreading Spell Field Damage": {
-      "ko": "Spreading Spell 영역 데미지",
-      "ja": "SpreadingSpellフィールドダメージ"
+      "ko": "확산 장판 데미지",
+      "ja": "拡散フィールドダメージ"
     },
     "Retrieve Spell Field Damage": {
-      "ko": "Retrieve Spell 영역 데미지",
-      "ja": "RetrieveSpellフィールドダメージ"
+      "ko": "회수 장판 데미지",
+      "ja": "回収フィールドダメージ"
     },
     "Knock Down Spell Field Damage": {
-      "ko": "Knock Down Spell 영역 데미지",
-      "ja": "KnockDownSpellフィールドダメージ"
+      "ko": "넘어뜨림 장판 데미지",
+      "ja": "ノックダウンフィールドダメージ"
     },
     "Knock Down Spell Field Range": {
-      "ko": "Knock Down Spell 영역 사거리 / 범위",
-      "ja": "KnockDownSpellフィールド射程 / 範囲"
+      "ko": "넘어뜨림 장판 범위",
+      "ja": "ノックダウンフィールド範囲"
     },
     "Projectile Maximum Flying Distance": {
       "ko": "투사체 최대 Flying 거리",
-      "ja": "弾速最大Flying距離"
+      "ja": "弾速最大Flying 距離"
     },
     "Absorption Damage Over Time": {
-      "ko": "Absorption 데미지 Over Time",
-      "ja": "AbsorptionダメージOverTime"
+      "ko": "흡수 지속 데미지",
+      "ja": "吸収継続ダメージ"
     },
     "Absorption Healing Over Time": {
-      "ko": "Absorption 치유량 Over Time",
-      "ja": "Absorption回復量OverTime"
+      "ko": "흡수 지속 치유량",
+      "ja": "吸収継続回復量"
     },
     "Absorbed Ability Duration": {
-      "ko": "Absorbed Ability 지속 시간",
-      "ja": "AbsorbedAbility持続時間"
+      "ko": "흡수 스킬 지속 시간",
+      "ja": "吸収アビリティ持続時間"
     },
     "Boost from Vanguard Ability Absorption": {
-      "ko": "증가 from Vanguard Ability Absorption",
-      "ja": "上昇fromVanguardAbilityAbsorption"
+      "ko": "뱅가드 스킬 흡수 시 강화 효과",
+      "ja": "ヴァンガード能力吸収時の強化効果"
     },
     "Debuff to the Vanguard Absorption Target": {
-      "ko": "Debuff to the Vanguard Absorption 대상",
-      "ja": "DebufftotheVanguardAbsorption対象"
+      "ko": "뱅가드 흡수 대상 디버프",
+      "ja": "ヴァンガード吸収対象へのデバフ"
     },
     "Boost from Duelist Ability Absorption": {
-      "ko": "증가 from Duelist Ability Absorption",
-      "ja": "上昇fromDuelistAbilityAbsorption"
+      "ko": "듀얼리스트 스킬 흡수 시 강화 효과",
+      "ja": "デュエリスト能力吸収時の強化効果"
     },
     "Debuff to the Duelist Absorption Target": {
-      "ko": "Debuff to the Duelist Absorption 대상",
-      "ja": "DebufftotheDuelistAbsorption対象"
+      "ko": "듀얼리스트 흡수 대상 디버프",
+      "ja": "デュエリスト吸収対象へのデバフ"
     },
     "Boost from Strategist Ability Absorption": {
-      "ko": "증가 from Strategist Ability Absorption",
-      "ja": "上昇fromStrategistAbilityAbsorption"
+      "ko": "전략가 스킬 흡수 시 강화 효과",
+      "ja": "ストラテジスト能力吸収時の強化効果"
     },
     "Debuff to the Strategist Absorption Target": {
-      "ko": "Debuff to the Strategist Absorption 대상",
-      "ja": "DebufftotheStrategistAbsorption対象"
-    },
-    "Absorption Process": {
-      "ko": "Absorption Process",
-      "ja": "AbsorptionProcess"
+      "ko": "전략가 흡수 대상 디버프",
+      "ja": "ストラテジスト吸収対象へのデバフ"
     },
     "Wall Collision Bonus Damage": {
-      "ko": "Wall Collision 추가 데미지",
-      "ja": "WallCollision追加ダメージ"
+      "ko": "벽면 충돌 추가 데미지",
+      "ja": "壁激突時の追加ダメージ"
     },
     "Chthonian Burst Recharge Per Hit": {
-      "ko": "Chthonian Burst Recharge 타격당",
-      "ja": "ChthonianBurstRecharge命中ごと"
+      "ko": "적중당 Chthonian Burst 충전량",
+      "ja": "命中ごとのChthonian Burst チャージ量"
     },
     "Recharge Speed": {
       "ko": "Recharge 속도",
-      "ja": "Recharge速度"
+      "ja": "Recharge 速度"
     },
     "Spell Field Generation Delay": {
-      "ko": "Spell 영역 Generation 지연 시간",
-      "ja": "SpellフィールドGeneration遅延時間"
+      "ko": "장판 Generation 지연 시간",
+      "ja": "Spell フィールドGeneration 遅延時間"
     },
     "Detection Interval": {
       "ko": "Detection 간격",
-      "ja": "Detection間隔"
+      "ja": "Detection 間隔"
     },
     "Stun Duration Per Detection": {
-      "ko": "기절 지속 시간 Per Detection",
-      "ja": "スタン持続時間PerDetection"
+      "ko": "감지당 기절 지속 시간",
+      "ja": "探知ごとのスタン持続時間"
     },
     "Projectile Firing Interval": {
       "ko": "투사체 Firing 간격",
-      "ja": "弾速Firing間隔"
+      "ja": "弾速Firing 間隔"
     },
     "Ability Energy": {
-      "ko": "Ability 에너지",
-      "ja": "Abilityエネルギー"
+      "ko": "스킬 에너지",
+      "ja": "スキルエネルギー"
     },
     "Natural Recovery per Second": {
-      "ko": "Natural Recovery 초당",
-      "ja": "NaturalRecovery秒間"
+      "ko": "초당 자연 회복량",
+      "ja": "毎秒自然回復量"
     },
     "Natural Decay per Second": {
-      "ko": "Natural Decay 초당",
-      "ja": "NaturalDecay秒間"
+      "ko": "초당 자연 감소량",
+      "ja": "毎秒自然減衰量"
     },
     "Energy Required to Activate": {
-      "ko": "에너지 Required to Activate",
-      "ja": "エネルギーRequiredtoActivate"
+      "ko": "발동 필요 에너지",
+      "ja": "発動必要エネルギー"
     },
     "Charge per Enemy Detected by Magic Mastery": {
-      "ko": "충전 per 적 Detected by Magic Mastery",
-      "ja": "チャージper敵DetectedbyMagicMastery"
+      "ko": "Magic Mastery 감지 적 1명당 충전량",
+      "ja": "Magic Mastery 感知敵1 人ごとのチャージ量"
     },
     "Punch": {
-      "ko": "주먹",
-      "ja": "パンチ"
+      "ko": "주먹 (Punch)",
+      "ja": "パンチ (Punch)"
     },
     "Kick": {
-      "ko": "발차기",
-      "ja": "キック"
+      "ko": "발차기 (Kick)",
+      "ja": "キック (Kick)"
     },
     "Spider-Tracer Duration": {
       "ko": "Spider Tracer 지속 시간",
-      "ja": "SpiderTracer持続時間"
+      "ja": "SpiderTracer 持続時間"
     },
     "Spider-Tracer Damage": {
       "ko": "Spider Tracer 데미지",
-      "ja": "SpiderTracerダメージ"
+      "ja": "SpiderTracer ダメージ"
     },
     "Hits Required to Stun": {
-      "ko": "Hits Required to 기절",
-      "ja": "HitsRequiredtoスタン"
+      "ko": "기절 발동 필요 타수",
+      "ja": "スタン発動必要ヒット数"
     },
     "Maximum Webbing Length": {
-      "ko": "최대 Webbing Length",
-      "ja": "最大WebbingLength"
+      "ko": "거미줄 최대 길이",
+      "ja": "ウェブ最大長"
     },
     "Kicking Distance": {
       "ko": "Kicking 거리",
-      "ja": "Kicking距離"
+      "ja": "Kicking 距離"
     },
     "Kick Damage": {
       "ko": "발차기 데미지",
@@ -3366,135 +3138,115 @@
     },
     "Burn-Tracer Duration": {
       "ko": "화상 Tracer 지속 시간",
-      "ja": "火傷Tracer持続時間"
+      "ja": "火傷Tracer 持続時間"
     },
     "Burn-Tracer DoT Duration": {
       "ko": "화상 Tracer Do T 지속 시간",
-      "ja": "火傷TracerDoT持続時間"
+      "ja": "火傷Tracer DoT 持続時間"
     },
     "Burn-Tracer DoT Damage": {
       "ko": "화상 Tracer Do T 데미지",
-      "ja": "火傷TracerDoTダメージ"
+      "ja": "火傷Tracer DoT ダメージ"
     },
     "Backflip Distance": {
       "ko": "Backflip 거리",
-      "ja": "Backflip距離"
+      "ja": "Backflip 距離"
     },
     "Countdown Duration": {
       "ko": "Countdown 지속 시간",
-      "ja": "Countdown持続時間"
+      "ja": "Countdown 持続時間"
     },
     "Sprinting Speed": {
       "ko": "Sprinting 속도",
-      "ja": "Sprinting速度"
-    },
-    "Disappearance Time To Trigger Detection": {
-      "ko": "Disappearance Time To Trigger Detection",
-      "ja": "DisappearanceTimeToTriggerDetection"
+      "ja": "Sprinting 速度"
     },
     "Damage Reduction Rate": {
-      "ko": "피해 감소 속도/비율",
+      "ko": "피해 감소 비율",
       "ja": "被ダメージ軽減率"
     },
     "Sticky Spider-Bomb Explosion Damage": {
-      "ko": "Sticky Spider Bomb 폭발 데미지",
-      "ja": "StickySpiderBomb爆発ダメージ"
+      "ko": "접착 스파이더 폭탄 폭발 데미지",
+      "ja": "粘着スパイダーボム爆発ダメージ"
     },
     "Explosion Countdown": {
       "ko": "폭발 Countdown",
       "ja": "爆発Countdown"
     },
     "Bonus Health from Detonating Mark": {
-      "ko": "추가 체력 from Detonating Mark",
-      "ja": "追加体力fromDetonatingMark"
+      "ko": "표식 격발 시 추가 체력",
+      "ja": "マーク起爆時の追加HP"
     },
     "Squirrel Horde Health": {
       "ko": "Squirrel Horde 체력",
-      "ja": "SquirrelHorde体力"
+      "ja": "Squirrel Horde 体力"
     },
     "Squirrel Horde Movement Speed": {
       "ko": "Squirrel Horde 이동 속도",
-      "ja": "SquirrelHorde移動速度"
-    },
-    "Jump Height": {
-      "ko": "Jump Height",
-      "ja": "JumpHeight"
+      "ja": "Squirrel Horde 移動速度"
     },
     "Projectile Radius": {
       "ko": "투사체 반경",
       "ja": "弾速半径"
     },
     "Web Area Range": {
-      "ko": "Web 범위 사거리 / 범위",
-      "ja": "Web範囲射程 / 範囲"
+      "ko": "거미줄 구역 범위",
+      "ja": "ウェブエリア範囲"
     },
     "Web Area Damage": {
       "ko": "Web 범위 데미지",
-      "ja": "Web範囲ダメージ"
+      "ja": "Web 範囲ダメージ"
     },
     "Web Area Duration": {
       "ko": "Web 범위 지속 시간",
-      "ja": "Web範囲持続時間"
+      "ja": "Web 範囲持続時間"
     },
     "Invincibility Duration": {
-      "ko": "Invincibility 지속 시간",
-      "ja": "Invincibility持続時間"
+      "ko": "무적 지속 시간",
+      "ja": "無敵持続時間"
     },
     "Reload Time Reduction": {
-      "ko": "Reload Time 감소",
-      "ja": "ReloadTime短縮"
+      "ko": "재장전 시간 단축",
+      "ja": "リロード時間短縮"
     },
     "Maximum Locking Distance": {
-      "ko": "최대 Locking 거리",
-      "ja": "最大Locking距離"
+      "ko": "최대 록온 사거리",
+      "ja": "最大ロックオン距離"
     },
     "Teleport Delay": {
       "ko": "Teleport 지연 시간",
-      "ja": "Teleport遅延時間"
-    },
-    "Traps Generated": {
-      "ko": "Traps Generated",
-      "ja": "TrapsGenerated"
+      "ja": "Teleport 遅延時間"
     },
     "Trap Generation Delay": {
       "ko": "함정 Generation 지연 시간",
-      "ja": "トラップGeneration遅延時間"
+      "ja": "トラップGeneration 遅延時間"
     },
     "Trap Duration": {
       "ko": "함정 지속 시간",
       "ja": "トラップ持続時間"
     },
     "Cooldown to respawn": {
-      "ko": "재사용 대기시간 to respawn",
-      "ja": "クールダウンtorespawn"
+      "ko": "재소환 대기시간",
+      "ja": "再出現クールダウン"
     },
     "Cooldown to Replace After Canceling Telekinetic Beacon": {
-      "ko": "재사용 대기시간 to Replace After Canceling Telekinetic Beacon",
-      "ja": "クールダウンtoReplaceAfterCancelingTelekineticBeacon"
+      "ko": "비콘 회수 후 재배치 쿨다운",
+      "ja": "ビーコン解除後の再設置クールダウン"
     },
     "Ability CD Reduction per KO": {
-      "ko": "Ability 쿨다운 감소 per KO",
-      "ja": "AbilityCD短縮perKO"
+      "ko": "처치당 스킬 쿨다운 감소",
+      "ja": "KO ごとのスキルCD 短縮"
     },
     "Maximum Selection Duration": {
       "ko": "최대 Selection 지속 시간",
-      "ja": "最大Selection持続時間"
+      "ja": "最大Selection 持続時間"
     },
     "Tornado Duration": {
       "ko": "Tornado 지속 시간",
-      "ja": "Tornado持続時間"
-    },
-    "Tornado": {
-      "ko": "Tornado",
-      "ja": "Tornado"
+      "ja": "Tornado 持続時間"
     },
     "Movement Boost (Ally)": {
       "ko": "이동 속도 증가 아군",
       "ja": "移動速度上昇味方"
-    },
-    "Thunder": {
-      "ko": "Thunder",
-      "ja": "Thunder"
     },
     "Damage Boost (Self)": {
       "ko": "데미지 증가 자신",
@@ -3504,117 +3256,97 @@
       "ko": "데미지 증가 아군",
       "ja": "ダメージ上昇味方"
     },
-    "Enhanced Tornado": {
-      "ko": "Enhanced Tornado",
-      "ja": "EnhancedTornado"
-    },
     "Enemy Slow Rate": {
-      "ko": "적 감속 속도/비율",
+      "ko": "적 감속 비율",
       "ja": "敵鈍足率"
-    },
-    "Enhanced Thunder": {
-      "ko": "Enhanced Thunder",
-      "ja": "EnhancedThunder"
     },
     "Strike Frequency": {
       "ko": "타격 Frequency",
       "ja": "打撃Frequency"
     },
     "Bolt Rush Attack Range": {
-      "ko": "Bolt Rush Attack 사거리 / 범위",
-      "ja": "BoltRushAttack射程 / 範囲"
+      "ko": "Bolt Rush 공격 사거리",
+      "ja": "Bolt Rush 攻撃射程"
     },
     "Bolt Rush Bounce Range": {
-      "ko": "Bolt Rush 튕김 사거리 / 범위",
-      "ja": "BoltRushバウンド射程 / 範囲"
+      "ko": "Bolt Rush 연쇄 전이 범위",
+      "ja": "Bolt Rush 連鎖範囲"
     },
     "Bolt Rush Hit Damage": {
-      "ko": "Bolt Rush Hit 데미지",
-      "ja": "BoltRushHitダメージ"
+      "ko": "Bolt Rush 적중 데미지",
+      "ja": "Bolt Rush 命中ダメージ"
     },
     "Bolt Rush Bounce Damage": {
       "ko": "Bolt Rush 튕김 데미지",
-      "ja": "BoltRushバウンドダメージ"
+      "ja": "Bolt Rush バウンドダメージ"
     },
     "Healing Downpour Range": {
-      "ko": "치유량 Downpour 사거리 / 범위",
-      "ja": "回復量Downpour射程 / 範囲"
+      "ko": "치유 폭우 범위",
+      "ja": "回復の豪雨範囲"
     },
     "Self-healing Rate": {
-      "ko": "자신 치유량 속도/비율",
+      "ko": "자신 치유량 비율",
       "ja": "自身回復量率"
     },
     "Ally-healing Rate": {
-      "ko": "아군 치유량 속도/비율",
+      "ko": "아군 치유량 비율",
       "ja": "味方回復量率"
     },
     "Jeff-Nado Damage": {
-      "ko": "Jeff Nado 데미지",
-      "ja": "JeffNadoダメージ"
+      "ko": "제프네이도 데미지",
+      "ja": "ジェフネードダメージ"
     },
     "Jeff-Nado Ability Duration Increase": {
-      "ko": "Jeff Nado Ability 지속 시간 Increase",
-      "ja": "JeffNadoAbility持続時間Increase"
+      "ko": "제프네이도 지속 시간 증가",
+      "ja": "ジェフネード持続時間延長"
     },
     "Jeff-Nado Range": {
-      "ko": "Jeff Nado 사거리 / 범위",
-      "ja": "JeffNado射程 / 範囲"
+      "ko": "제프네이도 범위",
+      "ja": "ジェフネード範囲"
     },
     "Jeff-Nado Ally-healing Rate": {
-      "ko": "Jeff Nado 아군 치유량 속도/비율",
-      "ja": "JeffNado味方回復量率"
+      "ko": "제프네이도 아군 치유 속도",
+      "ja": "ジェフネード味方回復速度"
     },
     "Jeff-Nado Self-healing Rate": {
-      "ko": "Jeff Nado 자신 치유량 속도/비율",
-      "ja": "JeffNado自身回復量率"
-    },
-    "Time Required to Swallow": {
-      "ko": "Time Required to Swallow",
-      "ja": "TimeRequiredtoSwallow"
+      "ko": "제프네이도 자가 치유 속도",
+      "ja": "ジェフネード自己回復速度"
     },
     "Backward Jump Distance": {
-      "ko": "Backward Jump 거리",
-      "ja": "BackwardJump距離"
+      "ko": "후방 도약 거리",
+      "ja": "後方跳躍距離"
     },
     "Slow Rate While Idling": {
-      "ko": "감속 속도/비율 While Idling",
-      "ja": "鈍足率WhileIdling"
+      "ko": "대기 중 자가 감속 비율",
+      "ja": "待機中の移動速度低下率"
     },
     "Slow Rate While Shooting": {
-      "ko": "감속 속도/비율 While Shooting",
-      "ja": "鈍足率WhileShooting"
-    },
-    "Gatling Gun": {
-      "ko": "Gatling Gun",
-      "ja": "GatlingGun"
+      "ko": "사격 중 자가 감속 비율",
+      "ja": "射撃中の移動速度低下率"
     },
     "Shoulder-mounted Missiles": {
-      "ko": "Shoulder mounted Missiles",
-      "ja": "ShouldermountedMissiles"
+      "ko": "어깨 장착 미사일",
+      "ja": "肩部ミサイル"
     },
     "Interval Between Volleys": {
-      "ko": "간격 Between Volleys",
-      "ja": "間隔BetweenVolleys"
+      "ko": "일제 사격 간격",
+      "ja": "一斉射撃間隔"
     },
     "Interval Between Missiles": {
-      "ko": "간격 Between Missiles",
-      "ja": "間隔BetweenMissiles"
+      "ko": "미사일 간 발사 간격",
+      "ja": "ミサイル間の発射間隔"
     },
     "Maximum Number of Missiles Per Volley": {
-      "ko": "최대 수 of Missiles Per Volley",
-      "ja": "最大数ofMissilesPerVolley"
+      "ko": "일제 사격당 최대 미사일 수",
+      "ja": "1 斉射あたりの最大ミサイル数"
     },
     "Maximum Number of Locked-on Missiles Per Target": {
-      "ko": "최대 수 of Locked on Missiles Per 대상",
-      "ja": "最大数ofLockedonMissilesPer対象"
+      "ko": "대상당 최대 유도 미사일 수",
+      "ja": "1 対象あたりの最大ロックオンミサイル数"
     },
     "Cable Attachment Angle": {
-      "ko": "Cable Attachment 각도",
-      "ja": "CableAttachment角度"
-    },
-    "Cable Length": {
-      "ko": "Cable Length",
-      "ja": "CableLength"
+      "ko": "케이블 부착 각도",
+      "ja": "ワイヤー接続角度"
     },
     "Turret Health": {
       "ko": "포탑 체력",
@@ -3622,35 +3354,31 @@
     },
     "Blind Effect Duration": {
       "ko": "Blind Effect 지속 시간",
-      "ja": "BlindEffect持続時間"
-    },
-    "Conversion Ratio": {
-      "ko": "Conversion Ratio",
-      "ja": "ConversionRatio"
+      "ja": "Blind Effect 持続時間"
     },
     "Adjudication Piercing Beam Damage": {
-      "ko": "Adjudication Piercing 광선 데미지",
-      "ja": "AdjudicationPiercingビームダメージ"
+      "ko": "Adjudication 관통 광선 데미지",
+      "ja": "Adjudication 貫通ビームダメージ"
     },
     "Deliverance Piercing Beam Damage": {
-      "ko": "Deliverance Piercing 광선 데미지",
-      "ja": "DeliverancePiercingビームダメージ"
+      "ko": "Deliverance 관통 광선 데미지",
+      "ja": "Deliverance 貫通ビームダメージ"
     },
     "Bonus Damage to Barriers": {
-      "ko": "추가 데미지 to Barriers",
-      "ja": "追加ダメージtoBarriers"
+      "ko": "방벽 대상 추가 데미지",
+      "ja": "バリアへの追加ダメージ"
     },
     "Device Effect Range": {
-      "ko": "Device Effect 사거리 / 범위",
-      "ja": "DeviceEffect射程 / 範囲"
+      "ko": "장치 효과 범위",
+      "ja": "デバイス効果範囲"
     },
     "Adjudication Fire Rate Boost": {
       "ko": "Adjudication 연사 속도 증가",
-      "ja": "Adjudication発射速度上昇"
+      "ja": "Adjudication 発射速度上昇"
     },
     "Deliverance Fire Rate Boost": {
       "ko": "Deliverance 연사 속도 증가",
-      "ja": "Deliverance発射速度上昇"
+      "ja": "Deliverance 発射速度上昇"
     },
     "CASTING": {
       "ko": "시전 방식",
@@ -3669,328 +3397,296 @@
       "ja": "特殊効果"
     },
     "Left Click Spell Field Max Distance": {
-      "ko": "Left Click Spell 영역 최대 거리",
-      "ja": "LeftClickSpellフィールド最大距離"
+      "ko": "Left Click 장판 최대 거리",
+      "ja": "Left ClickSpell フィールド最大距離"
     },
     "Left Click Spell Field Damage": {
-      "ko": "Left Click Spell 영역 데미지",
-      "ja": "LeftClickSpellフィールドダメージ"
+      "ko": "Left Click 장판 데미지",
+      "ja": "Left ClickSpell フィールドダメージ"
     },
     "Right Click Spell Field Max Distance": {
-      "ko": "Right Click Spell 영역 최대 거리",
-      "ja": "RightClickSpellフィールド最大距離"
+      "ko": "Right Click 장판 최대 거리",
+      "ja": "Right ClickSpell フィールド最大距離"
     },
     "Right Click Spell Field Damage": {
-      "ko": "Right Click Spell 영역 데미지",
-      "ja": "RightClickSpellフィールドダメージ"
+      "ko": "Right Click 장판 데미지",
+      "ja": "Right ClickSpell フィールドダメージ"
     },
     "Damage/Health Conversion": {
-      "ko": "데미지 체력 Conversion",
-      "ja": "ダメージ体力Conversion"
+      "ko": "피해량 → 체력 전환율",
+      "ja": "与ダメージ→HP 変換率"
     },
     "Rock Jab Max Attack Range": {
-      "ko": "Rock Jab 최대 Attack 사거리 / 범위",
-      "ja": "RockJab最大Attack射程 / 範囲"
+      "ko": "Rock Jab 최대 공격 사거리",
+      "ja": "Rock Jab 最大攻撃射程"
     },
     "Stone Haymaker Max Attack Range": {
-      "ko": "Stone Haymaker 최대 Attack 사거리 / 범위",
-      "ja": "StoneHaymaker最大Attack射程 / 範囲"
+      "ko": "Stone Haymaker 최대 공격 사거리",
+      "ja": "Stone Haymaker 最大攻撃射程"
     },
     "Bonus Health Recovery": {
-      "ko": "추가 체력 Recovery",
-      "ja": "追加体力Recovery"
+      "ko": "추가 체력 회복량",
+      "ja": "追加HP 回復量"
     },
     "Bonus Health Generation Frequency": {
-      "ko": "추가 체력 Generation Frequency",
-      "ja": "追加体力GenerationFrequency"
+      "ko": "추가 체력 생성 주기",
+      "ja": "追加HP 生成間隔"
     },
     "Damage Taken Required to Trigger Healing": {
-      "ko": "데미지 Taken Required to Trigger 치유량",
-      "ja": "ダメージTakenRequiredtoTrigger回復量"
-    },
-    "Height": {
-      "ko": "Height",
-      "ja": "Height"
+      "ko": "치유 발동에 필요한 누적 피격량",
+      "ja": "回復発動に必要な被ダメージ量"
     },
     "Thorforce Cost": {
       "ko": "Thorforce 소모량",
-      "ja": "Thorforce消費量"
+      "ja": "Thorforce 消費量"
     },
     "Key (Enhanced)": {
-      "ko": "Key Enhanced",
-      "ja": "KeyEnhanced"
+      "ko": "강화 단축키",
+      "ja": "強化キー"
     },
     "Projectile-Generated Spell Field Range": {
-      "ko": "투사체 Generated Spell 영역 사거리 / 범위",
-      "ja": "弾速GeneratedSpellフィールド射程 / 範囲"
+      "ko": "투사체 Generated 장판 사거리 / 범위",
+      "ja": "弾速Generated Spell フィールド射程 / 範囲"
     },
     "Projectile-Generated Spell Field Damage": {
-      "ko": "투사체 Generated Spell 영역 데미지",
-      "ja": "弾速GeneratedSpellフィールドダメージ"
+      "ko": "투사체 Generated 장판 데미지",
+      "ja": "弾速Generated Spell フィールドダメージ"
     },
     "Hit Ground Spell Field Range": {
-      "ko": "Hit Ground Spell 영역 사거리 / 범위",
-      "ja": "HitGroundSpellフィールド射程 / 範囲"
+      "ko": "착지 장판 범위",
+      "ja": "着地フィールド範囲"
     },
     "Hit Ground Spell Field Damage": {
-      "ko": "Hit Ground Spell 영역 데미지",
-      "ja": "HitGroundSpellフィールドダメージ"
+      "ko": "Hit Ground 장판 데미지",
+      "ja": "Hit GroundSpell フィールドダメージ"
     },
     "Hit Ground Maximum Distance": {
       "ko": "Hit Ground 최대 거리",
-      "ja": "HitGround最大距離"
+      "ja": "Hit Ground 最大距離"
     },
     "Maximum Thorforce": {
       "ko": "최대 Thorforce",
       "ja": "最大Thorforce"
     },
     "Thorforce Recovery Speed": {
-      "ko": "Thorforce Recovery 속도",
-      "ja": "ThorforceRecovery速度"
+      "ko": "Thorforce 회복 속도",
+      "ja": "Thorforce 回復速度"
     },
     "Bonus Health Per Thorforce": {
-      "ko": "추가 체력 Per Thorforce",
-      "ja": "追加体力PerThorforce"
+      "ko": "소모 Thorforce당 추가 체력",
+      "ja": "消費Thorforce ごとの追加HP"
     },
     "Mjolnir Bash Energy Recovery Per Thorforce": {
-      "ko": "Mjolnir Bash 에너지 회복 Per Thorforce",
-      "ja": "MjolnirBashエネルギー回復PerThorforce"
+      "ko": "타격당 Thorforce 에너지 회복량",
+      "ja": "命中ごとのThorforce 回復量"
     },
     "Thorforce Consumption Cooldown": {
       "ko": "Thorforce 소모량 재사용 대기시간",
-      "ja": "Thorforce消費量クールダウン"
+      "ja": "Thorforce 消費量クールダウン"
     },
     "Cooldown on Failed Resurrection": {
-      "ko": "재사용 대기시간 on Failed Resurrection",
-      "ja": "クールダウンonFailedResurrection"
+      "ko": "부활 취소/실패 시 쿨다운",
+      "ja": "蘇生不発時のクールダウン"
     },
     "Minimum Health Gained on Successful Resurrection": {
-      "ko": "최소 체력 Gained on Successful Resurrection",
-      "ja": "最小体力GainedonSuccessfulResurrection"
+      "ko": "부활 성공 시 최소 회복 체력",
+      "ja": "蘇生成功時の最低保証HP"
     },
     "Damage Reduction While Active": {
-      "ko": "피해 감소 While Active",
-      "ja": "被ダメージ軽減WhileActive"
+      "ko": "활성화 중 피해 감소율",
+      "ja": "発動中の被ダメージ軽減"
     },
     "Thunder Spear Spell Field Damage": {
-      "ko": "Thunder Spear Spell 영역 데미지",
-      "ja": "ThunderSpearSpellフィールドダメージ"
+      "ko": "번개의 창 장판 데미지",
+      "ja": "雷の槍フィールドダメージ"
     },
     "Thunder Spear Spell Field Range": {
-      "ko": "Thunder Spear Spell 영역 사거리 / 범위",
-      "ja": "ThunderSpearSpellフィールド射程 / 範囲"
+      "ko": "번개의 창 장판 범위",
+      "ja": "雷の槍フィールド範囲"
     },
     "Ground Slam Damage Range": {
-      "ko": "Ground 내리치기 데미지 사거리 / 범위",
-      "ja": "Ground叩きつけダメージ射程 / 範囲"
+      "ko": "지면 강타 피해 범위",
+      "ja": "地面叩きつけダメージ範囲"
     },
     "Shooting Damage": {
       "ko": "Shooting 데미지",
-      "ja": "Shootingダメージ"
+      "ja": "Shooting ダメージ"
     },
     "Shooting Interval": {
       "ko": "Shooting 간격",
-      "ja": "Shooting間隔"
+      "ja": "Shooting 間隔"
     },
     "Shooting Damage after Demonic Energy exceeds 50%": {
-      "ko": "Shooting 데미지 after Demonic 에너지 exceeds 50",
-      "ja": "ShootingダメージafterDemonicエネルギーexceeds50"
+      "ko": "악마 에너지 50% 초과 시 사격 데미지",
+      "ja": "悪魔エネルギー50%超過時の射撃ダメージ"
     },
     "Shooting Interval after Demonic Energy exceeds 50%": {
-      "ko": "Shooting 간격 after Demonic 에너지 exceeds 50",
-      "ja": "Shooting間隔afterDemonicエネルギーexceeds50"
-    },
-    "Lifesteal Ratio": {
-      "ko": "Lifesteal Ratio",
-      "ja": "LifestealRatio"
+      "ko": "악마 에너지 50% 초과 시 사격 간격",
+      "ja": "悪魔エネルギー50%超過時の射撃間隔"
     },
     "Leaded Transformation Damage/Bonus Health Conversion": {
-      "ko": "Leaded Transformation 데미지 추가 체력 Conversion",
-      "ja": "LeadedTransformationダメージ追加体力Conversion"
+      "ko": "Leaded Transformation 피해 → 추가 체력 전환율",
+      "ja": "Leaded Transformation 与ダメージ→追加HP 変換率"
     },
     "Bullet Spread Radius": {
-      "ko": "Bullet Spread 반경",
-      "ja": "BulletSpread半径"
+      "ko": "탄퍼짐 반경",
+      "ja": "弾拡散半径"
     },
     "Sphere Radius": {
-      "ko": "Sphere 반경",
-      "ja": "Sphere半径"
+      "ko": "구체 반경",
+      "ja": "球体半径"
     },
     "Sphere Radius after Demonic Energy exceeds 50%": {
-      "ko": "Sphere 반경 after Demonic 에너지 exceeds 50",
-      "ja": "Sphere半径afterDemonicエネルギーexceeds50"
+      "ko": "악마 에너지 50% 초과 시 구체 반경",
+      "ja": "悪魔エネルギー50%超過時の球体半径"
     },
     "Demon State Health": {
-      "ko": "Demon State 체력",
-      "ja": "DemonState体力"
+      "ko": "악마 상태 체력",
+      "ja": "悪魔形態の体力"
     },
     "First 5 Rounds Damage": {
-      "ko": "1차 5 Rounds 데미지",
-      "ja": "1次5Roundsダメージ"
+      "ko": "첫 5발 데미지",
+      "ja": "最初の5 発のダメージ"
     },
     "Final Round Damage": {
-      "ko": "Final Round 데미지",
-      "ja": "FinalRoundダメージ"
+      "ko": "마지막 탄환 데미지",
+      "ja": "最終弾ダメージ"
     },
     "Bonus Health Per Firing": {
-      "ko": "추가 체력 Per Firing",
-      "ja": "追加体力PerFiring"
+      "ko": "사격당 추가 체력",
+      "ja": "射撃ごとの追加HP"
     },
     "Bonus Health Range": {
-      "ko": "추가 체력 사거리 / 범위",
-      "ja": "追加体力射程 / 範囲"
+      "ko": "추가 체력 부여 범위",
+      "ja": "追加HP 付与範囲"
     },
     "Summon Duration": {
       "ko": "소환수 지속 시간",
       "ja": "召喚物持続時間"
     },
-    "Veil Size": {
-      "ko": "Veil Size",
-      "ja": "VeilSize"
-    },
     "Healing Reduction": {
       "ko": "치유량 감소",
       "ja": "回復量短縮"
     },
-    "Leaded Transformation Lifesteal Ratio": {
-      "ko": "Leaded Transformation Lifesteal Ratio",
-      "ja": "LeadedTransformationLifestealRatio"
-    },
     "Energy Gain Increased Per Accursed Pistols Hit": {
-      "ko": "에너지 Gain Increased Per Accursed Pistols Hit",
-      "ja": "エネルギーGainIncreasedPerAccursedPistolsHit"
+      "ko": "Accursed Pistols 적중당 에너지 획득 증가량",
+      "ja": "Accursed Pistols 命中ごとのエネルギー獲得増加"
     },
     "Max Energy": {
       "ko": "최대 에너지",
       "ja": "最大エネルギー"
     },
     "Energy Gain Per Accursed Pistols Hit": {
-      "ko": "에너지 Gain Per Accursed Pistols Hit",
-      "ja": "エネルギーGainPerAccursedPistolsHit"
+      "ko": "Accursed Pistols 적중당 에너지 획득",
+      "ja": "Accursed Pistols 命中ごとのエネルギー獲得"
     },
     "Mantle of Oblivion Block Damage/Energy Conversion": {
-      "ko": "Mantle of Oblivion Block 데미지 에너지 Conversion",
-      "ja": "MantleofOblivionBlockダメージエネルギーConversion"
+      "ko": "Mantle of Oblivion 방어 피해 → 에너지 전환율",
+      "ja": "Mantle of Oblivion ガードダメージ→エネルギー変換率"
     },
     "Energy Gain from Void Walk": {
-      "ko": "에너지 Gain from Void Walk",
-      "ja": "エネルギーGainfromVoidWalk"
+      "ko": "Void Walk 에너지 획득량",
+      "ja": "Void Walk によるエネルギー獲得"
     },
     "Max Select Distance": {
       "ko": "최대 Select 거리",
-      "ja": "最大Select距離"
+      "ja": "最大Select 距離"
     },
     "Max Teleport Distance": {
       "ko": "최대 Teleport 거리",
-      "ja": "最大Teleport距離"
+      "ja": "最大Teleport 距離"
     },
     "Max Bounce Distance": {
       "ko": "최대 튕김 거리",
       "ja": "最大バウンド距離"
     },
     "Max Number of Bounces": {
-      "ko": "최대 수 of Bounces",
-      "ja": "最大数ofBounces"
+      "ko": "최대 튕김 횟수",
+      "ja": "最大跳弾回数"
     },
     "Bonus Health to Ultron": {
-      "ko": "추가 체력 to Ultron",
-      "ja": "追加体力toUltron"
+      "ko": "울트론 본체 추가 체력",
+      "ja": "ウルトロン自身への追加HP"
     },
     "Bonus Health to allies near Ultron and the drones": {
-      "ko": "추가 체력 to 아군 near Ultron and the drones",
-      "ja": "追加体力to味方nearUltronandthedrones"
+      "ko": "울트론 및 드론 주변 아군 추가 체력",
+      "ja": "ウルトロンとドローン周囲の味方への追加HP"
     },
     "Bonus Health Falloff Begins at": {
-      "ko": "추가 체력 감쇠 Begins at",
-      "ja": "追加体力減衰Beginsat"
+      "ko": "추가 체력 감쇠 시작 시점",
+      "ja": "追加HP 減衰開始時間"
     },
     "Beam Healing Amount": {
       "ko": "광선 치유량",
       "ja": "ビーム回復量"
     },
-    "Total Ray Amount": {
-      "ko": "Total Ray Amount",
-      "ja": "TotalRayAmount"
-    },
     "Ray Amount per Shot": {
-      "ko": "Ray Amount per 사격",
-      "ja": "RayAmountper射撃"
+      "ko": "사격당 광선 줄기 수",
+      "ja": "1 射撃あたりの光線数"
     },
     "Fire Interval Between Shots": {
-      "ko": "Fire 간격 Between 사격",
-      "ja": "Fire間隔Between射撃"
-    },
-    "Ultimate Total Fire Rounds": {
-      "ko": "Ultimate Total Fire Rounds",
-      "ja": "UltimateTotalFireRounds"
+      "ko": "사격 간 발사 간격",
+      "ja": "射撃間の発射間隔"
     },
     "Fire Interval Between Rounds": {
-      "ko": "Fire 간격 Between Rounds",
-      "ja": "Fire間隔BetweenRounds"
+      "ko": "탄환 간 발사 간격",
+      "ja": "弾丸間の発射間隔"
     },
     "Ultimate Self-healing": {
-      "ko": "Ultimate 자신 치유량",
-      "ja": "Ultimate自身回復量"
+      "ko": "궁극기 자가 치유량",
+      "ja": "アルティメット自己回復量"
     },
     "Accelerate Duration": {
-      "ko": "Accelerate 지속 시간",
-      "ja": "Accelerate持続時間"
+      "ko": "가속 지속 시간",
+      "ja": "加速持続時間"
     },
     "Target Distance": {
       "ko": "대상 거리",
       "ja": "対象距離"
     },
     "Healing Amount to the Targeted ally": {
-      "ko": "치유량 to the Targeted 아군",
-      "ja": "回復量totheTargeted味方"
+      "ko": "지정 아군 치유량",
+      "ja": "指定した味方への回復量"
     },
     "Healing Amount to other allies within range": {
-      "ko": "치유량 to other 아군 within 사거리 / 범위",
-      "ja": "回復量toother味方within射程 / 範囲"
+      "ko": "범위 내 다른 아군 치유량",
+      "ja": "範囲内の他の味方への回復量"
     },
     "Drone Healing Range": {
-      "ko": "Drone 치유량 사거리 / 범위",
-      "ja": "Drone回復量射程 / 範囲"
+      "ko": "드론 치유 범위",
+      "ja": "ドローン回復範囲"
     },
     "Maximum Vision": {
       "ko": "최대 Vision",
       "ja": "最大Vision"
     },
     "Max Tolerance Duration out of Sight": {
-      "ko": "최대 Tolerance 지속 시간 out of Sight",
-      "ja": "最大Tolerance持続時間outofSight"
+      "ko": "시야 이탈 유지 허용 시간",
+      "ja": "視界外での維持猶予時間"
     },
     "Heal": {
       "ko": "치유",
       "ja": "回復"
     },
     "Ray Damage": {
-      "ko": "Ray 데미지",
-      "ja": "Rayダメージ"
+      "ko": "광선 데미지",
+      "ja": "光線ダメージ"
     },
     "Ray Healing Amount": {
-      "ko": "Ray 치유량",
-      "ja": "Ray回復量"
-    },
-    "Missiles Fired": {
-      "ko": "Missiles Fired",
-      "ja": "MissilesFired"
+      "ko": "광선 치유량",
+      "ja": "光線回復量"
     },
     "Missile Explosion Damage Range": {
-      "ko": "Missile 폭발 데미지 사거리 / 범위",
-      "ja": "Missile爆発ダメージ射程 / 範囲"
+      "ko": "미사일 폭발 피해 범위",
+      "ja": "ミサイル爆発ダメージ範囲"
     },
     "Missile Explosion Damage": {
       "ko": "Missile 폭발 데미지",
-      "ja": "Missile爆発ダメージ"
+      "ja": "Missile 爆発ダメージ"
     },
     "Right-click Cooldown": {
       "ko": "Right click 재사용 대기시간",
-      "ja": "Rightclickクールダウン"
-    },
-    "CoolDown": {
-      "ko": "Cool Down",
-      "ja": "CoolDown"
+      "ja": "Rightclick クールダウン"
     },
     "HEALING REDUCTION PROPORTION": {
       "ko": "치유량 감소 비율",
@@ -4005,28 +3701,20 @@
       "ja": "最小距離"
     },
     "Damage over Time to Healing Conversion Rate": {
-      "ko": "데미지 over Time to 치유량 Conversion 속도/비율",
-      "ja": "ダメージoverTimeto回復量Conversion率"
+      "ko": "지속 피해 → 치유 전환율",
+      "ja": "継続ダメージ→回復変換率"
     },
     "Tentacle Explosion Damage to Healing Conversion Rate": {
-      "ko": "Tentacle 폭발 데미지 to 치유량 Conversion 속도/비율",
-      "ja": "Tentacle爆発ダメージto回復量Conversion率"
+      "ko": "촉수 폭발 피해 → 치유 전환율",
+      "ja": "触手爆発ダメージ→回復変換率"
     },
     "Culling Duration": {
       "ko": "Culling 지속 시간",
-      "ja": "Culling持続時間"
-    },
-    "Culling Threshold": {
-      "ko": "Culling Threshold",
-      "ja": "CullingThreshold"
-    },
-    "Next Kraken Impact After A Culling": {
-      "ko": "Next Kraken Impact After A Culling",
-      "ja": "NextKrakenImpactAfterACulling"
+      "ja": "Culling 持続時間"
     },
     "Seize Damage": {
       "ko": "Seize 데미지",
-      "ja": "Seizeダメージ"
+      "ja": "Seize ダメージ"
     },
     "Knockback Damage": {
       "ko": "밀쳐내기 데미지",
@@ -4034,247 +3722,227 @@
     },
     "Clash Damage": {
       "ko": "Clash 데미지",
-      "ja": "Clashダメージ"
+      "ja": "Clash ダメージ"
     },
     "Clash Damage Range": {
       "ko": "Clash 데미지 사거리 / 범위",
-      "ja": "Clashダメージ射程 / 範囲"
+      "ja": "Clash ダメージ射程 / 範囲"
     },
     "Burst Spike Max Attack Range": {
-      "ko": "Burst Spike 최대 Attack 사거리 / 범위",
-      "ja": "BurstSpike最大Attack射程 / 範囲"
+      "ko": "Burst Spike 최대 공격 사거리",
+      "ja": "Burst Spike 最大攻撃射程"
     },
     "Burst Spike Damage": {
       "ko": "Burst Spike 데미지",
-      "ja": "BurstSpikeダメージ"
+      "ja": "Burst Spike ダメージ"
     },
     "Other Ability CD Reduction per Culling Instinct Stack": {
-      "ko": "Other Ability 쿨다운 감소 per Culling Instinct Stack",
-      "ja": "OtherAbilityCD短縮perCullingInstinctStack"
+      "ko": "스택당 다른 스킬 쿨다운 감소",
+      "ja": "スタックごとの他スキルCD 短縮"
     },
     "Culling Instinct Max Stacks": {
-      "ko": "Culling Instinct 최대 Stacks",
-      "ja": "CullingInstinct最大Stacks"
+      "ko": "Culling Instinct 최대 스택",
+      "ja": "Culling Instinct 最大スタック"
     },
     "Culling Instinct Stacks for Death Damage Reduction": {
-      "ko": "Culling Instinct Stacks for Death 피해 감소",
-      "ja": "CullingInstinctStacksforDeath被ダメージ軽減"
+      "ko": "치명상 피해 감소 필요 스택",
+      "ja": "致死ダメージ軽減必要スタック"
     },
     "Direct Damage Required per Energy Stack": {
-      "ko": "Direct 데미지 Required per 에너지 Stack",
-      "ja": "DirectダメージRequiredperエネルギーStack"
+      "ko": "에너지 1스택당 필요 직격 피해량",
+      "ja": "エネルギースタック1 獲得に必要な直撃ダメージ"
     },
     "Bounce Projectile Speed": {
       "ko": "튕김 투사체 속도",
-      "ja": "バウンド弾速速度"
+      "ja": "バウンド弾速"
     },
     "Bounce Projectile Max Distance": {
       "ko": "튕김 투사체 최대 거리",
       "ja": "バウンド弾速最大距離"
     },
     "Attack Generated Healing Spell Field Range": {
-      "ko": "Attack Generated 치유량 Spell 영역 사거리 / 범위",
-      "ja": "AttackGenerated回復量Spellフィールド射程 / 範囲"
+      "ko": "공격 생성 치유 장판 범위",
+      "ja": "攻撃時生成回復フィールド範囲"
     },
     "Explosion Spell Field Range": {
-      "ko": "폭발 Spell 영역 사거리 / 범위",
-      "ja": "爆発Spellフィールド射程 / 範囲"
+      "ko": "폭발 장판 범위",
+      "ja": "爆発フィールド範囲"
     },
     "Damage/Healing Radius": {
       "ko": "데미지 치유량 반경",
       "ja": "ダメージ回復量半径"
     },
     "Charm/Invincibility Radius": {
-      "ko": "Charm Invincibility 반경",
-      "ja": "CharmInvincibility半径"
+      "ko": "매혹 / 무적 반경",
+      "ja": "魅了 / 無敵半径"
     },
     "Allies' Invincibility Duration": {
-      "ko": "아군 Invincibility 지속 시간",
-      "ja": "味方Invincibility持続時間"
+      "ko": "아군 무적 지속 시간",
+      "ja": "味方無敵持続時間"
     },
     "DAMAGE": {
       "ko": "데미지",
       "ja": "ダメージ"
     },
     "Unstoppable State Duration": {
-      "ko": "Unstoppable State 지속 시간",
-      "ja": "UnstoppableState持続時間"
+      "ko": "저지 불가 지속 시간",
+      "ja": "アンストッパブル持続時間"
     },
     "Life-steal Ratio": {
-      "ko": "Life steal Ratio",
-      "ja": "LifestealRatio"
+      "ko": "생명력 흡수율",
+      "ja": "ライフスティール率"
     },
     "Maximum Health": {
       "ko": "최대 체력",
       "ja": "最大体力"
     },
     "Continuous Healing Spell Field Range": {
-      "ko": "Continuous 치유량 Spell 영역 사거리 / 범위",
-      "ja": "Continuous回復量Spellフィールド射程 / 範囲"
+      "ko": "지속 치유 장판 범위",
+      "ja": "継続回復フィールド範囲"
     },
     "MAXIMUM DURATION FOR SUMMONS": {
-      "ko": "최대 지속 시간 FOR SUMMONS",
-      "ja": "最大持続時間FORSUMMONS"
+      "ko": "소환물 최대 지속 시간",
+      "ja": "召喚物の最大持続時間"
     },
     "Predatory Pounce Second Unleash": {
-      "ko": "Predatory Pounce 2차 Unleash",
-      "ja": "PredatoryPounce2次Unleash"
+      "ko": "Predatory Pounce 2타 발동",
+      "ja": "Predatory Pounce 2 段目発動"
     },
     "Healing Spell Field That Surrounds the Caster": {
-      "ko": "치유량 Spell 영역 That Surrounds the Caster",
-      "ja": "回復量SpellフィールドThatSurroundstheCaster"
+      "ko": "시전자 주변 치유 장판",
+      "ja": "術者周囲の回復フィールド"
     },
     "Passive Energy Recover": {
-      "ko": "Passive 에너지 Recover",
-      "ja": "PassiveエネルギーRecover"
-    },
-    "Fox Form Awakening CD": {
-      "ko": "Fox Form Awakening 쿨다운",
-      "ja": "FoxFormAwakeningCD"
+      "ko": "패시브 에너지 회복량",
+      "ja": "パッシブエネルギー回復量"
     },
     "Percentage Damage": {
       "ko": "백분율 데미지",
       "ja": "割合ダメージ"
     },
     "Knockback Range": {
-      "ko": "밀쳐내기 사거리 / 범위",
-      "ja": "ノックバック射程 / 範囲"
+      "ko": "밀쳐내기 범위",
+      "ja": "ノックバック範囲"
     },
     "Snatching Damage Over Time": {
-      "ko": "Snatching 데미지 Over Time",
-      "ja": "SnatchingダメージOverTime"
+      "ko": "제압 중 지속 데미지",
+      "ja": "捕獲中の継続ダメージ"
     },
     "Impact Range": {
-      "ko": "Impact 사거리 / 범위",
-      "ja": "Impact射程 / 範囲"
+      "ko": "충돌 범위",
+      "ja": "着弾範囲"
     },
     "Impact Base Damage": {
-      "ko": "Impact 기본 데미지",
-      "ja": "Impact基本ダメージ"
+      "ko": "충돌 기본 데미지",
+      "ja": "着弾基本ダメージ"
     },
     "Impact Percentage Damage": {
-      "ko": "Impact 백분율 데미지",
-      "ja": "Impact割合ダメージ"
-    },
-    "Knockdown Time": {
-      "ko": "Knockdown Time",
-      "ja": "KnockdownTime"
+      "ko": "충돌 체력 비례 데미지",
+      "ja": "着弾割合ダメージ"
     },
     "Snatch Damage": {
       "ko": "Snatch 데미지",
-      "ja": "Snatchダメージ"
+      "ja": "Snatch ダメージ"
     },
     "Smash Damage": {
       "ko": "Smash 데미지",
-      "ja": "Smashダメージ"
+      "ja": "Smash ダメージ"
     },
     "Knockdown Duration": {
       "ko": "Knockdown 지속 시간",
-      "ja": "Knockdown持続時間"
+      "ja": "Knockdown 持続時間"
     },
     "Berserk Claw Strike Duration": {
       "ko": "Berserk 발톱 타격 지속 시간",
-      "ja": "Berserk爪打撃持続時間"
+      "ja": "Berserk 爪打撃持続時間"
     },
     "Berserk Claw Strike Base Damage": {
       "ko": "Berserk 발톱 타격 기본 데미지",
-      "ja": "Berserk爪打撃基本ダメージ"
+      "ja": "Berserk 爪打撃基本ダメージ"
     },
     "Berserk Claw Strike Percentage Damage": {
       "ko": "Berserk 발톱 타격 백분율 데미지",
-      "ja": "Berserk爪打撃割合ダメージ"
+      "ja": "Berserk 爪打撃割合ダメージ"
     },
     "Berserk Claw Strike Maximum Distance": {
       "ko": "Berserk 발톱 타격 최대 거리",
-      "ja": "Berserk爪打撃最大距離"
+      "ja": "Berserk 爪打撃最大距離"
     },
     "Berserk Claw Strike Attack Interval": {
       "ko": "Berserk 발톱 타격 공격 간격",
-      "ja": "Berserk爪打撃攻撃間隔"
+      "ja": "Berserk 爪打撃攻撃間隔"
     },
     "Ability Cooldown": {
-      "ko": "Ability 재사용 대기시간",
-      "ja": "Abilityクールダウン"
+      "ko": "스킬 재사용 대기시간",
+      "ja": "スキルクールダウン"
     },
     "Attack Range Bonus:": {
       "ko": "Attack 사거리 / 범위 추가",
-      "ja": "Attack射程 / 範囲追加"
+      "ja": "Attack 射程 / 範囲追加"
     },
     "Kinetic Claws Cooldown": {
       "ko": "Kinetic Claws 재사용 대기시간",
-      "ja": "KineticClawsクールダウン"
+      "ja": "Kinetic Claws クールダウン"
     },
     "Kinetic Claws Damage Tick Rate:": {
-      "ko": "Kinetic Claws 데미지 Tick 속도/비율",
-      "ja": "KineticClawsダメージTick率"
+      "ko": "Kinetic Claws 데미지 Tick 비율",
+      "ja": "Kinetic Claws ダメージTick 率"
     },
     "Kinetic Claws Damage:": {
       "ko": "Kinetic Claws 데미지",
-      "ja": "KineticClawsダメージ"
+      "ja": "Kinetic Claws ダメージ"
     },
     "Kinetic Claws Duration:": {
       "ko": "Kinetic Claws 지속 시간",
-      "ja": "KineticClaws持続時間"
+      "ja": "Kinetic Claws 持続時間"
     },
     "Bonus Health/Healing Conversion": {
-      "ko": "추가 체력 치유량 Conversion",
-      "ja": "追加体力回復量Conversion"
+      "ko": "치유량 → 추가 체력 전환율",
+      "ja": "回復量→追加HP 変換率"
     },
     "Cooldown Reduction Per KO Engaged": {
-      "ko": "재사용 대기시간 감소 Per KO Engaged",
-      "ja": "クールダウン短縮PerKOEngaged"
+      "ko": "처치 관여당 쿨다운 감소",
+      "ja": "キル関与ごとのクールダウン短縮"
     },
     "Max Rage": {
       "ko": "최대 Rage",
       "ja": "最大Rage"
     },
     "Rage Per Savage Claw Hit": {
-      "ko": "Rage Per Savage 발톱 Hit",
-      "ja": "RagePerSavage爪Hit"
-    },
-    "Rage Per Vicious Rampage Hit": {
-      "ko": "Rage Per Vicious Rampage Hit",
-      "ja": "RagePerViciousRampageHit"
-    },
-    "Rage Per Feral Leap Snatch": {
-      "ko": "Rage Per Feral Leap Snatch",
-      "ja": "RagePerFeralLeapSnatch"
+      "ko": "Savage Claw 적중당 분노 획득",
+      "ja": "Savage Claw 命中ごとのRage 獲得"
     },
     "Rage Per Berserk Claw Strike Hit": {
-      "ko": "Rage Per Berserk 발톱 타격 Hit",
-      "ja": "RagePerBerserk爪打撃Hit"
+      "ko": "Berserk Claw Strike 적중당 분노 획득",
+      "ja": "Berserk Claw Strike 命中ごとのRage 獲得"
     },
     "Rage Per Last Stand Knockback": {
-      "ko": "Rage Per Last Stand 밀쳐내기",
-      "ja": "RagePerLastStandノックバック"
+      "ko": "Last Stand 밀치기당 분노 획득",
+      "ja": "Last Stand ノックバックごとのRage 獲得"
     },
     "Rage Per Hit Taken": {
       "ko": "Rage 타격당 Taken",
-      "ja": "Rage命中ごとTaken"
-    },
-    "Rage Gain From Taking Hits": {
-      "ko": "Rage Gain From Taking Hits",
-      "ja": "RageGainFromTakingHits"
+      "ja": "Rage 命中ごとTaken"
     },
     "Attack Range Increase": {
-      "ko": "Attack 사거리 / 범위 Increase",
-      "ja": "Attack射程 / 範囲Increase"
+      "ko": "공격 사거리 증가",
+      "ja": "攻撃射程増加"
     },
     "Kinetic Claws Damage": {
       "ko": "Kinetic Claws 데미지",
-      "ja": "KineticClawsダメージ"
+      "ja": "Kinetic Claws ダメージ"
     },
     "Kinetic Claws Duration": {
       "ko": "Kinetic Claws 지속 시간",
-      "ja": "KineticClaws持続時間"
+      "ja": "Kinetic Claws 持続時間"
     },
     "Bonus Jump Height": {
-      "ko": "추가 Jump Height",
-      "ja": "追加JumpHeight"
+      "ko": "점프 높이 증가량",
+      "ja": "ジャンプ高度増加"
     },
     "Bonus Damage Tick Interval": {
       "ko": "추가 데미지 Tick 간격",
-      "ja": "追加ダメージTick間隔"
+      "ja": "追加ダメージTick 間隔"
     },
     "Type": {
       "ko": "공격 유형",
@@ -4346,7 +4014,7 @@
     },
     "Summon Damage/Health Conversion": {
       "ko": "소환물 피해 체력 전환율",
-      "ja": "召喚物ダメージHP変換率"
+      "ja": "召喚物ダメージHP 変換率"
     },
     "Fortune Gained per Hit (FELINE ALLIANCE)": {
       "ko": "타격당 행운 획득 (FELINE ALLIANCE)",
@@ -4364,14 +4032,6 @@
       "ko": "재사용 대기시간",
       "ja": "クールダウン"
     },
-    "DAMAGE/HEALTH CONVERSION": {
-      "ko": "DAMAGE/HEALTH CONVERSION",
-      "ja": "DAMAGE/HEALTH CONVERSION"
-    },
-    "Self Bonus Health after the Explosion": {
-      "ko": "Self Bonus Health after the Explosion",
-      "ja": "Self Bonus Health after the Explosion"
-    },
     "Number Of Bounces": {
       "ko": "튕김 횟수",
       "ja": "バウンド回数"
@@ -4381,20 +4041,20 @@
       "ja": "突きの頻度"
     },
     "Interval Between Uses": {
-      "ko": "사용 간격",
-      "ja": "使用間隔"
+      "ko": "연속 사용 간격",
+      "ja": "連続使用間隔"
     },
     "Maximum Targeting Range": {
-      "ko": "최대 지정 범위",
-      "ja": "最大ターゲット範囲"
+      "ko": "최대 대상 지정 거리",
+      "ja": "最大ターゲット指定射程"
     },
     "Instant Healing To Ally": {
       "ko": "아군 즉시 치유량",
       "ja": "味方への即時回復量"
     },
     "Healing Over Time To Self And Ally": {
-      "ko": "자신과 아군의 지속 치유량",
-      "ja": "自身と味方への継続回復量"
+      "ko": "자신 및 아군 지속 치유량",
+      "ja": "自身と味方の継続回復量"
     },
     "Slash Damage": {
       "ko": "베기 피해량",
@@ -4438,11 +4098,419 @@
     },
     "Second-Stage Damage": {
       "ko": "2단계 피해량",
-      "ja": "第2段階のダメージ"
+      "ja": "第2 段階のダメージ"
+    },
+    "Absorption Process": {
+      "ko": "흡수 과정",
+      "ja": "吸収プロセス"
+    },
+    "Additional Instinct from KOs Caught by Smoky Snare": {
+      "ko": "Smoky Snare 내 처치 시 추가 본능 획득",
+      "ja": "Smoky Snare 内KO 時の追加本能獲得"
+    },
+    "Ascent Height": {
+      "ko": "상승 높이",
+      "ja": "上昇高度"
+    },
+    "Big Easy Impact": {
+      "ko": "Big Easy Impact (후속타)",
+      "ja": "Big Easy Impact（派生攻撃）"
+    },
+    "Black Berserker Damage Boost": {
+      "ko": "블랙 버서커 공격력 증가",
+      "ja": "ブラック・バーサーカー与ダメージ上昇"
+    },
+    "Blast Arrows Per Cast": {
+      "ko": "시전당 폭발 화살 발사 수",
+      "ja": "1 回の発動で放つ爆発矢の数"
+    },
+    "Blind Effect": {
+      "ko": "실명(시야 차단) 효과",
+      "ja": "視界制限効果"
+    },
+    "Block Time": {
+      "ko": "방어 지속 시간",
+      "ja": "ガード持続時間"
+    },
+    "Bonus Damage on Mark Trigger": {
+      "ko": "표식 격발 추가 데미지",
+      "ja": "マーク起爆追加ダメージ"
+    },
+    "Buff Frequency": {
+      "ko": "버프 적용 주기",
+      "ja": "バフ適用間隔"
+    },
+    "Bullets Fired Each Cast": {
+      "ko": "시전당 발사 탄환 수",
+      "ja": "発動ごとの発射弾数"
+    },
+    "Cable Length": {
+      "ko": "케이블 길이",
+      "ja": "ワイヤー長"
+    },
+    "Cards Launched Per Unleash": {
+      "ko": "시전당 발사 카드 수",
+      "ja": "発動ごとの発射カード数"
+    },
+    "Conversion Ratio": {
+      "ko": "전환 비율",
+      "ja": "変換率"
+    },
+    "CoolDown": {
+      "ko": "재사용 대기시간",
+      "ja": "クールダウン"
+    },
+    "Culling Threshold": {
+      "ko": "처형 발동 체력 기준치",
+      "ja": "処刑発動HP 閾値"
+    },
+    "DAMAGE/HEALTH CONVERSION": {
+      "ko": "피해량 → 체력 전환율",
+      "ja": "ダメージ→HP 変換率"
+    },
+    "Dark Darts": {
+      "ko": "암흑 다트 (Dark Darts)",
+      "ja": "ダークダーツ (Dark Darts)"
+    },
+    "Darkmoon Blades Fired": {
+      "ko": "다크문 블레이드 발사 수",
+      "ja": "ダークムーンブレード発射数"
+    },
+    "Dash Direction": {
+      "ko": "돌진 방향",
+      "ja": "ダッシュ方向"
+    },
+    "Default": {
+      "ko": "기본 상태",
+      "ja": "通常状態"
+    },
+    "Delayed Recovery After Release": {
+      "ko": "해제 후 회복 대기 지연",
+      "ja": "解除後の回復開始遅延"
+    },
+    "Disappearance Time To Trigger Detection": {
+      "ko": "감지 발동 시야 이탈 시간",
+      "ja": "探知発動までの視界離脱時間"
+    },
+    "Enhanced": {
+      "ko": "강화 상태",
+      "ja": "強化状態"
+    },
+    "Enhanced Thunder": {
+      "ko": "강화 천둥 (Enhanced Thunder)",
+      "ja": "強化サンダー (Enhanced Thunder)"
+    },
+    "Enhanced Tornado": {
+      "ko": "강화 토네이도 (Enhanced Tornado)",
+      "ja": "強化トルネード (Enhanced Tornado)"
+    },
+    "FLEX UP": {
+      "ko": "강화 효과 (FLEX UP)",
+      "ja": "強化効果 (FLEX UP)"
+    },
+    "Fearless Leap Height": {
+      "ko": "Fearless Leap 도약 높이",
+      "ja": "Fearless Leap 跳躍高度"
+    },
+    "Firework Cluster": {
+      "ko": "불꽃 탄환군",
+      "ja": "花火クラスター"
+    },
+    "Firework Cluster Amount": {
+      "ko": "불꽃 탄환 수",
+      "ja": "花火クラスター数"
+    },
+    "Firing Phase": {
+      "ko": "발사 단계",
+      "ja": "発射フェーズ"
+    },
+    "Focus Gained on Crit": {
+      "ko": "치명타 적중 시 집중 스택 획득",
+      "ja": "クリティカル時の集中スタック獲得"
+    },
+    "Focus Gained on Red Room Rifle Hit": {
+      "ko": "Red Room Rifle 적중 시 집중 스택 획득",
+      "ja": "Red Room Rifle 命中時の集中スタック獲得"
+    },
+    "Follow Up": {
+      "ko": "후속 연계 공격",
+      "ja": "追撃派生"
+    },
+    "Fortune Lost Upon Death": {
+      "ko": "사망 시 행운 손실량",
+      "ja": "死亡時の幸運喪失量"
+    },
+    "Frequency": {
+      "ko": "발동 빈도 / 주기",
+      "ja": "発動頻度"
+    },
+    "Fury Required for Activation": {
+      "ko": "발동 필요 분노(Fury)",
+      "ja": "発動に必要なFury"
+    },
+    "Gained Elasticity": {
+      "ko": "탄성(Elasticity) 획득량",
+      "ja": "弾性(Elasticity)獲得量"
+    },
+    "Gatling Gun": {
+      "ko": "개틀링 건",
+      "ja": "ガトリングガン"
+    },
+    "Generate Dark Magic": {
+      "ko": "흑마법(Dark Magic) 생성량",
+      "ja": "黒魔術(Dark Magic)生成量"
+    },
+    "Glide Activation Condition": {
+      "ko": "활공 발동 조건",
+      "ja": "滑空発動条件"
+    },
+    "Grappling Hook Length": {
+      "ko": "갈고리 최대 길이",
+      "ja": "グラップリングフック長"
+    },
+    "Grounded Duration": {
+      "ko": "고정(이동 불가) 지속 시간",
+      "ja": "移動技封じ持続時間"
+    },
+    "Healing Amount (self)": {
+      "ko": "자가 치유량",
+      "ja": "自己回復量"
+    },
+    "Healing Over Time to Self and Ally": {
+      "ko": "자신 및 아군 지속 치유량",
+      "ja": "自身と味方の継続回復量"
+    },
+    "Healing To Allies Hit By Cosmic Cluster": {
+      "ko": "Cosmic Cluster 적중 아군 치유량",
+      "ja": "Cosmic Cluster 命中味方への回復量"
+    },
+    "Height": {
+      "ko": "높이",
+      "ja": "高さ"
+    },
+    "Hit Checks per Attack": {
+      "ko": "공격당 타격 판정 횟수",
+      "ja": "1 攻撃あたりの命中判定回数"
+    },
+    "Inflation State Elasticity Decay": {
+      "ko": "팽창 상태 탄성 감소 속도",
+      "ja": "膨張状態の弾性減衰"
+    },
+    "Instant Healing to Ally": {
+      "ko": "아군 즉시 치유량",
+      "ja": "味方への即時回復量"
+    },
+    "Instinct from KOs": {
+      "ko": "처치 시 본능 획득량",
+      "ja": "KO 時の本能獲得量"
+    },
+    "Jump Height": {
+      "ko": "점프 높이",
+      "ja": "ジャンプ高度"
+    },
+    "Knockdown Time": {
+      "ko": "넘어짐 지속 시간",
+      "ja": "ノックダウン時間"
+    },
+    "Leaded Transformation Lifesteal Ratio": {
+      "ko": "Leaded Transformation 생명력 흡수율",
+      "ja": "Leaded Transformation ライフスティール率"
+    },
+    "Left Click Hit Buff Stack": {
+      "ko": "좌클릭 적중 시 버프 스택",
+      "ja": "左クリック命中バフスタック"
+    },
+    "Lifesteal Ratio": {
+      "ko": "생명력 흡수율",
+      "ja": "ライフスティール率"
+    },
+    "Light Boomerang Dart": {
+      "ko": "빛의 부메랑 다트",
+      "ja": "ライトブーメランダーツ"
+    },
+    "Maximum Damage Shared per Target": {
+      "ko": "대상당 최대 피해 분담량",
+      "ja": "対象ごとの最大ダメージ分担量"
+    },
+    "Missiles": {
+      "ko": "미사일 발사 수",
+      "ja": "ミサイル数"
+    },
+    "Missiles Fired": {
+      "ko": "발사 미사일 수",
+      "ja": "発射ミサイル数"
+    },
+    "Next Kraken Impact After A Culling": {
+      "ko": "처형 성공 후 다음 Kraken Impact 유지 시간",
+      "ja": "処刑後の次発Kraken Impact 受付時間"
+    },
+    "Nightsword Thorn Increase": {
+      "ko": "밤의 검 가시 증가량",
+      "ja": "ナイトソードの棘増加数"
+    },
+    "Psionic Arrows Fired": {
+      "ko": "사이오닉 화살 발사 수",
+      "ja": "サイオニックアロー発射数"
+    },
+    "Rage Gain From Taking Hits": {
+      "ko": "피격 시 분노(Rage) 획득량",
+      "ja": "被弾時のRage 獲得量"
+    },
+    "Rage Per Feral Leap Snatch": {
+      "ko": "Feral Leap 제압 적중 시 분노 획득",
+      "ja": "Feral Leap 捕獲命中時のRage 獲得"
+    },
+    "Rage Per Vicious Rampage Hit": {
+      "ko": "Vicious Rampage 적중당 분노 획득",
+      "ja": "Vicious Rampage 命中ごとのRage 獲得"
+    },
+    "Recall Phase": {
+      "ko": "회수 단계",
+      "ja": "回収フェーズ"
+    },
+    "Recall Window": {
+      "ko": "회수 입력 유지 시간",
+      "ja": "回収受付時間"
+    },
+    "Rounds": {
+      "ko": "발사 탄수",
+      "ja": "発射弾数"
+    },
+    "Second-stage Damage": {
+      "ko": "2단계 데미지",
+      "ja": "第2 段階ダメージ"
+    },
+    "Self Bonus Health after the Explosion": {
+      "ko": "폭발 후 자신 추가 체력",
+      "ja": "爆発後の自身への追加HP"
+    },
+    "Shadow Scythe Maximum Distance Boost": {
+      "ko": "섀도우 사이드 최대 사거리 증가",
+      "ja": "シャドウサイス最大射程増加"
+    },
+    "Shift Hit Buff Stack": {
+      "ko": "Shift 적중 버프 스택",
+      "ja": "Shift 命中バフスタック"
+    },
+    "Shrapnel Amount": {
+      "ko": "파편 수",
+      "ja": "破片数"
+    },
+    "Slam Down Damage": {
+      "ko": "내려찍기 데미지",
+      "ja": "叩きつけダメージ"
+    },
+    "Slam Down Range": {
+      "ko": "내려찍기 범위",
+      "ja": "叩きつけ範囲"
+    },
+    "Smoke Healing to Allies": {
+      "ko": "연기 영역 아군 치유량",
+      "ja": "煙幕による味方回復量"
     },
     "Soaring Surge Speed Boost Percentage (When Storm Is Selected)": {
-      "ko": "Soaring Surge Speed Boost Percentage (When Storm Is Selected)",
-      "ja": "Soaring Surge Speed Boost Percentage (When Storm Is Selected)"
+      "ko": "Soaring Surge 이동 속도 증가율 (스톰 선택 시)",
+      "ja": "Soaring Surge 移動速度上昇率（ストーム選択時）"
+    },
+    "Spark Stacks Added on Hit": {
+      "ko": "적중 시 불꽃 스택 부여",
+      "ja": "命中時スパークスタック付与"
+    },
+    "Spread Type": {
+      "ko": "탄퍼짐 유형",
+      "ja": "拡散タイプ"
+    },
+    "Swallow Time Required": {
+      "ko": "삼키기 소요 시간",
+      "ja": "丸呑み所要時間"
+    },
+    "Sweeping Damage": {
+      "ko": "휩쓸기 데미지",
+      "ja": "薙ぎ払いダメージ"
+    },
+    "Sweeping Range": {
+      "ko": "휩쓸기 범위",
+      "ja": "薙ぎ払い範囲"
+    },
+    "Symbiote Claw Damage": {
+      "ko": "심비오트 발톱 데미지",
+      "ja": "シンビオートクローダメージ"
+    },
+    "Symbiote Claw Maximum Flight Distance": {
+      "ko": "심비오트 발톱 최대 사거리",
+      "ja": "シンビオートクロー最大飛距離"
+    },
+    "Talons of Khonshu Generated": {
+      "ko": "콘슈의 발톱 생성 수",
+      "ja": "コンスの鉤爪生成数"
+    },
+    "Thunder": {
+      "ko": "천둥 (Thunder)",
+      "ja": "サンダー (Thunder)"
+    },
+    "Time Required to Enter Glide": {
+      "ko": "활공 진입 소요 시간",
+      "ja": "滑空移行所要時間"
+    },
+    "Time Required to Leave Combat": {
+      "ko": "비전투 전환 소요 시간",
+      "ja": "非戦闘状態移行時間"
+    },
+    "Time Required to Start Skating": {
+      "ko": "스케이팅 돌입 소요 시간",
+      "ja": "スケート開始所要時間"
+    },
+    "Time Required to Swallow": {
+      "ko": "삼키기 소요 시간",
+      "ja": "丸呑み所要時間"
+    },
+    "Tornado": {
+      "ko": "토네이도 (Tornado)",
+      "ja": "トルネード (Tornado)"
+    },
+    "Total Ray Amount": {
+      "ko": "총 광선 발사 수",
+      "ja": "合計光線数"
+    },
+    "Traps Generated": {
+      "ko": "함정 생성 수",
+      "ja": "トラップ生成数"
+    },
+    "Trigger Condition": {
+      "ko": "발동 조건",
+      "ja": "発動条件"
+    },
+    "Ultimate Total Fire Rounds": {
+      "ko": "궁극기 총 발사 탄수",
+      "ja": "アルティメット合計発射弾数"
+    },
+    "Undead Monstro": {
+      "ko": "언데드 몬스트로",
+      "ja": "アンデッド・モンストロ"
+    },
+    "Unstoppable Threshold": {
+      "ko": "저지 불가 발동 기준치",
+      "ja": "アンストッパブル発動閾値"
+    },
+    "Veil Size": {
+      "ko": "장막 크기",
+      "ja": "ヴェールサイズ"
+    },
+    "Vitality Acorn Amount": {
+      "ko": "생명력 도토리 개수",
+      "ja": "活力どんぐり数"
+    },
+    "Warning before Swallow": {
+      "ko": "삼키기 전 경고 시간",
+      "ja": "丸呑み前の警告時間"
+    },
+    "Fox Form Awakening CD": {
+      "ko": "구미호 폼 각성 쿨다운",
+      "ja": "九尾形態覚醒CD"
+    },
+    "Unstoppable CD": {
+      "ko": "저지 불가 쿨다운",
+      "ja": "アンストッパブルCD"
     }
   },
   "values": {
@@ -6091,8 +6159,8 @@
       "ja": "Stellar ImpactもCeaseless Chargeパッシブ効果を発動させます"
     },
     "40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact)": {
-      "ko": "40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact)",
-      "ja": "40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact)"
+      "ko": "40 (Bionic Hook·Tainted Voltage) / 50 (Trooper's Fist·Kraken Impact)",
+      "ja": "40 (Bionic Hook・Tainted Voltage) / 50 (Trooper's Fist・Kraken Impact)"
     },
     "15 damage per strike": {
       "ko": "타격당 15 데미지",
@@ -6993,9 +7061,467 @@
     "Ironwood Wall heals 50 Bonus Health per second, up to 250 Bonus Health; gain Unstoppable status when within 15m of Awakened Ironwood Walls": {
       "ko": "Ironwood Wall이 초당 50의 추가 체력을 회복(최대 250); 각성한 Ironwood Wall 15m 이내에 있을 때 저지 불가 상태 획득",
       "ja": "Ironwood Wallが毎秒50の追加体力を回復(最大250)。覚醒したIronwood Wallから15m以内にいるとき妨害無効状態を獲得"
+    },
+    "140 - 210 m/s (Maximum speed is achieved after 0.9s of charging)": {
+      "ko": "140 ~ 210 m/s (0.9초 충전 시 최대 속도 도달)",
+      "ja": "140〜210 m/s（0.9秒チャージで最大弾速に到達）"
+    },
+    "20%, up to 40% at 2.5m from center": {
+      "ko": "20% (중심 반경 2.5m 이내에서 최대 40%)",
+      "ja": "20%（中心から2.5m以内で最大40%）"
+    },
+    "5 + 0.012% of Max Health as damage per Rage point": {
+      "ko": "분노(Rage) 1포인트당 (5 + 최대 체력의 0.012%) 데미지",
+      "ja": "Rage 1ポイントにつき（5 + 最大HPの0.012%）ダメージ"
+    },
+    "5+Target's 1% Maximum Health": {
+      "ko": "5 + 대상 최대 체력의 1%",
+      "ja": "5 + 対象の最大HPの1%"
+    },
+    "50% of remaining Ignite damage": {
+      "ko": "남은 점화(Ignite) 피해량의 50%",
+      "ja": "残りの炎上(Ignite)ダメージの50%"
+    },
+    "6.25 rounds per second, with a 0.03-second interval between every two rounds": {
+      "ko": "초당 6.25발 (2발마다 0.03초 간격)",
+      "ja": "毎秒6.25発（2発ごとに0.03秒間隔）"
+    },
+    "65, gains a 3s healing effect of 20 Health/s after leaving the Phased state": {
+      "ko": "65 (위상 상태 해제 후 3초간 초당 20 치유 획득)",
+      "ja": "65（フェーズ状態解除後、3秒間毎秒20回復を獲得）"
+    },
+    "Adds unlimited ammo on top of the base effect": {
+      "ko": "기본 효과에 더해 무한 탄약 효과를 추가로 부여합니다.",
+      "ja": "基本効果に加えて弾薬無限効果を付与します。"
+    },
+    "After the minimum number of leaps, each additional leap must hit an enemy to trigger the next one": {
+      "ko": "최소 도약 횟수 이후에는 적을 명중시켜야 다음 추가 도약이 발동됩니다.",
+      "ja": "最低跳躍回数以降は、敵に命中させることで次の追加跳躍が発動します。"
+    },
+    "Blast Slash is permanently active.": {
+      "ko": "폭발 참격(Blast Slash) 효과가 상시 활성화됩니다.",
+      "ja": "Blast Slashが常時発動状態になります。"
+    },
+    "Both Desert Eagle and Katana can be further upgraded": {
+      "ko": "데저트 이글과 카타나를 한 단계 더 업그레이드할 수 있습니다.",
+      "ja": "デザートイーグルとカタナをさらに追加強化できます。"
+    },
+    "Brainiac Bounce knocks enemies airborne": {
+      "ko": "Brainiac Bounce가 적을 공중으로 띄웁니다.",
+      "ja": "Brainiac Bounceが敵を空中に打ち上げます。"
+    },
+    "Burst Spike applies a Grounded effect and knocks back enemies even further": {
+      "ko": "Burst Spike가 이동기 봉쇄(Grounded)를 부여하고 적을 더 멀리 밀쳐냅니다.",
+      "ja": "Burst Spikeが移動技封じを付与し、敵をさらに大きくノックバックします。"
+    },
+    "Can be manually stopped during teleport": {
+      "ko": "순간이동 도중 수동으로 멈출 수 있습니다.",
+      "ja": "テレポート中に手動で停止できます。"
+    },
+    "Casting Healing Flower on any ally enhances and spreads the healing effect": {
+      "ko": "아군에게 Healing Flower 시전 시 치유 효과가 강화되어 주변으로 확산됩니다.",
+      "ja": "味方にHealing Flowerを使用すると回復効果が強化され周囲へ拡散します。"
+    },
+    "Cyttorak Chains can link multiple enemies at once, pulling them to the same location": {
+      "ko": "사이토락의 사슬이 여러 적을 동시에 연결해 한 지점으로 끌어당깁니다.",
+      "ja": "サイトラックの鎖が複数の敵を同時に繋ぎ、同じ地点へ引き寄せます。"
+    },
+    "Deal damage equal to 1% of the target's Max Health, with an extra 0.025% damage for each point of Rage": {
+      "ko": "대상 최대 체력의 1% 데미지 (Rage 포인트당 +0.025% 추가)",
+      "ja": "対象の最大HPの1%ダメージ（Rage 1ポイントごとに+0.025%追加）"
+    },
+    "Deal damage equal to 1.5% of the target's Max Health, with an extra 0.062% damage for each point of Rage": {
+      "ko": "대상 최대 체력의 1.5% 데미지 (Rage 포인트당 +0.062% 추가)",
+      "ja": "対象の最大HPの1.5%ダメージ（Rage 1ポイントごとに+0.062%追加）"
+    },
+    "Deflects projectiles from all directions while becoming invincible": {
+      "ko": "무적 상태가 되어 전방위의 모든 투사체를 튕겨냅니다.",
+      "ja": "無敵状態となり、全方位からの弾丸を弾き返します。"
+    },
+    "During the activation, Daredevil can unleash Devil's Chain or Devil's Throw. Enable Righteous Cross within 5 seconds after using this ability": {
+      "ko": "활성화 중 Devil's Chain 또는 Devil's Throw 시전 가능. 사용 후 5초 이내 Righteous Cross 연계 가능",
+      "ja": "発動中にDevil's ChainまたはDevil's Throwを使用可能。使用後5秒以内にRighteous Crossへ派生可能"
+    },
+    "Each Whirlwind Slash generates an additional Crescent Blade": {
+      "ko": "Whirlwind Slash마다 추가 초승달 검기를 생성합니다.",
+      "ja": "Whirlwind Slashごとに追加の三日月刃を生成します。"
+    },
+    "Each attack during Goddess of Death spawns an Undead Monstro at the point of impact.": {
+      "ko": "Goddess of Death 지속 중 공격할 때마다 착탄 지점에 언데드 몬스트로를 소환합니다.",
+      "ja": "Goddess of Death発動中の各攻撃で着弾地点にアンデッド・モンストロを召喚します。"
+    },
+    "Every unleash of Ruthless Pursuit and Helix Advance grants 25 bonus health. Max bonus health is 75": {
+      "ko": "Ruthless Pursuit 및 Helix Advance 발동마다 추가 체력 25 획득 (최대 75)",
+      "ja": "Ruthless PursuitとHelix Advanceの発動ごとに追加HP 25を獲得（最大75）"
+    },
+    "Fixed spread": {
+      "ko": "고정 탄퍼짐",
+      "ja": "固定拡散"
+    },
+    "For the first 1s after entering Invisible state, taking damage will no longer break stealth": {
+      "ko": "투명화 진입 후 첫 1초 동안은 피해를 입어도 은신이 해제되지 않습니다.",
+      "ja": "透明化突入後の最初の1秒間は、ダメージを受けてもステルスが解除されません。"
+    },
+    "Gain 75 Bonus Health per target hit, up to 200": {
+      "ko": "적중한 대상당 추가 체력 75 획득 (최대 200)",
+      "ja": "命中した対象1体ごとに追加HP 75を獲得（最大200）"
+    },
+    "Heal 50 health per hit upon being shot out and 40 health per hit on its return journey.": {
+      "ko": "발사 시 적중당 50 치유, 회수 경로 적중당 40 치유",
+      "ja": "発射時の命中ごとに50回復、帰還時の命中ごとに40回復"
+    },
+    "Health regenerates at a rate of 30 Health per second while invisible": {
+      "ko": "투명화 중 초당 30의 체력을 회복합니다.",
+      "ja": "透明化中は毎秒30のHPを回復します。"
+    },
+    "Hit while wielding the gun, inflict Slow effect to the enemy; hit while wielding the sword, deal Healing Reduction to the enemy": {
+      "ko": "총기 상태에서 적중 시 감속 부여 | 도검 상태에서 적중 시 치유 감소 부여",
+      "ja": "銃装備時の命中で鈍足を付与 | 刀装備時の命中で被回復減少を付与"
+    },
+    "Increases the cast speed of Rock Jab and Stone Haymaker": {
+      "ko": "Rock Jab 및 Stone Haymaker의 시전 속도가 증가합니다.",
+      "ja": "Rock JabとStone Haymakerの発動速度が上昇します。"
+    },
+    "It's Jeff! (Ultimate Ability) leaves an 8m radius Healing Pool at the point of activation that heals allies within range by 130/s. Healing Pool lasts for 8s": {
+      "ko": "궁극기(It's Jeff!) 발동 지점에 8초 동안 반경 8m 치유 웅덩이를 남겨 범위 내 아군을 초당 130 치유합니다.",
+      "ja": "ULT(It's Jeff!)発動地点に8秒間持続する半径8mの回復エリアを残し、範囲内の味方を毎秒130回復します。"
+    },
+    "Knock down the target. Rogue becomes Unstoppable during the absorption.": {
+      "ko": "대상을 넘어뜨리며, 흡수 중 로그는 저지 불가 상태가 됩니다.",
+      "ja": "対象をノックダウンさせ、吸収中のローグはアンストッパブル状態になります。"
+    },
+    "Landing a critical hit prevents the Focused state from expiring, allowing continuous enhanced fire until missing a crit.": {
+      "ko": "치명타 적중 시 집중(Focused) 상태가 만료되지 않아 치명타를 놓칠 때까지 강화 사격을 유지합니다.",
+      "ja": "クリティカル命中時は集中状態が切れず、クリティカルを外すまで強化射撃を継続できます。"
+    },
+    "Left Click/Shift key ability hits accumulate attack speed buff levels; within the Bloodline Awakening duration, attacks gain Lifesteal and movement speed boost but suffer Reduced Healing": {
+      "ko": "좌클릭/Shift 적중 시 공격 속도 버프 단계가 누적되며, Bloodline Awakening 지속 중 생명력 흡수와 이동 속도 증가를 얻는 대신 받는 치유량이 감소합니다.",
+      "ja": "左クリック/Shift命中で攻撃速度バフが蓄積。Bloodline Awakening中はライフスティールと移動速度上昇を得る代わりに受ける回復量が減少します。"
+    },
+    "No longer limited by energy accumulation ratio; can be cast anytime": {
+      "ko": "에너지 축적 비율 제한 없이 언제든 즉시 발동할 수 있습니다.",
+      "ja": "エネルギー蓄積率の制限がなくなり、いつでも発動可能になります。"
+    },
+    "Permanently maintains the Hearts as One state": {
+      "ko": "Hearts as One 상태를 영구적으로 유지합니다.",
+      "ja": "Hearts as One状態を常時維持します。"
+    },
+    "Plasma Cannon has 2 charges": {
+      "ko": "플라즈마 캐논이 2회 충전식으로 변경됩니다.",
+      "ja": "プラズマキャノンが2チャージ制になります。"
+    },
+    "Projectile Damage: 30 damage per round, Spell Field Damage: 45 damage per cast": {
+      "ko": "투사체 데미지: 발당 30 | 장판 데미지: 시전당 45",
+      "ja": "弾ダメージ: 1発30 | フィールドダメージ: 発動ごと45"
+    },
+    "Scales with energy, up to 10% at 100 energy": {
+      "ko": "에너지에 비례해 증가 (에너지 100에서 최대 10%)",
+      "ja": "エネルギーに応じて上昇（エネルギー100で最大10%）"
+    },
+    "Stunned after remaining in the web zone for 2s": {
+      "ko": "거미줄 구역 내에 2초간 머무를 경우 기절합니다.",
+      "ja": "ウェブエリア内に2秒間留まるとスタンします。"
+    },
+    "The Void Magic mark is never cleared": {
+      "ko": "공허 마법(Void Magic) 표식이 사라지지 않고 유지됩니다.",
+      "ja": "Void Magicの刻印が消去されず維持されます。"
+    },
+    "The ability gains 2 charges": {
+      "ko": "스킬 충전 횟수가 2회로 증가합니다.",
+      "ja": "アビリティが2チャージ制になります。"
+    },
+    "The explosion applies a Bleed effect to targets": {
+      "ko": "폭발에 적중된 대상에게 출혈 효과를 부여합니다.",
+      "ja": "爆発が命中した対象に出血効果を付与します。"
+    },
+    "The first four strikes each deal 38 damage, while the fifth strike deals 60 damage": {
+      "ko": "1~4타 각 38 데미지, 5타 60 데미지",
+      "ja": "1〜4段目は各38ダメージ、5段目は60ダメージ"
+    },
+    "The projectile can travel up to 10m with a 0.5s charge. As the charge time increases, it can reach a maximum distance of 20m with a 1s charge": {
+      "ko": "0.5초 충전 시 최대 10m 비행하며, 1초 충전 시 최대 20m까지 도달합니다.",
+      "ja": "0.5秒チャージで最大10m飛翔し、1秒チャージで最大距離20mに到達します。"
+    },
+    "The shockwave destroys enemy summons, shields, and any Bonus Health. Enemies hit by the spell field and the shockwave are applied with 2 Spark.": {
+      "ko": "충격파가 적 소환물·방벽·추가 체력을 모두 파괴하며, 장판과 충격파 적중 대상에게 불꽃(Spark) 2스택을 부여합니다.",
+      "ja": "衝撃波が敵の召喚物・シールド・追加HPを破壊し、フィールドと衝撃波が命中した敵にSparkを2スタック付与します。"
+    },
+    "The spell field pulls enemies within range toward itself": {
+      "ko": "장판이 범위 내 적들을 중심부로 끌어당깁니다.",
+      "ja": "フィールドが範囲内の敵を中心へ引き寄せます。"
+    },
+    "Up to 2 Smoky Snares can exist on the field simultaneously": {
+      "ko": "전장에 최대 2개의 Smoky Snare를 동시에 유지할 수 있습니다.",
+      "ja": "フィールド上に最大2個のSmoky Snareを同時設置できます。"
+    },
+    "Using Wind Blade and Bolt Rush under this aura grants Storm Bonus Health. Damage Conversion Ratio: 25%, up to a max of 75 Bonus Health": {
+      "ko": "오라 지속 중 Wind Blade·Bolt Rush 사용 시 스톰이 추가 체력을 획득합니다 (피해 전환율 25%, 최대 75).",
+      "ja": "オーラ中にWind Blade・Bolt Rushを使用すると追加HPを獲得（ダメージ変換率25%、最大75）。"
+    },
+    "Visibility is obstructed beyond 10m": {
+      "ko": "10m 밖의 시야가 차단됩니다.",
+      "ja": "10m以遠の視界が遮断されます。"
+    },
+    "When Adam Warlock is selected as her Team-Up partner, the Nature's Favor passive effect is enhanced. After casting Natural Anger (and ONLY while Natural Anger is active), increase her self-healing from 12.5/s to 17.5/s": {
+      "ko": "아담 워록과 팀업 시 Nature's Favor 패시브가 강화되어, Natural Anger 지속 중 자가 치유량이 초당 12.5에서 17.5로 증가합니다.",
+      "ja": "アダム・ウォーロックとのチームアップ時、Nature's Favorが強化され、Natural Anger発動中の自己回復が毎秒12.5から17.5に増加します。"
+    },
+    "When Black Panther teams up with Storm, pulls enemies within range toward himself": {
+      "ko": "스톰과 팀업 시 범위 내 적들을 자신 쪽으로 끌어당깁니다.",
+      "ja": "ストームとのチームアップ時、範囲内の敵を自身の方へ引き寄せます。"
+    },
+    "When Health reaches 50%, Bonus Health generation frequency increases by 100%": {
+      "ko": "체력이 50% 이하가 되면 추가 체력 생성 빈도가 100% 증가합니다.",
+      "ja": "HPが50%以下になると、追加HPの生成頻度が100%上昇します。"
+    },
+    "When Squirrel Girl uses Squirrel Blockade, she simultaneously launches Squirrel Missiles": {
+      "ko": "Squirrel Blockade 사용 시 다람쥐 미사일을 동시에 발사합니다.",
+      "ja": "Squirrel Blockade使用時、同時にリスミサイルを発射します。"
+    },
+    "When Star-Lord is selected as her Team-Up partner, enhance the healing output of Healing Flower from 10 + 2.5% of target's max Health/s to 15 + 3% of target's max Health/s": {
+      "ko": "스타로드와 팀업 시 Healing Flower의 초당 치유량이 (10 + 최대 체력의 2.5%)에서 (15 + 최대 체력의 3%)로 강화됩니다.",
+      "ja": "スター・ロードとのチームアップ時、Healing Flowerの毎秒回復量が（10 + 最大HPの2.5%）から（15 + 最大HPの3%）に強化されます。"
+    },
+    "When the caster enters the spell field, it restores 100 gamma energy": {
+      "ko": "시전자가 장판에 진입하면 감마 에너지를 100 회복합니다.",
+      "ja": "術者がフィールドに入るとガンマエネルギーを100回復します。"
+    },
+    "While the illusion exists, reactivate the ability to swap places with the Psionic Illusion, up to once": {
+      "ko": "환영 유지 중 스킬을 재활성화해 사이오닉 환영과 위치를 1회 맞바꿀 수 있습니다.",
+      "ja": "幻影の持続中、再発動でサイオニック幻影と1回まで位置を入れ替えられます。"
     }
   },
   "patterns": [
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)%\\s*(?:of\\s+(?:the\\s+)?)?Max(?:imum)?\\s*Health$",
+      "ko": "최대 체력의 $1%",
+      "ja": "最大HPの$1%"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)%\\s*Health$",
+      "ko": "체력의 $1%",
+      "ja": "HPの$1%"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*Maximum Health$",
+      "ko": "최대 체력 $1",
+      "ja": "最大HP $1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)%\\s*per\\s*second$",
+      "ko": "초당 $1%",
+      "ja": "毎秒$1%"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?),\\s*up to (\\d+(?:\\.\\d+)?)$",
+      "ko": "$1 (최대 $2)",
+      "ja": "$1（最大$2）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)%\\s*for each stack\\.\\s*Up to (\\d+)\\s*stacks\\.?$",
+      "ko": "스택당 $1% (최대 $2스택)",
+      "ja": "スタックごとに$1%（最大$2スタック）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)%\\s*per hit,\\s*up to (\\d+(?:\\.\\d+)?)%$",
+      "ko": "적중당 $1% (최대 $2%)",
+      "ja": "1ヒットごとに$1%（最大$2%）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)s?/shot$",
+      "ko": "발당 $1초",
+      "ja": "1発あたり$1秒"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/shot$",
+      "ko": "발당 $1",
+      "ja": "1発あたり$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/shot,\\s*(\\d+)\\s*shots total$",
+      "ko": "발당 $1 (총 $2발)",
+      "ja": "1発あたり$1（計$2発）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/hit$",
+      "ko": "타격당 $1",
+      "ja": "1ヒットあたり$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/hit,\\s*once per second$",
+      "ko": "타격당 $1 (초당 1회)",
+      "ja": "1ヒットあたり$1（毎秒1回）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/hit,\\s*(\\d+)\\s*times per second$",
+      "ko": "타격당 $1 (초당 $2회)",
+      "ja": "1ヒットあたり$1（毎秒$2回）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*(?:damage\\s*)?per hit,\\s*(\\d+)\\s*hits per second$",
+      "ko": "타격당 $1 (초당 $2회)",
+      "ja": "1ヒットあたり$1（毎秒$2ヒット）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*times per second$",
+      "ko": "초당 $1회",
+      "ja": "毎秒$1回"
+    },
+    {
+      "regex": "^Once per second$",
+      "ko": "초당 1회",
+      "ja": "毎秒1回"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)s\\s*per\\s*punch$",
+      "ko": "주먹 타격당 $1초",
+      "ja": "パンチ1発あたり$1秒"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)s\\s*per\\s*kick$",
+      "ko": "발차기당 $1초",
+      "ja": "キック1発あたり$1秒"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)s\\s*per\\s*acorn$",
+      "ko": "도토리당 $1초",
+      "ja": "どんぐり1個あたり$1秒"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*per\\s*acorn$",
+      "ko": "도토리당 $1",
+      "ja": "どんぐり1個あたり$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*(?:damage\\s*)?per\\s*use$",
+      "ko": "사용당 $1",
+      "ja": "1回の使用につき$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*per\\s*stack$",
+      "ko": "스택당 $1",
+      "ja": "1スタックあたり$1"
+    },
+    {
+      "regex": "^(\\d+)\\s*stacks?$",
+      "ko": "$1스택",
+      "ja": "$1スタック"
+    },
+    {
+      "regex": "^(\\d+)\\s*charges?,\\s*(\\d+(?:\\.\\d+)?)s\\s*each$",
+      "ko": "$1회 충전 (각 $2초)",
+      "ja": "$1チャージ（各$2秒）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*each$",
+      "ko": "각각 $1",
+      "ja": "各$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/s,\\s*up to (\\d+(?:\\.\\d+)?)s$",
+      "ko": "초당 $1 (최대 $2초)",
+      "ja": "毎秒$1（最大$2秒）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)/s for (\\d+(?:\\.\\d+)?)\\s*seconds?$",
+      "ko": "$2초 동안 초당 $1",
+      "ja": "$2秒間、毎秒$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*per round for (\\d+(?:\\.\\d+)?)\\s*seconds?$",
+      "ko": "$2초 동안 발당 $1",
+      "ja": "$2秒間、1発あたり$1"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)s,\\s*up to (\\d+(?:\\.\\d+)?)s at (\\d+)\\s*HP$",
+      "ko": "$1초 (체력 $3에서 최대 $2초)",
+      "ja": "$1秒（HP $3で最大$2秒）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?),\\s*(\\d+(?:\\.\\d+)?)\\s*when enhanced$",
+      "ko": "기본 $1 / 강화 시 $2",
+      "ja": "通常$1 / 強化時$2"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?),\\s*(\\d+(?:\\.\\d+)?)\\s*when fully charged$",
+      "ko": "기본 $1 / 최대 충전 시 $2",
+      "ja": "通常$1 / 最大チャージ時$2"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*when fired,\\s*(\\d+(?:\\.\\d+)?)\\s*when retracted$",
+      "ko": "발사 시 $1 / 회수 시 $2",
+      "ja": "発射時$1 / 回収時$2"
+    },
+    {
+      "regex": "^Direct hit:\\s*(\\d+(?:\\.\\d+)?)\\s*per round;\\s*bounce hit:\\s*(\\d+(?:\\.\\d+)?)\\s*per round$",
+      "ko": "직격: 발당 $1 | 도탄: 발당 $2",
+      "ja": "直撃: 1発$1 | 跳弾: 1発$2"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)m\\s*wide,\\s*(\\d+(?:\\.\\d+)?)m\\s*tall$",
+      "ko": "너비 $1m, 높이 $2m",
+      "ja": "幅$1m、高さ$2m"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)m\\s*radius,\\s*(\\d+(?:\\.\\d+)?)m\\s*height$",
+      "ko": "반경 $1m, 높이 $2m",
+      "ja": "半径$1m、高さ$2m"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)m-radius,\\s*(\\d+(?:\\.\\d+)?)m-long cylindrical field$",
+      "ko": "반경 $1m, 길이 $2m 원기둥형 장판",
+      "ja": "半径$1m・長さ$2mの円柱状フィールド"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)m\\s*radius,\\s*(\\d+(?:\\.\\d+)?)m\\s*tall,\\s*(\\d+)°\\s*cone spell field$",
+      "ko": "반경 $1m, 높이 $2m, 각도 $3° 원뿔형 장판",
+      "ja": "半径$1m・高さ$2m・角度$3°の扇形フィールド"
+    },
+    {
+      "regex": "^Length:\\s*(\\d+(?:\\.\\d+)?)m,\\s*Width:\\s*(\\d+(?:\\.\\d+)?)m,\\s*Height:\\s*(\\d+(?:\\.\\d+)?)m$",
+      "ko": "길이: $1m, 너비: $2m, 높이: $3m",
+      "ja": "長さ: $1m、幅: $2m、高さ: $3m"
+    },
+    {
+      "regex": "^Falloff starts at (\\d+(?:\\.\\d+)?)m,\\s*down to (\\d+(?:\\.\\d+)?)% at (\\d+(?:\\.\\d+)?)m$",
+      "ko": "$1m부터 감쇠 시작, $3m에서 $2%로 감소",
+      "ja": "$1mで減衰開始、$3m地点で$2%まで低下"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)%\\s*falloff at (\\d+(?:\\.\\d+)?)m$",
+      "ko": "$2m 거리에서 $1% 감쇠",
+      "ja": "$2m地点で$1%減衰"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*\\+\\s*(\\d+(?:\\.\\d+)?)%\\s*(?:of\\s+(?:target's|enemies'|enemy's)\\s+)?Max(?:imum)?\\s*Health(?:\\s*per\\s*hit)?$",
+      "ko": "$1 + 대상 최대 체력의 $2%",
+      "ja": "$1 + 対象の最大HPの$2%"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*\\+\\s*(?:Target's|Targe's|the target's)?\\s*(\\d+(?:\\.\\d+)?)%\\s*(?:of\\s+the\\s+target's\\s+)?Max(?:imum)?\\s*Health(?:/s|\\s+per\\s+second)$",
+      "ko": "초당 ($1 + 대상 최대 체력의 $2%)",
+      "ja": "毎秒（$1 + 対象の最大HPの$2%）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)%,\\s*drop to 0 in (\\d+(?:\\.\\d+)?)s$",
+      "ko": "$1% ($2초에 걸쳐 0%로 감소)",
+      "ja": "$1%（$2秒かけて0%へ減衰）"
+    },
+    {
+      "regex": "^(\\d+(?:\\.\\d+)?)\\s*m/s,\\s*decaying to 0 over (\\d+(?:\\.\\d+)?)s$",
+      "ko": "$1 m/s ($2초에 걸쳐 0으로 감소)",
+      "ja": "$1 m/s（$2秒かけて0へ減衰）"
+    },
+    {
+      "regex": "^Self:\\s*(\\d+(?:\\.\\d+)?);\\s*allies:\\s*(\\d+(?:\\.\\d+)?)$",
+      "ko": "자신: $1 | 아군: $2",
+      "ja": "自身: $1 | 味方: $2"
+    },
+    {
+      "regex": "^To allies:\\s*(\\d+(?:\\.\\d+)?);\\s*self:\\s*(\\d+(?:\\.\\d+)?)$",
+      "ko": "아군: $1 | 자신: $2",
+      "ja": "味方: $1 | 自身: $2"
+    },
     {
       "regex": "^(\\d+(?:\\.\\d+)?)\\s*damage per round$",
       "ko": "$1 발당 데미지",
